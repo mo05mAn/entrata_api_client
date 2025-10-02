@@ -1,0 +1,30 @@
+# GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**attributes** | [**GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInnerAttributes**](GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInnerAttributes.md) |  | 
+**phone_number** | **str** | Phone number | 
+
+## Example
+
+```python
+from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner from a JSON string
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner_instance = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner.from_json(json)
+# print the JSON string representation of the object
+print(GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner.to_json())
+
+# convert the object into a dict
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner_dict = get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner_instance.to_dict()
+# create an instance of GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner from a dict
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner_from_dict = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsPhoneInner.from_dict(get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

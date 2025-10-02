@@ -1,0 +1,30 @@
+# GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas
+
+Search areas related to the property
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**search_areas** | [**GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas**](GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas.md) |  | 
+
+## Example
+
+```python
+from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas from a JSON string
+get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_instance = GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas.from_json(json)
+# print the JSON string representation of the object
+print(GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas.to_json())
+
+# convert the object into a dict
+get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_dict = get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_instance.to_dict()
+# create an instance of GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas from a dict
+get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_from_dict = GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreas.from_dict(get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

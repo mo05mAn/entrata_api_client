@@ -1,0 +1,31 @@
+# GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id_type** | **str** | Transaction ID type | 
+**id_rank** | **str** | Transaction ID rank | 
+**id_scope_type** | **str** | Transaction ID scope type | 
+
+## Example
+
+```python
+from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes from a JSON string
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes_instance = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes.from_json(json)
+# print the JSON string representation of the object
+print(GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes.to_json())
+
+# convert the object into a dict
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes_dict = get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes_instance.to_dict()
+# create an instance of GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes from a dict
+get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes_from_dict = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInnerIdentificationAttributes.from_dict(get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification_attributes_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
