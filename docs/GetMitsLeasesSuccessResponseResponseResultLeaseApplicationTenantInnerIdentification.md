@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerIdentification
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerIdentification
 
 # TODO update the JSON string below
 json = "{}"

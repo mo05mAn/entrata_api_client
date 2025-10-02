@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategoriesAddOnCategoryInner
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategoriesAddOnCategoryInner
 
 # TODO update the JSON string below
 json = "{}"

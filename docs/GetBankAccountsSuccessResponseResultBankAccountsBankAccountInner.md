@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInner
+from entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInner
 
 # TODO update the JSON string below
 json = "{}"

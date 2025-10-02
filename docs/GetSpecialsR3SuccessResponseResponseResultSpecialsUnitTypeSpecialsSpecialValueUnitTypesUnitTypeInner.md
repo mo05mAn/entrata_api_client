@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypesUnitTypeInner
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypesUnitTypeInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_lease_ar_transaction_reversals_method_params import SendLeaseArTransactionReversalsMethodParams
+from entrata_api_client.models.send_lease_ar_transaction_reversals_method_params import SendLeaseArTransactionReversalsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

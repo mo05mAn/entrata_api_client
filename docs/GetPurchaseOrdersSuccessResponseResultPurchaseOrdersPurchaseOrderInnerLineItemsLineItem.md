@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem
+from entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem
 
 # TODO update the JSON string below
 json = "{}"

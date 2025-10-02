@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInnerPropertyBankAccountsPropertyBankAccountInner
+from entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInnerPropertyBankAccountsPropertyBankAccountInner
 
 # TODO update the JSON string below
 json = "{}"

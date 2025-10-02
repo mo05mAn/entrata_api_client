@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_pricing_picklists_success_response import GetPricingPicklistsSuccessResponse
+from entrata_api_client.models.get_pricing_picklists_success_response import GetPricingPicklistsSuccessResponse
 
 # TODO update the JSON string below
 json = "{}"

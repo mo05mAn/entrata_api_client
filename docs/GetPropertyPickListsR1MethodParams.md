@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_property_pick_lists_r1_method_params import GetPropertyPickListsR1MethodParams
+from entrata_api_client.models.get_property_pick_lists_r1_method_params import GetPropertyPickListsR1MethodParams
 
 # TODO update the JSON string below
 json = "{}"

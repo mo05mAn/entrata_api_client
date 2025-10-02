@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpace
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpace
 
 # TODO update the JSON string below
 json = "{}"

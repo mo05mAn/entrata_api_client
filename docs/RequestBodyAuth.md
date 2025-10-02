@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
 
 # TODO update the JSON string below
 json = "{}"

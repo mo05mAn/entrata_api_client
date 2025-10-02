@@ -1,4 +1,4 @@
-# openapi_client.ArpaymentsApi
+# entrata_api_client.ArpaymentsApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -16,25 +16,25 @@ arPayments
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_ar_payments import GetArPayments
-from openapi_client.models.orgs_v1_arpayments_post200_response import OrgsV1ArpaymentsPost200Response
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.get_ar_payments import GetArPayments
+from entrata_api_client.models.orgs_v1_arpayments_post200_response import OrgsV1ArpaymentsPost200Response
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ArpaymentsApi(api_client)
+    api_instance = entrata_api_client.ArpaymentsApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    get_ar_payments = openapi_client.GetArPayments() # GetArPayments | Retrieves AR payments details with reference to a Payment ID and for a selected date range.
+    get_ar_payments = entrata_api_client.GetArPayments() # GetArPayments | Retrieves AR payments details with reference to a Payment ID and for a selected date range.
 
     try:
         # arPayments

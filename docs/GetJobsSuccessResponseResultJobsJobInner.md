@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_jobs_success_response_result_jobs_job_inner import GetJobsSuccessResponseResultJobsJobInner
+from entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner import GetJobsSuccessResponseResultJobsJobInner
 
 # TODO update the JSON string below
 json = "{}"

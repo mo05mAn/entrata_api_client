@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_vendor_pick_lists_success_response_result import GetVendorPickListsSuccessResponseResult
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result import GetVendorPickListsSuccessResponseResult
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# openapi_client.PropertyunitsApi
+# entrata_api_client.PropertyunitsApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -16,25 +16,25 @@ Property Units related APIs
 
 
 ```python
-import openapi_client
-from openapi_client.models.orgs_v1_propertyunits_post200_response import OrgsV1PropertyunitsPost200Response
-from openapi_client.models.orgs_v1_propertyunits_post_request_inner import OrgsV1PropertyunitsPostRequestInner
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.orgs_v1_propertyunits_post200_response import OrgsV1PropertyunitsPost200Response
+from entrata_api_client.models.orgs_v1_propertyunits_post_request_inner import OrgsV1PropertyunitsPostRequestInner
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PropertyunitsApi(api_client)
+    api_instance = entrata_api_client.PropertyunitsApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    orgs_v1_propertyunits_post_request_inner = [openapi_client.OrgsV1PropertyunitsPostRequestInner()] # List[OrgsV1PropertyunitsPostRequestInner] | 
+    orgs_v1_propertyunits_post_request_inner = [entrata_api_client.OrgsV1PropertyunitsPostRequestInner()] # List[OrgsV1PropertyunitsPostRequestInner] | 
 
     try:
         # Property Units related APIs

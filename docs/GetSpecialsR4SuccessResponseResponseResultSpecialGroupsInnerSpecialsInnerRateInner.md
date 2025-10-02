@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInnerRateInner
+from entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInnerRateInner
 
 # TODO update the JSON string below
 json = "{}"

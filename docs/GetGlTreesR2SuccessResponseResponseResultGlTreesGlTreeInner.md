@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInner
+from entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInner
 
 # TODO update the JSON string below
 json = "{}"

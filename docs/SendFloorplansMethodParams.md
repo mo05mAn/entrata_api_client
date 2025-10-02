@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_floorplans_method_params import SendFloorplansMethodParams
+from entrata_api_client.models.send_floorplans_method_params import SendFloorplansMethodParams
 
 # TODO update the JSON string below
 json = "{}"

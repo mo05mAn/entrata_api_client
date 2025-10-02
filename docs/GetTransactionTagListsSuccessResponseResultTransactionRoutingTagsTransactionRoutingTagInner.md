@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner import GetTransactionTagListsSuccessResponseResultTransactionRoutingTagsTransactionRoutingTagInner
+from entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner import GetTransactionTagListsSuccessResponseResultTransactionRoutingTagsTransactionRoutingTagInner
 
 # TODO update the JSON string below
 json = "{}"

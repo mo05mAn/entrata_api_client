@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_calendar_availability_r2_method import GetCalendarAvailabilityR2Method
+from entrata_api_client.models.get_calendar_availability_r2_method import GetCalendarAvailabilityR2Method
 
 # TODO update the JSON string below
 json = "{}"

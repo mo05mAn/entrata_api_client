@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.apply_quote_method import ApplyQuoteMethod
+from entrata_api_client.models.apply_quote_method import ApplyQuoteMethod
 
 # TODO update the JSON string below
 json = "{}"

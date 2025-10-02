@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_renters_insurance_policies_r2_method_params import SendRentersInsurancePoliciesR2MethodParams
+from entrata_api_client.models.send_renters_insurance_policies_r2_method_params import SendRentersInsurancePoliciesR2MethodParams
 
 # TODO update the JSON string below
 json = "{}"

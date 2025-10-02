@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_calendar_availability_r2_success_response import GetCalendarAvailabilityR2SuccessResponse
+from entrata_api_client.models.get_calendar_availability_r2_success_response import GetCalendarAvailabilityR2SuccessResponse
 
 # TODO update the JSON string below
 json = "{}"

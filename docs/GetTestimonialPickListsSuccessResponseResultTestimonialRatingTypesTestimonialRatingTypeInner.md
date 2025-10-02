@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner
+from entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner
 
 # TODO update the JSON string below
 json = "{}"

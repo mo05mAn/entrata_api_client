@@ -30,7 +30,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_call_logs_success_response_result_calls_call_inner import GetCallLogsSuccessResponseResultCallsCallInner
+from entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner import GetCallLogsSuccessResponseResultCallsCallInner
 
 # TODO update the JSON string below
 json = "{}"

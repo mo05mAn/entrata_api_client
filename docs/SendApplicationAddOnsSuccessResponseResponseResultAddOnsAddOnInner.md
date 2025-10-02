@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner import SendApplicationAddOnsSuccessResponseResponseResultAddOnsAddOnInner
+from entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner import SendApplicationAddOnsSuccessResponseResponseResultAddOnsAddOnInner
 
 # TODO update the JSON string below
 json = "{}"

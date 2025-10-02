@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner import GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner import GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner
 
 # TODO update the JSON string below
 json = "{}"

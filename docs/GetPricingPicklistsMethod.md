@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_pricing_picklists_method import GetPricingPicklistsMethod
+from entrata_api_client.models.get_pricing_picklists_method import GetPricingPicklistsMethod
 
 # TODO update the JSON string below
 json = "{}"

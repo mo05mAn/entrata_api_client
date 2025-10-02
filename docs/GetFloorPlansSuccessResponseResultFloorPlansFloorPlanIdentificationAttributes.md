@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification_attributes import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentificationAttributes
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification_attributes import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentificationAttributes
 
 # TODO update the JSON string below
 json = "{}"

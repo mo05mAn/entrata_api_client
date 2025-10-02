@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_phone_number_method import GetPhoneNumberMethod
+from entrata_api_client.models.get_phone_number_method import GetPhoneNumberMethod
 
 # TODO update the JSON string below
 json = "{}"

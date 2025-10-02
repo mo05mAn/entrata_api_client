@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner import GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetailsGlDetailInner
+from entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner import GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetailsGlDetailInner
 
 # TODO update the JSON string below
 json = "{}"

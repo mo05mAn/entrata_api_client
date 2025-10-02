@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayersPayerInner
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayersPayerInner
 
 # TODO update the JSON string below
 json = "{}"

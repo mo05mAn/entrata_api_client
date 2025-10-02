@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_property_media_success_response_response import GetPropertyMediaSuccessResponseResponse
+from entrata_api_client.models.get_property_media_success_response_response import GetPropertyMediaSuccessResponseResponse
 
 # TODO update the JSON string below
 json = "{}"

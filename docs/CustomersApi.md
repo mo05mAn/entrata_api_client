@@ -1,4 +1,4 @@
-# openapi_client.CustomersApi
+# entrata_api_client.CustomersApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -16,25 +16,25 @@ Customers
 
 
 ```python
-import openapi_client
-from openapi_client.models.orgs_v1_customers_post200_response import OrgsV1CustomersPost200Response
-from openapi_client.models.orgs_v1_customers_post_request_inner import OrgsV1CustomersPostRequestInner
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.orgs_v1_customers_post200_response import OrgsV1CustomersPost200Response
+from entrata_api_client.models.orgs_v1_customers_post_request_inner import OrgsV1CustomersPostRequestInner
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CustomersApi(api_client)
+    api_instance = entrata_api_client.CustomersApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    orgs_v1_customers_post_request_inner = [openapi_client.OrgsV1CustomersPostRequestInner()] # List[OrgsV1CustomersPostRequestInner] | arPayment related APIs
+    orgs_v1_customers_post_request_inner = [entrata_api_client.OrgsV1CustomersPostRequestInner()] # List[OrgsV1CustomersPostRequestInner] | arPayment related APIs
 
     try:
         # Customers

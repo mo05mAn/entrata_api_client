@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_lease_documents_request_body_method_params import SendLeaseDocumentsRequestBodyMethodParams
+from entrata_api_client.models.send_lease_documents_request_body_method_params import SendLeaseDocumentsRequestBodyMethodParams
 
 # TODO update the JSON string below
 json = "{}"

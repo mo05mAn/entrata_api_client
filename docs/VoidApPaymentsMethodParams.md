@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.void_ap_payments_method_params import VoidApPaymentsMethodParams
+from entrata_api_client.models.void_ap_payments_method_params import VoidApPaymentsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

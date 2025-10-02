@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner
+from entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner
 
 # TODO update the JSON string below
 json = "{}"

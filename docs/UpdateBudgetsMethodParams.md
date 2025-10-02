@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.update_budgets_method_params import UpdateBudgetsMethodParams
+from entrata_api_client.models.update_budgets_method_params import UpdateBudgetsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

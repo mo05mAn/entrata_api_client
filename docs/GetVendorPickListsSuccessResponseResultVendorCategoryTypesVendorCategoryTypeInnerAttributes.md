@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner_attributes import GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInnerAttributes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner_attributes import GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInnerAttributes
 
 # TODO update the JSON string below
 json = "{}"

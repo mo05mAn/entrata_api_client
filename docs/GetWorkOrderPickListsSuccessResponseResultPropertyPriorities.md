@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities import GetWorkOrderPickListsSuccessResponseResultPropertyPriorities
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities import GetWorkOrderPickListsSuccessResponseResultPropertyPriorities
 
 # TODO update the JSON string below
 json = "{}"

@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.on_notice_lease_method_params import OnNoticeLeaseMethodParams
+from entrata_api_client.models.on_notice_lease_method_params import OnNoticeLeaseMethodParams
 
 # TODO update the JSON string below
 json = "{}"

@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_rentable_items_method_params import SendRentableItemsMethodParams
+from entrata_api_client.models.send_rentable_items_method_params import SendRentableItemsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

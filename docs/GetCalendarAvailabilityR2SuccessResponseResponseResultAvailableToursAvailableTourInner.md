@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner import GetCalendarAvailabilityR2SuccessResponseResponseResultAvailableToursAvailableTourInner
+from entrata_api_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner import GetCalendarAvailabilityR2SuccessResponseResponseResultAvailableToursAvailableTourInner
 
 # TODO update the JSON string below
 json = "{}"

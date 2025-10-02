@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_ledger_ids_ledger_id_inner import GetFinancialPickListR1SuccessResponseResultLedgerIdsLedgerIdInner
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_ledger_ids_ledger_id_inner import GetFinancialPickListR1SuccessResponseResultLedgerIdsLedgerIdInner
 
 # TODO update the JSON string below
 json = "{}"

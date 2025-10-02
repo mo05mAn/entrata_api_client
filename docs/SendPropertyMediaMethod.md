@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_property_media_method import SendPropertyMediaMethod
+from entrata_api_client.models.send_property_media_method import SendPropertyMediaMethod
 
 # TODO update the JSON string below
 json = "{}"

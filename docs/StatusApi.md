@@ -1,4 +1,4 @@
-# openapi_client.StatusApi
+# entrata_api_client.StatusApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -16,25 +16,25 @@ API Health check
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_status import GetStatus
-from openapi_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.get_status import GetStatus
+from entrata_api_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.StatusApi(api_client)
+    api_instance = entrata_api_client.StatusApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    get_status = openapi_client.GetStatus() # GetStatus | This API will specify the API health status whether it is running or not.
+    get_status = entrata_api_client.GetStatus() # GetStatus | This API will specify the API health status whether it is running or not.
 
     try:
         # API Health check

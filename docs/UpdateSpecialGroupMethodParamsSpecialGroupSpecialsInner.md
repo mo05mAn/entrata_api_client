@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.update_special_group_method_params_special_group_specials_inner import UpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner
+from entrata_api_client.models.update_special_group_method_params_special_group_specials_inner import UpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification
 
 # TODO update the JSON string below
 json = "{}"

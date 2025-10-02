@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_purchase_orders_method_params import GetPurchaseOrdersMethodParams
+from entrata_api_client.models.get_purchase_orders_method_params import GetPurchaseOrdersMethodParams
 
 # TODO update the JSON string below
 json = "{}"

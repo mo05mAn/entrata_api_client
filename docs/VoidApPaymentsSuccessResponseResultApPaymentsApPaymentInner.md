@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner import VoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner
+from entrata_api_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner import VoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner
 
 # TODO update the JSON string below
 json = "{}"

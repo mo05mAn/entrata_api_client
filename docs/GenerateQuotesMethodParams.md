@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.generate_quotes_method_params import GenerateQuotesMethodParams
+from entrata_api_client.models.generate_quotes_method_params import GenerateQuotesMethodParams
 
 # TODO update the JSON string below
 json = "{}"

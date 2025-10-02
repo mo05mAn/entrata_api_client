@@ -42,7 +42,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.fee_details import FeeDetails
+from entrata_api_client.models.fee_details import FeeDetails
 
 # TODO update the JSON string below
 json = "{}"

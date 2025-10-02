@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.mark_gl_transactions_exported_method import MarkGlTransactionsExportedMethod
+from entrata_api_client.models.mark_gl_transactions_exported_method import MarkGlTransactionsExportedMethod
 
 # TODO update the JSON string below
 json = "{}"

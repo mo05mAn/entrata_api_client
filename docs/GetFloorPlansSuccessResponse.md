@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_floor_plans_success_response import GetFloorPlansSuccessResponse
+from entrata_api_client.models.get_floor_plans_success_response import GetFloorPlansSuccessResponse
 
 # TODO update the JSON string below
 json = "{}"

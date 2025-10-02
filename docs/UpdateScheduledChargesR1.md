@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.update_scheduled_charges_r1 import UpdateScheduledChargesR1
+from entrata_api_client.models.update_scheduled_charges_r1 import UpdateScheduledChargesR1
 
 # TODO update the JSON string below
 json = "{}"

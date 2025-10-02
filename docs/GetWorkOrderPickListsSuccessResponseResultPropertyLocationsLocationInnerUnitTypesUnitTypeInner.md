@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner import GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypesUnitTypeInner
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner import GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypesUnitTypeInner
 
 # TODO update the JSON string below
 json = "{}"

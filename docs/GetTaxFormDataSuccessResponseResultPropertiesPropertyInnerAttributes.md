@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_attributes import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerAttributes
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_attributes import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerAttributes
 
 # TODO update the JSON string below
 json = "{}"

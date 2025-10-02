@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_lead_pick_lists_r1_method_params import GetLeadPickListsR1MethodParams
+from entrata_api_client.models.get_lead_pick_lists_r1_method_params import GetLeadPickListsR1MethodParams
 
 # TODO update the JSON string below
 json = "{}"

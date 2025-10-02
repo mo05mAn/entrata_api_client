@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_customer_testimonials_method_params import SendCustomerTestimonialsMethodParams
+from entrata_api_client.models.send_customer_testimonials_method_params import SendCustomerTestimonialsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

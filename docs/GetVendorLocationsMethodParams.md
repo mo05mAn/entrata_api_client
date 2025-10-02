@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_vendor_locations_method_params import GetVendorLocationsMethodParams
+from entrata_api_client.models.get_vendor_locations_method_params import GetVendorLocationsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

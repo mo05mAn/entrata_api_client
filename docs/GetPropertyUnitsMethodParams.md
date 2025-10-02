@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_property_units_method_params import GetPropertyUnitsMethodParams
+from entrata_api_client.models.get_property_units_method_params import GetPropertyUnitsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

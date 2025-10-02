@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_tax_form_data_method import GetTaxFormDataMethod
+from entrata_api_client.models.get_tax_form_data_method import GetTaxFormDataMethod
 
 # TODO update the JSON string below
 json = "{}"

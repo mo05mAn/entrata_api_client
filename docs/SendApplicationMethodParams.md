@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_application_method_params import SendApplicationMethodParams
+from entrata_api_client.models.send_application_method_params import SendApplicationMethodParams
 
 # TODO update the JSON string below
 json = "{}"

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_lease_documents_list_method_params import GetLeaseDocumentsListMethodParams
+from entrata_api_client.models.get_lease_documents_list_method_params import GetLeaseDocumentsListMethodParams
 
 # TODO update the JSON string below
 json = "{}"

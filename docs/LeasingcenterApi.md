@@ -1,4 +1,4 @@
-# openapi_client.LeasingcenterApi
+# entrata_api_client.LeasingcenterApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -18,25 +18,25 @@ Leasing Center related APIs
 
 
 ```python
-import openapi_client
-from openapi_client.models.orgs_v1_leasingcenter_post200_response import OrgsV1LeasingcenterPost200Response
-from openapi_client.models.orgs_v1_leasingcenter_post_request_inner import OrgsV1LeasingcenterPostRequestInner
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.orgs_v1_leasingcenter_post200_response import OrgsV1LeasingcenterPost200Response
+from entrata_api_client.models.orgs_v1_leasingcenter_post_request_inner import OrgsV1LeasingcenterPostRequestInner
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LeasingcenterApi(api_client)
+    api_instance = entrata_api_client.LeasingcenterApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    orgs_v1_leasingcenter_post_request_inner = [openapi_client.OrgsV1LeasingcenterPostRequestInner()] # List[OrgsV1LeasingcenterPostRequestInner] | 
+    orgs_v1_leasingcenter_post_request_inner = [entrata_api_client.OrgsV1LeasingcenterPostRequestInner()] # List[OrgsV1LeasingcenterPostRequestInner] | 
     page_no = 56 # int | The page number of paginated respons. (optional)
     per_page = 56 # int | The number of items returned in the respnose (optional)
     x_send_pagination_links = 56 # int | Send Pagination Links in Response Body. (optional)

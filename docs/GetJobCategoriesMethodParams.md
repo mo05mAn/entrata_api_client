@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_job_categories_method_params import GetJobCategoriesMethodParams
+from entrata_api_client.models.get_job_categories_method_params import GetJobCategoriesMethodParams
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange
 
 # TODO update the JSON string below
 json = "{}"

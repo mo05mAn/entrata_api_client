@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_mits_leases_method_params import GetMitsLeasesMethodParams
+from entrata_api_client.models.get_mits_leases_method_params import GetMitsLeasesMethodParams
 
 # TODO update the JSON string below
 json = "{}"

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups import SendRoommateGroupsR2MethodParamsRoommateGroups
+from entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups import SendRoommateGroupsR2MethodParamsRoommateGroups
 
 # TODO update the JSON string below
 json = "{}"

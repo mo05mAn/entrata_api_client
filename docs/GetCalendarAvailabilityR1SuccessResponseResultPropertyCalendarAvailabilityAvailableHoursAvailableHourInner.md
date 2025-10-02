@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours_available_hour_inner import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarAvailabilityAvailableHoursAvailableHourInner
+from entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours_available_hour_inner import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarAvailabilityAvailableHoursAvailableHourInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# openapi_client.ApplicationsApi
+# entrata_api_client.ApplicationsApi
 
 All URIs are relative to *https://apis.entrata.com/ext/orgs*
 
@@ -16,25 +16,25 @@ Applications
 
 
 ```python
-import openapi_client
-from openapi_client.models.orgs_v1_applications_post200_response import OrgsV1ApplicationsPost200Response
-from openapi_client.models.orgs_v1_applications_post_request_inner import OrgsV1ApplicationsPostRequestInner
-from openapi_client.rest import ApiException
+import entrata_api_client
+from entrata_api_client.models.orgs_v1_applications_post200_response import OrgsV1ApplicationsPost200Response
+from entrata_api_client.models.orgs_v1_applications_post_request_inner import OrgsV1ApplicationsPostRequestInner
+from entrata_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://apis.entrata.com/ext/orgs
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = entrata_api_client.Configuration(
     host = "https://apis.entrata.com/ext/orgs"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with entrata_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ApplicationsApi(api_client)
+    api_instance = entrata_api_client.ApplicationsApi(api_client)
     orgs = 'orgs_example' # str | Client subdomain.
-    orgs_v1_applications_post_request_inner = [openapi_client.OrgsV1ApplicationsPostRequestInner()] # List[OrgsV1ApplicationsPostRequestInner] | Application related APIs
+    orgs_v1_applications_post_request_inner = [entrata_api_client.OrgsV1ApplicationsPostRequestInner()] # List[OrgsV1ApplicationsPostRequestInner] | Application related APIs
 
     try:
         # Applications

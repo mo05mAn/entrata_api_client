@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_property_media_method import GetPropertyMediaMethod
+from entrata_api_client.models.get_property_media_method import GetPropertyMediaMethod
 
 # TODO update the JSON string below
 json = "{}"

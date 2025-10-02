@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_parcel_alerts_method_params import GetParcelAlertsMethodParams
+from entrata_api_client.models.get_parcel_alerts_method_params import GetParcelAlertsMethodParams
 
 # TODO update the JSON string below
 json = "{}"

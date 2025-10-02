@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_gl_trees_r2_method_params import GetGlTreesR2MethodParams
+from entrata_api_client.models.get_gl_trees_r2_method_params import GetGlTreesR2MethodParams
 
 # TODO update the JSON string below
 json = "{}"

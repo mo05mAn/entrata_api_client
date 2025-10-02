@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_special_group_method_params import SendSpecialGroupMethodParams
+from entrata_api_client.models.send_special_group_method_params import SendSpecialGroupMethodParams
 
 # TODO update the JSON string below
 json = "{}"

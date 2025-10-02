@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_journal_entries_success_response_result import SendJournalEntriesSuccessResponseResult
+from entrata_api_client.models.send_journal_entries_success_response_result import SendJournalEntriesSuccessResponseResult
 
 # TODO update the JSON string below
 json = "{}"

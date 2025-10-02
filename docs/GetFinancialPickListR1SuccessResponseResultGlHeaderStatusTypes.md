@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_header_status_types import GetFinancialPickListR1SuccessResponseResultGlHeaderStatusTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_header_status_types import GetFinancialPickListR1SuccessResponseResultGlHeaderStatusTypes
 
 # TODO update the JSON string below
 json = "{}"

@@ -33,7 +33,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.send_work_orders_method_params import SendWorkOrdersMethodParams
+from entrata_api_client.models.send_work_orders_method_params import SendWorkOrdersMethodParams
 
 # TODO update the JSON string below
 json = "{}"

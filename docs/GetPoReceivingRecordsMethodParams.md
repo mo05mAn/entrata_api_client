@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_po_receiving_records_method_params import GetPoReceivingRecordsMethodParams
+from entrata_api_client.models.get_po_receiving_records_method_params import GetPoReceivingRecordsMethodParams
 
 # TODO update the JSON string below
 json = "{}"
