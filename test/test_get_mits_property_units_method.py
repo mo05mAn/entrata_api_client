@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_method import GetMitsPropertyUnitsMethod
+from entrata_api_client.models.get_mits_property_units_method import GetMitsPropertyUnitsMethod
 
 class TestGetMitsPropertyUnitsMethod(unittest.TestCase):
     """GetMitsPropertyUnitsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMitsPropertyUnitsMethod(unittest.TestCase):
             return GetMitsPropertyUnitsMethod(
                 name = 'getMitsPropertyUnits',
                 version = 'r1',
-                params = openapi_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
+                params = entrata_api_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
                     property_ids = '12345,5678', 
                     available_units_only = 0, 
                     use_property_preferences = 0, 

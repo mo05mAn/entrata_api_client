@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_method_params import GetUnitsAvailabilityAndPricingMethodParams
+from entrata_api_client.models.get_units_availability_and_pricing_method_params import GetUnitsAvailabilityAndPricingMethodParams
 
 class TestGetUnitsAvailabilityAndPricingMethodParams(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingMethodParams unit test stubs"""

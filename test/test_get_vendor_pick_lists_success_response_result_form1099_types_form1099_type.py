@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type import GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type import GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type
 
 class TestGetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type(unitt
         model = GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
                     id = '1', 
                     name = '1099 - MISC', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultForm1099TypesForm1099Type(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
                     id = '1', 
                     name = '1099 - MISC', ),
         )

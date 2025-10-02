@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner import SendJournalEntriesSuccessResponseResultGlHeadersGlHeaderInner
+from entrata_api_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner import SendJournalEntriesSuccessResponseResultGlHeadersGlHeaderInner
 
 class TestSendJournalEntriesSuccessResponseResultGlHeadersGlHeaderInner(unittest.TestCase):
     """SendJournalEntriesSuccessResponseResultGlHeadersGlHeaderInner unit test stubs"""

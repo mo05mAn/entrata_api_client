@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans(
                 property_floorplan = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
                         id = 1088268, 
                         name = 'Studio', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloorplans(
                 property_floorplan = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
                         id = 1088268, 
                         name = 'Studio', )
                     ],

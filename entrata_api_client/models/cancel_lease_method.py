@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.cancel_lease_method_params import CancelLeaseMethodParams
+from entrata_api_client.models.cancel_lease_method_params import CancelLeaseMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_codes_success_response_response_result_arcodes import GetArCodesSuccessResponseResponseResultArcodes
+from entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes import GetArCodesSuccessResponseResponseResultArcodes
 
 class TestGetArCodesSuccessResponseResponseResultArcodes(unittest.TestCase):
     """GetArCodesSuccessResponseResponseResultArcodes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetArCodesSuccessResponseResponseResultArcodes(unittest.TestCase):
         if include_optional:
             return GetArCodesSuccessResponseResponseResultArcodes(
                 arcode = [
-                    openapi_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
+                    entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
                         id = 1, 
                         code = 1, 
                         name = 'Amber test', 
@@ -55,7 +55,7 @@ class TestGetArCodesSuccessResponseResponseResultArcodes(unittest.TestCase):
         else:
             return GetArCodesSuccessResponseResponseResultArcodes(
                 arcode = [
-                    openapi_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
+                    entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
                         id = 1, 
                         code = 1, 
                         name = 'Amber test', 

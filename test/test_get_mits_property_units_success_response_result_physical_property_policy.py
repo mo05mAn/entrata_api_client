@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy unit test stubs"""
@@ -36,15 +36,15 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy(unitte
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicy(
                 pet = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner(
-                        pets = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets(
-                            @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner(
+                        pets = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets(
+                            @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
                                 count = '0', 
                                 description = 'Cat', 
                                 pet_type = 'Cat', 
                                 size = 'Medium', 
                                 weight = '', ), ), 
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner__attributes(
                             allowed = 'true', ), )
                     ],
                 general = 'You can park your vehical anywhere except reserved parking spaces.'

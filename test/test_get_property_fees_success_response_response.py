@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_fees_success_response_response import GetPropertyFeesSuccessResponseResponse
+from entrata_api_client.models.get_property_fees_success_response_response import GetPropertyFeesSuccessResponseResponse
 
 class TestGetPropertyFeesSuccessResponseResponse(unittest.TestCase):
     """GetPropertyFeesSuccessResponseResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetPropertyFeesSuccessResponseResponse(unittest.TestCase):
             return GetPropertyFeesSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
+                result = entrata_api_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
                     property_fees = [
-                        openapi_client.models.fee_details.FeeDetails(
+                        entrata_api_client.models.fee_details.FeeDetails(
                             property_id = '12345', 
                             property_floorplan_id = '921405', 
                             unit_type_id = '653938', 
@@ -75,7 +75,7 @@ class TestGetPropertyFeesSuccessResponseResponse(unittest.TestCase):
                             customer_relationship_name = 'Primary', )
                         ], 
                     floor_plan_fees = [
-                        openapi_client.models.fee_details.FeeDetails(
+                        entrata_api_client.models.fee_details.FeeDetails(
                             property_id = '12345', 
                             property_floorplan_id = '921405', 
                             unit_type_id = '653938', 
@@ -121,9 +121,9 @@ class TestGetPropertyFeesSuccessResponseResponse(unittest.TestCase):
             return GetPropertyFeesSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
+                result = entrata_api_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
                     property_fees = [
-                        openapi_client.models.fee_details.FeeDetails(
+                        entrata_api_client.models.fee_details.FeeDetails(
                             property_id = '12345', 
                             property_floorplan_id = '921405', 
                             unit_type_id = '653938', 
@@ -159,7 +159,7 @@ class TestGetPropertyFeesSuccessResponseResponse(unittest.TestCase):
                             customer_relationship_name = 'Primary', )
                         ], 
                     floor_plan_fees = [
-                        openapi_client.models.fee_details.FeeDetails(
+                        entrata_api_client.models.fee_details.FeeDetails(
                             property_id = '12345', 
                             property_floorplan_id = '921405', 
                             unit_type_id = '653938', 

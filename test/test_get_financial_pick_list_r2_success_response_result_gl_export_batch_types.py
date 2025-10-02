@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types import GetFinancialPickListR2SuccessResponseResultGlExportBatchTypes
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types import GetFinancialPickListR2SuccessResponseResultGlExportBatchTypes
 
 class TestGetFinancialPickListR2SuccessResponseResultGlExportBatchTypes(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultGlExportBatchTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlExportBatchTypes(unittest
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultGlExportBatchTypes(
                 gl_export_batch_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types_gl_export_batch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glExportBatchTypes_glExportBatchType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types_gl_export_batch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glExportBatchTypes_glExportBatchType_inner(
                         id = 88, 
                         name = 'AMSI', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlExportBatchTypes(unittest
         else:
             return GetFinancialPickListR2SuccessResponseResultGlExportBatchTypes(
                 gl_export_batch_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types_gl_export_batch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glExportBatchTypes_glExportBatchType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_export_batch_types_gl_export_batch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glExportBatchTypes_glExportBatchType_inner(
                         id = 88, 
                         name = 'AMSI', )
                     ],

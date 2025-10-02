@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner import GetInspectionsSuccessResponseResultInspectionsInspectionInner
+from entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner import GetInspectionsSuccessResponseResultInspectionsInspectionInner
 
 class TestGetInspectionsSuccessResponseResultInspectionsInspectionInner(unittest.TestCase):
     """GetInspectionsSuccessResponseResultInspectionsInspectionInner unit test stubs"""
@@ -46,20 +46,20 @@ class TestGetInspectionsSuccessResponseResultInspectionsInspectionInner(unittest
                 lease_id = '123456',
                 unit_space_id = '1234',
                 note = 'Test Inspection',
-                locations = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations(
+                locations = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations(
                     location = [
-                        openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner(
+                        entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner(
                             location_id = '1234', 
                             location_name = 'Kitchen', 
-                            problems = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems(
+                            problems = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems(
                                 problem = [
-                                    openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner(
+                                    entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner(
                                         problem_id = '12345', 
                                         problem_name = 'cabinet', 
                                         response = 'Fail', 
-                                        sub_problems = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems(
+                                        sub_problems = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems(
                                             sub_problem = [
-                                                openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems_sub_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems_subProblem_inner(
+                                                entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems_sub_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems_subProblem_inner(
                                                     sub_problem_id = '123456', 
                                                     sub_problem_name = 'Clean', )
                                                 ], ), )
@@ -79,20 +79,20 @@ class TestGetInspectionsSuccessResponseResultInspectionsInspectionInner(unittest
                 lease_id = '123456',
                 unit_space_id = '1234',
                 note = 'Test Inspection',
-                locations = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations(
+                locations = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations(
                     location = [
-                        openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner(
+                        entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner(
                             location_id = '1234', 
                             location_name = 'Kitchen', 
-                            problems = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems(
+                            problems = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems(
                                 problem = [
-                                    openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner(
+                                    entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner(
                                         problem_id = '12345', 
                                         problem_name = 'cabinet', 
                                         response = 'Fail', 
-                                        sub_problems = openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems(
+                                        sub_problems = entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems(
                                             sub_problem = [
-                                                openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems_sub_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems_subProblem_inner(
+                                                entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_sub_problems_sub_problem_inner.getInspectionsSuccessResponse_result_inspections_inspection_inner_locations_location_inner_problems_problem_inner_subProblems_subProblem_inner(
                                                     sub_problem_id = '123456', 
                                                     sub_problem_name = 'Clean', )
                                                 ], ), )

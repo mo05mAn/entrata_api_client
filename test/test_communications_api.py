@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.communications_api import CommunicationsApi
+from entrata_api_client.api.communications_api import CommunicationsApi
 
 
 class TestCommunicationsApi(unittest.TestCase):

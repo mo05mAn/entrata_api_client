@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types import GetVendorPickListsSuccessResponseResultApRemittanceTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types import GetVendorPickListsSuccessResponseResultApRemittanceTypes
 
 class TestGetVendorPickListsSuccessResponseResultApRemittanceTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApRemittanceTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultApRemittanceTypes(unittest.Test
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApRemittanceTypes(
                 ap_remittance_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
                             id = '1', 
                             name = 'Wire Transfer', ), )
                     ]

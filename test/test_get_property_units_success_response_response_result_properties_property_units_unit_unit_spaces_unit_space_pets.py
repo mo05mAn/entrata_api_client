@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets
+from entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets
 
 class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets(unittest.TestCase):
     """GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUn
         model = GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets()
         if include_optional:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets(
-                pet = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
+                pet = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
                     type = 'Cat', 
                     count = 2, 
                     deposit = 50, 
@@ -47,7 +47,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUn
             )
         else:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpacePets(
-                pet = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
+                pet = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
                     type = 'Cat', 
                     count = 2, 
                     deposit = 50, 

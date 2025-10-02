@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_journal_entries_success_response import SendJournalEntriesSuccessResponse
+from entrata_api_client.models.send_journal_entries_success_response import SendJournalEntriesSuccessResponse
 
 class TestSendJournalEntriesSuccessResponse(unittest.TestCase):
     """SendJournalEntriesSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendJournalEntriesSuccessResponse(unittest.TestCase):
             return SendJournalEntriesSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.send_journal_entries_success_response_result.sendJournalEntriesSuccessResponse_result(
-                    gl_headers = openapi_client.models.send_journal_entries_success_response_result_gl_headers.sendJournalEntriesSuccessResponse_result_glHeaders(
+                result = entrata_api_client.models.send_journal_entries_success_response_result.sendJournalEntriesSuccessResponse_result(
+                    gl_headers = entrata_api_client.models.send_journal_entries_success_response_result_gl_headers.sendJournalEntriesSuccessResponse_result_glHeaders(
                         gl_header = [
-                            openapi_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner.sendJournalEntriesSuccessResponse_result_glHeaders_glHeader_inner(
+                            entrata_api_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner.sendJournalEntriesSuccessResponse_result_glHeaders_glHeader_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'JE inserted successfully', 
@@ -52,10 +52,10 @@ class TestSendJournalEntriesSuccessResponse(unittest.TestCase):
             return SendJournalEntriesSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.send_journal_entries_success_response_result.sendJournalEntriesSuccessResponse_result(
-                    gl_headers = openapi_client.models.send_journal_entries_success_response_result_gl_headers.sendJournalEntriesSuccessResponse_result_glHeaders(
+                result = entrata_api_client.models.send_journal_entries_success_response_result.sendJournalEntriesSuccessResponse_result(
+                    gl_headers = entrata_api_client.models.send_journal_entries_success_response_result_gl_headers.sendJournalEntriesSuccessResponse_result_glHeaders(
                         gl_header = [
-                            openapi_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner.sendJournalEntriesSuccessResponse_result_glHeaders_glHeader_inner(
+                            entrata_api_client.models.send_journal_entries_success_response_result_gl_headers_gl_header_inner.sendJournalEntriesSuccessResponse_result_glHeaders_glHeader_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'JE inserted successfully', 

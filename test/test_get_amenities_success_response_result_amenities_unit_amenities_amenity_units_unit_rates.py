@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates
+from entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
         model = GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates()
         if include_optional:
             return GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates(
-                rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                         ar_code_id = '149655', 
                         ar_code_type_id = '2', 
                         charge_type_id = '307', 
@@ -48,8 +48,8 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
             )
         else:
             return GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnitRates(
-                rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                         ar_code_id = '149655', 
                         ar_code_type_id = '2', 
                         charge_type_id = '307', 

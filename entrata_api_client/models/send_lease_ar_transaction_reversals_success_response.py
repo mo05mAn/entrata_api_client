@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.send_lease_ar_transaction_reversals_success_response_response import SendLeaseArTransactionReversalsSuccessResponseResponse
+from entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response import SendLeaseArTransactionReversalsSuccessResponseResponse
 from typing import Optional, Set
 from typing_extensions import Self
 

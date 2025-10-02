@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.arcodes_api import ArcodesApi
+from entrata_api_client.api.arcodes_api import ArcodesApi
 
 
 class TestArcodesApi(unittest.TestCase):

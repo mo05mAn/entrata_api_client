@@ -17,23 +17,23 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_ap_codes import GetApCodes
-from openapi_client.models.get_bank_accounts import GetBankAccounts
-from openapi_client.models.get_budget_actuals import GetBudgetActuals
-from openapi_client.models.get_budgets import GetBudgets
-from openapi_client.models.get_financial_pick_list_r1 import GetFinancialPickListR1
-from openapi_client.models.get_financial_pick_list_r2 import GetFinancialPickListR2
-from openapi_client.models.get_gl_transactions import GetGlTransactions
-from openapi_client.models.get_gl_trees_r1 import GetGlTreesR1
-from openapi_client.models.get_gl_trees_r2 import GetGlTreesR2
-from openapi_client.models.get_job_categories import GetJobCategories
-from openapi_client.models.get_job_cost_budgets import GetJobCostBudgets
-from openapi_client.models.get_jobs import GetJobs
-from openapi_client.models.get_transaction_tag_lists import GetTransactionTagLists
-from openapi_client.models.mark_gl_transactions_exported import MarkGlTransactionsExported
-from openapi_client.models.send_budgets import SendBudgets
-from openapi_client.models.send_journal_entries import SendJournalEntries
-from openapi_client.models.update_budgets import UpdateBudgets
+from entrata_api_client.models.get_ap_codes import GetApCodes
+from entrata_api_client.models.get_bank_accounts import GetBankAccounts
+from entrata_api_client.models.get_budget_actuals import GetBudgetActuals
+from entrata_api_client.models.get_budgets import GetBudgets
+from entrata_api_client.models.get_financial_pick_list_r1 import GetFinancialPickListR1
+from entrata_api_client.models.get_financial_pick_list_r2 import GetFinancialPickListR2
+from entrata_api_client.models.get_gl_transactions import GetGlTransactions
+from entrata_api_client.models.get_gl_trees_r1 import GetGlTreesR1
+from entrata_api_client.models.get_gl_trees_r2 import GetGlTreesR2
+from entrata_api_client.models.get_job_categories import GetJobCategories
+from entrata_api_client.models.get_job_cost_budgets import GetJobCostBudgets
+from entrata_api_client.models.get_jobs import GetJobs
+from entrata_api_client.models.get_transaction_tag_lists import GetTransactionTagLists
+from entrata_api_client.models.mark_gl_transactions_exported import MarkGlTransactionsExported
+from entrata_api_client.models.send_budgets import SendBudgets
+from entrata_api_client.models.send_journal_entries import SendJournalEntries
+from entrata_api_client.models.update_budgets import UpdateBudgets
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

@@ -17,26 +17,26 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.delete_property_media import DeletePropertyMedia
-from openapi_client.models.get_amenity_reservations import GetAmenityReservations
-from openapi_client.models.get_calendar_availability_r1 import GetCalendarAvailabilityR1
-from openapi_client.models.get_calendar_availability_r2 import GetCalendarAvailabilityR2
-from openapi_client.models.get_floor_plans import GetFloorPlans
-from openapi_client.models.get_pet_types import GetPetTypes
-from openapi_client.models.get_phone_number import GetPhoneNumber
-from openapi_client.models.get_properties import GetProperties
-from openapi_client.models.get_property_add_ons import GetPropertyAddOns
-from openapi_client.models.get_property_announcements import GetPropertyAnnouncements
-from openapi_client.models.get_property_media import GetPropertyMedia
-from openapi_client.models.get_property_pick_lists_r1 import GetPropertyPickListsR1
-from openapi_client.models.get_property_pick_lists_r2 import GetPropertyPickListsR2
-from openapi_client.models.get_rentable_items import GetRentableItems
-from openapi_client.models.get_reservable_amenities import GetReservableAmenities
-from openapi_client.models.get_websites import GetWebsites
-from openapi_client.models.send_floorplans import SendFloorplans
-from openapi_client.models.send_property_media import SendPropertyMedia
-from openapi_client.models.send_rentable_items import SendRentableItems
-from openapi_client.models.update_property_media import UpdatePropertyMedia
+from entrata_api_client.models.delete_property_media import DeletePropertyMedia
+from entrata_api_client.models.get_amenity_reservations import GetAmenityReservations
+from entrata_api_client.models.get_calendar_availability_r1 import GetCalendarAvailabilityR1
+from entrata_api_client.models.get_calendar_availability_r2 import GetCalendarAvailabilityR2
+from entrata_api_client.models.get_floor_plans import GetFloorPlans
+from entrata_api_client.models.get_pet_types import GetPetTypes
+from entrata_api_client.models.get_phone_number import GetPhoneNumber
+from entrata_api_client.models.get_properties import GetProperties
+from entrata_api_client.models.get_property_add_ons import GetPropertyAddOns
+from entrata_api_client.models.get_property_announcements import GetPropertyAnnouncements
+from entrata_api_client.models.get_property_media import GetPropertyMedia
+from entrata_api_client.models.get_property_pick_lists_r1 import GetPropertyPickListsR1
+from entrata_api_client.models.get_property_pick_lists_r2 import GetPropertyPickListsR2
+from entrata_api_client.models.get_rentable_items import GetRentableItems
+from entrata_api_client.models.get_reservable_amenities import GetReservableAmenities
+from entrata_api_client.models.get_websites import GetWebsites
+from entrata_api_client.models.send_floorplans import SendFloorplans
+from entrata_api_client.models.send_property_media import SendPropertyMedia
+from entrata_api_client.models.send_rentable_items import SendRentableItems
+from entrata_api_client.models.update_property_media import UpdatePropertyMedia
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

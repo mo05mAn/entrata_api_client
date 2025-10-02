@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types import GetLeasePickListSuccessResponseResultLeaseStatusTypes
+from entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types import GetLeasePickListSuccessResponseResultLeaseStatusTypes
 
 class TestGetLeasePickListSuccessResponseResultLeaseStatusTypes(unittest.TestCase):
     """GetLeasePickListSuccessResponseResultLeaseStatusTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasePickListSuccessResponseResultLeaseStatusTypes(unittest.TestCas
         if include_optional:
             return GetLeasePickListSuccessResponseResultLeaseStatusTypes(
                 lease_status_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
                         id = 1, 
                         name = 'Applicant', 
                         type = 'NA', )
@@ -45,7 +45,7 @@ class TestGetLeasePickListSuccessResponseResultLeaseStatusTypes(unittest.TestCas
         else:
             return GetLeasePickListSuccessResponseResultLeaseStatusTypes(
                 lease_status_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
                         id = 1, 
                         name = 'Applicant', 
                         type = 'NA', )

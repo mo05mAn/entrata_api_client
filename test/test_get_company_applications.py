@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_company_applications import GetCompanyApplications
+from entrata_api_client.models.get_company_applications import GetCompanyApplications
 
 class TestGetCompanyApplications(unittest.TestCase):
     """GetCompanyApplications unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetCompanyApplications(unittest.TestCase):
         model = GetCompanyApplications()
         if include_optional:
             return GetCompanyApplications(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_company_applications_method.getCompanyApplications_method(
+                method = entrata_api_client.models.get_company_applications_method.getCompanyApplications_method(
                     name = 'getCompanyApplications', 
                     version = 'r1', 
-                    params = openapi_client.models.get_company_applications_method_params.getCompanyApplications_method_params(
+                    params = entrata_api_client.models.get_company_applications_method_params.getCompanyApplications_method_params(
                         property_id = 123456, ), )
             )
         else:
             return GetCompanyApplications(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_company_applications_method.getCompanyApplications_method(
+                method = entrata_api_client.models.get_company_applications_method.getCompanyApplications_method(
                     name = 'getCompanyApplications', 
                     version = 'r1', 
-                    params = openapi_client.models.get_company_applications_method_params.getCompanyApplications_method_params(
+                    params = entrata_api_client.models.get_company_applications_method_params.getCompanyApplications_method_params(
                         property_id = 123456, ), ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_method import GetLeadsMethod
+from entrata_api_client.models.get_leads_method import GetLeadsMethod
 
 class TestGetLeadsMethod(unittest.TestCase):
     """GetLeadsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeadsMethod(unittest.TestCase):
             return GetLeadsMethod(
                 name = 'getLeads',
                 version = 'r1',
-                params = openapi_client.models.get_leads_method_params.getLeads_method_params(
+                params = entrata_api_client.models.get_leads_method_params.getLeads_method_params(
                     property_id = 123456, 
                     lead_id = 123, 
                     name = 'ABC', 

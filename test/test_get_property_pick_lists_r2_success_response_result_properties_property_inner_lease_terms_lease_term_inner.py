@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeas
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner(
                 lease_term_id = 19136,
                 lease_term_name = 'Fall 2020',
-                lease_start_windows = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
+                lease_start_windows = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
                     lease_start_window = [
-                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                             lease_start_window_id = 110263, 
                             window_start_date = '08/01/2020', 
                             window_end_date = '12/31/2020', 
@@ -50,9 +50,9 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeas
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInner(
                 lease_term_id = 19136,
                 lease_term_name = 'Fall 2020',
-                lease_start_windows = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
+                lease_start_windows = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
                     lease_start_window = [
-                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                             lease_start_window_id = 110263, 
                             window_start_date = '08/01/2020', 
                             window_end_date = '12/31/2020', 

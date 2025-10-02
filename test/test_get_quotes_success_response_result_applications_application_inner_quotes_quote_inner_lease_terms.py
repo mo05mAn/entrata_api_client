@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerLeaseTerms
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerLeaseTerms
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerLeaseTerms(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerLeaseTerms unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerLeaseTerms(
                 lease_term = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms_lease_term_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms_leaseTerm_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms_lease_term_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms_leaseTerm_inner(
                         id = '3', 
                         term_month = '12', 
                         quote_amount = '5419.00', )

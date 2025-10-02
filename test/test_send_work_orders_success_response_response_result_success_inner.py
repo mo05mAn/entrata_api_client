@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_work_orders_success_response_response_result_success_inner import SendWorkOrdersSuccessResponseResponseResultSuccessInner
+from entrata_api_client.models.send_work_orders_success_response_response_result_success_inner import SendWorkOrdersSuccessResponseResponseResultSuccessInner
 
 class TestSendWorkOrdersSuccessResponseResponseResultSuccessInner(unittest.TestCase):
     """SendWorkOrdersSuccessResponseResponseResultSuccessInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestSendWorkOrdersSuccessResponseResponseResultSuccessInner(unittest.TestC
         model = SendWorkOrdersSuccessResponseResponseResultSuccessInner()
         if include_optional:
             return SendWorkOrdersSuccessResponseResponseResultSuccessInner(
-                attributes = openapi_client.models.send_work_orders_success_response_response_result_success_inner__attributes.sendWorkOrdersSuccessResponse_response_result_Success_inner__attributes(
+                attributes = entrata_api_client.models.send_work_orders_success_response_response_result_success_inner__attributes.sendWorkOrdersSuccessResponse_response_result_Success_inner__attributes(
                     message = 'Work order inserted successfully.', 
                     node = 1, 
                     reference_id = 4699547, )
             )
         else:
             return SendWorkOrdersSuccessResponseResponseResultSuccessInner(
-                attributes = openapi_client.models.send_work_orders_success_response_response_result_success_inner__attributes.sendWorkOrdersSuccessResponse_response_result_Success_inner__attributes(
+                attributes = entrata_api_client.models.send_work_orders_success_response_response_result_success_inner__attributes.sendWorkOrdersSuccessResponse_response_result_Success_inner__attributes(
                     message = 'Work order inserted successfully.', 
                     node = 1, 
                     reference_id = 4699547, ),

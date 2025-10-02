@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result import GetLeaseDetailsR1SuccessResponseResponseResult
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result import GetLeaseDetailsR1SuccessResponseResponseResult
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResult unit test stubs"""
@@ -39,10 +39,10 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                 name = 'Resident Name',
                 property_unit_id = 4115010,
                 unit_number = 'A-2',
-                add_ons = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons.getLeaseDetails_r1_SuccessResponse_response_result_addOns(
-                    assignable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
+                add_ons = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons.getLeaseDetails_r1_SuccessResponse_response_result_addOns(
+                    assignable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
                         assignable_item = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                                 add_on_type = 'Assignable Items', 
                                 add_on_category = 'Keys', 
                                 add_on_group = 'Keys', 
@@ -52,9 +52,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), 
-                    rentable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
+                    rentable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
                         rentable_item = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                                 add_on_type = 'Rentable Items', 
                                 add_on_category = 'Garage', 
                                 add_on_group = 'Garage', 
@@ -64,9 +64,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), 
-                    services = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
+                    services = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
                         service = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                                 add_on_type = 'Services', 
                                 add_on_category = 'Full Furnishing', 
                                 add_on_group = 'Full Furnishing', 
@@ -76,14 +76,14 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), ),
-                scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges(
                     recurring_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = 'Bldg Maintenance CAM', 
                                         charge_timing = 'Monthly', 
                                         charge_usage = 'Base', 
@@ -93,12 +93,12 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], ), )
                         ], 
                     one_time_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = '123 Rent', 
                                         charge_timing = 'Renewal Start', 
                                         charge_usage = 'Base', 
@@ -107,12 +107,12 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], ), )
                         ], 
                     conditional_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = '10aug', 
                                         charge_usage = 'Base', 
                                         charge_start_date = '01/17/2017', 
@@ -126,10 +126,10 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                 name = 'Resident Name',
                 property_unit_id = 4115010,
                 unit_number = 'A-2',
-                add_ons = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons.getLeaseDetails_r1_SuccessResponse_response_result_addOns(
-                    assignable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
+                add_ons = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons.getLeaseDetails_r1_SuccessResponse_response_result_addOns(
+                    assignable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
                         assignable_item = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                                 add_on_type = 'Assignable Items', 
                                 add_on_category = 'Keys', 
                                 add_on_group = 'Keys', 
@@ -139,9 +139,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), 
-                    rentable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
+                    rentable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
                         rentable_item = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                                 add_on_type = 'Rentable Items', 
                                 add_on_category = 'Garage', 
                                 add_on_group = 'Garage', 
@@ -151,9 +151,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), 
-                    services = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
+                    services = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
                         service = [
-                            openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                            entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                                 add_on_type = 'Services', 
                                 add_on_category = 'Full Furnishing', 
                                 add_on_group = 'Full Furnishing', 
@@ -163,14 +163,14 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                 end_date = '05/15/2017', 
                                 agent = 'Agent One', )
                             ], ), ),
-                scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges(
                     recurring_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = 'Bldg Maintenance CAM', 
                                         charge_timing = 'Monthly', 
                                         charge_usage = 'Base', 
@@ -180,12 +180,12 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], ), )
                         ], 
                     one_time_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = '123 Rent', 
                                         charge_timing = 'Renewal Start', 
                                         charge_usage = 'Base', 
@@ -194,12 +194,12 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], ), )
                         ], 
                     conditional_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner(
                             lease_interval_status = 'Current', 
                             lease_interval_type = 'Application', 
-                            active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
+                            active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
                                 active_scheduled_charge = [
-                                    openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                                         charge_code = '10aug', 
                                         charge_usage = 'Base', 
                                         charge_start_date = '01/17/2017', 

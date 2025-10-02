@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r1 import GetLeasesR1
+from entrata_api_client.models.get_leases_r1 import GetLeasesR1
 
 class TestGetLeasesR1(unittest.TestCase):
     """GetLeasesR1 unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetLeasesR1(unittest.TestCase):
         model = GetLeasesR1()
         if include_optional:
             return GetLeasesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_leases_r1_method.getLeases_r1_method(
+                method = entrata_api_client.models.get_leases_r1_method.getLeases_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_leases_r1_method_params.getLeases_r1_method_params(
+                    params = entrata_api_client.models.get_leases_r1_method_params.getLeases_r1_method_params(
                         property_id = 123456, 
                         application_id = 123456, 
                         customer_id = 123456, 
@@ -66,12 +66,12 @@ class TestGetLeasesR1(unittest.TestCase):
             )
         else:
             return GetLeasesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_leases_r1_method.getLeases_r1_method(
+                method = entrata_api_client.models.get_leases_r1_method.getLeases_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_leases_r1_method_params.getLeases_r1_method_params(
+                    params = entrata_api_client.models.get_leases_r1_method_params.getLeases_r1_method_params(
                         property_id = 123456, 
                         application_id = 123456, 
                         customer_id = 123456, 

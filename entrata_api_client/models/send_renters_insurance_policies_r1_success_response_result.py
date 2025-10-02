@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies import SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePolicies
+from entrata_api_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies import SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePolicies
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_customer_testimonials_success_response_result import SendCustomerTestimonialsSuccessResponseResult
+from entrata_api_client.models.send_customer_testimonials_success_response_result import SendCustomerTestimonialsSuccessResponseResult
 
 class TestSendCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
     """SendCustomerTestimonialsSuccessResponseResult unit test stubs"""
@@ -35,10 +35,10 @@ class TestSendCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
         model = SendCustomerTestimonialsSuccessResponseResult()
         if include_optional:
             return SendCustomerTestimonialsSuccessResponseResult(
-                testimonials = openapi_client.models.send_customer_testimonials_success_response_result_testimonials.sendCustomerTestimonialsSuccessResponse_result_Testimonials(
+                testimonials = entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials.sendCustomerTestimonialsSuccessResponse_result_Testimonials(
                     testimonial = [
-                        openapi_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
-                            @attributes = openapi_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner__attributes.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner__attributes(
+                        entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
+                            @attributes = entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner__attributes.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner__attributes(
                                 node = 1, 
                                 reference_id = 8530, 
                                 status = 'Success', 
@@ -47,10 +47,10 @@ class TestSendCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return SendCustomerTestimonialsSuccessResponseResult(
-                testimonials = openapi_client.models.send_customer_testimonials_success_response_result_testimonials.sendCustomerTestimonialsSuccessResponse_result_Testimonials(
+                testimonials = entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials.sendCustomerTestimonialsSuccessResponse_result_Testimonials(
                     testimonial = [
-                        openapi_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
-                            @attributes = openapi_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner__attributes.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner__attributes(
+                        entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
+                            @attributes = entrata_api_client.models.send_customer_testimonials_success_response_result_testimonials_testimonial_inner__attributes.sendCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner__attributes(
                                 node = 1, 
                                 reference_id = 8530, 
                                 status = 'Success', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leases_success_response_result import SendLeasesSuccessResponseResult
+from entrata_api_client.models.send_leases_success_response_result import SendLeasesSuccessResponseResult
 
 class TestSendLeasesSuccessResponseResult(unittest.TestCase):
     """SendLeasesSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendLeasesSuccessResponseResult(unittest.TestCase):
         model = SendLeasesSuccessResponseResult()
         if include_optional:
             return SendLeasesSuccessResponseResult(
-                leases = openapi_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
+                leases = entrata_api_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
                     lease = [
-                        openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                        entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                             node = '1', 
                             lease_id = '123456', 
                             status = 'Success', 
@@ -46,9 +46,9 @@ class TestSendLeasesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return SendLeasesSuccessResponseResult(
-                leases = openapi_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
+                leases = entrata_api_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
                     lease = [
-                        openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                        entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                             node = '1', 
                             lease_id = '123456', 
                             status = 'Success', 

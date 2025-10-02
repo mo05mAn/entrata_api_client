@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit(
                 unit_number = 'Gx6 unit',
-                address = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                address = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                         address_type = 'other', ), 
                     state = 'AE', 
                     country = 'US', )
@@ -45,8 +45,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerUnit(
                 unit_number = 'Gx6 unit',
-                address = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                address = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                         address_type = 'other', ), 
                     state = 'AE', 
                     country = 'US', ),

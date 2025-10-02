@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types import GetVendorPickListsSuccessResponseResultOwnerTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types import GetVendorPickListsSuccessResponseResultOwnerTypes
 
 class TestGetVendorPickListsSuccessResponseResultOwnerTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultOwnerTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultOwnerTypes(unittest.TestCase):
         if include_optional:
             return GetVendorPickListsSuccessResponseResultOwnerTypes(
                 owner_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
                             id = '1', 
                             name = 'Sole Proprietorship', ), )
                     ]

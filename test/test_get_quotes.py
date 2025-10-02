@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes import GetQuotes
+from entrata_api_client.models.get_quotes import GetQuotes
 
 class TestGetQuotes(unittest.TestCase):
     """GetQuotes unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetQuotes(unittest.TestCase):
         model = GetQuotes()
         if include_optional:
             return GetQuotes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_quotes_method.getQuotes_method(
+                method = entrata_api_client.models.get_quotes_method.getQuotes_method(
                     name = 'getQuotes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_quotes_method_params.getQuotes_method_params(
+                    params = entrata_api_client.models.get_quotes_method_params.getQuotes_method_params(
                         property_id = 123456, 
                         application_id = 123, 
                         lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -50,12 +50,12 @@ class TestGetQuotes(unittest.TestCase):
             )
         else:
             return GetQuotes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_quotes_method.getQuotes_method(
+                method = entrata_api_client.models.get_quotes_method.getQuotes_method(
                     name = 'getQuotes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_quotes_method_params.getQuotes_method_params(
+                    params = entrata_api_client.models.get_quotes_method_params.getQuotes_method_params(
                         property_id = 123456, 
                         application_id = 123, 
                         lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServ
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices(
                 service = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
                         id = 77455, 
                         name = 'Full Furnishing 1', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServ
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerServices(
                 service = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
                         id = 77455, 
                         name = 'Full Furnishing 1', )
                     ],

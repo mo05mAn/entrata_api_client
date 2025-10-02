@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budget_actuals import GetBudgetActuals
+from entrata_api_client.models.get_budget_actuals import GetBudgetActuals
 
 class TestGetBudgetActuals(unittest.TestCase):
     """GetBudgetActuals unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetBudgetActuals(unittest.TestCase):
         model = GetBudgetActuals()
         if include_optional:
             return GetBudgetActuals(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_budget_actuals_method.getBudgetActuals_method(
+                method = entrata_api_client.models.get_budget_actuals_method.getBudgetActuals_method(
                     name = 'getBudgetActuals', 
                     version = 'r1', 
-                    params = openapi_client.models.get_budget_actuals_method_params.getBudgetActuals_method_params(
+                    params = entrata_api_client.models.get_budget_actuals_method_params.getBudgetActuals_method_params(
                         property_id = 123456, 
                         gl_tree_id = 1234, 
                         budget_id = 1234, 
@@ -53,12 +53,12 @@ class TestGetBudgetActuals(unittest.TestCase):
             )
         else:
             return GetBudgetActuals(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_budget_actuals_method.getBudgetActuals_method(
+                method = entrata_api_client.models.get_budget_actuals_method.getBudgetActuals_method(
                     name = 'getBudgetActuals', 
                     version = 'r1', 
-                    params = openapi_client.models.get_budget_actuals_method_params.getBudgetActuals_method_params(
+                    params = entrata_api_client.models.get_budget_actuals_method_params.getBudgetActuals_method_params(
                         property_id = 123456, 
                         gl_tree_id = 1234, 
                         budget_id = 1234, 

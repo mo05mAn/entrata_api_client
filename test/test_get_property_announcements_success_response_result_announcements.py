@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_announcements_success_response_result_announcements import GetPropertyAnnouncementsSuccessResponseResultAnnouncements
+from entrata_api_client.models.get_property_announcements_success_response_result_announcements import GetPropertyAnnouncementsSuccessResponseResultAnnouncements
 
 class TestGetPropertyAnnouncementsSuccessResponseResultAnnouncements(unittest.TestCase):
     """GetPropertyAnnouncementsSuccessResponseResultAnnouncements unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPropertyAnnouncementsSuccessResponseResultAnnouncements(unittest.Te
         if include_optional:
             return GetPropertyAnnouncementsSuccessResponseResultAnnouncements(
                 announcement = [
-                    openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner(
-                        @attributes = openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
+                    entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner(
+                        @attributes = entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
                             id = 111, ), 
                         announcement_type_id = 9, 
                         frequency_id = 2, 
@@ -50,8 +50,8 @@ class TestGetPropertyAnnouncementsSuccessResponseResultAnnouncements(unittest.Te
         else:
             return GetPropertyAnnouncementsSuccessResponseResultAnnouncements(
                 announcement = [
-                    openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner(
-                        @attributes = openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
+                    entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner(
+                        @attributes = entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
                             id = 111, ), 
                         announcement_type_id = 9, 
                         frequency_id = 2, 

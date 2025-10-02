@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_lease import GetLeadsSuccessResponseResultProspectsProspectInnerLease
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_lease import GetLeadsSuccessResponseResultProspectsProspectInnerLease
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerLease(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerLease unit test stubs"""

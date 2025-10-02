@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_success_response_result import GetLeaseDocumentsSuccessResponseResult
+from entrata_api_client.models.get_lease_documents_success_response_result import GetLeaseDocumentsSuccessResponseResult
 
 class TestGetLeaseDocumentsSuccessResponseResult(unittest.TestCase):
     """GetLeaseDocumentsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetLeaseDocumentsSuccessResponseResult(unittest.TestCase):
         model = GetLeaseDocumentsSuccessResponseResult()
         if include_optional:
             return GetLeaseDocumentsSuccessResponseResult(
-                lease_documents = openapi_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
+                lease_documents = entrata_api_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
                     lease_document = {
-                        'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                        'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                             id = 3922962, 
                             applies_to = 'All', 
                             type = 'Transfer Document (Transfer Document - UTS)', 
@@ -50,9 +50,9 @@ class TestGetLeaseDocumentsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetLeaseDocumentsSuccessResponseResult(
-                lease_documents = openapi_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
+                lease_documents = entrata_api_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
                     lease_document = {
-                        'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                        'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                             id = 3922962, 
                             applies_to = 'All', 
                             type = 'Transfer Document (Transfer Document - UTS)', 

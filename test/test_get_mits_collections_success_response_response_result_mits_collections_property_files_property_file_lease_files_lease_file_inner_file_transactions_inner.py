@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification__attributes(
                         id_type = 'Transaction ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 
@@ -49,8 +49,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerFileTransactionsInner(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_file_transactions_inner_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_FileTransactions_inner_Identification__attributes(
                         id_type = 'Transaction ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 

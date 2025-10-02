@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_scheduled_charges_r2_method import UpdateScheduledChargesR2Method
+from entrata_api_client.models.update_scheduled_charges_r2_method import UpdateScheduledChargesR2Method
 
 class TestUpdateScheduledChargesR2Method(unittest.TestCase):
     """UpdateScheduledChargesR2Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateScheduledChargesR2Method(unittest.TestCase):
             return UpdateScheduledChargesR2Method(
                 name = '',
                 version = 'r2',
-                params = openapi_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
+                params = entrata_api_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
                     id = 123456, 
                     property_id = 123456, 
                     lease_id = 123456, 

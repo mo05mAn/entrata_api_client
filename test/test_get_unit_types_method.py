@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_method import GetUnitTypesMethod
+from entrata_api_client.models.get_unit_types_method import GetUnitTypesMethod
 
 class TestGetUnitTypesMethod(unittest.TestCase):
     """GetUnitTypesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetUnitTypesMethod(unittest.TestCase):
             return GetUnitTypesMethod(
                 name = 'getUnitTypes',
                 version = 'r1',
-                params = openapi_client.models.get_unit_types_method_params.getUnitTypes_method_params(
+                params = entrata_api_client.models.get_unit_types_method_params.getUnitTypes_method_params(
                     property_id = 12345, )
             )
         else:

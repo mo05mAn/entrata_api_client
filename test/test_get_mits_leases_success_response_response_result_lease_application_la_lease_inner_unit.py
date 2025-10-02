@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
         model = GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit()
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
                     id_type = 'Property Unit Id', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
@@ -43,7 +43,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
                 marketing_name = 'TEST-A',
                 unit_type = 'B-2/1',
                 unit_leased_status = 'leased',
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Address(
                     address_type = 'property', 
                     address = '2921 Sycamore Springs Drive, Unit # 103', 
                     city = 'Kingwood', 
@@ -52,7 +52,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
             )
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerUnit(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
                     id_type = 'Property Unit Id', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
@@ -60,7 +60,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
                 marketing_name = 'TEST-A',
                 unit_type = 'B-2/1',
                 unit_leased_status = 'leased',
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_unit_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Unit_Address(
                     address_type = 'property', 
                     address = '2921 Sycamore Springs Drive, Unit # 103', 
                     city = 'Kingwood', 

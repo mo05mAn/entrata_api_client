@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_response_success_response_result_testimonials import UpdatePropertyResponseSuccessResponseResultTestimonials
+from entrata_api_client.models.update_property_response_success_response_result_testimonials import UpdatePropertyResponseSuccessResponseResultTestimonials
 
 class TestUpdatePropertyResponseSuccessResponseResultTestimonials(unittest.TestCase):
     """UpdatePropertyResponseSuccessResponseResultTestimonials unit test stubs"""
@@ -35,14 +35,14 @@ class TestUpdatePropertyResponseSuccessResponseResultTestimonials(unittest.TestC
         model = UpdatePropertyResponseSuccessResponseResultTestimonials()
         if include_optional:
             return UpdatePropertyResponseSuccessResponseResultTestimonials(
-                testimonial = openapi_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
+                testimonial = entrata_api_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
                     testimonial_id = '123456', 
                     status = 'Success', 
                     message = 'Testimonial response updated successfully.', )
             )
         else:
             return UpdatePropertyResponseSuccessResponseResultTestimonials(
-                testimonial = openapi_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
+                testimonial = entrata_api_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
                     testimonial_id = '123456', 
                     status = 'Success', 
                     message = 'Testimonial response updated successfully.', ),

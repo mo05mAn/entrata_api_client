@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValue
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValue
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValue(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValue unit test stubs"""
@@ -40,9 +40,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpec
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '300.00',
-                unit_types = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
+                unit_types = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
                     unit_type = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                             id = '577608', 
                             name = 'Alabaster', )
                         ], )
@@ -54,9 +54,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpec
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '300.00',
-                unit_types = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
+                unit_types = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
                     unit_type = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                             id = '577608', 
                             name = 'Alabaster', )
                         ], ),

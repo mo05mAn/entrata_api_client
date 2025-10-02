@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1 import GetLeadPickListsR1
+from entrata_api_client.models.get_lead_pick_lists_r1 import GetLeadPickListsR1
 
 class TestGetLeadPickListsR1(unittest.TestCase):
     """GetLeadPickListsR1 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetLeadPickListsR1(unittest.TestCase):
         model = GetLeadPickListsR1()
         if include_optional:
             return GetLeadPickListsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_lead_pick_lists_r1_method.getLeadPickLists_r1_method(
+                method = entrata_api_client.models.get_lead_pick_lists_r1_method.getLeadPickLists_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_lead_pick_lists_r1_method_params.getLeadPickLists_r1_method_params(
+                    params = entrata_api_client.models.get_lead_pick_lists_r1_method_params.getLeadPickLists_r1_method_params(
                         property_ids = '123456,4533', ), )
             )
         else:
             return GetLeadPickListsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_lead_pick_lists_r1_method.getLeadPickLists_r1_method(
+                method = entrata_api_client.models.get_lead_pick_lists_r1_method.getLeadPickLists_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_lead_pick_lists_r1_method_params.getLeadPickLists_r1_method_params(
+                    params = entrata_api_client.models.get_lead_pick_lists_r1_method_params.getLeadPickLists_r1_method_params(
                         property_ids = '123456,4533', ), ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pet_types_success_response_result_pet_types import GetPetTypesSuccessResponseResultPetTypes
+from entrata_api_client.models.get_pet_types_success_response_result_pet_types import GetPetTypesSuccessResponseResultPetTypes
 
 class TestGetPetTypesSuccessResponseResultPetTypes(unittest.TestCase):
     """GetPetTypesSuccessResponseResultPetTypes unit test stubs"""
@@ -36,12 +36,12 @@ class TestGetPetTypesSuccessResponseResultPetTypes(unittest.TestCase):
         if include_optional:
             return GetPetTypesSuccessResponseResultPetTypes(
                 var_property = {
-                    'key' : openapi_client.models.get_pet_types_success_response_result_pet_types_property_value.getPetTypesSuccessResponse_result_PetTypes_Property_value(
-                        @attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value__attributes(
+                    'key' : entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value.getPetTypesSuccessResponse_result_PetTypes_Property_value(
+                        @attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value__attributes(
                             id = 11111, ), 
                         pet_type = [
-                            openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner(
-                                @attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
+                            entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner(
+                                @attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
                                     name = 'Cat', 
                                     id = 3467, ), )
                             ], )
@@ -50,12 +50,12 @@ class TestGetPetTypesSuccessResponseResultPetTypes(unittest.TestCase):
         else:
             return GetPetTypesSuccessResponseResultPetTypes(
                 var_property = {
-                    'key' : openapi_client.models.get_pet_types_success_response_result_pet_types_property_value.getPetTypesSuccessResponse_result_PetTypes_Property_value(
-                        @attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value__attributes(
+                    'key' : entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value.getPetTypesSuccessResponse_result_PetTypes_Property_value(
+                        @attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value__attributes(
                             id = 11111, ), 
                         pet_type = [
-                            openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner(
-                                @attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
+                            entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner(
+                                @attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
                                     name = 'Cat', 
                                     id = 3467, ), )
                             ], )

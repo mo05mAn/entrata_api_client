@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_success_response_response_result_properties_property_units import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits
+from entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits
 
 class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(unittest.TestCase):
     """GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
         model = GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits()
         if include_optional:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(
-                unit = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit(
+                unit = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit(
                     id = 5678, 
                     unit_number = 302, 
                     building_id = 34, 
@@ -52,14 +52,14 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                     number_occupants = 1, 
                     max_pets = 1, 
                     unit_availability_url = 'http://lobby.prospectportal.com/Apartments/module/property_info/property[id]/1234/launch_guest_card/1/property_floorplan[id]/1234/property_unit[id]/1234', 
-                    unit_address = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_address.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitAddress(
+                    unit_address = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_address.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitAddress(
                         address = '500 S, 100 W, 100k', 
                         city = 'Provo', 
                         state = 'UT', 
                         postal_code = 84601, 
                         country = 'US', ), 
-                    unit_spaces = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces(
-                        unit_space = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace(
+                    unit_spaces = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces(
+                        unit_space = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace(
                             unit_space_id = 1245, 
                             unit_number = '302-A', 
                             is_affordable = 0, 
@@ -69,10 +69,10 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                             availability_status = 'Unoccupied', 
                             available_date = 'YYYY-MM-DD', 
                             make_ready_date = 'YYYY-MM-DD', 
-                            rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent(
+                            rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent(
                                 min_rent = 25000, 
                                 max_rent = 30000, 
-                                term_rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
+                                term_rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
                                     lease_term_id = 8, 
                                     lease_term_name = '1 month', 
                                     start_date = 'YYYY-MM-DD', 
@@ -82,13 +82,13 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                             min_deposit = '6,000.00', 
                             max_deposit = '7,000.00', 
                             reserve_until = '', 
-                            amenities = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities(
-                                amenity = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
+                            amenities = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities(
+                                amenity = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
                                     id = 234, 
                                     name = 'amenity1', 
                                     type = 'type', ), ), 
-                            pets = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets(
-                                pet = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
+                            pets = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets(
+                                pet = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
                                     type = 'Cat', 
                                     count = 2, 
                                     deposit = 50, 
@@ -100,7 +100,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
             )
         else:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(
-                unit = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit(
+                unit = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit(
                     id = 5678, 
                     unit_number = 302, 
                     building_id = 34, 
@@ -117,14 +117,14 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                     number_occupants = 1, 
                     max_pets = 1, 
                     unit_availability_url = 'http://lobby.prospectportal.com/Apartments/module/property_info/property[id]/1234/launch_guest_card/1/property_floorplan[id]/1234/property_unit[id]/1234', 
-                    unit_address = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_address.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitAddress(
+                    unit_address = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_address.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitAddress(
                         address = '500 S, 100 W, 100k', 
                         city = 'Provo', 
                         state = 'UT', 
                         postal_code = 84601, 
                         country = 'US', ), 
-                    unit_spaces = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces(
-                        unit_space = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace(
+                    unit_spaces = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces(
+                        unit_space = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace(
                             unit_space_id = 1245, 
                             unit_number = '302-A', 
                             is_affordable = 0, 
@@ -134,10 +134,10 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                             availability_status = 'Unoccupied', 
                             available_date = 'YYYY-MM-DD', 
                             make_ready_date = 'YYYY-MM-DD', 
-                            rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent(
+                            rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent(
                                 min_rent = 25000, 
                                 max_rent = 30000, 
-                                term_rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
+                                term_rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
                                     lease_term_id = 8, 
                                     lease_term_name = '1 month', 
                                     start_date = 'YYYY-MM-DD', 
@@ -147,13 +147,13 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnits(u
                             min_deposit = '6,000.00', 
                             max_deposit = '7,000.00', 
                             reserve_until = '', 
-                            amenities = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities(
-                                amenity = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
+                            amenities = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities(
+                                amenity = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
                                     id = 234, 
                                     name = 'amenity1', 
                                     type = 'type', ), ), 
-                            pets = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets(
-                                pet = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
+                            pets = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets(
+                                pet = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_pets_pet.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_pets_pet(
                                     type = 'Cat', 
                                     count = 2, 
                                     deposit = 50, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units_method import SendPropertyUnitsMethod
+from entrata_api_client.models.send_property_units_method import SendPropertyUnitsMethod
 
 class TestSendPropertyUnitsMethod(unittest.TestCase):
     """SendPropertyUnitsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendPropertyUnitsMethod(unittest.TestCase):
             return SendPropertyUnitsMethod(
                 name = 'sendPropertyUnits',
                 version = 'r1',
-                params = openapi_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
+                params = entrata_api_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
                     unit_number = '20', 
                     unit_prefix = 'CC', 
                     unit_suffix = 'BB', 

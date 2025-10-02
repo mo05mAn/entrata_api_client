@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_method_params import GetPropertyUnitsMethodParams
+from entrata_api_client.models.get_property_units_method_params import GetPropertyUnitsMethodParams
 
 class TestGetPropertyUnitsMethodParams(unittest.TestCase):
     """GetPropertyUnitsMethodParams unit test stubs"""

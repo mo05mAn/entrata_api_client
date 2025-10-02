@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response import GetSpecialsR3SuccessResponseResponse
+from entrata_api_client.models.get_specials_r3_success_response_response import GetSpecialsR3SuccessResponseResponse
 
 class TestGetSpecialsR3SuccessResponseResponse(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponse unit test stubs"""
@@ -37,24 +37,24 @@ class TestGetSpecialsR3SuccessResponseResponse(unittest.TestCase):
             return GetSpecialsR3SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_specials_r3_success_response_response_result.getSpecials_r3_SuccessResponse_response_result(
-                    specials = openapi_client.models.get_specials_r3_success_response_response_result_specials.getSpecials_r3_SuccessResponse_response_result_specials(
+                result = entrata_api_client.models.get_specials_r3_success_response_response_result.getSpecials_r3_SuccessResponse_response_result(
+                    specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials.getSpecials_r3_SuccessResponse_response_result_specials(
                         property_id = 171712, 
                         organization_name = 'Demo Account', 
                         marketing_name = '14 th South Avenue', 
                         legal_name = '14 th South Avenue', 
-                        property_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials(
+                        property_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
                                     id = '12019486', 
                                     name = '90 - 61', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '0.00', )
                                 }, ), 
-                        floorplan_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials(
+                        floorplan_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value(
                                     id = '12033041', 
                                     name = 'Floor special2', 
                                     description = 'Great Deal!!! Great Deal!!! Great Deal!!!', 
@@ -63,39 +63,39 @@ class TestGetSpecialsR3SuccessResponseResponse(unittest.TestCase):
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '200.00', 
-                                    floorplans = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
+                                    floorplans = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
                                         floorplan = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                                                 id = '935877', 
                                                 name = 'Catch All Floor Plan', )
                                             ], ), )
                                 }, ), 
-                        unit_type_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials(
+                        unit_type_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value(
                                     id = '12017831', 
                                     name = 'unit type gift incentive', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '300.00', 
-                                    unit_types = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
+                                    unit_types = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
                                         unit_type = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                                                 id = '577608', 
                                                 name = 'Alabaster', )
                                             ], ), )
                                 }, ), 
-                        unit_space_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials(
+                        unit_space_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value(
                                     id = '12034174', 
                                     name = 'Test', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '400.00', 
-                                    unit_spaces = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
+                                    unit_spaces = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
                                         unit_space = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                                                 id = '5164266', 
                                                 property_unit_id = '4880109', 
                                                 name = 'A3', )
@@ -106,24 +106,24 @@ class TestGetSpecialsR3SuccessResponseResponse(unittest.TestCase):
             return GetSpecialsR3SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_specials_r3_success_response_response_result.getSpecials_r3_SuccessResponse_response_result(
-                    specials = openapi_client.models.get_specials_r3_success_response_response_result_specials.getSpecials_r3_SuccessResponse_response_result_specials(
+                result = entrata_api_client.models.get_specials_r3_success_response_response_result.getSpecials_r3_SuccessResponse_response_result(
+                    specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials.getSpecials_r3_SuccessResponse_response_result_specials(
                         property_id = 171712, 
                         organization_name = 'Demo Account', 
                         marketing_name = '14 th South Avenue', 
                         legal_name = '14 th South Avenue', 
-                        property_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials(
+                        property_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
                                     id = '12019486', 
                                     name = '90 - 61', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '0.00', )
                                 }, ), 
-                        floorplan_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials(
+                        floorplan_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value(
                                     id = '12033041', 
                                     name = 'Floor special2', 
                                     description = 'Great Deal!!! Great Deal!!! Great Deal!!!', 
@@ -132,39 +132,39 @@ class TestGetSpecialsR3SuccessResponseResponse(unittest.TestCase):
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '200.00', 
-                                    floorplans = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
+                                    floorplans = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
                                         floorplan = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                                                 id = '935877', 
                                                 name = 'Catch All Floor Plan', )
                                             ], ), )
                                 }, ), 
-                        unit_type_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials(
+                        unit_type_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value(
                                     id = '12017831', 
                                     name = 'unit type gift incentive', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '300.00', 
-                                    unit_types = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
+                                    unit_types = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes(
                                         unit_type = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                                                 id = '577608', 
                                                 name = 'Alabaster', )
                                             ], ), )
                                 }, ), 
-                        unit_space_specials = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials(
+                        unit_space_specials = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials(
                             special = {
-                                'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value(
+                                'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value(
                                     id = '12034174', 
                                     name = 'Test', 
                                     show_on_website = 1, 
                                     is_active = 1, 
                                     gift_value = '400.00', 
-                                    unit_spaces = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
+                                    unit_spaces = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
                                         unit_space = [
-                                            openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                                            entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                                                 id = '5164266', 
                                                 property_unit_id = '4880109', 
                                                 name = 'A3', )

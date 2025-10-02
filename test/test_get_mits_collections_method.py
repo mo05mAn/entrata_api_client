@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_method import GetMitsCollectionsMethod
+from entrata_api_client.models.get_mits_collections_method import GetMitsCollectionsMethod
 
 class TestGetMitsCollectionsMethod(unittest.TestCase):
     """GetMitsCollectionsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMitsCollectionsMethod(unittest.TestCase):
             return GetMitsCollectionsMethod(
                 name = 'getMitsCollections',
                 version = 'r1',
-                params = openapi_client.models.get_mits_collections_method_params.getMitsCollections_method_params(
+                params = entrata_api_client.models.get_mits_collections_method_params.getMitsCollections_method_params(
                     property_id = 123456, 
                     include_evictions = 0, 
                     from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.arpayments_api import ArpaymentsApi
+from entrata_api_client.api.arpayments_api import ArpaymentsApi
 
 
 class TestArpaymentsApi(unittest.TestCase):

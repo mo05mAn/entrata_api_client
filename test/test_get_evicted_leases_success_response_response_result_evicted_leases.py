@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases import GetEvictedLeasesSuccessResponseResponseResultEvictedLeases
+from entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases import GetEvictedLeasesSuccessResponseResponseResultEvictedLeases
 
 class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.TestCase):
     """GetEvictedLeasesSuccessResponseResponseResultEvictedLeases unit test stubs"""
@@ -35,20 +35,20 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
         model = GetEvictedLeasesSuccessResponseResponseResultEvictedLeases()
         if include_optional:
             return GetEvictedLeasesSuccessResponseResponseResultEvictedLeases(
-                summary = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_summary.getEvictedLeasesSuccessResponse_response_result_evictedLeases_summary(
+                summary = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_summary.getEvictedLeasesSuccessResponse_response_result_evictedLeases_summary(
                     generation_time_stamp = '06/28/2017T04:12:23', 
                     source_organization = 'Entrata Inc', 
                     total_properties = '1', 
                     total_lease_files = '37', 
                     total_tenants = '60', 
                     total_open_amount = '688929.50', ),
-                property_files = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles(
-                    property_file = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile(
-                        property = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property(
+                property_files = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles(
+                    property_file = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile(
+                        property = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property(
                             id = '123456', 
                             name = '13th North Parkways Property', 
                             address = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
                                     address_type = 'Primary', 
                                     address = '50 North 100 West', 
                                     city = 'Provo', 
@@ -57,13 +57,13 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
                                     postal_code = '89123', )
                                 ], 
                             phone = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
                                     phone_type = 'Office', 
                                     phone_number = '8019013023', )
                                 ], ), 
-                        lease_files = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles(
+                        lease_files = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles(
                             lease_file = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner(
                                     lease_id = '5715080', 
                                     eviction_status = 'Evicted', 
                                     move_in_date = '06/02/2014', 
@@ -75,31 +75,31 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
                                     rent_due_from_date = '06/01/2014', 
                                     rent_due_to_date = '06/01/2017', 
                                     building_name = 'Live', 
-                                    unit = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_unit.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_unit(
+                                    unit = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_unit.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_unit(
                                         unit_number = 'MP4-D', 
                                         address = 'MP,PM', 
                                         city = 'PMPM', 
                                         country = 'US', 
                                         state = 'AL', 
                                         postal_code = '52252', ), 
-                                    tenants = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants(
+                                    tenants = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants(
                                         tenant = [
-                                            openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner(
+                                            entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner(
                                                 customer_id = '6953693', 
                                                 first_name = 'New', 
                                                 last_name = 'Lwersafd', 
                                                 customer_type = 'Primary', 
                                                 phone = [
-                                                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
+                                                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
                                                         phone_type = 'cell', 
                                                         phone_number = '2133211231', )
                                                     ], 
                                                 date_of_birth = '12/12/1950', 
                                                 ssn = '111223333', )
                                             ], ), 
-                                    transactions = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions(
+                                    transactions = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions(
                                         transaction = [
-                                            openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
+                                            entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
                                                 transaction_id = '145837339', 
                                                 transaction_date = '06/01/2017', 
                                                 description = 'Application Fee - Monthly Fee Posted from 06/01/2017 to 06/30/2017', 
@@ -111,20 +111,20 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
             )
         else:
             return GetEvictedLeasesSuccessResponseResponseResultEvictedLeases(
-                summary = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_summary.getEvictedLeasesSuccessResponse_response_result_evictedLeases_summary(
+                summary = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_summary.getEvictedLeasesSuccessResponse_response_result_evictedLeases_summary(
                     generation_time_stamp = '06/28/2017T04:12:23', 
                     source_organization = 'Entrata Inc', 
                     total_properties = '1', 
                     total_lease_files = '37', 
                     total_tenants = '60', 
                     total_open_amount = '688929.50', ),
-                property_files = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles(
-                    property_file = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile(
-                        property = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property(
+                property_files = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles(
+                    property_file = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile(
+                        property = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property(
                             id = '123456', 
                             name = '13th North Parkways Property', 
                             address = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
                                     address_type = 'Primary', 
                                     address = '50 North 100 West', 
                                     city = 'Provo', 
@@ -133,13 +133,13 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
                                     postal_code = '89123', )
                                 ], 
                             phone = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
                                     phone_type = 'Office', 
                                     phone_number = '8019013023', )
                                 ], ), 
-                        lease_files = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles(
+                        lease_files = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles(
                             lease_file = [
-                                openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner(
+                                entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner(
                                     lease_id = '5715080', 
                                     eviction_status = 'Evicted', 
                                     move_in_date = '06/02/2014', 
@@ -151,31 +151,31 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeases(unittest.Te
                                     rent_due_from_date = '06/01/2014', 
                                     rent_due_to_date = '06/01/2017', 
                                     building_name = 'Live', 
-                                    unit = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_unit.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_unit(
+                                    unit = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_unit.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_unit(
                                         unit_number = 'MP4-D', 
                                         address = 'MP,PM', 
                                         city = 'PMPM', 
                                         country = 'US', 
                                         state = 'AL', 
                                         postal_code = '52252', ), 
-                                    tenants = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants(
+                                    tenants = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants(
                                         tenant = [
-                                            openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner(
+                                            entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner(
                                                 customer_id = '6953693', 
                                                 first_name = 'New', 
                                                 last_name = 'Lwersafd', 
                                                 customer_type = 'Primary', 
                                                 phone = [
-                                                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
+                                                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
                                                         phone_type = 'cell', 
                                                         phone_number = '2133211231', )
                                                     ], 
                                                 date_of_birth = '12/12/1950', 
                                                 ssn = '111223333', )
                                             ], ), 
-                                    transactions = openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions(
+                                    transactions = entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions(
                                         transaction = [
-                                            openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
+                                            entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
                                                 transaction_id = '145837339', 
                                                 transaction_date = '06/01/2017', 
                                                 description = 'Application Fee - Monthly Fee Posted from 06/01/2017 to 06/30/2017', 

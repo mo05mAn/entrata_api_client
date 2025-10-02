@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.move_in_lease_method import MoveInLeaseMethod
+from entrata_api_client.models.move_in_lease_method import MoveInLeaseMethod
 
 class TestMoveInLeaseMethod(unittest.TestCase):
     """MoveInLeaseMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestMoveInLeaseMethod(unittest.TestCase):
             return MoveInLeaseMethod(
                 name = 'moveInLease',
                 version = 'r1',
-                params = openapi_client.models.move_in_lease_method_params.moveInLease_method_params(
+                params = entrata_api_client.models.move_in_lease_method_params.moveInLease_method_params(
                     property_id = 123456, 
                     lease_id = 123456, )
             )

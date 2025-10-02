@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leads_success_response_result_prospects import SendLeadsSuccessResponseResultProspects
+from entrata_api_client.models.send_leads_success_response_result_prospects import SendLeadsSuccessResponseResultProspects
 
 class TestSendLeadsSuccessResponseResultProspects(unittest.TestCase):
     """SendLeadsSuccessResponseResultProspects unit test stubs"""
@@ -36,15 +36,15 @@ class TestSendLeadsSuccessResponseResultProspects(unittest.TestCase):
         if include_optional:
             return SendLeadsSuccessResponseResultProspects(
                 prospect = [
-                    openapi_client.models.send_leads_success_response_result_prospects_prospect_inner.sendLeadsSuccessResponse_result_prospects_prospect_inner(
+                    entrata_api_client.models.send_leads_success_response_result_prospects_prospect_inner.sendLeadsSuccessResponse_result_prospects_prospect_inner(
                         node = '1', 
                         application_id = '18112280', 
                         applicant_id = '20429586', 
                         status = 'Success', 
                         message = 'Lead inserted successfully.', 
-                        applicants = openapi_client.models.send_leads_success_response_result_prospects_prospect_inner_applicants.sendLeadsSuccessResponse_result_prospects_prospect_inner_applicants(
+                        applicants = entrata_api_client.models.send_leads_success_response_result_prospects_prospect_inner_applicants.sendLeadsSuccessResponse_result_prospects_prospect_inner_applicants(
                             applicant = [
-                                openapi_client.models.send_leads_success_response_result_prospects_prospect_inner_applicants_applicant_inner.sendLeadsSuccessResponse_result_prospects_prospect_inner_applicants_applicant_inner(
+                                entrata_api_client.models.send_leads_success_response_result_prospects_prospect_inner_applicants_applicant_inner.sendLeadsSuccessResponse_result_prospects_prospect_inner_applicants_applicant_inner(
                                     id = '20429586', 
                                     first_name = 'Gail', 
                                     last_name = 'Norberto', )

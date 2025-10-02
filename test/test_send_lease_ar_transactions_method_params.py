@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transactions_method_params import SendLeaseArTransactionsMethodParams
+from entrata_api_client.models.send_lease_ar_transactions_method_params import SendLeaseArTransactionsMethodParams
 
 class TestSendLeaseArTransactionsMethodParams(unittest.TestCase):
     """SendLeaseArTransactionsMethodParams unit test stubs"""

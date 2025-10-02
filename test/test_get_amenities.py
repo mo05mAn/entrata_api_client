@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities import GetAmenities
+from entrata_api_client.models.get_amenities import GetAmenities
 
 class TestGetAmenities(unittest.TestCase):
     """GetAmenities unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetAmenities(unittest.TestCase):
         model = GetAmenities()
         if include_optional:
             return GetAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_amenities_method.getAmenities_method(
+                method = entrata_api_client.models.get_amenities_method.getAmenities_method(
                     name = 'getAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.get_amenities_method_params.getAmenities_method_params(
+                    params = entrata_api_client.models.get_amenities_method_params.getAmenities_method_params(
                         property_id = 12345, 
                         unit_number = 1, 
                         charge_code_type_ids = '1,2,3', ), )
             )
         else:
             return GetAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_amenities_method.getAmenities_method(
+                method = entrata_api_client.models.get_amenities_method.getAmenities_method(
                     name = 'getAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.get_amenities_method_params.getAmenities_method_params(
+                    params = entrata_api_client.models.get_amenities_method_params.getAmenities_method_params(
                         property_id = 12345, 
                         unit_number = 1, 
                         charge_code_type_ids = '1,2,3', ), ),

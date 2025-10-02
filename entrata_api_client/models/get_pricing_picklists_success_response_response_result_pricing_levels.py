@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner import GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner import GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner
 from typing import Optional, Set
 from typing_extensions import Self
 

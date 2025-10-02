@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_media_success_response_response import GetPropertyMediaSuccessResponseResponse
+from entrata_api_client.models.get_property_media_success_response_response import GetPropertyMediaSuccessResponseResponse
 
 class TestGetPropertyMediaSuccessResponseResponse(unittest.TestCase):
     """GetPropertyMediaSuccessResponseResponse unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyMediaSuccessResponseResponse(unittest.TestCase):
         if include_optional:
             return GetPropertyMediaSuccessResponseResponse(
                 code = 200,
-                result = openapi_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
+                result = entrata_api_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
                     property_id = 123456, 
                     media = [
                         null
@@ -45,7 +45,7 @@ class TestGetPropertyMediaSuccessResponseResponse(unittest.TestCase):
         else:
             return GetPropertyMediaSuccessResponseResponse(
                 code = 200,
-                result = openapi_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
+                result = entrata_api_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
                     property_id = 123456, 
                     media = [
                         null

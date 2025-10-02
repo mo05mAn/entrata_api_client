@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_categories_success_response_result import GetJobCategoriesSuccessResponseResult
+from entrata_api_client.models.get_job_categories_success_response_result import GetJobCategoriesSuccessResponseResult
 
 class TestGetJobCategoriesSuccessResponseResult(unittest.TestCase):
     """GetJobCategoriesSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetJobCategoriesSuccessResponseResult(unittest.TestCase):
         model = GetJobCategoriesSuccessResponseResult()
         if include_optional:
             return GetJobCategoriesSuccessResponseResult(
-                job_categories = openapi_client.models.get_job_categories_success_response_result_job_categories.getJobCategoriesSuccessResponse_result_jobCategories(
+                job_categories = entrata_api_client.models.get_job_categories_success_response_result_job_categories.getJobCategoriesSuccessResponse_result_jobCategories(
                     job_category = [
-                        openapi_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
+                        entrata_api_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
                             id = '632', 
                             name = 'Brittany's Job Type', 
                             gl_account_id = '86997', )
@@ -45,9 +45,9 @@ class TestGetJobCategoriesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetJobCategoriesSuccessResponseResult(
-                job_categories = openapi_client.models.get_job_categories_success_response_result_job_categories.getJobCategoriesSuccessResponse_result_jobCategories(
+                job_categories = entrata_api_client.models.get_job_categories_success_response_result_job_categories.getJobCategoriesSuccessResponse_result_jobCategories(
                     job_category = [
-                        openapi_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
+                        entrata_api_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
                             id = '632', 
                             name = 'Brittany's Job Type', 
                             gl_account_id = '86997', )

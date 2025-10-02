@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddO
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories(
                 add_on_category = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
                         id = 275, 
                         name = 'Garage', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddO
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAddOnCategories(
                 add_on_category = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
                         id = 275, 
                         name = 'Garage', )
                     ],

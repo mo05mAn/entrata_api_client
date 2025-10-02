@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner import GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner import GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner
 
 class TestGetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultComplianceStatusesComplianceSta
         model = GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
                     id = '5', 
                     name = 'Compliant', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultComplianceStatusesComplianceStatusInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
                     id = '5', 
                     name = 'Compliant', ),
         )

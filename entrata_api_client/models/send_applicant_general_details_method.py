@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_applicant_general_details_method_params import SendApplicantGeneralDetailsMethodParams
+from entrata_api_client.models.send_applicant_general_details_method_params import SendApplicantGeneralDetailsMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

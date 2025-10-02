@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMove
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons(
                 move_out_reason = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
                         id = 116934, 
                         name = 'Unknown Skip Reason', 
                         move_out_type_id = 2, )
@@ -45,7 +45,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMove
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutReasons(
                 move_out_reason = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
                         id = 116934, 
                         name = 'Unknown Skip Reason', 
                         move_out_type_id = 2, )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_clients_success_response import GetAccessibleClientsSuccessResponse
+from entrata_api_client.models.get_accessible_clients_success_response import GetAccessibleClientsSuccessResponse
 
 class TestGetAccessibleClientsSuccessResponse(unittest.TestCase):
     """GetAccessibleClientsSuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetAccessibleClientsSuccessResponse(unittest.TestCase):
             return GetAccessibleClientsSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_accessible_clients_success_response_result.getAccessibleClientsSuccessResponse_result(
+                result = entrata_api_client.models.get_accessible_clients_success_response_result.getAccessibleClientsSuccessResponse_result(
                     orgs = [
-                        openapi_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
+                        entrata_api_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
                             subdomain = 'demoold', 
                             id = 235, 
                             name = 'Demo Account', )
@@ -49,9 +49,9 @@ class TestGetAccessibleClientsSuccessResponse(unittest.TestCase):
             return GetAccessibleClientsSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_accessible_clients_success_response_result.getAccessibleClientsSuccessResponse_result(
+                result = entrata_api_client.models.get_accessible_clients_success_response_result.getAccessibleClientsSuccessResponse_result(
                     orgs = [
-                        openapi_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
+                        entrata_api_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
                             subdomain = 'demoold', 
                             id = 235, 
                             name = 'Demo Account', )

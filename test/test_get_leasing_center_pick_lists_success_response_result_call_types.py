@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types import GetLeasingCenterPickListsSuccessResponseResultCallTypes
+from entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types import GetLeasingCenterPickListsSuccessResponseResultCallTypes
 
 class TestGetLeasingCenterPickListsSuccessResponseResultCallTypes(unittest.TestCase):
     """GetLeasingCenterPickListsSuccessResponseResultCallTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasingCenterPickListsSuccessResponseResultCallTypes(unittest.TestC
         if include_optional:
             return GetLeasingCenterPickListsSuccessResponseResultCallTypes(
                 call_type = [
-                    openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
+                    entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
                         id = '23', 
                         name = 'Call Center Emergency', )
                     ]
@@ -44,7 +44,7 @@ class TestGetLeasingCenterPickListsSuccessResponseResultCallTypes(unittest.TestC
         else:
             return GetLeasingCenterPickListsSuccessResponseResultCallTypes(
                 call_type = [
-                    openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
+                    entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
                         id = '23', 
                         name = 'Call Center Emergency', )
                     ],

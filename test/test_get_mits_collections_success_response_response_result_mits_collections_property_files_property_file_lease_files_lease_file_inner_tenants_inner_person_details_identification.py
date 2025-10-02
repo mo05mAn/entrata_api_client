@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),
@@ -43,7 +43,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsIdentification(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),

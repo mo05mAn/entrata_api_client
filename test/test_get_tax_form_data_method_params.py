@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data_method_params import GetTaxFormDataMethodParams
+from entrata_api_client.models.get_tax_form_data_method_params import GetTaxFormDataMethodParams
 
 class TestGetTaxFormDataMethodParams(unittest.TestCase):
     """GetTaxFormDataMethodParams unit test stubs"""

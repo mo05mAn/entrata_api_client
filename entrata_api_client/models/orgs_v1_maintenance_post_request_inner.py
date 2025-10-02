@@ -17,13 +17,13 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_inspection_templates import GetInspectionTemplates
-from openapi_client.models.get_inspections import GetInspections
-from openapi_client.models.get_work_order_pick_lists import GetWorkOrderPickLists
-from openapi_client.models.get_work_orders import GetWorkOrders
-from openapi_client.models.send_work_orders import SendWorkOrders
-from openapi_client.models.update_work_orders_r1 import UpdateWorkOrdersR1
-from openapi_client.models.update_work_orders_r2 import UpdateWorkOrdersR2
+from entrata_api_client.models.get_inspection_templates import GetInspectionTemplates
+from entrata_api_client.models.get_inspections import GetInspections
+from entrata_api_client.models.get_work_order_pick_lists import GetWorkOrderPickLists
+from entrata_api_client.models.get_work_orders import GetWorkOrders
+from entrata_api_client.models.send_work_orders import SendWorkOrders
+from entrata_api_client.models.update_work_orders_r1 import UpdateWorkOrdersR1
+from entrata_api_client.models.update_work_orders_r2 import UpdateWorkOrdersR2
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

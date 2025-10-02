@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeas
         model = GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies()
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies(
-                insurance_policy = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
+                insurance_policy = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
                     id = '110292', 
                     name = 'Name', 
                     unit_number = 'UK16', 
@@ -51,7 +51,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeas
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerInsurancePolicies(
-                insurance_policy = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
+                insurance_policy = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
                     id = '110292', 
                     name = 'Name', 
                     unit_number = 'UK16', 

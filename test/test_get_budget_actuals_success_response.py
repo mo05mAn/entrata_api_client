@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budget_actuals_success_response import GetBudgetActualsSuccessResponse
+from entrata_api_client.models.get_budget_actuals_success_response import GetBudgetActualsSuccessResponse
 
 class TestGetBudgetActualsSuccessResponse(unittest.TestCase):
     """GetBudgetActualsSuccessResponse unit test stubs"""
@@ -36,10 +36,10 @@ class TestGetBudgetActualsSuccessResponse(unittest.TestCase):
         if include_optional:
             return GetBudgetActualsSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.get_budget_actuals_success_response_result.getBudgetActualsSuccessResponse_result(
-                    budget_vs_actuals = openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
+                result = entrata_api_client.models.get_budget_actuals_success_response_result.getBudgetActualsSuccessResponse_result(
+                    budget_vs_actuals = entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
                         budget_vs_actual = [
-                            openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                            entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                                 account_name = 'Testgldetails', 
                                 account_id = '171693', 
                                 mtd_actual_income = '150.00', 
@@ -56,10 +56,10 @@ class TestGetBudgetActualsSuccessResponse(unittest.TestCase):
         else:
             return GetBudgetActualsSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.get_budget_actuals_success_response_result.getBudgetActualsSuccessResponse_result(
-                    budget_vs_actuals = openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
+                result = entrata_api_client.models.get_budget_actuals_success_response_result.getBudgetActualsSuccessResponse_result(
+                    budget_vs_actuals = entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
                         budget_vs_actual = [
-                            openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                            entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                                 account_name = 'Testgldetails', 
                                 account_id = '171693', 
                                 mtd_actual_income = '150.00', 

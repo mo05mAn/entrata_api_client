@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFile
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFile
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanFile(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFile unit test stubs"""
@@ -45,7 +45,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanFile(unittest.Tes
                 src = [
                     ''
                     ],
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
                     file_id = '345678', 
                     active = 'true', 
                     is_default = True, )

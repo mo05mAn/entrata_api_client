@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_purchase_orders_success_response_result import SendPurchaseOrdersSuccessResponseResult
+from entrata_api_client.models.send_purchase_orders_success_response_result import SendPurchaseOrdersSuccessResponseResult
 
 class TestSendPurchaseOrdersSuccessResponseResult(unittest.TestCase):
     """SendPurchaseOrdersSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendPurchaseOrdersSuccessResponseResult(unittest.TestCase):
         model = SendPurchaseOrdersSuccessResponseResult()
         if include_optional:
             return SendPurchaseOrdersSuccessResponseResult(
-                ap_headers = openapi_client.models.send_purchase_orders_success_response_result_ap_headers.sendPurchaseOrdersSuccessResponse_result_apHeaders(
+                ap_headers = entrata_api_client.models.send_purchase_orders_success_response_result_ap_headers.sendPurchaseOrdersSuccessResponse_result_apHeaders(
                     ap_header = [
-                        openapi_client.models.send_purchase_orders_success_response_result_ap_headers_ap_header_inner.sendPurchaseOrdersSuccessResponse_result_apHeaders_apHeader_inner(
+                        entrata_api_client.models.send_purchase_orders_success_response_result_ap_headers_ap_header_inner.sendPurchaseOrdersSuccessResponse_result_apHeaders_apHeader_inner(
                             node = 1, 
                             status = 'Success', 
                             ap_header_id = 7578703, 

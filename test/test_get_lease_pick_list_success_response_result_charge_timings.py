@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result_charge_timings import GetLeasePickListSuccessResponseResultChargeTimings
+from entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings import GetLeasePickListSuccessResponseResultChargeTimings
 
 class TestGetLeasePickListSuccessResponseResultChargeTimings(unittest.TestCase):
     """GetLeasePickListSuccessResponseResultChargeTimings unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasePickListSuccessResponseResultChargeTimings(unittest.TestCase):
         if include_optional:
             return GetLeasePickListSuccessResponseResultChargeTimings(
                 charge_timing = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
                         id = 302, 
                         name = 'Daily', )
                     ]
@@ -44,7 +44,7 @@ class TestGetLeasePickListSuccessResponseResultChargeTimings(unittest.TestCase):
         else:
             return GetLeasePickListSuccessResponseResultChargeTimings(
                 charge_timing = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
                         id = 302, 
                         name = 'Daily', )
                     ],

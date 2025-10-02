@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts import GetVendorsSuccessResponseResultVendorsVendorInnerAccounts
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts import GetVendorsSuccessResponseResultVendorsVendorInnerAccounts
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerAccounts(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerAccounts unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerAccounts(unittest.Tes
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerAccounts(
                 account = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts_account_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts_account_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts_account_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts_account_inner(
                         account_id = '123456', 
                         account_number = '123456', 
                         description = 'Test', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result import GetPropertiesSuccessResponseResult
+from entrata_api_client.models.get_properties_success_response_result import GetPropertiesSuccessResponseResult
 
 class TestGetPropertiesSuccessResponseResult(unittest.TestCase):
     """GetPropertiesSuccessResponseResult unit test stubs"""
@@ -35,55 +35,55 @@ class TestGetPropertiesSuccessResponseResult(unittest.TestCase):
         model = GetPropertiesSuccessResponseResult()
         if include_optional:
             return GetPropertiesSuccessResponseResult(
-                physical_property = openapi_client.models.get_properties_success_response_result_physical_property.getPropertiesSuccessResponse_result_PhysicalProperty(
+                physical_property = entrata_api_client.models.get_properties_success_response_result_physical_property.getPropertiesSuccessResponse_result_PhysicalProperty(
                     property = [
-                        openapi_client.models.get_properties_success_response_result_physical_property_property_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner(
+                        entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner(
                             property_id = '22090', 
                             parent_property_id = 653357, 
                             marketing_name = '55 Hundred', 
                             type = 'Apartment', 
                             general_id = 'co405', 
                             year_built = '2009', 
-                            short_description = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_short_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_ShortDescription(
+                            short_description = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_short_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_ShortDescription(
                                 b = 'LIVE AT THE SPEED OF LIGHT.', ), 
-                            long_description = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_long_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_LongDescription(
+                            long_description = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_long_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_LongDescription(
                                 b = '55 HUNDRED', ), 
                             web_site = 'http://www.55hundredlifestyle.com', 
-                            address = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address(
+                            address = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address(
                                 city = 'Arlington', 
                                 state = 'VA', 
                                 postal_code = '22204', 
                                 country = 'US', 
                                 email = 'devsupport@propertysolutions.lcl', 
-                                @attributes = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
+                                @attributes = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
                                     address_type = 'property', ), ), 
-                            post_months = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_post_months.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PostMonths(
+                            post_months = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_post_months.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PostMonths(
                                 ar_post_month = '01/2014', 
                                 ap_post_month = '01/2014', 
                                 gl_post_month = '01/2014', ), 
                             is_disabled = '0', 
                             is_featured_property = '0', 
-                            custom_keys_data = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData(
+                            custom_keys_data = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData(
                                 custom_key_data = [
-                                    openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
+                                    entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
                                         key = 'Key', 
                                         value = 'KeyValue', )
                                     ], ), 
-                            property_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours(
-                                holiday_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
-                                    holiday_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
+                            property_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours(
+                                holiday_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
+                                    holiday_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
                                         name = 'Columbus Day', 
                                         date = '10/08/2018', ), ), 
-                                office_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
-                                    office_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
+                                office_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
+                                    office_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
                                         day = 'Monday', 
                                         availability_type = 'Open', 
                                         open_time = '9:00 AM', 
                                         close_time = '6:30 PM', 
                                         lunch_start_time = '1:00 PM', 
                                         lunch_end_time = '2:00 PM', ), ), 
-                                pool_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
-                                    pool_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
+                                pool_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
+                                    pool_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
                                         day = 'Monday', 
                                         open_time = '8:20 AM', 
                                         close_time = '4:06 PM', ), ), ), )
@@ -91,55 +91,55 @@ class TestGetPropertiesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetPropertiesSuccessResponseResult(
-                physical_property = openapi_client.models.get_properties_success_response_result_physical_property.getPropertiesSuccessResponse_result_PhysicalProperty(
+                physical_property = entrata_api_client.models.get_properties_success_response_result_physical_property.getPropertiesSuccessResponse_result_PhysicalProperty(
                     property = [
-                        openapi_client.models.get_properties_success_response_result_physical_property_property_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner(
+                        entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner(
                             property_id = '22090', 
                             parent_property_id = 653357, 
                             marketing_name = '55 Hundred', 
                             type = 'Apartment', 
                             general_id = 'co405', 
                             year_built = '2009', 
-                            short_description = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_short_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_ShortDescription(
+                            short_description = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_short_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_ShortDescription(
                                 b = 'LIVE AT THE SPEED OF LIGHT.', ), 
-                            long_description = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_long_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_LongDescription(
+                            long_description = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_long_description.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_LongDescription(
                                 b = '55 HUNDRED', ), 
                             web_site = 'http://www.55hundredlifestyle.com', 
-                            address = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address(
+                            address = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address(
                                 city = 'Arlington', 
                                 state = 'VA', 
                                 postal_code = '22204', 
                                 country = 'US', 
                                 email = 'devsupport@propertysolutions.lcl', 
-                                @attributes = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
+                                @attributes = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
                                     address_type = 'property', ), ), 
-                            post_months = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_post_months.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PostMonths(
+                            post_months = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_post_months.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PostMonths(
                                 ar_post_month = '01/2014', 
                                 ap_post_month = '01/2014', 
                                 gl_post_month = '01/2014', ), 
                             is_disabled = '0', 
                             is_featured_property = '0', 
-                            custom_keys_data = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData(
+                            custom_keys_data = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData(
                                 custom_key_data = [
-                                    openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
+                                    entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
                                         key = 'Key', 
                                         value = 'KeyValue', )
                                     ], ), 
-                            property_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours(
-                                holiday_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
-                                    holiday_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
+                            property_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours(
+                                holiday_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
+                                    holiday_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
                                         name = 'Columbus Day', 
                                         date = '10/08/2018', ), ), 
-                                office_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
-                                    office_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
+                                office_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
+                                    office_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
                                         day = 'Monday', 
                                         availability_type = 'Open', 
                                         open_time = '9:00 AM', 
                                         close_time = '6:30 PM', 
                                         lunch_start_time = '1:00 PM', 
                                         lunch_end_time = '2:00 PM', ), ), 
-                                pool_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
-                                    pool_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
+                                pool_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
+                                    pool_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
                                         day = 'Monday', 
                                         open_time = '8:20 AM', 
                                         close_time = '4:06 PM', ), ), ), )

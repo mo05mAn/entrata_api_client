@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_invoices import UpdateInvoices
+from entrata_api_client.models.update_invoices import UpdateInvoices
 
 class TestUpdateInvoices(unittest.TestCase):
     """UpdateInvoices unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateInvoices(unittest.TestCase):
         model = UpdateInvoices()
         if include_optional:
             return UpdateInvoices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_invoices_method.updateInvoices_method(
+                method = entrata_api_client.models.update_invoices_method.updateInvoices_method(
                     name = 'updateInvoices', 
                     version = 'r1', 
-                    params = openapi_client.models.update_invoices_method_params.updateInvoices_method_params(
+                    params = entrata_api_client.models.update_invoices_method_params.updateInvoices_method_params(
                         id = 12345, 
                         invoice_payment_id = 12345, 
                         payment_amount = 100, 
@@ -54,12 +54,12 @@ class TestUpdateInvoices(unittest.TestCase):
             )
         else:
             return UpdateInvoices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_invoices_method.updateInvoices_method(
+                method = entrata_api_client.models.update_invoices_method.updateInvoices_method(
                     name = 'updateInvoices', 
                     version = 'r1', 
-                    params = openapi_client.models.update_invoices_method_params.updateInvoices_method_params(
+                    params = entrata_api_client.models.update_invoices_method_params.updateInvoices_method_params(
                         id = 12345, 
                         invoice_payment_id = 12345, 
                         payment_amount = 100, 

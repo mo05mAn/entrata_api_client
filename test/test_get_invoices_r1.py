@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r1 import GetInvoicesR1
+from entrata_api_client.models.get_invoices_r1 import GetInvoicesR1
 
 class TestGetInvoicesR1(unittest.TestCase):
     """GetInvoicesR1 unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetInvoicesR1(unittest.TestCase):
         model = GetInvoicesR1()
         if include_optional:
             return GetInvoicesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_invoices_r1_method.getInvoices_r1_method(
+                method = entrata_api_client.models.get_invoices_r1_method.getInvoices_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
+                    params = entrata_api_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
                         ids = 56, 
                         invoice_number = 12345, 
                         vendor_id = 12345, 
@@ -57,12 +57,12 @@ class TestGetInvoicesR1(unittest.TestCase):
             )
         else:
             return GetInvoicesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_invoices_r1_method.getInvoices_r1_method(
+                method = entrata_api_client.models.get_invoices_r1_method.getInvoices_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
+                    params = entrata_api_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
                         ids = 56, 
                         invoice_number = 12345, 
                         vendor_id = 12345, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_method_params import GetEvictedLeasesMethodParams
+from entrata_api_client.models.get_evicted_leases_method_params import GetEvictedLeasesMethodParams
 
 class TestGetEvictedLeasesMethodParams(unittest.TestCase):
     """GetEvictedLeasesMethodParams unit test stubs"""

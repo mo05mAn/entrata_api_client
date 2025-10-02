@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths
+from entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths
 
 class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths(unittest.TestCase):
     """GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInn
         if include_optional:
             return GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths(
                 budget_month = [
-                    openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
+                    entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
                         month = '01/01/2019', 
                         amount = '100', 
                         gl_dimension_id = '463', )
@@ -45,7 +45,7 @@ class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInn
         else:
             return GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerBudgetMonths(
                 budget_month = [
-                    openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
+                    entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
                         month = '01/01/2019', 
                         amount = '100', 
                         gl_dimension_id = '463', )

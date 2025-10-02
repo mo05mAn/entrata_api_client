@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_work_orders import SendWorkOrders
+from entrata_api_client.models.send_work_orders import SendWorkOrders
 
 class TestSendWorkOrders(unittest.TestCase):
     """SendWorkOrders unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendWorkOrders(unittest.TestCase):
         model = SendWorkOrders()
         if include_optional:
             return SendWorkOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_work_orders_method.sendWorkOrders_method(
+                method = entrata_api_client.models.send_work_orders_method.sendWorkOrders_method(
                     name = 'sendWorkOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
+                    params = entrata_api_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
                         property_id = 123456, 
                         customer_id = 123456, 
                         lease_id = 123456, 
@@ -69,12 +69,12 @@ class TestSendWorkOrders(unittest.TestCase):
             )
         else:
             return SendWorkOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_work_orders_method.sendWorkOrders_method(
+                method = entrata_api_client.models.send_work_orders_method.sendWorkOrders_method(
                     name = 'sendWorkOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
+                    params = entrata_api_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
                         property_id = 123456, 
                         customer_id = 123456, 
                         lease_id = 123456, 

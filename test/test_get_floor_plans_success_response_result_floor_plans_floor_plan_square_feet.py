@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet(unitte
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanSquareFeet(
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
                     max = '900', 
                     min = '900', )
             )

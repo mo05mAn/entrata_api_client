@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_lease_method_params_occupants import UpdateLeaseMethodParamsOccupants
+from entrata_api_client.models.update_lease_method_params_occupants import UpdateLeaseMethodParamsOccupants
 
 class TestUpdateLeaseMethodParamsOccupants(unittest.TestCase):
     """UpdateLeaseMethodParamsOccupants unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateLeaseMethodParamsOccupants(unittest.TestCase):
         if include_optional:
             return UpdateLeaseMethodParamsOccupants(
                 occupant = [
-                    openapi_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
+                    entrata_api_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
                         first_name = 'ABC', 
                         last_name = 'ABC', )
                     ]

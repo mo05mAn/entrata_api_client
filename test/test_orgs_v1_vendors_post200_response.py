@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_vendors_post200_response import OrgsV1VendorsPost200Response
+from entrata_api_client.models.orgs_v1_vendors_post200_response import OrgsV1VendorsPost200Response
 
 class TestOrgsV1VendorsPost200Response(unittest.TestCase):
     """OrgsV1VendorsPost200Response unit test stubs"""
@@ -37,10 +37,10 @@ class TestOrgsV1VendorsPost200Response(unittest.TestCase):
             return OrgsV1VendorsPost200Response(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.void_ap_payments_success_response_result.voidApPaymentsSuccessResponse_result(
-                    ap_payments = openapi_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
+                result = entrata_api_client.models.void_ap_payments_success_response_result.voidApPaymentsSuccessResponse_result(
+                    ap_payments = entrata_api_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
                         ap_payment = [
-                            openapi_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
+                            entrata_api_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'Payment voided successfully.', 
@@ -52,10 +52,10 @@ class TestOrgsV1VendorsPost200Response(unittest.TestCase):
             return OrgsV1VendorsPost200Response(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.void_ap_payments_success_response_result.voidApPaymentsSuccessResponse_result(
-                    ap_payments = openapi_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
+                result = entrata_api_client.models.void_ap_payments_success_response_result.voidApPaymentsSuccessResponse_result(
+                    ap_payments = entrata_api_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
                         ap_payment = [
-                            openapi_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
+                            entrata_api_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'Payment voided successfully.', 

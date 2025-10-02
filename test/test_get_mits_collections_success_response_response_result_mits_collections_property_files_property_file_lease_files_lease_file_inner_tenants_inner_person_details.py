@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
                         id_type = 'Customer ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 
                     id_value = 30279157, ),
-                name = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_name.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Name(
+                name = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_name.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Name(
                     first_name = '0011Payment', 
                     last_name = '0011Ree', ),
                 address = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Address_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Address_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                             address_type = 'other', ), 
                         description = 'Primary address', 
                         address = '201 SE SCENIC VIEW DR, df, df', 
@@ -57,26 +57,26 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
                         email = 'ppakhale+01@xento.com', )
                     ],
                 phone = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner__attributes(
                             phone_type = 'cell', ), 
                         phone_number = '6505541317', )
                     ]
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetails(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Identification__attributes(
                         id_type = 'Customer ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 
                     id_value = 30279157, ),
-                name = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_name.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Name(
+                name = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_name.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Name(
                     first_name = '0011Payment', 
                     last_name = '0011Ree', ),
                 address = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Address_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Address_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                             address_type = 'other', ), 
                         description = 'Primary address', 
                         address = '201 SE SCENIC VIEW DR, df, df', 
@@ -87,8 +87,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
                         email = 'ppakhale+01@xento.com', )
                     ],
                 phone = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Tenants_inner_PersonDetails_Phone_inner__attributes(
                             phone_type = 'cell', ), 
                         phone_number = '6505541317', )
                     ],

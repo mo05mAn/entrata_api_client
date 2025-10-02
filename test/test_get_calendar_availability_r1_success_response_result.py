@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r1_success_response_result import GetCalendarAvailabilityR1SuccessResponseResult
+from entrata_api_client.models.get_calendar_availability_r1_success_response_result import GetCalendarAvailabilityR1SuccessResponseResult
 
 class TestGetCalendarAvailabilityR1SuccessResponseResult(unittest.TestCase):
     """GetCalendarAvailabilityR1SuccessResponseResult unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetCalendarAvailabilityR1SuccessResponseResult(unittest.TestCase):
         model = GetCalendarAvailabilityR1SuccessResponseResult()
         if include_optional:
             return GetCalendarAvailabilityR1SuccessResponseResult(
-                property_calendar_settings = openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings(
+                property_calendar_settings = entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings(
                     property_id = '123456', 
                     appointment_length = 90, 
                     self_guided_tour_appointment_length = 30, 
                     min_lead_time_tour = '8 Hours', 
                     self_guided_tour_min_lead_time = '15 Minutes', 
-                    availabilities = openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities(
+                    availabilities = entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities(
                         availability = [
-                            openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities_availability_inner(
+                            entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities_availability_inner(
                                 day = 'Monday', 
                                 start_time = '09:00:00MST', 
                                 end_time = '17:00:00MST', 
                                 simultaneous_appointment_limit = '4', )
                             ], ), 
-                    self_guided_tour_availabilities = openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_selfGuidedTourAvailabilities(), ),
-                property_calendar_availability = openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability(
-                    available_hours = openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability_availableHours(
+                    self_guided_tour_availabilities = entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_selfGuidedTourAvailabilities(), ),
+                property_calendar_availability = entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability(
+                    available_hours = entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability_availableHours(
                         available_hour = [
-                            openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours_available_hour_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability_availableHours_availableHour_inner(
+                            entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_availability_available_hours_available_hour_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarAvailability_availableHours_availableHour_inner(
                                 date = '09/23/2019', 
                                 start_time = '09:00:00MST', 
                                 end_time = '17:00:00MST', )

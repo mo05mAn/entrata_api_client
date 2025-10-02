@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_success_response import GetUnitTypesSuccessResponse
+from entrata_api_client.models.get_unit_types_success_response import GetUnitTypesSuccessResponse
 
 class TestGetUnitTypesSuccessResponse(unittest.TestCase):
     """GetUnitTypesSuccessResponse unit test stubs"""
@@ -35,10 +35,10 @@ class TestGetUnitTypesSuccessResponse(unittest.TestCase):
         model = GetUnitTypesSuccessResponse()
         if include_optional:
             return GetUnitTypesSuccessResponse(
-                response = openapi_client.models.get_unit_types_success_response_response.getUnitTypesSuccessResponse_response(
+                response = entrata_api_client.models.get_unit_types_success_response_response.getUnitTypesSuccessResponse_response(
                     request_id = 15, 
-                    result = openapi_client.models.get_unit_types_success_response_response_result.getUnitTypesSuccessResponse_response_result(
-                        property = openapi_client.models.get_unit_types_success_response_response_result_property.getUnitTypesSuccessResponse_response_result_property(
+                    result = entrata_api_client.models.get_unit_types_success_response_response_result.getUnitTypesSuccessResponse_response_result(
+                        property = entrata_api_client.models.get_unit_types_success_response_response_result_property.getUnitTypesSuccessResponse_response_result_property(
                             type = 'Apartment', 
                             property_id = '00000', 
                             parent_property_id = '0000', 
@@ -47,17 +47,17 @@ class TestGetUnitTypesSuccessResponse(unittest.TestCase):
                             year_built = '0000', 
                             short_description = 'This is short description', 
                             long_description = 'This is Long Description', ), 
-                        unit_types = openapi_client.models.get_unit_types_success_response_response_result_unit_types.getUnitTypesSuccessResponse_response_result_unitTypes(
+                        unit_types = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types.getUnitTypesSuccessResponse_response_result_unitTypes(
                             unit_type = [
-                                openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner(
-                                    identification_type = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType(
-                                        @attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
+                                entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner(
+                                    identification_type = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType(
+                                        @attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
                                             id_type = 'unitTypeId', ), 
                                         id_value = '0000', ), 
                                     name = 'test', 
                                     floorplan = {
-                                        'key' : openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value(
-                                            @attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
+                                        'key' : entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value(
+                                            @attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
                                                 id = '543312', ), 
                                             @value = 'FPN', )
                                         }, 
@@ -67,10 +67,10 @@ class TestGetUnitTypesSuccessResponse(unittest.TestCase):
                                     max_square_feet = '0000', 
                                     min_market_rent = '0000', 
                                     max_market_rent = '0000', 
-                                    rent = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent(
+                                    rent = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent(
                                         term_rent = [
-                                            openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner(
-                                                @attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
+                                            entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner(
+                                                @attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
                                                     lease_term = '6 Months', 
                                                     lease_term_id = 19125, 
                                                     lease_term_name = '6 months', 

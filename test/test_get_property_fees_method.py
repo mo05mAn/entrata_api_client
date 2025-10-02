@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_fees_method import GetPropertyFeesMethod
+from entrata_api_client.models.get_property_fees_method import GetPropertyFeesMethod
 
 class TestGetPropertyFeesMethod(unittest.TestCase):
     """GetPropertyFeesMethod unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyFeesMethod(unittest.TestCase):
         if include_optional:
             return GetPropertyFeesMethod(
                 name = 'getPropertyFees',
-                params = openapi_client.models.get_property_fees_method_params.getPropertyFees_method_params(
+                params = entrata_api_client.models.get_property_fees_method_params.getPropertyFees_method_params(
                     property_id = '12345', )
             )
         else:

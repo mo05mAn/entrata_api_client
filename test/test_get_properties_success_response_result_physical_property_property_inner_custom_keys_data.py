@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomKeysData
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomKeysData
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomKeysData(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomKeysData unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomK
         if include_optional:
             return GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerCustomKeysData(
                 custom_key_data = [
-                    openapi_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
+                    entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_custom_keys_data_custom_key_data_inner.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_CustomKeysData_CustomKeyData_inner(
                         key = 'Key', 
                         value = 'KeyValue', )
                     ]

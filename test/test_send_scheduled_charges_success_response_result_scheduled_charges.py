@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges import SendScheduledChargesSuccessResponseResultScheduledCharges
+from entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges import SendScheduledChargesSuccessResponseResultScheduledCharges
 
 class TestSendScheduledChargesSuccessResponseResultScheduledCharges(unittest.TestCase):
     """SendScheduledChargesSuccessResponseResultScheduledCharges unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendScheduledChargesSuccessResponseResultScheduledCharges(unittest.Tes
         if include_optional:
             return SendScheduledChargesSuccessResponseResultScheduledCharges(
                 scheduled_charge = [
-                    openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                    entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
                         id = '1234', 
                         node = '1', 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestSendScheduledChargesSuccessResponseResultScheduledCharges(unittest.Tes
         else:
             return SendScheduledChargesSuccessResponseResultScheduledCharges(
                 scheduled_charge = [
-                    openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                    entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
                         id = '1234', 
                         node = '1', 
                         status = 'Success', 

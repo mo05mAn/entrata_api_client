@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response import GetVendorLocationsSuccessResponse
+from entrata_api_client.models.get_vendor_locations_success_response import GetVendorLocationsSuccessResponse
 
 class TestGetVendorLocationsSuccessResponse(unittest.TestCase):
     """GetVendorLocationsSuccessResponse unit test stubs"""
@@ -37,26 +37,26 @@ class TestGetVendorLocationsSuccessResponse(unittest.TestCase):
             return GetVendorLocationsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_vendor_locations_success_response_result.getVendorLocationsSuccessResponse_result(
-                    locations = openapi_client.models.get_vendor_locations_success_response_result_locations.getVendorLocationsSuccessResponse_result_Locations(
+                result = entrata_api_client.models.get_vendor_locations_success_response_result.getVendorLocationsSuccessResponse_result(
+                    locations = entrata_api_client.models.get_vendor_locations_success_response_result_locations.getVendorLocationsSuccessResponse_result_Locations(
                         location = [
-                            openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner(
+                            entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner(
                                 vendor_id = '2726', 
                                 vendor_name = 'Test for Kirk', 
                                 status = 'Active', 
                                 term = 'Net', 
-                                legal_entity = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
+                                legal_entity = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
                                     @value = 'Test for Kirk', 
-                                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                                         id = '470', ), ), 
-                                properties = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
-                                    property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                                properties = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
+                                    property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                                             id = '19463', 
                                             name = '22 Exchange', ), ), ), 
-                                contacts = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
+                                contacts = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
                                     contact = [
-                                        openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
+                                        entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
                                             name = 'Check', 
                                             street_line1 = '125 Test', 
                                             city = '84062', 
@@ -64,28 +64,28 @@ class TestGetVendorLocationsSuccessResponse(unittest.TestCase):
                                             country = 'US', 
                                             phone_number = '801-358-0099', 
                                             email_address = 'dunnkster@yahoo.com', 
-                                            @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
+                                            @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
                                                 type = 'Vendor_Remittence', ), )
                                         ], ), 
-                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
+                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
                                     id = '123', 
                                     name = 'Corporate', ), )
                             ], ), 
-                    insurances = openapi_client.models.get_vendor_locations_success_response_result_insurances.getVendorLocationsSuccessResponse_result_Insurances(
+                    insurances = entrata_api_client.models.get_vendor_locations_success_response_result_insurances.getVendorLocationsSuccessResponse_result_Insurances(
                         insurance = [
-                            openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
+                            entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
                                 vendor_id = '53813', 
-                                policy_types = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
-                                    policy_type = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
+                                policy_types = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
+                                    policy_type = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
                                         type = 'Workers Compensation', 
                                         policy_number = 'P200', 
                                         expiration = '03/13/2015', 
-                                        coverages = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
-                                            coverage = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
-                                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
+                                        coverages = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
+                                            coverage = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
+                                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
                                                     item = 'Disease - Policy Limit', 
                                                     amount = '200.00', ), ), ), ), ), 
-                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
+                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
                                     id = '1031', 
                                     provider = 'Provider 7', ), )
                             ], ), )
@@ -94,26 +94,26 @@ class TestGetVendorLocationsSuccessResponse(unittest.TestCase):
             return GetVendorLocationsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_vendor_locations_success_response_result.getVendorLocationsSuccessResponse_result(
-                    locations = openapi_client.models.get_vendor_locations_success_response_result_locations.getVendorLocationsSuccessResponse_result_Locations(
+                result = entrata_api_client.models.get_vendor_locations_success_response_result.getVendorLocationsSuccessResponse_result(
+                    locations = entrata_api_client.models.get_vendor_locations_success_response_result_locations.getVendorLocationsSuccessResponse_result_Locations(
                         location = [
-                            openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner(
+                            entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner(
                                 vendor_id = '2726', 
                                 vendor_name = 'Test for Kirk', 
                                 status = 'Active', 
                                 term = 'Net', 
-                                legal_entity = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
+                                legal_entity = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
                                     @value = 'Test for Kirk', 
-                                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                                         id = '470', ), ), 
-                                properties = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
-                                    property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                                properties = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
+                                    property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                                             id = '19463', 
                                             name = '22 Exchange', ), ), ), 
-                                contacts = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
+                                contacts = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
                                     contact = [
-                                        openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
+                                        entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
                                             name = 'Check', 
                                             street_line1 = '125 Test', 
                                             city = '84062', 
@@ -121,28 +121,28 @@ class TestGetVendorLocationsSuccessResponse(unittest.TestCase):
                                             country = 'US', 
                                             phone_number = '801-358-0099', 
                                             email_address = 'dunnkster@yahoo.com', 
-                                            @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
+                                            @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
                                                 type = 'Vendor_Remittence', ), )
                                         ], ), 
-                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
+                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
                                     id = '123', 
                                     name = 'Corporate', ), )
                             ], ), 
-                    insurances = openapi_client.models.get_vendor_locations_success_response_result_insurances.getVendorLocationsSuccessResponse_result_Insurances(
+                    insurances = entrata_api_client.models.get_vendor_locations_success_response_result_insurances.getVendorLocationsSuccessResponse_result_Insurances(
                         insurance = [
-                            openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
+                            entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
                                 vendor_id = '53813', 
-                                policy_types = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
-                                    policy_type = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
+                                policy_types = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
+                                    policy_type = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
                                         type = 'Workers Compensation', 
                                         policy_number = 'P200', 
                                         expiration = '03/13/2015', 
-                                        coverages = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
-                                            coverage = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
-                                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
+                                        coverages = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
+                                            coverage = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
+                                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
                                                     item = 'Disease - Policy Limit', 
                                                     amount = '200.00', ), ), ), ), ), 
-                                @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
+                                @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
                                     id = '1031', 
                                     provider = 'Provider 7', ), )
                             ], ), ),

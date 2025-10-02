@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner import SendBudgetedRentSuccessResponseResultPricingInner
+from entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner import SendBudgetedRentSuccessResponseResultPricingInner
 from typing import Optional, Set
 from typing_extensions import Self
 

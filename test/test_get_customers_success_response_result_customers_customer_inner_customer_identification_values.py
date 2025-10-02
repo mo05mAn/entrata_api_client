@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values import GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues
+from entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values import GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues
 
 class TestGetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues(unittest.TestCase):
     """GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentif
         if include_optional:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues(
                 customer_identification_value = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
                         id = 6789, 
                         value = 'test123', 
                         company_identification_type_id = 12345, )
@@ -45,7 +45,7 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentif
         else:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerIdentificationValues(
                 customer_identification_value = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
                         id = 6789, 
                         value = 'test123', 
                         company_identification_type_id = 12345, )

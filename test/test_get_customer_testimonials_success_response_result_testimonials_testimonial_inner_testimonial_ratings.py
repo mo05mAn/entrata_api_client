@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings import GetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings
+from entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings import GetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings
 
 class TestGetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings(unittest.TestCase):
     """GetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInn
         if include_optional:
             return GetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings(
                 testimonial_rating = [
-                    openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
+                    entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
                         type = 'Overall', 
                         rating = '5', )
                     ]
@@ -44,7 +44,7 @@ class TestGetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInn
         else:
             return GetCustomerTestimonialsSuccessResponseResultTestimonialsTestimonialInnerTestimonialRatings(
                 testimonial_rating = [
-                    openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
+                    entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
                         type = 'Overall', 
                         rating = '5', )
                     ],

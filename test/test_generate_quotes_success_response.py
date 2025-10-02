@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.generate_quotes_success_response import GenerateQuotesSuccessResponse
+from entrata_api_client.models.generate_quotes_success_response import GenerateQuotesSuccessResponse
 
 class TestGenerateQuotesSuccessResponse(unittest.TestCase):
     """GenerateQuotesSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGenerateQuotesSuccessResponse(unittest.TestCase):
             return GenerateQuotesSuccessResponse(
                 request_id = '15',
                 code = '300',
-                result = openapi_client.models.generate_quotes_success_response_result.generateQuotesSuccessResponse_result(
-                    quotes = openapi_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
+                result = entrata_api_client.models.generate_quotes_success_response_result.generateQuotesSuccessResponse_result(
+                    quotes = entrata_api_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
                         quote = [
-                            openapi_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
+                            entrata_api_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 quote_id = '123', 
@@ -51,10 +51,10 @@ class TestGenerateQuotesSuccessResponse(unittest.TestCase):
             return GenerateQuotesSuccessResponse(
                 request_id = '15',
                 code = '300',
-                result = openapi_client.models.generate_quotes_success_response_result.generateQuotesSuccessResponse_result(
-                    quotes = openapi_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
+                result = entrata_api_client.models.generate_quotes_success_response_result.generateQuotesSuccessResponse_result(
+                    quotes = entrata_api_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
                         quote = [
-                            openapi_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
+                            entrata_api_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 quote_id = '123', 

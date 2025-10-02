@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.customers_api import CustomersApi
+from entrata_api_client.api.customers_api import CustomersApi
 
 
 class TestCustomersApi(unittest.TestCase):

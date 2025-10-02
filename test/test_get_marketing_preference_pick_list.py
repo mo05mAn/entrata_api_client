@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preference_pick_list import GetMarketingPreferencePickList
+from entrata_api_client.models.get_marketing_preference_pick_list import GetMarketingPreferencePickList
 
 class TestGetMarketingPreferencePickList(unittest.TestCase):
     """GetMarketingPreferencePickList unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetMarketingPreferencePickList(unittest.TestCase):
         model = GetMarketingPreferencePickList()
         if include_optional:
             return GetMarketingPreferencePickList(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_marketing_preference_pick_list_method.getMarketingPreferencePickList_method(
+                method = entrata_api_client.models.get_marketing_preference_pick_list_method.getMarketingPreferencePickList_method(
                     name = 'getMarketingPreferencePickList', 
                     version = 'r1', )
             )
         else:
             return GetMarketingPreferencePickList(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_marketing_preference_pick_list_method.getMarketingPreferencePickList_method(
+                method = entrata_api_client.models.get_marketing_preference_pick_list_method.getMarketingPreferencePickList_method(
                     name = 'getMarketingPreferencePickList', 
                     version = 'r1', ),
         )

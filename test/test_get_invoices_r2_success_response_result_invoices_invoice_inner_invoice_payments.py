@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments
+from entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments
 
 class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments(unittest.TestCase):
     """GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments(
         if include_optional:
             return GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments(
                 invoice_payment = [
-                    openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
+                    entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
                         payment_id = 'xxxxx', 
                         payment_bank_id = '1234', 
                         payment_bank_name = 'Wells Fargo', 
@@ -58,7 +58,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments(
         else:
             return GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerInvoicePayments(
                 invoice_payment = [
-                    openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
+                    entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
                         payment_id = 'xxxxx', 
                         payment_bank_id = '1234', 
                         payment_bank_name = 'Wells Fargo', 

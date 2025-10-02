@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_call_logs_success_response import GetCallLogsSuccessResponse
+from entrata_api_client.models.get_call_logs_success_response import GetCallLogsSuccessResponse
 
 class TestGetCallLogsSuccessResponse(unittest.TestCase):
     """GetCallLogsSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGetCallLogsSuccessResponse(unittest.TestCase):
             return GetCallLogsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_call_logs_success_response_result.getCallLogsSuccessResponse_result(
-                    calls = openapi_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
+                result = entrata_api_client.models.get_call_logs_success_response_result.getCallLogsSuccessResponse_result(
+                    calls = entrata_api_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
                         call = [
-                            openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                            entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                                 id = '1234', 
                                 caller_name = 'test caller', 
                                 application_id = '1234', 
@@ -68,10 +68,10 @@ class TestGetCallLogsSuccessResponse(unittest.TestCase):
             return GetCallLogsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_call_logs_success_response_result.getCallLogsSuccessResponse_result(
-                    calls = openapi_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
+                result = entrata_api_client.models.get_call_logs_success_response_result.getCallLogsSuccessResponse_result(
+                    calls = entrata_api_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
                         call = [
-                            openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                            entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                                 id = '1234', 
                                 caller_name = 'test caller', 
                                 application_id = '1234', 

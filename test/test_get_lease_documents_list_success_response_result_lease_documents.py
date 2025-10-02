@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_list_success_response_result_lease_documents import GetLeaseDocumentsListSuccessResponseResultLeaseDocuments
+from entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents import GetLeaseDocumentsListSuccessResponseResultLeaseDocuments
 
 class TestGetLeaseDocumentsListSuccessResponseResultLeaseDocuments(unittest.TestCase):
     """GetLeaseDocumentsListSuccessResponseResultLeaseDocuments unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseDocumentsListSuccessResponseResultLeaseDocuments(unittest.Test
         if include_optional:
             return GetLeaseDocumentsListSuccessResponseResultLeaseDocuments(
                 lease_document = [
-                    openapi_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
+                    entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
                         id = 13862207, 
                         type = 'eSign: Lease (eSign: Renewal Lease - LP)', 
                         name = 'lease_document_13155819_1535017430.pdf', 
@@ -48,7 +48,7 @@ class TestGetLeaseDocumentsListSuccessResponseResultLeaseDocuments(unittest.Test
         else:
             return GetLeaseDocumentsListSuccessResponseResultLeaseDocuments(
                 lease_document = [
-                    openapi_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
+                    entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
                         id = 13862207, 
                         type = 'eSign: Lease (eSign: Renewal Lease - LP)', 
                         name = 'lease_document_13155819_1535017430.pdf', 

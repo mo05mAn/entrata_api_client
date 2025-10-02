@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferences
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferences
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferences(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferences unit test stubs"""
@@ -39,9 +39,9 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
                 desired_lease_terms = '10',
                 desired_lease_term_name = '10 Months',
                 amenities = [
-                    openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner(
+                    entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner(
                         description = 'Abhishek_test_amenities', 
-                        @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner__attributes(
                             amenity_type = 'Other', ), )
                     ]
             )

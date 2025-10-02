@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue
+from entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue
 
 class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue(unittest.TestCase):
     """GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorpl
         model = GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue()
         if include_optional:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
                     id = '543312', ),
                 value = 'FPN'
             )
         else:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerFloorplanValue(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_floorplan_value__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_floorplan_value__attributes(
                     id = '543312', ),
                 value = 'FPN',
         )

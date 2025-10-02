@@ -17,14 +17,14 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_customer_testimonials import GetCustomerTestimonials
-from openapi_client.models.get_customers import GetCustomers
-from openapi_client.models.get_testimonial_pick_lists import GetTestimonialPickLists
-from openapi_client.models.search_customers import SearchCustomers
-from openapi_client.models.send_customer_testimonials import SendCustomerTestimonials
-from openapi_client.models.update_customer_testimonials import UpdateCustomerTestimonials
-from openapi_client.models.update_customers import UpdateCustomers
-from openapi_client.models.update_property_response import UpdatePropertyResponse
+from entrata_api_client.models.get_customer_testimonials import GetCustomerTestimonials
+from entrata_api_client.models.get_customers import GetCustomers
+from entrata_api_client.models.get_testimonial_pick_lists import GetTestimonialPickLists
+from entrata_api_client.models.search_customers import SearchCustomers
+from entrata_api_client.models.send_customer_testimonials import SendCustomerTestimonials
+from entrata_api_client.models.update_customer_testimonials import UpdateCustomerTestimonials
+from entrata_api_client.models.update_customers import UpdateCustomers
+from entrata_api_client.models.update_property_response import UpdatePropertyResponse
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_rentable_items_method import GetRentableItemsMethod
+from entrata_api_client.models.get_rentable_items_method import GetRentableItemsMethod
 
 class TestGetRentableItemsMethod(unittest.TestCase):
     """GetRentableItemsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetRentableItemsMethod(unittest.TestCase):
             return GetRentableItemsMethod(
                 name = 'getRentableItems',
                 version = 'r1',
-                params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                     property_id = 12345, )
             )
         else:

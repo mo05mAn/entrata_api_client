@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner import GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInner
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner import GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInner
 from typing import Optional, Set
 from typing_extensions import Self
 

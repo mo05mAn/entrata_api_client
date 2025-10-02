@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_lease_ar_transactions_method_params import SendLeaseArTransactionsMethodParams
+from entrata_api_client.models.send_lease_ar_transactions_method_params import SendLeaseArTransactionsMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

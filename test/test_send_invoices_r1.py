@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r1 import SendInvoicesR1
+from entrata_api_client.models.send_invoices_r1 import SendInvoicesR1
 
 class TestSendInvoicesR1(unittest.TestCase):
     """SendInvoicesR1 unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendInvoicesR1(unittest.TestCase):
         model = SendInvoicesR1()
         if include_optional:
             return SendInvoicesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_invoices_r1_method.sendInvoices_r1_method(
+                method = entrata_api_client.models.send_invoices_r1_method.sendInvoices_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_invoices_r1_method_params.sendInvoices_r1_method_params(
+                    params = entrata_api_client.models.send_invoices_r1_method_params.sendInvoices_r1_method_params(
                         ap_payee_id = 12345, 
                         ap_payee_location_id = 12345, 
                         invoice_total = 2000, 
@@ -67,12 +67,12 @@ class TestSendInvoicesR1(unittest.TestCase):
             )
         else:
             return SendInvoicesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_invoices_r1_method.sendInvoices_r1_method(
+                method = entrata_api_client.models.send_invoices_r1_method.sendInvoices_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_invoices_r1_method_params.sendInvoices_r1_method_params(
+                    params = entrata_api_client.models.send_invoices_r1_method_params.sendInvoices_r1_method_params(
                         ap_payee_id = 12345, 
                         ap_payee_location_id = 12345, 
                         invoice_total = 2000, 

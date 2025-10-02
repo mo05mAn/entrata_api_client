@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner import UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner
+from entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner import UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner
 
 class TestUpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner(unittest.TestCase):
     """UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestUpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInne
         model = UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner()
         if include_optional:
             return UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner(
-                attributes = openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
+                attributes = entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
                     work_order_id = '1234', 
                     status = 'Success', 
                     message = 'Work order updated successfully.', )
             )
         else:
             return UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrdersWorkOrderInner(
-                attributes = openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
+                attributes = entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
                     work_order_id = '1234', 
                     status = 'Success', 
                     message = 'Work order updated successfully.', ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_method_params_special_group_specials_inner import SendSpecialGroupMethodParamsSpecialGroupSpecialsInner
+from entrata_api_client.models.send_special_group_method_params_special_group_specials_inner import SendSpecialGroupMethodParamsSpecialGroupSpecialsInner
 
 class TestSendSpecialGroupMethodParamsSpecialGroupSpecialsInner(unittest.TestCase):
     """SendSpecialGroupMethodParamsSpecialGroupSpecialsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestSendSpecialGroupMethodParamsSpecialGroupSpecialsInner(unittest.TestCas
                 special_name = 'conccession1',
                 gift_value = '0.00',
                 rates = [
-                    openapi_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
+                    entrata_api_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
                         ar_code_id = '123456', 
                         ar_trigger_id = '111', 
                         ar_code_type_id = '2', 

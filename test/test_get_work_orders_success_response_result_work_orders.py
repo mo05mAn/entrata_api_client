@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_orders_success_response_result_work_orders import GetWorkOrdersSuccessResponseResultWorkOrders
+from entrata_api_client.models.get_work_orders_success_response_result_work_orders import GetWorkOrdersSuccessResponseResultWorkOrders
 
 class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
     """GetWorkOrdersSuccessResponseResultWorkOrders unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
         if include_optional:
             return GetWorkOrdersSuccessResponseResultWorkOrders(
                 work_order = [
-                    openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner(
+                    entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner(
                         maintenance_request_id = '307132', 
                         property_id = '11111', 
                         building_name = 'B1', 
@@ -54,9 +54,9 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                         maintenance_category_name = 'test123', 
                         maintenance_problem = 'Problem With Lights', 
                         maintenance_description = 'Some description', 
-                        labors = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors(
+                        labors = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors(
                             labor = [
-                                openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
+                                entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
                                     employee_name = 'ABC', 
                                     description = 'sdf', 
                                     labor_type = 'Regular', 
@@ -67,7 +67,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                                     per_hour_rate = '1.00', 
                                     total_charge = '0.07', )
                                 ], 
-                            sub_total = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
+                            sub_total = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
                                 total_charge = '10.27', 
                                 total_minutes = 616, ), ), 
                         scheduled_start_date = '01/06/2012 00:00:00 MDT', 
@@ -80,9 +80,9 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                         maintenance_request_from = 'Entrata PaaS', 
                         maintenance_request_by = 'R R1', 
                         is_deleted = '0', 
-                        child_work_orders = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders(
+                        child_work_orders = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders(
                             child_work_order = [
-                                openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
+                                entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
                                     maintenance_request_id = '5039921', 
                                     maintenance_status = '1test', 
                                     maintenance_priority = 'JS Testing 1', 
@@ -96,7 +96,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
         else:
             return GetWorkOrdersSuccessResponseResultWorkOrders(
                 work_order = [
-                    openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner(
+                    entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner(
                         maintenance_request_id = '307132', 
                         property_id = '11111', 
                         building_name = 'B1', 
@@ -114,9 +114,9 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                         maintenance_category_name = 'test123', 
                         maintenance_problem = 'Problem With Lights', 
                         maintenance_description = 'Some description', 
-                        labors = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors(
+                        labors = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors(
                             labor = [
-                                openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
+                                entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
                                     employee_name = 'ABC', 
                                     description = 'sdf', 
                                     labor_type = 'Regular', 
@@ -127,7 +127,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                                     per_hour_rate = '1.00', 
                                     total_charge = '0.07', )
                                 ], 
-                            sub_total = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
+                            sub_total = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
                                 total_charge = '10.27', 
                                 total_minutes = 616, ), ), 
                         scheduled_start_date = '01/06/2012 00:00:00 MDT', 
@@ -140,9 +140,9 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrders(unittest.TestCase):
                         maintenance_request_from = 'Entrata PaaS', 
                         maintenance_request_by = 'R R1', 
                         is_deleted = '0', 
-                        child_work_orders = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders(
+                        child_work_orders = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders(
                             child_work_order = [
-                                openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
+                                entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
                                     maintenance_request_id = '5039921', 
                                     maintenance_status = '1test', 
                                     maintenance_priority = 'JS Testing 1', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.delete_property_media_success_response_response_result import DeletePropertyMediaSuccessResponseResponseResult
+from entrata_api_client.models.delete_property_media_success_response_response_result import DeletePropertyMediaSuccessResponseResponseResult
 
 class TestDeletePropertyMediaSuccessResponseResponseResult(unittest.TestCase):
     """DeletePropertyMediaSuccessResponseResponseResult unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.cancel_lease_success_response import CancelLeaseSuccessResponse
+from entrata_api_client.models.cancel_lease_success_response import CancelLeaseSuccessResponse
 
 class TestCancelLeaseSuccessResponse(unittest.TestCase):
     """CancelLeaseSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestCancelLeaseSuccessResponse(unittest.TestCase):
             return CancelLeaseSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.cancel_lease_success_response_result.cancelLeaseSuccessResponse_result(
+                result = entrata_api_client.models.cancel_lease_success_response_result.cancelLeaseSuccessResponse_result(
                     status = 'success', 
                     message = 'Lease Cancelled successfully.', )
             )
@@ -45,7 +45,7 @@ class TestCancelLeaseSuccessResponse(unittest.TestCase):
             return CancelLeaseSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.cancel_lease_success_response_result.cancelLeaseSuccessResponse_result(
+                result = entrata_api_client.models.cancel_lease_success_response_result.cancelLeaseSuccessResponse_result(
                     status = 'success', 
                     message = 'Lease Cancelled successfully.', ),
         )

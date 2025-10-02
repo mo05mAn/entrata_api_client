@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions import GetMitsLeaseArTransactions
+from entrata_api_client.models.get_mits_lease_ar_transactions import GetMitsLeaseArTransactions
 
 class TestGetMitsLeaseArTransactions(unittest.TestCase):
     """GetMitsLeaseArTransactions unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeaseArTransactions(unittest.TestCase):
         model = GetMitsLeaseArTransactions()
         if include_optional:
             return GetMitsLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_mits_lease_ar_transactions_method.getMitsLeaseArTransactions_method(
+                method = entrata_api_client.models.get_mits_lease_ar_transactions_method.getMitsLeaseArTransactions_method(
                     name = 'getMitsLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_lease_ar_transactions_method_params.getMitsLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.get_mits_lease_ar_transactions_method_params.getMitsLeaseArTransactions_method_params(
                         property_id = 123456, 
                         lease_id = 1234, 
                         lease_status_type_ids = 56, 
@@ -56,12 +56,12 @@ class TestGetMitsLeaseArTransactions(unittest.TestCase):
             )
         else:
             return GetMitsLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_mits_lease_ar_transactions_method.getMitsLeaseArTransactions_method(
+                method = entrata_api_client.models.get_mits_lease_ar_transactions_method.getMitsLeaseArTransactions_method(
                     name = 'getMitsLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_lease_ar_transactions_method_params.getMitsLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.get_mits_lease_ar_transactions_method_params.getMitsLeaseArTransactions_method_params(
                         property_id = 123456, 
                         lease_id = 1234, 
                         lease_status_type_ids = 56, 

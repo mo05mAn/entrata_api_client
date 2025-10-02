@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_cancelled_records import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailCancelledRecords
+from entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_cancelled_records import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailCancelledRecords
 
 class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailCancelledRecords(unittest.TestCase):
     """GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailCancelledRecords unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderP
         if include_optional:
             return GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailCancelledRecords(
                 cancelled_record = [
-                    openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_cancelled_records_cancelled_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_cancelledRecords_cancelledRecord_inner(
+                    entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_cancelled_records_cancelled_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_cancelledRecords_cancelledRecord_inner(
                         id = '1234', 
                         property_id = 172775, 
                         qty_cancelled = '1.000', 

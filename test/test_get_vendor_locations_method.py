@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_method import GetVendorLocationsMethod
+from entrata_api_client.models.get_vendor_locations_method import GetVendorLocationsMethod
 
 class TestGetVendorLocationsMethod(unittest.TestCase):
     """GetVendorLocationsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetVendorLocationsMethod(unittest.TestCase):
             return GetVendorLocationsMethod(
                 name = 'getVendorLocations',
                 version = 'r1',
-                params = openapi_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
+                params = entrata_api_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
                     property_ids = 56, 
                     show_all_status = 0, 
                     include_intercompany_vendors = 0, 

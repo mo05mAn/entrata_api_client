@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media_success_response_response_result import UpdatePropertyMediaSuccessResponseResponseResult
+from entrata_api_client.models.update_property_media_success_response_response_result import UpdatePropertyMediaSuccessResponseResponseResult
 
 class TestUpdatePropertyMediaSuccessResponseResponseResult(unittest.TestCase):
     """UpdatePropertyMediaSuccessResponseResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdatePropertyMediaSuccessResponseResponseResult(unittest.TestCase):
         if include_optional:
             return UpdatePropertyMediaSuccessResponseResponseResult(
                 media = [
-                    openapi_client.models.update_property_media_success_response_response_result_media_inner.updatePropertyMediaSuccessResponse_response_result_media_inner(
+                    entrata_api_client.models.update_property_media_success_response_response_result_media_inner.updatePropertyMediaSuccessResponse_response_result_media_inner(
                         node = 1, 
                         id = '555555', 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestUpdatePropertyMediaSuccessResponseResponseResult(unittest.TestCase):
         else:
             return UpdatePropertyMediaSuccessResponseResponseResult(
                 media = [
-                    openapi_client.models.update_property_media_success_response_response_result_media_inner.updatePropertyMediaSuccessResponse_response_result_media_inner(
+                    entrata_api_client.models.update_property_media_success_response_response_result_media_inner.updatePropertyMediaSuccessResponse_response_result_media_inner(
                         node = 1, 
                         id = '555555', 
                         status = 'Success', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_method import GetUnitsAvailabilityAndPricingMethod
+from entrata_api_client.models.get_units_availability_and_pricing_method import GetUnitsAvailabilityAndPricingMethod
 
 class TestGetUnitsAvailabilityAndPricingMethod(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetUnitsAvailabilityAndPricingMethod(unittest.TestCase):
             return GetUnitsAvailabilityAndPricingMethod(
                 name = 'getUnitsAvailabilityAndPricing',
                 version = 'r1',
-                params = openapi_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
+                params = entrata_api_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
                     property_id = 12345, 
                     floorplan_id = 12345, 
                     unit_type_id = 12345, 

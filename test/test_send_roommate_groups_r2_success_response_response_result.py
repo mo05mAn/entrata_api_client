@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_roommate_groups_r2_success_response_response_result import SendRoommateGroupsR2SuccessResponseResponseResult
+from entrata_api_client.models.send_roommate_groups_r2_success_response_response_result import SendRoommateGroupsR2SuccessResponseResponseResult
 
 class TestSendRoommateGroupsR2SuccessResponseResponseResult(unittest.TestCase):
     """SendRoommateGroupsR2SuccessResponseResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendRoommateGroupsR2SuccessResponseResponseResult(unittest.TestCase):
         if include_optional:
             return SendRoommateGroupsR2SuccessResponseResponseResult(
                 roommate_groups = [
-                    openapi_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
+                    entrata_api_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
                         node = 1, 
                         roommate_group_id = 22815, 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestSendRoommateGroupsR2SuccessResponseResponseResult(unittest.TestCase):
         else:
             return SendRoommateGroupsR2SuccessResponseResponseResult(
                 roommate_groups = [
-                    openapi_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
+                    entrata_api_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
                         node = 1, 
                         roommate_group_id = 22815, 
                         status = 'Success', 

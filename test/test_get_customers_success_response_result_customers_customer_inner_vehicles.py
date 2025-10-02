@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles import GetCustomersSuccessResponseResultCustomersCustomerInnerVehicles
+from entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles import GetCustomersSuccessResponseResultCustomersCustomerInnerVehicles
 
 class TestGetCustomersSuccessResponseResultCustomersCustomerInnerVehicles(unittest.TestCase):
     """GetCustomersSuccessResponseResultCustomersCustomerInnerVehicles unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerVehicles(unitte
         if include_optional:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerVehicles(
                 vehicle = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
                         model = 'aakash', 
                         color = 'aakash', 
                         make = 'aakash', 
@@ -48,7 +48,7 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerVehicles(unitte
         else:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerVehicles(
                 vehicle = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
                         model = 'aakash', 
                         color = 'aakash', 
                         make = 'aakash', 

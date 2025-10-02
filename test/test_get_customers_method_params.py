@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_method_params import GetCustomersMethodParams
+from entrata_api_client.models.get_customers_method_params import GetCustomersMethodParams
 
 class TestGetCustomersMethodParams(unittest.TestCase):
     """GetCustomersMethodParams unit test stubs"""

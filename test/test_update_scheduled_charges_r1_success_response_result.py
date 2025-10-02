@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_scheduled_charges_r1_success_response_result import UpdateScheduledChargesR1SuccessResponseResult
+from entrata_api_client.models.update_scheduled_charges_r1_success_response_result import UpdateScheduledChargesR1SuccessResponseResult
 
 class TestUpdateScheduledChargesR1SuccessResponseResult(unittest.TestCase):
     """UpdateScheduledChargesR1SuccessResponseResult unit test stubs"""
@@ -35,10 +35,10 @@ class TestUpdateScheduledChargesR1SuccessResponseResult(unittest.TestCase):
         model = UpdateScheduledChargesR1SuccessResponseResult()
         if include_optional:
             return UpdateScheduledChargesR1SuccessResponseResult(
-                scheduled_charges = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges(
                     scheduled_charge = [
-                        openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
-                            @attributes = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
+                        entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                            @attributes = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
                                 id = '1234', 
                                 node = '1', 
                                 status = 'Success', 
@@ -47,10 +47,10 @@ class TestUpdateScheduledChargesR1SuccessResponseResult(unittest.TestCase):
             )
         else:
             return UpdateScheduledChargesR1SuccessResponseResult(
-                scheduled_charges = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges(
                     scheduled_charge = [
-                        openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
-                            @attributes = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
+                        entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                            @attributes = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
                                 id = '1234', 
                                 node = '1', 
                                 status = 'Success', 

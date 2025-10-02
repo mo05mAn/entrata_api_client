@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers import SendInvoicesR1SuccessResponseResultApBatchApHeaders
+from entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers import SendInvoicesR1SuccessResponseResultApBatchApHeaders
 
 class TestSendInvoicesR1SuccessResponseResultApBatchApHeaders(unittest.TestCase):
     """SendInvoicesR1SuccessResponseResultApBatchApHeaders unit test stubs"""
@@ -36,8 +36,8 @@ class TestSendInvoicesR1SuccessResponseResultApBatchApHeaders(unittest.TestCase)
         if include_optional:
             return SendInvoicesR1SuccessResponseResultApBatchApHeaders(
                 ap_header = [
-                    openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner(
-                        @attributes = openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner__attributes(
+                    entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner(
+                        @attributes = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner__attributes(
                             invoice_number = '311', 
                             reference_id = '42652', 
                             status = 'Success', 

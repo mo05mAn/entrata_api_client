@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types import GetFinancialPickListR1SuccessResponseResultGlGroupTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types import GetFinancialPickListR1SuccessResponseResultGlGroupTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlGroupTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlGroupTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlGroupTypes(unittest.TestC
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlGroupTypes(
                 gl_group_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types_gl_group_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlGroupTypes_GlGroupType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types_gl_group_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlGroupTypes_GlGroupType_inner(
                         id = 1, 
                         name = 'Assets', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlGroupTypes(unittest.TestC
         else:
             return GetFinancialPickListR1SuccessResponseResultGlGroupTypes(
                 gl_group_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types_gl_group_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlGroupTypes_GlGroupType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_group_types_gl_group_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlGroupTypes_GlGroupType_inner(
                         id = 1, 
                         name = 'Assets', )
                     ],

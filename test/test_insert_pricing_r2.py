@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2 import InsertPricingR2
+from entrata_api_client.models.insert_pricing_r2 import InsertPricingR2
 
 class TestInsertPricingR2(unittest.TestCase):
     """InsertPricingR2 unit test stubs"""
@@ -35,16 +35,16 @@ class TestInsertPricingR2(unittest.TestCase):
         model = InsertPricingR2()
         if include_optional:
             return InsertPricingR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.insert_pricing_r2_method.insertPricing_r2_method(
+                method = entrata_api_client.models.insert_pricing_r2_method.insertPricing_r2_method(
                     name = 'insertPricing', 
                     version = 'r2', 
-                    params = openapi_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
+                    params = entrata_api_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
                         property_id = 1381146, 
                         pricing = [
-                            openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                            entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                                 pricing_level_id = 3, 
                                 pricing_level_reference_id = 639824, 
                                 charge_usage_id = 1, 
@@ -65,15 +65,15 @@ class TestInsertPricingR2(unittest.TestCase):
             )
         else:
             return InsertPricingR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.insert_pricing_r2_method.insertPricing_r2_method(
+                method = entrata_api_client.models.insert_pricing_r2_method.insertPricing_r2_method(
                     name = 'insertPricing', 
                     version = 'r2', 
-                    params = openapi_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
+                    params = entrata_api_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
                         property_id = 1381146, 
                         pricing = [
-                            openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                            entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                                 pricing_level_id = 3, 
                                 pricing_level_reference_id = 639824, 
                                 charge_usage_id = 1, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
         model = GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification()
         if include_optional:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
                     id_type = 'AR001', ),
                 id_value = 123
             )
         else:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetailSupplementalIDIdentification(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
                     id_type = 'AR001', ),
                 id_value = 123,
         )

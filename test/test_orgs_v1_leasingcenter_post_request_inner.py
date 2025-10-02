@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_leasingcenter_post_request_inner import OrgsV1LeasingcenterPostRequestInner
+from entrata_api_client.models.orgs_v1_leasingcenter_post_request_inner import OrgsV1LeasingcenterPostRequestInner
 
 class TestOrgsV1LeasingcenterPostRequestInner(unittest.TestCase):
     """OrgsV1LeasingcenterPostRequestInner unit test stubs"""
@@ -35,18 +35,18 @@ class TestOrgsV1LeasingcenterPostRequestInner(unittest.TestCase):
         model = OrgsV1LeasingcenterPostRequestInner()
         if include_optional:
             return OrgsV1LeasingcenterPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_leasing_center_pick_lists_method.getLeasingCenterPickLists_method(
+                method = entrata_api_client.models.get_leasing_center_pick_lists_method.getLeasingCenterPickLists_method(
                     name = 'getLeasingCenterPickLists', 
                     version = 'r1', )
             )
         else:
             return OrgsV1LeasingcenterPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_leasing_center_pick_lists_method.getLeasingCenterPickLists_method(
+                method = entrata_api_client.models.get_leasing_center_pick_lists_method.getLeasingCenterPickLists_method(
                     name = 'getLeasingCenterPickLists', 
                     version = 'r1', ),
         )

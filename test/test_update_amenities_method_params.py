@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_method_params import UpdateAmenitiesMethodParams
+from entrata_api_client.models.update_amenities_method_params import UpdateAmenitiesMethodParams
 
 class TestUpdateAmenitiesMethodParams(unittest.TestCase):
     """UpdateAmenitiesMethodParams unit test stubs"""

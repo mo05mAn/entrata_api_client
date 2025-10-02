@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_employers_success_response_response_result_employers import SendApplicationEmployersSuccessResponseResponseResultEmployers
+from entrata_api_client.models.send_application_employers_success_response_response_result_employers import SendApplicationEmployersSuccessResponseResponseResultEmployers
 
 class TestSendApplicationEmployersSuccessResponseResponseResultEmployers(unittest.TestCase):
     """SendApplicationEmployersSuccessResponseResponseResultEmployers unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendApplicationEmployersSuccessResponseResponseResultEmployers(unittes
         if include_optional:
             return SendApplicationEmployersSuccessResponseResponseResultEmployers(
                 employers = [
-                    openapi_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
+                    entrata_api_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
                         status = 'Success', 
                         message = 'Customer employers saved successfully.', 
                         id = 2042046, 
@@ -48,7 +48,7 @@ class TestSendApplicationEmployersSuccessResponseResponseResultEmployers(unittes
         else:
             return SendApplicationEmployersSuccessResponseResponseResultEmployers(
                 employers = [
-                    openapi_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
+                    entrata_api_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
                         status = 'Success', 
                         message = 'Customer employers saved successfully.', 
                         id = 2042046, 

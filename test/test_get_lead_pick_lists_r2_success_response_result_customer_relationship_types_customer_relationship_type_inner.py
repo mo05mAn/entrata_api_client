@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner import GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner import GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner
 
 class TestGetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustom
         model = GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypesCustomerRelationshipTypeInner(
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner__attributes(
                     id = '18385', 
                     name = 'Primary', 
                     is_default = 'true', 

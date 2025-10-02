@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         model = GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID()
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerAgentAgentID(
-                identification = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id_identification.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID_Identification(
+                identification = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id_identification.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID_Identification(
                     id_value = '513102', 
-                    @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id_identification__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id_identification__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID_Identification__attributes(
                         id_type = 'Agent Id', 
                         id_scope_type = 'sender', ), )
             )

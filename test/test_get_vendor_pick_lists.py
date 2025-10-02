@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists import GetVendorPickLists
+from entrata_api_client.models.get_vendor_pick_lists import GetVendorPickLists
 
 class TestGetVendorPickLists(unittest.TestCase):
     """GetVendorPickLists unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetVendorPickLists(unittest.TestCase):
         model = GetVendorPickLists()
         if include_optional:
             return GetVendorPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_vendor_pick_lists_method.getVendorPickLists_method(
+                method = entrata_api_client.models.get_vendor_pick_lists_method.getVendorPickLists_method(
                     name = 'getVendorPickLists', 
                     version = 'r1', )
             )
         else:
             return GetVendorPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_vendor_pick_lists_method.getVendorPickLists_method(
+                method = entrata_api_client.models.get_vendor_pick_lists_method.getVendorPickLists_method(
                     name = 'getVendorPickLists', 
                     version = 'r1', ),
         )

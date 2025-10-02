@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions import GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions
+from entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions import GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions
 
 class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions(unittest.TestCase):
     """GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomer
         if include_optional:
             return GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions(
                 transaction = [
-                    openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
+                    entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
                         id = 11, 
                         transaction_type_id = 1, 
                         ar_code_id = 1848, 
@@ -58,7 +58,7 @@ class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomer
         else:
             return GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomersLedgersLedgerTransactions(
                 transaction = [
-                    openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
+                    entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
                         id = 11, 
                         transaction_type_id = 1, 
                         ar_code_id = 1848, 

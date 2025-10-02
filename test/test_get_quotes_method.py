@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_method import GetQuotesMethod
+from entrata_api_client.models.get_quotes_method import GetQuotesMethod
 
 class TestGetQuotesMethod(unittest.TestCase):
     """GetQuotesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetQuotesMethod(unittest.TestCase):
             return GetQuotesMethod(
                 name = 'getQuotes',
                 version = 'r1',
-                params = openapi_client.models.get_quotes_method_params.getQuotes_method_params(
+                params = entrata_api_client.models.get_quotes_method_params.getQuotes_method_params(
                     property_id = 123456, 
                     application_id = 123, 
                     lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

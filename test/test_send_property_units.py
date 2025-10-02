@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units import SendPropertyUnits
+from entrata_api_client.models.send_property_units import SendPropertyUnits
 
 class TestSendPropertyUnits(unittest.TestCase):
     """SendPropertyUnits unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendPropertyUnits(unittest.TestCase):
         model = SendPropertyUnits()
         if include_optional:
             return SendPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_property_units_method.sendPropertyUnits_method(
+                method = entrata_api_client.models.send_property_units_method.sendPropertyUnits_method(
                     name = 'sendPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
+                    params = entrata_api_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
                         unit_number = '20', 
                         unit_prefix = 'CC', 
                         unit_suffix = 'BB', 
@@ -56,12 +56,12 @@ class TestSendPropertyUnits(unittest.TestCase):
             )
         else:
             return SendPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_property_units_method.sendPropertyUnits_method(
+                method = entrata_api_client.models.send_property_units_method.sendPropertyUnits_method(
                     name = 'sendPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
+                    params = entrata_api_client.models.send_property_units_method_params.sendPropertyUnits_method_params(
                         unit_number = '20', 
                         unit_prefix = 'CC', 
                         unit_suffix = 'BB', 

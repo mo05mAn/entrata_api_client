@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data_method import GetTaxFormDataMethod
+from entrata_api_client.models.get_tax_form_data_method import GetTaxFormDataMethod
 
 class TestGetTaxFormDataMethod(unittest.TestCase):
     """GetTaxFormDataMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetTaxFormDataMethod(unittest.TestCase):
             return GetTaxFormDataMethod(
                 name = 'getTaxFormData',
                 version = 'r1',
-                params = openapi_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
+                params = entrata_api_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
                     property_ids = 12345, 
                     start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                     end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

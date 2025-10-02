@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result import GetLeasePickListSuccessResponseResult
+from entrata_api_client.models.get_lease_pick_list_success_response_result import GetLeasePickListSuccessResponseResult
 
 class TestGetLeasePickListSuccessResponseResult(unittest.TestCase):
     """GetLeasePickListSuccessResponseResult unit test stubs"""
@@ -35,72 +35,72 @@ class TestGetLeasePickListSuccessResponseResult(unittest.TestCase):
         model = GetLeasePickListSuccessResponseResult()
         if include_optional:
             return GetLeasePickListSuccessResponseResult(
-                lease_status_types = openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types.getLeasePickListSuccessResponse_result_leaseStatusTypes(
+                lease_status_types = entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types.getLeasePickListSuccessResponse_result_leaseStatusTypes(
                     lease_status_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
                             id = 1, 
                             name = 'Applicant', 
                             type = 'NA', )
                         ], ),
-                lease_file_types = openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types.getLeasePickListSuccessResponse_result_leaseFileTypes(
+                lease_file_types = entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types.getLeasePickListSuccessResponse_result_leaseFileTypes(
                     lease_file_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
                             id = 1, 
                             system_code = 'LEASE', 
                             name = 'Lease Agreement', )
                         ], ),
-                charge_timings = openapi_client.models.get_lease_pick_list_success_response_result_charge_timings.getLeasePickListSuccessResponse_result_chargeTimings(
+                charge_timings = entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings.getLeasePickListSuccessResponse_result_chargeTimings(
                     charge_timing = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
                             id = 302, 
                             name = 'Daily', )
                         ], ),
-                charge_code_types = openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types.getLeasePickListSuccessResponse_result_chargeCodeTypes(
+                charge_code_types = entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types.getLeasePickListSuccessResponse_result_chargeCodeTypes(
                     charge_code_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
                             id = 2, 
                             name = 'Rent', 
                             allowed_charge_timing_ids = '307', )
                         ], ),
-                event_tags = openapi_client.models.get_lease_pick_list_success_response_result_event_tags.getLeasePickListSuccessResponse_result_eventTags(
+                event_tags = entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags.getLeasePickListSuccessResponse_result_eventTags(
                     event_tag = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
                             id = 702, 
                             name = 'Amenity', )
                         ], )
             )
         else:
             return GetLeasePickListSuccessResponseResult(
-                lease_status_types = openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types.getLeasePickListSuccessResponse_result_leaseStatusTypes(
+                lease_status_types = entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types.getLeasePickListSuccessResponse_result_leaseStatusTypes(
                     lease_status_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_lease_status_types_lease_status_type_inner.getLeasePickListSuccessResponse_result_leaseStatusTypes_leaseStatusType_inner(
                             id = 1, 
                             name = 'Applicant', 
                             type = 'NA', )
                         ], ),
-                lease_file_types = openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types.getLeasePickListSuccessResponse_result_leaseFileTypes(
+                lease_file_types = entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types.getLeasePickListSuccessResponse_result_leaseFileTypes(
                     lease_file_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
                             id = 1, 
                             system_code = 'LEASE', 
                             name = 'Lease Agreement', )
                         ], ),
-                charge_timings = openapi_client.models.get_lease_pick_list_success_response_result_charge_timings.getLeasePickListSuccessResponse_result_chargeTimings(
+                charge_timings = entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings.getLeasePickListSuccessResponse_result_chargeTimings(
                     charge_timing = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_charge_timings_charge_timing_inner.getLeasePickListSuccessResponse_result_chargeTimings_chargeTiming_inner(
                             id = 302, 
                             name = 'Daily', )
                         ], ),
-                charge_code_types = openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types.getLeasePickListSuccessResponse_result_chargeCodeTypes(
+                charge_code_types = entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types.getLeasePickListSuccessResponse_result_chargeCodeTypes(
                     charge_code_type = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
                             id = 2, 
                             name = 'Rent', 
                             allowed_charge_timing_ids = '307', )
                         ], ),
-                event_tags = openapi_client.models.get_lease_pick_list_success_response_result_event_tags.getLeasePickListSuccessResponse_result_eventTags(
+                event_tags = entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags.getLeasePickListSuccessResponse_result_eventTags(
                     event_tag = [
-                        openapi_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
+                        entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
                             id = 702, 
                             name = 'Amenity', )
                         ], ),

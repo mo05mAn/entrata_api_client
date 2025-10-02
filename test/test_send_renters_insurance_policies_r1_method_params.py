@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_renters_insurance_policies_r1_method_params import SendRentersInsurancePoliciesR1MethodParams
+from entrata_api_client.models.send_renters_insurance_policies_r1_method_params import SendRentersInsurancePoliciesR1MethodParams
 
 class TestSendRentersInsurancePoliciesR1MethodParams(unittest.TestCase):
     """SendRentersInsurancePoliciesR1MethodParams unit test stubs"""

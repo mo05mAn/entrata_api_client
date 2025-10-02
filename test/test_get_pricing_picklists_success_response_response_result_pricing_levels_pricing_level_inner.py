@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner import GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner import GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner
 
 class TestGetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLe
         model = GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner()
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
                     id = 1, 
                     name = 'Property', )
             )
         else:
             return GetPricingPicklistsSuccessResponseResponseResultPricingLevelsPricingLevelInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
                     id = 1, 
                     name = 'Property', ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_activities_success_response_response_result_events_inner import GetLeaseActivitiesSuccessResponseResponseResultEventsInner
+from entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner import GetLeaseActivitiesSuccessResponseResponseResultEventsInner
 
 class TestGetLeaseActivitiesSuccessResponseResponseResultEventsInner(unittest.TestCase):
     """GetLeaseActivitiesSuccessResponseResponseResultEventsInner unit test stubs"""
@@ -45,7 +45,7 @@ class TestGetLeaseActivitiesSuccessResponseResponseResultEventsInner(unittest.Te
                 var_date = 'YYYY-MM-DD',
                 comments = 'Self-Guided Tour Scheduled',
                 event_reasons = 'Outgoing Email to testsf46 test',
-                call_data = openapi_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
+                call_data = entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
                     call_id = '123456', 
                     call_from = '+1334444444', 
                     ring_through = '+1334444444', 

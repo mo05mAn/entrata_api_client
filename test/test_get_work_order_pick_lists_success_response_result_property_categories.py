@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories import GetWorkOrderPickListsSuccessResponseResultPropertyCategories
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories import GetWorkOrderPickListsSuccessResponseResultPropertyCategories
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyCategories(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyCategories unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyCategories(unittest.
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyCategories(
                 category = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
                         id = '91983', 
                         name = 'demo', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyCategories(unittest.
         else:
             return GetWorkOrderPickListsSuccessResponseResultPropertyCategories(
                 category = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
                         id = '91983', 
                         name = 'demo', )
                     ],

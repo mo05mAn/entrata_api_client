@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_success_response import GetLeaseDocumentsSuccessResponse
+from entrata_api_client.models.get_lease_documents_success_response import GetLeaseDocumentsSuccessResponse
 
 class TestGetLeaseDocumentsSuccessResponse(unittest.TestCase):
     """GetLeaseDocumentsSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGetLeaseDocumentsSuccessResponse(unittest.TestCase):
             return GetLeaseDocumentsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lease_documents_success_response_result.getLeaseDocumentsSuccessResponse_result(
-                    lease_documents = openapi_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
+                result = entrata_api_client.models.get_lease_documents_success_response_result.getLeaseDocumentsSuccessResponse_result(
+                    lease_documents = entrata_api_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
                         lease_document = {
-                            'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                            'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                                 id = 3922962, 
                                 applies_to = 'All', 
                                 type = 'Transfer Document (Transfer Document - UTS)', 
@@ -55,10 +55,10 @@ class TestGetLeaseDocumentsSuccessResponse(unittest.TestCase):
             return GetLeaseDocumentsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lease_documents_success_response_result.getLeaseDocumentsSuccessResponse_result(
-                    lease_documents = openapi_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
+                result = entrata_api_client.models.get_lease_documents_success_response_result.getLeaseDocumentsSuccessResponse_result(
+                    lease_documents = entrata_api_client.models.get_lease_documents_success_response_result_lease_documents.getLeaseDocumentsSuccessResponse_result_LeaseDocuments(
                         lease_document = {
-                            'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                            'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                                 id = 3922962, 
                                 applies_to = 'All', 
                                 type = 'Transfer Document (Transfer Document - UTS)', 

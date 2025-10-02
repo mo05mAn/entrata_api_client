@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_vendors_success_response import UpdateVendorsSuccessResponse
+from entrata_api_client.models.update_vendors_success_response import UpdateVendorsSuccessResponse
 
 class TestUpdateVendorsSuccessResponse(unittest.TestCase):
     """UpdateVendorsSuccessResponse unit test stubs"""
@@ -35,22 +35,22 @@ class TestUpdateVendorsSuccessResponse(unittest.TestCase):
         model = UpdateVendorsSuccessResponse()
         if include_optional:
             return UpdateVendorsSuccessResponse(
-                result = openapi_client.models.update_vendors_success_response_result.updateVendorsSuccessResponse_result(
-                    vendors = openapi_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
-                        vendor = openapi_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
-                            1 = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
-                                @attributes = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
+                result = entrata_api_client.models.update_vendors_success_response_result.updateVendorsSuccessResponse_result(
+                    vendors = entrata_api_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
+                        vendor = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
+                            1 = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
+                                @attributes = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
                                     reference_id = '13245', 
                                     status = 'Success', 
                                     message = 'Vendor updated successfully.', ), ), ), ), )
             )
         else:
             return UpdateVendorsSuccessResponse(
-                result = openapi_client.models.update_vendors_success_response_result.updateVendorsSuccessResponse_result(
-                    vendors = openapi_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
-                        vendor = openapi_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
-                            1 = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
-                                @attributes = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
+                result = entrata_api_client.models.update_vendors_success_response_result.updateVendorsSuccessResponse_result(
+                    vendors = entrata_api_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
+                        vendor = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
+                            1 = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
+                                @attributes = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
                                     reference_id = '13245', 
                                     status = 'Success', 
                                     message = 'Vendor updated successfully.', ), ), ), ), ),

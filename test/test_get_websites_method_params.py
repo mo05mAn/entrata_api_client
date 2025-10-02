@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites_method_params import GetWebsitesMethodParams
+from entrata_api_client.models.get_websites_method_params import GetWebsitesMethodParams
 
 class TestGetWebsitesMethodParams(unittest.TestCase):
     """GetWebsitesMethodParams unit test stubs"""

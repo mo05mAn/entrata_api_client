@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems import GetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInnerSubMaintenanceProblems
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems import GetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInnerSubMaintenanceProblems
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInnerSubMaintenanceProblems(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInnerSubMaintenanceProblems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInner
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyProblemsProblemInnerSubMaintenanceProblems(
                 sub_maintenance_problem = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
                         id = '569575', )
                     ]
             )

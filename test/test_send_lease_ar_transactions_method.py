@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transactions_method import SendLeaseArTransactionsMethod
+from entrata_api_client.models.send_lease_ar_transactions_method import SendLeaseArTransactionsMethod
 
 class TestSendLeaseArTransactionsMethod(unittest.TestCase):
     """SendLeaseArTransactionsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendLeaseArTransactionsMethod(unittest.TestCase):
             return SendLeaseArTransactionsMethod(
                 name = 'sendLeaseArTransactions',
                 version = 'r1',
-                params = openapi_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
+                params = entrata_api_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
                     transaction_id = 1234, 
                     lease_id = 2342, 
                     ar_code_id = 11, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_services import GetAccessibleServices
+from entrata_api_client.models.get_accessible_services import GetAccessibleServices
 
 class TestGetAccessibleServices(unittest.TestCase):
     """GetAccessibleServices unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetAccessibleServices(unittest.TestCase):
         model = GetAccessibleServices()
         if include_optional:
             return GetAccessibleServices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_accessible_services_method.getAccessibleServices_method(
+                method = entrata_api_client.models.get_accessible_services_method.getAccessibleServices_method(
                     name = 'getAccessibleServices', 
                     version = 'r1', )
             )
         else:
             return GetAccessibleServices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_accessible_services_method.getAccessibleServices_method(
+                method = entrata_api_client.models.get_accessible_services_method.getAccessibleServices_method(
                     name = 'getAccessibleServices', 
                     version = 'r1', ),
         )

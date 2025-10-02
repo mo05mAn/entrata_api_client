@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types import GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types import GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes
 
 class TestGetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes(unitt
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultCustomerRelationshipTypes(
                 customer_relationship_type = [
-                    openapi_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_customer_relationship_types_customer_relationship_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_customerRelationshipTypes_customerRelationshipType_inner__attributes(
                             id = '18385', 
                             name = 'Primary', 
                             is_default = 'true', 

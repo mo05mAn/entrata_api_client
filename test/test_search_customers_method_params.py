@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_customers_method_params import SearchCustomersMethodParams
+from entrata_api_client.models.search_customers_method_params import SearchCustomersMethodParams
 
 class TestSearchCustomersMethodParams(unittest.TestCase):
     """SearchCustomersMethodParams unit test stubs"""

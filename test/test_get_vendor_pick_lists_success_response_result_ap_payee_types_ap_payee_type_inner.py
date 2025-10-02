@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner import GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner import GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner(un
         model = GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
                     id = '2', 
                     name = 'Owner', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultApPayeeTypesApPayeeTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
                     id = '2', 
                     name = 'Owner', ),
         )

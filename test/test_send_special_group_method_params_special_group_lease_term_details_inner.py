@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_method_params_special_group_lease_term_details_inner import SendSpecialGroupMethodParamsSpecialGroupLeaseTermDetailsInner
+from entrata_api_client.models.send_special_group_method_params_special_group_lease_term_details_inner import SendSpecialGroupMethodParamsSpecialGroupLeaseTermDetailsInner
 
 class TestSendSpecialGroupMethodParamsSpecialGroupLeaseTermDetailsInner(unittest.TestCase):
     """SendSpecialGroupMethodParamsSpecialGroupLeaseTermDetailsInner unit test stubs"""

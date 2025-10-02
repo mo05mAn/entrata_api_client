@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_properties_post_request_inner import OrgsV1PropertiesPostRequestInner
+from entrata_api_client.models.orgs_v1_properties_post_request_inner import OrgsV1PropertiesPostRequestInner
 
 class TestOrgsV1PropertiesPostRequestInner(unittest.TestCase):
     """OrgsV1PropertiesPostRequestInner unit test stubs"""
@@ -35,23 +35,23 @@ class TestOrgsV1PropertiesPostRequestInner(unittest.TestCase):
         model = OrgsV1PropertiesPostRequestInner()
         if include_optional:
             return OrgsV1PropertiesPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_phone_number_method.getPhoneNumber_method(
+                method = entrata_api_client.models.get_phone_number_method.getPhoneNumber_method(
                     name = 'getPhoneNumber', 
-                    params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                    params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                         property_ids = [123456,789], 
                         switch_code = '46545', 
                         ref = 'http://google.com', ), )
             )
         else:
             return OrgsV1PropertiesPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_phone_number_method.getPhoneNumber_method(
+                method = entrata_api_client.models.get_phone_number_method.getPhoneNumber_method(
                     name = 'getPhoneNumber', 
-                    params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                    params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                         property_ids = [123456,789], 
                         switch_code = '46545', 
                         ref = 'http://google.com', ), ),

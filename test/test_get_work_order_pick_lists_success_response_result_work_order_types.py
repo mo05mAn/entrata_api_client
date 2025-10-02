@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types import GetWorkOrderPickListsSuccessResponseResultWorkOrderTypes
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types import GetWorkOrderPickListsSuccessResponseResultWorkOrderTypes
 
 class TestGetWorkOrderPickListsSuccessResponseResultWorkOrderTypes(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultWorkOrderTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultWorkOrderTypes(unittest.Test
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultWorkOrderTypes(
                 work_order_type = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
                         id = '1', 
                         name = 'Make Ready', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultWorkOrderTypes(unittest.Test
         else:
             return GetWorkOrderPickListsSuccessResponseResultWorkOrderTypes(
                 work_order_type = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
                         id = '1', 
                         name = 'Make Ready', )
                     ],

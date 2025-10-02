@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenity_reservations_success_response_result import GetAmenityReservationsSuccessResponseResult
+from entrata_api_client.models.get_amenity_reservations_success_response_result import GetAmenityReservationsSuccessResponseResult
 
 class TestGetAmenityReservationsSuccessResponseResult(unittest.TestCase):
     """GetAmenityReservationsSuccessResponseResult unit test stubs"""
@@ -35,16 +35,16 @@ class TestGetAmenityReservationsSuccessResponseResult(unittest.TestCase):
         model = GetAmenityReservationsSuccessResponseResult()
         if include_optional:
             return GetAmenityReservationsSuccessResponseResult(
-                amenities = openapi_client.models.get_amenity_reservations_success_response_result_amenities.getAmenityReservationsSuccessResponse_result_amenities(
+                amenities = entrata_api_client.models.get_amenity_reservations_success_response_result_amenities.getAmenityReservationsSuccessResponse_result_amenities(
                     amenity = [
-                        openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner(
+                        entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner(
                             id = '123456', 
                             name = 'Cats', 
                             description = 'Rent yourself a cat for a few hours.', 
                             is_published = '1', 
-                            reservations = openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations(
+                            reservations = entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations(
                                 reservation = [
-                                    openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
+                                    entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
                                         id = '123456', 
                                         resident = 'Transfer Test 3', 
                                         lease_id = '123456', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_employers_success_response_response_result import SendApplicationEmployersSuccessResponseResponseResult
+from entrata_api_client.models.send_application_employers_success_response_response_result import SendApplicationEmployersSuccessResponseResponseResult
 
 class TestSendApplicationEmployersSuccessResponseResponseResult(unittest.TestCase):
     """SendApplicationEmployersSuccessResponseResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendApplicationEmployersSuccessResponseResponseResult(unittest.TestCas
         model = SendApplicationEmployersSuccessResponseResponseResult()
         if include_optional:
             return SendApplicationEmployersSuccessResponseResponseResult(
-                employers = openapi_client.models.send_application_employers_success_response_response_result_employers.sendApplicationEmployersSuccessResponse_response_result_employers(
+                employers = entrata_api_client.models.send_application_employers_success_response_response_result_employers.sendApplicationEmployersSuccessResponse_response_result_employers(
                     employers = [
-                        openapi_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
+                        entrata_api_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
                             status = 'Success', 
                             message = 'Customer employers saved successfully.', 
                             id = 2042046, 
@@ -48,9 +48,9 @@ class TestSendApplicationEmployersSuccessResponseResponseResult(unittest.TestCas
             )
         else:
             return SendApplicationEmployersSuccessResponseResponseResult(
-                employers = openapi_client.models.send_application_employers_success_response_response_result_employers.sendApplicationEmployersSuccessResponse_response_result_employers(
+                employers = entrata_api_client.models.send_application_employers_success_response_response_result_employers.sendApplicationEmployersSuccessResponse_response_result_employers(
                     employers = [
-                        openapi_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
+                        entrata_api_client.models.send_application_employers_success_response_response_result_employers_employers_inner.sendApplicationEmployersSuccessResponse_response_result_employers_employers_inner(
                             status = 'Success', 
                             message = 'Customer employers saved successfully.', 
                             id = 2042046, 

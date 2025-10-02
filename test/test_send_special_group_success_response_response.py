@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_success_response_response import SendSpecialGroupSuccessResponseResponse
+from entrata_api_client.models.send_special_group_success_response_response import SendSpecialGroupSuccessResponseResponse
 
 class TestSendSpecialGroupSuccessResponseResponse(unittest.TestCase):
     """SendSpecialGroupSuccessResponseResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendSpecialGroupSuccessResponseResponse(unittest.TestCase):
             return SendSpecialGroupSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
+                result = entrata_api_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
                     status = 'success', 
                     special_group_id = 12345, 
                     message = 'Special added successfully.', )
@@ -46,7 +46,7 @@ class TestSendSpecialGroupSuccessResponseResponse(unittest.TestCase):
             return SendSpecialGroupSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
+                result = entrata_api_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
                     status = 'success', 
                     special_group_id = 12345, 
                     message = 'Special added successfully.', ),

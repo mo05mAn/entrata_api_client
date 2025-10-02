@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types import GetLeadPickListsR2SuccessResponseResultEventSubTypes
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types import GetLeadPickListsR2SuccessResponseResultEventSubTypes
 
 class TestGetLeadPickListsR2SuccessResponseResultEventSubTypes(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultEventSubTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR2SuccessResponseResultEventSubTypes(unittest.TestCase
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultEventSubTypes(
                 event_sub_type = [
-                    openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types_event_sub_type_inner.getLeadPickLists_r2_SuccessResponse_result_eventSubTypes_eventSubType_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types_event_sub_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventSubTypes_eventSubType_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types_event_sub_type_inner.getLeadPickLists_r2_SuccessResponse_result_eventSubTypes_eventSubType_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_sub_types_event_sub_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventSubTypes_eventSubType_inner__attributes(
                             name = 'Leasing Appointments', 
                             id = '453', 
                             event_type_id = '17', ), )

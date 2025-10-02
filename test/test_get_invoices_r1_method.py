@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r1_method import GetInvoicesR1Method
+from entrata_api_client.models.get_invoices_r1_method import GetInvoicesR1Method
 
 class TestGetInvoicesR1Method(unittest.TestCase):
     """GetInvoicesR1Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetInvoicesR1Method(unittest.TestCase):
             return GetInvoicesR1Method(
                 name = '',
                 version = 'r1',
-                params = openapi_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
+                params = entrata_api_client.models.get_invoices_r1_method_params.getInvoices_r1_method_params(
                     ids = 56, 
                     invoice_number = 12345, 
                     vendor_id = 12345, 

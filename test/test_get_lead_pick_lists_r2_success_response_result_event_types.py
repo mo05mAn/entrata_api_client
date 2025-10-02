@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_types import GetLeadPickListsR2SuccessResponseResultEventTypes
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_types import GetLeadPickListsR2SuccessResponseResultEventTypes
 
 class TestGetLeadPickListsR2SuccessResponseResultEventTypes(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultEventTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR2SuccessResponseResultEventTypes(unittest.TestCase):
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultEventTypes(
                 event_type = [
-                    openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_types_event_type_inner.getLeadPickLists_r2_SuccessResponse_result_eventTypes_eventType_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventTypes_eventType_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_types_event_type_inner.getLeadPickLists_r2_SuccessResponse_result_eventTypes_eventType_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventTypes_eventType_inner__attributes(
                             name = 'Application', 
                             id = '131', 
                             entrata_name = 'Add Applicant Application', ), )

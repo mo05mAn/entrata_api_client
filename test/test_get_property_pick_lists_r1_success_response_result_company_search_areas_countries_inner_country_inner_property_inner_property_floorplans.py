@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans(
                 property_floorplan = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner__attributes(
                             id = 477949, 
                             name = 'Exist501', ), )
                     ]
@@ -45,8 +45,8 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyFloorplans(
                 property_floorplan = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_floorplans_property_floorplan_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyFloorplans_PropertyFloorplan_inner__attributes(
                             id = 477949, 
                             name = 'Exist501', ), )
                     ],

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates(
                 state = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner__attributes(
                             code = 'AE', 
                             name = 'Armed Forces Europe, Middle East, Africa & Canada', ), 
                         search_area = [
-                            openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner(
-                                @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner__attributes(
+                            entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner(
+                                @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner__attributes(
                                     id = 1651, 
                                     name = 'search area', ), )
                             ], )
@@ -51,13 +51,13 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerStates(
                 state = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner__attributes(
                             code = 'AE', 
                             name = 'Armed Forces Europe, Middle East, Africa & Canada', ), 
                         search_area = [
-                            openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner(
-                                @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner__attributes(
+                            entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner(
+                                @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_states_state_inner_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_states_state_inner_searchArea_inner__attributes(
                                     id = 1651, 
                                     name = 'search area', ), )
                             ], )

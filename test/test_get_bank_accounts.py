@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_bank_accounts import GetBankAccounts
+from entrata_api_client.models.get_bank_accounts import GetBankAccounts
 
 class TestGetBankAccounts(unittest.TestCase):
     """GetBankAccounts unit test stubs"""
@@ -35,24 +35,24 @@ class TestGetBankAccounts(unittest.TestCase):
         model = GetBankAccounts()
         if include_optional:
             return GetBankAccounts(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_bank_accounts_method.getBankAccounts_method(
+                method = entrata_api_client.models.get_bank_accounts_method.getBankAccounts_method(
                     name = 'getBankAccounts', 
                     version = 'r1', 
-                    params = openapi_client.models.get_bank_accounts_method_params.getBankAccounts_method_params(
+                    params = entrata_api_client.models.get_bank_accounts_method_params.getBankAccounts_method_params(
                         bank_account_type_id = 56, 
                         is_credit_card_account = 0, ), )
             )
         else:
             return GetBankAccounts(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_bank_accounts_method.getBankAccounts_method(
+                method = entrata_api_client.models.get_bank_accounts_method.getBankAccounts_method(
                     name = 'getBankAccounts', 
                     version = 'r1', 
-                    params = openapi_client.models.get_bank_accounts_method_params.getBankAccounts_method_params(
+                    params = entrata_api_client.models.get_bank_accounts_method_params.getBankAccounts_method_params(
                         bank_account_type_id = 56, 
                         is_credit_card_account = 0, ), ),
         )

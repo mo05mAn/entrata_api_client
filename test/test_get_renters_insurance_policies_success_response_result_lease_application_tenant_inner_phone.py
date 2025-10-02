@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenant
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone(
                 phone_number = '1112223333',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
                     phone_type = 'personal', )
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerPhone(
                 phone_number = '1112223333',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
                     phone_type = 'personal', ),
         )
         """

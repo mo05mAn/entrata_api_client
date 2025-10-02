@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_status_success_response_response import GetStatusSuccessResponseResponse
+from entrata_api_client.models.get_status_success_response_response import GetStatusSuccessResponseResponse
 
 class TestGetStatusSuccessResponseResponse(unittest.TestCase):
     """GetStatusSuccessResponseResponse unit test stubs"""
@@ -37,14 +37,14 @@ class TestGetStatusSuccessResponseResponse(unittest.TestCase):
             return GetStatusSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Api is available and running.', )
             )
         else:
             return GetStatusSuccessResponseResponse(
                 code = 200,
-                result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Api is available and running.', ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMove
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes(
                 move_out_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
                         id = 1, 
                         name = 'Eviction', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMove
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerMoveOutTypes(
                 move_out_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
                         id = 1, 
                         name = 'Eviction', )
                     ],

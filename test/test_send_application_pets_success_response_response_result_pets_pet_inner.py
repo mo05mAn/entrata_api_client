@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_pets_success_response_response_result_pets_pet_inner import SendApplicationPetsSuccessResponseResponseResultPetsPetInner
+from entrata_api_client.models.send_application_pets_success_response_response_result_pets_pet_inner import SendApplicationPetsSuccessResponseResponseResultPetsPetInner
 
 class TestSendApplicationPetsSuccessResponseResponseResultPetsPetInner(unittest.TestCase):
     """SendApplicationPetsSuccessResponseResponseResultPetsPetInner unit test stubs"""

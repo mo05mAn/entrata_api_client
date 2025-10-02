@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervalsLeaseIntervalInner
+from entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervalsLeaseIntervalInner
 
 class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervalsLeaseIntervalInner(unittest.TestCase):
     """GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervalsLeaseIntervalInner unit test stubs"""
@@ -42,9 +42,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervals
                 lease_interval_type_name = 'Application',
                 lease_interval_status_type_id = 3,
                 interval_date_time = '01/31/2022 23:16:51.110301 MST',
-                applications = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
+                applications = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
                     application = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
                             lease_term = 'Hospitality lease term', 
                             lease_start_date = '12/11/2019', 
                             lease_end_date = '12/14/2019', 
@@ -60,9 +60,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerLeaseIntervals
                 lease_interval_type_name = 'Application',
                 lease_interval_status_type_id = 3,
                 interval_date_time = '01/31/2022 23:16:51.110301 MST',
-                applications = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
+                applications = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
                     application = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
                             lease_term = 'Hospitality lease term', 
                             lease_start_date = '12/11/2019', 
                             lease_end_date = '12/14/2019', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner
+from entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner
 
 class TestGetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner(unittest.TestCase):
     """GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTest
         model = GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner()
         if include_optional:
             return GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner(
-                attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialRatingTypes_TestimonialRatingType_inner__attributes(
+                attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialRatingTypes_TestimonialRatingType_inner__attributes(
                     id = '1', 
                     name = 'Parking', )
             )
         else:
             return GetTestimonialPickListsSuccessResponseResultTestimonialRatingTypesTestimonialRatingTypeInner(
-                attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialRatingTypes_TestimonialRatingType_inner__attributes(
+                attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_rating_types_testimonial_rating_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialRatingTypes_TestimonialRatingType_inner__attributes(
                     id = '1', 
                     name = 'Parking', ),
         )

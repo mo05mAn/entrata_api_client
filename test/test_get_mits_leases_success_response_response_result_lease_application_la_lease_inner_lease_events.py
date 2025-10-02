@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents(
                 lease_event = [
-                    openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events_lease_event_inner.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_LeaseEvents_LeaseEvent_inner(
+                    entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events_lease_event_inner.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_LeaseEvents_LeaseEvent_inner(
                         date = '2014-04-04', 
                         event_type = 'Application', 
                         move_out_reason = 'Unit transfer.', )
@@ -45,7 +45,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerLeaseEvents(
                 lease_event = [
-                    openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events_lease_event_inner.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_LeaseEvents_LeaseEvent_inner(
+                    entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_lease_events_lease_event_inner.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_LeaseEvents_LeaseEvent_inner(
                         date = '2014-04-04', 
                         event_type = 'Application', 
                         move_out_reason = 'Unit transfer.', )

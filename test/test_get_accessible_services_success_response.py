@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_services_success_response import GetAccessibleServicesSuccessResponse
+from entrata_api_client.models.get_accessible_services_success_response import GetAccessibleServicesSuccessResponse
 
 class TestGetAccessibleServicesSuccessResponse(unittest.TestCase):
     """GetAccessibleServicesSuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetAccessibleServicesSuccessResponse(unittest.TestCase):
             return GetAccessibleServicesSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_accessible_services_success_response_result.getAccessibleServicesSuccessResponse_result(
+                result = entrata_api_client.models.get_accessible_services_success_response_result.getAccessibleServicesSuccessResponse_result(
                     services = [
-                        openapi_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
+                        entrata_api_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
                             uri = '/ext/orgs/demoold/v1/customers', 
                             service = 'updateCustomers', )
                         ], )
@@ -48,9 +48,9 @@ class TestGetAccessibleServicesSuccessResponse(unittest.TestCase):
             return GetAccessibleServicesSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_accessible_services_success_response_result.getAccessibleServicesSuccessResponse_result(
+                result = entrata_api_client.models.get_accessible_services_success_response_result.getAccessibleServicesSuccessResponse_result(
                     services = [
-                        openapi_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
+                        entrata_api_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
                             uri = '/ext/orgs/demoold/v1/customers', 
                             service = 'updateCustomers', )
                         ], ),

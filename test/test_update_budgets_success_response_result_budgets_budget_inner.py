@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_budgets_success_response_result_budgets_budget_inner import UpdateBudgetsSuccessResponseResultBudgetsBudgetInner
+from entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner import UpdateBudgetsSuccessResponseResultBudgetsBudgetInner
 
 class TestUpdateBudgetsSuccessResponseResultBudgetsBudgetInner(unittest.TestCase):
     """UpdateBudgetsSuccessResponseResultBudgetsBudgetInner unit test stubs"""

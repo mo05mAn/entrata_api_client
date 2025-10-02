@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response import GetVendorPickListsSuccessResponse
+from entrata_api_client.models.get_vendor_pick_lists_success_response import GetVendorPickListsSuccessResponse
 
 class TestGetVendorPickListsSuccessResponse(unittest.TestCase):
     """GetVendorPickListsSuccessResponse unit test stubs"""
@@ -37,105 +37,105 @@ class TestGetVendorPickListsSuccessResponse(unittest.TestCase):
             return GetVendorPickListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_vendor_pick_lists_success_response_result.getVendorPickListsSuccessResponse_result(
-                    vendor_category_types = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types.getVendorPickListsSuccessResponse_result_vendorCategoryTypes(
+                result = entrata_api_client.models.get_vendor_pick_lists_success_response_result.getVendorPickListsSuccessResponse_result(
+                    vendor_category_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types.getVendorPickListsSuccessResponse_result_vendorCategoryTypes(
                         vendor_category_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
                                     id = '1', 
                                     name = 'Abatement Services - Asbestos', ), )
                             ], ), 
-                    owner_types = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types.getVendorPickListsSuccessResponse_result_ownerTypes(
+                    owner_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types.getVendorPickListsSuccessResponse_result_ownerTypes(
                         owner_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
                                     id = '1', 
                                     name = 'Sole Proprietorship', ), )
                             ], ), 
-                    ap_payee_terms = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms.getVendorPickListsSuccessResponse_result_apPayeeTerms(
+                    ap_payee_terms = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms.getVendorPickListsSuccessResponse_result_apPayeeTerms(
                         ap_payee_term = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
                                     id = '4446', 
                                     name = 'Net 15', ), )
                             ], ), 
-                    ap_payee_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types.getVendorPickListsSuccessResponse_result_apPayeeTypes(
+                    ap_payee_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types.getVendorPickListsSuccessResponse_result_apPayeeTypes(
                         ap_payee_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
                                     id = '2', 
                                     name = 'Owner', ), )
                             ], ), 
-                    ap_payee_status_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes(
+                    ap_payee_status_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes(
                         ap_payee_status_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
                                     id = '1', 
                                     name = 'Active', ), )
                             ], ), 
-                    form1099_types = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types.getVendorPickListsSuccessResponse_result_form1099Types(
-                        form1099_type = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
-                            @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
+                    form1099_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types.getVendorPickListsSuccessResponse_result_form1099Types(
+                        form1099_type = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
+                            @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
                                 id = '1', 
                                 name = '1099 - MISC', ), ), ), 
-                    form1099_box_types = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types.getVendorPickListsSuccessResponse_result_form1099BoxTypes(
+                    form1099_box_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types.getVendorPickListsSuccessResponse_result_form1099BoxTypes(
                         form1099_box_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
                                     id = '1', 
                                     name = '1 - Rents', ), )
                             ], ), 
-                    ap_remittance_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types.getVendorPickListsSuccessResponse_result_apRemittanceTypes(
+                    ap_remittance_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types.getVendorPickListsSuccessResponse_result_apRemittanceTypes(
                         ap_remittance_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
                                     id = '1', 
                                     name = 'Wire Transfer', ), )
                             ], ), 
-                    utility_bill_receipt_types = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes(
+                    utility_bill_receipt_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes(
                         utility_bill_receipt_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
                                     id = '1', 
                                     name = 'Mail', ), )
                             ], ), 
-                    bank_account_types = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types.getVendorPickListsSuccessResponse_result_bankAccountTypes(
+                    bank_account_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types.getVendorPickListsSuccessResponse_result_bankAccountTypes(
                         bank_account_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
                                     id = '1', 
                                     name = 'Business Checking', ), )
                             ], ), 
-                    compliance_statuses = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses.getVendorPickListsSuccessResponse_result_complianceStatuses(
+                    compliance_statuses = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses.getVendorPickListsSuccessResponse_result_complianceStatuses(
                         compliance_status = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
                                     id = '5', 
                                     name = 'Compliant', ), )
                             ], ), 
-                    routing_tags = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags.getVendorPickListsSuccessResponse_result_routingTags(
+                    routing_tags = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags.getVendorPickListsSuccessResponse_result_routingTags(
                         routing_tag = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
                                     id = '93', 
                                     name = 'routingTag1', ), )
                             ], ), 
-                    units_of_measure = openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure.getVendorPickListsSuccessResponse_result_unitsOfMeasure(
+                    units_of_measure = entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure.getVendorPickListsSuccessResponse_result_unitsOfMeasure(
                         unit_of_measure = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
                                     id = '80', 
                                     name = '100 Packing', 
                                     type = 'Area', ), )
                             ], ), 
-                    policies = openapi_client.models.get_vendor_pick_lists_success_response_result_policies.getVendorPickListsSuccessResponse_result_policies(
+                    policies = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies.getVendorPickListsSuccessResponse_result_policies(
                         policy = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
                                 policy_type_id = '7', 
                                 policy_type_name = 'General Liability', 
-                                coverages = openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
+                                coverages = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
                                     coverage = [
-                                        openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
+                                        entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
                                             id = '12', 
                                             name = 'Each Occurrence', )
                                         ], ), )
@@ -145,105 +145,105 @@ class TestGetVendorPickListsSuccessResponse(unittest.TestCase):
             return GetVendorPickListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_vendor_pick_lists_success_response_result.getVendorPickListsSuccessResponse_result(
-                    vendor_category_types = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types.getVendorPickListsSuccessResponse_result_vendorCategoryTypes(
+                result = entrata_api_client.models.get_vendor_pick_lists_success_response_result.getVendorPickListsSuccessResponse_result(
+                    vendor_category_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types.getVendorPickListsSuccessResponse_result_vendorCategoryTypes(
                         vendor_category_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
                                     id = '1', 
                                     name = 'Abatement Services - Asbestos', ), )
                             ], ), 
-                    owner_types = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types.getVendorPickListsSuccessResponse_result_ownerTypes(
+                    owner_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types.getVendorPickListsSuccessResponse_result_ownerTypes(
                         owner_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
                                     id = '1', 
                                     name = 'Sole Proprietorship', ), )
                             ], ), 
-                    ap_payee_terms = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms.getVendorPickListsSuccessResponse_result_apPayeeTerms(
+                    ap_payee_terms = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms.getVendorPickListsSuccessResponse_result_apPayeeTerms(
                         ap_payee_term = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
                                     id = '4446', 
                                     name = 'Net 15', ), )
                             ], ), 
-                    ap_payee_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types.getVendorPickListsSuccessResponse_result_apPayeeTypes(
+                    ap_payee_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types.getVendorPickListsSuccessResponse_result_apPayeeTypes(
                         ap_payee_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
                                     id = '2', 
                                     name = 'Owner', ), )
                             ], ), 
-                    ap_payee_status_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes(
+                    ap_payee_status_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes(
                         ap_payee_status_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
                                     id = '1', 
                                     name = 'Active', ), )
                             ], ), 
-                    form1099_types = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types.getVendorPickListsSuccessResponse_result_form1099Types(
-                        form1099_type = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
-                            @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
+                    form1099_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types.getVendorPickListsSuccessResponse_result_form1099Types(
+                        form1099_type = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
+                            @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
                                 id = '1', 
                                 name = '1099 - MISC', ), ), ), 
-                    form1099_box_types = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types.getVendorPickListsSuccessResponse_result_form1099BoxTypes(
+                    form1099_box_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types.getVendorPickListsSuccessResponse_result_form1099BoxTypes(
                         form1099_box_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
                                     id = '1', 
                                     name = '1 - Rents', ), )
                             ], ), 
-                    ap_remittance_types = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types.getVendorPickListsSuccessResponse_result_apRemittanceTypes(
+                    ap_remittance_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types.getVendorPickListsSuccessResponse_result_apRemittanceTypes(
                         ap_remittance_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
                                     id = '1', 
                                     name = 'Wire Transfer', ), )
                             ], ), 
-                    utility_bill_receipt_types = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes(
+                    utility_bill_receipt_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes(
                         utility_bill_receipt_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
                                     id = '1', 
                                     name = 'Mail', ), )
                             ], ), 
-                    bank_account_types = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types.getVendorPickListsSuccessResponse_result_bankAccountTypes(
+                    bank_account_types = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types.getVendorPickListsSuccessResponse_result_bankAccountTypes(
                         bank_account_type = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
                                     id = '1', 
                                     name = 'Business Checking', ), )
                             ], ), 
-                    compliance_statuses = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses.getVendorPickListsSuccessResponse_result_complianceStatuses(
+                    compliance_statuses = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses.getVendorPickListsSuccessResponse_result_complianceStatuses(
                         compliance_status = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
                                     id = '5', 
                                     name = 'Compliant', ), )
                             ], ), 
-                    routing_tags = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags.getVendorPickListsSuccessResponse_result_routingTags(
+                    routing_tags = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags.getVendorPickListsSuccessResponse_result_routingTags(
                         routing_tag = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
                                     id = '93', 
                                     name = 'routingTag1', ), )
                             ], ), 
-                    units_of_measure = openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure.getVendorPickListsSuccessResponse_result_unitsOfMeasure(
+                    units_of_measure = entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure.getVendorPickListsSuccessResponse_result_unitsOfMeasure(
                         unit_of_measure = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
-                                @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
+                                @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
                                     id = '80', 
                                     name = '100 Packing', 
                                     type = 'Area', ), )
                             ], ), 
-                    policies = openapi_client.models.get_vendor_pick_lists_success_response_result_policies.getVendorPickListsSuccessResponse_result_policies(
+                    policies = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies.getVendorPickListsSuccessResponse_result_policies(
                         policy = [
-                            openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
+                            entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
                                 policy_type_id = '7', 
                                 policy_type_name = 'General Liability', 
-                                coverages = openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
+                                coverages = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
                                     coverage = [
-                                        openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
+                                        entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
                                             id = '12', 
                                             name = 'Each Occurrence', )
                                         ], ), )

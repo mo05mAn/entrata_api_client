@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property18462 import GetLeadPickListsR1SuccessResponseResponseResultProperty18462
+from entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property18462 import GetLeadPickListsR1SuccessResponseResponseResultProperty18462
 
 class TestGetLeadPickListsR1SuccessResponseResponseResultProperty18462(unittest.TestCase):
     """GetLeadPickListsR1SuccessResponseResponseResultProperty18462 unit test stubs"""
@@ -35,19 +35,19 @@ class TestGetLeadPickListsR1SuccessResponseResponseResultProperty18462(unittest.
         model = GetLeadPickListsR1SuccessResponseResponseResultProperty18462()
         if include_optional:
             return GetLeadPickListsR1SuccessResponseResponseResultProperty18462(
-                attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462__attributes(
                     id = 18462, ),
-                leasing_agents = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents(
+                leasing_agents = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents(
                     leasing_agent = [
-                        openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner(
-                            @attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner__attributes(
+                        entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner(
+                            @attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner__attributes(
                                 name = 'Abby Stevens', 
                                 id = '175141', ), )
                         ], ),
-                lead_sources = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources(
+                lead_sources = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources(
                     lead_source = [
-                        openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner(
-                            @attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner__attributes(
+                        entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner(
+                            @attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner__attributes(
                                 name = 'Apartment Advisor', 
                                 id = 68509, 
                                 web_visible = 'true', ), )

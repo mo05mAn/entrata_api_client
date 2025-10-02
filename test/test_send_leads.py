@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leads import SendLeads
+from entrata_api_client.models.send_leads import SendLeads
 
 class TestSendLeads(unittest.TestCase):
     """SendLeads unit test stubs"""
@@ -35,24 +35,24 @@ class TestSendLeads(unittest.TestCase):
         model = SendLeads()
         if include_optional:
             return SendLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_leads_method.sendLeads_method(
+                method = entrata_api_client.models.send_leads_method.sendLeads_method(
                     name = 'sendLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.send_leads_method_params.sendLeads_method_params(
+                    params = entrata_api_client.models.send_leads_method_params.sendLeads_method_params(
                         property_id = 123456, 
                         subtype_id = 123, ), )
             )
         else:
             return SendLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_leads_method.sendLeads_method(
+                method = entrata_api_client.models.send_leads_method.sendLeads_method(
                     name = 'sendLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.send_leads_method_params.sendLeads_method_params(
+                    params = entrata_api_client.models.send_leads_method_params.sendLeads_method_params(
                         property_id = 123456, 
                         subtype_id = 123, ), ),
         )

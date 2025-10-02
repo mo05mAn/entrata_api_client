@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_activities_success_response_response import GetLeaseActivitiesSuccessResponseResponse
+from entrata_api_client.models.get_lease_activities_success_response_response import GetLeaseActivitiesSuccessResponseResponse
 
 class TestGetLeaseActivitiesSuccessResponseResponse(unittest.TestCase):
     """GetLeaseActivitiesSuccessResponseResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetLeaseActivitiesSuccessResponseResponse(unittest.TestCase):
             return GetLeaseActivitiesSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_lease_activities_success_response_response_result.getLeaseActivitiesSuccessResponse_response_result(
+                result = entrata_api_client.models.get_lease_activities_success_response_response_result.getLeaseActivitiesSuccessResponse_response_result(
                     events = [
-                        openapi_client.models.get_lease_activities_success_response_response_result_events_inner.getLeaseActivitiesSuccessResponse_response_result_events_inner(
+                        entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner.getLeaseActivitiesSuccessResponse_response_result_events_inner(
                             event_id = 123456, 
                             type_id = 3, 
                             lease_id = 123456, 
@@ -50,7 +50,7 @@ class TestGetLeaseActivitiesSuccessResponseResponse(unittest.TestCase):
                             date = 'YYYY-MM-DD', 
                             comments = 'Self-Guided Tour Scheduled', 
                             event_reasons = 'Outgoing Email to testsf46 test', 
-                            call_data = openapi_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
+                            call_data = entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
                                 call_id = '123456', 
                                 call_from = '+1334444444', 
                                 ring_through = '+1334444444', 
@@ -63,9 +63,9 @@ class TestGetLeaseActivitiesSuccessResponseResponse(unittest.TestCase):
             return GetLeaseActivitiesSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_lease_activities_success_response_response_result.getLeaseActivitiesSuccessResponse_response_result(
+                result = entrata_api_client.models.get_lease_activities_success_response_response_result.getLeaseActivitiesSuccessResponse_response_result(
                     events = [
-                        openapi_client.models.get_lease_activities_success_response_response_result_events_inner.getLeaseActivitiesSuccessResponse_response_result_events_inner(
+                        entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner.getLeaseActivitiesSuccessResponse_response_result_events_inner(
                             event_id = 123456, 
                             type_id = 3, 
                             lease_id = 123456, 
@@ -76,7 +76,7 @@ class TestGetLeaseActivitiesSuccessResponseResponse(unittest.TestCase):
                             date = 'YYYY-MM-DD', 
                             comments = 'Self-Guided Tour Scheduled', 
                             event_reasons = 'Outgoing Email to testsf46 test', 
-                            call_data = openapi_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
+                            call_data = entrata_api_client.models.get_lease_activities_success_response_response_result_events_inner_call_data.getLeaseActivitiesSuccessResponse_response_result_events_inner_callData(
                                 call_id = '123456', 
                                 call_from = '+1334444444', 
                                 ring_through = '+1334444444', 

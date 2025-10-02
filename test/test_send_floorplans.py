@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_floorplans import SendFloorplans
+from entrata_api_client.models.send_floorplans import SendFloorplans
 
 class TestSendFloorplans(unittest.TestCase):
     """SendFloorplans unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendFloorplans(unittest.TestCase):
         model = SendFloorplans()
         if include_optional:
             return SendFloorplans(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_floorplans_method.sendFloorplans_method(
+                method = entrata_api_client.models.send_floorplans_method.sendFloorplans_method(
                     name = 'sendFloorplans', 
                     version = 'r1', 
-                    params = openapi_client.models.send_floorplans_method_params.sendFloorplans_method_params(
+                    params = entrata_api_client.models.send_floorplans_method_params.sendFloorplans_method_params(
                         property_id = 12345, 
                         name = 'ABC', 
                         description = 'description', 
@@ -58,12 +58,12 @@ class TestSendFloorplans(unittest.TestCase):
             )
         else:
             return SendFloorplans(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_floorplans_method.sendFloorplans_method(
+                method = entrata_api_client.models.send_floorplans_method.sendFloorplans_method(
                     name = 'sendFloorplans', 
                     version = 'r1', 
-                    params = openapi_client.models.send_floorplans_method_params.sendFloorplans_method_params(
+                    params = entrata_api_client.models.send_floorplans_method_params.sendFloorplans_method_params(
                         property_id = 12345, 
                         name = 'ABC', 
                         description = 'description', 

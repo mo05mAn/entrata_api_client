@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.request_body import RequestBody
+from entrata_api_client.models.request_body import RequestBody
 
 class TestRequestBody(unittest.TestCase):
     """RequestBody unit test stubs"""
@@ -35,22 +35,22 @@ class TestRequestBody(unittest.TestCase):
         model = RequestBody()
         if include_optional:
             return RequestBody(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.request_body_method.requestBody_method(
+                method = entrata_api_client.models.request_body_method.requestBody_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.params.params(), )
+                    params = entrata_api_client.models.params.params(), )
             )
         else:
             return RequestBody(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.request_body_method.requestBody_method(
+                method = entrata_api_client.models.request_body_method.requestBody_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.params.params(), ),
+                    params = entrata_api_client.models.params.params(), ),
         )
         """
 

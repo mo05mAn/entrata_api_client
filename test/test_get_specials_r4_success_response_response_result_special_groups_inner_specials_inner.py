@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInner
+from entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInner
 
 class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInner(unittest.TestCase):
     """GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerSpecialsIn
                 special_name = 'consession',
                 gift_value = '0.00',
                 rate = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner_rate_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner_rate_inner(
                         rate_id = '999999999', 
                         ar_code_id = '666666', 
                         ar_code_type_name = 'Dummy_name', 

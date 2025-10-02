@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_financial_post200_response import OrgsV1FinancialPost200Response
+from entrata_api_client.models.orgs_v1_financial_post200_response import OrgsV1FinancialPost200Response
 
 class TestOrgsV1FinancialPost200Response(unittest.TestCase):
     """OrgsV1FinancialPost200Response unit test stubs"""
@@ -37,27 +37,27 @@ class TestOrgsV1FinancialPost200Response(unittest.TestCase):
             return OrgsV1FinancialPost200Response(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.update_budgets_success_response_result.updateBudgetsSuccessResponse_result(
-                    budgets = openapi_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
+                result = entrata_api_client.models.update_budgets_success_response_result.updateBudgetsSuccessResponse_result(
+                    budgets = entrata_api_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
                         budget = [
-                            openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                            entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'Budget updated successfully.', )
                             ], ), ),
-                response = openapi_client.models.get_gl_trees_r2_success_response_response.getGlTrees_r2_SuccessResponse_response(
+                response = entrata_api_client.models.get_gl_trees_r2_success_response_response.getGlTrees_r2_SuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_gl_trees_r2_success_response_response_result.getGlTrees_r2_SuccessResponse_response_result(
-                        gl_trees = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
+                    result = entrata_api_client.models.get_gl_trees_r2_success_response_response_result.getGlTrees_r2_SuccessResponse_response_result(
+                        gl_trees = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
                             gl_tree = [
-                                openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
+                                entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
                                     id = 12345, 
                                     name = 'Master GL Tree', 
                                     is_master_gl_tree = 1, 
-                                    branches = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
+                                    branches = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
                                         branch = [
-                                            openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
+                                            entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
                                                 branch_id = '12345', 
                                                 group_type = 'Standard Group', 
                                                 is_enabled = '1', 
@@ -66,9 +66,9 @@ class TestOrgsV1FinancialPost200Response(unittest.TestCase):
                                                 show_summary_row = 1, 
                                                 description = 'Cash', )
                                             ], ), 
-                                    gl_accounts = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
+                                    gl_accounts = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
                                         gl_account = [
-                                            openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
+                                            entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
                                                 id = '12345', 
                                                 branch_id = '12345', 
                                                 account_number = '12345-12345', 
@@ -86,10 +86,10 @@ class TestOrgsV1FinancialPost200Response(unittest.TestCase):
             return OrgsV1FinancialPost200Response(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.update_budgets_success_response_result.updateBudgetsSuccessResponse_result(
-                    budgets = openapi_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
+                result = entrata_api_client.models.update_budgets_success_response_result.updateBudgetsSuccessResponse_result(
+                    budgets = entrata_api_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
                         budget = [
-                            openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                            entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                                 node = '1', 
                                 status = 'Success', 
                                 message = 'Budget updated successfully.', )

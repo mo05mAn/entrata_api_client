@@ -19,12 +19,12 @@ from typing_extensions import Annotated
 from pydantic import Field, StrictInt, StrictStr, field_validator
 from typing import List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.orgs_v1_leases_post200_response import OrgsV1LeasesPost200Response
-from openapi_client.models.orgs_v1_leases_post_request_inner import OrgsV1LeasesPostRequestInner
+from entrata_api_client.models.orgs_v1_leases_post200_response import OrgsV1LeasesPost200Response
+from entrata_api_client.models.orgs_v1_leases_post_request_inner import OrgsV1LeasesPostRequestInner
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from entrata_api_client.api_client import ApiClient, RequestSerialized
+from entrata_api_client.api_response import ApiResponse
+from entrata_api_client.rest import RESTResponseType
 
 
 class LeasesApi:

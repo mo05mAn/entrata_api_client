@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_method import UpdateAmenitiesMethod
+from entrata_api_client.models.update_amenities_method import UpdateAmenitiesMethod
 
 class TestUpdateAmenitiesMethod(unittest.TestCase):
     """UpdateAmenitiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateAmenitiesMethod(unittest.TestCase):
             return UpdateAmenitiesMethod(
                 name = 'updateAmenities',
                 version = 'r1',
-                params = openapi_client.models.update_amenities_method_params.updateAmenities_method_params(
+                params = entrata_api_client.models.update_amenities_method_params.updateAmenities_method_params(
                     id = 12345, 
                     name = 'property amenity', 
                     description = 'Test amenity', 

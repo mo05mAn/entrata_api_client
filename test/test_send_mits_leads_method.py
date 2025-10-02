@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_mits_leads_method import SendMitsLeadsMethod
+from entrata_api_client.models.send_mits_leads_method import SendMitsLeadsMethod
 
 class TestSendMitsLeadsMethod(unittest.TestCase):
     """SendMitsLeadsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendMitsLeadsMethod(unittest.TestCase):
             return SendMitsLeadsMethod(
                 name = 'sendMitsLeads',
                 version = 'r1',
-                params = openapi_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
+                params = entrata_api_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
                     property_id = 123456, 
                     do_not_send_confirmation_email = 0, 
                     is_wait_list = 0, 

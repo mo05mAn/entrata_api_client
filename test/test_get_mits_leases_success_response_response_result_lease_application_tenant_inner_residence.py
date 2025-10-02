@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerR
         model = GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence()
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence(
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
                     address_type = 'current', 
                     address = '2921 Sycamore Springs Drive, Unit # 103', 
                     city = 'Kingwood', 
@@ -45,7 +45,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerR
             )
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerResidence(
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
                     address_type = 'current', 
                     address = '2921 Sycamore Springs Drive, Unit # 103', 
                     city = 'Kingwood', 

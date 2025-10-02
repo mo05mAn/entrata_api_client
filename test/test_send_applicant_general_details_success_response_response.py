@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_applicant_general_details_success_response_response import SendApplicantGeneralDetailsSuccessResponseResponse
+from entrata_api_client.models.send_applicant_general_details_success_response_response import SendApplicantGeneralDetailsSuccessResponseResponse
 
 class TestSendApplicantGeneralDetailsSuccessResponseResponse(unittest.TestCase):
     """SendApplicantGeneralDetailsSuccessResponseResponse unit test stubs"""
@@ -38,7 +38,7 @@ class TestSendApplicantGeneralDetailsSuccessResponseResponse(unittest.TestCase):
                 request_id = 'req98765',
                 code = 200,
                 result = [
-                    openapi_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
+                    entrata_api_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
                         status = 'Success', 
                         message = 'General details updated successfully', 
                         applicant_id = '20456006', )
@@ -48,7 +48,7 @@ class TestSendApplicantGeneralDetailsSuccessResponseResponse(unittest.TestCase):
             return SendApplicantGeneralDetailsSuccessResponseResponse(
                 code = 200,
                 result = [
-                    openapi_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
+                    entrata_api_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
                         status = 'Success', 
                         message = 'General details updated successfully', 
                         applicant_id = '20456006', )

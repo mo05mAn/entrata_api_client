@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads import GetMitsLeads
+from entrata_api_client.models.get_mits_leads import GetMitsLeads
 
 class TestGetMitsLeads(unittest.TestCase):
     """GetMitsLeads unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeads(unittest.TestCase):
         model = GetMitsLeads()
         if include_optional:
             return GetMitsLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_mits_leads_method.getMitsLeads_method(
+                method = entrata_api_client.models.get_mits_leads_method.getMitsLeads_method(
                     name = 'getMitsLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_leads_method_params.getMitsLeads_method_params(
+                    params = entrata_api_client.models.get_mits_leads_method_params.getMitsLeads_method_params(
                         property_id = 123456, 
                         lead_id = 123, 
                         name = 'ABC', 
@@ -58,12 +58,12 @@ class TestGetMitsLeads(unittest.TestCase):
             )
         else:
             return GetMitsLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_mits_leads_method.getMitsLeads_method(
+                method = entrata_api_client.models.get_mits_leads_method.getMitsLeads_method(
                     name = 'getMitsLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_leads_method_params.getMitsLeads_method_params(
+                    params = entrata_api_client.models.get_mits_leads_method_params.getMitsLeads_method_params(
                         property_id = 123456, 
                         lead_id = 123, 
                         name = 'ABC', 

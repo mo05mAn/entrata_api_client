@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address_attributes import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddressAttributes
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address_attributes import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddressAttributes
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -20,7 +20,7 @@ import json
 from datetime import date
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes import GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes
+from entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes import GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes
 from typing import Optional, Set
 from typing_extensions import Self
 

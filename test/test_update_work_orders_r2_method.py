@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_work_orders_r2_method import UpdateWorkOrdersR2Method
+from entrata_api_client.models.update_work_orders_r2_method import UpdateWorkOrdersR2Method
 
 class TestUpdateWorkOrdersR2Method(unittest.TestCase):
     """UpdateWorkOrdersR2Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateWorkOrdersR2Method(unittest.TestCase):
             return UpdateWorkOrdersR2Method(
                 name = 'updateWorkOrders',
                 version = 'r2',
-                params = openapi_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
+                params = entrata_api_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
                     property_id = 123456, 
                     work_order_id = 123456, 
                     lease_id = 123456, 

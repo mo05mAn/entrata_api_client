@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_applicant_general_details import SendApplicantGeneralDetails
+from entrata_api_client.models.send_applicant_general_details import SendApplicantGeneralDetails
 
 class TestSendApplicantGeneralDetails(unittest.TestCase):
     """SendApplicantGeneralDetails unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplicantGeneralDetails(unittest.TestCase):
         model = SendApplicantGeneralDetails()
         if include_optional:
             return SendApplicantGeneralDetails(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_applicant_general_details_method.sendApplicantGeneralDetails_method(
+                method = entrata_api_client.models.send_applicant_general_details_method.sendApplicantGeneralDetails_method(
                     name = 'sendApplicantGeneralDetails', 
                     version = 'r1', 
-                    params = openapi_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
+                    params = entrata_api_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         applicant_id = 123456, 
@@ -51,12 +51,12 @@ class TestSendApplicantGeneralDetails(unittest.TestCase):
             )
         else:
             return SendApplicantGeneralDetails(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_applicant_general_details_method.sendApplicantGeneralDetails_method(
+                method = entrata_api_client.models.send_applicant_general_details_method.sendApplicantGeneralDetails_method(
                     name = 'sendApplicantGeneralDetails', 
                     version = 'r1', 
-                    params = openapi_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
+                    params = entrata_api_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         applicant_id = 123456, 

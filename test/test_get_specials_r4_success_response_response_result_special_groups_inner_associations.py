@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerAssociations
+from entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerAssociations
 
 class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerAssociations(unittest.TestCase):
     """GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerAssociations unit test stubs"""
@@ -39,7 +39,7 @@ class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInnerAssociatio
                 level_name = 'XYZ',
                 unit_count = 1,
                 references = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations_references_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations_references_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations_references_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations_references_inner(
                         id = '7777777', 
                         name = 'PQR', )
                     ]

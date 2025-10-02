@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals
+from entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals
 
 class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals(unittest.TestCase):
     """GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInn
         model = GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals()
         if include_optional:
             return GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals(
-                gl_total = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
+                gl_total = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
                     amount = '360', 
                     gl_dimension_id = '463', )
             )
         else:
             return GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInnerGlTotals(
-                gl_total = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
+                gl_total = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
                     amount = '360', 
                     gl_dimension_id = '463', ),
         )

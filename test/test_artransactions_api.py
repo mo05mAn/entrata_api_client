@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.artransactions_api import ArtransactionsApi
+from entrata_api_client.api.artransactions_api import ArtransactionsApi
 
 
 class TestArtransactionsApi(unittest.TestCase):

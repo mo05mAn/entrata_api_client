@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids import GetFinancialPickListR2SuccessResponseResultLedgerIds
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids import GetFinancialPickListR2SuccessResponseResultLedgerIds
 
 class TestGetFinancialPickListR2SuccessResponseResultLedgerIds(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultLedgerIds unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultLedgerIds(unittest.TestCase
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultLedgerIds(
                 ledger_id = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids_ledger_id_inner.getFinancialPickList_r2_SuccessResponse_result_ledgerIds_ledgerId_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids_ledger_id_inner.getFinancialPickList_r2_SuccessResponse_result_ledgerIds_ledgerId_inner(
                         id = 3, 
                         name = 'Military', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR2SuccessResponseResultLedgerIds(unittest.TestCase
         else:
             return GetFinancialPickListR2SuccessResponseResultLedgerIds(
                 ledger_id = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids_ledger_id_inner.getFinancialPickList_r2_SuccessResponse_result_ledgerIds_ledgerId_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_ledger_ids_ledger_id_inner.getFinancialPickList_r2_SuccessResponse_result_ledgerIds_ledgerId_inner(
                         id = 3, 
                         name = 'Military', )
                     ],

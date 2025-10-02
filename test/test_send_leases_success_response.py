@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leases_success_response import SendLeasesSuccessResponse
+from entrata_api_client.models.send_leases_success_response import SendLeasesSuccessResponse
 
 class TestSendLeasesSuccessResponse(unittest.TestCase):
     """SendLeasesSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendLeasesSuccessResponse(unittest.TestCase):
             return SendLeasesSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_leases_success_response_result.sendLeasesSuccessResponse_result(
-                    leases = openapi_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
+                result = entrata_api_client.models.send_leases_success_response_result.sendLeasesSuccessResponse_result(
+                    leases = entrata_api_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
                         lease = [
-                            openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                            entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                                 node = '1', 
                                 lease_id = '123456', 
                                 status = 'Success', 
@@ -51,10 +51,10 @@ class TestSendLeasesSuccessResponse(unittest.TestCase):
             return SendLeasesSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_leases_success_response_result.sendLeasesSuccessResponse_result(
-                    leases = openapi_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
+                result = entrata_api_client.models.send_leases_success_response_result.sendLeasesSuccessResponse_result(
+                    leases = entrata_api_client.models.send_leases_success_response_result_leases.sendLeasesSuccessResponse_result_leases(
                         lease = [
-                            openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                            entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                                 node = '1', 
                                 lease_id = '123456', 
                                 status = 'Success', 

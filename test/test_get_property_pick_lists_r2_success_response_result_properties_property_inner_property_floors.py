@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors(
                 property_floor = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
                         id = 2662740, 
                         title = 'Floor A', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyFloors(
                 property_floor = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
                         id = 2662740, 
                         title = 'Floor A', )
                     ],

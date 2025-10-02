@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner import GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInner
+from entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner import GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInner
 
 class TestGetAmenityReservationsSuccessResponseResultAmenitiesAmenityInner(unittest.TestCase):
     """GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInner unit test stubs"""
@@ -39,9 +39,9 @@ class TestGetAmenityReservationsSuccessResponseResultAmenitiesAmenityInner(unitt
                 name = 'Cats',
                 description = 'Rent yourself a cat for a few hours.',
                 is_published = '1',
-                reservations = openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations(
+                reservations = entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations(
                     reservation = [
-                        openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
+                        entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
                             id = '123456', 
                             resident = 'Transfer Test 3', 
                             lease_id = '123456', 

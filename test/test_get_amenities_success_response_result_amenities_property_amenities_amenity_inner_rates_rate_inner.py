@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner import GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner
+from entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner import GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInne
         model = GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner()
         if include_optional:
             return GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner(
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
                     ar_code_id = '149655', 
                     ar_code_type_id = '2', 
                     charge_type_id = '302', 
@@ -47,7 +47,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInne
             )
         else:
             return GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenitiesAmenityInnerRatesRateInner(
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
                     ar_code_id = '149655', 
                     ar_code_type_id = '2', 
                     charge_type_id = '302', 

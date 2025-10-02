@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValu
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDepositAmountValueRange(
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
                     min = '250', 
                     max = '250', )
             )

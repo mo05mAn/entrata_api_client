@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_media_method import GetPropertyMediaMethod
+from entrata_api_client.models.get_property_media_method import GetPropertyMediaMethod
 
 class TestGetPropertyMediaMethod(unittest.TestCase):
     """GetPropertyMediaMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertyMediaMethod(unittest.TestCase):
             return GetPropertyMediaMethod(
                 name = 'getPropertyMedia',
                 version = 'r1',
-                params = openapi_client.models.get_property_media_method_params.getPropertyMedia_method_params(
+                params = entrata_api_client.models.get_property_media_method_params.getPropertyMedia_method_params(
                     property_id = '123456', 
                     media_type_id = '6', 
                     media_sub_type_id = '24', 
@@ -47,7 +47,7 @@ class TestGetPropertyMediaMethod(unittest.TestCase):
             return GetPropertyMediaMethod(
                 name = 'getPropertyMedia',
                 version = 'r1',
-                params = openapi_client.models.get_property_media_method_params.getPropertyMedia_method_params(
+                params = entrata_api_client.models.get_property_media_method_params.getPropertyMedia_method_params(
                     property_id = '123456', 
                     media_type_id = '6', 
                     media_sub_type_id = '24', 

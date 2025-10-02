@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result import GetSpecialsR1SuccessResponseResponseResult
+from entrata_api_client.models.get_specials_r1_success_response_response_result import GetSpecialsR1SuccessResponseResponseResult
 
 class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResult unit test stubs"""
@@ -35,19 +35,19 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
         model = GetSpecialsR1SuccessResponseResponseResult()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResult(
-                physical_property = openapi_client.models.get_specials_r1_success_response_response_result_physical_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty(
-                    property = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property(
-                        identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Identification(
+                physical_property = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty(
+                    property = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property(
+                        identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Identification(
                             id_value = 21442, ), 
-                        property_id = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID(
-                            identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
+                        property_id = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID(
+                            identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
                                 id_value = 21442, 
                                 organization_name = 'DB Xento Systems Pvt. Ltd.', ), 
                             marketing_name = 'Marketing Name', 
                             legal_name = 'Legal Name', ), 
                         concession = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner(
-                                @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner(
+                                @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                                     active = 1, ), 
                                 value = '10.00', 
                                 description_header = 'Consession', 
@@ -55,14 +55,14 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
                                 description_footer = 'description footer', )
                             ], 
                         floorplan = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner(
-                                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner(
+                                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
                                     id_value = 127493, ), 
                                 name = 'FP', 
                                 comment = 'FP', 
                                 concession = [
-                                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
-                                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
+                                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                                             active = 1, ), 
                                         value = '100.00', 
                                         description_header = 'Consession', 
@@ -71,21 +71,21 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], )
                             ], 
                         ils_unit = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner(
-                                units = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units(
-                                    unit = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit(
-                                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner(
+                                units = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units(
+                                    unit = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit(
+                                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
                                             building_id = 56, 
                                             floor_plan_id = 127469, ), 
-                                        identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
-                                            @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
+                                        identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
+                                            @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
                                                 id_rank = 'primary', 
                                                 id_scope_type = 'sender', 
                                                 id_type = 'UnitID', ), 
                                             id_value = 2261175, ), 
                                         marketing_name = 'unit1', ), ), 
                                 concession = [
-                                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Concession_inner(
+                                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Concession_inner(
                                         @attributes = , 
                                         value = '50.00', 
                                         description_header = 'Test Special', 
@@ -96,19 +96,19 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResult(
-                physical_property = openapi_client.models.get_specials_r1_success_response_response_result_physical_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty(
-                    property = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property(
-                        identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Identification(
+                physical_property = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty(
+                    property = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property(
+                        identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Identification(
                             id_value = 21442, ), 
-                        property_id = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID(
-                            identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
+                        property_id = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID(
+                            identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
                                 id_value = 21442, 
                                 organization_name = 'DB Xento Systems Pvt. Ltd.', ), 
                             marketing_name = 'Marketing Name', 
                             legal_name = 'Legal Name', ), 
                         concession = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner(
-                                @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner(
+                                @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                                     active = 1, ), 
                                 value = '10.00', 
                                 description_header = 'Consession', 
@@ -116,14 +116,14 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
                                 description_footer = 'description footer', )
                             ], 
                         floorplan = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner(
-                                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner(
+                                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
                                     id_value = 127493, ), 
                                 name = 'FP', 
                                 comment = 'FP', 
                                 concession = [
-                                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
-                                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
+                                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                                             active = 1, ), 
                                         value = '100.00', 
                                         description_header = 'Consession', 
@@ -132,21 +132,21 @@ class TestGetSpecialsR1SuccessResponseResponseResult(unittest.TestCase):
                                     ], )
                             ], 
                         ils_unit = [
-                            openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner(
-                                units = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units(
-                                    unit = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit(
-                                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
+                            entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner(
+                                units = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units(
+                                    unit = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit(
+                                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
                                             building_id = 56, 
                                             floor_plan_id = 127469, ), 
-                                        identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
-                                            @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
+                                        identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
+                                            @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
                                                 id_rank = 'primary', 
                                                 id_scope_type = 'sender', 
                                                 id_type = 'UnitID', ), 
                                             id_value = 2261175, ), 
                                         marketing_name = 'unit1', ), ), 
                                 concession = [
-                                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Concession_inner(
+                                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Concession_inner(
                                         @attributes = , 
                                         value = '50.00', 
                                         description_header = 'Test Special', 

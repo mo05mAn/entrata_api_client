@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_method import GetVendorPickListsMethod
+from entrata_api_client.models.get_vendor_pick_lists_method import GetVendorPickListsMethod
 
 class TestGetVendorPickListsMethod(unittest.TestCase):
     """GetVendorPickListsMethod unit test stubs"""

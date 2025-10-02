@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.void_ap_payments_success_response_result import VoidApPaymentsSuccessResponseResult
+from entrata_api_client.models.void_ap_payments_success_response_result import VoidApPaymentsSuccessResponseResult
 
 class TestVoidApPaymentsSuccessResponseResult(unittest.TestCase):
     """VoidApPaymentsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestVoidApPaymentsSuccessResponseResult(unittest.TestCase):
         model = VoidApPaymentsSuccessResponseResult()
         if include_optional:
             return VoidApPaymentsSuccessResponseResult(
-                ap_payments = openapi_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
+                ap_payments = entrata_api_client.models.void_ap_payments_success_response_result_ap_payments.voidApPaymentsSuccessResponse_result_apPayments(
                     ap_payment = [
-                        openapi_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
+                        entrata_api_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner.voidApPaymentsSuccessResponse_result_apPayments_apPayment_inner(
                             node = '1', 
                             status = 'Success', 
                             message = 'Payment voided successfully.', 

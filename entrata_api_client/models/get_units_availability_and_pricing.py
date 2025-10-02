@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_units_availability_and_pricing_method import GetUnitsAvailabilityAndPricingMethod
-from openapi_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.get_units_availability_and_pricing_method import GetUnitsAvailabilityAndPricingMethod
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
 from typing import Optional, Set
 from typing_extensions import Self
 

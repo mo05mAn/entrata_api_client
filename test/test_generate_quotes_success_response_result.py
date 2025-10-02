@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.generate_quotes_success_response_result import GenerateQuotesSuccessResponseResult
+from entrata_api_client.models.generate_quotes_success_response_result import GenerateQuotesSuccessResponseResult
 
 class TestGenerateQuotesSuccessResponseResult(unittest.TestCase):
     """GenerateQuotesSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGenerateQuotesSuccessResponseResult(unittest.TestCase):
         model = GenerateQuotesSuccessResponseResult()
         if include_optional:
             return GenerateQuotesSuccessResponseResult(
-                quotes = openapi_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
+                quotes = entrata_api_client.models.generate_quotes_success_response_result_quotes.generateQuotesSuccessResponse_result_quotes(
                     quote = [
-                        openapi_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
+                        entrata_api_client.models.generate_quotes_success_response_result_quotes_quote_inner.generateQuotesSuccessResponse_result_quotes_quote_inner(
                             node = '1', 
                             status = 'Success', 
                             quote_id = '123', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles_success_response import SendApplicationVehiclesSuccessResponse
+from entrata_api_client.models.send_application_vehicles_success_response import SendApplicationVehiclesSuccessResponse
 
 class TestSendApplicationVehiclesSuccessResponse(unittest.TestCase):
     """SendApplicationVehiclesSuccessResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplicationVehiclesSuccessResponse(unittest.TestCase):
         model = SendApplicationVehiclesSuccessResponse()
         if include_optional:
             return SendApplicationVehiclesSuccessResponse(
-                response = openapi_client.models.send_application_vehicles_success_response_response.sendApplicationVehiclesSuccessResponse_response(
+                response = entrata_api_client.models.send_application_vehicles_success_response_response.sendApplicationVehiclesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
-                        vehicles = openapi_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
+                    result = entrata_api_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
+                        vehicles = entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
                             vehicle = [
-                                openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                                entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                                     status = 'Success', 
                                     message = 'Vehicle saved successfully.', 
                                     id = 56853778, 
@@ -52,13 +52,13 @@ class TestSendApplicationVehiclesSuccessResponse(unittest.TestCase):
             )
         else:
             return SendApplicationVehiclesSuccessResponse(
-                response = openapi_client.models.send_application_vehicles_success_response_response.sendApplicationVehiclesSuccessResponse_response(
+                response = entrata_api_client.models.send_application_vehicles_success_response_response.sendApplicationVehiclesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
-                        vehicles = openapi_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
+                    result = entrata_api_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
+                        vehicles = entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
                             vehicle = [
-                                openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                                entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                                     status = 'Success', 
                                     message = 'Vehicle saved successfully.', 
                                     id = 56853778, 

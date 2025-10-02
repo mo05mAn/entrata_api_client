@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r2_success_response_response_result import GetGlTreesR2SuccessResponseResponseResult
+from entrata_api_client.models.get_gl_trees_r2_success_response_response_result import GetGlTreesR2SuccessResponseResponseResult
 
 class TestGetGlTreesR2SuccessResponseResponseResult(unittest.TestCase):
     """GetGlTreesR2SuccessResponseResponseResult unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetGlTreesR2SuccessResponseResponseResult(unittest.TestCase):
         model = GetGlTreesR2SuccessResponseResponseResult()
         if include_optional:
             return GetGlTreesR2SuccessResponseResponseResult(
-                gl_trees = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
+                gl_trees = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
                     gl_tree = [
-                        openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
+                        entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
                             id = 12345, 
                             name = 'Master GL Tree', 
                             is_master_gl_tree = 1, 
-                            branches = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
+                            branches = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
                                 branch = [
-                                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
+                                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
                                         branch_id = '12345', 
                                         group_type = 'Standard Group', 
                                         is_enabled = '1', 
@@ -52,9 +52,9 @@ class TestGetGlTreesR2SuccessResponseResponseResult(unittest.TestCase):
                                         show_summary_row = 1, 
                                         description = 'Cash', )
                                     ], ), 
-                            gl_accounts = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
+                            gl_accounts = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
                                 gl_account = [
-                                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
+                                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
                                         id = '12345', 
                                         branch_id = '12345', 
                                         account_number = '12345-12345', 
@@ -70,15 +70,15 @@ class TestGetGlTreesR2SuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return GetGlTreesR2SuccessResponseResponseResult(
-                gl_trees = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
+                gl_trees = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees.getGlTrees_r2_SuccessResponse_response_result_glTrees(
                     gl_tree = [
-                        openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
+                        entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner(
                             id = 12345, 
                             name = 'Master GL Tree', 
                             is_master_gl_tree = 1, 
-                            branches = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
+                            branches = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches(
                                 branch = [
-                                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
+                                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
                                         branch_id = '12345', 
                                         group_type = 'Standard Group', 
                                         is_enabled = '1', 
@@ -87,9 +87,9 @@ class TestGetGlTreesR2SuccessResponseResponseResult(unittest.TestCase):
                                         show_summary_row = 1, 
                                         description = 'Cash', )
                                     ], ), 
-                            gl_accounts = openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
+                            gl_accounts = entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts(
                                 gl_account = [
-                                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
+                                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
                                         id = '12345', 
                                         branch_id = '12345', 
                                         account_number = '12345-12345', 

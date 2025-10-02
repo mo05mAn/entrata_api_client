@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites_success_response import GetWebsitesSuccessResponse
+from entrata_api_client.models.get_websites_success_response import GetWebsitesSuccessResponse
 
 class TestGetWebsitesSuccessResponse(unittest.TestCase):
     """GetWebsitesSuccessResponse unit test stubs"""
@@ -36,23 +36,23 @@ class TestGetWebsitesSuccessResponse(unittest.TestCase):
         if include_optional:
             return GetWebsitesSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.get_websites_success_response_result.getWebsitesSuccessResponse_result(
-                    websites = openapi_client.models.get_websites_success_response_result_websites.getWebsitesSuccessResponse_result_websites(
+                result = entrata_api_client.models.get_websites_success_response_result.getWebsitesSuccessResponse_result(
+                    websites = entrata_api_client.models.get_websites_success_response_result_websites.getWebsitesSuccessResponse_result_websites(
                         website = [
-                            openapi_client.models.get_websites_success_response_result_websites_website_inner.getWebsitesSuccessResponse_result_websites_website_inner(
+                            entrata_api_client.models.get_websites_success_response_result_websites_website_inner.getWebsitesSuccessResponse_result_websites_website_inner(
                                 id = '25079', 
                                 name = 'Abhi_website', 
                                 subdomain = 'abhiwebsite', 
                                 is_corporate_website = 0, 
-                                website_properties = openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties(
+                                website_properties = entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties(
                                     website_property = [
-                                        openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
+                                        entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
                                             property_id = '160681', 
                                             property_name = 'Abhi_Test', )
                                         ], ), 
-                                website_domains = openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains(
+                                website_domains = entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains(
                                     website_domain = [
-                                        openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
+                                        entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
                                             domain = 'test12.com', 
                                             is_primary = 1, 
                                             is_secure = False, )
@@ -62,23 +62,23 @@ class TestGetWebsitesSuccessResponse(unittest.TestCase):
         else:
             return GetWebsitesSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.get_websites_success_response_result.getWebsitesSuccessResponse_result(
-                    websites = openapi_client.models.get_websites_success_response_result_websites.getWebsitesSuccessResponse_result_websites(
+                result = entrata_api_client.models.get_websites_success_response_result.getWebsitesSuccessResponse_result(
+                    websites = entrata_api_client.models.get_websites_success_response_result_websites.getWebsitesSuccessResponse_result_websites(
                         website = [
-                            openapi_client.models.get_websites_success_response_result_websites_website_inner.getWebsitesSuccessResponse_result_websites_website_inner(
+                            entrata_api_client.models.get_websites_success_response_result_websites_website_inner.getWebsitesSuccessResponse_result_websites_website_inner(
                                 id = '25079', 
                                 name = 'Abhi_website', 
                                 subdomain = 'abhiwebsite', 
                                 is_corporate_website = 0, 
-                                website_properties = openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties(
+                                website_properties = entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties(
                                     website_property = [
-                                        openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
+                                        entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
                                             property_id = '160681', 
                                             property_name = 'Abhi_Test', )
                                         ], ), 
-                                website_domains = openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains(
+                                website_domains = entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains(
                                     website_domain = [
-                                        openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
+                                        entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
                                             domain = 'test12.com', 
                                             is_primary = 1, 
                                             is_secure = False, )

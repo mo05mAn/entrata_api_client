@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences(
                 target_move_in_date = 'YYYY-MM-DD',
                 desired_floorplan = 'One BHK - 2',
-                desired_unit = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_desired_unit.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_desiredUnit(
+                desired_unit = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_desired_unit.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_desiredUnit(
                     property_unit_id = '1234', 
                     unit_number = '112-B', 
                     unit_space_id = '1234', 
@@ -84,17 +84,17 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
                 desired_lease_terms = '8',
                 desired_lease_term_name = '8 months',
                 number_of_occupants = '1',
-                amenities = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities(
-                    property_amenities = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities(
+                amenities = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities(
+                    property_amenities = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities(
                         amenity = [
-                            openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
+                            entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
                                 amenity_type = 'Apartment', 
                                 amenity = '123', 
                                 description = 'AMENITY DESCRIPTION', )
                             ], ), ),
-                pets = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets(
+                pets = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets(
                     pet = [
-                        openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets_pet_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets_pet_inner(
+                        entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets_pet_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets_pet_inner(
                             pet_type = [
                                 ''
                                 ], 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_properties import GetUnitsAvailabilityAndPricingSuccessResponseResultProperties
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties import GetUnitsAvailabilityAndPricingSuccessResponseResultProperties
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponseResultProperties(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponseResultProperties unit test stubs"""
@@ -35,32 +35,32 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultProperties(unittest
         model = GetUnitsAvailabilityAndPricingSuccessResponseResultProperties()
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultProperties(
-                var_property = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
+                var_property = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
                     property_id = '1234', 
                     marketing_name = 'Andover House', 
-                    floorplans = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
+                    floorplans = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
                         floorplan = [
-                            openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
+                            entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
                                 name = 'Fairview', 
                                 unit_count = 1, 
                                 units_available = 1, 
                                 room = [
-                                    openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
+                                    entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
                                         description = 'Bedrooms', 
                                         count = 1, 
                                         room_type = 'Bedroom', )
                                     ], 
-                                square_feet = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
+                                square_feet = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
                                     avg = 968, 
                                     max = 968, 
                                     min = 968, ), 
-                                market_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
+                                market_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
                                     avg = 3000, 
                                     max = 4459, 
                                     min = 2577, ), 
-                                deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
-                                    amount = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
-                                        value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                                deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
+                                    amount = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
+                                        value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                                             min = '$100.00', 
                                             max = '$100.00', ), 
                                         amount_type = 'MonthMultiple', 
@@ -69,32 +69,32 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultProperties(unittest
             )
         else:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultProperties(
-                var_property = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
+                var_property = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
                     property_id = '1234', 
                     marketing_name = 'Andover House', 
-                    floorplans = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
+                    floorplans = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
                         floorplan = [
-                            openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
+                            entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
                                 name = 'Fairview', 
                                 unit_count = 1, 
                                 units_available = 1, 
                                 room = [
-                                    openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
+                                    entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
                                         description = 'Bedrooms', 
                                         count = 1, 
                                         room_type = 'Bedroom', )
                                     ], 
-                                square_feet = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
+                                square_feet = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
                                     avg = 968, 
                                     max = 968, 
                                     min = 968, ), 
-                                market_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
+                                market_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
                                     avg = 3000, 
                                     max = 4459, 
                                     min = 2577, ), 
-                                deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
-                                    amount = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
-                                        value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                                deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
+                                    amount = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
+                                        value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                                             min = '$100.00', 
                                             max = '$100.00', ), 
                                         amount_type = 'MonthMultiple', 

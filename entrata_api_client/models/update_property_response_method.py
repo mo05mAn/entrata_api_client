@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.update_property_response_method_params import UpdatePropertyResponseMethodParams
+from entrata_api_client.models.update_property_response_method_params import UpdatePropertyResponseMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

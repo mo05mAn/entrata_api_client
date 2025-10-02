@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner import GetArCodesSuccessResponseResponseResultArcodesArcodeInner
+from entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner import GetArCodesSuccessResponseResponseResultArcodesArcodeInner
 
 class TestGetArCodesSuccessResponseResponseResultArcodesArcodeInner(unittest.TestCase):
     """GetArCodesSuccessResponseResponseResultArcodesArcodeInner unit test stubs"""

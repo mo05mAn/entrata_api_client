@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsSelfGuidedTourAvailabilities
+from entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsSelfGuidedTourAvailabilities
 
 class TestGetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsSelfGuidedTourAvailabilities(unittest.TestCase):
     """GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsSelfGuidedTourAvailabilities unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettings
         if include_optional:
             return GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsSelfGuidedTourAvailabilities(
                 availability = [
-                    openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_selfGuidedTourAvailabilities_availability_inner(
+                    entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_self_guided_tour_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_selfGuidedTourAvailabilities_availability_inner(
                         day = 'Monday', 
                         start_time = '06:00:00MST', 
                         end_time = '14:59:00MST', 

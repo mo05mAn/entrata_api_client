@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_transactions_method import GetGlTransactionsMethod
+from entrata_api_client.models.get_gl_transactions_method import GetGlTransactionsMethod
 
 class TestGetGlTransactionsMethod(unittest.TestCase):
     """GetGlTransactionsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetGlTransactionsMethod(unittest.TestCase):
             return GetGlTransactionsMethod(
                 name = 'getGlTransactions',
                 version = 'r1',
-                params = openapi_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
+                params = entrata_api_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
                     property_ids = '123456,112233', 
                     gl_account_from = 1234, 
                     gl_account_to = 1234, 

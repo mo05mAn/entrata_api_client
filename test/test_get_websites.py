@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites import GetWebsites
+from entrata_api_client.models.get_websites import GetWebsites
 
 class TestGetWebsites(unittest.TestCase):
     """GetWebsites unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetWebsites(unittest.TestCase):
         model = GetWebsites()
         if include_optional:
             return GetWebsites(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_websites_method.getWebsites_method(
+                method = entrata_api_client.models.get_websites_method.getWebsites_method(
                     name = 'getWebsites', 
                     version = 'r1', 
-                    params = openapi_client.models.get_websites_method_params.getWebsites_method_params(
+                    params = entrata_api_client.models.get_websites_method_params.getWebsites_method_params(
                         property_ids = 56, ), )
             )
         else:
             return GetWebsites(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_websites_method.getWebsites_method(
+                method = entrata_api_client.models.get_websites_method.getWebsites_method(
                     name = 'getWebsites', 
                     version = 'r1', 
-                    params = openapi_client.models.get_websites_method_params.getWebsites_method_params(
+                    params = entrata_api_client.models.get_websites_method_params.getWebsites_method_params(
                         property_ids = 56, ), ),
         )
         """

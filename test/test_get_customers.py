@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers import GetCustomers
+from entrata_api_client.models.get_customers import GetCustomers
 
 class TestGetCustomers(unittest.TestCase):
     """GetCustomers unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetCustomers(unittest.TestCase):
         model = GetCustomers()
         if include_optional:
             return GetCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_customers_method.getCustomers_method(
+                method = entrata_api_client.models.get_customers_method.getCustomers_method(
                     name = 'getCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.get_customers_method_params.getCustomers_method_params(
+                    params = entrata_api_client.models.get_customers_method_params.getCustomers_method_params(
                         property_id = 123456, 
                         customer_ids = '1234,5678,9865', 
                         lease_status_type_ids = '1,2', 
@@ -50,12 +50,12 @@ class TestGetCustomers(unittest.TestCase):
             )
         else:
             return GetCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_customers_method.getCustomers_method(
+                method = entrata_api_client.models.get_customers_method.getCustomers_method(
                     name = 'getCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.get_customers_method_params.getCustomers_method_params(
+                    params = entrata_api_client.models.get_customers_method_params.getCustomers_method_params(
                         property_id = 123456, 
                         customer_ids = '1234,5678,9865', 
                         lease_status_type_ids = '1,2', 

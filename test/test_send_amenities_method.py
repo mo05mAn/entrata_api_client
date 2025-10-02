@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_amenities_method import SendAmenitiesMethod
+from entrata_api_client.models.send_amenities_method import SendAmenitiesMethod
 
 class TestSendAmenitiesMethod(unittest.TestCase):
     """SendAmenitiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendAmenitiesMethod(unittest.TestCase):
             return SendAmenitiesMethod(
                 name = 'sendAmenities',
                 version = 'r1',
-                params = openapi_client.models.send_amenities_method_params.sendAmenities_method_params(
+                params = entrata_api_client.models.send_amenities_method_params.sendAmenities_method_params(
                     property_id = 12345, 
                     name = 'Furniture A', 
                     description = 'Furniture A', 

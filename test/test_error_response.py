@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.error_response import ErrorResponse
+from entrata_api_client.models.error_response import ErrorResponse
 
 class TestErrorResponse(unittest.TestCase):
     """ErrorResponse unit test stubs"""
@@ -35,15 +35,15 @@ class TestErrorResponse(unittest.TestCase):
         model = ErrorResponse()
         if include_optional:
             return ErrorResponse(
-                response = openapi_client.models.error_response_response.errorResponse_response(
-                    error = openapi_client.models.error_response_response_error.errorResponse_response_error(
+                response = entrata_api_client.models.error_response_response.errorResponse_response(
+                    error = entrata_api_client.models.error_response_response_error.errorResponse_response_error(
                         code = 56, 
                         message = '', ), )
             )
         else:
             return ErrorResponse(
-                response = openapi_client.models.error_response_response.errorResponse_response(
-                    error = openapi_client.models.error_response_response_error.errorResponse_response_error(
+                response = entrata_api_client.models.error_response_response.errorResponse_response(
+                    error = entrata_api_client.models.error_response_response_error.errorResponse_response_error(
                         code = 56, 
                         message = '', ), ),
         )

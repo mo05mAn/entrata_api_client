@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_method import GetWorkOrderPickListsMethod
+from entrata_api_client.models.get_work_order_pick_lists_method import GetWorkOrderPickListsMethod
 
 class TestGetWorkOrderPickListsMethod(unittest.TestCase):
     """GetWorkOrderPickListsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetWorkOrderPickListsMethod(unittest.TestCase):
             return GetWorkOrderPickListsMethod(
                 name = 'getWorkOrderPickLists',
                 version = 'r1',
-                params = openapi_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
+                params = entrata_api_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
                     property_ids = '123456,678', )
             )
         else:

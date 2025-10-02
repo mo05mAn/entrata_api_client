@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_financial_post_request_inner import OrgsV1FinancialPostRequestInner
+from entrata_api_client.models.orgs_v1_financial_post_request_inner import OrgsV1FinancialPostRequestInner
 
 class TestOrgsV1FinancialPostRequestInner(unittest.TestCase):
     """OrgsV1FinancialPostRequestInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestOrgsV1FinancialPostRequestInner(unittest.TestCase):
         model = OrgsV1FinancialPostRequestInner()
         if include_optional:
             return OrgsV1FinancialPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_budgets_method.updateBudgets_method(
+                method = entrata_api_client.models.update_budgets_method.updateBudgets_method(
                     name = 'updateBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.update_budgets_method_params.updateBudgets_method_params(
+                    params = entrata_api_client.models.update_budgets_method_params.updateBudgets_method_params(
                         property_id = 123456, 
                         id = 123456, 
                         month = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -49,12 +49,12 @@ class TestOrgsV1FinancialPostRequestInner(unittest.TestCase):
             )
         else:
             return OrgsV1FinancialPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_budgets_method.updateBudgets_method(
+                method = entrata_api_client.models.update_budgets_method.updateBudgets_method(
                     name = 'updateBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.update_budgets_method_params.updateBudgets_method_params(
+                    params = entrata_api_client.models.update_budgets_method_params.updateBudgets_method_params(
                         property_id = 123456, 
                         id = 123456, 
                         month = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

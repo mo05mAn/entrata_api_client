@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems
+from entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems
 
 class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems(unittest.TestCase):
     """GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems(unitte
         if include_optional:
             return GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems(
                 line_item = [
-                    openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
+                    entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
                         id = '123456', 
                         description = 'test', 
                         quantity = '1', 
@@ -58,7 +58,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems(unitte
         else:
             return GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerLineItems(
                 line_item = [
-                    openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
+                    entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
                         id = '123456', 
                         description = 'test', 
                         quantity = '1', 

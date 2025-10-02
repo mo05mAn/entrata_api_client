@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.generate_quotes import GenerateQuotes
+from entrata_api_client.models.generate_quotes import GenerateQuotes
 
 class TestGenerateQuotes(unittest.TestCase):
     """GenerateQuotes unit test stubs"""
@@ -35,25 +35,25 @@ class TestGenerateQuotes(unittest.TestCase):
         model = GenerateQuotes()
         if include_optional:
             return GenerateQuotes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.generate_quotes_method.generateQuotes_method(
+                method = entrata_api_client.models.generate_quotes_method.generateQuotes_method(
                     name = 'generateQuotes', 
                     version = 'r1', 
-                    params = openapi_client.models.generate_quotes_method_params.generateQuotes_method_params(
+                    params = entrata_api_client.models.generate_quotes_method_params.generateQuotes_method_params(
                         property_id = 123456, 
                         application_id = 1234, 
                         adjustments_and_provision_ids = '123,234', ), )
             )
         else:
             return GenerateQuotes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.generate_quotes_method.generateQuotes_method(
+                method = entrata_api_client.models.generate_quotes_method.generateQuotes_method(
                     name = 'generateQuotes', 
                     version = 'r1', 
-                    params = openapi_client.models.generate_quotes_method_params.generateQuotes_method_params(
+                    params = entrata_api_client.models.generate_quotes_method_params.generateQuotes_method_params(
                         property_id = 123456, 
                         application_id = 1234, 
                         adjustments_and_provision_ids = '123,234', ), ),

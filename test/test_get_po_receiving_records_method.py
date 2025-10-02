@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_po_receiving_records_method import GetPoReceivingRecordsMethod
+from entrata_api_client.models.get_po_receiving_records_method import GetPoReceivingRecordsMethod
 
 class TestGetPoReceivingRecordsMethod(unittest.TestCase):
     """GetPoReceivingRecordsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPoReceivingRecordsMethod(unittest.TestCase):
             return GetPoReceivingRecordsMethod(
                 name = 'getPoReceivingRecords',
                 version = 'r1',
-                params = openapi_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
+                params = entrata_api_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
                     vendor_id = 12345, 
                     vendor_code = '12345', 
                     purchase_order_numbers = 12345, 

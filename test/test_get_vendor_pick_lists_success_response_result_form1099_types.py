@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types import GetVendorPickListsSuccessResponseResultForm1099Types
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types import GetVendorPickListsSuccessResponseResultForm1099Types
 
 class TestGetVendorPickListsSuccessResponseResultForm1099Types(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultForm1099Types unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetVendorPickListsSuccessResponseResultForm1099Types(unittest.TestCase
         model = GetVendorPickListsSuccessResponseResultForm1099Types()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultForm1099Types(
-                form1099_type = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
-                    @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
+                form1099_type = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type(
+                    @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type__attributes.getVendorPickListsSuccessResponse_result_form1099Types_form1099Type__attributes(
                         id = '1', 
                         name = '1099 - MISC', ), )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_floorplans_method_params import SendFloorplansMethodParams
+from entrata_api_client.models.send_floorplans_method_params import SendFloorplansMethodParams
 
 class TestSendFloorplansMethodParams(unittest.TestCase):
     """SendFloorplansMethodParams unit test stubs"""

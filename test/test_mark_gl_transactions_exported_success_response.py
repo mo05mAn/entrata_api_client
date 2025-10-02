@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_gl_transactions_exported_success_response import MarkGlTransactionsExportedSuccessResponse
+from entrata_api_client.models.mark_gl_transactions_exported_success_response import MarkGlTransactionsExportedSuccessResponse
 
 class TestMarkGlTransactionsExportedSuccessResponse(unittest.TestCase):
     """MarkGlTransactionsExportedSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestMarkGlTransactionsExportedSuccessResponse(unittest.TestCase):
             return MarkGlTransactionsExportedSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.mark_gl_transactions_exported_success_response_result.markGlTransactionsExportedSuccessResponse_result(
+                result = entrata_api_client.models.mark_gl_transactions_exported_success_response_result.markGlTransactionsExportedSuccessResponse_result(
                     status = 'Success', 
                     message = 'Gl Transactions marked as exported successfully.', )
             )
@@ -45,7 +45,7 @@ class TestMarkGlTransactionsExportedSuccessResponse(unittest.TestCase):
             return MarkGlTransactionsExportedSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.mark_gl_transactions_exported_success_response_result.markGlTransactionsExportedSuccessResponse_result(
+                result = entrata_api_client.models.mark_gl_transactions_exported_success_response_result.markGlTransactionsExportedSuccessResponse_result(
                     status = 'Success', 
                     message = 'Gl Transactions marked as exported successfully.', ),
         )

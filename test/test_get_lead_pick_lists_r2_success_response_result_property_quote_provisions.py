@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions import GetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions import GetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions
 
 class TestGetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions(unittes
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultPropertyQuoteProvisions(
                 quote_provision = [
-                    openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner__attributes(
                             id = '1193', 
                             name = 'bumper offer, 1 month Airtel-extreme subscription free', ), )
                     ]

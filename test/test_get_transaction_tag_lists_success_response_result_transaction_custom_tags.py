@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags import GetTransactionTagListsSuccessResponseResultTransactionCustomTags
+from entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags import GetTransactionTagListsSuccessResponseResultTransactionCustomTags
 
 class TestGetTransactionTagListsSuccessResponseResultTransactionCustomTags(unittest.TestCase):
     """GetTransactionTagListsSuccessResponseResultTransactionCustomTags unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetTransactionTagListsSuccessResponseResultTransactionCustomTags(unitt
         if include_optional:
             return GetTransactionTagListsSuccessResponseResultTransactionCustomTags(
                 transaction_custom_tag = [
-                    openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
+                    entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
                         id = '545', 
                         name = '021', 
                         code = 'T0021', 
@@ -47,7 +47,7 @@ class TestGetTransactionTagListsSuccessResponseResultTransactionCustomTags(unitt
         else:
             return GetTransactionTagListsSuccessResponseResultTransactionCustomTags(
                 transaction_custom_tag = [
-                    openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
+                    entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
                         id = '545', 
                         name = '021', 
                         code = 'T0021', 

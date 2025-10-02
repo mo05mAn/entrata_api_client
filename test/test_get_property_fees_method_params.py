@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_fees_method_params import GetPropertyFeesMethodParams
+from entrata_api_client.models.get_property_fees_method_params import GetPropertyFeesMethodParams
 
 class TestGetPropertyFeesMethodParams(unittest.TestCase):
     """GetPropertyFeesMethodParams unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeC
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = '123 Rent', 
                             charge_timing = 'Renewal Start', 
                             charge_usage = 'Base', 
@@ -51,9 +51,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeC
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesOneTimeChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_one_time_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_oneTimeCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = '123 Rent', 
                             charge_timing = 'Renewal Start', 
                             charge_usage = 'Base', 

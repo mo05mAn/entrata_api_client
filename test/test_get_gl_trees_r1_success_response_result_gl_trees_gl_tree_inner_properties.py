@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties
+from entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties
 
 class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties(unittest.TestCase):
     """GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties(unittest
         if include_optional:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties(
                 var_property = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner(
-                        @attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner(
+                        @attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
                             id = '2652', 
                             name = 'TEST', ), )
                     ]
@@ -45,8 +45,8 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties(unittest
         else:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerProperties(
                 var_property = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner(
-                        @attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner(
+                        @attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
                             id = '2652', 
                             name = 'TEST', ), )
                     ],

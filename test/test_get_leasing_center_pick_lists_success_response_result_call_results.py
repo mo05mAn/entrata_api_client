@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results import GetLeasingCenterPickListsSuccessResponseResultCallResults
+from entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results import GetLeasingCenterPickListsSuccessResponseResultCallResults
 
 class TestGetLeasingCenterPickListsSuccessResponseResultCallResults(unittest.TestCase):
     """GetLeasingCenterPickListsSuccessResponseResultCallResults unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasingCenterPickListsSuccessResponseResultCallResults(unittest.Tes
         if include_optional:
             return GetLeasingCenterPickListsSuccessResponseResultCallResults(
                 call_result = [
-                    openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
+                    entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
                         id = '2', 
                         name = 'Unknown', )
                     ]
@@ -44,7 +44,7 @@ class TestGetLeasingCenterPickListsSuccessResponseResultCallResults(unittest.Tes
         else:
             return GetLeasingCenterPickListsSuccessResponseResultCallResults(
                 call_result = [
-                    openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
+                    entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
                         id = '2', 
                         name = 'Unknown', )
                     ],

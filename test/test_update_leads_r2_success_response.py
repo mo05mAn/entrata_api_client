@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r2_success_response import UpdateLeadsR2SuccessResponse
+from entrata_api_client.models.update_leads_r2_success_response import UpdateLeadsR2SuccessResponse
 
 class TestUpdateLeadsR2SuccessResponse(unittest.TestCase):
     """UpdateLeadsR2SuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestUpdateLeadsR2SuccessResponse(unittest.TestCase):
             return UpdateLeadsR2SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.update_leads_r2_success_response_result.updateLeads_r2_SuccessResponse_result(
+                result = entrata_api_client.models.update_leads_r2_success_response_result.updateLeads_r2_SuccessResponse_result(
                     prospects = [
-                        openapi_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
+                        entrata_api_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
                             node = '1', 
                             status = 'Success', 
                             message = 'Lead updated successfully.', )
@@ -49,9 +49,9 @@ class TestUpdateLeadsR2SuccessResponse(unittest.TestCase):
             return UpdateLeadsR2SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.update_leads_r2_success_response_result.updateLeads_r2_SuccessResponse_result(
+                result = entrata_api_client.models.update_leads_r2_success_response_result.updateLeads_r2_SuccessResponse_result(
                     prospects = [
-                        openapi_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
+                        entrata_api_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
                             node = '1', 
                             status = 'Success', 
                             message = 'Lead updated successfully.', )

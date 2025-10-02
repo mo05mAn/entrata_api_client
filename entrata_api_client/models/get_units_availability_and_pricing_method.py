@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_units_availability_and_pricing_method_params import GetUnitsAvailabilityAndPricingMethodParams
+from entrata_api_client.models.get_units_availability_and_pricing_method_params import GetUnitsAvailabilityAndPricingMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

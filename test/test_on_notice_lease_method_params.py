@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.on_notice_lease_method_params import OnNoticeLeaseMethodParams
+from entrata_api_client.models.on_notice_lease_method_params import OnNoticeLeaseMethodParams
 
 class TestOnNoticeLeaseMethodParams(unittest.TestCase):
     """OnNoticeLeaseMethodParams unit test stubs"""

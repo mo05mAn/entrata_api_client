@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_bank_accounts_method_params import GetBankAccountsMethodParams
+from entrata_api_client.models.get_bank_accounts_method_params import GetBankAccountsMethodParams
 
 class TestGetBankAccountsMethodParams(unittest.TestCase):
     """GetBankAccountsMethodParams unit test stubs"""

@@ -20,7 +20,7 @@ import json
 from datetime import date
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.update_lease_method_params_occupants import UpdateLeaseMethodParamsOccupants
+from entrata_api_client.models.update_lease_method_params_occupants import UpdateLeaseMethodParamsOccupants
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -17,8 +17,8 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_marketing_preference_pick_list import GetMarketingPreferencePickList
-from openapi_client.models.get_marketing_preferences import GetMarketingPreferences
+from entrata_api_client.models.get_marketing_preference_pick_list import GetMarketingPreferencePickList
+from entrata_api_client.models.get_marketing_preferences import GetMarketingPreferences
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerIdentification
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerIdentification
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerIdentification(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerIdentification unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerIdentification(
                 id_value = '1234',
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
                     id_scope_type = 'sender', 
                     id_rank = 'primary', )
             )

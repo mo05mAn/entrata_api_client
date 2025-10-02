@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),
@@ -43,7 +43,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyIdentification(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),

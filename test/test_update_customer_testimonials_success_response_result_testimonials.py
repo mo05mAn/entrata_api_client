@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customer_testimonials_success_response_result_testimonials import UpdateCustomerTestimonialsSuccessResponseResultTestimonials
+from entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials import UpdateCustomerTestimonialsSuccessResponseResultTestimonials
 
 class TestUpdateCustomerTestimonialsSuccessResponseResultTestimonials(unittest.TestCase):
     """UpdateCustomerTestimonialsSuccessResponseResultTestimonials unit test stubs"""
@@ -35,15 +35,15 @@ class TestUpdateCustomerTestimonialsSuccessResponseResultTestimonials(unittest.T
         model = UpdateCustomerTestimonialsSuccessResponseResultTestimonials()
         if include_optional:
             return UpdateCustomerTestimonialsSuccessResponseResultTestimonials(
-                testimonial = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial(
-                    @attributes = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
+                testimonial = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial(
+                    @attributes = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
                         status = 'Success', 
                         message = 'Succesfully Activated/deactivated Transmission Vendor.', ), )
             )
         else:
             return UpdateCustomerTestimonialsSuccessResponseResultTestimonials(
-                testimonial = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial(
-                    @attributes = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
+                testimonial = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial(
+                    @attributes = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
                         status = 'Success', 
                         message = 'Succesfully Activated/deactivated Transmission Vendor.', ), ),
         )

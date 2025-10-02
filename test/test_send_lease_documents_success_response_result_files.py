@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_success_response_result_files import SendLeaseDocumentsSuccessResponseResultFiles
+from entrata_api_client.models.send_lease_documents_success_response_result_files import SendLeaseDocumentsSuccessResponseResultFiles
 
 class TestSendLeaseDocumentsSuccessResponseResultFiles(unittest.TestCase):
     """SendLeaseDocumentsSuccessResponseResultFiles unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendLeaseDocumentsSuccessResponseResultFiles(unittest.TestCase):
         if include_optional:
             return SendLeaseDocumentsSuccessResponseResultFiles(
                 file = [
-                    openapi_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
+                    entrata_api_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
                         node = '1', 
                         file_id = '13858364', 
                         file_name = 'file1.pdf', 
@@ -47,7 +47,7 @@ class TestSendLeaseDocumentsSuccessResponseResultFiles(unittest.TestCase):
         else:
             return SendLeaseDocumentsSuccessResponseResultFiles(
                 file = [
-                    openapi_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
+                    entrata_api_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
                         node = '1', 
                         file_id = '13858364', 
                         file_name = 'file1.pdf', 

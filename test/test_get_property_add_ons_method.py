@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_add_ons_method import GetPropertyAddOnsMethod
+from entrata_api_client.models.get_property_add_ons_method import GetPropertyAddOnsMethod
 
 class TestGetPropertyAddOnsMethod(unittest.TestCase):
     """GetPropertyAddOnsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertyAddOnsMethod(unittest.TestCase):
             return GetPropertyAddOnsMethod(
                 name = 'getPropertyAddOns',
                 version = 'r1',
-                params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                     property_id = 12345, )
             )
         else:

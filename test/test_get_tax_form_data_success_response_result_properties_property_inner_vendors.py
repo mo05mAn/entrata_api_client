@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors
 
 class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors(unittest.TestCase):
     """GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors(unit
         if include_optional:
             return GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors(
                 vendor = [
-                    openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
+                    entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
                         vendor_id = '68050', 
                         vendor_type = 'Individual', 
                         vendor_tin_type = '2', 
@@ -49,8 +49,8 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInnerVendors(unit
                         vendor_state = 'Marshall Islands', 
                         vendor_zip_code = '84601', 
                         form_type = '1099 - MISC', 
-                        form1099_boxes = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
-                            form1099_box = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
+                        form1099_boxes = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
+                            form1099_box = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
                                 box_number = '1', 
                                 box_value = '13', ), ), )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1 import GetPropertyPickListsR1
+from entrata_api_client.models.get_property_pick_lists_r1 import GetPropertyPickListsR1
 
 class TestGetPropertyPickListsR1(unittest.TestCase):
     """GetPropertyPickListsR1 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetPropertyPickListsR1(unittest.TestCase):
         model = GetPropertyPickListsR1()
         if include_optional:
             return GetPropertyPickListsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_property_pick_lists_r1_method.getPropertyPickLists_r1_method(
+                method = entrata_api_client.models.get_property_pick_lists_r1_method.getPropertyPickLists_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
+                    params = entrata_api_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
                         property_ids = '12345,5678', ), )
             )
         else:
             return GetPropertyPickListsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_property_pick_lists_r1_method.getPropertyPickLists_r1_method(
+                method = entrata_api_client.models.get_property_pick_lists_r1_method.getPropertyPickLists_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
+                    params = entrata_api_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
                         property_ids = '12345,5678', ), ),
         )
         """

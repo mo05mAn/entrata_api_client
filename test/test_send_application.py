@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application import SendApplication
+from entrata_api_client.models.send_application import SendApplication
 
 class TestSendApplication(unittest.TestCase):
     """SendApplication unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplication(unittest.TestCase):
         model = SendApplication()
         if include_optional:
             return SendApplication(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_application_method.sendApplication_method(
+                method = entrata_api_client.models.send_application_method.sendApplication_method(
                     name = 'sendApplication', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_method_params.sendApplication_method_params(
+                    params = entrata_api_client.models.send_application_method_params.sendApplication_method_params(
                         property_id = 123456, 
                         originating_lead_source_id = 123456, 
                         leasing_agent_id = 445655, 
@@ -53,12 +53,12 @@ class TestSendApplication(unittest.TestCase):
             )
         else:
             return SendApplication(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_application_method.sendApplication_method(
+                method = entrata_api_client.models.send_application_method.sendApplication_method(
                     name = 'sendApplication', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_method_params.sendApplication_method_params(
+                    params = entrata_api_client.models.send_application_method_params.sendApplication_method_params(
                         property_id = 123456, 
                         originating_lead_source_id = 123456, 
                         leasing_agent_id = 445655, 

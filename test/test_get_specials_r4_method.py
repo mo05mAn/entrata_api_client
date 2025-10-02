@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r4_method import GetSpecialsR4Method
+from entrata_api_client.models.get_specials_r4_method import GetSpecialsR4Method
 
 class TestGetSpecialsR4Method(unittest.TestCase):
     """GetSpecialsR4Method unit test stubs"""
@@ -37,14 +37,14 @@ class TestGetSpecialsR4Method(unittest.TestCase):
             return GetSpecialsR4Method(
                 name = 'getSpecials',
                 version = 'r4',
-                params = openapi_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
+                params = entrata_api_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
                     property_id = '1234567', )
             )
         else:
             return GetSpecialsR4Method(
                 name = 'getSpecials',
                 version = 'r4',
-                params = openapi_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
+                params = entrata_api_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
                     property_id = '1234567', ),
         )
         """

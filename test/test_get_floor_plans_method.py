@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_method import GetFloorPlansMethod
+from entrata_api_client.models.get_floor_plans_method import GetFloorPlansMethod
 
 class TestGetFloorPlansMethod(unittest.TestCase):
     """GetFloorPlansMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetFloorPlansMethod(unittest.TestCase):
             return GetFloorPlansMethod(
                 name = 'getFloorPlans',
                 version = 'r1',
-                params = openapi_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
+                params = entrata_api_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
                     property_id = 12345, 
                     property_floor_plan_ids = '456789,123222', 
                     use_property_preferences = 0, 

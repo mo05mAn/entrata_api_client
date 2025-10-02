@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_request_body_method_params_files_file_inner import SendLeaseDocumentsRequestBodyMethodParamsFilesFileInner
+from entrata_api_client.models.send_lease_documents_request_body_method_params_files_file_inner import SendLeaseDocumentsRequestBodyMethodParamsFilesFileInner
 
 class TestSendLeaseDocumentsRequestBodyMethodParamsFilesFileInner(unittest.TestCase):
     """SendLeaseDocumentsRequestBodyMethodParamsFilesFileInner unit test stubs"""

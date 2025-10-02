@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_method import GetFinancialPickListR2Method
+from entrata_api_client.models.get_financial_pick_list_r2_method import GetFinancialPickListR2Method
 
 class TestGetFinancialPickListR2Method(unittest.TestCase):
     """GetFinancialPickListR2Method unit test stubs"""

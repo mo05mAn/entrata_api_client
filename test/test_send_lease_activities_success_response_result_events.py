@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_activities_success_response_result_events import SendLeaseActivitiesSuccessResponseResultEvents
+from entrata_api_client.models.send_lease_activities_success_response_result_events import SendLeaseActivitiesSuccessResponseResultEvents
 
 class TestSendLeaseActivitiesSuccessResponseResultEvents(unittest.TestCase):
     """SendLeaseActivitiesSuccessResponseResultEvents unit test stubs"""
@@ -35,7 +35,7 @@ class TestSendLeaseActivitiesSuccessResponseResultEvents(unittest.TestCase):
         model = SendLeaseActivitiesSuccessResponseResultEvents()
         if include_optional:
             return SendLeaseActivitiesSuccessResponseResultEvents(
-                event = openapi_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
+                event = entrata_api_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
                     node = '1', 
                     lease_id = '10873580', 
                     status = 'Success', 
@@ -43,7 +43,7 @@ class TestSendLeaseActivitiesSuccessResponseResultEvents(unittest.TestCase):
             )
         else:
             return SendLeaseActivitiesSuccessResponseResultEvents(
-                event = openapi_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
+                event = entrata_api_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
                     node = '1', 
                     lease_id = '10873580', 
                     status = 'Success', 

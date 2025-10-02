@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.request_body_auth import RequestBodyAuth
-from openapi_client.models.send_lease_documents_request_body_method import SendLeaseDocumentsRequestBodyMethod
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.send_lease_documents_request_body_method import SendLeaseDocumentsRequestBodyMethod
 from typing import Optional, Set
 from typing_extensions import Self
 

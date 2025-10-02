@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
         model = GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID()
         if include_optional:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID(
-                identification = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification(
-                    @attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification(
+                    @attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification__attributes(
                         id_type = 'Property123', ), 
                     id_value = 12345, )
             )
         else:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsPropertyPropertyID(
-                identification = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification(
-                    @attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification(
+                    @attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_property_property_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Property_PropertyID_Identification__attributes(
                         id_type = 'Property123', ), 
                     id_value = 12345, ),
         )

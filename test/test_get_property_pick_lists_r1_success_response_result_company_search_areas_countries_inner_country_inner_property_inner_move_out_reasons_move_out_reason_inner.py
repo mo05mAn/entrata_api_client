@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         model = GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner()
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_MoveOutReasons_MoveOutReason_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_MoveOutReasons_MoveOutReason_inner__attributes(
                     id = 1039203, 
                     system_code = 'TESTING_SYSTEM_CODE', 
                     name = '13th_avenue_need_big_rooms', )
             )
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerMoveOutReasonsMoveOutReasonInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_MoveOutReasons_MoveOutReason_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_move_out_reasons_move_out_reason_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_MoveOutReasons_MoveOutReason_inner__attributes(
                     id = 1039203, 
                     system_code = 'TESTING_SYSTEM_CODE', 
                     name = '13th_avenue_need_big_rooms', ),

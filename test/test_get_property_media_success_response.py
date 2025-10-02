@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_media_success_response import GetPropertyMediaSuccessResponse
+from entrata_api_client.models.get_property_media_success_response import GetPropertyMediaSuccessResponse
 
 class TestGetPropertyMediaSuccessResponse(unittest.TestCase):
     """GetPropertyMediaSuccessResponse unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetPropertyMediaSuccessResponse(unittest.TestCase):
         model = GetPropertyMediaSuccessResponse()
         if include_optional:
             return GetPropertyMediaSuccessResponse(
-                response = openapi_client.models.get_property_media_success_response_response.getPropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.get_property_media_success_response_response.getPropertyMediaSuccessResponse_response(
                     code = 200, 
-                    result = openapi_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
                         property_id = 123456, 
                         media = [
                             null
@@ -45,9 +45,9 @@ class TestGetPropertyMediaSuccessResponse(unittest.TestCase):
             )
         else:
             return GetPropertyMediaSuccessResponse(
-                response = openapi_client.models.get_property_media_success_response_response.getPropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.get_property_media_success_response_response.getPropertyMediaSuccessResponse_response(
                     code = 200, 
-                    result = openapi_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_property_media_success_response_response_result.getPropertyMediaSuccessResponse_response_result(
                         property_id = 123456, 
                         media = [
                             null

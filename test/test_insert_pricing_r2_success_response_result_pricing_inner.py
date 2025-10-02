@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_success_response_result_pricing_inner import InsertPricingR2SuccessResponseResultPricingInner
+from entrata_api_client.models.insert_pricing_r2_success_response_result_pricing_inner import InsertPricingR2SuccessResponseResultPricingInner
 
 class TestInsertPricingR2SuccessResponseResultPricingInner(unittest.TestCase):
     """InsertPricingR2SuccessResponseResultPricingInner unit test stubs"""

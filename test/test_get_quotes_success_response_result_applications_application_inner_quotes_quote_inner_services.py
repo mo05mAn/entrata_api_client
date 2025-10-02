@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerServices
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerServices
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerServices(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerServices unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerServices(
                 service = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services_service_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services_service_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services_service_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services_service_inner(
                         add_on_type_id = '3', 
                         name = 'Meal Plans', 
                         type = 'Meal Plans', 

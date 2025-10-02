@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_status_method import GetStatusMethod
+from entrata_api_client.models.get_status_method import GetStatusMethod
 
 class TestGetStatusMethod(unittest.TestCase):
     """GetStatusMethod unit test stubs"""

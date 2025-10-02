@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_rentable_items_success_response import SendRentableItemsSuccessResponse
+from entrata_api_client.models.send_rentable_items_success_response import SendRentableItemsSuccessResponse
 
 class TestSendRentableItemsSuccessResponse(unittest.TestCase):
     """SendRentableItemsSuccessResponse unit test stubs"""
@@ -36,10 +36,10 @@ class TestSendRentableItemsSuccessResponse(unittest.TestCase):
         if include_optional:
             return SendRentableItemsSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
-                    rentable_item_types = openapi_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
+                result = entrata_api_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
+                    rentable_item_types = entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
                         rentable_item_type = [
-                            openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                            entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                                 node = 1, 
                                 rentable_item_type_id = 81625, 
                                 rentable_item_ids = '7157472,7157473,7157474', 
@@ -50,10 +50,10 @@ class TestSendRentableItemsSuccessResponse(unittest.TestCase):
         else:
             return SendRentableItemsSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
-                    rentable_item_types = openapi_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
+                result = entrata_api_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
+                    rentable_item_types = entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
                         rentable_item_type = [
-                            openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                            entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                                 node = 1, 
                                 rentable_item_type_id = 81625, 
                                 rentable_item_ids = '7157472,7157473,7157474', 

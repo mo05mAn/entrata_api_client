@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner import GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner import GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityB
         model = GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
                     id = '1', 
                     name = 'Mail', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypesUtilityBillReceiptTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
                     id = '1', 
                     name = 'Mail', ),
         )

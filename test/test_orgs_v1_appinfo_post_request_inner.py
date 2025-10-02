@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_appinfo_post_request_inner import OrgsV1AppinfoPostRequestInner
+from entrata_api_client.models.orgs_v1_appinfo_post_request_inner import OrgsV1AppinfoPostRequestInner
 
 class TestOrgsV1AppinfoPostRequestInner(unittest.TestCase):
     """OrgsV1AppinfoPostRequestInner unit test stubs"""
@@ -35,18 +35,18 @@ class TestOrgsV1AppinfoPostRequestInner(unittest.TestCase):
         model = OrgsV1AppinfoPostRequestInner()
         if include_optional:
             return OrgsV1AppinfoPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_accessible_services_method.getAccessibleServices_method(
+                method = entrata_api_client.models.get_accessible_services_method.getAccessibleServices_method(
                     name = 'getAccessibleServices', 
                     version = 'r1', )
             )
         else:
             return OrgsV1AppinfoPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_accessible_services_method.getAccessibleServices_method(
+                method = entrata_api_client.models.get_accessible_services_method.getAccessibleServices_method(
                     name = 'getAccessibleServices', 
                     version = 'r1', ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_pets import SendApplicationPets
+from entrata_api_client.models.send_application_pets import SendApplicationPets
 
 class TestSendApplicationPets(unittest.TestCase):
     """SendApplicationPets unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplicationPets(unittest.TestCase):
         model = SendApplicationPets()
         if include_optional:
             return SendApplicationPets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_application_pets_method.sendApplicationPets_method(
+                method = entrata_api_client.models.send_application_pets_method.sendApplicationPets_method(
                     name = 'sendApplicationPets', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_pets_method_params.sendApplicationPets_method_params(
+                    params = entrata_api_client.models.send_application_pets_method_params.sendApplicationPets_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         id = 123, 
@@ -65,12 +65,12 @@ class TestSendApplicationPets(unittest.TestCase):
             )
         else:
             return SendApplicationPets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_application_pets_method.sendApplicationPets_method(
+                method = entrata_api_client.models.send_application_pets_method.sendApplicationPets_method(
                     name = 'sendApplicationPets', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_pets_method_params.sendApplicationPets_method_params(
+                    params = entrata_api_client.models.send_application_pets_method_params.sendApplicationPets_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         id = 123, 

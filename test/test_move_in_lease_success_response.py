@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.move_in_lease_success_response import MoveInLeaseSuccessResponse
+from entrata_api_client.models.move_in_lease_success_response import MoveInLeaseSuccessResponse
 
 class TestMoveInLeaseSuccessResponse(unittest.TestCase):
     """MoveInLeaseSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestMoveInLeaseSuccessResponse(unittest.TestCase):
             return MoveInLeaseSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.move_in_lease_success_response_result.moveInLeaseSuccessResponse_result(
+                result = entrata_api_client.models.move_in_lease_success_response_result.moveInLeaseSuccessResponse_result(
                     status = 'success', 
                     message = 'Customer moved in successfully.', )
             )
@@ -45,7 +45,7 @@ class TestMoveInLeaseSuccessResponse(unittest.TestCase):
             return MoveInLeaseSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.move_in_lease_success_response_result.moveInLeaseSuccessResponse_result(
+                result = entrata_api_client.models.move_in_lease_success_response_result.moveInLeaseSuccessResponse_result(
                     status = 'success', 
                     message = 'Customer moved in successfully.', ),
         )

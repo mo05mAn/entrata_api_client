@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_transactions_method_params import GetGlTransactionsMethodParams
+from entrata_api_client.models.get_gl_transactions_method_params import GetGlTransactionsMethodParams
 
 class TestGetGlTransactionsMethodParams(unittest.TestCase):
     """GetGlTransactionsMethodParams unit test stubs"""

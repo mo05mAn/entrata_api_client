@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.void_ap_payments_success_response_result_ap_payments import VoidApPaymentsSuccessResponseResultApPayments
+from entrata_api_client.models.void_ap_payments_success_response_result_ap_payments import VoidApPaymentsSuccessResponseResultApPayments
 from typing import Optional, Set
 from typing_extensions import Self
 

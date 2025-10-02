@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgeted_rent_success_response import SendBudgetedRentSuccessResponse
+from entrata_api_client.models.send_budgeted_rent_success_response import SendBudgetedRentSuccessResponse
 
 class TestSendBudgetedRentSuccessResponse(unittest.TestCase):
     """SendBudgetedRentSuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestSendBudgetedRentSuccessResponse(unittest.TestCase):
             return SendBudgetedRentSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
+                result = entrata_api_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
                             node = 1, 
                             status = 'Success', 
                             message = 'Budgeted rent updated successfully.', )
@@ -49,9 +49,9 @@ class TestSendBudgetedRentSuccessResponse(unittest.TestCase):
             return SendBudgetedRentSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
+                result = entrata_api_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
                             node = 1, 
                             status = 'Success', 
                             message = 'Budgeted rent updated successfully.', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_parcel_alerts_method import GetParcelAlertsMethod
+from entrata_api_client.models.get_parcel_alerts_method import GetParcelAlertsMethod
 
 class TestGetParcelAlertsMethod(unittest.TestCase):
     """GetParcelAlertsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetParcelAlertsMethod(unittest.TestCase):
             return GetParcelAlertsMethod(
                 name = 'getParcelAlerts',
                 version = 'r1',
-                params = openapi_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
+                params = entrata_api_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     customer_id = 123456, 

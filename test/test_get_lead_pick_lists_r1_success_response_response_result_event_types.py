@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types import GetLeadPickListsR1SuccessResponseResponseResultEventTypes
+from entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types import GetLeadPickListsR1SuccessResponseResponseResultEventTypes
 
 class TestGetLeadPickListsR1SuccessResponseResponseResultEventTypes(unittest.TestCase):
     """GetLeadPickListsR1SuccessResponseResponseResultEventTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR1SuccessResponseResponseResultEventTypes(unittest.Tes
         if include_optional:
             return GetLeadPickListsR1SuccessResponseResponseResultEventTypes(
                 event_type = [
-                    openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner__attributes(
                             name = 'Application', 
                             id = 131, 
                             entrata_name = 'Add Applicant Application', ), )

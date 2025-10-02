@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_announcements import GetPropertyAnnouncements
+from entrata_api_client.models.get_property_announcements import GetPropertyAnnouncements
 
 class TestGetPropertyAnnouncements(unittest.TestCase):
     """GetPropertyAnnouncements unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetPropertyAnnouncements(unittest.TestCase):
         model = GetPropertyAnnouncements()
         if include_optional:
             return GetPropertyAnnouncements(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_property_announcements_method.getPropertyAnnouncements_method(
+                method = entrata_api_client.models.get_property_announcements_method.getPropertyAnnouncements_method(
                     name = 'getPropertyAnnouncements', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                    params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                         property_id = 12345, ), )
             )
         else:
             return GetPropertyAnnouncements(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_property_announcements_method.getPropertyAnnouncements_method(
+                method = entrata_api_client.models.get_property_announcements_method.getPropertyAnnouncements_method(
                     name = 'getPropertyAnnouncements', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                    params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                         property_id = 12345, ), ),
         )
         """

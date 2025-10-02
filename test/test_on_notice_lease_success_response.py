@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.on_notice_lease_success_response import OnNoticeLeaseSuccessResponse
+from entrata_api_client.models.on_notice_lease_success_response import OnNoticeLeaseSuccessResponse
 
 class TestOnNoticeLeaseSuccessResponse(unittest.TestCase):
     """OnNoticeLeaseSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestOnNoticeLeaseSuccessResponse(unittest.TestCase):
             return OnNoticeLeaseSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.on_notice_lease_success_response_result.onNoticeLeaseSuccessResponse_result(
+                result = entrata_api_client.models.on_notice_lease_success_response_result.onNoticeLeaseSuccessResponse_result(
                     status = 'Success', 
                     message = 'Successfully placed lease on Notice.', )
             )
@@ -45,7 +45,7 @@ class TestOnNoticeLeaseSuccessResponse(unittest.TestCase):
             return OnNoticeLeaseSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.on_notice_lease_success_response_result.onNoticeLeaseSuccessResponse_result(
+                result = entrata_api_client.models.on_notice_lease_success_response_result.onNoticeLeaseSuccessResponse_result(
                     status = 'Success', 
                     message = 'Successfully placed lease on Notice.', ),
         )

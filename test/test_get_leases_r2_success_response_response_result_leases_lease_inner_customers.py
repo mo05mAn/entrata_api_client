@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers
+from entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers
 
 class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(unittest.TestCase):
     """GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(unit
         if include_optional:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(
                 customer = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
                         id = 31061984, 
                         customer_type = 'Primary', 
                         first_name = '12Dec1', 
@@ -46,9 +46,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(unit
                         lease_customer_status = 'Future', 
                         move_in_date = '12/11/2019', 
                         move_out_date = '12/14/2019', 
-                        phones = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
+                        phones = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
                             phone = [
-                                openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                                entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                                     phone_type_name = 'Primary', 
                                     phone_type = 'personal', 
                                     phone_number = '+1 4564565464', 
@@ -62,7 +62,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(unit
         else:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(
                 customer = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
                         id = 31061984, 
                         customer_type = 'Primary', 
                         first_name = '12Dec1', 
@@ -72,9 +72,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomers(unit
                         lease_customer_status = 'Future', 
                         move_in_date = '12/11/2019', 
                         move_out_date = '12/14/2019', 
-                        phones = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
+                        phones = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
                             phone = [
-                                openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                                entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                                     phone_type_name = 'Primary', 
                                     phone_type = 'personal', 
                                     phone_number = '+1 4564565464', 

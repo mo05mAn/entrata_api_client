@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media_method_params import UpdatePropertyMediaMethodParams
+from entrata_api_client.models.update_property_media_method_params import UpdatePropertyMediaMethodParams
 
 class TestUpdatePropertyMediaMethodParams(unittest.TestCase):
     """UpdatePropertyMediaMethodParams unit test stubs"""

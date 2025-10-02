@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_jobs_success_response_result_jobs import GetJobsSuccessResponseResultJobs
+from entrata_api_client.models.get_jobs_success_response_result_jobs import GetJobsSuccessResponseResultJobs
 from typing import Optional, Set
 from typing_extensions import Self
 

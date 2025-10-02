@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property import GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property import GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalProperty(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty unit test stubs"""
@@ -35,44 +35,44 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalProperty(unittest.Tes
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty(
-                management = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management(
-                    identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_Identification(
+                management = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management(
+                    identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_Identification(
                         id_value = '1234', 
                         organization_name = 'DB Xento Systems Pvt. Ltd.', ), 
-                    property_contacts = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts(
-                        companies = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies(
+                    property_contacts = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts(
+                        companies = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies(
                             company_name = 'DB Xento Systems Pvt. Ltd.', 
                             web_site = 'http://newtestinggroup.prospectportal.com', ), ), ),
                 var_property = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner(
-                        identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Identification(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner(
+                        identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Identification(
                             id_value = '1234', 
-                            @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Identification__attributes(
+                            @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Identification__attributes(
                                 id_scope_type = 'sender', 
                                 id_rank = 'primary', ), ), 
-                        property_id = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID(
+                        property_id = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID(
                             marketing_name = 'ZOMBIES', 
                             legal_name = 'ZOMBIES', 
                             web_site = 'http://testrentreminderlobby.prospectportal.com', 
-                            address = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_address.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Address(
+                            address = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_address.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Address(
                                 city = 'Provo', 
                                 state = 'UT', 
                                 postal_code = '84601', 
                                 country = 'US', ), 
                             phone = [
-                                openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner(
+                                entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner(
                                     phone_description = 'Office', 
                                     phone_number = '190018000', )
                                 ], ), 
-                        ils_identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_ILS_Identification(
+                        ils_identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_ILS_Identification(
                             daylight_saving = '0', 
                             time_zone = 'Central Standard Time (GMT -0600)', ), 
-                        information = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information(
+                        information = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information(
                             structure_type = 'Unspecified', 
                             unit_count = '6', 
                             year_built = '2012', 
                             office_hour = [
-                                openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information_office_hour_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information_OfficeHour_inner(
+                                entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information_office_hour_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information_OfficeHour_inner(
                                     open_time = '11:11 AM', 
                                     close_time = '3:11 PM', 
                                     day = 'Monday', )
@@ -83,45 +83,45 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalProperty(unittest.Tes
                             driving_directions = 'This characters.', 
                             property_availability_url = 'http://lobby.prospectportal.com/Apartments/module/property_info/property[id]/1234', ), )
                     ],
-                fee = openapi_client.models.get_mits_property_units_success_response_result_physical_property_fee.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee(
-                    application_fee = openapi_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee(
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee__attributes(
+                fee = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_fee.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee(
+                    application_fee = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee__attributes(
                             type = 'Primary Applicant', 
                             amount = '30', ), ), ),
                 concession = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner(
                         value = '10.00', 
                         description_header = 'Test_Special', 
                         description_body = 'description', 
                         description_footer = 'footer description', 
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner__attributes(
                             active = '1', ), )
                     ],
                 amenity = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_amenity_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Amenity_inner(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_amenity_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Amenity_inner(
                         description = '24 Hour Emergency Maintenancess', 
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_amenity_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Amenity_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_amenity_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Amenity_inner__attributes(
                             amenity_type = 'Other', ), )
                     ],
-                policy = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy(
+                policy = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy(
                     pet = [
-                        openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner(
-                            pets = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets(
-                                @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
+                        entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner(
+                            pets = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets(
+                                @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
                                     count = '0', 
                                     description = 'Cat', 
                                     pet_type = 'Cat', 
                                     size = 'Medium', 
                                     weight = '', ), ), 
-                            @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner__attributes(
+                            @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner__attributes(
                                 allowed = 'true', ), )
                         ], 
                     general = 'You can park your vehical anywhere except reserved parking spaces.', ),
                 building = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner(
-                        identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner(
+                        identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification(
                             id_value = '1234', 
-                            @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
+                            @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
                                 id_scope_type = 'sender', 
                                 id_rank = 'primary', ), ), 
                         name = 'ZOM 1', 
@@ -129,7 +129,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalProperty(unittest.Tes
                         unit_count = '85', 
                         square_feet = '0', 
                         file = [
-                            openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner(
+                            entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner(
                                 file_type = 'Photo', 
                                 name = 'hotchocolate2_documentation_copy1.pdf', 
                                 format = 'pdf', 

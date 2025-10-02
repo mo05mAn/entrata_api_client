@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_invoices_r2_method import GetInvoicesR2Method
-from openapi_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.get_invoices_r2_method import GetInvoicesR2Method
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
 from typing import Optional, Set
 from typing_extensions import Self
 

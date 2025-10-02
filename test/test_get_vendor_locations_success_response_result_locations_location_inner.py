@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner import GetVendorLocationsSuccessResponseResultLocationsLocationInner
+from entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner import GetVendorLocationsSuccessResponseResultLocationsLocationInner
 
 class TestGetVendorLocationsSuccessResponseResultLocationsLocationInner(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultLocationsLocationInner unit test stubs"""
@@ -39,18 +39,18 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInner(unittest
                 vendor_name = 'Test for Kirk',
                 status = 'Active',
                 term = 'Net',
-                legal_entity = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
+                legal_entity = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
                     @value = 'Test for Kirk', 
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                         id = '470', ), ),
-                properties = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
-                    property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                properties = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
+                    property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                             id = '19463', 
                             name = '22 Exchange', ), ), ),
-                contacts = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
+                contacts = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
                     contact = [
-                        openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
+                        entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
                             name = 'Check', 
                             street_line1 = '125 Test', 
                             city = '84062', 
@@ -58,10 +58,10 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInner(unittest
                             country = 'US', 
                             phone_number = '801-358-0099', 
                             email_address = 'dunnkster@yahoo.com', 
-                            @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
+                            @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
                                 type = 'Vendor_Remittence', ), )
                         ], ),
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
                     id = '123', 
                     name = 'Corporate', )
             )
@@ -71,18 +71,18 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInner(unittest
                 vendor_name = 'Test for Kirk',
                 status = 'Active',
                 term = 'Net',
-                legal_entity = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
+                legal_entity = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity(
                     @value = 'Test for Kirk', 
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                         id = '470', ), ),
-                properties = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
-                    property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                properties = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties(
+                    property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                             id = '19463', 
                             name = '22 Exchange', ), ), ),
-                contacts = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
+                contacts = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts(
                     contact = [
-                        openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
+                        entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
                             name = 'Check', 
                             street_line1 = '125 Test', 
                             city = '84062', 
@@ -90,10 +90,10 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInner(unittest
                             country = 'US', 
                             phone_number = '801-358-0099', 
                             email_address = 'dunnkster@yahoo.com', 
-                            @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
+                            @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
                                 type = 'Vendor_Remittence', ), )
                         ], ),
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner__attributes(
                     id = '123', 
                     name = 'Corporate', ),
         )

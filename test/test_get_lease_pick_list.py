@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list import GetLeasePickList
+from entrata_api_client.models.get_lease_pick_list import GetLeasePickList
 
 class TestGetLeasePickList(unittest.TestCase):
     """GetLeasePickList unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetLeasePickList(unittest.TestCase):
         model = GetLeasePickList()
         if include_optional:
             return GetLeasePickList(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_lease_pick_list_method.getLeasePickList_method(
+                method = entrata_api_client.models.get_lease_pick_list_method.getLeasePickList_method(
                     name = 'getLeasePickList', 
                     version = 'r1', )
             )
         else:
             return GetLeasePickList(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_lease_pick_list_method.getLeasePickList_method(
+                method = entrata_api_client.models.get_lease_pick_list_method.getLeasePickList_method(
                     name = 'getLeasePickList', 
                     version = 'r1', ),
         )

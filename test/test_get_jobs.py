@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_jobs import GetJobs
+from entrata_api_client.models.get_jobs import GetJobs
 
 class TestGetJobs(unittest.TestCase):
     """GetJobs unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetJobs(unittest.TestCase):
         model = GetJobs()
         if include_optional:
             return GetJobs(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_jobs_method.getJobs_method(
+                method = entrata_api_client.models.get_jobs_method.getJobs_method(
                     name = 'getJobs', 
                     version = 'r1', 
-                    params = openapi_client.models.get_jobs_method_params.getJobs_method_params(
+                    params = entrata_api_client.models.get_jobs_method_params.getJobs_method_params(
                         property_id = 123456, 
                         job_category_ids = 6, 
                         job_status_ids = 4, ), )
             )
         else:
             return GetJobs(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_jobs_method.getJobs_method(
+                method = entrata_api_client.models.get_jobs_method.getJobs_method(
                     name = 'getJobs', 
                     version = 'r1', 
-                    params = openapi_client.models.get_jobs_method_params.getJobs_method_params(
+                    params = entrata_api_client.models.get_jobs_method_params.getJobs_method_params(
                         property_id = 123456, 
                         job_category_ids = 6, 
                         job_status_ids = 4, ), ),

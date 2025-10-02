@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r4 import GetSpecialsR4
+from entrata_api_client.models.get_specials_r4 import GetSpecialsR4
 
 class TestGetSpecialsR4(unittest.TestCase):
     """GetSpecialsR4 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetSpecialsR4(unittest.TestCase):
         model = GetSpecialsR4()
         if include_optional:
             return GetSpecialsR4(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
                 request_id = '15',
-                method = openapi_client.models.get_specials_r4_method.getSpecials_r4_method(
+                method = entrata_api_client.models.get_specials_r4_method.getSpecials_r4_method(
                     name = 'getSpecials', 
                     version = 'r4', 
-                    params = openapi_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
+                    params = entrata_api_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
                         property_id = '1234567', ), )
             )
         else:
             return GetSpecialsR4(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
-                method = openapi_client.models.get_specials_r4_method.getSpecials_r4_method(
+                method = entrata_api_client.models.get_specials_r4_method.getSpecials_r4_method(
                     name = 'getSpecials', 
                     version = 'r4', 
-                    params = openapi_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
+                    params = entrata_api_client.models.get_specials_r4_method_params.getSpecials_r4_method_params(
                         property_id = '1234567', ), ),
         )
         """

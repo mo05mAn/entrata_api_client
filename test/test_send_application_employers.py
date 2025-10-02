@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_employers import SendApplicationEmployers
+from entrata_api_client.models.send_application_employers import SendApplicationEmployers
 
 class TestSendApplicationEmployers(unittest.TestCase):
     """SendApplicationEmployers unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplicationEmployers(unittest.TestCase):
         model = SendApplicationEmployers()
         if include_optional:
             return SendApplicationEmployers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_application_employers_method.sendApplicationEmployers_method(
+                method = entrata_api_client.models.send_application_employers_method.sendApplicationEmployers_method(
                     name = 'sendApplicationEmployers', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_employers_method_params.sendApplicationEmployers_method_params(
+                    params = entrata_api_client.models.send_application_employers_method_params.sendApplicationEmployers_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         id = 123456, 
@@ -70,12 +70,12 @@ class TestSendApplicationEmployers(unittest.TestCase):
             )
         else:
             return SendApplicationEmployers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_application_employers_method.sendApplicationEmployers_method(
+                method = entrata_api_client.models.send_application_employers_method.sendApplicationEmployers_method(
                     name = 'sendApplicationEmployers', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_employers_method_params.sendApplicationEmployers_method_params(
+                    params = entrata_api_client.models.send_application_employers_method_params.sendApplicationEmployers_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         id = 123456, 

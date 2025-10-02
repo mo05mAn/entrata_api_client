@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2 import GetFinancialPickListR2
+from entrata_api_client.models.get_financial_pick_list_r2 import GetFinancialPickListR2
 
 class TestGetFinancialPickListR2(unittest.TestCase):
     """GetFinancialPickListR2 unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetFinancialPickListR2(unittest.TestCase):
         model = GetFinancialPickListR2()
         if include_optional:
             return GetFinancialPickListR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_financial_pick_list_r2_method.getFinancialPickList_r2_method(
+                method = entrata_api_client.models.get_financial_pick_list_r2_method.getFinancialPickList_r2_method(
                     name = '', 
                     version = 'r2', )
             )
         else:
             return GetFinancialPickListR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_financial_pick_list_r2_method.getFinancialPickList_r2_method(
+                method = entrata_api_client.models.get_financial_pick_list_r2_method.getFinancialPickList_r2_method(
                     name = '', 
                     version = 'r2', ),
         )

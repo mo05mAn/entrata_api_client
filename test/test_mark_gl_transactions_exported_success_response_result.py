@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_gl_transactions_exported_success_response_result import MarkGlTransactionsExportedSuccessResponseResult
+from entrata_api_client.models.mark_gl_transactions_exported_success_response_result import MarkGlTransactionsExportedSuccessResponseResult
 
 class TestMarkGlTransactionsExportedSuccessResponseResult(unittest.TestCase):
     """MarkGlTransactionsExportedSuccessResponseResult unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_request_body_method_params import SendLeaseDocumentsRequestBodyMethodParams
+from entrata_api_client.models.send_lease_documents_request_body_method_params import SendLeaseDocumentsRequestBodyMethodParams
 
 class TestSendLeaseDocumentsRequestBodyMethodParams(unittest.TestCase):
     """SendLeaseDocumentsRequestBodyMethodParams unit test stubs"""
@@ -39,9 +39,9 @@ class TestSendLeaseDocumentsRequestBodyMethodParams(unittest.TestCase):
                 lease_id = 123456,
                 application_id = 123456,
                 applicant_id = 123456,
-                files = openapi_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
+                files = entrata_api_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
                     file = [
-                        openapi_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
+                        entrata_api_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
                             file_name = 'lease.pdf', 
                             lease_file_type = 'POI', 
                             file_type_id = 12345, 
@@ -52,9 +52,9 @@ class TestSendLeaseDocumentsRequestBodyMethodParams(unittest.TestCase):
         else:
             return SendLeaseDocumentsRequestBodyMethodParams(
                 property_id = 123456,
-                files = openapi_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
+                files = entrata_api_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
                     file = [
-                        openapi_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
+                        entrata_api_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
                             file_name = 'lease.pdf', 
                             lease_file_type = 'POI', 
                             file_type_id = 12345, 

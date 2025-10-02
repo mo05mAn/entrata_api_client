@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomersCustomerIdentificationInner
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomersCustomerIdentificationInner
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomersCustomerIdentificationInner(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomersCustomerIdentificationInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomersCustomerIdentificationInner(
                 id_value = '19760815',
-                attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner__attributes(
                     id_type = 'Applicant Id', 
                     id_scope_type = 'sender', )
             )

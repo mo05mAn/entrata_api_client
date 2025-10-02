@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem
+from entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem
 
 class TestGetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem(unittest.TestCase):
     """GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItem unit test stubs"""
@@ -56,9 +56,9 @@ class TestGetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInner
                 custom_tag_name = 'abc',
                 custom_tag_code = 'A12',
                 is_confidential = '1',
-                invoices = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
+                invoices = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
                     invoice = [
-                        openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
+                        entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
                             invoice_id = '7539935', 
                             invoice_number = 'ABC-342', )
                         ], )

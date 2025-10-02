@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_property_media_method_params import GetPropertyMediaMethodParams
+from entrata_api_client.models.get_property_media_method_params import GetPropertyMediaMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

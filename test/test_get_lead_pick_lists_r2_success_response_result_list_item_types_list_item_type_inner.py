@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner
 
 class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner(
         model = GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInner(
-                list_items = openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems(
+                list_items = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems(
                     list_item = [
-                        openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner(
-                            @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
+                        entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner(
+                            @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
                                 id = '134417', 
                                 name = 'Archived', ), )
                         ], ),
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner__attributes(
                     id = '9', 
                     name = 'Lead Archive Reasons', )
             )

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrder
+from entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrder
 from typing import Optional, Set
 from typing_extensions import Self
 

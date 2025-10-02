@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_method import GetPropertiesMethod
+from entrata_api_client.models.get_properties_method import GetPropertiesMethod
 
 class TestGetPropertiesMethod(unittest.TestCase):
     """GetPropertiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertiesMethod(unittest.TestCase):
             return GetPropertiesMethod(
                 name = 'getProperties',
                 version = 'r1',
-                params = openapi_client.models.get_properties_method_params.getProperties_method_params(
+                params = entrata_api_client.models.get_properties_method_params.getProperties_method_params(
                     property_ids = '12345,5678', 
                     property_lookup_code = 'ABC', 
                     show_all_status = 0, )

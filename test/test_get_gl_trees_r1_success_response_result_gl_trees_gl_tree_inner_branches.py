@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches
+from entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches
 
 class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches(unittest.TestCase):
     """GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches(unittest.T
         if include_optional:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches(
                 branch = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Branches_Branch_inner(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Branches_Branch_inner(
                         branch_id = '5531', 
                         group_type = 'Standard Group', 
                         is_enabled = '1', 
@@ -49,7 +49,7 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches(unittest.T
         else:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerBranches(
                 branch = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Branches_Branch_inner(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Branches_Branch_inner(
                         branch_id = '5531', 
                         group_type = 'Standard Group', 
                         is_enabled = '1', 

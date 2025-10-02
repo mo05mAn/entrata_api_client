@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_events_success_response import GetLeadEventsSuccessResponse
+from entrata_api_client.models.get_lead_events_success_response import GetLeadEventsSuccessResponse
 
 class TestGetLeadEventsSuccessResponse(unittest.TestCase):
     """GetLeadEventsSuccessResponse unit test stubs"""
@@ -37,14 +37,14 @@ class TestGetLeadEventsSuccessResponse(unittest.TestCase):
             return GetLeadEventsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lead_events_success_response_result.getLeadEventsSuccessResponse_result(
-                    prospects = openapi_client.models.get_lead_events_success_response_result_prospects.getLeadEventsSuccessResponse_result_prospects(
+                result = entrata_api_client.models.get_lead_events_success_response_result.getLeadEventsSuccessResponse_result(
+                    prospects = entrata_api_client.models.get_lead_events_success_response_result_prospects.getLeadEventsSuccessResponse_result_prospects(
                         prospect = [
-                            openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner(
+                            entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner(
                                 application_id = '17851835', 
-                                events = openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events(
+                                events = entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events(
                                     event = [
-                                        openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
+                                        entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
                                             event_id = '123456', 
                                             type_id = '17', 
                                             lease_id = 123456, 
@@ -65,14 +65,14 @@ class TestGetLeadEventsSuccessResponse(unittest.TestCase):
             return GetLeadEventsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lead_events_success_response_result.getLeadEventsSuccessResponse_result(
-                    prospects = openapi_client.models.get_lead_events_success_response_result_prospects.getLeadEventsSuccessResponse_result_prospects(
+                result = entrata_api_client.models.get_lead_events_success_response_result.getLeadEventsSuccessResponse_result(
+                    prospects = entrata_api_client.models.get_lead_events_success_response_result_prospects.getLeadEventsSuccessResponse_result_prospects(
                         prospect = [
-                            openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner(
+                            entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner(
                                 application_id = '17851835', 
-                                events = openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events(
+                                events = entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events(
                                     event = [
-                                        openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
+                                        entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
                                             event_id = '123456', 
                                             type_id = '17', 
                                             lease_id = 123456, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_applicant_general_details_method import SendApplicantGeneralDetailsMethod
+from entrata_api_client.models.send_applicant_general_details_method import SendApplicantGeneralDetailsMethod
 
 class TestSendApplicantGeneralDetailsMethod(unittest.TestCase):
     """SendApplicantGeneralDetailsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendApplicantGeneralDetailsMethod(unittest.TestCase):
             return SendApplicantGeneralDetailsMethod(
                 name = 'sendApplicantGeneralDetails',
                 version = 'r1',
-                params = openapi_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
+                params = entrata_api_client.models.send_applicant_general_details_method_params.sendApplicantGeneralDetails_method_params(
                     application_id = 123456, 
                     property_id = 123456, 
                     applicant_id = 123456, 

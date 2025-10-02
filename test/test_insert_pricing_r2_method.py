@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_method import InsertPricingR2Method
+from entrata_api_client.models.insert_pricing_r2_method import InsertPricingR2Method
 
 class TestInsertPricingR2Method(unittest.TestCase):
     """InsertPricingR2Method unit test stubs"""
@@ -37,10 +37,10 @@ class TestInsertPricingR2Method(unittest.TestCase):
             return InsertPricingR2Method(
                 name = 'insertPricing',
                 version = 'r2',
-                params = openapi_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
+                params = entrata_api_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
                     property_id = 1381146, 
                     pricing = [
-                        openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                        entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                             pricing_level_id = 3, 
                             pricing_level_reference_id = 639824, 
                             charge_usage_id = 1, 
@@ -63,10 +63,10 @@ class TestInsertPricingR2Method(unittest.TestCase):
             return InsertPricingR2Method(
                 name = 'insertPricing',
                 version = 'r2',
-                params = openapi_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
+                params = entrata_api_client.models.insert_pricing_r2_method_params.insertPricing_r2_method_params(
                     property_id = 1381146, 
                     pricing = [
-                        openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                        entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                             pricing_level_id = 3, 
                             pricing_level_reference_id = 639824, 
                             charge_usage_id = 1, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor
+from entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor
 
 class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor(unittest.TestCase):
     """GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor unit test stubs"""
@@ -40,7 +40,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor(unittest.
                 location_name = 'Corporate',
                 location_code = 'Corporate_123',
                 external_id = 'ext- rpk',
-                address = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
+                address = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
                     street_line1 = 'AddressLine1', 
                     street_line2 = 'AddressLine2', 
                     city = 'TestCity', 
@@ -52,7 +52,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerVendor(unittest.
                 id = '123456',
                 name = '0000CNYE1, Corporate',
                 location_name = 'Corporate',
-                address = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
+                address = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
                     street_line1 = 'AddressLine1', 
                     street_line2 = 'AddressLine2', 
                     city = 'TestCity', 

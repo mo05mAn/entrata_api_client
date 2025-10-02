@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders import UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders
+from entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders import UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders
 
 class TestUpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders(unittest.TestCase):
     """UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders unit test stubs"""
@@ -36,8 +36,8 @@ class TestUpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders(unittest.Tes
         if include_optional:
             return UpdateWorkOrdersR1SuccessResponseResponseResultWorkOrders(
                 work_order = [
-                    openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner(
-                        @attributes = openapi_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
+                    entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner(
+                        @attributes = entrata_api_client.models.update_work_orders_r1_success_response_response_result_work_orders_work_order_inner__attributes.updateWorkOrders_r1_SuccessResponse_response_result_workOrders_workOrder_inner__attributes(
                             work_order_id = '1234', 
                             status = 'Success', 
                             message = 'Work order updated successfully.', ), )

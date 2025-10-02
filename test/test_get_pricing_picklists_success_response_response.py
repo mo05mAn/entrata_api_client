@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response import GetPricingPicklistsSuccessResponseResponse
+from entrata_api_client.models.get_pricing_picklists_success_response_response import GetPricingPicklistsSuccessResponseResponse
 
 class TestGetPricingPicklistsSuccessResponseResponse(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponse unit test stubs"""
@@ -37,32 +37,32 @@ class TestGetPricingPicklistsSuccessResponseResponse(unittest.TestCase):
             return GetPricingPicklistsSuccessResponseResponse(
                 request_id = '14',
                 code = 200,
-                result = openapi_client.models.get_pricing_picklists_success_response_response_result.getPricingPicklistsSuccessResponse_response_result(
-                    pricing_levels = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels.getPricingPicklistsSuccessResponse_response_result_pricingLevels(
+                result = entrata_api_client.models.get_pricing_picklists_success_response_response_result.getPricingPicklistsSuccessResponse_response_result(
+                    pricing_levels = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels.getPricingPicklistsSuccessResponse_response_result_pricingLevels(
                         pricing_level = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
                                     id = 1, 
                                     name = 'Property', ), )
                             ], ), 
-                    charge_usages = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages.getPricingPicklistsSuccessResponse_response_result_chargeUsages(
+                    charge_usages = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages.getPricingPicklistsSuccessResponse_response_result_chargeUsages(
                         charge_usage = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
                                     id = 1, 
                                     name = 'Base', ), )
                             ], ), 
-                    charge_timings = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings.getPricingPicklistsSuccessResponse_response_result_chargeTimings(
+                    charge_timings = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings.getPricingPicklistsSuccessResponse_response_result_chargeTimings(
                         charge_timing = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
                                     id = 102, 
                                     name = 'Application Completed', ), )
                             ], ), 
-                    charge_code_types = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes(
+                    charge_code_types = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes(
                         charge_code_type = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
                                     id = 2, 
                                     name = 'Rent', 
                                     allowed_charge_timing_ids = '307', ), )
@@ -72,32 +72,32 @@ class TestGetPricingPicklistsSuccessResponseResponse(unittest.TestCase):
             return GetPricingPicklistsSuccessResponseResponse(
                 request_id = '14',
                 code = 200,
-                result = openapi_client.models.get_pricing_picklists_success_response_response_result.getPricingPicklistsSuccessResponse_response_result(
-                    pricing_levels = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels.getPricingPicklistsSuccessResponse_response_result_pricingLevels(
+                result = entrata_api_client.models.get_pricing_picklists_success_response_response_result.getPricingPicklistsSuccessResponse_response_result(
+                    pricing_levels = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels.getPricingPicklistsSuccessResponse_response_result_pricingLevels(
                         pricing_level = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
                                     id = 1, 
                                     name = 'Property', ), )
                             ], ), 
-                    charge_usages = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages.getPricingPicklistsSuccessResponse_response_result_chargeUsages(
+                    charge_usages = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages.getPricingPicklistsSuccessResponse_response_result_chargeUsages(
                         charge_usage = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
                                     id = 1, 
                                     name = 'Base', ), )
                             ], ), 
-                    charge_timings = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings.getPricingPicklistsSuccessResponse_response_result_chargeTimings(
+                    charge_timings = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings.getPricingPicklistsSuccessResponse_response_result_chargeTimings(
                         charge_timing = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
                                     id = 102, 
                                     name = 'Application Completed', ), )
                             ], ), 
-                    charge_code_types = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes(
+                    charge_code_types = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes(
                         charge_code_type = [
-                            openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
-                                @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
+                            entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
+                                @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
                                     id = 2, 
                                     name = 'Rent', 
                                     allowed_charge_timing_ids = '307', ), )

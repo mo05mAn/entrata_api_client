@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerAccountingDataChargeSet
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerAccountingDataChargeSet
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerAccountingDataChargeSet(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerAccountingDataChargeSet unit test stubs"""
@@ -38,9 +38,9 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
                 start = '2012-02-01',
                 end = '2020-01-01',
                 frequency = 'Monthly',
-                charge = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge(
+                charge = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge(
                     charge_type = 'Other', 
-                    identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge_Identification(
+                    identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge_Identification(
                         id_type = 'Charge ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
@@ -53,9 +53,9 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
                 start = '2012-02-01',
                 end = '2020-01-01',
                 frequency = 'Monthly',
-                charge = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge(
+                charge = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge(
                     charge_type = 'Other', 
-                    identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge_Identification(
+                    identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_accounting_data_charge_set_charge_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_AccountingData_ChargeSet_Charge_Identification(
                         id_type = 'Charge ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 

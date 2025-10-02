@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_po_receiving_records import GetPoReceivingRecords
+from entrata_api_client.models.get_po_receiving_records import GetPoReceivingRecords
 
 class TestGetPoReceivingRecords(unittest.TestCase):
     """GetPoReceivingRecords unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPoReceivingRecords(unittest.TestCase):
         model = GetPoReceivingRecords()
         if include_optional:
             return GetPoReceivingRecords(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_po_receiving_records_method.getPoReceivingRecords_method(
+                method = entrata_api_client.models.get_po_receiving_records_method.getPoReceivingRecords_method(
                     name = 'getPoReceivingRecords', 
                     version = 'r1', 
-                    params = openapi_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
+                    params = entrata_api_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
                         vendor_id = 12345, 
                         vendor_code = '12345', 
                         purchase_order_numbers = 12345, 
@@ -53,12 +53,12 @@ class TestGetPoReceivingRecords(unittest.TestCase):
             )
         else:
             return GetPoReceivingRecords(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_po_receiving_records_method.getPoReceivingRecords_method(
+                method = entrata_api_client.models.get_po_receiving_records_method.getPoReceivingRecords_method(
                     name = 'getPoReceivingRecords', 
                     version = 'r1', 
-                    params = openapi_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
+                    params = entrata_api_client.models.get_po_receiving_records_method_params.getPoReceivingRecords_method_params(
                         vendor_id = 12345, 
                         vendor_code = '12345', 
                         purchase_order_numbers = 12345, 

@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.delete_property_media_method import DeletePropertyMediaMethod
-from openapi_client.models.update_property_media_auth import UpdatePropertyMediaAuth
+from entrata_api_client.models.delete_property_media_method import DeletePropertyMediaMethod
+from entrata_api_client.models.update_property_media_auth import UpdatePropertyMediaAuth
 from typing import Optional, Set
 from typing_extensions import Self
 

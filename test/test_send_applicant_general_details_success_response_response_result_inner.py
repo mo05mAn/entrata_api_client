@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_applicant_general_details_success_response_response_result_inner import SendApplicantGeneralDetailsSuccessResponseResponseResultInner
+from entrata_api_client.models.send_applicant_general_details_success_response_response_result_inner import SendApplicantGeneralDetailsSuccessResponseResponseResultInner
 
 class TestSendApplicantGeneralDetailsSuccessResponseResponseResultInner(unittest.TestCase):
     """SendApplicantGeneralDetailsSuccessResponseResponseResultInner unit test stubs"""

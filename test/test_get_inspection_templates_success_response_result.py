@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspection_templates_success_response_result import GetInspectionTemplatesSuccessResponseResult
+from entrata_api_client.models.get_inspection_templates_success_response_result import GetInspectionTemplatesSuccessResponseResult
 
 class TestGetInspectionTemplatesSuccessResponseResult(unittest.TestCase):
     """GetInspectionTemplatesSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetInspectionTemplatesSuccessResponseResult(unittest.TestCase):
         model = GetInspectionTemplatesSuccessResponseResult()
         if include_optional:
             return GetInspectionTemplatesSuccessResponseResult(
-                inspection_templates = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates.getInspectionTemplatesSuccessResponse_result_inspectionTemplates(
+                inspection_templates = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates.getInspectionTemplatesSuccessResponse_result_inspectionTemplates(
                     inspection_template = [
-                        openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner(
+                        entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner(
                             id = '1234', 
                             name = 'Template Name', 
                             type = 'Type', 
@@ -46,14 +46,14 @@ class TestGetInspectionTemplatesSuccessResponseResult(unittest.TestCase):
                             custom_text = 'Top Text', 
                             terms_and_conditions = 'Bottom Text', 
                             property_ids = '12345,45678', 
-                            locations = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations(
+                            locations = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations(
                                 location = [
-                                    openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner(
+                                    entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner(
                                         maintenance_location_id = '12345', 
                                         location_name = 'location name', 
-                                        problems = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems(
+                                        problems = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems(
                                             problem = [
-                                                openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems_problem_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems_problem_inner(
+                                                entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems_problem_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems_problem_inner(
                                                     maintenance_problem_id = '123456', 
                                                     problem_name = 'problem name', )
                                                 ], ), )
@@ -62,9 +62,9 @@ class TestGetInspectionTemplatesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetInspectionTemplatesSuccessResponseResult(
-                inspection_templates = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates.getInspectionTemplatesSuccessResponse_result_inspectionTemplates(
+                inspection_templates = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates.getInspectionTemplatesSuccessResponse_result_inspectionTemplates(
                     inspection_template = [
-                        openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner(
+                        entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner(
                             id = '1234', 
                             name = 'Template Name', 
                             type = 'Type', 
@@ -73,14 +73,14 @@ class TestGetInspectionTemplatesSuccessResponseResult(unittest.TestCase):
                             custom_text = 'Top Text', 
                             terms_and_conditions = 'Bottom Text', 
                             property_ids = '12345,45678', 
-                            locations = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations(
+                            locations = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations(
                                 location = [
-                                    openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner(
+                                    entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner(
                                         maintenance_location_id = '12345', 
                                         location_name = 'location name', 
-                                        problems = openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems(
+                                        problems = entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems(
                                             problem = [
-                                                openapi_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems_problem_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems_problem_inner(
+                                                entrata_api_client.models.get_inspection_templates_success_response_result_inspection_templates_inspection_template_inner_locations_location_inner_problems_problem_inner.getInspectionTemplatesSuccessResponse_result_inspectionTemplates_inspectionTemplate_inner_locations_location_inner_problems_problem_inner(
                                                     maintenance_problem_id = '123456', 
                                                     problem_name = 'problem name', )
                                                 ], ), )

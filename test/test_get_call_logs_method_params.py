@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_call_logs_method_params import GetCallLogsMethodParams
+from entrata_api_client.models.get_call_logs_method_params import GetCallLogsMethodParams
 
 class TestGetCallLogsMethodParams(unittest.TestCase):
     """GetCallLogsMethodParams unit test stubs"""

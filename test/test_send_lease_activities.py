@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_activities import SendLeaseActivities
+from entrata_api_client.models.send_lease_activities import SendLeaseActivities
 
 class TestSendLeaseActivities(unittest.TestCase):
     """SendLeaseActivities unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendLeaseActivities(unittest.TestCase):
         model = SendLeaseActivities()
         if include_optional:
             return SendLeaseActivities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_lease_activities_method.sendLeaseActivities_method(
+                method = entrata_api_client.models.send_lease_activities_method.sendLeaseActivities_method(
                     name = 'sendLeaseActivities', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
+                    params = entrata_api_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         event_type_id = 8, 
@@ -57,12 +57,12 @@ class TestSendLeaseActivities(unittest.TestCase):
             )
         else:
             return SendLeaseActivities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_lease_activities_method.sendLeaseActivities_method(
+                method = entrata_api_client.models.send_lease_activities_method.sendLeaseActivities_method(
                     name = 'sendLeaseActivities', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
+                    params = entrata_api_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         event_type_id = 8, 

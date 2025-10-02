@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
         model = GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities()
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenities(
-                property_amenities = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities(
+                property_amenities = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities(
                     amenity = [
-                        openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
+                        entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
                             amenity_type = 'Apartment', 
                             amenity = '123', 
                             description = 'AMENITY DESCRIPTION', )

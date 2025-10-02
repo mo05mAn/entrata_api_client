@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags import GetVendorPickListsSuccessResponseResultRoutingTags
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags import GetVendorPickListsSuccessResponseResultRoutingTags
 
 class TestGetVendorPickListsSuccessResponseResultRoutingTags(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultRoutingTags unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultRoutingTags(unittest.TestCase):
         if include_optional:
             return GetVendorPickListsSuccessResponseResultRoutingTags(
                 routing_tag = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
                             id = '93', 
                             name = 'routingTag1', ), )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_clients_success_response_result_orgs_inner import GetAccessibleClientsSuccessResponseResultOrgsInner
+from entrata_api_client.models.get_accessible_clients_success_response_result_orgs_inner import GetAccessibleClientsSuccessResponseResultOrgsInner
 
 class TestGetAccessibleClientsSuccessResponseResultOrgsInner(unittest.TestCase):
     """GetAccessibleClientsSuccessResponseResultOrgsInner unit test stubs"""

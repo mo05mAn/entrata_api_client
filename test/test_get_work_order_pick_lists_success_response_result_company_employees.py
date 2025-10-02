@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees import GetWorkOrderPickListsSuccessResponseResultCompanyEmployees
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees import GetWorkOrderPickListsSuccessResponseResultCompanyEmployees
 
 class TestGetWorkOrderPickListsSuccessResponseResultCompanyEmployees(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultCompanyEmployees unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultCompanyEmployees(unittest.Te
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultCompanyEmployees(
                 company_employee = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
                         id = '299001', 
                         name = 'Andrew Marshall', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultCompanyEmployees(unittest.Te
         else:
             return GetWorkOrderPickListsSuccessResponseResultCompanyEmployees(
                 company_employee = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
                         id = '299001', 
                         name = 'Andrew Marshall', )
                     ],

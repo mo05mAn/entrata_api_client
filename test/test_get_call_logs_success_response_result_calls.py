@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_call_logs_success_response_result_calls import GetCallLogsSuccessResponseResultCalls
+from entrata_api_client.models.get_call_logs_success_response_result_calls import GetCallLogsSuccessResponseResultCalls
 
 class TestGetCallLogsSuccessResponseResultCalls(unittest.TestCase):
     """GetCallLogsSuccessResponseResultCalls unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCallLogsSuccessResponseResultCalls(unittest.TestCase):
         if include_optional:
             return GetCallLogsSuccessResponseResultCalls(
                 call = [
-                    openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                    entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                         id = '1234', 
                         caller_name = 'test caller', 
                         application_id = '1234', 
@@ -63,7 +63,7 @@ class TestGetCallLogsSuccessResponseResultCalls(unittest.TestCase):
         else:
             return GetCallLogsSuccessResponseResultCalls(
                 call = [
-                    openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                    entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                         id = '1234', 
                         caller_name = 'test caller', 
                         application_id = '1234', 

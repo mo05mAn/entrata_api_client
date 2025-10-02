@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r2_success_response_result import UpdateLeadsR2SuccessResponseResult
+from entrata_api_client.models.update_leads_r2_success_response_result import UpdateLeadsR2SuccessResponseResult
 
 class TestUpdateLeadsR2SuccessResponseResult(unittest.TestCase):
     """UpdateLeadsR2SuccessResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateLeadsR2SuccessResponseResult(unittest.TestCase):
         if include_optional:
             return UpdateLeadsR2SuccessResponseResult(
                 prospects = [
-                    openapi_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
+                    entrata_api_client.models.update_leads_r2_success_response_result_prospects_inner.updateLeads_r2_SuccessResponse_result_prospects_inner(
                         node = '1', 
                         status = 'Success', 
                         message = 'Lead updated successfully.', )

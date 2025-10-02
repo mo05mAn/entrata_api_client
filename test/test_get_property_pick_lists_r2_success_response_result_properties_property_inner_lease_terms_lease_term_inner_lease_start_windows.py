@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeas
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows(
                 lease_start_window = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                         lease_start_window_id = 110263, 
                         window_start_date = '08/01/2020', 
                         window_end_date = '12/31/2020', 
@@ -46,7 +46,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeas
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerLeaseTermsLeaseTermInnerLeaseStartWindows(
                 lease_start_window = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                         lease_start_window_id = 110263, 
                         window_start_date = '08/01/2020', 
                         window_end_date = '12/31/2020', 

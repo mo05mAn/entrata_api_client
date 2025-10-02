@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerFileInner
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerFileInner
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerFileInner(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInnerFileInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
                 format = 'pdf',
                 src = 'https://medialibrary.propertysolutions.com/media_library/1234/51cbf70a726cd636.pdf',
                 rank = '3',
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner__attributes(
                     file_id = '461182', 
                     active = 'true', )
             )

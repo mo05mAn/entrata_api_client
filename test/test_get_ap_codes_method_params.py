@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ap_codes_method_params import GetApCodesMethodParams
+from entrata_api_client.models.get_ap_codes_method_params import GetApCodesMethodParams
 
 class TestGetApCodesMethodParams(unittest.TestCase):
     """GetApCodesMethodParams unit test stubs"""

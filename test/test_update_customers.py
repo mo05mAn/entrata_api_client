@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customers import UpdateCustomers
+from entrata_api_client.models.update_customers import UpdateCustomers
 
 class TestUpdateCustomers(unittest.TestCase):
     """UpdateCustomers unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateCustomers(unittest.TestCase):
         model = UpdateCustomers()
         if include_optional:
             return UpdateCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_customers_method.updateCustomers_method(
+                method = entrata_api_client.models.update_customers_method.updateCustomers_method(
                     name = 'updateCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.update_customers_method_params.updateCustomers_method_params(
+                    params = entrata_api_client.models.update_customers_method_params.updateCustomers_method_params(
                         id = 31025784, 
                         first_name = 'Ephraim', 
                         last_name = 'Kassulke', 
@@ -72,12 +72,12 @@ class TestUpdateCustomers(unittest.TestCase):
             )
         else:
             return UpdateCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_customers_method.updateCustomers_method(
+                method = entrata_api_client.models.update_customers_method.updateCustomers_method(
                     name = 'updateCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.update_customers_method_params.updateCustomers_method_params(
+                    params = entrata_api_client.models.update_customers_method_params.updateCustomers_method_params(
                         id = 31025784, 
                         first_name = 'Ephraim', 
                         last_name = 'Kassulke', 

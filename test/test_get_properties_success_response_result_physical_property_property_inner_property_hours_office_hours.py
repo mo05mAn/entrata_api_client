@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropert
         model = GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours()
         if include_optional:
             return GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursOfficeHours(
-                office_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
+                office_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
                     day = 'Monday', 
                     availability_type = 'Open', 
                     open_time = '9:00 AM', 

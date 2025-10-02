@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerOptionalItems
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerOptionalItems
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerOptionalItems(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerOptionalItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerOptionalItems(
                 optional_item = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items_optional_item_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems_optionalItem_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items_optional_item_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems_optionalItem_inner(
                         add_on_type_id = '2', 
                         name = 'Appliances', 
                         type = 'Appliances', 

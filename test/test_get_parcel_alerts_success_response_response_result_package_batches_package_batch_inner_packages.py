@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages import GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages
+from entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages import GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages
 
 class TestGetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages(unittest.TestCase):
     """GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatch
         if include_optional:
             return GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages(
                 package = [
-                    openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner(
-                        @attributes = openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner__attributes.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner__attributes(
+                    entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner(
+                        @attributes = entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner__attributes.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner__attributes(
                             id = 1433603, ), 
                         lease_id = 11165108, 
                         customer_id = 15200439, 
@@ -57,8 +57,8 @@ class TestGetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatch
         else:
             return GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInnerPackages(
                 package = [
-                    openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner(
-                        @attributes = openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner__attributes.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner__attributes(
+                    entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner(
+                        @attributes = entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner_packages_package_inner__attributes.getParcelAlertsSuccessResponse_response_result_packageBatches_packageBatch_inner_packages_package_inner__attributes(
                             id = 1433603, ), 
                         lease_id = 11165108, 
                         customer_id = 15200439, 

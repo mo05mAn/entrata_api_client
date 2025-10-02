@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1 import GetFinancialPickListR1
+from entrata_api_client.models.get_financial_pick_list_r1 import GetFinancialPickListR1
 
 class TestGetFinancialPickListR1(unittest.TestCase):
     """GetFinancialPickListR1 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetFinancialPickListR1(unittest.TestCase):
         model = GetFinancialPickListR1()
         if include_optional:
             return GetFinancialPickListR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_financial_pick_list_r1_method.getFinancialPickList_r1_method(
+                method = entrata_api_client.models.get_financial_pick_list_r1_method.getFinancialPickList_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_financial_pick_list_r1_method_params.getFinancialPickList_r1_method_params(
+                    params = entrata_api_client.models.get_financial_pick_list_r1_method_params.getFinancialPickList_r1_method_params(
                         property_id = 123456, ), )
             )
         else:
             return GetFinancialPickListR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_financial_pick_list_r1_method.getFinancialPickList_r1_method(
+                method = entrata_api_client.models.get_financial_pick_list_r1_method.getFinancialPickList_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_financial_pick_list_r1_method_params.getFinancialPickList_r1_method_params(
+                    params = entrata_api_client.models.get_financial_pick_list_r1_method_params.getFinancialPickList_r1_method_params(
                         property_id = 123456, ), ),
         )
         """

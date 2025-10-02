@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner
+from entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner
 
 class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloo
         model = GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                     active = 1, ),
                 value = '100.00',
                 description_header = 'Consession',
@@ -44,7 +44,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloo
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInnerConcessionInner(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                     active = 1, ),
                 value = '100.00',
                 description_header = 'Consession',

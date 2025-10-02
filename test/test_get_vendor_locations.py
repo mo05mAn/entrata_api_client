@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations import GetVendorLocations
+from entrata_api_client.models.get_vendor_locations import GetVendorLocations
 
 class TestGetVendorLocations(unittest.TestCase):
     """GetVendorLocations unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorLocations(unittest.TestCase):
         model = GetVendorLocations()
         if include_optional:
             return GetVendorLocations(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_vendor_locations_method.getVendorLocations_method(
+                method = entrata_api_client.models.get_vendor_locations_method.getVendorLocations_method(
                     name = 'getVendorLocations', 
                     version = 'r1', 
-                    params = openapi_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
+                    params = entrata_api_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
                         property_ids = 56, 
                         show_all_status = 0, 
                         include_intercompany_vendors = 0, 
@@ -52,12 +52,12 @@ class TestGetVendorLocations(unittest.TestCase):
             )
         else:
             return GetVendorLocations(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_vendor_locations_method.getVendorLocations_method(
+                method = entrata_api_client.models.get_vendor_locations_method.getVendorLocations_method(
                     name = 'getVendorLocations', 
                     version = 'r1', 
-                    params = openapi_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
+                    params = entrata_api_client.models.get_vendor_locations_method_params.getVendorLocations_method_params(
                         property_ids = 56, 
                         show_all_status = 0, 
                         include_intercompany_vendors = 0, 

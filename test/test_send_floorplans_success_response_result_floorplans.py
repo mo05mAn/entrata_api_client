@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_floorplans_success_response_result_floorplans import SendFloorplansSuccessResponseResultFloorplans
+from entrata_api_client.models.send_floorplans_success_response_result_floorplans import SendFloorplansSuccessResponseResultFloorplans
 
 class TestSendFloorplansSuccessResponseResultFloorplans(unittest.TestCase):
     """SendFloorplansSuccessResponseResultFloorplans unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendFloorplansSuccessResponseResultFloorplans(unittest.TestCase):
         if include_optional:
             return SendFloorplansSuccessResponseResultFloorplans(
                 floorplan = [
-                    openapi_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
+                    entrata_api_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
                         node = 1, 
                         status = 'Success', 
                         floorplan_id = 1145077, 
@@ -47,7 +47,7 @@ class TestSendFloorplansSuccessResponseResultFloorplans(unittest.TestCase):
         else:
             return SendFloorplansSuccessResponseResultFloorplans(
                 floorplan = [
-                    openapi_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
+                    entrata_api_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
                         node = 1, 
                         status = 'Success', 
                         floorplan_id = 1145077, 

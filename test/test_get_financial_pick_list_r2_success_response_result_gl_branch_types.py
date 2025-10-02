@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types import GetFinancialPickListR2SuccessResponseResultGlBranchTypes
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types import GetFinancialPickListR2SuccessResponseResultGlBranchTypes
 
 class TestGetFinancialPickListR2SuccessResponseResultGlBranchTypes(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultGlBranchTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlBranchTypes(unittest.Test
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultGlBranchTypes(
                 gl_branch_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types_gl_branch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glBranchTypes_glBranchType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types_gl_branch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glBranchTypes_glBranchType_inner(
                         id = 1, 
                         name = 'Standard Group', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlBranchTypes(unittest.Test
         else:
             return GetFinancialPickListR2SuccessResponseResultGlBranchTypes(
                 gl_branch_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types_gl_branch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glBranchTypes_glBranchType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_branch_types_gl_branch_type_inner.getFinancialPickList_r2_SuccessResponse_result_glBranchTypes_glBranchType_inner(
                         id = 1, 
                         name = 'Standard Group', )
                     ],

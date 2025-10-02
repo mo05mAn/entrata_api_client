@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_vendors_post_request_inner import OrgsV1VendorsPostRequestInner
+from entrata_api_client.models.orgs_v1_vendors_post_request_inner import OrgsV1VendorsPostRequestInner
 
 class TestOrgsV1VendorsPostRequestInner(unittest.TestCase):
     """OrgsV1VendorsPostRequestInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestOrgsV1VendorsPostRequestInner(unittest.TestCase):
         model = OrgsV1VendorsPostRequestInner()
         if include_optional:
             return OrgsV1VendorsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.void_ap_payments_method.voidApPayments_method(
+                method = entrata_api_client.models.void_ap_payments_method.voidApPayments_method(
                     name = 'voidApPayments', 
                     version = 'r1', 
-                    params = openapi_client.models.void_ap_payments_method_params.voidApPayments_method_params(
+                    params = entrata_api_client.models.void_ap_payments_method_params.voidApPayments_method_params(
                         payment_id = 12345, 
                         payment_number = '123456', 
                         payment_bank_account_id = 12345, 
@@ -53,12 +53,12 @@ class TestOrgsV1VendorsPostRequestInner(unittest.TestCase):
             )
         else:
             return OrgsV1VendorsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.void_ap_payments_method.voidApPayments_method(
+                method = entrata_api_client.models.void_ap_payments_method.voidApPayments_method(
                     name = 'voidApPayments', 
                     version = 'r1', 
-                    params = openapi_client.models.void_ap_payments_method_params.voidApPayments_method_params(
+                    params = entrata_api_client.models.void_ap_payments_method_params.voidApPayments_method_params(
                         payment_id = 12345, 
                         payment_number = '123456', 
                         payment_bank_account_id = 12345, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units_method_params import SendPropertyUnitsMethodParams
+from entrata_api_client.models.send_property_units_method_params import SendPropertyUnitsMethodParams
 
 class TestSendPropertyUnitsMethodParams(unittest.TestCase):
     """SendPropertyUnitsMethodParams unit test stubs"""

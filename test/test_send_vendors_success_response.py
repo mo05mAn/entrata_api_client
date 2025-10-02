@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_vendors_success_response import SendVendorsSuccessResponse
+from entrata_api_client.models.send_vendors_success_response import SendVendorsSuccessResponse
 
 class TestSendVendorsSuccessResponse(unittest.TestCase):
     """SendVendorsSuccessResponse unit test stubs"""
@@ -35,11 +35,11 @@ class TestSendVendorsSuccessResponse(unittest.TestCase):
         model = SendVendorsSuccessResponse()
         if include_optional:
             return SendVendorsSuccessResponse(
-                result = openapi_client.models.send_vendors_success_response_result.sendVendorsSuccessResponse_result(
-                    vendors = openapi_client.models.send_vendors_success_response_result_vendors.sendVendorsSuccessResponse_result_vendors(
+                result = entrata_api_client.models.send_vendors_success_response_result.sendVendorsSuccessResponse_result(
+                    vendors = entrata_api_client.models.send_vendors_success_response_result_vendors.sendVendorsSuccessResponse_result_vendors(
                         vendor = [
-                            openapi_client.models.send_vendors_success_response_result_vendors_vendor_inner.sendVendorsSuccessResponse_result_vendors_vendor_inner(
-                                @attributes = openapi_client.models.send_vendors_success_response_result_vendors_vendor_inner__attributes.sendVendorsSuccessResponse_result_vendors_vendor_inner__attributes(
+                            entrata_api_client.models.send_vendors_success_response_result_vendors_vendor_inner.sendVendorsSuccessResponse_result_vendors_vendor_inner(
+                                @attributes = entrata_api_client.models.send_vendors_success_response_result_vendors_vendor_inner__attributes.sendVendorsSuccessResponse_result_vendors_vendor_inner__attributes(
                                     vendor_id = 13019, 
                                     status = 'Success', 
                                     message = 'Vendor inserted successfully.', ), )
@@ -47,11 +47,11 @@ class TestSendVendorsSuccessResponse(unittest.TestCase):
             )
         else:
             return SendVendorsSuccessResponse(
-                result = openapi_client.models.send_vendors_success_response_result.sendVendorsSuccessResponse_result(
-                    vendors = openapi_client.models.send_vendors_success_response_result_vendors.sendVendorsSuccessResponse_result_vendors(
+                result = entrata_api_client.models.send_vendors_success_response_result.sendVendorsSuccessResponse_result(
+                    vendors = entrata_api_client.models.send_vendors_success_response_result_vendors.sendVendorsSuccessResponse_result_vendors(
                         vendor = [
-                            openapi_client.models.send_vendors_success_response_result_vendors_vendor_inner.sendVendorsSuccessResponse_result_vendors_vendor_inner(
-                                @attributes = openapi_client.models.send_vendors_success_response_result_vendors_vendor_inner__attributes.sendVendorsSuccessResponse_result_vendors_vendor_inner__attributes(
+                            entrata_api_client.models.send_vendors_success_response_result_vendors_vendor_inner.sendVendorsSuccessResponse_result_vendors_vendor_inner(
+                                @attributes = entrata_api_client.models.send_vendors_success_response_result_vendors_vendor_inner__attributes.sendVendorsSuccessResponse_result_vendors_vendor_inner__attributes(
                                     vendor_id = 13019, 
                                     status = 'Success', 
                                     message = 'Vendor inserted successfully.', ), )

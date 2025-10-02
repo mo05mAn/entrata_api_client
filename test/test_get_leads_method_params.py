@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_method_params import GetLeadsMethodParams
+from entrata_api_client.models.get_leads_method_params import GetLeadsMethodParams
 
 class TestGetLeadsMethodParams(unittest.TestCase):
     """GetLeadsMethodParams unit test stubs"""

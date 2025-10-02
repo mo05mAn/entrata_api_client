@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPro
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyManagementPropertyContacts(
-                companies = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies(
-                    identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies_Identification(
+                companies = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies(
+                    identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_management_property_contacts_companies_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Management_PropertyContacts_Companies_Identification(
                         id_value = '1234', ), 
                     company_name = 'DB Xento Systems Pvt. Ltd.', 
                     web_site = 'http://newtestinggroup.prospectportal.com', )

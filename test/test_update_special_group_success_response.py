@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_special_group_success_response import UpdateSpecialGroupSuccessResponse
+from entrata_api_client.models.update_special_group_success_response import UpdateSpecialGroupSuccessResponse
 
 class TestUpdateSpecialGroupSuccessResponse(unittest.TestCase):
     """UpdateSpecialGroupSuccessResponse unit test stubs"""
@@ -35,20 +35,20 @@ class TestUpdateSpecialGroupSuccessResponse(unittest.TestCase):
         model = UpdateSpecialGroupSuccessResponse()
         if include_optional:
             return UpdateSpecialGroupSuccessResponse(
-                response = openapi_client.models.update_special_group_success_response_response.updateSpecialGroupSuccessResponse_response(
+                response = entrata_api_client.models.update_special_group_success_response_response.updateSpecialGroupSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_special_group_success_response_response_result.updateSpecialGroupSuccessResponse_response_result(
+                    result = entrata_api_client.models.update_special_group_success_response_response_result.updateSpecialGroupSuccessResponse_response_result(
                         status = 'success', 
                         special_group_id = 12345, 
                         message = 'Special updated successfully.', ), )
             )
         else:
             return UpdateSpecialGroupSuccessResponse(
-                response = openapi_client.models.update_special_group_success_response_response.updateSpecialGroupSuccessResponse_response(
+                response = entrata_api_client.models.update_special_group_success_response_response.updateSpecialGroupSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_special_group_success_response_response_result.updateSpecialGroupSuccessResponse_response_result(
+                    result = entrata_api_client.models.update_special_group_success_response_response_result.updateSpecialGroupSuccessResponse_response_result(
                         status = 'success', 
                         special_group_id = 12345, 
                         message = 'Special updated successfully.', ), ),

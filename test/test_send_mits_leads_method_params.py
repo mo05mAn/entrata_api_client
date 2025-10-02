@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_mits_leads_method_params import SendMitsLeadsMethodParams
+from entrata_api_client.models.send_mits_leads_method_params import SendMitsLeadsMethodParams
 
 class TestSendMitsLeadsMethodParams(unittest.TestCase):
     """SendMitsLeadsMethodParams unit test stubs"""

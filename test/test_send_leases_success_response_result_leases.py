@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leases_success_response_result_leases import SendLeasesSuccessResponseResultLeases
+from entrata_api_client.models.send_leases_success_response_result_leases import SendLeasesSuccessResponseResultLeases
 
 class TestSendLeasesSuccessResponseResultLeases(unittest.TestCase):
     """SendLeasesSuccessResponseResultLeases unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendLeasesSuccessResponseResultLeases(unittest.TestCase):
         if include_optional:
             return SendLeasesSuccessResponseResultLeases(
                 lease = [
-                    openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                    entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                         node = '1', 
                         lease_id = '123456', 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestSendLeasesSuccessResponseResultLeases(unittest.TestCase):
         else:
             return SendLeasesSuccessResponseResultLeases(
                 lease = [
-                    openapi_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
+                    entrata_api_client.models.send_leases_success_response_result_leases_lease_inner.sendLeasesSuccessResponse_result_leases_lease_inner(
                         node = '1', 
                         lease_id = '123456', 
                         status = 'Success', 

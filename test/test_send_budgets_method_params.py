@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgets_method_params import SendBudgetsMethodParams
+from entrata_api_client.models.send_budgets_method_params import SendBudgetsMethodParams
 
 class TestSendBudgetsMethodParams(unittest.TestCase):
     """SendBudgetsMethodParams unit test stubs"""

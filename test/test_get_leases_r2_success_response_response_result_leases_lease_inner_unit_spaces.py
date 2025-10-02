@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces
+from entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces
 
 class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces(unittest.TestCase):
     """GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces(uni
         if include_optional:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces(
                 unit_space = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
                         unit_space_id = 5219776, 
                         unit_space = 'AB1-J', )
                     ]
@@ -44,7 +44,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces(uni
         else:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerUnitSpaces(
                 unit_space = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
                         unit_space_id = 5219776, 
                         unit_space = 'AB1-J', )
                     ],

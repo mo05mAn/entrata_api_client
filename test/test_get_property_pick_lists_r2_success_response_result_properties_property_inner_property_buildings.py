@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings(
                 property_building = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
                         id = 56457, 
                         name = 'Building A', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerProp
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerPropertyBuildings(
                 property_building = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
                         id = 56457, 
                         name = 'Building A', )
                     ],

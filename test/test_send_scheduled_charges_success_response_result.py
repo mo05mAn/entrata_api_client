@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_scheduled_charges_success_response_result import SendScheduledChargesSuccessResponseResult
+from entrata_api_client.models.send_scheduled_charges_success_response_result import SendScheduledChargesSuccessResponseResult
 
 class TestSendScheduledChargesSuccessResponseResult(unittest.TestCase):
     """SendScheduledChargesSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendScheduledChargesSuccessResponseResult(unittest.TestCase):
         model = SendScheduledChargesSuccessResponseResult()
         if include_optional:
             return SendScheduledChargesSuccessResponseResult(
-                scheduled_charges = openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges.sendScheduledChargesSuccessResponse_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges.sendScheduledChargesSuccessResponse_result_scheduledCharges(
                     scheduled_charge = [
-                        openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                        entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
                             id = '1234', 
                             node = '1', 
                             status = 'Success', 
@@ -46,9 +46,9 @@ class TestSendScheduledChargesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return SendScheduledChargesSuccessResponseResult(
-                scheduled_charges = openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges.sendScheduledChargesSuccessResponse_result_scheduledCharges(
+                scheduled_charges = entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges.sendScheduledChargesSuccessResponse_result_scheduledCharges(
                     scheduled_charge = [
-                        openapi_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                        entrata_api_client.models.send_scheduled_charges_success_response_result_scheduled_charges_scheduled_charge_inner.sendScheduledChargesSuccessResponse_result_scheduledCharges_scheduledCharge_inner(
                             id = '1234', 
                             node = '1', 
                             status = 'Success', 

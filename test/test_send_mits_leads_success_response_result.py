@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_mits_leads_success_response_result import SendMitsLeadsSuccessResponseResult
+from entrata_api_client.models.send_mits_leads_success_response_result import SendMitsLeadsSuccessResponseResult
 
 class TestSendMitsLeadsSuccessResponseResult(unittest.TestCase):
     """SendMitsLeadsSuccessResponseResult unit test stubs"""
@@ -35,10 +35,10 @@ class TestSendMitsLeadsSuccessResponseResult(unittest.TestCase):
         model = SendMitsLeadsSuccessResponseResult()
         if include_optional:
             return SendMitsLeadsSuccessResponseResult(
-                prospects = openapi_client.models.send_mits_leads_success_response_result_prospects.sendMitsLeadsSuccessResponse_result_Prospects(
+                prospects = entrata_api_client.models.send_mits_leads_success_response_result_prospects.sendMitsLeadsSuccessResponse_result_Prospects(
                     prospect = [
-                        openapi_client.models.send_mits_leads_success_response_result_prospects_prospect_inner.sendMitsLeadsSuccessResponse_result_Prospects_Prospect_inner(
-                            @attributes = openapi_client.models.send_mits_leads_success_response_result_prospects_prospect_inner__attributes.sendMitsLeadsSuccessResponse_result_Prospects_Prospect_inner__attributes(
+                        entrata_api_client.models.send_mits_leads_success_response_result_prospects_prospect_inner.sendMitsLeadsSuccessResponse_result_Prospects_Prospect_inner(
+                            @attributes = entrata_api_client.models.send_mits_leads_success_response_result_prospects_prospect_inner__attributes.sendMitsLeadsSuccessResponse_result_Prospects_Prospect_inner__attributes(
                                 node = '1', 
                                 reference_id = '1253581', 
                                 applicant_id = '1246084', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_method import GetLeadPickListsR2Method
+from entrata_api_client.models.get_lead_pick_lists_r2_method import GetLeadPickListsR2Method
 
 class TestGetLeadPickListsR2Method(unittest.TestCase):
     """GetLeadPickListsR2Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeadPickListsR2Method(unittest.TestCase):
             return GetLeadPickListsR2Method(
                 name = '',
                 version = 'r2',
-                params = openapi_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
+                params = entrata_api_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
                     property_id = 1234, )
             )
         else:

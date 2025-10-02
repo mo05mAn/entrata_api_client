@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing import GetUnitsAvailabilityAndPricing
+from entrata_api_client.models.get_units_availability_and_pricing import GetUnitsAvailabilityAndPricing
 
 class TestGetUnitsAvailabilityAndPricing(unittest.TestCase):
     """GetUnitsAvailabilityAndPricing unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetUnitsAvailabilityAndPricing(unittest.TestCase):
         model = GetUnitsAvailabilityAndPricing()
         if include_optional:
             return GetUnitsAvailabilityAndPricing(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_units_availability_and_pricing_method.getUnitsAvailabilityAndPricing_method(
+                method = entrata_api_client.models.get_units_availability_and_pricing_method.getUnitsAvailabilityAndPricing_method(
                     name = 'getUnitsAvailabilityAndPricing', 
                     version = 'r1', 
-                    params = openapi_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
+                    params = entrata_api_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
                         property_id = 12345, 
                         floorplan_id = 12345, 
                         unit_type_id = 12345, 
@@ -60,12 +60,12 @@ class TestGetUnitsAvailabilityAndPricing(unittest.TestCase):
             )
         else:
             return GetUnitsAvailabilityAndPricing(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_units_availability_and_pricing_method.getUnitsAvailabilityAndPricing_method(
+                method = entrata_api_client.models.get_units_availability_and_pricing_method.getUnitsAvailabilityAndPricing_method(
                     name = 'getUnitsAvailabilityAndPricing', 
                     version = 'r1', 
-                    params = openapi_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
+                    params = entrata_api_client.models.get_units_availability_and_pricing_method_params.getUnitsAvailabilityAndPricing_method_params(
                         property_id = 12345, 
                         floorplan_id = 12345, 
                         unit_type_id = 12345, 

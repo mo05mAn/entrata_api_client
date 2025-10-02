@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.delete_property_media_success_response import DeletePropertyMediaSuccessResponse
+from entrata_api_client.models.delete_property_media_success_response import DeletePropertyMediaSuccessResponse
 
 class TestDeletePropertyMediaSuccessResponse(unittest.TestCase):
     """DeletePropertyMediaSuccessResponse unit test stubs"""
@@ -35,19 +35,19 @@ class TestDeletePropertyMediaSuccessResponse(unittest.TestCase):
         model = DeletePropertyMediaSuccessResponse()
         if include_optional:
             return DeletePropertyMediaSuccessResponse(
-                response = openapi_client.models.delete_property_media_success_response_response.deletePropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.delete_property_media_success_response_response.deletePropertyMediaSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Marketing Media Association deleted successfully.', ), )
             )
         else:
             return DeletePropertyMediaSuccessResponse(
-                response = openapi_client.models.delete_property_media_success_response_response.deletePropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.delete_property_media_success_response_response.deletePropertyMediaSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Marketing Media Association deleted successfully.', ), ),
         )

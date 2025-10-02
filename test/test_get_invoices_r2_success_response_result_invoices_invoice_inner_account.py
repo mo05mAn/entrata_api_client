@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_account import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerAccount
+from entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_account import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerAccount
 
 class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerAccount(unittest.TestCase):
     """GetInvoicesR2SuccessResponseResultInvoicesInvoiceInnerAccount unit test stubs"""

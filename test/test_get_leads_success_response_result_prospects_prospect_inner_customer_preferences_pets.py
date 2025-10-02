@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesPets
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesPets
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesPets(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesPets unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesPets(
                 pet = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets_pet_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets_pet_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_pets_pet_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_pets_pet_inner(
                         pet_type = [
                             ''
                             ], 

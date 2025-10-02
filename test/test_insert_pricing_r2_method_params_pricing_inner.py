@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_method_params_pricing_inner import InsertPricingR2MethodParamsPricingInner
+from entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner import InsertPricingR2MethodParamsPricingInner
 
 class TestInsertPricingR2MethodParamsPricingInner(unittest.TestCase):
     """InsertPricingR2MethodParamsPricingInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_company_applications_method_params import GetCompanyApplicationsMethodParams
+from entrata_api_client.models.get_company_applications_method_params import GetCompanyApplicationsMethodParams
 
 class TestGetCompanyApplicationsMethodParams(unittest.TestCase):
     """GetCompanyApplicationsMethodParams unit test stubs"""

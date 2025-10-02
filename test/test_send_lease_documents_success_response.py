@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_success_response import SendLeaseDocumentsSuccessResponse
+from entrata_api_client.models.send_lease_documents_success_response import SendLeaseDocumentsSuccessResponse
 
 class TestSendLeaseDocumentsSuccessResponse(unittest.TestCase):
     """SendLeaseDocumentsSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendLeaseDocumentsSuccessResponse(unittest.TestCase):
             return SendLeaseDocumentsSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_lease_documents_success_response_result.sendLeaseDocumentsSuccessResponse_result(
-                    files = openapi_client.models.send_lease_documents_success_response_result_files.sendLeaseDocumentsSuccessResponse_result_files(
+                result = entrata_api_client.models.send_lease_documents_success_response_result.sendLeaseDocumentsSuccessResponse_result(
+                    files = entrata_api_client.models.send_lease_documents_success_response_result_files.sendLeaseDocumentsSuccessResponse_result_files(
                         file = [
-                            openapi_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
+                            entrata_api_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
                                 node = '1', 
                                 file_id = '13858364', 
                                 file_name = 'file1.pdf', 
@@ -52,10 +52,10 @@ class TestSendLeaseDocumentsSuccessResponse(unittest.TestCase):
             return SendLeaseDocumentsSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_lease_documents_success_response_result.sendLeaseDocumentsSuccessResponse_result(
-                    files = openapi_client.models.send_lease_documents_success_response_result_files.sendLeaseDocumentsSuccessResponse_result_files(
+                result = entrata_api_client.models.send_lease_documents_success_response_result.sendLeaseDocumentsSuccessResponse_result(
+                    files = entrata_api_client.models.send_lease_documents_success_response_result_files.sendLeaseDocumentsSuccessResponse_result_files(
                         file = [
-                            openapi_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
+                            entrata_api_client.models.send_lease_documents_success_response_result_files_file_inner.sendLeaseDocumentsSuccessResponse_result_files_file_inner(
                                 node = '1', 
                                 file_id = '13858364', 
                                 file_name = 'file1.pdf', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         model = GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner()
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_UnitTypes_UnitType_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_UnitTypes_UnitType_inner__attributes(
                     id = 474667, 
                     name = 'X4', )
             )
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerUnitTypesUnitTypeInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_UnitTypes_UnitType_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_unit_types_unit_type_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_UnitTypes_UnitType_inner__attributes(
                     id = 474667, 
                     name = 'X4', ),
         )

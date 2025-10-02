@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_customers_success_response_result import SearchCustomersSuccessResponseResult
+from entrata_api_client.models.search_customers_success_response_result import SearchCustomersSuccessResponseResult
 
 class TestSearchCustomersSuccessResponseResult(unittest.TestCase):
     """SearchCustomersSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSearchCustomersSuccessResponseResult(unittest.TestCase):
         model = SearchCustomersSuccessResponseResult()
         if include_optional:
             return SearchCustomersSuccessResponseResult(
-                customers = openapi_client.models.search_customers_success_response_result_customers.searchCustomersSuccessResponse_result_customers(
+                customers = entrata_api_client.models.search_customers_success_response_result_customers.searchCustomersSuccessResponse_result_customers(
                     customer = [
-                        openapi_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
+                        entrata_api_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
                             id = '1234', 
                             name_prefix = 'Mr.', 
                             first_name = 'Dave', 
@@ -57,9 +57,9 @@ class TestSearchCustomersSuccessResponseResult(unittest.TestCase):
             )
         else:
             return SearchCustomersSuccessResponseResult(
-                customers = openapi_client.models.search_customers_success_response_result_customers.searchCustomersSuccessResponse_result_customers(
+                customers = entrata_api_client.models.search_customers_success_response_result_customers.searchCustomersSuccessResponse_result_customers(
                     customer = [
-                        openapi_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
+                        entrata_api_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
                             id = '1234', 
                             name_prefix = 'Mr.', 
                             first_name = 'Dave', 

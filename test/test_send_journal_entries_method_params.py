@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_journal_entries_method_params import SendJournalEntriesMethodParams
+from entrata_api_client.models.send_journal_entries_method_params import SendJournalEntriesMethodParams
 
 class TestSendJournalEntriesMethodParams(unittest.TestCase):
     """SendJournalEntriesMethodParams unit test stubs"""

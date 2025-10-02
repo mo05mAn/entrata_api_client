@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner import GetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner
+from entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner import GetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner
 
 class TestGetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner(unittest.TestCase):
     """GetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCompanyApplicationsSuccessResponseResponseResultCompanyApplications
         if include_optional:
             return GetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner(
                 application_question = [
-                    openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
+                    entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
                         id = 1, 
                         question = 'Have you ever been sued for rent?', )
                     ]
@@ -44,7 +44,7 @@ class TestGetCompanyApplicationsSuccessResponseResponseResultCompanyApplications
         else:
             return GetCompanyApplicationsSuccessResponseResponseResultCompanyApplicationsCompanyApplicationInnerApplicationQuestionsInner(
                 application_question = [
-                    openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
+                    entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
                         id = 1, 
                         question = 'Have you ever been sued for rent?', )
                     ],

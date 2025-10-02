@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_lease_success_response_result import UpdateLeaseSuccessResponseResult
+from entrata_api_client.models.update_lease_success_response_result import UpdateLeaseSuccessResponseResult
 
 class TestUpdateLeaseSuccessResponseResult(unittest.TestCase):
     """UpdateLeaseSuccessResponseResult unit test stubs"""

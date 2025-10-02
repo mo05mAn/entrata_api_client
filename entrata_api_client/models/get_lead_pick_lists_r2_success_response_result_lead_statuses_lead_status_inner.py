@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_lead_statuses_lead_status_inner_attributes import GetLeadPickListsR2SuccessResponseResultLeadStatusesLeadStatusInnerAttributes
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_lead_statuses_lead_status_inner_attributes import GetLeadPickListsR2SuccessResponseResultLeadStatusesLeadStatusInnerAttributes
 from typing import Optional, Set
 from typing_extensions import Self
 

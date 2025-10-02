@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner(
-                identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification(
+                identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification(
                     id_value = '1234', 
-                    @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_Identification__attributes(
                         id_scope_type = 'sender', 
                         id_rank = 'primary', ), ),
                 name = 'ZOM 1',
@@ -45,13 +45,13 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyBuildingInner
                 unit_count = '85',
                 square_feet = '0',
                 file = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner(
                         file_type = 'Photo', 
                         name = 'hotchocolate2_documentation_copy1.pdf', 
                         format = 'pdf', 
                         src = 'https://medialibrary.propertysolutions.com/media_library/1234/51cbf70a726cd636.pdf', 
                         rank = '3', 
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_building_inner_file_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Building_inner_File_inner__attributes(
                             file_id = '461182', 
                             active = 'true', ), )
                     ]

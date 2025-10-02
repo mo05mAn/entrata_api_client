@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_activities_method import SendLeaseActivitiesMethod
+from entrata_api_client.models.send_lease_activities_method import SendLeaseActivitiesMethod
 
 class TestSendLeaseActivitiesMethod(unittest.TestCase):
     """SendLeaseActivitiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendLeaseActivitiesMethod(unittest.TestCase):
             return SendLeaseActivitiesMethod(
                 name = 'sendLeaseActivities',
                 version = 'r1',
-                params = openapi_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
+                params = entrata_api_client.models.send_lease_activities_method_params.sendLeaseActivities_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     event_type_id = 8, 

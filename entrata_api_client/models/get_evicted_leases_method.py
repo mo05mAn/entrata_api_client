@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_evicted_leases_method_params import GetEvictedLeasesMethodParams
+from entrata_api_client.models.get_evicted_leases_method_params import GetEvictedLeasesMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

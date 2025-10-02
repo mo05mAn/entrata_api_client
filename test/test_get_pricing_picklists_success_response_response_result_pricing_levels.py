@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels import GetPricingPicklistsSuccessResponseResponseResultPricingLevels
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels import GetPricingPicklistsSuccessResponseResponseResultPricingLevels
 
 class TestGetPricingPicklistsSuccessResponseResponseResultPricingLevels(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultPricingLevels unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPricingPicklistsSuccessResponseResponseResultPricingLevels(unittest
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultPricingLevels(
                 pricing_level = [
-                    openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
-                        @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
+                    entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner(
+                        @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_pricing_levels_pricing_level_inner__attributes.getPricingPicklistsSuccessResponse_response_result_pricingLevels_pricingLevel_inner__attributes(
                             id = 1, 
                             name = 'Property', ), )
                     ]

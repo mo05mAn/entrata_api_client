@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types import GetTestimonialPickListsSuccessResponseResultTestimonialTypes
+from entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types import GetTestimonialPickListsSuccessResponseResultTestimonialTypes
 
 class TestGetTestimonialPickListsSuccessResponseResultTestimonialTypes(unittest.TestCase):
     """GetTestimonialPickListsSuccessResponseResultTestimonialTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetTestimonialPickListsSuccessResponseResultTestimonialTypes(unittest.
         if include_optional:
             return GetTestimonialPickListsSuccessResponseResultTestimonialTypes(
                 testimonial_type = [
-                    openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner(
-                        @attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
+                    entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner(
+                        @attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
                             id = '5', 
                             name = 'ApartmentRatings', ), )
                     ]
@@ -45,8 +45,8 @@ class TestGetTestimonialPickListsSuccessResponseResultTestimonialTypes(unittest.
         else:
             return GetTestimonialPickListsSuccessResponseResultTestimonialTypes(
                 testimonial_type = [
-                    openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner(
-                        @attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
+                    entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner(
+                        @attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
                             id = '5', 
                             name = 'ApartmentRatings', ), )
                     ],

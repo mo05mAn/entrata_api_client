@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses import GetWorkOrderPickListsSuccessResponseResultInspectionStatuses
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses import GetWorkOrderPickListsSuccessResponseResultInspectionStatuses
 
 class TestGetWorkOrderPickListsSuccessResponseResultInspectionStatuses(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultInspectionStatuses unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultInspectionStatuses(unittest.
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultInspectionStatuses(
                 inspection_status = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
                         id = '1', 
                         name = 'Not Started', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultInspectionStatuses(unittest.
         else:
             return GetWorkOrderPickListsSuccessResponseResultInspectionStatuses(
                 inspection_status = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
                         id = '1', 
                         name = 'Not Started', )
                     ],

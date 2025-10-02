@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities import GetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities import GetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities(unittes
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerLegalEntities(
                 legal_entity = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities_legal_entity_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities_legalEntity_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities_legal_entity_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities_legalEntity_inner(
                         id = '3214', 
                         name = 'NoTR', 
                         tax_id_number = '333-22-4444', 

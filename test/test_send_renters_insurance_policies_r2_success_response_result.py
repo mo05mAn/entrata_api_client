@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_renters_insurance_policies_r2_success_response_result import SendRentersInsurancePoliciesR2SuccessResponseResult
+from entrata_api_client.models.send_renters_insurance_policies_r2_success_response_result import SendRentersInsurancePoliciesR2SuccessResponseResult
 
 class TestSendRentersInsurancePoliciesR2SuccessResponseResult(unittest.TestCase):
     """SendRentersInsurancePoliciesR2SuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendRentersInsurancePoliciesR2SuccessResponseResult(unittest.TestCase)
         model = SendRentersInsurancePoliciesR2SuccessResponseResult()
         if include_optional:
             return SendRentersInsurancePoliciesR2SuccessResponseResult(
-                insurance_policies = openapi_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies(
+                insurance_policies = entrata_api_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies(
                     insurance_policy = [
-                        openapi_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies_insurance_policy_inner.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies_InsurancePolicy_inner(
+                        entrata_api_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies_insurance_policy_inner.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies_InsurancePolicy_inner(
                             node = '1', 
                             reference_id = '123456', 
                             lease_id = '123456', 
@@ -48,9 +48,9 @@ class TestSendRentersInsurancePoliciesR2SuccessResponseResult(unittest.TestCase)
             )
         else:
             return SendRentersInsurancePoliciesR2SuccessResponseResult(
-                insurance_policies = openapi_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies(
+                insurance_policies = entrata_api_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies(
                     insurance_policy = [
-                        openapi_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies_insurance_policy_inner.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies_InsurancePolicy_inner(
+                        entrata_api_client.models.send_renters_insurance_policies_r2_success_response_result_insurance_policies_insurance_policy_inner.sendRentersInsurancePolicies_r2_SuccessResponse_result_InsurancePolicies_InsurancePolicy_inner(
                             node = '1', 
                             reference_id = '123456', 
                             lease_id = '123456', 

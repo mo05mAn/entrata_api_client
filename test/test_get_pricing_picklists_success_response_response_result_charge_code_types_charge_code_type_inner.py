@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner import GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner import GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner
 
 class TestGetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeC
         model = GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner()
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
                     id = 2, 
                     name = 'Rent', 
                     allowed_charge_timing_ids = '307', )
             )
         else:
             return GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypesChargeCodeTypeInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
                     id = 2, 
                     name = 'Rent', 
                     allowed_charge_timing_ids = '307', ),

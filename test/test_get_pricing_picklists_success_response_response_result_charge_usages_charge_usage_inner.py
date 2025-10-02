@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner import GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner import GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner
 
 class TestGetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsag
         model = GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner()
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
                     id = 1, 
                     name = 'Base', )
             )
         else:
             return GetPricingPicklistsSuccessResponseResponseResultChargeUsagesChargeUsageInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
                     id = 1, 
                     name = 'Base', ),
         )

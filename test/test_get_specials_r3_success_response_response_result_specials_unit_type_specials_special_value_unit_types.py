@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpec
         if include_optional:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                         id = '577608', 
                         name = 'Alabaster', )
                     ]
@@ -44,7 +44,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpec
         else:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsUnitTypeSpecialsSpecialValueUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_type_specials_special_value_unit_types_unit_type_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitTypeSpecials_special_value_unitTypes_unitType_inner(
                         id = '577608', 
                         name = 'Alabaster', )
                     ],

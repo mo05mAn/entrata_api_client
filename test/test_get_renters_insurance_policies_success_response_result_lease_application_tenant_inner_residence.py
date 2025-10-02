@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence unit test stubs"""
@@ -35,26 +35,26 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenant
         model = GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence()
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence(
-                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
+                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
                     address = '500 S, 100 W, 100k', 
                     city = 'Provo', 
                     state = 'UT', 
                     postal_code = '84601', 
                     country_name = 'US', 
                     email = 'nmohite_x.lc@r.com', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
                         address_type = 'current', ), )
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerResidence(
-                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
+                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
                     address = '500 S, 100 W, 100k', 
                     city = 'Provo', 
                     state = 'UT', 
                     postal_code = '84601', 
                     country_name = 'US', 
                     email = 'nmohite_x.lc@r.com', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
                         address_type = 'current', ), ),
         )
         """

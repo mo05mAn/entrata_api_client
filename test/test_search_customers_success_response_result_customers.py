@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_customers_success_response_result_customers import SearchCustomersSuccessResponseResultCustomers
+from entrata_api_client.models.search_customers_success_response_result_customers import SearchCustomersSuccessResponseResultCustomers
 
 class TestSearchCustomersSuccessResponseResultCustomers(unittest.TestCase):
     """SearchCustomersSuccessResponseResultCustomers unit test stubs"""
@@ -36,7 +36,7 @@ class TestSearchCustomersSuccessResponseResultCustomers(unittest.TestCase):
         if include_optional:
             return SearchCustomersSuccessResponseResultCustomers(
                 customer = [
-                    openapi_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
+                    entrata_api_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
                         id = '1234', 
                         name_prefix = 'Mr.', 
                         first_name = 'Dave', 
@@ -57,7 +57,7 @@ class TestSearchCustomersSuccessResponseResultCustomers(unittest.TestCase):
         else:
             return SearchCustomersSuccessResponseResultCustomers(
                 customer = [
-                    openapi_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
+                    entrata_api_client.models.search_customers_success_response_result_customers_customer_inner.searchCustomersSuccessResponse_result_customers_customer_inner(
                         id = '1234', 
                         name_prefix = 'Mr.', 
                         first_name = 'Dave', 

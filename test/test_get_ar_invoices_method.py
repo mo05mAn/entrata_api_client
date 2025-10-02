@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_invoices_method import GetArInvoicesMethod
+from entrata_api_client.models.get_ar_invoices_method import GetArInvoicesMethod
 
 class TestGetArInvoicesMethod(unittest.TestCase):
     """GetArInvoicesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetArInvoicesMethod(unittest.TestCase):
             return GetArInvoicesMethod(
                 name = 'getArInvoices',
                 version = 'r1',
-                params = openapi_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
+                params = entrata_api_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
                     property_id = 123456, 
                     lease_ids = '123456', 
                     ar_invoice_id = 123456, 

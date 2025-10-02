@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_amenities_success_response_response_result_unit_amenities_inner import SendAmenitiesSuccessResponseResponseResultUnitAmenitiesInner
+from entrata_api_client.models.send_amenities_success_response_response_result_unit_amenities_inner import SendAmenitiesSuccessResponseResponseResultUnitAmenitiesInner
 
 class TestSendAmenitiesSuccessResponseResponseResultUnitAmenitiesInner(unittest.TestCase):
     """SendAmenitiesSuccessResponseResponseResultUnitAmenitiesInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner import SendBudgetedRentSuccessResponseResultPricingInner
+from entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner import SendBudgetedRentSuccessResponseResultPricingInner
 
 class TestSendBudgetedRentSuccessResponseResultPricingInner(unittest.TestCase):
     """SendBudgetedRentSuccessResponseResultPricingInner unit test stubs"""

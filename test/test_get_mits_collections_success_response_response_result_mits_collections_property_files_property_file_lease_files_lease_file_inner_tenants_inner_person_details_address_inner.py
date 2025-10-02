@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_tenants_inner_person_details_address_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                     address_type = 'other', ),
                 description = 'Primary address',
                 address = '201 SE SCENIC VIEW DR, df, df',
@@ -47,7 +47,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsInnerPersonDetailsAddressInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_lease_files_lease_file_inner_unit_address__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_LeaseFiles_LeaseFile_inner_Unit_Address__attributes(
                     address_type = 'other', ),
                 description = 'Primary address',
                 address = '201 SE SCENIC VIEW DR, df, df',

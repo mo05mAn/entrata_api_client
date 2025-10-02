@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_codes import GetArCodes
+from entrata_api_client.models.get_ar_codes import GetArCodes
 
 class TestGetArCodes(unittest.TestCase):
     """GetArCodes unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetArCodes(unittest.TestCase):
         model = GetArCodes()
         if include_optional:
             return GetArCodes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_ar_codes_method.getArCodes_method(
+                method = entrata_api_client.models.get_ar_codes_method.getArCodes_method(
                     name = 'getArCodes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_codes_method_params.getArCodes_method_params(
+                    params = entrata_api_client.models.get_ar_codes_method_params.getArCodes_method_params(
                         property_id = 123456, ), )
             )
         else:
             return GetArCodes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_ar_codes_method.getArCodes_method(
+                method = entrata_api_client.models.get_ar_codes_method.getArCodes_method(
                     name = 'getArCodes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_codes_method_params.getArCodes_method_params(
+                    params = entrata_api_client.models.get_ar_codes_method_params.getArCodes_method_params(
                         property_id = 123456, ), ),
         )
         """

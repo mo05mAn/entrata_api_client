@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity import GetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity
+from entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity import GetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity
 
 class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEnti
         if include_optional:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity(
                 value = 'Test for Kirk',
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                     id = '470', )
             )
         else:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerLegalEntity(
                 value = 'Test for Kirk',
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_legal_entity__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_LegalEntity__attributes(
                     id = '470', ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems(unit
         if include_optional:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems(
                 rentable_item = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                         add_on_type = 'Rentable Items', 
                         add_on_category = 'Garage', 
                         add_on_group = 'Garage', 
@@ -50,7 +50,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems(unit
         else:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsRentableItems(
                 rentable_item = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                         add_on_type = 'Rentable Items', 
                         add_on_category = 'Garage', 
                         add_on_group = 'Garage', 

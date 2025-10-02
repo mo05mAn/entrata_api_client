@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.error_response_response_error import ErrorResponseResponseError
+from entrata_api_client.models.error_response_response_error import ErrorResponseResponseError
 
 class TestErrorResponseResponseError(unittest.TestCase):
     """ErrorResponseResponseError unit test stubs"""

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_lease_documents_request_body_method_params_files import SendLeaseDocumentsRequestBodyMethodParamsFiles
+from entrata_api_client.models.send_lease_documents_request_body_method_params_files import SendLeaseDocumentsRequestBodyMethodParamsFiles
 from typing import Optional, Set
 from typing_extensions import Self
 

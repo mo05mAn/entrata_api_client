@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities import UpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities
+from entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities import UpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities
 
 class TestUpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities(unittest.TestCase):
     """UpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities(unittest
         if include_optional:
             return UpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities(
                 unit_type_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
                         node = 1, 
                         status = 'Failure', 
                         message = 'Missing value for parameter 'id'.', )
@@ -45,7 +45,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities(unittest
         else:
             return UpdateAmenitiesSuccessResponseResponseResultUnitTypeAmenities(
                 unit_type_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
                         node = 1, 
                         status = 'Failure', 
                         message = 'Missing value for parameter 'id'.', )

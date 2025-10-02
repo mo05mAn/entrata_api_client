@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1_success_response_response import GetLeadPickListsR1SuccessResponseResponse
+from entrata_api_client.models.get_lead_pick_lists_r1_success_response_response import GetLeadPickListsR1SuccessResponseResponse
 
 class TestGetLeadPickListsR1SuccessResponseResponse(unittest.TestCase):
     """GetLeadPickListsR1SuccessResponseResponse unit test stubs"""
@@ -37,34 +37,34 @@ class TestGetLeadPickListsR1SuccessResponseResponse(unittest.TestCase):
             return GetLeadPickListsR1SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result.getLeadPickLists_r1_SuccessResponse_response_result(
-                    event_types = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes(
+                result = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result.getLeadPickLists_r1_SuccessResponse_response_result(
+                    event_types = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes(
                         event_type = [
-                            openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner(
-                                @attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner__attributes(
+                            entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner(
+                                @attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_types_event_type_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_EventTypes_EventType_inner__attributes(
                                     name = 'Application', 
                                     id = 131, 
                                     entrata_name = 'Add Applicant Application', ), )
                             ], ), 
-                    property = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property.getLeadPickLists_r1_SuccessResponse_response_result_Property(
-                        18462 = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462(
-                            leasing_agents = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents(
+                    property = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property.getLeadPickLists_r1_SuccessResponse_response_result_Property(
+                        18462 = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462(
+                            leasing_agents = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents(
                                 leasing_agent = [
-                                    openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner()
+                                    entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_leasing_agents_leasing_agent_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeasingAgents_LeasingAgent_inner()
                                     ], ), 
-                            lead_sources = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources(
+                            lead_sources = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources(
                                 lead_source = [
-                                    openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner()
+                                    entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_property_18462_lead_sources_lead_source_inner.getLeadPickLists_r1_SuccessResponse_response_result_Property_18462_LeadSources_LeadSource_inner()
                                     ], ), ), ), 
-                    event_results = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results.getLeadPickLists_r1_SuccessResponse_response_result_EventResults(
+                    event_results = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results.getLeadPickLists_r1_SuccessResponse_response_result_EventResults(
                         event_result = [
-                            openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results_event_result_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventResults_EventResult_inner(
+                            entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results_event_result_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventResults_EventResult_inner(
                                 name = 'Cancelled', 
                                 id = 57024, )
                             ], ), 
-                    lead_statuses = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses(
+                    lead_statuses = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses(
                         lead_status = [
-                            openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner()
+                            entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner()
                             ], ), )
             )
         else:

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProper
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification(
                 id_value = '42420',
                 organization_name = '651',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', )
@@ -46,7 +46,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProper
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyIdentification(
                 id_value = '42420',
                 organization_name = '651',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),

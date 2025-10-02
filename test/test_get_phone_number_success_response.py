@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_phone_number_success_response import GetPhoneNumberSuccessResponse
+from entrata_api_client.models.get_phone_number_success_response import GetPhoneNumberSuccessResponse
 
 class TestGetPhoneNumberSuccessResponse(unittest.TestCase):
     """GetPhoneNumberSuccessResponse unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetPhoneNumberSuccessResponse(unittest.TestCase):
         model = GetPhoneNumberSuccessResponse()
         if include_optional:
             return GetPhoneNumberSuccessResponse(
-                response = openapi_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
+                response = entrata_api_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
                     result = {"123456":"(315) 268-9410"}, )
             )
         else:
             return GetPhoneNumberSuccessResponse(
-                response = openapi_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
+                response = entrata_api_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
                     result = {"123456":"(315) 268-9410"}, ),

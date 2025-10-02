@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_mits_leads_success_response_result_prospects_prospect_inner import SendMitsLeadsSuccessResponseResultProspectsProspectInner
+from entrata_api_client.models.send_mits_leads_success_response_result_prospects_prospect_inner import SendMitsLeadsSuccessResponseResultProspectsProspectInner
 from typing import Optional, Set
 from typing_extensions import Self
 

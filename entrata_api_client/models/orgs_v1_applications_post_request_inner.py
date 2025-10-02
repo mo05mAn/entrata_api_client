@@ -17,14 +17,14 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_company_applications import GetCompanyApplications
-from openapi_client.models.send_applicant_general_details import SendApplicantGeneralDetails
-from openapi_client.models.send_application import SendApplication
-from openapi_client.models.send_application_add_ons import SendApplicationAddOns
-from openapi_client.models.send_application_employers import SendApplicationEmployers
-from openapi_client.models.send_application_pets import SendApplicationPets
-from openapi_client.models.send_application_vehicles import SendApplicationVehicles
-from openapi_client.models.update_application import UpdateApplication
+from entrata_api_client.models.get_company_applications import GetCompanyApplications
+from entrata_api_client.models.send_applicant_general_details import SendApplicantGeneralDetails
+from entrata_api_client.models.send_application import SendApplication
+from entrata_api_client.models.send_application_add_ons import SendApplicationAddOns
+from entrata_api_client.models.send_application_employers import SendApplicationEmployers
+from entrata_api_client.models.send_application_pets import SendApplicationPets
+from entrata_api_client.models.send_application_vehicles import SendApplicationVehicles
+from entrata_api_client.models.update_application import UpdateApplication
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

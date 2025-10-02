@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses import GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses import GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerIn
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses(
                 address = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
                         address_line = 'addressLine', 
                         city = 'CITY', 
                         state = 'GA', 
@@ -48,7 +48,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerIn
         else:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInnerAddresses(
                 address = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
                         address_line = 'addressLine', 
                         city = 'CITY', 
                         state = 'GA', 

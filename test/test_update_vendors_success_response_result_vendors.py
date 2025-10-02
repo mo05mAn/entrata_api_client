@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_vendors_success_response_result_vendors import UpdateVendorsSuccessResponseResultVendors
+from entrata_api_client.models.update_vendors_success_response_result_vendors import UpdateVendorsSuccessResponseResultVendors
 
 class TestUpdateVendorsSuccessResponseResultVendors(unittest.TestCase):
     """UpdateVendorsSuccessResponseResultVendors unit test stubs"""
@@ -35,9 +35,9 @@ class TestUpdateVendorsSuccessResponseResultVendors(unittest.TestCase):
         model = UpdateVendorsSuccessResponseResultVendors()
         if include_optional:
             return UpdateVendorsSuccessResponseResultVendors(
-                vendor = openapi_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
-                    1 = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
-                        @attributes = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
+                vendor = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
+                    1 = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
+                        @attributes = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
                             reference_id = '13245', 
                             status = 'Success', 
                             message = 'Vendor updated successfully.', ), ), )

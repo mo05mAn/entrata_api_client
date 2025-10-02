@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_method_params import GetLeasesR2MethodParams
+from entrata_api_client.models.get_leases_r2_method_params import GetLeasesR2MethodParams
 
 class TestGetLeasesR2MethodParams(unittest.TestCase):
     """GetLeasesR2MethodParams unit test stubs"""

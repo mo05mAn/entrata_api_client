@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result import GetWorkOrderPickListsSuccessResponseResult
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result import GetWorkOrderPickListsSuccessResponseResult
 
 class TestGetWorkOrderPickListsSuccessResponseResult(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResult unit test stubs"""
@@ -35,134 +35,134 @@ class TestGetWorkOrderPickListsSuccessResponseResult(unittest.TestCase):
         model = GetWorkOrderPickListsSuccessResponseResult()
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResult(
-                var_property = openapi_client.models.get_work_order_pick_lists_success_response_result_property.getWorkOrderPickListsSuccessResponse_result_Property(
-                    locations = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations.getWorkOrderPickListsSuccessResponse_result_Property_Locations(
+                var_property = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property.getWorkOrderPickListsSuccessResponse_result_Property(
+                    locations = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations.getWorkOrderPickListsSuccessResponse_result_Property_Locations(
                         location = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
                                 id = '26900', 
                                 name = 'Basement', 
                                 type = 'Unit', 
                                 is_resident_portal_enabled = '0', 
-                                unit_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
+                                unit_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
                                     unit_type = [
-                                        openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
+                                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
                                             id = '474887', 
                                             name = '1', )
                                         ], ), )
                             ], ), 
-                    priorities = openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities.getWorkOrderPickListsSuccessResponse_result_Property_Priorities(
+                    priorities = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities.getWorkOrderPickListsSuccessResponse_result_Property_Priorities(
                         priority = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
                                 id = '19421', 
                                 name = 'Normal', )
                             ], ), 
-                    status_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes(
+                    status_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes(
                         status_type = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
                                 id = '15106', 
                                 name = 'Awaiting Parts', 
                                 code = 'AP', )
                             ], ), 
-                    categories = openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories.getWorkOrderPickListsSuccessResponse_result_Property_Categories(
+                    categories = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories.getWorkOrderPickListsSuccessResponse_result_Property_Categories(
                         category = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
                                 id = '91983', 
                                 name = 'demo', )
                             ], ), 
-                    problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems(
+                    problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems(
                         problem = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
                                 id = '67718', 
                                 name = 'Wet Floor', 
                                 is_resident_portal_enabled = '1', 
-                                sub_maintenance_problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
+                                sub_maintenance_problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
                                     sub_maintenance_problem = [
-                                        openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
+                                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
                                             id = '569575', )
                                         ], ), )
                             ], ), ),
-                inspection_statuses = openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses(
+                inspection_statuses = entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses(
                     inspection_status = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
                             id = '1', 
                             name = 'Not Started', )
                         ], ),
-                work_order_types = openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes(
+                work_order_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes(
                     work_order_type = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
                             id = '1', 
                             name = 'Make Ready', )
                         ], ),
-                company_employees = openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees(
+                company_employees = entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees(
                     company_employee = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
                             id = '299001', 
                             name = 'Andrew Marshall', )
                         ], )
             )
         else:
             return GetWorkOrderPickListsSuccessResponseResult(
-                var_property = openapi_client.models.get_work_order_pick_lists_success_response_result_property.getWorkOrderPickListsSuccessResponse_result_Property(
-                    locations = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations.getWorkOrderPickListsSuccessResponse_result_Property_Locations(
+                var_property = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property.getWorkOrderPickListsSuccessResponse_result_Property(
+                    locations = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations.getWorkOrderPickListsSuccessResponse_result_Property_Locations(
                         location = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
                                 id = '26900', 
                                 name = 'Basement', 
                                 type = 'Unit', 
                                 is_resident_portal_enabled = '0', 
-                                unit_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
+                                unit_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
                                     unit_type = [
-                                        openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
+                                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
                                             id = '474887', 
                                             name = '1', )
                                         ], ), )
                             ], ), 
-                    priorities = openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities.getWorkOrderPickListsSuccessResponse_result_Property_Priorities(
+                    priorities = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities.getWorkOrderPickListsSuccessResponse_result_Property_Priorities(
                         priority = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
                                 id = '19421', 
                                 name = 'Normal', )
                             ], ), 
-                    status_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes(
+                    status_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes(
                         status_type = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
                                 id = '15106', 
                                 name = 'Awaiting Parts', 
                                 code = 'AP', )
                             ], ), 
-                    categories = openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories.getWorkOrderPickListsSuccessResponse_result_Property_Categories(
+                    categories = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories.getWorkOrderPickListsSuccessResponse_result_Property_Categories(
                         category = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_categories_category_inner.getWorkOrderPickListsSuccessResponse_result_Property_Categories_Category_inner(
                                 id = '91983', 
                                 name = 'demo', )
                             ], ), 
-                    problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems(
+                    problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems(
                         problem = [
-                            openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
+                            entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
                                 id = '67718', 
                                 name = 'Wet Floor', 
                                 is_resident_portal_enabled = '1', 
-                                sub_maintenance_problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
+                                sub_maintenance_problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
                                     sub_maintenance_problem = [
-                                        openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
+                                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
                                             id = '569575', )
                                         ], ), )
                             ], ), ),
-                inspection_statuses = openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses(
+                inspection_statuses = entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses(
                     inspection_status = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_inspection_statuses_inspection_status_inner.getWorkOrderPickListsSuccessResponse_result_InspectionStatuses_InspectionStatus_inner(
                             id = '1', 
                             name = 'Not Started', )
                         ], ),
-                work_order_types = openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes(
+                work_order_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes(
                     work_order_type = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_work_order_types_work_order_type_inner.getWorkOrderPickListsSuccessResponse_result_WorkOrderTypes_WorkOrderType_inner(
                             id = '1', 
                             name = 'Make Ready', )
                         ], ),
-                company_employees = openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees(
+                company_employees = entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees(
                     company_employee = [
-                        openapi_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
+                        entrata_api_client.models.get_work_order_pick_lists_success_response_result_company_employees_company_employee_inner.getWorkOrderPickListsSuccessResponse_result_CompanyEmployees_CompanyEmployee_inner(
                             id = '299001', 
                             name = 'Andrew Marshall', )
                         ], ),

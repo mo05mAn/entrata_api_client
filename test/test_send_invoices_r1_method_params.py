@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r1_method_params import SendInvoicesR1MethodParams
+from entrata_api_client.models.send_invoices_r1_method_params import SendInvoicesR1MethodParams
 
 class TestSendInvoicesR1MethodParams(unittest.TestCase):
     """SendInvoicesR1MethodParams unit test stubs"""

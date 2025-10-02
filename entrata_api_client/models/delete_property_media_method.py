@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.delete_property_media_method_params import DeletePropertyMediaMethodParams
+from entrata_api_client.models.delete_property_media_method_params import DeletePropertyMediaMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_services_method import GetAccessibleServicesMethod
+from entrata_api_client.models.get_accessible_services_method import GetAccessibleServicesMethod
 
 class TestGetAccessibleServicesMethod(unittest.TestCase):
     """GetAccessibleServicesMethod unit test stubs"""

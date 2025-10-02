@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pet_types_method import GetPetTypesMethod
+from entrata_api_client.models.get_pet_types_method import GetPetTypesMethod
 
 class TestGetPetTypesMethod(unittest.TestCase):
     """GetPetTypesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPetTypesMethod(unittest.TestCase):
             return GetPetTypesMethod(
                 name = 'getPetTypes',
                 version = 'r1',
-                params = openapi_client.models.get_pet_types_method_params.getPetTypes_method_params(
+                params = entrata_api_client.models.get_pet_types_method_params.getPetTypes_method_params(
                     property_ids = '456789,123222', )
             )
         else:

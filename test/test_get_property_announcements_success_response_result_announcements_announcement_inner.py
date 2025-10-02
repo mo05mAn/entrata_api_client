@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner import GetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner
+from entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner import GetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner
 
 class TestGetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner(unittest.TestCase):
     """GetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncement
         model = GetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner()
         if include_optional:
             return GetPropertyAnnouncementsSuccessResponseResultAnnouncementsAnnouncementInner(
-                attributes = openapi_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
+                attributes = entrata_api_client.models.get_property_announcements_success_response_result_announcements_announcement_inner__attributes.getPropertyAnnouncementsSuccessResponse_result_Announcements_Announcement_inner__attributes(
                     id = 111, ),
                 announcement_type_id = 9,
                 frequency_id = 2,

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities import GetWorkOrderPickListsSuccessResponseResultPropertyPriorities
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities import GetWorkOrderPickListsSuccessResponseResultPropertyPriorities
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyPriorities(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyPriorities unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyPriorities(unittest.
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyPriorities(
                 priority = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
                         id = '19421', 
                         name = 'Normal', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyPriorities(unittest.
         else:
             return GetWorkOrderPickListsSuccessResponseResultPropertyPriorities(
                 priority = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_priorities_priority_inner.getWorkOrderPickListsSuccessResponse_result_Property_Priorities_Priority_inner(
                         id = '19421', 
                         name = 'Normal', )
                     ],

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types import GetFinancialPickListR1SuccessResponseResultGlAccountTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types import GetFinancialPickListR1SuccessResponseResultGlAccountTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlAccountTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlAccountTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlAccountTypes(unittest.Tes
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlAccountTypes(
                 gl_account_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types_gl_account_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlAccountTypes_GlAccountType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types_gl_account_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlAccountTypes_GlAccountType_inner(
                         id = 201, 
                         name = 'Accounts Payable', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlAccountTypes(unittest.Tes
         else:
             return GetFinancialPickListR1SuccessResponseResultGlAccountTypes(
                 gl_account_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types_gl_account_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlAccountTypes_GlAccountType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_account_types_gl_account_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlAccountTypes_GlAccountType_inner(
                         id = 201, 
                         name = 'Accounts Payable', )
                     ],

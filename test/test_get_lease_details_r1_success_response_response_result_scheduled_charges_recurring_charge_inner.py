@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurrin
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = 'Bldg Maintenance CAM', 
                             charge_timing = 'Monthly', 
                             charge_usage = 'Base', 
@@ -52,9 +52,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurrin
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesRecurringChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_recurring_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_recurringCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = 'Bldg Maintenance CAM', 
                             charge_timing = 'Monthly', 
                             charge_usage = 'Base', 

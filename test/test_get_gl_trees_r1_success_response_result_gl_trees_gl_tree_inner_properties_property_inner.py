@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner
+from entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner
 
 class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner(unittest.TestCase):
     """GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyI
         model = GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner()
         if include_optional:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner(
-                attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
+                attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
                     id = '2652', 
                     name = 'TEST', )
             )
         else:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerPropertiesPropertyInner(
-                attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
+                attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_properties_property_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_Properties_Property_inner__attributes(
                     id = '2652', 
                     name = 'TEST', ),
         )

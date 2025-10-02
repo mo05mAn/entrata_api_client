@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_categories_method import GetJobCategoriesMethod
+from entrata_api_client.models.get_job_categories_method import GetJobCategoriesMethod
 
 class TestGetJobCategoriesMethod(unittest.TestCase):
     """GetJobCategoriesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetJobCategoriesMethod(unittest.TestCase):
             return GetJobCategoriesMethod(
                 name = 'getJobCategories',
                 version = 'r1',
-                params = openapi_client.models.get_job_categories_method_params.getJobCategories_method_params(
+                params = entrata_api_client.models.get_job_categories_method_params.getJobCategories_method_params(
                     gl_account_ids = 56, )
             )
         else:

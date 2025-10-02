@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_method_params import SendApplicationMethodParams
+from entrata_api_client.models.send_application_method_params import SendApplicationMethodParams
 
 class TestSendApplicationMethodParams(unittest.TestCase):
     """SendApplicationMethodParams unit test stubs"""

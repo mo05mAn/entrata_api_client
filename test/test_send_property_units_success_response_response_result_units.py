@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units_success_response_response_result_units import SendPropertyUnitsSuccessResponseResponseResultUnits
+from entrata_api_client.models.send_property_units_success_response_response_result_units import SendPropertyUnitsSuccessResponseResponseResultUnits
 
 class TestSendPropertyUnitsSuccessResponseResponseResultUnits(unittest.TestCase):
     """SendPropertyUnitsSuccessResponseResponseResultUnits unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendPropertyUnitsSuccessResponseResponseResultUnits(unittest.TestCase)
         if include_optional:
             return SendPropertyUnitsSuccessResponseResponseResultUnits(
                 unit = [
-                    openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                    entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                         node = 1, 
                         unit_id = 5242133, 
                         unit_number = 'CC20BB', 
@@ -48,7 +48,7 @@ class TestSendPropertyUnitsSuccessResponseResponseResultUnits(unittest.TestCase)
         else:
             return SendPropertyUnitsSuccessResponseResponseResultUnits(
                 unit = [
-                    openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                    entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                         node = 1, 
                         unit_id = 5242133, 
                         unit_number = 'CC20BB', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_codes_method import GetArCodesMethod
+from entrata_api_client.models.get_ar_codes_method import GetArCodesMethod
 
 class TestGetArCodesMethod(unittest.TestCase):
     """GetArCodesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetArCodesMethod(unittest.TestCase):
             return GetArCodesMethod(
                 name = 'getArCodes',
                 version = 'r1',
-                params = openapi_client.models.get_ar_codes_method_params.getArCodes_method_params(
+                params = entrata_api_client.models.get_ar_codes_method_params.getArCodes_method_params(
                     property_id = 123456, )
             )
         else:

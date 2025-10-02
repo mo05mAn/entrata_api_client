@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_add_ons import SendApplicationAddOns
+from entrata_api_client.models.send_application_add_ons import SendApplicationAddOns
 
 class TestSendApplicationAddOns(unittest.TestCase):
     """SendApplicationAddOns unit test stubs"""
@@ -35,18 +35,18 @@ class TestSendApplicationAddOns(unittest.TestCase):
         model = SendApplicationAddOns()
         if include_optional:
             return SendApplicationAddOns(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_application_add_ons_method.sendApplicationAddOns_method(
+                method = entrata_api_client.models.send_application_add_ons_method.sendApplicationAddOns_method(
                     name = 'sendApplicationAddOns', 
                     version = 'r1', )
             )
         else:
             return SendApplicationAddOns(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_application_add_ons_method.sendApplicationAddOns_method(
+                method = entrata_api_client.models.send_application_add_ons_method.sendApplicationAddOns_method(
                     name = 'sendApplicationAddOns', 
                     version = 'r1', ),
         )

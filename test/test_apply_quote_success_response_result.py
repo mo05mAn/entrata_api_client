@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apply_quote_success_response_result import ApplyQuoteSuccessResponseResult
+from entrata_api_client.models.apply_quote_success_response_result import ApplyQuoteSuccessResponseResult
 
 class TestApplyQuoteSuccessResponseResult(unittest.TestCase):
     """ApplyQuoteSuccessResponseResult unit test stubs"""

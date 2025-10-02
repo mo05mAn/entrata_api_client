@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units_success_response_response_result import SendPropertyUnitsSuccessResponseResponseResult
+from entrata_api_client.models.send_property_units_success_response_response_result import SendPropertyUnitsSuccessResponseResponseResult
 
 class TestSendPropertyUnitsSuccessResponseResponseResult(unittest.TestCase):
     """SendPropertyUnitsSuccessResponseResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendPropertyUnitsSuccessResponseResponseResult(unittest.TestCase):
         model = SendPropertyUnitsSuccessResponseResponseResult()
         if include_optional:
             return SendPropertyUnitsSuccessResponseResponseResult(
-                units = openapi_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
+                units = entrata_api_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
                     unit = [
-                        openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                        entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                             node = 1, 
                             unit_id = 5242133, 
                             unit_number = 'CC20BB', 
@@ -48,9 +48,9 @@ class TestSendPropertyUnitsSuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return SendPropertyUnitsSuccessResponseResponseResult(
-                units = openapi_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
+                units = entrata_api_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
                     unit = [
-                        openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                        entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                             node = 1, 
                             unit_id = 5242133, 
                             unit_number = 'CC20BB', 

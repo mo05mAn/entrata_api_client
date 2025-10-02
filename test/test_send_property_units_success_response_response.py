@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_units_success_response_response import SendPropertyUnitsSuccessResponseResponse
+from entrata_api_client.models.send_property_units_success_response_response import SendPropertyUnitsSuccessResponseResponse
 
 class TestSendPropertyUnitsSuccessResponseResponse(unittest.TestCase):
     """SendPropertyUnitsSuccessResponseResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendPropertyUnitsSuccessResponseResponse(unittest.TestCase):
             return SendPropertyUnitsSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_property_units_success_response_response_result.sendPropertyUnitsSuccessResponse_response_result(
-                    units = openapi_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
+                result = entrata_api_client.models.send_property_units_success_response_response_result.sendPropertyUnitsSuccessResponse_response_result(
+                    units = entrata_api_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
                         unit = [
-                            openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                            entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                                 node = 1, 
                                 unit_id = 5242133, 
                                 unit_number = 'CC20BB', 
@@ -53,10 +53,10 @@ class TestSendPropertyUnitsSuccessResponseResponse(unittest.TestCase):
             return SendPropertyUnitsSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_property_units_success_response_response_result.sendPropertyUnitsSuccessResponse_response_result(
-                    units = openapi_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
+                result = entrata_api_client.models.send_property_units_success_response_response_result.sendPropertyUnitsSuccessResponse_response_result(
+                    units = entrata_api_client.models.send_property_units_success_response_response_result_units.sendPropertyUnitsSuccessResponse_response_result_units(
                         unit = [
-                            openapi_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
+                            entrata_api_client.models.send_property_units_success_response_response_result_units_unit_inner.sendPropertyUnitsSuccessResponse_response_result_units_unit_inner(
                                 node = 1, 
                                 unit_id = 5242133, 
                                 unit_number = 'CC20BB', 

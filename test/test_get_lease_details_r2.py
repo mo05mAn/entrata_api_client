@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r2 import GetLeaseDetailsR2
+from entrata_api_client.models.get_lease_details_r2 import GetLeaseDetailsR2
 
 class TestGetLeaseDetailsR2(unittest.TestCase):
     """GetLeaseDetailsR2 unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetLeaseDetailsR2(unittest.TestCase):
         model = GetLeaseDetailsR2()
         if include_optional:
             return GetLeaseDetailsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_lease_details_r2_method.getLeaseDetails_r2_method(
+                method = entrata_api_client.models.get_lease_details_r2_method.getLeaseDetails_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.get_lease_details_r2_method_params.getLeaseDetails_r2_method_params(
+                    params = entrata_api_client.models.get_lease_details_r2_method_params.getLeaseDetails_r2_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         lease_status_type_ids = 56, 
@@ -50,12 +50,12 @@ class TestGetLeaseDetailsR2(unittest.TestCase):
             )
         else:
             return GetLeaseDetailsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_lease_details_r2_method.getLeaseDetails_r2_method(
+                method = entrata_api_client.models.get_lease_details_r2_method.getLeaseDetails_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.get_lease_details_r2_method_params.getLeaseDetails_r2_method_params(
+                    params = entrata_api_client.models.get_lease_details_r2_method_params.getLeaseDetails_r2_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         lease_status_type_ids = 56, 

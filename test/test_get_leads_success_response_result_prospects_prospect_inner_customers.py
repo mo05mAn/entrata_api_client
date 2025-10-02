@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers import GetLeadsSuccessResponseResultProspectsProspectInnerCustomers
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers import GetLeadsSuccessResponseResultProspectsProspectInnerCustomers
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomers(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomers unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomers(unittest.
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomers(
                 customer = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner(
                         customer_id = '1234', 
                         name_prefix = 'MR', 
                         first_name = 'FIRST NAME', 
@@ -50,9 +50,9 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomers(unittest.
                         fax_phone_number = '1234567890', 
                         email = 'EAMIL@EXAMPLE.LCL', 
                         birth_date = 'YYYY-MM-DD', 
-                        addresses = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
+                        addresses = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
                             address = [
-                                openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
+                                entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
                                     address_line = 'addressLine', 
                                     city = 'CITY', 
                                     state = 'GA', 
@@ -68,7 +68,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomers(unittest.
         else:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomers(
                 customer = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner(
                         customer_id = '1234', 
                         name_prefix = 'MR', 
                         first_name = 'FIRST NAME', 
@@ -82,9 +82,9 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomers(unittest.
                         fax_phone_number = '1234567890', 
                         email = 'EAMIL@EXAMPLE.LCL', 
                         birth_date = 'YYYY-MM-DD', 
-                        addresses = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
+                        addresses = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
                             address = [
-                                openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
+                                entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
                                     address_line = 'addressLine', 
                                     city = 'CITY', 
                                     state = 'GA', 

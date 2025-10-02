@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner import GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner import GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner(unitte
         model = GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
                     id = '1', 
                     name = 'Sole Proprietorship', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultOwnerTypesOwnerTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_owner_types_owner_type_inner__attributes.getVendorPickListsSuccessResponse_result_ownerTypes_ownerType_inner__attributes(
                     id = '1', 
                     name = 'Sole Proprietorship', ),
         )

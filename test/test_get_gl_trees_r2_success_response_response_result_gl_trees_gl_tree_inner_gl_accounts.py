@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts
+from entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts
 
 class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts(unittest.TestCase):
     """GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts(
         if include_optional:
             return GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts(
                 gl_account = [
-                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
+                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
                         id = '12345', 
                         branch_id = '12345', 
                         account_number = '12345-12345', 
@@ -52,7 +52,7 @@ class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts(
         else:
             return GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerGlAccounts(
                 gl_account = [
-                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
+                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_glAccounts_glAccount_inner(
                         id = '12345', 
                         branch_id = '12345', 
                         account_number = '12345-12345', 

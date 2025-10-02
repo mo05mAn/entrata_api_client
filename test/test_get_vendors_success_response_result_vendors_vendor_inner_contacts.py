@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts import GetVendorsSuccessResponseResultVendorsVendorInnerContacts
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts import GetVendorsSuccessResponseResultVendorsVendorInnerContacts
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerContacts(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerContacts unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerContacts(unittest.Tes
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerContacts(
                 contact = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts_contact_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts_contact_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts_contact_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts_contact_inner(
                         id = '123654', 
                         name_first = 'Max', 
                         name_last = 'Collins', 

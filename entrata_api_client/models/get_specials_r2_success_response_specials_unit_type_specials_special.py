@@ -20,7 +20,7 @@ import json
 from datetime import date
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types import GetSpecialsR2SuccessResponseSpecialsUnitTypeSpecialsSpecialUnitTypes
+from entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types import GetSpecialsR2SuccessResponseSpecialsUnitTypeSpecialsSpecialUnitTypes
 from typing import Optional, Set
 from typing_extensions import Self
 

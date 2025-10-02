@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_insurances import GetVendorLocationsSuccessResponseResultInsurances
+from entrata_api_client.models.get_vendor_locations_success_response_result_insurances import GetVendorLocationsSuccessResponseResultInsurances
 
 class TestGetVendorLocationsSuccessResponseResultInsurances(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultInsurances unit test stubs"""
@@ -36,19 +36,19 @@ class TestGetVendorLocationsSuccessResponseResultInsurances(unittest.TestCase):
         if include_optional:
             return GetVendorLocationsSuccessResponseResultInsurances(
                 insurance = [
-                    openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
+                    entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner(
                         vendor_id = '53813', 
-                        policy_types = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
-                            policy_type = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
+                        policy_types = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes(
+                            policy_type = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType(
                                 type = 'Workers Compensation', 
                                 policy_number = 'P200', 
                                 expiration = '03/13/2015', 
-                                coverages = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
-                                    coverage = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
-                                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
+                                coverages = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages(
+                                    coverage = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
+                                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
                                             item = 'Disease - Policy Limit', 
                                             amount = '200.00', ), ), ), ), ), 
-                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
+                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner__attributes(
                             id = '1031', 
                             provider = 'Provider 7', ), )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes unit test stubs"""
@@ -36,9 +36,9 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes(unittes
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
+                    entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
                         @value = '1BHK', 
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
                             id = '297171', ), )
                     ]
             )

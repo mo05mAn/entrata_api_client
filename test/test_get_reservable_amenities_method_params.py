@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_reservable_amenities_method_params import GetReservableAmenitiesMethodParams
+from entrata_api_client.models.get_reservable_amenities_method_params import GetReservableAmenitiesMethodParams
 
 class TestGetReservableAmenitiesMethodParams(unittest.TestCase):
     """GetReservableAmenitiesMethodParams unit test stubs"""

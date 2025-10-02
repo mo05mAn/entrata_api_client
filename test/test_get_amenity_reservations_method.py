@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenity_reservations_method import GetAmenityReservationsMethod
+from entrata_api_client.models.get_amenity_reservations_method import GetAmenityReservationsMethod
 
 class TestGetAmenityReservationsMethod(unittest.TestCase):
     """GetAmenityReservationsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetAmenityReservationsMethod(unittest.TestCase):
             return GetAmenityReservationsMethod(
                 name = 'getAmenityReservations',
                 version = 'r1',
-                params = openapi_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
+                params = entrata_api_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
                     property_id = 12345, 
                     amenity_ids = 56, 
                     amenity_reservation_status_type_ids = 56, )

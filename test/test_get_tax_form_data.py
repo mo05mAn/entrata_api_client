@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data import GetTaxFormData
+from entrata_api_client.models.get_tax_form_data import GetTaxFormData
 
 class TestGetTaxFormData(unittest.TestCase):
     """GetTaxFormData unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetTaxFormData(unittest.TestCase):
         model = GetTaxFormData()
         if include_optional:
             return GetTaxFormData(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_tax_form_data_method.getTaxFormData_method(
+                method = entrata_api_client.models.get_tax_form_data_method.getTaxFormData_method(
                     name = 'getTaxFormData', 
                     version = 'r1', 
-                    params = openapi_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
+                    params = entrata_api_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
                         property_ids = 12345, 
                         start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -51,12 +51,12 @@ class TestGetTaxFormData(unittest.TestCase):
             )
         else:
             return GetTaxFormData(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_tax_form_data_method.getTaxFormData_method(
+                method = entrata_api_client.models.get_tax_form_data_method.getTaxFormData_method(
                     name = 'getTaxFormData', 
                     version = 'r1', 
-                    params = openapi_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
+                    params = entrata_api_client.models.get_tax_form_data_method_params.getTaxFormData_method_params(
                         property_ids = 12345, 
                         start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

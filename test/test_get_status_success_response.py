@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_status_success_response import GetStatusSuccessResponse
+from entrata_api_client.models.get_status_success_response import GetStatusSuccessResponse
 
 class TestGetStatusSuccessResponse(unittest.TestCase):
     """GetStatusSuccessResponse unit test stubs"""
@@ -35,19 +35,19 @@ class TestGetStatusSuccessResponse(unittest.TestCase):
         model = GetStatusSuccessResponse()
         if include_optional:
             return GetStatusSuccessResponse(
-                response = openapi_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
+                response = entrata_api_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Api is available and running.', ), )
             )
         else:
             return GetStatusSuccessResponse(
-                response = openapi_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
+                response = entrata_api_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Api is available and running.', ), ),
         )

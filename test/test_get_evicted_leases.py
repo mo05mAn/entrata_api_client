@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases import GetEvictedLeases
+from entrata_api_client.models.get_evicted_leases import GetEvictedLeases
 
 class TestGetEvictedLeases(unittest.TestCase):
     """GetEvictedLeases unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetEvictedLeases(unittest.TestCase):
         model = GetEvictedLeases()
         if include_optional:
             return GetEvictedLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_evicted_leases_method.getEvictedLeases_method(
+                method = entrata_api_client.models.get_evicted_leases_method.getEvictedLeases_method(
                     name = 'getEvictedLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
+                    params = entrata_api_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
                         property_id = 123456, 
                         eviction_start_date_from = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         eviction_start_date_to = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), ), )
             )
         else:
             return GetEvictedLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_evicted_leases_method.getEvictedLeases_method(
+                method = entrata_api_client.models.get_evicted_leases_method.getEvictedLeases_method(
                     name = 'getEvictedLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
+                    params = entrata_api_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
                         property_id = 123456, 
                         eviction_start_date_from = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         eviction_start_date_to = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), ), ),

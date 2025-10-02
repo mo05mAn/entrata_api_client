@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyAddress
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyAddress
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyAddress(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationPropertyAddress unit test stubs"""
@@ -41,7 +41,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProper
                 state = 'UT',
                 postal_code = '84601',
                 country = 'US',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                     address_type = 'other', )
             )
         else:
@@ -52,7 +52,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProper
                 state = 'UT',
                 postal_code = '84601',
                 country = 'US',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                     address_type = 'other', ),
         )
         """

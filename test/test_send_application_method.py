@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_method import SendApplicationMethod
+from entrata_api_client.models.send_application_method import SendApplicationMethod
 
 class TestSendApplicationMethod(unittest.TestCase):
     """SendApplicationMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendApplicationMethod(unittest.TestCase):
             return SendApplicationMethod(
                 name = 'sendApplication',
                 version = 'r1',
-                params = openapi_client.models.send_application_method_params.sendApplication_method_params(
+                params = entrata_api_client.models.send_application_method_params.sendApplication_method_params(
                     property_id = 123456, 
                     originating_lead_source_id = 123456, 
                     leasing_agent_id = 445655, 

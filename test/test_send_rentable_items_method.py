@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_rentable_items_method import SendRentableItemsMethod
+from entrata_api_client.models.send_rentable_items_method import SendRentableItemsMethod
 
 class TestSendRentableItemsMethod(unittest.TestCase):
     """SendRentableItemsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendRentableItemsMethod(unittest.TestCase):
             return SendRentableItemsMethod(
                 name = 'sendRentableItems',
                 version = 'r1',
-                params = openapi_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
+                params = entrata_api_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
                     property_id = 12345, 
                     category_id = 12345, 
                     name = 'Furniture A', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_phone_number import GetPhoneNumber
+from entrata_api_client.models.get_phone_number import GetPhoneNumber
 
 class TestGetPhoneNumber(unittest.TestCase):
     """GetPhoneNumber unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetPhoneNumber(unittest.TestCase):
         model = GetPhoneNumber()
         if include_optional:
             return GetPhoneNumber(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_phone_number_method.getPhoneNumber_method(
+                method = entrata_api_client.models.get_phone_number_method.getPhoneNumber_method(
                     name = 'getPhoneNumber', 
-                    params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                    params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                         property_ids = [123456,789], 
                         switch_code = '46545', 
                         ref = 'http://google.com', ), )
             )
         else:
             return GetPhoneNumber(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_phone_number_method.getPhoneNumber_method(
+                method = entrata_api_client.models.get_phone_number_method.getPhoneNumber_method(
                     name = 'getPhoneNumber', 
-                    params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                    params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                         property_ids = [123456,789], 
                         switch_code = '46545', 
                         ref = 'http://google.com', ), ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_success_response_result import InsertPricingR2SuccessResponseResult
+from entrata_api_client.models.insert_pricing_r2_success_response_result import InsertPricingR2SuccessResponseResult
 
 class TestInsertPricingR2SuccessResponseResult(unittest.TestCase):
     """InsertPricingR2SuccessResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestInsertPricingR2SuccessResponseResult(unittest.TestCase):
         if include_optional:
             return InsertPricingR2SuccessResponseResult(
                 pricing = [
-                    openapi_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
+                    entrata_api_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
                         node = '1', 
                         reference_id = '391937229', 
                         status = 'Success', 

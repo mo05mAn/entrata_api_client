@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsProper
         model = GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent()
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent(
-                term_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
+                term_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
                     lease_term = '10 Months', 
                     rent = '1000.00', 
                     rate_frequency = 'Monthly', )
             )
         else:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInnerUnitSpaceRent(
-                term_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
+                term_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
                     lease_term = '10 Months', 
                     rent = '1000.00', 
                     rate_frequency = 'Monthly', ),

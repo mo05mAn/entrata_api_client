@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner unit test stubs"""
@@ -36,60 +36,60 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner(
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner(
                 resident_type = 'Primary',
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Identification(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
                     id_value = '7572305', 
                     organization_name = '66259', ),
-                lease_id = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID(
-                    identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
+                lease_id = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID(
+                    identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
                         id_type = 'Lease ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_value = '123456', ), ),
-                name = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_name.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Name(
+                name = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_name.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Name(
                     first_name = 'Julanne', 
                     last_name = 'Abernethy', ),
-                residence = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence(
-                    address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
+                residence = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence(
+                    address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
                         address_type = 'current', 
                         address = '2921 Sycamore Springs Drive, Unit # 103', 
                         city = 'Kingwood', 
                         state = 'TX', 
                         postal_code = '77339', 
                         email = 'atest@yahoo.com', ), ),
-                phone = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_phone.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Phone(
+                phone = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_phone.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Phone(
                     phone_type = 'personal', 
                     phone_number = '2819795654', )
             )
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInner(
                 resident_type = 'Primary',
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Identification(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
                     id_value = '7572305', 
                     organization_name = '66259', ),
-                lease_id = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID(
-                    identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
+                lease_id = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID(
+                    identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
                         id_type = 'Lease ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_value = '123456', ), ),
-                name = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_name.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Name(
+                name = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_name.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Name(
                     first_name = 'Julanne', 
                     last_name = 'Abernethy', ),
-                residence = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence(
-                    address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
+                residence = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence(
+                    address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_residence_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Residence_Address(
                         address_type = 'current', 
                         address = '2921 Sycamore Springs Drive, Unit # 103', 
                         city = 'Kingwood', 
                         state = 'TX', 
                         postal_code = '77339', 
                         email = 'atest@yahoo.com', ), ),
-                phone = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_phone.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Phone(
+                phone = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_phone.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_Phone(
                     phone_type = 'personal', 
                     phone_number = '2819795654', ),
         )

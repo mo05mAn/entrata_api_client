@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_application_method_params import UpdateApplicationMethodParams
+from entrata_api_client.models.update_application_method_params import UpdateApplicationMethodParams
 
 class TestUpdateApplicationMethodParams(unittest.TestCase):
     """UpdateApplicationMethodParams unit test stubs"""

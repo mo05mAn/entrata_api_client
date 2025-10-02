@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner
+from entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner
 
 class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner(unittest.TestCase):
     """GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInner unit test stubs"""
@@ -44,9 +44,9 @@ class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTr
                 due_date = '2020-10-01',
                 from_date = '2020-10-01',
                 to_date = '2020-10-01',
-                ar_payments = openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments(
+                ar_payments = entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments(
                     ar_payment = [
-                        openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
+                        entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
                             ar_payment_id = 12345, 
                             payment_amount = 120, 
                             payment_date = '2020-04-23', 

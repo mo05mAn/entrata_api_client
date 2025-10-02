@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances import GetVendorsSuccessResponseResultVendorsVendorInnerCompliances
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances import GetVendorsSuccessResponseResultVendorsVendorInnerCompliances
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerCompliances(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerCompliances unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerCompliances(unittest.
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerCompliances(
                 compliance = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances_compliance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances_compliance_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances_compliance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances_compliance_inner(
                         legal_entity_id = '123456', 
                         legal_entity = 'legalEntityName', 
                         property_id = '1234', 

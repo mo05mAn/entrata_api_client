@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_clients_success_response_result import GetAccessibleClientsSuccessResponseResult
+from entrata_api_client.models.get_accessible_clients_success_response_result import GetAccessibleClientsSuccessResponseResult
 
 class TestGetAccessibleClientsSuccessResponseResult(unittest.TestCase):
     """GetAccessibleClientsSuccessResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetAccessibleClientsSuccessResponseResult(unittest.TestCase):
         if include_optional:
             return GetAccessibleClientsSuccessResponseResult(
                 orgs = [
-                    openapi_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
+                    entrata_api_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
                         subdomain = 'demoold', 
                         id = 235, 
                         name = 'Demo Account', )
@@ -45,7 +45,7 @@ class TestGetAccessibleClientsSuccessResponseResult(unittest.TestCase):
         else:
             return GetAccessibleClientsSuccessResponseResult(
                 orgs = [
-                    openapi_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
+                    entrata_api_client.models.get_accessible_clients_success_response_result_orgs_inner.getAccessibleClientsSuccessResponse_result_orgs_inner(
                         subdomain = 'demoold', 
                         id = 235, 
                         name = 'Demo Account', )

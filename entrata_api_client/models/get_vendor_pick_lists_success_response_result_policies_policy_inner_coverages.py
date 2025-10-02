@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner import GetVendorPickListsSuccessResponseResultPoliciesPolicyInnerCoveragesCoverageInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner import GetVendorPickListsSuccessResponseResultPoliciesPolicyInnerCoveragesCoverageInner
 from typing import Optional, Set
 from typing_extensions import Self
 

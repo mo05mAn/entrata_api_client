@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_vendors_method import UpdateVendorsMethod
+from entrata_api_client.models.update_vendors_method import UpdateVendorsMethod
 
 class TestUpdateVendorsMethod(unittest.TestCase):
     """UpdateVendorsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateVendorsMethod(unittest.TestCase):
             return UpdateVendorsMethod(
                 name = 'updateVendors',
                 version = 'r1',
-                params = openapi_client.models.update_vendors_method_params.updateVendors_method_params(
+                params = entrata_api_client.models.update_vendors_method_params.updateVendors_method_params(
                     vendor_id = 12345, 
                     name_on_tax_return = 'Legal entity name', 
                     name = 'name', 

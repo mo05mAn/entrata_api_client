@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_rentable_items_method_params import SendRentableItemsMethodParams
+from entrata_api_client.models.send_rentable_items_method_params import SendRentableItemsMethodParams
 
 class TestSendRentableItemsMethodParams(unittest.TestCase):
     """SendRentableItemsMethodParams unit test stubs"""

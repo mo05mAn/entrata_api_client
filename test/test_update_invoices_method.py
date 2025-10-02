@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_invoices_method import UpdateInvoicesMethod
+from entrata_api_client.models.update_invoices_method import UpdateInvoicesMethod
 
 class TestUpdateInvoicesMethod(unittest.TestCase):
     """UpdateInvoicesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateInvoicesMethod(unittest.TestCase):
             return UpdateInvoicesMethod(
                 name = 'updateInvoices',
                 version = 'r1',
-                params = openapi_client.models.update_invoices_method_params.updateInvoices_method_params(
+                params = entrata_api_client.models.update_invoices_method_params.updateInvoices_method_params(
                     id = 12345, 
                     invoice_payment_id = 12345, 
                     payment_amount = 100, 

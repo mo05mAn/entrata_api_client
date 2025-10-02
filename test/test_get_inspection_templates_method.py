@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspection_templates_method import GetInspectionTemplatesMethod
+from entrata_api_client.models.get_inspection_templates_method import GetInspectionTemplatesMethod
 
 class TestGetInspectionTemplatesMethod(unittest.TestCase):
     """GetInspectionTemplatesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetInspectionTemplatesMethod(unittest.TestCase):
             return GetInspectionTemplatesMethod(
                 name = 'getInspectionTemplates',
                 version = 'r1',
-                params = openapi_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
+                params = entrata_api_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
                     property_ids = '123456,678', 
                     show_disabled = 0, )
             )

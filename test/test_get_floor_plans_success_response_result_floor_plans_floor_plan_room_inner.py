@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner(unittes
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner(
                 count = '2',
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
                     room_type = 'Bedroom', )
             )
         else:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanRoomInner(
                 count = '2',
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
                     room_type = 'Bedroom', ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_method import GetMitsLeasesMethod
+from entrata_api_client.models.get_mits_leases_method import GetMitsLeasesMethod
 
 class TestGetMitsLeasesMethod(unittest.TestCase):
     """GetMitsLeasesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMitsLeasesMethod(unittest.TestCase):
             return GetMitsLeasesMethod(
                 name = 'getMitsLeases',
                 version = 'r1',
-                params = openapi_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
+                params = entrata_api_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
                     property_id = 123456, 
                     customer_id = 123456, 
                     lease_status_type_ids = 56, 

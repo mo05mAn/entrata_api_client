@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preferences_success_response_result_customers_inner import GetMarketingPreferencesSuccessResponseResultCustomersInner
+from entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner import GetMarketingPreferencesSuccessResponseResultCustomersInner
 
 class TestGetMarketingPreferencesSuccessResponseResultCustomersInner(unittest.TestCase):
     """GetMarketingPreferencesSuccessResponseResultCustomersInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMarketingPreferencesSuccessResponseResultCustomersInner(unittest.Te
             return GetMarketingPreferencesSuccessResponseResultCustomersInner(
                 customer_id = 29693427,
                 preferences = [
-                    openapi_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
+                    entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
                         communication_channel = 'email', 
                         recipient_type = 'LEAD', 
                         recipient_type_id = '1', 
@@ -50,7 +50,7 @@ class TestGetMarketingPreferencesSuccessResponseResultCustomersInner(unittest.Te
             return GetMarketingPreferencesSuccessResponseResultCustomersInner(
                 customer_id = 29693427,
                 preferences = [
-                    openapi_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
+                    entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
                         communication_channel = 'email', 
                         recipient_type = 'LEAD', 
                         recipient_type_id = '1', 

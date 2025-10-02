@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItems
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItems
 
 class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItems(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItems unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerL
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItems(
                 list_item = [
-                    openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
                             id = '134417', 
                             name = 'Archived', ), )
                     ]

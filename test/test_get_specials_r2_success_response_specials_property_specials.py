@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r2_success_response_specials_property_specials import GetSpecialsR2SuccessResponseSpecialsPropertySpecials
+from entrata_api_client.models.get_specials_r2_success_response_specials_property_specials import GetSpecialsR2SuccessResponseSpecialsPropertySpecials
 
 class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase):
     """GetSpecialsR2SuccessResponseSpecialsPropertySpecials unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
         model = GetSpecialsR2SuccessResponseSpecialsPropertySpecials()
         if include_optional:
             return GetSpecialsR2SuccessResponseSpecialsPropertySpecials(
-                special = openapi_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
+                special = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
                     id = '505909', 
                     name = 'aaa', 
                     description = 'Through the month of January we give renters a special $300 off their first month's rent.', 
@@ -47,7 +47,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
                     show_on_website = '1', 
                     is_active = '1', 
                     rates = [
-                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
+                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
                             charge_code_id = '149206', 
                             charge_code_type_id = '2', 
                             amount = '42', 
@@ -55,7 +55,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
                             lease_term_id = '3677', )
                         ], 
                     lease_terms = [
-                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                             lease_term_id = '838', 
                             lease_term_name = '6 months', 
                             is_active = '1', )
@@ -63,7 +63,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
             )
         else:
             return GetSpecialsR2SuccessResponseSpecialsPropertySpecials(
-                special = openapi_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
+                special = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
                     id = '505909', 
                     name = 'aaa', 
                     description = 'Through the month of January we give renters a special $300 off their first month's rent.', 
@@ -75,7 +75,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
                     show_on_website = '1', 
                     is_active = '1', 
                     rates = [
-                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
+                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
                             charge_code_id = '149206', 
                             charge_code_type_id = '2', 
                             amount = '42', 
@@ -83,7 +83,7 @@ class TestGetSpecialsR2SuccessResponseSpecialsPropertySpecials(unittest.TestCase
                             lease_term_id = '3677', )
                         ], 
                     lease_terms = [
-                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                             lease_term_id = '838', 
                             lease_term_name = '6 months', 
                             is_active = '1', )

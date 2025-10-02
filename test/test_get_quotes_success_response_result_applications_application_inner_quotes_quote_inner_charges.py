@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerCharges
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerCharges
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerCharges(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerCharges unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerCharges(
                 charge = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges_charge_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges_charge_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges_charge_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges_charge_inner(
                         pricing_level_id = 4, 
                         pricing_level = 'Space', 
                         pricing_level_reference_id = 5563869, 

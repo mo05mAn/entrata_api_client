@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_response_success_response_result import UpdatePropertyResponseSuccessResponseResult
+from entrata_api_client.models.update_property_response_success_response_result import UpdatePropertyResponseSuccessResponseResult
 
 class TestUpdatePropertyResponseSuccessResponseResult(unittest.TestCase):
     """UpdatePropertyResponseSuccessResponseResult unit test stubs"""
@@ -35,16 +35,16 @@ class TestUpdatePropertyResponseSuccessResponseResult(unittest.TestCase):
         model = UpdatePropertyResponseSuccessResponseResult()
         if include_optional:
             return UpdatePropertyResponseSuccessResponseResult(
-                testimonials = openapi_client.models.update_property_response_success_response_result_testimonials.updatePropertyResponseSuccessResponse_result_testimonials(
-                    testimonial = openapi_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
+                testimonials = entrata_api_client.models.update_property_response_success_response_result_testimonials.updatePropertyResponseSuccessResponse_result_testimonials(
+                    testimonial = entrata_api_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
                         testimonial_id = '123456', 
                         status = 'Success', 
                         message = 'Testimonial response updated successfully.', ), )
             )
         else:
             return UpdatePropertyResponseSuccessResponseResult(
-                testimonials = openapi_client.models.update_property_response_success_response_result_testimonials.updatePropertyResponseSuccessResponse_result_testimonials(
-                    testimonial = openapi_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
+                testimonials = entrata_api_client.models.update_property_response_success_response_result_testimonials.updatePropertyResponseSuccessResponse_result_testimonials(
+                    testimonial = entrata_api_client.models.update_property_response_success_response_result_testimonials_testimonial.updatePropertyResponseSuccessResponse_result_testimonials_testimonial(
                         testimonial_id = '123456', 
                         status = 'Success', 
                         message = 'Testimonial response updated successfully.', ), ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_call_logs import GetCallLogs
+from entrata_api_client.models.get_call_logs import GetCallLogs
 
 class TestGetCallLogs(unittest.TestCase):
     """GetCallLogs unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetCallLogs(unittest.TestCase):
         model = GetCallLogs()
         if include_optional:
             return GetCallLogs(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_call_logs_method.getCallLogs_method(
+                method = entrata_api_client.models.get_call_logs_method.getCallLogs_method(
                     name = 'getCallLogs', 
                     version = 'r1', 
-                    params = openapi_client.models.get_call_logs_method_params.getCallLogs_method_params(
+                    params = entrata_api_client.models.get_call_logs_method_params.getCallLogs_method_params(
                         property_ids = 56, 
                         call_source_id = 3, 
                         call_type_ids = 56, 
@@ -55,12 +55,12 @@ class TestGetCallLogs(unittest.TestCase):
             )
         else:
             return GetCallLogs(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_call_logs_method.getCallLogs_method(
+                method = entrata_api_client.models.get_call_logs_method.getCallLogs_method(
                     name = 'getCallLogs', 
                     version = 'r1', 
-                    params = openapi_client.models.get_call_logs_method_params.getCallLogs_method_params(
+                    params = entrata_api_client.models.get_call_logs_method_params.getCallLogs_method_params(
                         property_ids = 56, 
                         call_source_id = 3, 
                         call_type_ids = 56, 

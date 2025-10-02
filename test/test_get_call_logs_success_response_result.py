@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_call_logs_success_response_result import GetCallLogsSuccessResponseResult
+from entrata_api_client.models.get_call_logs_success_response_result import GetCallLogsSuccessResponseResult
 
 class TestGetCallLogsSuccessResponseResult(unittest.TestCase):
     """GetCallLogsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetCallLogsSuccessResponseResult(unittest.TestCase):
         model = GetCallLogsSuccessResponseResult()
         if include_optional:
             return GetCallLogsSuccessResponseResult(
-                calls = openapi_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
+                calls = entrata_api_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
                     call = [
-                        openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                        entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                             id = '1234', 
                             caller_name = 'test caller', 
                             application_id = '1234', 
@@ -63,9 +63,9 @@ class TestGetCallLogsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetCallLogsSuccessResponseResult(
-                calls = openapi_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
+                calls = entrata_api_client.models.get_call_logs_success_response_result_calls.getCallLogsSuccessResponse_result_calls(
                     call = [
-                        openapi_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
+                        entrata_api_client.models.get_call_logs_success_response_result_calls_call_inner.getCallLogsSuccessResponse_result_calls_call_inner(
                             id = '1234', 
                             caller_name = 'test caller', 
                             application_id = '1234', 

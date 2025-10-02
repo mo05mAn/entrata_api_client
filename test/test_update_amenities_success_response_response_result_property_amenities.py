@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_success_response_response_result_property_amenities import UpdateAmenitiesSuccessResponseResponseResultPropertyAmenities
+from entrata_api_client.models.update_amenities_success_response_response_result_property_amenities import UpdateAmenitiesSuccessResponseResponseResultPropertyAmenities
 
 class TestUpdateAmenitiesSuccessResponseResponseResultPropertyAmenities(unittest.TestCase):
     """UpdateAmenitiesSuccessResponseResponseResultPropertyAmenities unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultPropertyAmenities(unittest
         if include_optional:
             return UpdateAmenitiesSuccessResponseResponseResultPropertyAmenities(
                 property_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 147852, 
@@ -46,7 +46,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultPropertyAmenities(unittest
         else:
             return UpdateAmenitiesSuccessResponseResponseResultPropertyAmenities(
                 property_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 147852, 

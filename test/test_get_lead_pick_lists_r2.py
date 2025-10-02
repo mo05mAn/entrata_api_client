@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2 import GetLeadPickListsR2
+from entrata_api_client.models.get_lead_pick_lists_r2 import GetLeadPickListsR2
 
 class TestGetLeadPickListsR2(unittest.TestCase):
     """GetLeadPickListsR2 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetLeadPickListsR2(unittest.TestCase):
         model = GetLeadPickListsR2()
         if include_optional:
             return GetLeadPickListsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_lead_pick_lists_r2_method.getLeadPickLists_r2_method(
+                method = entrata_api_client.models.get_lead_pick_lists_r2_method.getLeadPickLists_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
+                    params = entrata_api_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
                         property_id = 1234, ), )
             )
         else:
             return GetLeadPickListsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_lead_pick_lists_r2_method.getLeadPickLists_r2_method(
+                method = entrata_api_client.models.get_lead_pick_lists_r2_method.getLeadPickLists_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
+                    params = entrata_api_client.models.get_lead_pick_lists_r2_method_params.getLeadPickLists_r2_method_params(
                         property_id = 1234, ), ),
         )
         """

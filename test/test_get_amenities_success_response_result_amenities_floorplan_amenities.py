@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities import GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities
+from entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities import GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(unittest.
         model = GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities()
         if include_optional:
             return GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(
-                amenity = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity(
+                amenity = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity(
                     name = 'Additional Storage', 
                     image_url = 'https://medialibrarycdn.entrata.com/media_library/235/5b8f9615c76a41.21527630540.jpg', 
                     description = 'Floorplan Amenity', 
-                    floorplans = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans(
-                        floorplan = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan(
-                            rates = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates(
-                                rate = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate(
-                                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate__attributes(
+                    floorplans = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans(
+                        floorplan = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan(
+                            rates = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates(
+                                rate = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate(
+                                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate__attributes(
                                         ar_code_id = '149655', 
                                         ar_code_type_id = '2', 
                                         charge_type_id = '303', 
@@ -52,26 +52,26 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(unittest.
                                         is_active = '1', 
                                         lease_term_id = '18414', 
                                         lease_start_window_id = '12345', ), ), ), 
-                            @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan__attributes(
+                            @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan__attributes(
                                 property_floorplan_id = '00000', 
                                 external_id = '123456', 
                                 is_optional = '0', 
                                 is_published = '1', 
                                 is_featured = '0', ), ), ), 
-                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity__attributes(
+                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity__attributes(
                         id = '0000', ), )
             )
         else:
             return GetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(
-                amenity = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity(
+                amenity = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity(
                     name = 'Additional Storage', 
                     image_url = 'https://medialibrarycdn.entrata.com/media_library/235/5b8f9615c76a41.21527630540.jpg', 
                     description = 'Floorplan Amenity', 
-                    floorplans = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans(
-                        floorplan = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan(
-                            rates = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates(
-                                rate = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate(
-                                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate__attributes(
+                    floorplans = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans(
+                        floorplan = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan(
+                            rates = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates(
+                                rate = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate(
+                                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan_Rates_Rate__attributes(
                                         ar_code_id = '149655', 
                                         ar_code_type_id = '2', 
                                         charge_type_id = '303', 
@@ -80,13 +80,13 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesFloorplanAmenities(unittest.
                                         is_active = '1', 
                                         lease_term_id = '18414', 
                                         lease_start_window_id = '12345', ), ), ), 
-                            @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan__attributes(
+                            @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity_floorplans_floorplan__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity_Floorplans_Floorplan__attributes(
                                 property_floorplan_id = '00000', 
                                 external_id = '123456', 
                                 is_optional = '0', 
                                 is_published = '1', 
                                 is_featured = '0', ), ), ), 
-                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity__attributes(
+                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_floorplan_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_FloorplanAmenities_Amenity__attributes(
                         id = '0000', ), ),
         )
         """

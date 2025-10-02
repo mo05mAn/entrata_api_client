@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_floorplans_success_response import SendFloorplansSuccessResponse
+from entrata_api_client.models.send_floorplans_success_response import SendFloorplansSuccessResponse
 
 class TestSendFloorplansSuccessResponse(unittest.TestCase):
     """SendFloorplansSuccessResponse unit test stubs"""
@@ -36,10 +36,10 @@ class TestSendFloorplansSuccessResponse(unittest.TestCase):
         if include_optional:
             return SendFloorplansSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.send_floorplans_success_response_result.sendFloorplansSuccessResponse_result(
-                    floorplans = openapi_client.models.send_floorplans_success_response_result_floorplans.sendFloorplansSuccessResponse_result_Floorplans(
+                result = entrata_api_client.models.send_floorplans_success_response_result.sendFloorplansSuccessResponse_result(
+                    floorplans = entrata_api_client.models.send_floorplans_success_response_result_floorplans.sendFloorplansSuccessResponse_result_Floorplans(
                         floorplan = [
-                            openapi_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
+                            entrata_api_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
                                 node = 1, 
                                 status = 'Success', 
                                 floorplan_id = 1145077, 
@@ -50,10 +50,10 @@ class TestSendFloorplansSuccessResponse(unittest.TestCase):
         else:
             return SendFloorplansSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.send_floorplans_success_response_result.sendFloorplansSuccessResponse_result(
-                    floorplans = openapi_client.models.send_floorplans_success_response_result_floorplans.sendFloorplansSuccessResponse_result_Floorplans(
+                result = entrata_api_client.models.send_floorplans_success_response_result.sendFloorplansSuccessResponse_result(
+                    floorplans = entrata_api_client.models.send_floorplans_success_response_result_floorplans.sendFloorplansSuccessResponse_result_Floorplans(
                         floorplan = [
-                            openapi_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
+                            entrata_api_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner.sendFloorplansSuccessResponse_result_Floorplans_Floorplan_inner(
                                 node = 1, 
                                 status = 'Success', 
                                 floorplan_id = 1145077, 

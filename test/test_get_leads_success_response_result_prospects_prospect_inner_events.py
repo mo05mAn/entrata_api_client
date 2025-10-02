@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events import GetLeadsSuccessResponseResultProspectsProspectInnerEvents
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events import GetLeadsSuccessResponseResultProspectsProspectInnerEvents
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerEvents(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerEvents unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerEvents(unittest.Tes
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerEvents(
                 event = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
                         event_id = '1234', 
                         type = 'Email - Outgoing', 
                         type_id = '2', 
@@ -51,7 +51,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerEvents(unittest.Tes
                         time_to = '16:00:00', 
                         event_result_id = '2910914', 
                         event_result = 'Success', 
-                        call_data = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
+                        call_data = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
                             call_id = '64744370', 
                             call_from = '1234567890', 
                             ring_through = '1234567890', 
@@ -62,7 +62,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerEvents(unittest.Tes
         else:
             return GetLeadsSuccessResponseResultProspectsProspectInnerEvents(
                 event = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
                         event_id = '1234', 
                         type = 'Email - Outgoing', 
                         type_id = '2', 
@@ -77,7 +77,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerEvents(unittest.Tes
                         time_to = '16:00:00', 
                         event_result_id = '2910914', 
                         event_result = 'Success', 
-                        call_data = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
+                        call_data = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
                             call_id = '64744370', 
                             call_from = '1234567890', 
                             ring_through = '1234567890', 

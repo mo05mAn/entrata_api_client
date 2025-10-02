@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_marketing_preference_pick_list_method import GetMarketingPreferencePickListMethod
-from openapi_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.get_marketing_preference_pick_list_method import GetMarketingPreferencePickListMethod
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
 from typing import Optional, Set
 from typing_extensions import Self
 

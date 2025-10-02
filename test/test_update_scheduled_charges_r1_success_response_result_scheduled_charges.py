@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges import UpdateScheduledChargesR1SuccessResponseResultScheduledCharges
+from entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges import UpdateScheduledChargesR1SuccessResponseResultScheduledCharges
 
 class TestUpdateScheduledChargesR1SuccessResponseResultScheduledCharges(unittest.TestCase):
     """UpdateScheduledChargesR1SuccessResponseResultScheduledCharges unit test stubs"""
@@ -36,8 +36,8 @@ class TestUpdateScheduledChargesR1SuccessResponseResultScheduledCharges(unittest
         if include_optional:
             return UpdateScheduledChargesR1SuccessResponseResultScheduledCharges(
                 scheduled_charge = [
-                    openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
-                        @attributes = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
+                    entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                        @attributes = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
                             id = '1234', 
                             node = '1', 
                             status = 'Success', 
@@ -47,8 +47,8 @@ class TestUpdateScheduledChargesR1SuccessResponseResultScheduledCharges(unittest
         else:
             return UpdateScheduledChargesR1SuccessResponseResultScheduledCharges(
                 scheduled_charge = [
-                    openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
-                        @attributes = openapi_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
+                    entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner(
+                        @attributes = entrata_api_client.models.update_scheduled_charges_r1_success_response_result_scheduled_charges_scheduled_charge_inner__attributes.updateScheduledCharges_r1_SuccessResponse_result_scheduledCharges_scheduledCharge_inner__attributes(
                             id = '1234', 
                             node = '1', 
                             status = 'Success', 

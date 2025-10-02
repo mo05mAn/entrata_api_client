@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts
+from entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts
 
 class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts(unittest.TestCase):
     """GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts(unittest
         if include_optional:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts(
                 gl_account = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner(
-                        @attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner(
+                        @attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
                             id = '87019', 
                             branch_id = '56125', ), 
                         account_number = '101-000-0', 
@@ -53,8 +53,8 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts(unittest
         else:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccounts(
                 gl_account = [
-                    openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner(
-                        @attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
+                    entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner(
+                        @attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
                             id = '87019', 
                             branch_id = '56125', ), 
                         account_number = '101-000-0', 

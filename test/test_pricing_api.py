@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.pricing_api import PricingApi
+from entrata_api_client.api.pricing_api import PricingApi
 
 
 class TestPricingApi(unittest.TestCase):

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerTransactionData
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerTransactionData
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerTransactionData(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerTransactionData unit test stubs"""
@@ -36,10 +36,10 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerTransactionData(
                 identification = [
-                    openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_TransactionData_Identification_inner(
+                    entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_TransactionData_Identification_inner(
                         id_value = '19760815_17390875', 
                         status = 'Guest Card Completed', 
-                        @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_TransactionData_Identification_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_transaction_data_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_TransactionData_Identification_inner__attributes(
                             id_type = 'Lead Number', 
                             id_scope_type = 'sender', ), )
                     ]

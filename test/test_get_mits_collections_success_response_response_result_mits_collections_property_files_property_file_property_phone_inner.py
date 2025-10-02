@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
                     phone_type = 'office', ),
                 phone_description = 'Office phone number',
                 phone_number = '1111888888'
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyPhoneInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
                     phone_type = 'office', ),
                 phone_description = 'Office phone number',
                 phone_number = '1111888888',

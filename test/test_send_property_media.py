@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_media import SendPropertyMedia
+from entrata_api_client.models.send_property_media import SendPropertyMedia
 
 class TestSendPropertyMedia(unittest.TestCase):
     """SendPropertyMedia unit test stubs"""
@@ -35,12 +35,12 @@ class TestSendPropertyMedia(unittest.TestCase):
         model = SendPropertyMedia()
         if include_optional:
             return SendPropertyMedia(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_property_media_method.sendPropertyMedia_method(
+                method = entrata_api_client.models.send_property_media_method.sendPropertyMedia_method(
                     name = 'sendPropertyMedia', 
-                    params = openapi_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
+                    params = entrata_api_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
                         property_id = '123456', 
                         media = [
                             null
@@ -48,11 +48,11 @@ class TestSendPropertyMedia(unittest.TestCase):
             )
         else:
             return SendPropertyMedia(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_property_media_method.sendPropertyMedia_method(
+                method = entrata_api_client.models.send_property_media_method.sendPropertyMedia_method(
                     name = 'sendPropertyMedia', 
-                    params = openapi_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
+                    params = entrata_api_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
                         property_id = '123456', 
                         media = [
                             null

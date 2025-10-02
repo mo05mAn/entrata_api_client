@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan import GetFloorPlansSuccessResponseResultFloorPlansFloorPlan
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan import GetFloorPlansSuccessResponseResultFloorPlansFloorPlan
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlan(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlan unit test stubs"""
@@ -35,58 +35,58 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlan(unittest.TestCas
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlan()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlan(
-                identification = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification(
+                identification = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification(
                     id_value = '456789', 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_type = 'Floorplan ID', ), ),
                 name = 'Floorplan 1',
                 property_id = 123456,
-                floorplan_groups = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups(
-                    floorplan_group = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
+                floorplan_groups = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups(
+                    floorplan_group = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
                             id = '256', 
                             name = 'Test_23_test', ), ), ),
                 comment = 'test',
                 unit_count = '1',
                 units_available = '10',
-                unit_types = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes(
+                unit_types = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes(
                     unit_type = [
-                        openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
+                        entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
                             @value = '1BHK', 
-                            @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
+                            @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
                                 id = '297171', ), )
                         ], ),
                 is_disabled = False,
                 room = [
-                    openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner(
+                    entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner(
                         count = '2', 
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
                             room_type = 'Bedroom', ), )
                     ],
-                square_feet = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet(
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
+                square_feet = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
                         max = '900', 
                         min = '900', ), ),
-                market_rent = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent(
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
+                market_rent = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
                         max = '850', 
                         min = '850', ), ),
-                deposit = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit(
-                    amount = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
-                        value_range = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
-                            @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
+                deposit = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit(
+                    amount = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
+                        value_range = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
+                            @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
                                 min = '250', 
                                 max = '250', ), ), ), 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
                         deposit_type = 'security deposit', ), ),
                 amenity = [
-                    openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner(
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
+                    entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
                             amenity_type = 'AdditionalStorage', ), )
                     ],
-                file = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File(
+                file = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File(
                     file_type = 'Floorplan', 
                     description = '2D Floor Plan', 
                     name = 'Floorplan1.jpg', 
@@ -97,65 +97,65 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlan(unittest.TestCas
                     src = [
                         ''
                         ], 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
                         file_id = '345678', 
                         active = 'true', 
                         is_default = True, ), )
             )
         else:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlan(
-                identification = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification(
+                identification = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification(
                     id_value = '456789', 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_type = 'Floorplan ID', ), ),
                 name = 'Floorplan 1',
                 property_id = 123456,
-                floorplan_groups = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups(
-                    floorplan_group = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
+                floorplan_groups = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups(
+                    floorplan_group = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
                             id = '256', 
                             name = 'Test_23_test', ), ), ),
                 comment = 'test',
                 unit_count = '1',
                 units_available = '10',
-                unit_types = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes(
+                unit_types = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes(
                     unit_type = [
-                        openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
+                        entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner(
                             @value = '1BHK', 
-                            @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
+                            @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
                                 id = '297171', ), )
                         ], ),
                 is_disabled = False,
                 room = [
-                    openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner(
+                    entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner(
                         count = '2', 
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_room_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Room_inner__attributes(
                             room_type = 'Bedroom', ), )
                     ],
-                square_feet = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet(
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
+                square_feet = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_square_feet__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_SquareFeet__attributes(
                         max = '900', 
                         min = '900', ), ),
-                market_rent = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent(
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
+                market_rent = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
                         max = '850', 
                         min = '850', ), ),
-                deposit = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit(
-                    amount = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
-                        value_range = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
-                            @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
+                deposit = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit(
+                    amount = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
+                        value_range = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
+                            @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
                                 min = '250', 
                                 max = '250', ), ), ), 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
                         deposit_type = 'security deposit', ), ),
                 amenity = [
-                    openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner(
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
+                    entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
                             amenity_type = 'AdditionalStorage', ), )
                     ],
-                file = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File(
+                file = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File(
                     file_type = 'Floorplan', 
                     description = '2D Floor Plan', 
                     name = 'Floorplan1.jpg', 
@@ -166,7 +166,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlan(unittest.TestCas
                     src = [
                         ''
                         ], 
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_File__attributes(
                         file_id = '345678', 
                         active = 'true', 
                         is_default = True, ), ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(unitt
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(
                 quote = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner(
                         id = '123456', 
                         move_in_date = '2020-05-13', 
                         created_on = '2020-05-13 07:03:25', 
@@ -50,22 +50,22 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(unitt
                         unit_number = '12', 
                         number_of_bed_rooms = '3', 
                         number_of_bath_rooms = '2.0000', 
-                        lease_terms = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms(
+                        lease_terms = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms(
                             lease_term = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms_lease_term_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms_leaseTerm_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_lease_terms_lease_term_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_leaseTerms_leaseTerm_inner(
                                     id = '3', 
                                     term_month = '12', 
                                     quote_amount = '5419.00', )
                                 ], ), 
-                        quote_provisions = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions(
+                        quote_provisions = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions(
                             quote_provision = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions_quote_provision_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions_quoteProvision_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions_quote_provision_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions_quoteProvision_inner(
                                     id = '1937', 
                                     name = '50% discount till jun 2024', )
                                 ], ), 
-                        optional_items = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems(
+                        optional_items = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems(
                             optional_item = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items_optional_item_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems_optionalItem_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_optional_items_optional_item_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_optionalItems_optionalItem_inner(
                                     add_on_type_id = '2', 
                                     name = 'Appliances', 
                                     type = 'Appliances', 
@@ -73,9 +73,9 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(unitt
                                     deposit = '89.00', 
                                     reservation_fee = '78.00', )
                                 ], ), 
-                        services = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services(
+                        services = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services(
                             service = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services_service_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services_service_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_services_service_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_services_service_inner(
                                     add_on_type_id = '3', 
                                     name = 'Meal Plans', 
                                     type = 'Meal Plans', 
@@ -83,15 +83,15 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotes(unitt
                                     deposit = '30.00', 
                                     reservation_fee = '80.00', )
                                 ], ), 
-                        pets = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets(
+                        pets = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets(
                             pet = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets_pet_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets_pet_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets_pet_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets_pet_inner(
                                     pet_type_id = '184368', 
                                     pet_type = 'german shepherd', )
                                 ], ), 
-                        charges = openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges(
+                        charges = entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges(
                             charge = [
-                                openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges_charge_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges_charge_inner(
+                                entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_charges_charge_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_charges_charge_inner(
                                     pricing_level_id = 4, 
                                     pricing_level = 'Space', 
                                     pricing_level_reference_id = 5563869, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyF
         model = GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount()
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDepositAmount(
-                value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                     min = '$100.00', 
                     max = '$100.00', ),
                 amount_type = 'MonthMultiple',

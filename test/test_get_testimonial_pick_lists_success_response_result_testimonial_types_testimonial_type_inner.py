@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner
+from entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner import GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner
 
 class TestGetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner(unittest.TestCase):
     """GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonia
         model = GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner()
         if include_optional:
             return GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner(
-                attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
+                attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
                     id = '5', 
                     name = 'ApartmentRatings', )
             )
         else:
             return GetTestimonialPickListsSuccessResponseResultTestimonialTypesTestimonialTypeInner(
-                attributes = openapi_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
+                attributes = entrata_api_client.models.get_testimonial_pick_lists_success_response_result_testimonial_types_testimonial_type_inner__attributes.getTestimonialPickListsSuccessResponse_result_TestimonialTypes_TestimonialType_inner__attributes(
                     id = '5', 
                     name = 'ApartmentRatings', ),
         )

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInnerPropertyBankAccounts
+from entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts import GetBankAccountsSuccessResponseResultBankAccountsBankAccountInnerPropertyBankAccounts
 from typing import Optional, Set
 from typing_extensions import Self
 

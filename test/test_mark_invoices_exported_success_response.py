@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_invoices_exported_success_response import MarkInvoicesExportedSuccessResponse
+from entrata_api_client.models.mark_invoices_exported_success_response import MarkInvoicesExportedSuccessResponse
 
 class TestMarkInvoicesExportedSuccessResponse(unittest.TestCase):
     """MarkInvoicesExportedSuccessResponse unit test stubs"""
@@ -36,13 +36,13 @@ class TestMarkInvoicesExportedSuccessResponse(unittest.TestCase):
         if include_optional:
             return MarkInvoicesExportedSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.mark_invoices_exported_success_response_result.markInvoicesExportedSuccessResponse_result(
+                result = entrata_api_client.models.mark_invoices_exported_success_response_result.markInvoicesExportedSuccessResponse_result(
                     success = 'Invoices marked as exported successfully.', )
             )
         else:
             return MarkInvoicesExportedSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.mark_invoices_exported_success_response_result.markInvoicesExportedSuccessResponse_result(
+                result = entrata_api_client.models.mark_invoices_exported_success_response_result.markInvoicesExportedSuccessResponse_result(
                     success = 'Invoices marked as exported successfully.', ),
         )
         """

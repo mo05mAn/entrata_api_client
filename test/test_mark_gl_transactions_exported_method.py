@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_gl_transactions_exported_method import MarkGlTransactionsExportedMethod
+from entrata_api_client.models.mark_gl_transactions_exported_method import MarkGlTransactionsExportedMethod
 
 class TestMarkGlTransactionsExportedMethod(unittest.TestCase):
     """MarkGlTransactionsExportedMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestMarkGlTransactionsExportedMethod(unittest.TestCase):
             return MarkGlTransactionsExportedMethod(
                 name = 'markGlTransactionsExported',
                 version = 'r1',
-                params = openapi_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
+                params = entrata_api_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
                     gl_detail_id = 56, )
             )
         else:

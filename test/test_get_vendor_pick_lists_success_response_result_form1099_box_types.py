@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types import GetVendorPickListsSuccessResponseResultForm1099BoxTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types import GetVendorPickListsSuccessResponseResultForm1099BoxTypes
 
 class TestGetVendorPickListsSuccessResponseResultForm1099BoxTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultForm1099BoxTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultForm1099BoxTypes(unittest.TestC
         if include_optional:
             return GetVendorPickListsSuccessResponseResultForm1099BoxTypes(
                 form1099_box_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
                             id = '1', 
                             name = '1 - Rents', ), )
                     ]

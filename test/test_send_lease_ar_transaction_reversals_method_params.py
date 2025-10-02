@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transaction_reversals_method_params import SendLeaseArTransactionReversalsMethodParams
+from entrata_api_client.models.send_lease_ar_transaction_reversals_method_params import SendLeaseArTransactionReversalsMethodParams
 
 class TestSendLeaseArTransactionReversalsMethodParams(unittest.TestCase):
     """SendLeaseArTransactionReversalsMethodParams unit test stubs"""

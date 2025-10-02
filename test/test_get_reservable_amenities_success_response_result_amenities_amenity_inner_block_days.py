@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays
+from entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays
 
 class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays(unittest.TestCase):
     """GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockD
         if include_optional:
             return GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays(
                 block_day = [
-                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
+                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
                         day = 'Sunday', 
                         block_hours = '12am,1am,2am,11pm', )
                     ]
@@ -44,7 +44,7 @@ class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockD
         else:
             return GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerBlockDays(
                 block_day = [
-                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
+                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
                         day = 'Sunday', 
                         block_hours = '12am,1am,2am,11pm', )
                     ],

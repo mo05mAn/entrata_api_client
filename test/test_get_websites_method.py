@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites_method import GetWebsitesMethod
+from entrata_api_client.models.get_websites_method import GetWebsitesMethod
 
 class TestGetWebsitesMethod(unittest.TestCase):
     """GetWebsitesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetWebsitesMethod(unittest.TestCase):
             return GetWebsitesMethod(
                 name = 'getWebsites',
                 version = 'r1',
-                params = openapi_client.models.get_websites_method_params.getWebsites_method_params(
+                params = entrata_api_client.models.get_websites_method_params.getWebsites_method_params(
                     property_ids = 56, )
             )
         else:

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_results_event_result_inner import GetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_results_event_result_inner import GetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner
 
 class TestGetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner(un
         model = GetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultEventResultsEventResultInner(
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_event_results_event_result_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventResults_eventResult_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_event_results_event_result_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_eventResults_eventResult_inner__attributes(
                     name = 'check-in custom', 
                     id = '2894233', 
                     event_type_id = '9', 

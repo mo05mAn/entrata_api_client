@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_invoices_exported import MarkInvoicesExported
+from entrata_api_client.models.mark_invoices_exported import MarkInvoicesExported
 
 class TestMarkInvoicesExported(unittest.TestCase):
     """MarkInvoicesExported unit test stubs"""
@@ -35,23 +35,23 @@ class TestMarkInvoicesExported(unittest.TestCase):
         model = MarkInvoicesExported()
         if include_optional:
             return MarkInvoicesExported(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.mark_invoices_exported_method.markInvoicesExported_method(
+                method = entrata_api_client.models.mark_invoices_exported_method.markInvoicesExported_method(
                     name = 'markInvoicesExported', 
                     version = 'r1', 
-                    params = openapi_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
+                    params = entrata_api_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
                         line_item_id = 56, ), )
             )
         else:
             return MarkInvoicesExported(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.mark_invoices_exported_method.markInvoicesExported_method(
+                method = entrata_api_client.models.mark_invoices_exported_method.markInvoicesExported_method(
                     name = 'markInvoicesExported', 
                     version = 'r1', 
-                    params = openapi_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
+                    params = entrata_api_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
                         line_item_id = 56, ), ),
         )
         """

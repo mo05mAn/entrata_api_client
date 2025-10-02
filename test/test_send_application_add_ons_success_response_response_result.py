@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_add_ons_success_response_response_result import SendApplicationAddOnsSuccessResponseResponseResult
+from entrata_api_client.models.send_application_add_ons_success_response_response_result import SendApplicationAddOnsSuccessResponseResponseResult
 
 class TestSendApplicationAddOnsSuccessResponseResponseResult(unittest.TestCase):
     """SendApplicationAddOnsSuccessResponseResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestSendApplicationAddOnsSuccessResponseResponseResult(unittest.TestCase):
         model = SendApplicationAddOnsSuccessResponseResponseResult()
         if include_optional:
             return SendApplicationAddOnsSuccessResponseResponseResult(
-                add_ons = openapi_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
+                add_ons = entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
                     add_on = [
-                        openapi_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
+                        entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
                             status = 'Success', 
                             message = 'Addons saved successfully.', 
                             id = 1304385, 
@@ -47,9 +47,9 @@ class TestSendApplicationAddOnsSuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return SendApplicationAddOnsSuccessResponseResponseResult(
-                add_ons = openapi_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
+                add_ons = entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
                     add_on = [
-                        openapi_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
+                        entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
                             status = 'Success', 
                             message = 'Addons saved successfully.', 
                             id = 1304385, 

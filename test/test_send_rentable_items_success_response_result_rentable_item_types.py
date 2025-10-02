@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_rentable_items_success_response_result_rentable_item_types import SendRentableItemsSuccessResponseResultRentableItemTypes
+from entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types import SendRentableItemsSuccessResponseResultRentableItemTypes
 
 class TestSendRentableItemsSuccessResponseResultRentableItemTypes(unittest.TestCase):
     """SendRentableItemsSuccessResponseResultRentableItemTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendRentableItemsSuccessResponseResultRentableItemTypes(unittest.TestC
         if include_optional:
             return SendRentableItemsSuccessResponseResultRentableItemTypes(
                 rentable_item_type = [
-                    openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                    entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                         node = 1, 
                         rentable_item_type_id = 81625, 
                         rentable_item_ids = '7157472,7157473,7157474', 
@@ -47,7 +47,7 @@ class TestSendRentableItemsSuccessResponseResultRentableItemTypes(unittest.TestC
         else:
             return SendRentableItemsSuccessResponseResultRentableItemTypes(
                 rentable_item_type = [
-                    openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                    entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                         node = 1, 
                         rentable_item_type_id = 81625, 
                         rentable_item_ids = '7157472,7157473,7157474', 

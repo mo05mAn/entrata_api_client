@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_expiring_leases_method import GetExpiringLeasesMethod
+from entrata_api_client.models.get_expiring_leases_method import GetExpiringLeasesMethod
 
 class TestGetExpiringLeasesMethod(unittest.TestCase):
     """GetExpiringLeasesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetExpiringLeasesMethod(unittest.TestCase):
             return GetExpiringLeasesMethod(
                 name = 'getExpiringLeases',
                 version = 'r1',
-                params = openapi_client.models.get_expiring_leases_method_params.getExpiringLeases_method_params(
+                params = entrata_api_client.models.get_expiring_leases_method_params.getExpiringLeases_method_params(
                     property_id = 123456, 
                     from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                     to_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities import UpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities
+from entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities import UpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities
 
 class TestUpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities(unittest.TestCase):
     """UpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities(unittes
         if include_optional:
             return UpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities(
                 unit_space_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1162615, 
@@ -46,7 +46,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities(unittes
         else:
             return UpdateAmenitiesSuccessResponseResponseResultUnitSpaceAmenities(
                 unit_space_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1162615, 

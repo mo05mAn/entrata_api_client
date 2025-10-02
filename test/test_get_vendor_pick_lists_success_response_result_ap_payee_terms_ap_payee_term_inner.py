@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner import GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner import GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner
 
 class TestGetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner(un
         model = GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
                     id = '4446', 
                     name = 'Net 15', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultApPayeeTermsApPayeeTermInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_terms_ap_payee_term_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTerms_apPayeeTerm_inner__attributes(
                     id = '4446', 
                     name = 'Net 15', ),
         )

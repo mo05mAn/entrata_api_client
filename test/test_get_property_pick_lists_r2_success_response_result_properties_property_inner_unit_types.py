@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnit
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
                         id = 582099, 
                         name = 'Unit type 2', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnit
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
                         id = 582099, 
                         name = 'Unit type 2', )
                     ],

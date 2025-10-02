@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leasing_center_pick_lists_method import GetLeasingCenterPickListsMethod
+from entrata_api_client.models.get_leasing_center_pick_lists_method import GetLeasingCenterPickListsMethod
 
 class TestGetLeasingCenterPickListsMethod(unittest.TestCase):
     """GetLeasingCenterPickListsMethod unit test stubs"""

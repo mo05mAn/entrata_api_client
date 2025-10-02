@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenity_reservations import GetAmenityReservations
+from entrata_api_client.models.get_amenity_reservations import GetAmenityReservations
 
 class TestGetAmenityReservations(unittest.TestCase):
     """GetAmenityReservations unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetAmenityReservations(unittest.TestCase):
         model = GetAmenityReservations()
         if include_optional:
             return GetAmenityReservations(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_amenity_reservations_method.getAmenityReservations_method(
+                method = entrata_api_client.models.get_amenity_reservations_method.getAmenityReservations_method(
                     name = 'getAmenityReservations', 
                     version = 'r1', 
-                    params = openapi_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
+                    params = entrata_api_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
                         property_id = 12345, 
                         amenity_ids = 56, 
                         amenity_reservation_status_type_ids = 56, ), )
             )
         else:
             return GetAmenityReservations(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_amenity_reservations_method.getAmenityReservations_method(
+                method = entrata_api_client.models.get_amenity_reservations_method.getAmenityReservations_method(
                     name = 'getAmenityReservations', 
                     version = 'r1', 
-                    params = openapi_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
+                    params = entrata_api_client.models.get_amenity_reservations_method_params.getAmenityReservations_method_params(
                         property_id = 12345, 
                         amenity_ids = 56, 
                         amenity_reservation_status_type_ids = 56, ), ),

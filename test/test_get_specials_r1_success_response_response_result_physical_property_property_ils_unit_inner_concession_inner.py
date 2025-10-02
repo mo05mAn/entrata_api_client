@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner
+from entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_concession_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner
 
 class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSU
         model = GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                     active = 1, ),
                 value = '50.00',
                 description_header = 'Test Special',
@@ -44,7 +44,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSU
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerConcessionInner(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                     active = 1, ),
                 value = '50.00',
                 description_header = 'Test Special',

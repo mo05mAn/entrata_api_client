@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_artransactions_post200_response import OrgsV1ArtransactionsPost200Response
+from entrata_api_client.models.orgs_v1_artransactions_post200_response import OrgsV1ArtransactionsPost200Response
 
 class TestOrgsV1ArtransactionsPost200Response(unittest.TestCase):
     """OrgsV1ArtransactionsPost200Response unit test stubs"""
@@ -35,13 +35,13 @@ class TestOrgsV1ArtransactionsPost200Response(unittest.TestCase):
         model = OrgsV1ArtransactionsPost200Response()
         if include_optional:
             return OrgsV1ArtransactionsPost200Response(
-                response = openapi_client.models.send_lease_ar_transactions_success_response_response.sendLeaseArTransactionsSuccessResponse_response(
+                response = entrata_api_client.models.send_lease_ar_transactions_success_response_response.sendLeaseArTransactionsSuccessResponse_response(
                     request_id = '15', 
-                    result = openapi_client.models.send_lease_ar_transactions_success_response_response_result.sendLeaseArTransactionsSuccessResponse_response_result(
-                        transactions = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions.sendLeaseArTransactionsSuccessResponse_response_result_Transactions(
+                    result = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result.sendLeaseArTransactionsSuccessResponse_response_result(
+                        transactions = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions.sendLeaseArTransactionsSuccessResponse_response_result_Transactions(
                             transaction = [
-                                openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner(
-                                    @attributes = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                                entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner(
+                                    @attributes = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                                         reference_id = 79008, 
                                         transaction_id = '100000', 
                                         status = 'Success', 
@@ -50,13 +50,13 @@ class TestOrgsV1ArtransactionsPost200Response(unittest.TestCase):
             )
         else:
             return OrgsV1ArtransactionsPost200Response(
-                response = openapi_client.models.send_lease_ar_transactions_success_response_response.sendLeaseArTransactionsSuccessResponse_response(
+                response = entrata_api_client.models.send_lease_ar_transactions_success_response_response.sendLeaseArTransactionsSuccessResponse_response(
                     request_id = '15', 
-                    result = openapi_client.models.send_lease_ar_transactions_success_response_response_result.sendLeaseArTransactionsSuccessResponse_response_result(
-                        transactions = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions.sendLeaseArTransactionsSuccessResponse_response_result_Transactions(
+                    result = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result.sendLeaseArTransactionsSuccessResponse_response_result(
+                        transactions = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions.sendLeaseArTransactionsSuccessResponse_response_result_Transactions(
                             transaction = [
-                                openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner(
-                                    @attributes = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                                entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner(
+                                    @attributes = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                                         reference_id = 79008, 
                                         transaction_id = '100000', 
                                         status = 'Success', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing import InsertPricing
+from entrata_api_client.models.insert_pricing import InsertPricing
 
 class TestInsertPricing(unittest.TestCase):
     """InsertPricing unit test stubs"""
@@ -35,13 +35,13 @@ class TestInsertPricing(unittest.TestCase):
         model = InsertPricing()
         if include_optional:
             return InsertPricing(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.insert_pricing_method.insertPricing_method(
+                method = entrata_api_client.models.insert_pricing_method.insertPricing_method(
                     name = 'insertPricing', 
                     version = 'r1', 
-                    params = openapi_client.models.insert_pricing_method_params.insertPricing_method_params(
+                    params = entrata_api_client.models.insert_pricing_method_params.insertPricing_method_params(
                         pricing_level_id = 4, 
                         pricing_level_reference_id = 123456, 
                         charge_usage_id = 1, 
@@ -58,12 +58,12 @@ class TestInsertPricing(unittest.TestCase):
             )
         else:
             return InsertPricing(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.insert_pricing_method.insertPricing_method(
+                method = entrata_api_client.models.insert_pricing_method.insertPricing_method(
                     name = 'insertPricing', 
                     version = 'r1', 
-                    params = openapi_client.models.insert_pricing_method_params.insertPricing_method_params(
+                    params = entrata_api_client.models.insert_pricing_method_params.insertPricing_method_params(
                         pricing_level_id = 4, 
                         pricing_level_reference_id = 123456, 
                         charge_usage_id = 1, 

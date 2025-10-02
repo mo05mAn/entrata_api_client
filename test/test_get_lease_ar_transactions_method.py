@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_ar_transactions_method import GetLeaseArTransactionsMethod
+from entrata_api_client.models.get_lease_ar_transactions_method import GetLeaseArTransactionsMethod
 
 class TestGetLeaseArTransactionsMethod(unittest.TestCase):
     """GetLeaseArTransactionsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeaseArTransactionsMethod(unittest.TestCase):
             return GetLeaseArTransactionsMethod(
                 name = 'getLeaseArTransactions',
                 version = 'r1',
-                params = openapi_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
+                params = entrata_api_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
                     property_id = 123456, 
                     lease_ids = 56, 
                     lease_status_type_ids = 56, 

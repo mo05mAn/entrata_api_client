@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_fees import GetPropertyFees
+from entrata_api_client.models.get_property_fees import GetPropertyFees
 
 class TestGetPropertyFees(unittest.TestCase):
     """GetPropertyFees unit test stubs"""
@@ -35,21 +35,21 @@ class TestGetPropertyFees(unittest.TestCase):
         model = GetPropertyFees()
         if include_optional:
             return GetPropertyFees(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_property_fees_method.getPropertyFees_method(
+                method = entrata_api_client.models.get_property_fees_method.getPropertyFees_method(
                     name = 'getPropertyFees', 
-                    params = openapi_client.models.get_property_fees_method_params.getPropertyFees_method_params(
+                    params = entrata_api_client.models.get_property_fees_method_params.getPropertyFees_method_params(
                         property_id = '12345', ), )
             )
         else:
             return GetPropertyFees(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_property_fees_method.getPropertyFees_method(
+                method = entrata_api_client.models.get_property_fees_method.getPropertyFees_method(
                     name = 'getPropertyFees', 
-                    params = openapi_client.models.get_property_fees_method_params.getPropertyFees_method_params(
+                    params = entrata_api_client.models.get_property_fees_method_params.getPropertyFees_method_params(
                         property_id = '12345', ), ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems(un
         if include_optional:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems(
                 assignable_item = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                         add_on_type = 'Assignable Items', 
                         add_on_category = 'Keys', 
                         add_on_group = 'Keys', 
@@ -50,7 +50,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems(un
         else:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsAssignableItems(
                 assignable_item = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                         add_on_type = 'Assignable Items', 
                         add_on_category = 'Keys', 
                         add_on_group = 'Keys', 

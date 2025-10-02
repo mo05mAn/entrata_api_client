@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles_success_response_response import SendApplicationVehiclesSuccessResponseResponse
+from entrata_api_client.models.send_application_vehicles_success_response_response import SendApplicationVehiclesSuccessResponseResponse
 
 class TestSendApplicationVehiclesSuccessResponseResponse(unittest.TestCase):
     """SendApplicationVehiclesSuccessResponseResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendApplicationVehiclesSuccessResponseResponse(unittest.TestCase):
             return SendApplicationVehiclesSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
-                    vehicles = openapi_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
+                result = entrata_api_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
+                    vehicles = entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
                         vehicle = [
-                            openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                            entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                                 status = 'Success', 
                                 message = 'Vehicle saved successfully.', 
                                 id = 56853778, 
@@ -52,10 +52,10 @@ class TestSendApplicationVehiclesSuccessResponseResponse(unittest.TestCase):
         else:
             return SendApplicationVehiclesSuccessResponseResponse(
                 code = 200,
-                result = openapi_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
-                    vehicles = openapi_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
+                result = entrata_api_client.models.send_application_vehicles_success_response_response_result.sendApplicationVehiclesSuccessResponse_response_result(
+                    vehicles = entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles.sendApplicationVehiclesSuccessResponse_response_result_vehicles(
                         vehicle = [
-                            openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                            entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                                 status = 'Success', 
                                 message = 'Vehicle saved successfully.', 
                                 id = 56853778, 

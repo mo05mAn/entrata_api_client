@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner
+from entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner
 
 class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner(unittest.TestCase):
     """GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTer
         model = GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner()
         if include_optional:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
                     lease_term = '6 Months', 
                     lease_term_id = 19125, 
                     lease_term_name = '6 months', 
@@ -47,7 +47,7 @@ class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTer
             )
         else:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerRentTermRentInner(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_rent_term_rent_inner__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_rent_termRent_inner__attributes(
                     lease_term = '6 Months', 
                     lease_term_id = 19125, 
                     lease_term_name = '6 months', 

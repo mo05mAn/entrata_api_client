@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses import GetVendorPickListsSuccessResponseResultComplianceStatuses
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses import GetVendorPickListsSuccessResponseResultComplianceStatuses
 
 class TestGetVendorPickListsSuccessResponseResultComplianceStatuses(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultComplianceStatuses unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultComplianceStatuses(unittest.Tes
         if include_optional:
             return GetVendorPickListsSuccessResponseResultComplianceStatuses(
                 compliance_status = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_compliance_statuses_compliance_status_inner__attributes.getVendorPickListsSuccessResponse_result_complianceStatuses_complianceStatus_inner__attributes(
                             id = '5', 
                             name = 'Compliant', ), )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_method_params import GetWorkOrderPickListsMethodParams
+from entrata_api_client.models.get_work_order_pick_lists_method_params import GetWorkOrderPickListsMethodParams
 
 class TestGetWorkOrderPickListsMethodParams(unittest.TestCase):
     """GetWorkOrderPickListsMethodParams unit test stubs"""

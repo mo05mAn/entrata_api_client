@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_success_response_result import GetCustomersSuccessResponseResult
+from entrata_api_client.models.get_customers_success_response_result import GetCustomersSuccessResponseResult
 
 class TestGetCustomersSuccessResponseResult(unittest.TestCase):
     """GetCustomersSuccessResponseResult unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
         model = GetCustomersSuccessResponseResult()
         if include_optional:
             return GetCustomersSuccessResponseResult(
-                customers = openapi_client.models.get_customers_success_response_result_customers.getCustomersSuccessResponse_result_Customers(
+                customers = entrata_api_client.models.get_customers_success_response_result_customers.getCustomersSuccessResponse_result_Customers(
                     customer = [
-                        openapi_client.models.get_customers_success_response_result_customers_customer_inner.getCustomersSuccessResponse_result_Customers_Customer_inner(
+                        entrata_api_client.models.get_customers_success_response_result_customers_customer_inner.getCustomersSuccessResponse_result_Customers_Customer_inner(
                             lease_id = [
-                                openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner(
+                                entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner(
                                     identification = [
-                                        openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
+                                        entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
                                             id_value = '5424549', 
-                                            @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
+                                            @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
                                                 id_type = 'Lease Id', 
                                                 id_rank = 'primary', 
                                                 id_scope_type = 'sender', 
@@ -62,9 +62,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                             email = 'amit@aryan.lcl', 
                             phone_number = '1234567890', 
                             terms_approved_date = '06/26/2012', 
-                            customer_addresses = openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses(
+                            customer_addresses = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses(
                                 customer_address = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner(
                                         address = 'vcb', 
                                         city = 'vcb', 
                                         state = 'AK', 
@@ -72,9 +72,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                                         country = 'US', )
                                     ], ), 
                             points_earned = '11486', 
-                            vehicles = openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles(
+                            vehicles = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles(
                                 vehicle = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
                                         model = 'aakash', 
                                         color = 'aakash', 
                                         make = 'aakash', 
@@ -82,9 +82,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                                         state_code = 'NB', 
                                         year = '1990', )
                                     ], ), 
-                            customer_identification_values = openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues(
+                            customer_identification_values = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues(
                                 customer_identification_value = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
                                         id = 6789, 
                                         value = 'test123', 
                                         company_identification_type_id = 12345, )
@@ -92,22 +92,22 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                             is_active_bankruptcy = False, 
                             bankruptcy_date = '08/22/2025', 
                             bankruptcy_note = '', 
-                            @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner__attributes(
+                            @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner__attributes(
                                 id = '6526235', 
                                 external_id = 'asdasdas', ), )
                         ], )
             )
         else:
             return GetCustomersSuccessResponseResult(
-                customers = openapi_client.models.get_customers_success_response_result_customers.getCustomersSuccessResponse_result_Customers(
+                customers = entrata_api_client.models.get_customers_success_response_result_customers.getCustomersSuccessResponse_result_Customers(
                     customer = [
-                        openapi_client.models.get_customers_success_response_result_customers_customer_inner.getCustomersSuccessResponse_result_Customers_Customer_inner(
+                        entrata_api_client.models.get_customers_success_response_result_customers_customer_inner.getCustomersSuccessResponse_result_Customers_Customer_inner(
                             lease_id = [
-                                openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner(
+                                entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner(
                                     identification = [
-                                        openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
+                                        entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
                                             id_value = '5424549', 
-                                            @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
+                                            @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
                                                 id_type = 'Lease Id', 
                                                 id_rank = 'primary', 
                                                 id_scope_type = 'sender', 
@@ -126,9 +126,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                             email = 'amit@aryan.lcl', 
                             phone_number = '1234567890', 
                             terms_approved_date = '06/26/2012', 
-                            customer_addresses = openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses(
+                            customer_addresses = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses(
                                 customer_address = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner(
                                         address = 'vcb', 
                                         city = 'vcb', 
                                         state = 'AK', 
@@ -136,9 +136,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                                         country = 'US', )
                                     ], ), 
                             points_earned = '11486', 
-                            vehicles = openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles(
+                            vehicles = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles(
                                 vehicle = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_vehicles_vehicle_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_Vehicles_Vehicle_inner(
                                         model = 'aakash', 
                                         color = 'aakash', 
                                         make = 'aakash', 
@@ -146,9 +146,9 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                                         state_code = 'NB', 
                                         year = '1990', )
                                     ], ), 
-                            customer_identification_values = openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues(
+                            customer_identification_values = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues(
                                 customer_identification_value = [
-                                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
+                                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_identification_values_customer_identification_value_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerIdentificationValues_CustomerIdentificationValue_inner(
                                         id = 6789, 
                                         value = 'test123', 
                                         company_identification_type_id = 12345, )
@@ -156,7 +156,7 @@ class TestGetCustomersSuccessResponseResult(unittest.TestCase):
                             is_active_bankruptcy = False, 
                             bankruptcy_date = '08/22/2025', 
                             bankruptcy_note = '', 
-                            @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner__attributes(
+                            @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner__attributes(
                                 id = '6526235', 
                                 external_id = 'asdasdas', ), )
                         ], ),

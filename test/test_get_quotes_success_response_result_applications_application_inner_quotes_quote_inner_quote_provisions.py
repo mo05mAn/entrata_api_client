@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerQuoteProvisions
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerQuoteProvisions
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerQuoteProvisions(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerQuoteProvisions unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerQuoteProvisions(
                 quote_provision = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions_quote_provision_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions_quoteProvision_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_quote_provisions_quote_provision_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_quoteProvisions_quoteProvision_inner(
                         id = '1937', 
                         name = '50% discount till jun 2024', )
                     ]

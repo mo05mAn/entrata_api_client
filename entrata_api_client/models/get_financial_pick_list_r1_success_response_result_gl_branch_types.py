@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_branch_types_gl_branch_type_inner import GetFinancialPickListR1SuccessResponseResultGlBranchTypesGlBranchTypeInner
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_branch_types_gl_branch_type_inner import GetFinancialPickListR1SuccessResponseResultGlBranchTypesGlBranchTypeInner
 from typing import Optional, Set
 from typing_extensions import Self
 

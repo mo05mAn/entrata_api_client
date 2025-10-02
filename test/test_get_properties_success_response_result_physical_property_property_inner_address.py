@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddress
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddress
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddress(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddress unit test stubs"""
@@ -41,7 +41,7 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerAddress
                 postal_code = '22204',
                 country = 'US',
                 email = 'devsupport@propertysolutions.lcl',
-                attributes = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
+                attributes = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_address__attributes.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_Address__attributes(
                     address_type = 'property', )
             )
         else:

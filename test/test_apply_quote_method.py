@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apply_quote_method import ApplyQuoteMethod
+from entrata_api_client.models.apply_quote_method import ApplyQuoteMethod
 
 class TestApplyQuoteMethod(unittest.TestCase):
     """ApplyQuoteMethod unit test stubs"""

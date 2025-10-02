@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner import GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner import GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTy
         model = GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
                     id = '1', 
                     name = 'Wire Transfer', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultApRemittanceTypesApRemittanceTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_remittance_types_ap_remittance_type_inner__attributes.getVendorPickListsSuccessResponse_result_apRemittanceTypes_apRemittanceType_inner__attributes(
                     id = '1', 
                     name = 'Wire Transfer', ),
         )

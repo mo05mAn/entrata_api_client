@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r1_success_response import SendInvoicesR1SuccessResponse
+from entrata_api_client.models.send_invoices_r1_success_response import SendInvoicesR1SuccessResponse
 
 class TestSendInvoicesR1SuccessResponse(unittest.TestCase):
     """SendInvoicesR1SuccessResponse unit test stubs"""
@@ -35,24 +35,24 @@ class TestSendInvoicesR1SuccessResponse(unittest.TestCase):
         model = SendInvoicesR1SuccessResponse()
         if include_optional:
             return SendInvoicesR1SuccessResponse(
-                result = openapi_client.models.send_invoices_r1_success_response_result.sendInvoices_r1_SuccessResponse_result(
-                    ap_batch = openapi_client.models.send_invoices_r1_success_response_result_ap_batch.sendInvoices_r1_SuccessResponse_result_ApBatch(
-                        @attributes = openapi_client.models.send_invoices_r1_success_response_result_ap_batch__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch__attributes(
+                result = entrata_api_client.models.send_invoices_r1_success_response_result.sendInvoices_r1_SuccessResponse_result(
+                    ap_batch = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch.sendInvoices_r1_SuccessResponse_result_ApBatch(
+                        @attributes = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch__attributes(
                             reference_id = '1838', ), 
-                        ap_headers = openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders(
+                        ap_headers = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders(
                             ap_header = [
-                                openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner()
+                                entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner()
                                 ], ), ), )
             )
         else:
             return SendInvoicesR1SuccessResponse(
-                result = openapi_client.models.send_invoices_r1_success_response_result.sendInvoices_r1_SuccessResponse_result(
-                    ap_batch = openapi_client.models.send_invoices_r1_success_response_result_ap_batch.sendInvoices_r1_SuccessResponse_result_ApBatch(
-                        @attributes = openapi_client.models.send_invoices_r1_success_response_result_ap_batch__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch__attributes(
+                result = entrata_api_client.models.send_invoices_r1_success_response_result.sendInvoices_r1_SuccessResponse_result(
+                    ap_batch = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch.sendInvoices_r1_SuccessResponse_result_ApBatch(
+                        @attributes = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch__attributes.sendInvoices_r1_SuccessResponse_result_ApBatch__attributes(
                             reference_id = '1838', ), 
-                        ap_headers = openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders(
+                        ap_headers = entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders(
                             ap_header = [
-                                openapi_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner()
+                                entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r1_SuccessResponse_result_ApBatch_ApHeaders_ApHeader_inner()
                                 ], ), ), ),
         )
         """

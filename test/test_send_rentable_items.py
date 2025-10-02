@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_rentable_items import SendRentableItems
+from entrata_api_client.models.send_rentable_items import SendRentableItems
 
 class TestSendRentableItems(unittest.TestCase):
     """SendRentableItems unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendRentableItems(unittest.TestCase):
         model = SendRentableItems()
         if include_optional:
             return SendRentableItems(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_rentable_items_method.sendRentableItems_method(
+                method = entrata_api_client.models.send_rentable_items_method.sendRentableItems_method(
                     name = 'sendRentableItems', 
                     version = 'r1', 
-                    params = openapi_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
+                    params = entrata_api_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
                         property_id = 12345, 
                         category_id = 12345, 
                         name = 'Furniture A', 
@@ -53,12 +53,12 @@ class TestSendRentableItems(unittest.TestCase):
             )
         else:
             return SendRentableItems(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_rentable_items_method.sendRentableItems_method(
+                method = entrata_api_client.models.send_rentable_items_method.sendRentableItems_method(
                     name = 'sendRentableItems', 
                     version = 'r1', 
-                    params = openapi_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
+                    params = entrata_api_client.models.send_rentable_items_method_params.sendRentableItems_method_params(
                         property_id = 12345, 
                         category_id = 12345, 
                         name = 'Furniture A', 

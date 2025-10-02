@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_work_orders_r1_method_params import UpdateWorkOrdersR1MethodParams
+from entrata_api_client.models.update_work_orders_r1_method_params import UpdateWorkOrdersR1MethodParams
 
 class TestUpdateWorkOrdersR1MethodParams(unittest.TestCase):
     """UpdateWorkOrdersR1MethodParams unit test stubs"""

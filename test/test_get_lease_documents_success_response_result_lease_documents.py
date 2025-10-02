@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_success_response_result_lease_documents import GetLeaseDocumentsSuccessResponseResultLeaseDocuments
+from entrata_api_client.models.get_lease_documents_success_response_result_lease_documents import GetLeaseDocumentsSuccessResponseResultLeaseDocuments
 
 class TestGetLeaseDocumentsSuccessResponseResultLeaseDocuments(unittest.TestCase):
     """GetLeaseDocumentsSuccessResponseResultLeaseDocuments unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseDocumentsSuccessResponseResultLeaseDocuments(unittest.TestCase
         if include_optional:
             return GetLeaseDocumentsSuccessResponseResultLeaseDocuments(
                 lease_document = {
-                    'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                    'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                         id = 3922962, 
                         applies_to = 'All', 
                         type = 'Transfer Document (Transfer Document - UTS)', 
@@ -50,7 +50,7 @@ class TestGetLeaseDocumentsSuccessResponseResultLeaseDocuments(unittest.TestCase
         else:
             return GetLeaseDocumentsSuccessResponseResultLeaseDocuments(
                 lease_document = {
-                    'key' : openapi_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
+                    'key' : entrata_api_client.models.get_lease_documents_success_response_result_lease_documents_lease_document_value.getLeaseDocumentsSuccessResponse_result_LeaseDocuments_LeaseDocument_value(
                         id = 3922962, 
                         applies_to = 'All', 
                         type = 'Transfer Document (Transfer Document - UTS)', 

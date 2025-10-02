@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types import GetLeasePickListSuccessResponseResultChargeCodeTypes
+from entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types import GetLeasePickListSuccessResponseResultChargeCodeTypes
 
 class TestGetLeasePickListSuccessResponseResultChargeCodeTypes(unittest.TestCase):
     """GetLeasePickListSuccessResponseResultChargeCodeTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasePickListSuccessResponseResultChargeCodeTypes(unittest.TestCase
         if include_optional:
             return GetLeasePickListSuccessResponseResultChargeCodeTypes(
                 charge_code_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
                         id = 2, 
                         name = 'Rent', 
                         allowed_charge_timing_ids = '307', )
@@ -45,7 +45,7 @@ class TestGetLeasePickListSuccessResponseResultChargeCodeTypes(unittest.TestCase
         else:
             return GetLeasePickListSuccessResponseResultChargeCodeTypes(
                 charge_code_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner.getLeasePickListSuccessResponse_result_chargeCodeTypes_chargeCodeType_inner(
                         id = 2, 
                         name = 'Rent', 
                         allowed_charge_timing_ids = '307', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_success_response_response_result_property import GetUnitTypesSuccessResponseResponseResultProperty
+from entrata_api_client.models.get_unit_types_success_response_response_result_property import GetUnitTypesSuccessResponseResponseResultProperty
 
 class TestGetUnitTypesSuccessResponseResponseResultProperty(unittest.TestCase):
     """GetUnitTypesSuccessResponseResponseResultProperty unit test stubs"""

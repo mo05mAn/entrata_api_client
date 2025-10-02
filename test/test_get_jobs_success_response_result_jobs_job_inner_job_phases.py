@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases import GetJobsSuccessResponseResultJobsJobInnerJobPhases
+from entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases import GetJobsSuccessResponseResultJobsJobInnerJobPhases
 
 class TestGetJobsSuccessResponseResultJobsJobInnerJobPhases(unittest.TestCase):
     """GetJobsSuccessResponseResultJobsJobInnerJobPhases unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetJobsSuccessResponseResultJobsJobInnerJobPhases(unittest.TestCase):
         if include_optional:
             return GetJobsSuccessResponseResultJobsJobInnerJobPhases(
                 job_phase = [
-                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                         id = '2671', 
                         name = 'Phase 1', 
                         budget = '30.00', )
@@ -45,7 +45,7 @@ class TestGetJobsSuccessResponseResultJobsJobInnerJobPhases(unittest.TestCase):
         else:
             return GetJobsSuccessResponseResultJobsJobInnerJobPhases(
                 job_phase = [
-                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                         id = '2671', 
                         name = 'Phase 1', 
                         budget = '30.00', )

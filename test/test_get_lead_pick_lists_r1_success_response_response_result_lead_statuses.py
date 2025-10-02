@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses import GetLeadPickListsR1SuccessResponseResponseResultLeadStatuses
+from entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses import GetLeadPickListsR1SuccessResponseResponseResultLeadStatuses
 
 class TestGetLeadPickListsR1SuccessResponseResponseResultLeadStatuses(unittest.TestCase):
     """GetLeadPickListsR1SuccessResponseResponseResultLeadStatuses unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetLeadPickListsR1SuccessResponseResponseResultLeadStatuses(unittest.T
         if include_optional:
             return GetLeadPickListsR1SuccessResponseResponseResultLeadStatuses(
                 lead_status = [
-                    openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner(
-                        @attributes = openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner__attributes(
+                    entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner(
+                        @attributes = entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_lead_statuses_lead_status_inner__attributes.getLeadPickLists_r1_SuccessResponse_response_result_LeadStatuses_LeadStatus_inner__attributes(
                             id = 21, 
                             name = 'Renewal Proposal Generated', 
                             lease_interval_type_name = 'Renewal', ), )

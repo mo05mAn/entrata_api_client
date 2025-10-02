@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors import GetVendors
+from entrata_api_client.models.get_vendors import GetVendors
 
 class TestGetVendors(unittest.TestCase):
     """GetVendors unit test stubs"""
@@ -35,24 +35,24 @@ class TestGetVendors(unittest.TestCase):
         model = GetVendors()
         if include_optional:
             return GetVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_vendors_method.getVendors_method(
+                method = entrata_api_client.models.get_vendors_method.getVendors_method(
                     name = 'getVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.get_vendors_method_params.getVendors_method_params(
+                    params = entrata_api_client.models.get_vendors_method_params.getVendors_method_params(
                         vendor_ids = 56, 
                         vendor_codes = '1234,5678', ), )
             )
         else:
             return GetVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_vendors_method.getVendors_method(
+                method = entrata_api_client.models.get_vendors_method.getVendors_method(
                     name = 'getVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.get_vendors_method_params.getVendors_method_params(
+                    params = entrata_api_client.models.get_vendors_method_params.getVendors_method_params(
                         vendor_ids = 56, 
                         vendor_codes = '1234,5678', ), ),
         )

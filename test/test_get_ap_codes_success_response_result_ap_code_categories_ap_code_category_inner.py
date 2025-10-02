@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner import GetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner
+from entrata_api_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner import GetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner
 
 class TestGetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner(unittest.TestCase):
     """GetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner(uni
             return GetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner(
                 id = '1234',
                 name = 'ap category 1',
-                ap_codes = openapi_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes(
+                ap_codes = entrata_api_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes(
                     ap_code = [
-                        openapi_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes_ap_code_inner.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes_apCode_inner(
+                        entrata_api_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes_ap_code_inner.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes_apCode_inner(
                             id = '6789', 
                             name = 'ap code 1', 
                             gl_account_id = '1234', 
@@ -51,9 +51,9 @@ class TestGetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner(uni
             return GetApCodesSuccessResponseResultApCodeCategoriesApCodeCategoryInner(
                 id = '1234',
                 name = 'ap category 1',
-                ap_codes = openapi_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes(
+                ap_codes = entrata_api_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes(
                     ap_code = [
-                        openapi_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes_ap_code_inner.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes_apCode_inner(
+                        entrata_api_client.models.get_ap_codes_success_response_result_ap_code_categories_ap_code_category_inner_ap_codes_ap_code_inner.getApCodesSuccessResponse_result_apCodeCategories_apCodeCategory_inner_apCodes_apCode_inner(
                             id = '6789', 
                             name = 'ap code 1', 
                             gl_account_id = '1234', 

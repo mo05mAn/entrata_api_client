@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailReceivingRecords
+from entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records import GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailReceivingRecords
 
 class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailReceivingRecords(unittest.TestCase):
     """GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailReceivingRecords unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderP
         if include_optional:
             return GetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderPoDetailsPoDetailReceivingRecords(
                 receiving_record = [
-                    openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_receiving_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_receivingRecord_inner(
+                    entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_receiving_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_receivingRecord_inner(
                         id = '123456', 
                         property_id = 172775, 
                         post_month_received = '06/2021', 
@@ -48,7 +48,7 @@ class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderP
                         qty_invoiced = '1.000000', )
                     ],
                 unreceiving_record = [
-                    openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_unreceiving_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_unreceivingRecord_inner(
+                    entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_unreceiving_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_unreceivingRecord_inner(
                         id = 123456, 
                         property_id = 172775, 
                         post_month_unreceived = '05/2023', 
@@ -59,7 +59,7 @@ class TestGetPoReceivingRecordsSuccessResponseResultPurchaseOrdersPurchaseOrderP
                         qty_invoiced = 0, )
                     ],
                 return_record = [
-                    openapi_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_return_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_returnRecord_inner(
+                    entrata_api_client.models.get_po_receiving_records_success_response_result_purchase_orders_purchase_order_po_details_po_detail_receiving_records_return_record_inner.getPoReceivingRecordsSuccessResponse_result_purchaseOrders_purchaseOrder_poDetails_poDetail_receivingRecords_returnRecord_inner(
                         receiver_id = '1234567', 
                         property_id = 172775, 
                         credit_invoice_id = '56567', 

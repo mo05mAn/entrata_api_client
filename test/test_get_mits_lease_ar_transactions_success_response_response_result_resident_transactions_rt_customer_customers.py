@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
         model = GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers()
         if include_optional:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers(
-                customer = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer(
-                    identification = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification(
-                        @attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification__attributes(
+                customer = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer(
+                    identification = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification(
+                        @attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification__attributes(
                             id_type = 'CustID123', ), 
                         id_value = 56789, ), 
-                    name = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_name.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Name(
+                    name = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_name.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Name(
                         first_name = 'John', 
                         last_name = 'Doe', ), )
             )
         else:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTCustomerCustomers(
-                customer = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer(
-                    identification = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification(
-                        @attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification__attributes(
+                customer = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer(
+                    identification = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification(
+                        @attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Identification__attributes(
                             id_type = 'CustID123', ), 
                         id_value = 56789, ), 
-                    name = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_name.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Name(
+                    name = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_customer_customers_customer_name.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RT_Customer_Customers_Customer_Name(
                         first_name = 'John', 
                         last_name = 'Doe', ), ),
         )

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.delete_property_media_success_response_response import DeletePropertyMediaSuccessResponseResponse
+from entrata_api_client.models.delete_property_media_success_response_response import DeletePropertyMediaSuccessResponseResponse
 from typing import Optional, Set
 from typing_extensions import Self
 

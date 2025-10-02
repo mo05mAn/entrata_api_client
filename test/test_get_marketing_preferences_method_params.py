@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preferences_method_params import GetMarketingPreferencesMethodParams
+from entrata_api_client.models.get_marketing_preferences_method_params import GetMarketingPreferencesMethodParams
 
 class TestGetMarketingPreferencesMethodParams(unittest.TestCase):
     """GetMarketingPreferencesMethodParams unit test stubs"""

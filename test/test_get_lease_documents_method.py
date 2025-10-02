@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_method import GetLeaseDocumentsMethod
+from entrata_api_client.models.get_lease_documents_method import GetLeaseDocumentsMethod
 
 class TestGetLeaseDocumentsMethod(unittest.TestCase):
     """GetLeaseDocumentsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeaseDocumentsMethod(unittest.TestCase):
             return GetLeaseDocumentsMethod(
                 name = 'getLeaseDocuments',
                 version = 'r1',
-                params = openapi_client.models.get_lease_documents_method_params.getLeaseDocuments_method_params(
+                params = entrata_api_client.models.get_lease_documents_method_params.getLeaseDocuments_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     external_lease_id = 123456, 

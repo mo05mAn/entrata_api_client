@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response import GetUnitsAvailabilityAndPricingSuccessResponse
+from entrata_api_client.models.get_units_availability_and_pricing_success_response import GetUnitsAvailabilityAndPricingSuccessResponse
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponse(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponse unit test stubs"""
@@ -36,49 +36,49 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponse(unittest.TestCase):
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponse(
                 request_id = '15',
-                result = openapi_client.models.get_units_availability_and_pricing_success_response_result.getUnitsAvailabilityAndPricingSuccessResponse_result(
-                    properties = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties(
-                        property = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
+                result = entrata_api_client.models.get_units_availability_and_pricing_success_response_result.getUnitsAvailabilityAndPricingSuccessResponse_result(
+                    properties = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties(
+                        property = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property(
                             property_id = '1234', 
                             marketing_name = 'Andover House', 
-                            floorplans = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
+                            floorplans = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans(
                                 floorplan = [
-                                    openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
+                                    entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner(
                                         name = 'Fairview', 
                                         unit_count = 1, 
                                         units_available = 1, 
                                         room = [
-                                            openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
+                                            entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_room_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Room_inner(
                                                 description = 'Bedrooms', 
                                                 count = 1, 
                                                 room_type = 'Bedroom', )
                                             ], 
-                                        square_feet = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
+                                        square_feet = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_square_feet.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_SquareFeet(
                                             avg = 968, 
                                             max = 968, 
                                             min = 968, ), 
-                                        market_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
+                                        market_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_market_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_MarketRent(
                                             avg = 3000, 
                                             max = 4459, 
                                             min = 2577, ), 
-                                        deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
-                                            amount = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
-                                                value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                                        deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit(
+                                            amount = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
+                                                value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                                                     min = '$100.00', 
                                                     max = '$100.00', ), 
                                                 amount_type = 'MonthMultiple', 
                                                 deposit_type = 'security deposit', ), ), )
                                     ], ), ), ), 
-                    property_units = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits(
+                    property_units = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits(
                         property_unit = [
-                            openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner(
-                                unit_space = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
-                                    rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
-                                        term_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
+                            entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner(
+                                unit_space = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
+                                    rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
+                                        term_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
                                             lease_term = '10 Months', 
                                             rent = '1000.00', 
                                             rate_frequency = 'Monthly', ), ), 
-                                    deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
+                                    deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
                                         min_deposit = '$95.00', 
                                         max_deposit = '$565.00', ), 
                                     unit_number = 'A', 

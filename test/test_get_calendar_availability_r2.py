@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r2 import GetCalendarAvailabilityR2
+from entrata_api_client.models.get_calendar_availability_r2 import GetCalendarAvailabilityR2
 
 class TestGetCalendarAvailabilityR2(unittest.TestCase):
     """GetCalendarAvailabilityR2 unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetCalendarAvailabilityR2(unittest.TestCase):
         model = GetCalendarAvailabilityR2()
         if include_optional:
             return GetCalendarAvailabilityR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_calendar_availability_r2_method.getCalendarAvailability_r2_method(
+                method = entrata_api_client.models.get_calendar_availability_r2_method.getCalendarAvailability_r2_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_calendar_availability_r2_method_params.getCalendarAvailability_r2_method_params(
+                    params = entrata_api_client.models.get_calendar_availability_r2_method_params.getCalendarAvailability_r2_method_params(
                         property_id = 123456, 
                         from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         to_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -49,12 +49,12 @@ class TestGetCalendarAvailabilityR2(unittest.TestCase):
             )
         else:
             return GetCalendarAvailabilityR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_calendar_availability_r2_method.getCalendarAvailability_r2_method(
+                method = entrata_api_client.models.get_calendar_availability_r2_method.getCalendarAvailability_r2_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_calendar_availability_r2_method_params.getCalendarAvailability_r2_method_params(
+                    params = entrata_api_client.models.get_calendar_availability_r2_method_params.getCalendarAvailability_r2_method_params(
                         property_id = 123456, 
                         from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         to_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

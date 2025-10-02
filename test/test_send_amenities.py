@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_amenities import SendAmenities
+from entrata_api_client.models.send_amenities import SendAmenities
 
 class TestSendAmenities(unittest.TestCase):
     """SendAmenities unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendAmenities(unittest.TestCase):
         model = SendAmenities()
         if include_optional:
             return SendAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_amenities_method.sendAmenities_method(
+                method = entrata_api_client.models.send_amenities_method.sendAmenities_method(
                     name = 'sendAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.send_amenities_method_params.sendAmenities_method_params(
+                    params = entrata_api_client.models.send_amenities_method_params.sendAmenities_method_params(
                         property_id = 12345, 
                         name = 'Furniture A', 
                         description = 'Furniture A', 
@@ -50,12 +50,12 @@ class TestSendAmenities(unittest.TestCase):
             )
         else:
             return SendAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_amenities_method.sendAmenities_method(
+                method = entrata_api_client.models.send_amenities_method.sendAmenities_method(
                     name = 'sendAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.send_amenities_method_params.sendAmenities_method_params(
+                    params = entrata_api_client.models.send_amenities_method_params.sendAmenities_method_params(
                         property_id = 12345, 
                         name = 'Furniture A', 
                         description = 'Furniture A', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_renters_insurance_policies_r1 import SendRentersInsurancePoliciesR1
+from entrata_api_client.models.send_renters_insurance_policies_r1 import SendRentersInsurancePoliciesR1
 
 class TestSendRentersInsurancePoliciesR1(unittest.TestCase):
     """SendRentersInsurancePoliciesR1 unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendRentersInsurancePoliciesR1(unittest.TestCase):
         model = SendRentersInsurancePoliciesR1()
         if include_optional:
             return SendRentersInsurancePoliciesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_renters_insurance_policies_r1_method.sendRentersInsurancePolicies_r1_method(
+                method = entrata_api_client.models.send_renters_insurance_policies_r1_method.sendRentersInsurancePolicies_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_renters_insurance_policies_r1_method_params.sendRentersInsurancePolicies_r1_method_params(
+                    params = entrata_api_client.models.send_renters_insurance_policies_r1_method_params.sendRentersInsurancePolicies_r1_method_params(
                         property_id = 123456, 
                         id = 123456, 
                         lease_id = 123456, 
@@ -54,12 +54,12 @@ class TestSendRentersInsurancePoliciesR1(unittest.TestCase):
             )
         else:
             return SendRentersInsurancePoliciesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_renters_insurance_policies_r1_method.sendRentersInsurancePolicies_r1_method(
+                method = entrata_api_client.models.send_renters_insurance_policies_r1_method.sendRentersInsurancePolicies_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_renters_insurance_policies_r1_method_params.sendRentersInsurancePolicies_r1_method_params(
+                    params = entrata_api_client.models.send_renters_insurance_policies_r1_method_params.sendRentersInsurancePolicies_r1_method_params(
                         property_id = 123456, 
                         id = 123456, 
                         lease_id = 123456, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists import GetPricingPicklists
+from entrata_api_client.models.get_pricing_picklists import GetPricingPicklists
 
 class TestGetPricingPicklists(unittest.TestCase):
     """GetPricingPicklists unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetPricingPicklists(unittest.TestCase):
         model = GetPricingPicklists()
         if include_optional:
             return GetPricingPicklists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_pricing_picklists_method.getPricingPicklists_method(
+                method = entrata_api_client.models.get_pricing_picklists_method.getPricingPicklists_method(
                     name = 'getPricingPicklists', 
                     version = 'r1', )
             )
         else:
             return GetPricingPicklists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_pricing_picklists_method.getPricingPicklists_method(
+                method = entrata_api_client.models.get_pricing_picklists_method.getPricingPicklists_method(
                     name = 'getPricingPicklists', 
                     version = 'r1', ),
         )

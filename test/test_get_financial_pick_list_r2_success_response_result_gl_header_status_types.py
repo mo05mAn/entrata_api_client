@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types import GetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types import GetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes
 
 class TestGetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes(unittes
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes(
                 gl_header_status_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types_gl_header_status_type_inner.getFinancialPickList_r2_SuccessResponse_result_glHeaderStatusTypes_glHeaderStatusType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types_gl_header_status_type_inner.getFinancialPickList_r2_SuccessResponse_result_glHeaderStatusTypes_glHeaderStatusType_inner(
                         id = 1, 
                         name = 'Posted', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes(unittes
         else:
             return GetFinancialPickListR2SuccessResponseResultGlHeaderStatusTypes(
                 gl_header_status_type = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types_gl_header_status_type_inner.getFinancialPickList_r2_SuccessResponse_result_glHeaderStatusTypes_glHeaderStatusType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_gl_header_status_types_gl_header_status_type_inner.getFinancialPickList_r2_SuccessResponse_result_glHeaderStatusTypes_glHeaderStatusType_inner(
                         id = 1, 
                         name = 'Posted', )
                     ],

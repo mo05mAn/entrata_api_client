@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspections_method import GetInspectionsMethod
+from entrata_api_client.models.get_inspections_method import GetInspectionsMethod
 
 class TestGetInspectionsMethod(unittest.TestCase):
     """GetInspectionsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetInspectionsMethod(unittest.TestCase):
             return GetInspectionsMethod(
                 name = 'getInspections',
                 version = 'r1',
-                params = openapi_client.models.get_inspections_method_params.getInspections_method_params(
+                params = entrata_api_client.models.get_inspections_method_params.getInspections_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     unit_space_id = 12345, 

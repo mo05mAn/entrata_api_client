@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_customer_testimonials_success_response_result import GetCustomerTestimonialsSuccessResponseResult
+from entrata_api_client.models.get_customer_testimonials_success_response_result import GetCustomerTestimonialsSuccessResponseResult
 from typing import Optional, Set
 from typing_extensions import Self
 

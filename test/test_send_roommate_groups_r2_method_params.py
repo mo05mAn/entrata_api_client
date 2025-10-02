@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_roommate_groups_r2_method_params import SendRoommateGroupsR2MethodParams
+from entrata_api_client.models.send_roommate_groups_r2_method_params import SendRoommateGroupsR2MethodParams
 
 class TestSendRoommateGroupsR2MethodParams(unittest.TestCase):
     """SendRoommateGroupsR2MethodParams unit test stubs"""
@@ -35,18 +35,18 @@ class TestSendRoommateGroupsR2MethodParams(unittest.TestCase):
         model = SendRoommateGroupsR2MethodParams()
         if include_optional:
             return SendRoommateGroupsR2MethodParams(
-                roommate_groups = openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
+                roommate_groups = entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
                     roommate_group = [
-                        openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
+                        entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
                             invitor_application_id = 12345678, 
                             invitee_application_id = null, )
                         ], )
             )
         else:
             return SendRoommateGroupsR2MethodParams(
-                roommate_groups = openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
+                roommate_groups = entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
                     roommate_group = [
-                        openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
+                        entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
                             invitor_application_id = 12345678, 
                             invitee_application_id = null, )
                         ], ),

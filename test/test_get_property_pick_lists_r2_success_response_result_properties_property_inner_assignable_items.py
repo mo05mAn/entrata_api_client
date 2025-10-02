@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssi
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems(
                 assignable_item = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
                         id = 8377, 
                         name = 'Gym Card', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssi
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerAssignableItems(
                 assignable_item = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
                         id = 8377, 
                         name = 'Gym Card', )
                     ],

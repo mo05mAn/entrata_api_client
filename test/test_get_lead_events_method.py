@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_events_method import GetLeadEventsMethod
+from entrata_api_client.models.get_lead_events_method import GetLeadEventsMethod
 
 class TestGetLeadEventsMethod(unittest.TestCase):
     """GetLeadEventsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeadEventsMethod(unittest.TestCase):
             return GetLeadEventsMethod(
                 name = 'getLeadEvents',
                 version = 'r1',
-                params = openapi_client.models.get_lead_events_method_params.getLeadEvents_method_params(
+                params = entrata_api_client.models.get_lead_events_method_params.getLeadEvents_method_params(
                     property_id = 123456, 
                     application_id = 1234, 
                     event_type_ids = '1,2,3', 

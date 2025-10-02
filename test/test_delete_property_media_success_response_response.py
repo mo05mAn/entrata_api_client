@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.delete_property_media_success_response_response import DeletePropertyMediaSuccessResponseResponse
+from entrata_api_client.models.delete_property_media_success_response_response import DeletePropertyMediaSuccessResponseResponse
 
 class TestDeletePropertyMediaSuccessResponseResponse(unittest.TestCase):
     """DeletePropertyMediaSuccessResponseResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestDeletePropertyMediaSuccessResponseResponse(unittest.TestCase):
             return DeletePropertyMediaSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
+                result = entrata_api_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Marketing Media Association deleted successfully.', )
             )
@@ -45,7 +45,7 @@ class TestDeletePropertyMediaSuccessResponseResponse(unittest.TestCase):
             return DeletePropertyMediaSuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
+                result = entrata_api_client.models.delete_property_media_success_response_response_result.deletePropertyMediaSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Marketing Media Association deleted successfully.', ),
         )

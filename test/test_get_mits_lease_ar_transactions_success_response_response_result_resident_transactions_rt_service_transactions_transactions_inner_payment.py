@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
         model = GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment()
         if include_optional:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment__attributes(
                     payment_type = 'ACH', ),
-                detail = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment_detail.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment_Detail(
+                detail = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment_detail.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment_Detail(
                     description = 'Monthly payment', 
                     transaction_id = 654321, 
                     amount_paid = '100.00', 
@@ -45,9 +45,9 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
             )
         else:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerPayment(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment__attributes(
                     payment_type = 'ACH', ),
-                detail = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment_detail.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment_Detail(
+                detail = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_payment_detail.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Payment_Detail(
                     description = 'Monthly payment', 
                     transaction_id = 654321, 
                     amount_paid = '100.00', 

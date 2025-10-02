@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leases_method import SendLeasesMethod
+from entrata_api_client.models.send_leases_method import SendLeasesMethod
 
 class TestSendLeasesMethod(unittest.TestCase):
     """SendLeasesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendLeasesMethod(unittest.TestCase):
             return SendLeasesMethod(
                 name = 'sendLeases',
                 version = 'r1',
-                params = openapi_client.models.send_leases_method_params.sendLeases_method_params(
+                params = entrata_api_client.models.send_leases_method_params.sendLeases_method_params(
                     property_id = 123456, 
                     lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                     lease_end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

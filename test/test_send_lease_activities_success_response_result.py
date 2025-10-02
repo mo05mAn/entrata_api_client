@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_activities_success_response_result import SendLeaseActivitiesSuccessResponseResult
+from entrata_api_client.models.send_lease_activities_success_response_result import SendLeaseActivitiesSuccessResponseResult
 
 class TestSendLeaseActivitiesSuccessResponseResult(unittest.TestCase):
     """SendLeaseActivitiesSuccessResponseResult unit test stubs"""
@@ -35,8 +35,8 @@ class TestSendLeaseActivitiesSuccessResponseResult(unittest.TestCase):
         model = SendLeaseActivitiesSuccessResponseResult()
         if include_optional:
             return SendLeaseActivitiesSuccessResponseResult(
-                events = openapi_client.models.send_lease_activities_success_response_result_events.sendLeaseActivitiesSuccessResponse_result_events(
-                    event = openapi_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
+                events = entrata_api_client.models.send_lease_activities_success_response_result_events.sendLeaseActivitiesSuccessResponse_result_events(
+                    event = entrata_api_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
                         node = '1', 
                         lease_id = '10873580', 
                         status = 'Success', 
@@ -44,8 +44,8 @@ class TestSendLeaseActivitiesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return SendLeaseActivitiesSuccessResponseResult(
-                events = openapi_client.models.send_lease_activities_success_response_result_events.sendLeaseActivitiesSuccessResponse_result_events(
-                    event = openapi_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
+                events = entrata_api_client.models.send_lease_activities_success_response_result_events.sendLeaseActivitiesSuccessResponse_result_events(
+                    event = entrata_api_client.models.send_lease_activities_success_response_result_events_event.sendLeaseActivitiesSuccessResponse_result_events_event(
                         node = '1', 
                         lease_id = '10873580', 
                         status = 'Success', 

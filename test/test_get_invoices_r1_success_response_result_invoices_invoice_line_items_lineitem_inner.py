@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner import GetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner
+from entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner import GetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner
 
 class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner(unittest.TestCase):
     """GetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner unit test stubs"""
@@ -36,11 +36,11 @@ class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInne
         if include_optional:
             return GetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner(
                 id = '11648172',
-                var_property = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
+                var_property = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
                     id = '19463', 
                     name = '22 Exchange', 
                     lookup_code = 'AK lookUp 22 Exchange', ),
-                gl_account = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
+                gl_account = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
                     id = '295527', 
                     name = 'TestCashPositionExpenseAccount', 
                     account_number = '0000', ),
@@ -56,11 +56,11 @@ class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInne
         else:
             return GetInvoicesR1SuccessResponseResultInvoicesInvoiceLineItemsLineitemInner(
                 id = '11648172',
-                var_property = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
+                var_property = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
                     id = '19463', 
                     name = '22 Exchange', 
                     lookup_code = 'AK lookUp 22 Exchange', ),
-                gl_account = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
+                gl_account = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
                     id = '295527', 
                     name = 'TestCashPositionExpenseAccount', 
                     account_number = '0000', ),

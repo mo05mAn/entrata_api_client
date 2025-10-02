@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         model = GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner()
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyBuildings_PropertyBuilding_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyBuildings_PropertyBuilding_inner__attributes(
                     id = 56180, 
                     name = 'BUILDING 01', )
             )
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertyBuildingsPropertyBuildingInner(
-                attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyBuildings_PropertyBuilding_inner__attributes(
+                attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_buildings_property_building_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertyBuildings_PropertyBuilding_inner__attributes(
                     id = 56180, 
                     name = 'BUILDING 01', ),
         )

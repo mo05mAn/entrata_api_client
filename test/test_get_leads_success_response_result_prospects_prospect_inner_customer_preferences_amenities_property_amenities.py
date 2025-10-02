@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities import GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
         if include_optional:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities(
                 amenity = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
                         amenity_type = 'Apartment', 
                         amenity = '123', 
                         description = 'AMENITY DESCRIPTION', )
@@ -45,7 +45,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferences
         else:
             return GetLeadsSuccessResponseResultProspectsProspectInnerCustomerPreferencesAmenitiesPropertyAmenities(
                 amenity = [
-                    openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
+                    entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customer_preferences_amenities_property_amenities_amenity_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customerPreferences_amenities_propertyAmenities_amenity_inner(
                         amenity_type = 'Apartment', 
                         amenity = '123', 
                         description = 'AMENITY DESCRIPTION', )

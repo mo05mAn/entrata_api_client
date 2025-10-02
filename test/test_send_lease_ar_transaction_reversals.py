@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transaction_reversals import SendLeaseArTransactionReversals
+from entrata_api_client.models.send_lease_ar_transaction_reversals import SendLeaseArTransactionReversals
 
 class TestSendLeaseArTransactionReversals(unittest.TestCase):
     """SendLeaseArTransactionReversals unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendLeaseArTransactionReversals(unittest.TestCase):
         model = SendLeaseArTransactionReversals()
         if include_optional:
             return SendLeaseArTransactionReversals(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_lease_ar_transaction_reversals_method.sendLeaseArTransactionReversals_method(
+                method = entrata_api_client.models.send_lease_ar_transaction_reversals_method.sendLeaseArTransactionReversals_method(
                     name = 'sendLeaseArTransactionReversals', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_ar_transaction_reversals_method_params.sendLeaseArTransactionReversals_method_params(
+                    params = entrata_api_client.models.send_lease_ar_transaction_reversals_method_params.sendLeaseArTransactionReversals_method_params(
                         transaction_id = 1234, 
                         transaction_amount = 56, 
                         property_id = 123456, 
@@ -50,12 +50,12 @@ class TestSendLeaseArTransactionReversals(unittest.TestCase):
             )
         else:
             return SendLeaseArTransactionReversals(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_lease_ar_transaction_reversals_method.sendLeaseArTransactionReversals_method(
+                method = entrata_api_client.models.send_lease_ar_transaction_reversals_method.sendLeaseArTransactionReversals_method(
                     name = 'sendLeaseArTransactionReversals', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_ar_transaction_reversals_method_params.sendLeaseArTransactionReversals_method_params(
+                    params = entrata_api_client.models.send_lease_ar_transaction_reversals_method_params.sendLeaseArTransactionReversals_method_params(
                         transaction_id = 1234, 
                         transaction_amount = 56, 
                         property_id = 123456, 

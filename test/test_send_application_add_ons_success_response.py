@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_add_ons_success_response import SendApplicationAddOnsSuccessResponse
+from entrata_api_client.models.send_application_add_ons_success_response import SendApplicationAddOnsSuccessResponse
 
 class TestSendApplicationAddOnsSuccessResponse(unittest.TestCase):
     """SendApplicationAddOnsSuccessResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendApplicationAddOnsSuccessResponse(unittest.TestCase):
         model = SendApplicationAddOnsSuccessResponse()
         if include_optional:
             return SendApplicationAddOnsSuccessResponse(
-                response = openapi_client.models.send_application_add_ons_success_response_response.sendApplicationAddOnsSuccessResponse_response(
+                response = entrata_api_client.models.send_application_add_ons_success_response_response.sendApplicationAddOnsSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_application_add_ons_success_response_response_result.sendApplicationAddOnsSuccessResponse_response_result(
-                        add_ons = openapi_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
+                    result = entrata_api_client.models.send_application_add_ons_success_response_response_result.sendApplicationAddOnsSuccessResponse_response_result(
+                        add_ons = entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
                             add_on = [
-                                openapi_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
+                                entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
                                     status = 'Success', 
                                     message = 'Addons saved successfully.', 
                                     id = 1304385, 
@@ -51,13 +51,13 @@ class TestSendApplicationAddOnsSuccessResponse(unittest.TestCase):
             )
         else:
             return SendApplicationAddOnsSuccessResponse(
-                response = openapi_client.models.send_application_add_ons_success_response_response.sendApplicationAddOnsSuccessResponse_response(
+                response = entrata_api_client.models.send_application_add_ons_success_response_response.sendApplicationAddOnsSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_application_add_ons_success_response_response_result.sendApplicationAddOnsSuccessResponse_response_result(
-                        add_ons = openapi_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
+                    result = entrata_api_client.models.send_application_add_ons_success_response_response_result.sendApplicationAddOnsSuccessResponse_response_result(
+                        add_ons = entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons.sendApplicationAddOnsSuccessResponse_response_result_addOns(
                             add_on = [
-                                openapi_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
+                                entrata_api_client.models.send_application_add_ons_success_response_response_result_add_ons_add_on_inner.sendApplicationAddOnsSuccessResponse_response_result_addOns_addOn_inner(
                                     status = 'Success', 
                                     message = 'Addons saved successfully.', 
                                     id = 1304385, 

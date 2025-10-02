@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_payments import GetArPayments
+from entrata_api_client.models.get_ar_payments import GetArPayments
 
 class TestGetArPayments(unittest.TestCase):
     """GetArPayments unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetArPayments(unittest.TestCase):
         model = GetArPayments()
         if include_optional:
             return GetArPayments(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_ar_payments_method.getArPayments_method(
+                method = entrata_api_client.models.get_ar_payments_method.getArPayments_method(
                     name = 'getArPayments', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_payments_method_params.getArPayments_method_params(
+                    params = entrata_api_client.models.get_ar_payments_method_params.getArPayments_method_params(
                         ar_payment_ids = '123456', 
                         payment_status_type_ids = '123456', 
                         from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -50,12 +50,12 @@ class TestGetArPayments(unittest.TestCase):
             )
         else:
             return GetArPayments(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_ar_payments_method.getArPayments_method(
+                method = entrata_api_client.models.get_ar_payments_method.getArPayments_method(
                     name = 'getArPayments', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_payments_method_params.getArPayments_method_params(
+                    params = entrata_api_client.models.get_ar_payments_method_params.getArPayments_method_params(
                         ar_payment_ids = '123456', 
                         payment_status_type_ids = '123456', 
                         from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

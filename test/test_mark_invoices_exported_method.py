@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_invoices_exported_method import MarkInvoicesExportedMethod
+from entrata_api_client.models.mark_invoices_exported_method import MarkInvoicesExportedMethod
 
 class TestMarkInvoicesExportedMethod(unittest.TestCase):
     """MarkInvoicesExportedMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestMarkInvoicesExportedMethod(unittest.TestCase):
             return MarkInvoicesExportedMethod(
                 name = 'markInvoicesExported',
                 version = 'r1',
-                params = openapi_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
+                params = entrata_api_client.models.mark_invoices_exported_method_params.markInvoicesExported_method_params(
                     line_item_id = 56, )
             )
         else:

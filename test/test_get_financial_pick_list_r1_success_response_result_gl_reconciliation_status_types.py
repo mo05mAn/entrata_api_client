@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types import GetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types import GetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes(
                 gl_reconciliation_status_types = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types_gl_reconciliation_status_types_inner.getFinancialPickList_r1_SuccessResponse_result_GlReconciliationStatusTypes_GlReconciliationStatusTypes_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types_gl_reconciliation_status_types_inner.getFinancialPickList_r1_SuccessResponse_result_GlReconciliationStatusTypes_GlReconciliationStatusTypes_inner(
                         id = 1, 
                         name = 'Reconciled', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes
         else:
             return GetFinancialPickListR1SuccessResponseResultGlReconciliationStatusTypes(
                 gl_reconciliation_status_types = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types_gl_reconciliation_status_types_inner.getFinancialPickList_r1_SuccessResponse_result_GlReconciliationStatusTypes_GlReconciliationStatusTypes_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_reconciliation_status_types_gl_reconciliation_status_types_inner.getFinancialPickList_r1_SuccessResponse_result_GlReconciliationStatusTypes_GlReconciliationStatusTypes_inner(
                         id = 1, 
                         name = 'Reconciled', )
                     ],

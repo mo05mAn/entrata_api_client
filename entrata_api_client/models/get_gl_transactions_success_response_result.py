@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_gl_transactions_success_response_result_properties import GetGlTransactionsSuccessResponseResultProperties
+from entrata_api_client.models.get_gl_transactions_success_response_result_properties import GetGlTransactionsSuccessResponseResultProperties
 from typing import Optional, Set
 from typing_extensions import Self
 

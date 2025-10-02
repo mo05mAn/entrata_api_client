@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeas
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants(
                 value = '4',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
                     total = '4', )
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationLALeaseInnerUnitNumberOccupants(
                 value = '4',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
                     total = '4', ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_vendors import UpdateVendors
+from entrata_api_client.models.update_vendors import UpdateVendors
 
 class TestUpdateVendors(unittest.TestCase):
     """UpdateVendors unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateVendors(unittest.TestCase):
         model = UpdateVendors()
         if include_optional:
             return UpdateVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_vendors_method.updateVendors_method(
+                method = entrata_api_client.models.update_vendors_method.updateVendors_method(
                     name = 'updateVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.update_vendors_method_params.updateVendors_method_params(
+                    params = entrata_api_client.models.update_vendors_method_params.updateVendors_method_params(
                         vendor_id = 12345, 
                         name_on_tax_return = 'Legal entity name', 
                         name = 'name', 
@@ -56,12 +56,12 @@ class TestUpdateVendors(unittest.TestCase):
             )
         else:
             return UpdateVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_vendors_method.updateVendors_method(
+                method = entrata_api_client.models.update_vendors_method.updateVendors_method(
                     name = 'updateVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.update_vendors_method_params.updateVendors_method_params(
+                    params = entrata_api_client.models.update_vendors_method_params.updateVendors_method_params(
                         vendor_id = 12345, 
                         name_on_tax_return = 'Legal entity name', 
                         name = 'name', 

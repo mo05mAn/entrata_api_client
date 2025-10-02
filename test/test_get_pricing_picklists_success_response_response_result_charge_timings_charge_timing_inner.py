@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner import GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner import GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner
 
 class TestGetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTim
         model = GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner()
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
                     id = 102, 
                     name = 'Application Completed', )
             )
         else:
             return GetPricingPicklistsSuccessResponseResponseResultChargeTimingsChargeTimingInner(
-                attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
+                attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_timings_charge_timing_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeTimings_chargeTiming_inner__attributes(
                     id = 102, 
                     name = 'Application Completed', ),
         )

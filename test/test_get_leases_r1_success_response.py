@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r1_success_response import GetLeasesR1SuccessResponse
+from entrata_api_client.models.get_leases_r1_success_response import GetLeasesR1SuccessResponse
 
 class TestGetLeasesR1SuccessResponse(unittest.TestCase):
     """GetLeasesR1SuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGetLeasesR1SuccessResponse(unittest.TestCase):
             return GetLeasesR1SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_leases_r1_success_response_result.getLeases_r1_SuccessResponse_result(
-                    leases = openapi_client.models.get_leases_r1_success_response_result_leases.getLeases_r1_SuccessResponse_result_leases(
+                result = entrata_api_client.models.get_leases_r1_success_response_result.getLeases_r1_SuccessResponse_result(
+                    leases = entrata_api_client.models.get_leases_r1_success_response_result_leases.getLeases_r1_SuccessResponse_result_leases(
                         lease = [
-                            openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner(
+                            entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner(
                                 id = '123456', 
                                 lease_status_type_id = '2', 
                                 lease_sub_status = 'Month To Month', 
@@ -61,9 +61,9 @@ class TestGetLeasesR1SuccessResponse(unittest.TestCase):
                                 unit_space_id = '123456', 
                                 space_configuration = 'Private', 
                                 termination_start_date = 'YYYY-MM-DD', 
-                                lease_intervals = openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals(
+                                lease_intervals = entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals(
                                     lease_interval = [
-                                        openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                                        entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                                             id = '123456', 
                                             start_date = 'YYYY-MM-DD', 
                                             end_date = 'YYYY-MM-DD', 
@@ -81,10 +81,10 @@ class TestGetLeasesR1SuccessResponse(unittest.TestCase):
             return GetLeasesR1SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_leases_r1_success_response_result.getLeases_r1_SuccessResponse_result(
-                    leases = openapi_client.models.get_leases_r1_success_response_result_leases.getLeases_r1_SuccessResponse_result_leases(
+                result = entrata_api_client.models.get_leases_r1_success_response_result.getLeases_r1_SuccessResponse_result(
+                    leases = entrata_api_client.models.get_leases_r1_success_response_result_leases.getLeases_r1_SuccessResponse_result_leases(
                         lease = [
-                            openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner(
+                            entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner(
                                 id = '123456', 
                                 lease_status_type_id = '2', 
                                 lease_sub_status = 'Month To Month', 
@@ -105,9 +105,9 @@ class TestGetLeasesR1SuccessResponse(unittest.TestCase):
                                 unit_space_id = '123456', 
                                 space_configuration = 'Private', 
                                 termination_start_date = 'YYYY-MM-DD', 
-                                lease_intervals = openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals(
+                                lease_intervals = entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals(
                                     lease_interval = [
-                                        openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                                        entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                                             id = '123456', 
                                             start_date = 'YYYY-MM-DD', 
                                             end_date = 'YYYY-MM-DD', 

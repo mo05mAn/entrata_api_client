@@ -17,22 +17,22 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_invoices_r1 import GetInvoicesR1
-from openapi_client.models.get_invoices_r2 import GetInvoicesR2
-from openapi_client.models.get_po_receiving_records import GetPoReceivingRecords
-from openapi_client.models.get_purchase_orders import GetPurchaseOrders
-from openapi_client.models.get_tax_form_data import GetTaxFormData
-from openapi_client.models.get_vendor_locations import GetVendorLocations
-from openapi_client.models.get_vendor_pick_lists import GetVendorPickLists
-from openapi_client.models.get_vendors import GetVendors
-from openapi_client.models.mark_invoices_exported import MarkInvoicesExported
-from openapi_client.models.send_invoices_r1 import SendInvoicesR1
-from openapi_client.models.send_invoices_r2 import SendInvoicesR2
-from openapi_client.models.send_purchase_orders import SendPurchaseOrders
-from openapi_client.models.send_vendors import SendVendors
-from openapi_client.models.update_invoices import UpdateInvoices
-from openapi_client.models.update_vendors import UpdateVendors
-from openapi_client.models.void_ap_payments import VoidApPayments
+from entrata_api_client.models.get_invoices_r1 import GetInvoicesR1
+from entrata_api_client.models.get_invoices_r2 import GetInvoicesR2
+from entrata_api_client.models.get_po_receiving_records import GetPoReceivingRecords
+from entrata_api_client.models.get_purchase_orders import GetPurchaseOrders
+from entrata_api_client.models.get_tax_form_data import GetTaxFormData
+from entrata_api_client.models.get_vendor_locations import GetVendorLocations
+from entrata_api_client.models.get_vendor_pick_lists import GetVendorPickLists
+from entrata_api_client.models.get_vendors import GetVendors
+from entrata_api_client.models.mark_invoices_exported import MarkInvoicesExported
+from entrata_api_client.models.send_invoices_r1 import SendInvoicesR1
+from entrata_api_client.models.send_invoices_r2 import SendInvoicesR2
+from entrata_api_client.models.send_purchase_orders import SendPurchaseOrders
+from entrata_api_client.models.send_vendors import SendVendors
+from entrata_api_client.models.update_invoices import UpdateInvoices
+from entrata_api_client.models.update_vendors import UpdateVendors
+from entrata_api_client.models.void_ap_payments import VoidApPayments
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

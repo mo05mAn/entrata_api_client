@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types import GetLeasePickListSuccessResponseResultLeaseFileTypes
+from entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types import GetLeasePickListSuccessResponseResultLeaseFileTypes
 
 class TestGetLeasePickListSuccessResponseResultLeaseFileTypes(unittest.TestCase):
     """GetLeasePickListSuccessResponseResultLeaseFileTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasePickListSuccessResponseResultLeaseFileTypes(unittest.TestCase)
         if include_optional:
             return GetLeasePickListSuccessResponseResultLeaseFileTypes(
                 lease_file_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
                         id = 1, 
                         system_code = 'LEASE', 
                         name = 'Lease Agreement', )
@@ -45,7 +45,7 @@ class TestGetLeasePickListSuccessResponseResultLeaseFileTypes(unittest.TestCase)
         else:
             return GetLeasePickListSuccessResponseResultLeaseFileTypes(
                 lease_file_type = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_lease_file_types_lease_file_type_inner.getLeasePickListSuccessResponse_result_leaseFileTypes_leaseFileType_inner(
                         id = 1, 
                         system_code = 'LEASE', 
                         name = 'Lease Agreement', )

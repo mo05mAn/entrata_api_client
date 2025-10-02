@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags import GetTransactionTagListsSuccessResponseResultTransactionRoutingTags
+from entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags import GetTransactionTagListsSuccessResponseResultTransactionRoutingTags
 
 class TestGetTransactionTagListsSuccessResponseResultTransactionRoutingTags(unittest.TestCase):
     """GetTransactionTagListsSuccessResponseResultTransactionRoutingTags unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetTransactionTagListsSuccessResponseResultTransactionRoutingTags(unit
         if include_optional:
             return GetTransactionTagListsSuccessResponseResultTransactionRoutingTags(
                 transaction_routing_tag = [
-                    openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
+                    entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
                         id = '112', 
                         name = 'Ak Route Tag', 
                         description = 'Ak Route Tag', 
@@ -46,7 +46,7 @@ class TestGetTransactionTagListsSuccessResponseResultTransactionRoutingTags(unit
         else:
             return GetTransactionTagListsSuccessResponseResultTransactionRoutingTags(
                 transaction_routing_tag = [
-                    openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
+                    entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
                         id = '112', 
                         name = 'Ak Route Tag', 
                         description = 'Ak Route Tag', 

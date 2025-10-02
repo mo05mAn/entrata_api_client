@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.delete_property_media_method import DeletePropertyMediaMethod
+from entrata_api_client.models.delete_property_media_method import DeletePropertyMediaMethod
 
 class TestDeletePropertyMediaMethod(unittest.TestCase):
     """DeletePropertyMediaMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestDeletePropertyMediaMethod(unittest.TestCase):
             return DeletePropertyMediaMethod(
                 name = 'deletePropertyMedia',
                 version = 'r1',
-                params = openapi_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
+                params = entrata_api_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
                     property_id = '999999', 
                     id = '555555', )
             )
@@ -45,7 +45,7 @@ class TestDeletePropertyMediaMethod(unittest.TestCase):
             return DeletePropertyMediaMethod(
                 name = 'deletePropertyMedia',
                 version = 'r1',
-                params = openapi_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
+                params = entrata_api_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
                     property_id = '999999', 
                     id = '555555', ),
         )

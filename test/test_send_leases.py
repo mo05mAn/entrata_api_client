@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leases import SendLeases
+from entrata_api_client.models.send_leases import SendLeases
 
 class TestSendLeases(unittest.TestCase):
     """SendLeases unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendLeases(unittest.TestCase):
         model = SendLeases()
         if include_optional:
             return SendLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_leases_method.sendLeases_method(
+                method = entrata_api_client.models.send_leases_method.sendLeases_method(
                     name = 'sendLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.send_leases_method_params.sendLeases_method_params(
+                    params = entrata_api_client.models.send_leases_method_params.sendLeases_method_params(
                         property_id = 123456, 
                         lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         lease_end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -68,12 +68,12 @@ class TestSendLeases(unittest.TestCase):
             )
         else:
             return SendLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_leases_method.sendLeases_method(
+                method = entrata_api_client.models.send_leases_method.sendLeases_method(
                     name = 'sendLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.send_leases_method_params.sendLeases_method_params(
+                    params = entrata_api_client.models.send_leases_method_params.sendLeases_method_params(
                         property_id = 123456, 
                         lease_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                         lease_end_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

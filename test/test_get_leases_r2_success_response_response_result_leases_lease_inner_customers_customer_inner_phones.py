@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones
+from entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones
 
 class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones(unittest.TestCase):
     """GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCusto
         if include_optional:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones(
                 phone = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                         phone_type_name = 'Primary', 
                         phone_type = 'personal', 
                         phone_number = '+1 4564565464', 
@@ -46,7 +46,7 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCusto
         else:
             return GetLeasesR2SuccessResponseResponseResultLeasesLeaseInnerCustomersCustomerInnerPhones(
                 phone = [
-                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                         phone_type_name = 'Primary', 
                         phone_type = 'personal', 
                         phone_number = '+1 4564565464', 

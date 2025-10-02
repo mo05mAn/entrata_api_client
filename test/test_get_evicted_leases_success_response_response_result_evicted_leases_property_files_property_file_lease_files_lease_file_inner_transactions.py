@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions
+from entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions
 
 class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions(unittest.TestCase):
     """GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
         if include_optional:
             return GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions(
                 transaction = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
                         transaction_id = '145837339', 
                         transaction_date = '06/01/2017', 
                         description = 'Application Fee - Monthly Fee Posted from 06/01/2017 to 06/30/2017', 
@@ -48,7 +48,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
         else:
             return GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTransactions(
                 transaction = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_transactions_transaction_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_transactions_transaction_inner(
                         transaction_id = '145837339', 
                         transaction_date = '06/01/2017', 
                         description = 'Application Fee - Monthly Fee Posted from 06/01/2017 to 06/30/2017', 

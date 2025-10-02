@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.leads_api import LeadsApi
+from entrata_api_client.api.leads_api import LeadsApi
 
 
 class TestLeadsApi(unittest.TestCase):

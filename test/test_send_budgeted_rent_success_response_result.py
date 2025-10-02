@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgeted_rent_success_response_result import SendBudgetedRentSuccessResponseResult
+from entrata_api_client.models.send_budgeted_rent_success_response_result import SendBudgetedRentSuccessResponseResult
 
 class TestSendBudgetedRentSuccessResponseResult(unittest.TestCase):
     """SendBudgetedRentSuccessResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendBudgetedRentSuccessResponseResult(unittest.TestCase):
         if include_optional:
             return SendBudgetedRentSuccessResponseResult(
                 pricing = [
-                    openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
+                    entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
                         node = 1, 
                         status = 'Success', 
                         message = 'Budgeted rent updated successfully.', )

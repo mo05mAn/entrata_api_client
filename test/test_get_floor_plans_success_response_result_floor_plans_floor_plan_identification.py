@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification(un
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanIdentification(
                 id_value = '456789',
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_identification__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Identification__attributes(
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
                     id_type = 'Floorplan ID', )

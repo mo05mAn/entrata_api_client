@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerEventIDIdentificationInner
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerEventIDIdentificationInner
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerEventIDIdentificationInner(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerEventIDIdentificationInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEventsEventInnerEventIDIdentificationInner(
                 id_value = '147128113',
-                attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner__attributes(
                     id_type = 'Event Id', 
                     id_scope_type = 'sender', )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_reservable_amenities_success_response_result import GetReservableAmenitiesSuccessResponseResult
+from entrata_api_client.models.get_reservable_amenities_success_response_result import GetReservableAmenitiesSuccessResponseResult
 
 class TestGetReservableAmenitiesSuccessResponseResult(unittest.TestCase):
     """GetReservableAmenitiesSuccessResponseResult unit test stubs"""
@@ -35,17 +35,17 @@ class TestGetReservableAmenitiesSuccessResponseResult(unittest.TestCase):
         model = GetReservableAmenitiesSuccessResponseResult()
         if include_optional:
             return GetReservableAmenitiesSuccessResponseResult(
-                amenities = openapi_client.models.get_reservable_amenities_success_response_result_amenities.getReservableAmenitiesSuccessResponse_result_amenities(
+                amenities = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities.getReservableAmenitiesSuccessResponse_result_amenities(
                     amenity = [
-                        openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner(
+                        entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner(
                             id = '123456', 
                             name = 'Tennis Court', 
                             description = 'Beautiful see on the telly across the pond.', 
                             reserved_by_day = '0', 
                             block_hours_by_day = '1', 
-                            block_days = openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays(
+                            block_days = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays(
                                 block_day = [
-                                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
+                                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
                                         day = 'Sunday', 
                                         block_hours = '12am,1am,2am,11pm', )
                                     ], ), 
@@ -54,9 +54,9 @@ class TestGetReservableAmenitiesSuccessResponseResult(unittest.TestCase):
                             is_approval_required = '0', 
                             is_resident_visible = '1', 
                             is_allow_future_resident = '0', 
-                            rates = openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates(
+                            rates = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates(
                                 rate = [
-                                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
+                                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
                                         ar_code_id = '1234', 
                                         ar_code_type_id = '7', 
                                         charge_type_id = '410', 
@@ -68,17 +68,17 @@ class TestGetReservableAmenitiesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetReservableAmenitiesSuccessResponseResult(
-                amenities = openapi_client.models.get_reservable_amenities_success_response_result_amenities.getReservableAmenitiesSuccessResponse_result_amenities(
+                amenities = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities.getReservableAmenitiesSuccessResponse_result_amenities(
                     amenity = [
-                        openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner(
+                        entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner(
                             id = '123456', 
                             name = 'Tennis Court', 
                             description = 'Beautiful see on the telly across the pond.', 
                             reserved_by_day = '0', 
                             block_hours_by_day = '1', 
-                            block_days = openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays(
+                            block_days = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays(
                                 block_day = [
-                                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
+                                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_block_days_block_day_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_blockDays_blockDay_inner(
                                         day = 'Sunday', 
                                         block_hours = '12am,1am,2am,11pm', )
                                     ], ), 
@@ -87,9 +87,9 @@ class TestGetReservableAmenitiesSuccessResponseResult(unittest.TestCase):
                             is_approval_required = '0', 
                             is_resident_visible = '1', 
                             is_allow_future_resident = '0', 
-                            rates = openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates(
+                            rates = entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates(
                                 rate = [
-                                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
+                                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
                                         ar_code_id = '1234', 
                                         ar_code_type_id = '7', 
                                         charge_type_id = '410', 

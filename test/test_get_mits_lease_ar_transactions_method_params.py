@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_method_params import GetMitsLeaseArTransactionsMethodParams
+from entrata_api_client.models.get_mits_lease_ar_transactions_method_params import GetMitsLeaseArTransactionsMethodParams
 
 class TestGetMitsLeaseArTransactionsMethodParams(unittest.TestCase):
     """GetMitsLeaseArTransactionsMethodParams unit test stubs"""

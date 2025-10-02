@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_media_success_response import SendPropertyMediaSuccessResponse
+from entrata_api_client.models.send_property_media_success_response import SendPropertyMediaSuccessResponse
 
 class TestSendPropertyMediaSuccessResponse(unittest.TestCase):
     """SendPropertyMediaSuccessResponse unit test stubs"""
@@ -35,12 +35,12 @@ class TestSendPropertyMediaSuccessResponse(unittest.TestCase):
         model = SendPropertyMediaSuccessResponse()
         if include_optional:
             return SendPropertyMediaSuccessResponse(
-                response = openapi_client.models.send_property_media_success_response_response.sendPropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.send_property_media_success_response_response.sendPropertyMediaSuccessResponse_response(
                     request_id = '1001', 
                     code = 200, 
-                    result = openapi_client.models.send_property_media_success_response_response_result.sendPropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_property_media_success_response_response_result.sendPropertyMediaSuccessResponse_response_result(
                         media = [
-                            openapi_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
+                            entrata_api_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
                                 node = 1, 
                                 id = 200001, 
                                 status = 'Success', 
@@ -49,12 +49,12 @@ class TestSendPropertyMediaSuccessResponse(unittest.TestCase):
             )
         else:
             return SendPropertyMediaSuccessResponse(
-                response = openapi_client.models.send_property_media_success_response_response.sendPropertyMediaSuccessResponse_response(
+                response = entrata_api_client.models.send_property_media_success_response_response.sendPropertyMediaSuccessResponse_response(
                     request_id = '1001', 
                     code = 200, 
-                    result = openapi_client.models.send_property_media_success_response_response_result.sendPropertyMediaSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_property_media_success_response_response_result.sendPropertyMediaSuccessResponse_response_result(
                         media = [
-                            openapi_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
+                            entrata_api_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
                                 node = 1, 
                                 id = 200001, 
                                 status = 'Success', 

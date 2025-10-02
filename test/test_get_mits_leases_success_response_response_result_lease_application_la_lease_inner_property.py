@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
         model = GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty()
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Identification(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
                     id_value = '54613', ),
                 marketing_name = 'Elm Grove - OLD',
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Address(
                     address_type = 'other', 
                     address = '2921 Sycamore Springs Drive', 
                     city = 'Kingwood', 
@@ -51,13 +51,13 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInner
             )
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationLALeaseInnerProperty(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Identification(
                     id_type = 'Property ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
                     id_value = '54613', ),
                 marketing_name = 'Elm Grove - OLD',
-                address = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Address(
+                address = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_property_address.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Property_Address(
                     address_type = 'other', 
                     address = '2921 Sycamore Springs Drive', 
                     city = 'Kingwood', 

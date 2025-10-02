@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_success_response import InsertPricingR2SuccessResponse
+from entrata_api_client.models.insert_pricing_r2_success_response import InsertPricingR2SuccessResponse
 
 class TestInsertPricingR2SuccessResponse(unittest.TestCase):
     """InsertPricingR2SuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestInsertPricingR2SuccessResponse(unittest.TestCase):
             return InsertPricingR2SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.insert_pricing_r2_success_response_result.insertPricing_r2SuccessResponse_result(
+                result = entrata_api_client.models.insert_pricing_r2_success_response_result.insertPricing_r2SuccessResponse_result(
                     pricing = [
-                        openapi_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
                             node = '1', 
                             reference_id = '391937229', 
                             status = 'Success', 
@@ -51,9 +51,9 @@ class TestInsertPricingR2SuccessResponse(unittest.TestCase):
             return InsertPricingR2SuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.insert_pricing_r2_success_response_result.insertPricing_r2SuccessResponse_result(
+                result = entrata_api_client.models.insert_pricing_r2_success_response_result.insertPricing_r2SuccessResponse_result(
                     pricing = [
-                        openapi_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.insert_pricing_r2_success_response_result_pricing_inner.insertPricing_r2SuccessResponse_result_pricing_inner(
                             node = '1', 
                             reference_id = '391937229', 
                             status = 'Success', 

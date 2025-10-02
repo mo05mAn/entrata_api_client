@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
 
 class TestRequestBodyAuth(unittest.TestCase):
     """RequestBodyAuth unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_orders import GetWorkOrders
+from entrata_api_client.models.get_work_orders import GetWorkOrders
 
 class TestGetWorkOrders(unittest.TestCase):
     """GetWorkOrders unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetWorkOrders(unittest.TestCase):
         model = GetWorkOrders()
         if include_optional:
             return GetWorkOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_work_orders_method.getWorkOrders_method(
+                method = entrata_api_client.models.get_work_orders_method.getWorkOrders_method(
                     name = 'getWorkOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.get_work_orders_method_params.getWorkOrders_method_params(
+                    params = entrata_api_client.models.get_work_orders_method_params.getWorkOrders_method_params(
                         property_id = 123456, 
                         work_order_id = 123456, 
                         property_unit_id = 123456, 
@@ -64,12 +64,12 @@ class TestGetWorkOrders(unittest.TestCase):
             )
         else:
             return GetWorkOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_work_orders_method.getWorkOrders_method(
+                method = entrata_api_client.models.get_work_orders_method.getWorkOrders_method(
                     name = 'getWorkOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.get_work_orders_method_params.getWorkOrders_method_params(
+                    params = entrata_api_client.models.get_work_orders_method_params.getWorkOrders_method_params(
                         property_id = 123456, 
                         work_order_id = 123456, 
                         property_unit_id = 123456, 

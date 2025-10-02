@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsTenantInner
+from entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsTenantInner
 
 class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsTenantInner(unittest.TestCase):
     """GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileLeaseFilesLeaseFileInnerTenantsTenantInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                 last_name = 'Lwersafd',
                 customer_type = 'Primary',
                 phone = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
                         phone_type = 'cell', 
                         phone_number = '2133211231', )
                     ],
@@ -54,7 +54,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                 last_name = 'Lwersafd',
                 customer_type = 'Primary',
                 phone = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_lease_files_lease_file_inner_tenants_tenant_inner_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_leaseFiles_leaseFile_inner_tenants_tenant_inner_phone_inner(
                         phone_type = 'cell', 
                         phone_number = '2133211231', )
                     ],

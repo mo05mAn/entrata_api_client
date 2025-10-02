@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space import GetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace
+from entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space import GetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace
 from typing import Optional, Set
 from typing_extensions import Self
 

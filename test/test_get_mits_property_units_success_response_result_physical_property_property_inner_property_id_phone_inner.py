@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyIDPhoneInner
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyIDPhoneInner
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyIDPhoneInner(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyIDPhoneInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInner
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyIDPhoneInner(
                 phone_description = 'Office',
                 phone_number = '190018000',
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner__attributes(
                     phone_type = 'office', )
             )
         else:

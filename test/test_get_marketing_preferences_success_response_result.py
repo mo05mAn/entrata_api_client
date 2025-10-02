@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preferences_success_response_result import GetMarketingPreferencesSuccessResponseResult
+from entrata_api_client.models.get_marketing_preferences_success_response_result import GetMarketingPreferencesSuccessResponseResult
 
 class TestGetMarketingPreferencesSuccessResponseResult(unittest.TestCase):
     """GetMarketingPreferencesSuccessResponseResult unit test stubs"""
@@ -36,10 +36,10 @@ class TestGetMarketingPreferencesSuccessResponseResult(unittest.TestCase):
         if include_optional:
             return GetMarketingPreferencesSuccessResponseResult(
                 customers = [
-                    openapi_client.models.get_marketing_preferences_success_response_result_customers_inner.getMarketingPreferencesSuccessResponse_result_customers_inner(
+                    entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner.getMarketingPreferencesSuccessResponse_result_customers_inner(
                         customer_id = 29693427, 
                         preferences = [
-                            openapi_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
+                            entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
                                 communication_channel = 'email', 
                                 recipient_type = 'LEAD', 
                                 recipient_type_id = '1', 
@@ -52,10 +52,10 @@ class TestGetMarketingPreferencesSuccessResponseResult(unittest.TestCase):
         else:
             return GetMarketingPreferencesSuccessResponseResult(
                 customers = [
-                    openapi_client.models.get_marketing_preferences_success_response_result_customers_inner.getMarketingPreferencesSuccessResponse_result_customers_inner(
+                    entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner.getMarketingPreferencesSuccessResponse_result_customers_inner(
                         customer_id = 29693427, 
                         preferences = [
-                            openapi_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
+                            entrata_api_client.models.get_marketing_preferences_success_response_result_customers_inner_preferences_inner.getMarketingPreferencesSuccessResponse_result_customers_inner_preferences_inner(
                                 communication_channel = 'email', 
                                 recipient_type = 'LEAD', 
                                 recipient_type_id = '1', 

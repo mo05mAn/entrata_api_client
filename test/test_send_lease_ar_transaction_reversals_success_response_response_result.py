@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result import SendLeaseArTransactionReversalsSuccessResponseResponseResult
+from entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result import SendLeaseArTransactionReversalsSuccessResponseResponseResult
 
 class TestSendLeaseArTransactionReversalsSuccessResponseResponseResult(unittest.TestCase):
     """SendLeaseArTransactionReversalsSuccessResponseResponseResult unit test stubs"""
@@ -35,10 +35,10 @@ class TestSendLeaseArTransactionReversalsSuccessResponseResponseResult(unittest.
         model = SendLeaseArTransactionReversalsSuccessResponseResponseResult()
         if include_optional:
             return SendLeaseArTransactionReversalsSuccessResponseResponseResult(
-                transactions = openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions(
+                transactions = entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions(
                     transaction = [
-                        openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner(
-                            @attributes = openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                        entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner(
+                            @attributes = entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                                 reference_id = '123456', 
                                 transaction_id = '123456', 
                                 status = 'success', 
@@ -47,10 +47,10 @@ class TestSendLeaseArTransactionReversalsSuccessResponseResponseResult(unittest.
             )
         else:
             return SendLeaseArTransactionReversalsSuccessResponseResponseResult(
-                transactions = openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions(
+                transactions = entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions(
                     transaction = [
-                        openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner(
-                            @attributes = openapi_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                        entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner(
+                            @attributes = entrata_api_client.models.send_lease_ar_transaction_reversals_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionReversalsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                                 reference_id = '123456', 
                                 transaction_id = '123456', 
                                 status = 'success', 

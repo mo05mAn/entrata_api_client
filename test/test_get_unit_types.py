@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types import GetUnitTypes
+from entrata_api_client.models.get_unit_types import GetUnitTypes
 
 class TestGetUnitTypes(unittest.TestCase):
     """GetUnitTypes unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetUnitTypes(unittest.TestCase):
         model = GetUnitTypes()
         if include_optional:
             return GetUnitTypes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_unit_types_method.getUnitTypes_method(
+                method = entrata_api_client.models.get_unit_types_method.getUnitTypes_method(
                     name = 'getUnitTypes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_unit_types_method_params.getUnitTypes_method_params(
+                    params = entrata_api_client.models.get_unit_types_method_params.getUnitTypes_method_params(
                         property_id = 12345, ), )
             )
         else:
             return GetUnitTypes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_unit_types_method.getUnitTypes_method(
+                method = entrata_api_client.models.get_unit_types_method.getUnitTypes_method(
                     name = 'getUnitTypes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_unit_types_method_params.getUnitTypes_method_params(
+                    params = entrata_api_client.models.get_unit_types_method_params.getUnitTypes_method_params(
                         property_id = 12345, ), ),
         )
         """

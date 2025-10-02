@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType
+from entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type import GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType
 
 class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType(unittest.TestCase):
     """GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentif
         model = GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType()
         if include_optional:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
                     id_type = 'unitTypeId', ),
                 id_value = '0000'
             )
         else:
             return GetUnitTypesSuccessResponseResponseResultUnitTypesUnitTypeInnerIdentificationType(
-                attributes = openapi_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
+                attributes = entrata_api_client.models.get_unit_types_success_response_response_result_unit_types_unit_type_inner_identification_type__attributes.getUnitTypesSuccessResponse_response_result_unitTypes_unitType_inner_identificationType__attributes(
                     id_type = 'unitTypeId', ),
                 id_value = '0000',
         )

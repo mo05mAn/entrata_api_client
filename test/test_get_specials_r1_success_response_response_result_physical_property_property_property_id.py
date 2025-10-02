@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID
+from entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID
 
 class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyProp
         model = GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID(
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
                     id_value = 21442, 
                     organization_name = 'DB Xento Systems Pvt. Ltd.', ),
                 marketing_name = 'Marketing Name',
@@ -43,7 +43,7 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyProp
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyPropertyID(
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_property_id_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_PropertyID_Identification(
                     id_value = 21442, 
                     organization_name = 'DB Xento Systems Pvt. Ltd.', ),
                 marketing_name = 'Marketing Name',

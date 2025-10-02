@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.mark_invoices_exported_method_params import MarkInvoicesExportedMethodParams
+from entrata_api_client.models.mark_invoices_exported_method_params import MarkInvoicesExportedMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

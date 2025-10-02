@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.appinfo_api import AppinfoApi
+from entrata_api_client.api.appinfo_api import AppinfoApi
 
 
 class TestAppinfoApi(unittest.TestCase):

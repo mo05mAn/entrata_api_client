@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r1_success_response_result import GetInvoicesR1SuccessResponseResult
+from entrata_api_client.models.get_invoices_r1_success_response_result import GetInvoicesR1SuccessResponseResult
 
 class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
     """GetInvoicesR1SuccessResponseResult unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
         model = GetInvoicesR1SuccessResponseResult()
         if include_optional:
             return GetInvoicesR1SuccessResponseResult(
-                invoices = openapi_client.models.get_invoices_r1_success_response_result_invoices.getInvoices_r1_SuccessResponse_result_invoices(
-                    invoice = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice.getInvoices_r1_SuccessResponse_result_invoices_invoice(
+                invoices = entrata_api_client.models.get_invoices_r1_success_response_result_invoices.getInvoices_r1_SuccessResponse_result_invoices(
+                    invoice = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice.getInvoices_r1_SuccessResponse_result_invoices_invoice(
                         id = '623413', 
                         is_on_hold = '0', 
                         invoice_number = '55555', 
                         date = '10/09/2015', 
                         post_month = '10/01/2015', 
                         due_date = '10/30/2015', 
-                        remittance = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_remittance.getInvoices_r1_SuccessResponse_result_invoices_invoice_remittance(
+                        remittance = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_remittance.getInvoices_r1_SuccessResponse_result_invoices_invoice_remittance(
                             id = 'XXXX', 
                             name = 'Carson Check Payment', 
                             ap_payment_type_id = 'X', 
@@ -56,19 +56,19 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
                             city = 'Carson', 
                             state_code = 'CA', 
                             postal_code = 'XXXXX', ), 
-                        vendor = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor(
+                        vendor = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor(
                             id = '18418', 
                             name = 'Test, Corporate', 
                             location_name = 'Corporate', 
-                            address = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
+                            address = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
                                 street_line1 = 'streetLine1', 
                                 street_line2 = 'streetLine2', 
                                 city = 'city', 
                                 state_code = 'CA', 
                                 postal_code = 'XXXXX', ), ), 
-                        invoice_payments = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments(
+                        invoice_payments = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments(
                             invoice_payment = [
-                                openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments_invoice_payment_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments_invoicePayment_inner(
+                                entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments_invoice_payment_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments_invoicePayment_inner(
                                     payment_id = 'xxxxx', 
                                     payment_bank_id = 'XXXX', 
                                     payment_bank_name = 'Wells Fargo', 
@@ -90,15 +90,15 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
                         amount_due = '$0.00', 
                         note = 'test', 
                         is_posted = 'true', 
-                        line_items = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems(
+                        line_items = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems(
                             lineitem = [
-                                openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner(
+                                entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner(
                                     id = '11648172', 
-                                    property = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
+                                    property = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
                                         id = '19463', 
                                         name = '22 Exchange', 
                                         lookup_code = 'AK lookUp 22 Exchange', ), 
-                                    gl_account = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
+                                    gl_account = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
                                         id = '295527', 
                                         name = 'TestCashPositionExpenseAccount', 
                                         account_number = '0000', ), 
@@ -114,15 +114,15 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetInvoicesR1SuccessResponseResult(
-                invoices = openapi_client.models.get_invoices_r1_success_response_result_invoices.getInvoices_r1_SuccessResponse_result_invoices(
-                    invoice = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice.getInvoices_r1_SuccessResponse_result_invoices_invoice(
+                invoices = entrata_api_client.models.get_invoices_r1_success_response_result_invoices.getInvoices_r1_SuccessResponse_result_invoices(
+                    invoice = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice.getInvoices_r1_SuccessResponse_result_invoices_invoice(
                         id = '623413', 
                         is_on_hold = '0', 
                         invoice_number = '55555', 
                         date = '10/09/2015', 
                         post_month = '10/01/2015', 
                         due_date = '10/30/2015', 
-                        remittance = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_remittance.getInvoices_r1_SuccessResponse_result_invoices_invoice_remittance(
+                        remittance = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_remittance.getInvoices_r1_SuccessResponse_result_invoices_invoice_remittance(
                             id = 'XXXX', 
                             name = 'Carson Check Payment', 
                             ap_payment_type_id = 'X', 
@@ -135,19 +135,19 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
                             city = 'Carson', 
                             state_code = 'CA', 
                             postal_code = 'XXXXX', ), 
-                        vendor = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor(
+                        vendor = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor(
                             id = '18418', 
                             name = 'Test, Corporate', 
                             location_name = 'Corporate', 
-                            address = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
+                            address = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
                                 street_line1 = 'streetLine1', 
                                 street_line2 = 'streetLine2', 
                                 city = 'city', 
                                 state_code = 'CA', 
                                 postal_code = 'XXXXX', ), ), 
-                        invoice_payments = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments(
+                        invoice_payments = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments(
                             invoice_payment = [
-                                openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments_invoice_payment_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments_invoicePayment_inner(
+                                entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_invoice_payments_invoice_payment_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_invoicePayments_invoicePayment_inner(
                                     payment_id = 'xxxxx', 
                                     payment_bank_id = 'XXXX', 
                                     payment_bank_name = 'Wells Fargo', 
@@ -169,15 +169,15 @@ class TestGetInvoicesR1SuccessResponseResult(unittest.TestCase):
                         amount_due = '$0.00', 
                         note = 'test', 
                         is_posted = 'true', 
-                        line_items = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems(
+                        line_items = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems(
                             lineitem = [
-                                openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner(
+                                entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner(
                                     id = '11648172', 
-                                    property = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
+                                    property = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_property.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_property(
                                         id = '19463', 
                                         name = '22 Exchange', 
                                         lookup_code = 'AK lookUp 22 Exchange', ), 
-                                    gl_account = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
+                                    gl_account = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_line_items_lineitem_inner_gl_account.getInvoices_r1_SuccessResponse_result_invoices_invoice_lineItems_lineitem_inner_glAccount(
                                         id = '295527', 
                                         name = 'TestCashPositionExpenseAccount', 
                                         account_number = '0000', ), 

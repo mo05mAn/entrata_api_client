@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r2_method import UpdateLeadsR2Method
+from entrata_api_client.models.update_leads_r2_method import UpdateLeadsR2Method
 
 class TestUpdateLeadsR2Method(unittest.TestCase):
     """UpdateLeadsR2Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateLeadsR2Method(unittest.TestCase):
             return UpdateLeadsR2Method(
                 name = '',
                 version = 'r2',
-                params = openapi_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
+                params = entrata_api_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
                     property_id = 123456, 
                     application_id = 123, 
                     event_id = 123, 

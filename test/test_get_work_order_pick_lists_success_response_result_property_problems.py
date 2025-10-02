@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems import GetWorkOrderPickListsSuccessResponseResultPropertyProblems
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems import GetWorkOrderPickListsSuccessResponseResultPropertyProblems
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyProblems(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyProblems unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyProblems(unittest.Te
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyProblems(
                 problem = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
                         id = '67718', 
                         name = 'Wet Floor', 
                         is_resident_portal_enabled = '1', 
-                        sub_maintenance_problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
+                        sub_maintenance_problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
                             sub_maintenance_problem = [
-                                openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
+                                entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
                                     id = '569575', )
                                 ], ), )
                     ]
@@ -50,13 +50,13 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyProblems(unittest.Te
         else:
             return GetWorkOrderPickListsSuccessResponseResultPropertyProblems(
                 problem = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner(
                         id = '67718', 
                         name = 'Wet Floor', 
                         is_resident_portal_enabled = '1', 
-                        sub_maintenance_problems = openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
+                        sub_maintenance_problems = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems(
                             sub_maintenance_problem = [
-                                openapi_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
+                                entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_problems_problem_inner_sub_maintenance_problems_sub_maintenance_problem_inner.getWorkOrderPickListsSuccessResponse_result_Property_Problems_Problem_inner_subMaintenanceProblems_subMaintenanceProblem_inner(
                                     id = '569575', )
                                 ], ), )
                     ],

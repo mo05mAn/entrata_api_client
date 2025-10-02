@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.generate_quotes_success_response_result_quotes_quote_inner import GenerateQuotesSuccessResponseResultQuotesQuoteInner
+from entrata_api_client.models.generate_quotes_success_response_result_quotes_quote_inner import GenerateQuotesSuccessResponseResultQuotesQuoteInner
 
 class TestGenerateQuotesSuccessResponseResultQuotesQuoteInner(unittest.TestCase):
     """GenerateQuotesSuccessResponseResultQuotesQuoteInner unit test stubs"""

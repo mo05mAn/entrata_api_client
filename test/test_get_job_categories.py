@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_categories import GetJobCategories
+from entrata_api_client.models.get_job_categories import GetJobCategories
 
 class TestGetJobCategories(unittest.TestCase):
     """GetJobCategories unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetJobCategories(unittest.TestCase):
         model = GetJobCategories()
         if include_optional:
             return GetJobCategories(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_job_categories_method.getJobCategories_method(
+                method = entrata_api_client.models.get_job_categories_method.getJobCategories_method(
                     name = 'getJobCategories', 
                     version = 'r1', 
-                    params = openapi_client.models.get_job_categories_method_params.getJobCategories_method_params(
+                    params = entrata_api_client.models.get_job_categories_method_params.getJobCategories_method_params(
                         gl_account_ids = 56, ), )
             )
         else:
             return GetJobCategories(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_job_categories_method.getJobCategories_method(
+                method = entrata_api_client.models.get_job_categories_method.getJobCategories_method(
                     name = 'getJobCategories', 
                     version = 'r1', 
-                    params = openapi_client.models.get_job_categories_method_params.getJobCategories_method_params(
+                    params = entrata_api_client.models.get_job_categories_method_params.getJobCategories_method_params(
                         gl_account_ids = 56, ), ),
         )
         """

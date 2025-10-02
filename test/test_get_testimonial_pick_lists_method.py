@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_testimonial_pick_lists_method import GetTestimonialPickListsMethod
+from entrata_api_client.models.get_testimonial_pick_lists_method import GetTestimonialPickListsMethod
 
 class TestGetTestimonialPickListsMethod(unittest.TestCase):
     """GetTestimonialPickListsMethod unit test stubs"""

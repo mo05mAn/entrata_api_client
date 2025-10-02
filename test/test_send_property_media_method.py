@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_media_method import SendPropertyMediaMethod
+from entrata_api_client.models.send_property_media_method import SendPropertyMediaMethod
 
 class TestSendPropertyMediaMethod(unittest.TestCase):
     """SendPropertyMediaMethod unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendPropertyMediaMethod(unittest.TestCase):
         if include_optional:
             return SendPropertyMediaMethod(
                 name = 'sendPropertyMedia',
-                params = openapi_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
+                params = entrata_api_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
                     property_id = '123456', 
                     media = [
                         null
@@ -45,7 +45,7 @@ class TestSendPropertyMediaMethod(unittest.TestCase):
         else:
             return SendPropertyMediaMethod(
                 name = 'sendPropertyMedia',
-                params = openapi_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
+                params = entrata_api_client.models.send_property_media_method_params.sendPropertyMedia_method_params(
                     property_id = '123456', 
                     media = [
                         null

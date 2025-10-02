@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner import GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner
+from entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner import GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner
 
 class TestGetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner(unittest.TestCase):
     """GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner(unit
         model = GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner()
         if include_optional:
             return GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner(
-                attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
+                attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
                     name = 'Cat', 
                     id = 3467, )
             )
         else:
             return GetPetTypesSuccessResponseResultPetTypesPropertyValuePetTypeInner(
-                attributes = openapi_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
+                attributes = entrata_api_client.models.get_pet_types_success_response_result_pet_types_property_value_pet_type_inner__attributes.getPetTypesSuccessResponse_result_PetTypes_Property_value_PetType_inner__attributes(
                     name = 'Cat', 
                     id = 3467, ),
         )

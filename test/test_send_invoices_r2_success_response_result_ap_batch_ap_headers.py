@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r2_success_response_result_ap_batch_ap_headers import SendInvoicesR2SuccessResponseResultApBatchApHeaders
+from entrata_api_client.models.send_invoices_r2_success_response_result_ap_batch_ap_headers import SendInvoicesR2SuccessResponseResultApBatchApHeaders
 
 class TestSendInvoicesR2SuccessResponseResultApBatchApHeaders(unittest.TestCase):
     """SendInvoicesR2SuccessResponseResultApBatchApHeaders unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendInvoicesR2SuccessResponseResultApBatchApHeaders(unittest.TestCase)
         if include_optional:
             return SendInvoicesR2SuccessResponseResultApBatchApHeaders(
                 ap_header = [
-                    openapi_client.models.send_invoices_r2_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r2_SuccessResponse_result_apBatch_apHeaders_apHeader_inner(
+                    entrata_api_client.models.send_invoices_r2_success_response_result_ap_batch_ap_headers_ap_header_inner.sendInvoices_r2_SuccessResponse_result_apBatch_apHeaders_apHeader_inner(
                         node = 1, 
                         invoice_number = '123456', 
                         ap_header_id = 111111, 

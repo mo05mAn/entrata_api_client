@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
                     address_type = 'other', ),
                 description = 'Primary address',
                 address = '4300 Pennsylvania Ave, street, road',
@@ -47,7 +47,7 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyAddressInner(
-                attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
                     address_type = 'other', ),
                 description = 'Primary address',
                 address = '4300 Pennsylvania Ave, street, road',

@@ -17,33 +17,33 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.cancel_lease import CancelLease
-from openapi_client.models.get_evicted_leases import GetEvictedLeases
-from openapi_client.models.get_expiring_leases import GetExpiringLeases
-from openapi_client.models.get_lease_activities import GetLeaseActivities
-from openapi_client.models.get_lease_details_r1 import GetLeaseDetailsR1
-from openapi_client.models.get_lease_details_r2 import GetLeaseDetailsR2
-from openapi_client.models.get_lease_documents import GetLeaseDocuments
-from openapi_client.models.get_lease_documents_list import GetLeaseDocumentsList
-from openapi_client.models.get_lease_pick_list import GetLeasePickList
-from openapi_client.models.get_leases_r1 import GetLeasesR1
-from openapi_client.models.get_leases_r2 import GetLeasesR2
-from openapi_client.models.get_mits_collections import GetMitsCollections
-from openapi_client.models.get_mits_leases import GetMitsLeases
-from openapi_client.models.get_parcel_alerts import GetParcelAlerts
-from openapi_client.models.get_renters_insurance_policies import GetRentersInsurancePolicies
-from openapi_client.models.move_in_lease import MoveInLease
-from openapi_client.models.move_out_lease import MoveOutLease
-from openapi_client.models.on_notice_lease import OnNoticeLease
-from openapi_client.models.send_lease_activities import SendLeaseActivities
-from openapi_client.models.send_leases import SendLeases
-from openapi_client.models.send_renters_insurance_policies_r1 import SendRentersInsurancePoliciesR1
-from openapi_client.models.send_renters_insurance_policies_r2 import SendRentersInsurancePoliciesR2
-from openapi_client.models.send_roommate_groups_r2 import SendRoommateGroupsR2
-from openapi_client.models.send_scheduled_charges import SendScheduledCharges
-from openapi_client.models.update_lease import UpdateLease
-from openapi_client.models.update_scheduled_charges_r1 import UpdateScheduledChargesR1
-from openapi_client.models.update_scheduled_charges_r2 import UpdateScheduledChargesR2
+from entrata_api_client.models.cancel_lease import CancelLease
+from entrata_api_client.models.get_evicted_leases import GetEvictedLeases
+from entrata_api_client.models.get_expiring_leases import GetExpiringLeases
+from entrata_api_client.models.get_lease_activities import GetLeaseActivities
+from entrata_api_client.models.get_lease_details_r1 import GetLeaseDetailsR1
+from entrata_api_client.models.get_lease_details_r2 import GetLeaseDetailsR2
+from entrata_api_client.models.get_lease_documents import GetLeaseDocuments
+from entrata_api_client.models.get_lease_documents_list import GetLeaseDocumentsList
+from entrata_api_client.models.get_lease_pick_list import GetLeasePickList
+from entrata_api_client.models.get_leases_r1 import GetLeasesR1
+from entrata_api_client.models.get_leases_r2 import GetLeasesR2
+from entrata_api_client.models.get_mits_collections import GetMitsCollections
+from entrata_api_client.models.get_mits_leases import GetMitsLeases
+from entrata_api_client.models.get_parcel_alerts import GetParcelAlerts
+from entrata_api_client.models.get_renters_insurance_policies import GetRentersInsurancePolicies
+from entrata_api_client.models.move_in_lease import MoveInLease
+from entrata_api_client.models.move_out_lease import MoveOutLease
+from entrata_api_client.models.on_notice_lease import OnNoticeLease
+from entrata_api_client.models.send_lease_activities import SendLeaseActivities
+from entrata_api_client.models.send_leases import SendLeases
+from entrata_api_client.models.send_renters_insurance_policies_r1 import SendRentersInsurancePoliciesR1
+from entrata_api_client.models.send_renters_insurance_policies_r2 import SendRentersInsurancePoliciesR2
+from entrata_api_client.models.send_roommate_groups_r2 import SendRoommateGroupsR2
+from entrata_api_client.models.send_scheduled_charges import SendScheduledCharges
+from entrata_api_client.models.update_lease import UpdateLease
+from entrata_api_client.models.update_scheduled_charges_r1 import UpdateScheduledChargesR1
+from entrata_api_client.models.update_scheduled_charges_r2 import UpdateScheduledChargesR2
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

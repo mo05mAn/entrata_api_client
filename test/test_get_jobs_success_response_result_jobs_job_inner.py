@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_jobs_success_response_result_jobs_job_inner import GetJobsSuccessResponseResultJobsJobInner
+from entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner import GetJobsSuccessResponseResultJobsJobInner
 
 class TestGetJobsSuccessResponseResultJobsJobInner(unittest.TestCase):
     """GetJobsSuccessResponseResultJobsJobInner unit test stubs"""
@@ -47,16 +47,16 @@ class TestGetJobsSuccessResponseResultJobsJobInner(unittest.TestCase):
                 actual_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(),
                 actual_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(),
                 budget_total = '300.00',
-                job_phases = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases.getJobsSuccessResponse_result_jobs_job_inner_jobPhases(
+                job_phases = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases.getJobsSuccessResponse_result_jobs_job_inner_jobPhases(
                     job_phase = [
-                        openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                        entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                             id = '2671', 
                             name = 'Phase 1', 
                             budget = '30.00', )
                         ], ),
-                ap_contracts = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts.getJobsSuccessResponse_result_jobs_job_inner_apContracts(
+                ap_contracts = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts.getJobsSuccessResponse_result_jobs_job_inner_apContracts(
                     ap_contract = [
-                        openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner(
+                        entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner(
                             id = '595', 
                             name = 'test contract 1', 
                             contract_total = '300.00', 
@@ -65,9 +65,9 @@ class TestGetJobsSuccessResponseResultJobsJobInner(unittest.TestCase):
                             planned_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                             actual_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                             actual_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
-                            ap_codes = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes(
+                            ap_codes = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes(
                                 ap_code = [
-                                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
+                                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
                                         id = '179174', 
                                         job_phase_id = '2671', 
                                         gl_account_id = '86985', 
@@ -90,16 +90,16 @@ class TestGetJobsSuccessResponseResultJobsJobInner(unittest.TestCase):
                 actual_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(),
                 actual_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(),
                 budget_total = '300.00',
-                job_phases = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases.getJobsSuccessResponse_result_jobs_job_inner_jobPhases(
+                job_phases = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases.getJobsSuccessResponse_result_jobs_job_inner_jobPhases(
                     job_phase = [
-                        openapi_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                        entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                             id = '2671', 
                             name = 'Phase 1', 
                             budget = '30.00', )
                         ], ),
-                ap_contracts = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts.getJobsSuccessResponse_result_jobs_job_inner_apContracts(
+                ap_contracts = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts.getJobsSuccessResponse_result_jobs_job_inner_apContracts(
                     ap_contract = [
-                        openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner(
+                        entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner(
                             id = '595', 
                             name = 'test contract 1', 
                             contract_total = '300.00', 
@@ -108,9 +108,9 @@ class TestGetJobsSuccessResponseResultJobsJobInner(unittest.TestCase):
                             planned_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                             actual_start_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                             actual_completion_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
-                            ap_codes = openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes(
+                            ap_codes = entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes(
                                 ap_code = [
-                                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
+                                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
                                         id = '179174', 
                                         job_phase_id = '2671', 
                                         gl_account_id = '86985', 

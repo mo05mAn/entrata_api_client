@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_rentable_items import GetRentableItems
+from entrata_api_client.models.get_rentable_items import GetRentableItems
 
 class TestGetRentableItems(unittest.TestCase):
     """GetRentableItems unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetRentableItems(unittest.TestCase):
         model = GetRentableItems()
         if include_optional:
             return GetRentableItems(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_rentable_items_method.getRentableItems_method(
+                method = entrata_api_client.models.get_rentable_items_method.getRentableItems_method(
                     name = 'getRentableItems', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                    params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                         property_id = 12345, ), )
             )
         else:
             return GetRentableItems(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_rentable_items_method.getRentableItems_method(
+                method = entrata_api_client.models.get_rentable_items_method.getRentableItems_method(
                     name = 'getRentableItems', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
+                    params = entrata_api_client.models.get_property_add_ons_method_params.getPropertyAddOns_method_params(
                         property_id = 12345, ), ),
         )
         """

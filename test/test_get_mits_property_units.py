@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units import GetMitsPropertyUnits
+from entrata_api_client.models.get_mits_property_units import GetMitsPropertyUnits
 
 class TestGetMitsPropertyUnits(unittest.TestCase):
     """GetMitsPropertyUnits unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsPropertyUnits(unittest.TestCase):
         model = GetMitsPropertyUnits()
         if include_optional:
             return GetMitsPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_mits_property_units_method.getMitsPropertyUnits_method(
+                method = entrata_api_client.models.get_mits_property_units_method.getMitsPropertyUnits_method(
                     name = 'getMitsPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
+                    params = entrata_api_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
                         property_ids = '12345,5678', 
                         available_units_only = 0, 
                         use_property_preferences = 0, 
@@ -51,12 +51,12 @@ class TestGetMitsPropertyUnits(unittest.TestCase):
             )
         else:
             return GetMitsPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_mits_property_units_method.getMitsPropertyUnits_method(
+                method = entrata_api_client.models.get_mits_property_units_method.getMitsPropertyUnits_method(
                     name = 'getMitsPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
+                    params = entrata_api_client.models.get_mits_property_units_method_params.getMitsPropertyUnits_method_params(
                         property_ids = '12345,5678', 
                         available_units_only = 0, 
                         use_property_preferences = 0, 

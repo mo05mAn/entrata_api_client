@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_budgets_success_response_result_budgets import UpdateBudgetsSuccessResponseResultBudgets
+from entrata_api_client.models.update_budgets_success_response_result_budgets import UpdateBudgetsSuccessResponseResultBudgets
 
 class TestUpdateBudgetsSuccessResponseResultBudgets(unittest.TestCase):
     """UpdateBudgetsSuccessResponseResultBudgets unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateBudgetsSuccessResponseResultBudgets(unittest.TestCase):
         if include_optional:
             return UpdateBudgetsSuccessResponseResultBudgets(
                 budget = [
-                    openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                    entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                         node = '1', 
                         status = 'Success', 
                         message = 'Budget updated successfully.', )
@@ -45,7 +45,7 @@ class TestUpdateBudgetsSuccessResponseResultBudgets(unittest.TestCase):
         else:
             return UpdateBudgetsSuccessResponseResultBudgets(
                 budget = [
-                    openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                    entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                         node = '1', 
                         status = 'Success', 
                         message = 'Budget updated successfully.', )

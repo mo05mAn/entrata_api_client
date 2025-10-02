@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_budgets_success_response_result import UpdateBudgetsSuccessResponseResult
+from entrata_api_client.models.update_budgets_success_response_result import UpdateBudgetsSuccessResponseResult
 
 class TestUpdateBudgetsSuccessResponseResult(unittest.TestCase):
     """UpdateBudgetsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestUpdateBudgetsSuccessResponseResult(unittest.TestCase):
         model = UpdateBudgetsSuccessResponseResult()
         if include_optional:
             return UpdateBudgetsSuccessResponseResult(
-                budgets = openapi_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
+                budgets = entrata_api_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
                     budget = [
-                        openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                        entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                             node = '1', 
                             status = 'Success', 
                             message = 'Budget updated successfully.', )
@@ -45,9 +45,9 @@ class TestUpdateBudgetsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return UpdateBudgetsSuccessResponseResult(
-                budgets = openapi_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
+                budgets = entrata_api_client.models.update_budgets_success_response_result_budgets.updateBudgetsSuccessResponse_result_budgets(
                     budget = [
-                        openapi_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
+                        entrata_api_client.models.update_budgets_success_response_result_budgets_budget_inner.updateBudgetsSuccessResponse_result_budgets_budget_inner(
                             node = '1', 
                             status = 'Success', 
                             message = 'Budget updated successfully.', )

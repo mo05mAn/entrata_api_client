@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner import GetFinancialPickListR2SuccessResponseResultOwnersOwnerInner
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner import GetFinancialPickListR2SuccessResponseResultOwnersOwnerInner
 
 class TestGetFinancialPickListR2SuccessResponseResultOwnersOwnerInner(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultOwnersOwnerInner unit test stubs"""

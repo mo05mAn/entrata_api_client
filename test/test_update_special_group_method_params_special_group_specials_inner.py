@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_special_group_method_params_special_group_specials_inner import UpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner
+from entrata_api_client.models.update_special_group_method_params_special_group_specials_inner import UpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner
 
 class TestUpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner(unittest.TestCase):
     """UpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner unit test stubs"""
@@ -41,7 +41,7 @@ class TestUpdateSpecialGroupMethodParamsSpecialGroupSpecialsInner(unittest.TestC
                 gift_value = '0.00',
                 is_delete = 1,
                 rates = [
-                    openapi_client.models.update_special_group_method_params_special_group_specials_inner_rates_inner.updateSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
+                    entrata_api_client.models.update_special_group_method_params_special_group_specials_inner_rates_inner.updateSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
                         ar_code_id = '444444', 
                         ar_trigger_id = '201', 
                         ar_code_type_id = '2', 

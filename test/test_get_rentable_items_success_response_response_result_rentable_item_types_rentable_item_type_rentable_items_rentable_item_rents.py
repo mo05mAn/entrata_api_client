@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents import GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents
+from entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents import GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents
 
 class TestGetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents(unittest.TestCase):
     """GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetRentableItemsSuccessResponseResponseResultRentableItemTypesRentable
         if include_optional:
             return GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents(
                 rent = [
-                    openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                    entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                         type = 'RIT', 
                         charge_code = 'Rent', 
                         amount = '$100.00', )
@@ -45,7 +45,7 @@ class TestGetRentableItemsSuccessResponseResponseResultRentableItemTypesRentable
         else:
             return GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeRentableItemsRentableItemRents(
                 rent = [
-                    openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                    entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                         type = 'RIT', 
                         charge_code = 'Rent', 
                         amount = '$100.00', )

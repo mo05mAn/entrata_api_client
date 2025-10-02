@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations import GetWorkOrderPickListsSuccessResponseResultPropertyLocations
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations import GetWorkOrderPickListsSuccessResponseResultPropertyLocations
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyLocations(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyLocations unit test stubs"""
@@ -36,14 +36,14 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyLocations(unittest.T
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyLocations(
                 location = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
                         id = '26900', 
                         name = 'Basement', 
                         type = 'Unit', 
                         is_resident_portal_enabled = '0', 
-                        unit_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
+                        unit_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
                             unit_type = [
-                                openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
+                                entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
                                     id = '474887', 
                                     name = '1', )
                                 ], ), )
@@ -52,14 +52,14 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyLocations(unittest.T
         else:
             return GetWorkOrderPickListsSuccessResponseResultPropertyLocations(
                 location = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner(
                         id = '26900', 
                         name = 'Basement', 
                         type = 'Unit', 
                         is_resident_portal_enabled = '0', 
-                        unit_types = openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
+                        unit_types = entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes(
                             unit_type = [
-                                openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
+                                entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
                                     id = '474887', 
                                     name = '1', )
                                 ], ), )

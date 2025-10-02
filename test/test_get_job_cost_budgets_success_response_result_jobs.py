@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_cost_budgets_success_response_result_jobs import GetJobCostBudgetsSuccessResponseResultJobs
+from entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs import GetJobCostBudgetsSuccessResponseResultJobs
 
 class TestGetJobCostBudgetsSuccessResponseResultJobs(unittest.TestCase):
     """GetJobCostBudgetsSuccessResponseResultJobs unit test stubs"""
@@ -36,26 +36,26 @@ class TestGetJobCostBudgetsSuccessResponseResultJobs(unittest.TestCase):
         if include_optional:
             return GetJobCostBudgetsSuccessResponseResultJobs(
                 job = [
-                    openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner(
+                    entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner(
                         property_id = '172775', 
                         job_id = '1249', 
                         job_status_id = '1', 
-                        job_phases = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases(
+                        job_phases = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases(
                             job_phase = [
-                                openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                                entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                                     job_phase_id = '2700', 
                                     job_phase_name = 'PhaseGlAccountTest', 
                                     ap_codes = [
-                                        openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner(
-                                            ap_code = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode(
+                                        entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner(
+                                            ap_code = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode(
                                                 ap_code_id = '176844', 
                                                 ap_code_name = '1234 - Electrical', 
                                                 unit_type_budget = '12', 
                                                 location_budget = '0', 
                                                 general_budget = '0', 
-                                                post_months = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths(
+                                                post_months = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths(
                                                     post_month = [
-                                                        openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
+                                                        entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
                                                             ap_detail_id = '11652280', 
                                                             post_month = '01/2021', 
                                                             monthly_amount = '0.00', )
@@ -67,26 +67,26 @@ class TestGetJobCostBudgetsSuccessResponseResultJobs(unittest.TestCase):
         else:
             return GetJobCostBudgetsSuccessResponseResultJobs(
                 job = [
-                    openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner(
+                    entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner(
                         property_id = '172775', 
                         job_id = '1249', 
                         job_status_id = '1', 
-                        job_phases = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases(
+                        job_phases = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases(
                             job_phase = [
-                                openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
+                                entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner(
                                     job_phase_id = '2700', 
                                     job_phase_name = 'PhaseGlAccountTest', 
                                     ap_codes = [
-                                        openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner(
-                                            ap_code = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode(
+                                        entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner(
+                                            ap_code = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode(
                                                 ap_code_id = '176844', 
                                                 ap_code_name = '1234 - Electrical', 
                                                 unit_type_budget = '12', 
                                                 location_budget = '0', 
                                                 general_budget = '0', 
-                                                post_months = openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths(
+                                                post_months = entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths(
                                                     post_month = [
-                                                        openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
+                                                        entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
                                                             ap_detail_id = '11652280', 
                                                             post_month = '01/2021', 
                                                             monthly_amount = '0.00', )

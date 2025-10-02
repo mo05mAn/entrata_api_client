@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers
 
 class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers(unittest.TestCase):
     """GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers(unitt
         if include_optional:
             return GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayers(
                 payer = [
-                    openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
+                    entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
                         payer_type = 'Business', 
                         payer_tin_type = '1', 
                         payer_tin = '65-1111111', 

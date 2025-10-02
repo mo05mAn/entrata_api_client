@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties import GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties
+from entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties import GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties
 
 class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties(unittest.TestCase):
     """GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties(
         if include_optional:
             return GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties(
                 website_property = [
-                    openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
+                    entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
                         property_id = '160681', 
                         property_name = 'Abhi_Test', )
                     ]
@@ -44,7 +44,7 @@ class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties(
         else:
             return GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteProperties(
                 website_property = [
-                    openapi_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
+                    entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_properties_website_property_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteProperties_websiteProperty_inner(
                         property_id = '160681', 
                         property_name = 'Abhi_Test', )
                     ],

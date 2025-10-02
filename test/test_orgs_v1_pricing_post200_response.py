@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_pricing_post200_response import OrgsV1PricingPost200Response
+from entrata_api_client.models.orgs_v1_pricing_post200_response import OrgsV1PricingPost200Response
 
 class TestOrgsV1PricingPost200Response(unittest.TestCase):
     """OrgsV1PricingPost200Response unit test stubs"""
@@ -35,12 +35,12 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
         model = OrgsV1PricingPost200Response()
         if include_optional:
             return OrgsV1PricingPost200Response(
-                response = openapi_client.models.get_property_fees_success_response_response.getPropertyFeesSuccessResponse_response(
+                response = entrata_api_client.models.get_property_fees_success_response_response.getPropertyFeesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
                         property_fees = [
-                            openapi_client.models.fee_details.FeeDetails(
+                            entrata_api_client.models.fee_details.FeeDetails(
                                 property_id = '12345', 
                                 property_floorplan_id = '921405', 
                                 unit_type_id = '653938', 
@@ -76,7 +76,7 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
                                 customer_relationship_name = 'Primary', )
                             ], 
                         floor_plan_fees = [
-                            openapi_client.models.fee_details.FeeDetails(
+                            entrata_api_client.models.fee_details.FeeDetails(
                                 property_id = '12345', 
                                 property_floorplan_id = '921405', 
                                 unit_type_id = '653938', 
@@ -119,9 +119,9 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
                             ], ), ),
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
+                result = entrata_api_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
                             node = 1, 
                             status = 'Success', 
                             message = 'Budgeted rent updated successfully.', )
@@ -129,12 +129,12 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
             )
         else:
             return OrgsV1PricingPost200Response(
-                response = openapi_client.models.get_property_fees_success_response_response.getPropertyFeesSuccessResponse_response(
+                response = entrata_api_client.models.get_property_fees_success_response_response.getPropertyFeesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_property_fees_success_response_response_result.getPropertyFeesSuccessResponse_response_result(
                         property_fees = [
-                            openapi_client.models.fee_details.FeeDetails(
+                            entrata_api_client.models.fee_details.FeeDetails(
                                 property_id = '12345', 
                                 property_floorplan_id = '921405', 
                                 unit_type_id = '653938', 
@@ -170,7 +170,7 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
                                 customer_relationship_name = 'Primary', )
                             ], 
                         floor_plan_fees = [
-                            openapi_client.models.fee_details.FeeDetails(
+                            entrata_api_client.models.fee_details.FeeDetails(
                                 property_id = '12345', 
                                 property_floorplan_id = '921405', 
                                 unit_type_id = '653938', 
@@ -213,9 +213,9 @@ class TestOrgsV1PricingPost200Response(unittest.TestCase):
                             ], ), ),
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
+                result = entrata_api_client.models.send_budgeted_rent_success_response_result.sendBudgetedRentSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.send_budgeted_rent_success_response_result_pricing_inner.sendBudgetedRentSuccessResponse_result_pricing_inner(
                             node = 1, 
                             status = 'Success', 
                             message = 'Budgeted rent updated successfully.', )

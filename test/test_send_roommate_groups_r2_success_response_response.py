@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_roommate_groups_r2_success_response_response import SendRoommateGroupsR2SuccessResponseResponse
+from entrata_api_client.models.send_roommate_groups_r2_success_response_response import SendRoommateGroupsR2SuccessResponseResponse
 
 class TestSendRoommateGroupsR2SuccessResponseResponse(unittest.TestCase):
     """SendRoommateGroupsR2SuccessResponseResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestSendRoommateGroupsR2SuccessResponseResponse(unittest.TestCase):
             return SendRoommateGroupsR2SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_roommate_groups_r2_success_response_response_result.sendRoommateGroups_r2_SuccessResponse_response_result(
+                result = entrata_api_client.models.send_roommate_groups_r2_success_response_response_result.sendRoommateGroups_r2_SuccessResponse_response_result(
                     roommate_groups = [
-                        openapi_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
+                        entrata_api_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
                             node = 1, 
                             roommate_group_id = 22815, 
                             status = 'Success', 
@@ -50,9 +50,9 @@ class TestSendRoommateGroupsR2SuccessResponseResponse(unittest.TestCase):
             return SendRoommateGroupsR2SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_roommate_groups_r2_success_response_response_result.sendRoommateGroups_r2_SuccessResponse_response_result(
+                result = entrata_api_client.models.send_roommate_groups_r2_success_response_response_result.sendRoommateGroups_r2_SuccessResponse_response_result(
                     roommate_groups = [
-                        openapi_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
+                        entrata_api_client.models.send_roommate_groups_r2_success_response_response_result_roommate_groups_inner.sendRoommateGroups_r2_SuccessResponse_response_result_roommateGroups_inner(
                             node = 1, 
                             roommate_group_id = 22815, 
                             status = 'Success', 

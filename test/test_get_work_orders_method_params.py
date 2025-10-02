@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_orders_method_params import GetWorkOrdersMethodParams
+from entrata_api_client.models.get_work_orders_method_params import GetWorkOrdersMethodParams
 
 class TestGetWorkOrdersMethodParams(unittest.TestCase):
     """GetWorkOrdersMethodParams unit test stubs"""

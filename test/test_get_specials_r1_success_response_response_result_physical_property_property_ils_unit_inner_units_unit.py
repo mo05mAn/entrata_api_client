@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit
+from entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit
 
 class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit unit test stubs"""
@@ -35,11 +35,11 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSU
         model = GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
                     building_id = 56, 
                     floor_plan_id = 127469, ),
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
-                    @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
+                    @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_type = 'UnitID', ), 
@@ -48,11 +48,11 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSU
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyILSUnitInnerUnitsUnit(
-                attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
+                attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit__attributes(
                     building_id = 56, 
                     floor_plan_id = 127469, ),
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
-                    @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification(
+                    @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_ils_unit_inner_units_unit_identification__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_ILS_Unit_inner_Units_Unit_Identification__attributes(
                         id_rank = 'primary', 
                         id_scope_type = 'sender', 
                         id_type = 'UnitID', ), 

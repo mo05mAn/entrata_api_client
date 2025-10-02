@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgeted_rent_method import SendBudgetedRentMethod
+from entrata_api_client.models.send_budgeted_rent_method import SendBudgetedRentMethod
 
 class TestSendBudgetedRentMethod(unittest.TestCase):
     """SendBudgetedRentMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendBudgetedRentMethod(unittest.TestCase):
             return SendBudgetedRentMethod(
                 name = 'sendBudgetedRent',
                 version = 'r1',
-                params = openapi_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
+                params = entrata_api_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
                     property_id = 4, 
                     pricing_level_id = 123456, 
                     pricing_level_reference_id = 1, 

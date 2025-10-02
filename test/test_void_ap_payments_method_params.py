@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.void_ap_payments_method_params import VoidApPaymentsMethodParams
+from entrata_api_client.models.void_ap_payments_method_params import VoidApPaymentsMethodParams
 
 class TestVoidApPaymentsMethodParams(unittest.TestCase):
     """VoidApPaymentsMethodParams unit test stubs"""

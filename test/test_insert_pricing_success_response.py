@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_success_response import InsertPricingSuccessResponse
+from entrata_api_client.models.insert_pricing_success_response import InsertPricingSuccessResponse
 
 class TestInsertPricingSuccessResponse(unittest.TestCase):
     """InsertPricingSuccessResponse unit test stubs"""
@@ -37,9 +37,9 @@ class TestInsertPricingSuccessResponse(unittest.TestCase):
             return InsertPricingSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.insert_pricing_success_response_result.insertPricingSuccessResponse_result(
+                result = entrata_api_client.models.insert_pricing_success_response_result.insertPricingSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.insert_pricing_success_response_result_pricing_inner.insertPricingSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.insert_pricing_success_response_result_pricing_inner.insertPricingSuccessResponse_result_pricing_inner(
                             node = '1', 
                             reference_id = '391937229', 
                             status = 'Success', 
@@ -51,9 +51,9 @@ class TestInsertPricingSuccessResponse(unittest.TestCase):
             return InsertPricingSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.insert_pricing_success_response_result.insertPricingSuccessResponse_result(
+                result = entrata_api_client.models.insert_pricing_success_response_result.insertPricingSuccessResponse_result(
                     pricing = [
-                        openapi_client.models.insert_pricing_success_response_result_pricing_inner.insertPricingSuccessResponse_result_pricing_inner(
+                        entrata_api_client.models.insert_pricing_success_response_result_pricing_inner.insertPricingSuccessResponse_result_pricing_inner(
                             node = '1', 
                             reference_id = '391937229', 
                             status = 'Success', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_purchase_orders_success_response_result_ap_headers_ap_header_inner import SendPurchaseOrdersSuccessResponseResultApHeadersApHeaderInner
+from entrata_api_client.models.send_purchase_orders_success_response_result_ap_headers_ap_header_inner import SendPurchaseOrdersSuccessResponseResultApHeadersApHeaderInner
 
 class TestSendPurchaseOrdersSuccessResponseResultApHeadersApHeaderInner(unittest.TestCase):
     """SendPurchaseOrdersSuccessResponseResultApHeadersApHeaderInner unit test stubs"""

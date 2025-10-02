@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches
+from entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches import GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches
 
 class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches(unittest.TestCase):
     """GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches(un
         if include_optional:
             return GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches(
                 branch = [
-                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
+                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
                         branch_id = '12345', 
                         group_type = 'Standard Group', 
                         is_enabled = '1', 
@@ -49,7 +49,7 @@ class TestGetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches(un
         else:
             return GetGlTreesR2SuccessResponseResponseResultGlTreesGlTreeInnerBranches(
                 branch = [
-                    openapi_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
+                    entrata_api_client.models.get_gl_trees_r2_success_response_response_result_gl_trees_gl_tree_inner_branches_branch_inner.getGlTrees_r2_SuccessResponse_response_result_glTrees_glTree_inner_branches_branch_inner(
                         branch_id = '12345', 
                         group_type = 'Standard Group', 
                         is_enabled = '1', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_pets_success_response_response_result_pets import SendApplicationPetsSuccessResponseResponseResultPets
+from entrata_api_client.models.send_application_pets_success_response_response_result_pets import SendApplicationPetsSuccessResponseResponseResultPets
 
 class TestSendApplicationPetsSuccessResponseResponseResultPets(unittest.TestCase):
     """SendApplicationPetsSuccessResponseResponseResultPets unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendApplicationPetsSuccessResponseResponseResultPets(unittest.TestCase
         if include_optional:
             return SendApplicationPetsSuccessResponseResponseResultPets(
                 pet = [
-                    openapi_client.models.send_application_pets_success_response_response_result_pets_pet_inner.sendApplicationPetsSuccessResponse_response_result_pets_pet_inner(
+                    entrata_api_client.models.send_application_pets_success_response_response_result_pets_pet_inner.sendApplicationPetsSuccessResponse_response_result_pets_pet_inner(
                         status = 'Success', 
                         message = 'Customer pets saved successfully.', 
                         id = 205354, 
@@ -48,7 +48,7 @@ class TestSendApplicationPetsSuccessResponseResponseResultPets(unittest.TestCase
         else:
             return SendApplicationPetsSuccessResponseResponseResultPets(
                 pet = [
-                    openapi_client.models.send_application_pets_success_response_response_result_pets_pet_inner.sendApplicationPetsSuccessResponse_response_result_pets_pet_inner(
+                    entrata_api_client.models.send_application_pets_success_response_response_result_pets_pet_inner.sendApplicationPetsSuccessResponse_response_result_pets_pet_inner(
                         status = 'Success', 
                         message = 'Customer pets saved successfully.', 
                         id = 205354, 

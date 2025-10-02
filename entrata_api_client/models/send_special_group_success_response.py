@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.send_special_group_success_response_response import SendSpecialGroupSuccessResponseResponse
+from entrata_api_client.models.send_special_group_success_response_response import SendSpecialGroupSuccessResponseResponse
 from typing import Optional, Set
 from typing_extensions import Self
 

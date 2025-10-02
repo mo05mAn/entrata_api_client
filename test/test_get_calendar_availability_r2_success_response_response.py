@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r2_success_response_response import GetCalendarAvailabilityR2SuccessResponseResponse
+from entrata_api_client.models.get_calendar_availability_r2_success_response_response import GetCalendarAvailabilityR2SuccessResponseResponse
 
 class TestGetCalendarAvailabilityR2SuccessResponseResponse(unittest.TestCase):
     """GetCalendarAvailabilityR2SuccessResponseResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGetCalendarAvailabilityR2SuccessResponseResponse(unittest.TestCase):
             return GetCalendarAvailabilityR2SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_calendar_availability_r2_success_response_response_result.getCalendarAvailability_r2_SuccessResponse_response_result(
-                    available_tours = openapi_client.models.get_calendar_availability_r2_success_response_response_result_available_tours.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours(
+                result = entrata_api_client.models.get_calendar_availability_r2_success_response_response_result.getCalendarAvailability_r2_SuccessResponse_response_result(
+                    available_tours = entrata_api_client.models.get_calendar_availability_r2_success_response_response_result_available_tours.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours(
                         available_tour = [
-                            openapi_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours_availableTour_inner(
+                            entrata_api_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours_availableTour_inner(
                                 tour_date = '2024-08-26', 
                                 tour_time = [
                                     '05:00 MDT - 06:00 MDT'
@@ -51,10 +51,10 @@ class TestGetCalendarAvailabilityR2SuccessResponseResponse(unittest.TestCase):
             return GetCalendarAvailabilityR2SuccessResponseResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.get_calendar_availability_r2_success_response_response_result.getCalendarAvailability_r2_SuccessResponse_response_result(
-                    available_tours = openapi_client.models.get_calendar_availability_r2_success_response_response_result_available_tours.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours(
+                result = entrata_api_client.models.get_calendar_availability_r2_success_response_response_result.getCalendarAvailability_r2_SuccessResponse_response_result(
+                    available_tours = entrata_api_client.models.get_calendar_availability_r2_success_response_response_result_available_tours.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours(
                         available_tour = [
-                            openapi_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours_availableTour_inner(
+                            entrata_api_client.models.get_calendar_availability_r2_success_response_response_result_available_tours_available_tour_inner.getCalendarAvailability_r2_SuccessResponse_response_result_availableTours_availableTour_inner(
                                 tour_date = '2024-08-26', 
                                 tour_time = [
                                     '05:00 MDT - 06:00 MDT'

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner import SendSpecialGroupMethodParamsSpecialGroupSpecialsInnerRatesInner
+from entrata_api_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner import SendSpecialGroupMethodParamsSpecialGroupSpecialsInnerRatesInner
 from typing import Optional, Set
 from typing_extensions import Self
 

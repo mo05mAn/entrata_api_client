@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_scheduled_charges_r2 import UpdateScheduledChargesR2
+from entrata_api_client.models.update_scheduled_charges_r2 import UpdateScheduledChargesR2
 
 class TestUpdateScheduledChargesR2(unittest.TestCase):
     """UpdateScheduledChargesR2 unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateScheduledChargesR2(unittest.TestCase):
         model = UpdateScheduledChargesR2()
         if include_optional:
             return UpdateScheduledChargesR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_scheduled_charges_r2_method.updateScheduledCharges_r2_method(
+                method = entrata_api_client.models.update_scheduled_charges_r2_method.updateScheduledCharges_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
+                    params = entrata_api_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
                         id = 123456, 
                         property_id = 123456, 
                         lease_id = 123456, 
@@ -50,12 +50,12 @@ class TestUpdateScheduledChargesR2(unittest.TestCase):
             )
         else:
             return UpdateScheduledChargesR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_scheduled_charges_r2_method.updateScheduledCharges_r2_method(
+                method = entrata_api_client.models.update_scheduled_charges_r2_method.updateScheduledCharges_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
+                    params = entrata_api_client.models.update_scheduled_charges_r1_method_params.updateScheduledCharges_r1_method_params(
                         id = 123456, 
                         property_id = 123456, 
                         lease_id = 123456, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_method import GetVendorsMethod
+from entrata_api_client.models.get_vendors_method import GetVendorsMethod
 
 class TestGetVendorsMethod(unittest.TestCase):
     """GetVendorsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetVendorsMethod(unittest.TestCase):
             return GetVendorsMethod(
                 name = 'getVendors',
                 version = 'r1',
-                params = openapi_client.models.get_vendors_method_params.getVendors_method_params(
+                params = entrata_api_client.models.get_vendors_method_params.getVendors_method_params(
                     vendor_ids = 56, 
                     vendor_codes = '1234,5678', )
             )

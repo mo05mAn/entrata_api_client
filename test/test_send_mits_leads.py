@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_mits_leads import SendMitsLeads
+from entrata_api_client.models.send_mits_leads import SendMitsLeads
 
 class TestSendMitsLeads(unittest.TestCase):
     """SendMitsLeads unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendMitsLeads(unittest.TestCase):
         model = SendMitsLeads()
         if include_optional:
             return SendMitsLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_mits_leads_method.sendMitsLeads_method(
+                method = entrata_api_client.models.send_mits_leads_method.sendMitsLeads_method(
                     name = 'sendMitsLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
+                    params = entrata_api_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
                         property_id = 123456, 
                         do_not_send_confirmation_email = 0, 
                         is_wait_list = 0, 
@@ -49,12 +49,12 @@ class TestSendMitsLeads(unittest.TestCase):
             )
         else:
             return SendMitsLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_mits_leads_method.sendMitsLeads_method(
+                method = entrata_api_client.models.send_mits_leads_method.sendMitsLeads_method(
                     name = 'sendMitsLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
+                    params = entrata_api_client.models.send_mits_leads_method_params.sendMitsLeads_method_params(
                         property_id = 123456, 
                         do_not_send_confirmation_email = 0, 
                         is_wait_list = 0, 

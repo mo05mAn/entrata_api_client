@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_applications_post200_response import OrgsV1ApplicationsPost200Response
+from entrata_api_client.models.orgs_v1_applications_post200_response import OrgsV1ApplicationsPost200Response
 
 class TestOrgsV1ApplicationsPost200Response(unittest.TestCase):
     """OrgsV1ApplicationsPost200Response unit test stubs"""
@@ -35,11 +35,11 @@ class TestOrgsV1ApplicationsPost200Response(unittest.TestCase):
         model = OrgsV1ApplicationsPost200Response()
         if include_optional:
             return OrgsV1ApplicationsPost200Response(
-                response = openapi_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
+                response = entrata_api_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
-                        application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                    result = entrata_api_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
+                        application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                             status = 'Success', 
                             message = 'Application updated successfully.', 
                             application_id = 123456, 
@@ -47,11 +47,11 @@ class TestOrgsV1ApplicationsPost200Response(unittest.TestCase):
             )
         else:
             return OrgsV1ApplicationsPost200Response(
-                response = openapi_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
+                response = entrata_api_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
-                        application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                    result = entrata_api_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
+                        application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                             status = 'Success', 
                             message = 'Application updated successfully.', 
                             application_id = 123456, 

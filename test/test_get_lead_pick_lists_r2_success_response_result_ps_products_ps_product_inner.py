@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_ps_products_ps_product_inner import GetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_ps_products_ps_product_inner import GetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner
 
 class TestGetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner(unitte
         model = GetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultPsProductsPsProductInner(
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_ps_products_ps_product_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_psProducts_psProduct_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_ps_products_ps_product_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_psProducts_psProduct_inner__attributes(
                     id = '7', 
                     name = 'API Services', )
             )

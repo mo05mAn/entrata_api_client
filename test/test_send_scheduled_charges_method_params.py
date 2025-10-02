@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_scheduled_charges_method_params import SendScheduledChargesMethodParams
+from entrata_api_client.models.send_scheduled_charges_method_params import SendScheduledChargesMethodParams
 
 class TestSendScheduledChargesMethodParams(unittest.TestCase):
     """SendScheduledChargesMethodParams unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_documents_list_success_response import GetLeaseDocumentsListSuccessResponse
+from entrata_api_client.models.get_lease_documents_list_success_response import GetLeaseDocumentsListSuccessResponse
 
 class TestGetLeaseDocumentsListSuccessResponse(unittest.TestCase):
     """GetLeaseDocumentsListSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestGetLeaseDocumentsListSuccessResponse(unittest.TestCase):
             return GetLeaseDocumentsListSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lease_documents_list_success_response_result.getLeaseDocumentsListSuccessResponse_result(
-                    lease_documents = openapi_client.models.get_lease_documents_list_success_response_result_lease_documents.getLeaseDocumentsListSuccessResponse_result_leaseDocuments(
+                result = entrata_api_client.models.get_lease_documents_list_success_response_result.getLeaseDocumentsListSuccessResponse_result(
+                    lease_documents = entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents.getLeaseDocumentsListSuccessResponse_result_leaseDocuments(
                         lease_document = [
-                            openapi_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
+                            entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
                                 id = 13862207, 
                                 type = 'eSign: Lease (eSign: Renewal Lease - LP)', 
                                 name = 'lease_document_13155819_1535017430.pdf', 
@@ -53,10 +53,10 @@ class TestGetLeaseDocumentsListSuccessResponse(unittest.TestCase):
             return GetLeaseDocumentsListSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_lease_documents_list_success_response_result.getLeaseDocumentsListSuccessResponse_result(
-                    lease_documents = openapi_client.models.get_lease_documents_list_success_response_result_lease_documents.getLeaseDocumentsListSuccessResponse_result_leaseDocuments(
+                result = entrata_api_client.models.get_lease_documents_list_success_response_result.getLeaseDocumentsListSuccessResponse_result(
+                    lease_documents = entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents.getLeaseDocumentsListSuccessResponse_result_leaseDocuments(
                         lease_document = [
-                            openapi_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
+                            entrata_api_client.models.get_lease_documents_list_success_response_result_lease_documents_lease_document_inner.getLeaseDocumentsListSuccessResponse_result_leaseDocuments_leaseDocument_inner(
                                 id = 13862207, 
                                 type = 'eSign: Lease (eSign: Renewal Lease - LP)', 
                                 name = 'lease_document_13155819_1535017430.pdf', 

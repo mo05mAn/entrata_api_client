@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preference_pick_list_method import GetMarketingPreferencePickListMethod
+from entrata_api_client.models.get_marketing_preference_pick_list_method import GetMarketingPreferencePickListMethod
 
 class TestGetMarketingPreferencePickListMethod(unittest.TestCase):
     """GetMarketingPreferencePickListMethod unit test stubs"""

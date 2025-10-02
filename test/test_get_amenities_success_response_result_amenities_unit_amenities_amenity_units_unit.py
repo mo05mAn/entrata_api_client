@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit
+from entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
         model = GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit()
         if include_optional:
             return GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit(
-                rates = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
-                    rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                rates = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
+                    rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                             ar_code_id = '149655', 
                             ar_code_type_id = '2', 
                             charge_type_id = '307', 
@@ -46,7 +46,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
                             is_active = '0', 
                             lease_term_id = '18414', 
                             lease_start_window_id = '12345', ), ), ),
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
                     property_unit_id = '111111', 
                     is_published = '1', 
                     is_featured = '0', 
@@ -56,9 +56,9 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
             )
         else:
             return GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUnit(
-                rates = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
-                    rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                rates = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
+                    rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                             ar_code_id = '149655', 
                             ar_code_type_id = '2', 
                             charge_type_id = '307', 
@@ -67,7 +67,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenityUnitsUni
                             is_active = '0', 
                             lease_term_id = '18414', 
                             lease_start_window_id = '12345', ), ), ),
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
                     property_unit_id = '111111', 
                     is_published = '1', 
                     is_featured = '0', 

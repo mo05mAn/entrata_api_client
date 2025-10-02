@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.on_notice_lease import OnNoticeLease
+from entrata_api_client.models.on_notice_lease import OnNoticeLease
 
 class TestOnNoticeLease(unittest.TestCase):
     """OnNoticeLease unit test stubs"""
@@ -35,13 +35,13 @@ class TestOnNoticeLease(unittest.TestCase):
         model = OnNoticeLease()
         if include_optional:
             return OnNoticeLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.on_notice_lease_method.onNoticeLease_method(
+                method = entrata_api_client.models.on_notice_lease_method.onNoticeLease_method(
                     name = 'onNoticeLease', 
                     version = 'r1', 
-                    params = openapi_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
+                    params = entrata_api_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         move_out_type_id = 1234, 
@@ -61,12 +61,12 @@ class TestOnNoticeLease(unittest.TestCase):
             )
         else:
             return OnNoticeLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.on_notice_lease_method.onNoticeLease_method(
+                method = entrata_api_client.models.on_notice_lease_method.onNoticeLease_method(
                     name = 'onNoticeLease', 
                     version = 'r1', 
-                    params = openapi_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
+                    params = entrata_api_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         move_out_type_id = 1234, 

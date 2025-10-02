@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_clients_method import GetAccessibleClientsMethod
+from entrata_api_client.models.get_accessible_clients_method import GetAccessibleClientsMethod
 
 class TestGetAccessibleClientsMethod(unittest.TestCase):
     """GetAccessibleClientsMethod unit test stubs"""

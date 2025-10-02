@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_success_response import SendSpecialGroupSuccessResponse
+from entrata_api_client.models.send_special_group_success_response import SendSpecialGroupSuccessResponse
 
 class TestSendSpecialGroupSuccessResponse(unittest.TestCase):
     """SendSpecialGroupSuccessResponse unit test stubs"""
@@ -35,20 +35,20 @@ class TestSendSpecialGroupSuccessResponse(unittest.TestCase):
         model = SendSpecialGroupSuccessResponse()
         if include_optional:
             return SendSpecialGroupSuccessResponse(
-                response = openapi_client.models.send_special_group_success_response_response.sendSpecialGroupSuccessResponse_response(
+                response = entrata_api_client.models.send_special_group_success_response_response.sendSpecialGroupSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
                         status = 'success', 
                         special_group_id = 12345, 
                         message = 'Special added successfully.', ), )
             )
         else:
             return SendSpecialGroupSuccessResponse(
-                response = openapi_client.models.send_special_group_success_response_response.sendSpecialGroupSuccessResponse_response(
+                response = entrata_api_client.models.send_special_group_success_response_response.sendSpecialGroupSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_special_group_success_response_response_result.sendSpecialGroupSuccessResponse_response_result(
                         status = 'success', 
                         special_group_id = 12345, 
                         message = 'Special added successfully.', ), ),

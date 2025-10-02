@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_payments_method_params import GetArPaymentsMethodParams
+from entrata_api_client.models.get_ar_payments_method_params import GetArPaymentsMethodParams
 
 class TestGetArPaymentsMethodParams(unittest.TestCase):
     """GetArPaymentsMethodParams unit test stubs"""

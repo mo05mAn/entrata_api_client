@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_cost_budgets_method_params import GetJobCostBudgetsMethodParams
+from entrata_api_client.models.get_job_cost_budgets_method_params import GetJobCostBudgetsMethodParams
 
 class TestGetJobCostBudgetsMethodParams(unittest.TestCase):
     """GetJobCostBudgetsMethodParams unit test stubs"""

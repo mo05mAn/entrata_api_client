@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.generate_quotes_method import GenerateQuotesMethod
+from entrata_api_client.models.generate_quotes_method import GenerateQuotesMethod
 
 class TestGenerateQuotesMethod(unittest.TestCase):
     """GenerateQuotesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGenerateQuotesMethod(unittest.TestCase):
             return GenerateQuotesMethod(
                 name = 'generateQuotes',
                 version = 'r1',
-                params = openapi_client.models.generate_quotes_method_params.generateQuotes_method_params(
+                params = entrata_api_client.models.generate_quotes_method_params.generateQuotes_method_params(
                     property_id = 123456, 
                     application_id = 1234, 
                     adjustments_and_provision_ids = '123,234', )

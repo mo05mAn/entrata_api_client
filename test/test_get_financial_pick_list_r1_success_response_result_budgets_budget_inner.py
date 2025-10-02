@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner import GetFinancialPickListR1SuccessResponseResultBudgetsBudgetInner
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner import GetFinancialPickListR1SuccessResponseResultBudgetsBudgetInner
 
 class TestGetFinancialPickListR1SuccessResponseResultBudgetsBudgetInner(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultBudgetsBudgetInner unit test stubs"""

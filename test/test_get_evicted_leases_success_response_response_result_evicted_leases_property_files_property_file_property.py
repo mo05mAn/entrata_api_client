@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileProperty
+from entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property import GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileProperty
 
 class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileProperty(unittest.TestCase):
     """GetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFilesPropertyFileProperty unit test stubs"""
@@ -38,7 +38,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                 id = '123456',
                 name = '13th North Parkways Property',
                 address = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
                         address_type = 'Primary', 
                         address = '50 North 100 West', 
                         city = 'Provo', 
@@ -47,7 +47,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                         postal_code = '89123', )
                     ],
                 phone = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
                         phone_type = 'Office', 
                         phone_number = '8019013023', )
                     ]
@@ -57,7 +57,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                 id = '123456',
                 name = '13th North Parkways Property',
                 address = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_address_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_address_inner(
                         address_type = 'Primary', 
                         address = '50 North 100 West', 
                         city = 'Provo', 
@@ -66,7 +66,7 @@ class TestGetEvictedLeasesSuccessResponseResponseResultEvictedLeasesPropertyFile
                         postal_code = '89123', )
                     ],
                 phone = [
-                    openapi_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
+                    entrata_api_client.models.get_evicted_leases_success_response_response_result_evicted_leases_property_files_property_file_property_phone_inner.getEvictedLeasesSuccessResponse_response_result_evictedLeases_propertyFiles_propertyFile_property_phone_inner(
                         phone_type = 'Office', 
                         phone_number = '8019013023', )
                     ],

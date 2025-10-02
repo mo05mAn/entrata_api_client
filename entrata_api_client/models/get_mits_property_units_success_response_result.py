@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property import GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property import GetMitsPropertyUnitsSuccessResponseResultPhysicalProperty
 from typing import Optional, Set
 from typing_extensions import Self
 

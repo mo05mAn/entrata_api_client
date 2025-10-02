@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_mits_leases_method_params import GetMitsLeasesMethodParams
+from entrata_api_client.models.get_mits_leases_method_params import GetMitsLeasesMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_PropertyClient_Identification(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_PropertyClient_Identification(
                     id_value = 235, ),
                 company_name = 'Demo Account'
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFilePropertyClient(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_PropertyClient_Identification(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_client_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_PropertyClient_Identification(
                     id_value = 235, ),
                 company_name = 'Demo Account',
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apply_quote_success_response import ApplyQuoteSuccessResponse
+from entrata_api_client.models.apply_quote_success_response import ApplyQuoteSuccessResponse
 
 class TestApplyQuoteSuccessResponse(unittest.TestCase):
     """ApplyQuoteSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestApplyQuoteSuccessResponse(unittest.TestCase):
             return ApplyQuoteSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.apply_quote_success_response_result.applyQuoteSuccessResponse_result(
+                result = entrata_api_client.models.apply_quote_success_response_result.applyQuoteSuccessResponse_result(
                     status = 'Success', 
                     quote_id = '123', 
                     message = 'Quote applied successfully', )
@@ -46,7 +46,7 @@ class TestApplyQuoteSuccessResponse(unittest.TestCase):
             return ApplyQuoteSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.apply_quote_success_response_result.applyQuoteSuccessResponse_result(
+                result = entrata_api_client.models.apply_quote_success_response_result.applyQuoteSuccessResponse_result(
                     status = 'Success', 
                     quote_id = '123', 
                     message = 'Quote applied successfully', ),

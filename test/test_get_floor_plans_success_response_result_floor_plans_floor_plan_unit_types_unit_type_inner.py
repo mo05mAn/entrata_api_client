@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitType
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner(
                 value = '1BHK',
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
                     id = '297171', )
             )
         else:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanUnitTypesUnitTypeInner(
                 value = '1BHK',
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_unit_types_unit_type_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_UnitTypes_UnitType_inner__attributes(
                     id = '297171', ),
         )
         """

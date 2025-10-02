@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.void_ap_payments_method import VoidApPaymentsMethod
+from entrata_api_client.models.void_ap_payments_method import VoidApPaymentsMethod
 
 class TestVoidApPaymentsMethod(unittest.TestCase):
     """VoidApPaymentsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestVoidApPaymentsMethod(unittest.TestCase):
             return VoidApPaymentsMethod(
                 name = 'voidApPayments',
                 version = 'r1',
-                params = openapi_client.models.void_ap_payments_method_params.voidApPayments_method_params(
+                params = entrata_api_client.models.void_ap_payments_method_params.voidApPayments_method_params(
                     payment_id = 12345, 
                     payment_number = '123456', 
                     payment_bank_account_id = 12345, 

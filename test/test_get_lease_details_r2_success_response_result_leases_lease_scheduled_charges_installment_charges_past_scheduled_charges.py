@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges import GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges
+from entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges import GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges
 
 class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges(unittest.TestCase):
     """GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInsta
         model = GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges()
         if include_optional:
             return GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges(
-                past_scheduled_charge = openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges_past_scheduled_charge.getLeaseDetails_r2_SuccessResponse_result_leases_lease_scheduledCharges_installment_charges_pastScheduledCharges_pastScheduledCharge(
+                past_scheduled_charge = entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges_past_scheduled_charge.getLeaseDetails_r2_SuccessResponse_result_leases_lease_scheduledCharges_installment_charges_pastScheduledCharges_pastScheduledCharge(
                     ar_code_id = '120044', 
                     charge_code = 'HarishRent', 
                     charge_timing = 'Monthly', 
@@ -43,7 +43,7 @@ class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInsta
             )
         else:
             return GetLeaseDetailsR2SuccessResponseResultLeasesLeaseScheduledChargesInstallmentChargesPastScheduledCharges(
-                past_scheduled_charge = openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges_past_scheduled_charge.getLeaseDetails_r2_SuccessResponse_result_leases_lease_scheduledCharges_installment_charges_pastScheduledCharges_pastScheduledCharge(
+                past_scheduled_charge = entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_scheduled_charges_installment_charges_past_scheduled_charges_past_scheduled_charge.getLeaseDetails_r2_SuccessResponse_result_leases_lease_scheduledCharges_installment_charges_pastScheduledCharges_pastScheduledCharge(
                     ar_code_id = '120044', 
                     charge_code = 'HarishRent', 
                     charge_timing = 'Monthly', 

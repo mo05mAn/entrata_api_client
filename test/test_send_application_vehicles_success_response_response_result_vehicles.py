@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles_success_response_response_result_vehicles import SendApplicationVehiclesSuccessResponseResponseResultVehicles
+from entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles import SendApplicationVehiclesSuccessResponseResponseResultVehicles
 
 class TestSendApplicationVehiclesSuccessResponseResponseResultVehicles(unittest.TestCase):
     """SendApplicationVehiclesSuccessResponseResponseResultVehicles unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendApplicationVehiclesSuccessResponseResponseResultVehicles(unittest.
         if include_optional:
             return SendApplicationVehiclesSuccessResponseResponseResultVehicles(
                 vehicle = [
-                    openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                    entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                         status = 'Success', 
                         message = 'Vehicle saved successfully.', 
                         id = 56853778, 
@@ -48,7 +48,7 @@ class TestSendApplicationVehiclesSuccessResponseResponseResultVehicles(unittest.
         else:
             return SendApplicationVehiclesSuccessResponseResponseResultVehicles(
                 vehicle = [
-                    openapi_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
+                    entrata_api_client.models.send_application_vehicles_success_response_response_result_vehicles_vehicle_inner.sendApplicationVehiclesSuccessResponse_response_result_vehicles_vehicle_inner(
                         status = 'Success', 
                         message = 'Vehicle saved successfully.', 
                         id = 56853778, 

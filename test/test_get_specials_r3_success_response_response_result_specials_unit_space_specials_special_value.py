@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValue
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValue
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValue(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValue unit test stubs"""
@@ -40,9 +40,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpe
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '400.00',
-                unit_spaces = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
+                unit_spaces = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
                     unit_space = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                             id = '5164266', 
                             property_unit_id = '4880109', 
                             name = 'A3', )
@@ -55,9 +55,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpe
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '400.00',
-                unit_spaces = openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
+                unit_spaces = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces(
                     unit_space = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                             id = '5164266', 
                             property_unit_id = '4880109', 
                             name = 'A3', )

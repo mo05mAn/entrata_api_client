@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties import GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties
+from entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties import GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties
 
 class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertie
         model = GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties()
         if include_optional:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties(
-                var_property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                var_property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                         id = '19463', 
                         name = '22 Exchange', ), )
             )
         else:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerProperties(
-                var_property = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                var_property = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                         id = '19463', 
                         name = '22 Exchange', ), ),
         )

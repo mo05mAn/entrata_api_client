@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_request_body_method import SendLeaseDocumentsRequestBodyMethod
+from entrata_api_client.models.send_lease_documents_request_body_method import SendLeaseDocumentsRequestBodyMethod
 
 class TestSendLeaseDocumentsRequestBodyMethod(unittest.TestCase):
     """SendLeaseDocumentsRequestBodyMethod unit test stubs"""
@@ -37,14 +37,14 @@ class TestSendLeaseDocumentsRequestBodyMethod(unittest.TestCase):
             return SendLeaseDocumentsRequestBodyMethod(
                 name = 'sendLeaseDocuments',
                 version = 'r1',
-                params = openapi_client.models.send_lease_documents_request_body_method_params.sendLeaseDocuments_requestBody_method_params(
+                params = entrata_api_client.models.send_lease_documents_request_body_method_params.sendLeaseDocuments_requestBody_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     application_id = 123456, 
                     applicant_id = 123456, 
-                    files = openapi_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
+                    files = entrata_api_client.models.send_lease_documents_request_body_method_params_files.sendLeaseDocuments_requestBody_method_params_files(
                         file = [
-                            openapi_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
+                            entrata_api_client.models.send_lease_documents_request_body_method_params_files_file_inner.sendLeaseDocuments_requestBody_method_params_files_file_inner(
                                 file_name = 'lease.pdf', 
                                 lease_file_type = 'POI', 
                                 file_type_id = 12345, 

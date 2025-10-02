@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces import GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpe
         if include_optional:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces(
                 unit_space = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                         id = '5164266', 
                         property_unit_id = '4880109', 
                         name = 'A3', )
@@ -45,7 +45,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpe
         else:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsUnitSpaceSpecialsSpecialValueUnitSpaces(
                 unit_space = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_unit_space_specials_special_value_unit_spaces_unit_space_inner.getSpecials_r3_SuccessResponse_response_result_specials_unitSpaceSpecials_special_value_unitSpaces_unitSpace_inner(
                         id = '5164266', 
                         property_unit_id = '4880109', 
                         name = 'A3', )

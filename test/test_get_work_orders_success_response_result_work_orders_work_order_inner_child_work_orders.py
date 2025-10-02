@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders import GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrders
+from entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders import GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrders
 
 class TestGetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrders(unittest.TestCase):
     """GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrders unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrd
         if include_optional:
             return GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerChildWorkOrders(
                 child_work_order = [
-                    openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
+                    entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_child_work_orders_child_work_order_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_childWorkOrders_childWorkOrder_inner(
                         maintenance_request_id = '5039921', 
                         maintenance_status = '1test', 
                         maintenance_priority = 'JS Testing 1', 

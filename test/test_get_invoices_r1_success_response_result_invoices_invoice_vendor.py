@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor import GetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor
+from entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor import GetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor
 
 class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor(unittest.TestCase):
     """GetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor unit test stubs"""
@@ -38,7 +38,7 @@ class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor(unittest.TestC
                 id = '18418',
                 name = 'Test, Corporate',
                 location_name = 'Corporate',
-                address = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
+                address = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
                     street_line1 = 'streetLine1', 
                     street_line2 = 'streetLine2', 
                     city = 'city', 
@@ -50,7 +50,7 @@ class TestGetInvoicesR1SuccessResponseResultInvoicesInvoiceVendor(unittest.TestC
                 id = '18418',
                 name = 'Test, Corporate',
                 location_name = 'Corporate',
-                address = openapi_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
+                address = entrata_api_client.models.get_invoices_r1_success_response_result_invoices_invoice_vendor_address.getInvoices_r1_SuccessResponse_result_invoices_invoice_vendor_address(
                     street_line1 = 'streetLine1', 
                     street_line2 = 'streetLine2', 
                     city = 'city', 

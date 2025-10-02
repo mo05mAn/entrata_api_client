@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.applications_api import ApplicationsApi
+from entrata_api_client.api.applications_api import ApplicationsApi
 
 
 class TestApplicationsApi(unittest.TestCase):

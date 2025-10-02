@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids import GetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids import GetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds
 
 class TestGetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds(unittes
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds(
                 budget_status_type_id = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids_budget_status_type_id_inner.getFinancialPickList_r2_SuccessResponse_result_budgetStatusTypeIds_budgetStatusTypeId_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids_budget_status_type_id_inner.getFinancialPickList_r2_SuccessResponse_result_budgetStatusTypeIds_budgetStatusTypeId_inner(
                         id = 1, 
                         name = 'Current', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds(unittes
         else:
             return GetFinancialPickListR2SuccessResponseResultBudgetStatusTypeIds(
                 budget_status_type_id = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids_budget_status_type_id_inner.getFinancialPickList_r2_SuccessResponse_result_budgetStatusTypeIds_budgetStatusTypeId_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_budget_status_type_ids_budget_status_type_id_inner.getFinancialPickList_r2_SuccessResponse_result_budgetStatusTypeIds_budgetStatusTypeId_inner(
                         id = 1, 
                         name = 'Current', )
                     ],

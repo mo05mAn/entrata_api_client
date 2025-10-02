@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations import GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReservations
+from entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations import GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReservations
 
 class TestGetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReservations(unittest.TestCase):
     """GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReservations unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReserv
         if include_optional:
             return GetAmenityReservationsSuccessResponseResultAmenitiesAmenityInnerReservations(
                 reservation = [
-                    openapi_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
+                    entrata_api_client.models.get_amenity_reservations_success_response_result_amenities_amenity_inner_reservations_reservation_inner.getAmenityReservationsSuccessResponse_result_amenities_amenity_inner_reservations_reservation_inner(
                         id = '123456', 
                         resident = 'Transfer Test 3', 
                         lease_id = '123456', 

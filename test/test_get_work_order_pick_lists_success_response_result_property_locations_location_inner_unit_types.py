@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types import GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypes
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types import GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypes
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypes(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInn
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyLocationsLocationInnerUnitTypes(
                 unit_type = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_locations_location_inner_unit_types_unit_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_Locations_Location_inner_unitTypes_unitType_inner(
                         id = '474887', 
                         name = '1', )
                     ]

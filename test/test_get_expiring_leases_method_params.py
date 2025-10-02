@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_expiring_leases_method_params import GetExpiringLeasesMethodParams
+from entrata_api_client.models.get_expiring_leases_method_params import GetExpiringLeasesMethodParams
 
 class TestGetExpiringLeasesMethodParams(unittest.TestCase):
     """GetExpiringLeasesMethodParams unit test stubs"""

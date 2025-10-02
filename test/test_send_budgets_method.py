@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgets_method import SendBudgetsMethod
+from entrata_api_client.models.send_budgets_method import SendBudgetsMethod
 
 class TestSendBudgetsMethod(unittest.TestCase):
     """SendBudgetsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendBudgetsMethod(unittest.TestCase):
             return SendBudgetsMethod(
                 name = 'sendBudgets',
                 version = 'r1',
-                params = openapi_client.models.send_budgets_method_params.sendBudgets_method_params(
+                params = entrata_api_client.models.send_budgets_method_params.sendBudgets_method_params(
                     property_id = 123456, 
                     budget_name = 'budgets name 1', 
                     fiscal_year = 56, 

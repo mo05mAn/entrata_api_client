@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_activities_success_response_result_events_event import SendLeaseActivitiesSuccessResponseResultEventsEvent
+from entrata_api_client.models.send_lease_activities_success_response_result_events_event import SendLeaseActivitiesSuccessResponseResultEventsEvent
 
 class TestSendLeaseActivitiesSuccessResponseResultEventsEvent(unittest.TestCase):
     """SendLeaseActivitiesSuccessResponseResultEventsEvent unit test stubs"""

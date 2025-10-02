@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts import GetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts
+from entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts import GetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts
 
 class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts(
         if include_optional:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts(
                 contact = [
-                    openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
+                    entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner(
                         name = 'Check', 
                         street_line1 = '125 Test', 
                         city = '84062', 
@@ -44,7 +44,7 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerContacts(
                         country = 'US', 
                         phone_number = '801-358-0099', 
                         email_address = 'dunnkster@yahoo.com', 
-                        @attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
+                        @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_contacts_contact_inner__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Contacts_Contact_inner__attributes(
                             type = 'Vendor_Remittence', ), )
                     ]
             )

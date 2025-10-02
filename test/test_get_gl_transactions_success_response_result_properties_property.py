@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_transactions_success_response_result_properties_property import GetGlTransactionsSuccessResponseResultPropertiesProperty
+from entrata_api_client.models.get_gl_transactions_success_response_result_properties_property import GetGlTransactionsSuccessResponseResultPropertiesProperty
 
 class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.TestCase):
     """GetGlTransactionsSuccessResponseResultPropertiesProperty unit test stubs"""
@@ -36,10 +36,10 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
         if include_optional:
             return GetGlTransactionsSuccessResponseResultPropertiesProperty(
                 is_cash_book = 'false',
-                transactions = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions.getGlTransactionsSuccessResponse_result_properties_property_transactions(
+                transactions = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions.getGlTransactionsSuccessResponse_result_properties_property_transactions(
                     transaction = [
-                        openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner(
-                            gl_total = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_total.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glTotal(
+                        entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner(
+                            gl_total = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_total.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glTotal(
                                 opening_balance = '0.00', 
                                 debit_opening_balance = '0.00', 
                                 credit_opening_balance = '0.00', 
@@ -47,9 +47,9 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
                                 credit_closing_balance = '-6.00', 
                                 net_change = '0.00', 
                                 closing_balance = '0.00', ), 
-                            gl_details = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails(
+                            gl_details = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails(
                                 gl_detail = [
-                                    openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
+                                    entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
                                         transaction_date = '2020/04/23', 
                                         post_month = 'Oct,2013', 
                                         post_date = '2020/04/23', 
@@ -58,17 +58,17 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
                                         balance = '6.00', 
                                         reference = 'Payment Received - #12345', 
                                         memo = 'Master 07 Unit #17', 
-                                        @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
+                                        @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
                                             id = '12345', 
                                             transaction_type = 'AR Payment', ), )
                                     ], ), 
-                            @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner__attributes(
+                            @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner__attributes(
                                 account_id = '1234', 
                                 account_name = 'Undeposited Funds', 
                                 account_number = '1234', 
                                 external_id = '2', ), )
                         ], ),
-                attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property__attributes.getGlTransactionsSuccessResponse_result_properties_property__attributes(
+                attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property__attributes.getGlTransactionsSuccessResponse_result_properties_property__attributes(
                     id = '1234', 
                     name = 'silver park apartments', 
                     lookup_code = '123X', 
@@ -77,10 +77,10 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
         else:
             return GetGlTransactionsSuccessResponseResultPropertiesProperty(
                 is_cash_book = 'false',
-                transactions = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions.getGlTransactionsSuccessResponse_result_properties_property_transactions(
+                transactions = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions.getGlTransactionsSuccessResponse_result_properties_property_transactions(
                     transaction = [
-                        openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner(
-                            gl_total = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_total.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glTotal(
+                        entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner(
+                            gl_total = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_total.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glTotal(
                                 opening_balance = '0.00', 
                                 debit_opening_balance = '0.00', 
                                 credit_opening_balance = '0.00', 
@@ -88,9 +88,9 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
                                 credit_closing_balance = '-6.00', 
                                 net_change = '0.00', 
                                 closing_balance = '0.00', ), 
-                            gl_details = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails(
+                            gl_details = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails(
                                 gl_detail = [
-                                    openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
+                                    entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
                                         transaction_date = '2020/04/23', 
                                         post_month = 'Oct,2013', 
                                         post_date = '2020/04/23', 
@@ -99,17 +99,17 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesProperty(unittest.Test
                                         balance = '6.00', 
                                         reference = 'Payment Received - #12345', 
                                         memo = 'Master 07 Unit #17', 
-                                        @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
+                                        @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
                                             id = '12345', 
                                             transaction_type = 'AR Payment', ), )
                                     ], ), 
-                            @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner__attributes(
+                            @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner__attributes(
                                 account_id = '1234', 
                                 account_name = 'Undeposited Funds', 
                                 account_number = '1234', 
                                 external_id = '2', ), )
                         ], ),
-                attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property__attributes.getGlTransactionsSuccessResponse_result_properties_property__attributes(
+                attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property__attributes.getGlTransactionsSuccessResponse_result_properties_property__attributes(
                     id = '1234', 
                     name = 'silver park apartments', 
                     lookup_code = '123X', 

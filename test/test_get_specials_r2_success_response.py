@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r2_success_response import GetSpecialsR2SuccessResponse
+from entrata_api_client.models.get_specials_r2_success_response import GetSpecialsR2SuccessResponse
 
 class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
     """GetSpecialsR2SuccessResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
         model = GetSpecialsR2SuccessResponse()
         if include_optional:
             return GetSpecialsR2SuccessResponse(
-                specials = openapi_client.models.get_specials_r2_success_response_specials.getSpecials_r2_SuccessResponse_specials(
+                specials = entrata_api_client.models.get_specials_r2_success_response_specials.getSpecials_r2_SuccessResponse_specials(
                     property_id = '54638', 
                     organization_name = 'Demo Account', 
                     marketing_name = 'JJ Property (Jonathan's)', 
                     legal_name = 'JJ Property (Jonathan's)', 
-                    property_specials = openapi_client.models.get_specials_r2_success_response_specials_property_specials.getSpecials_r2_SuccessResponse_specials_propertySpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
+                    property_specials = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials.getSpecials_r2_SuccessResponse_specials_propertySpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
                             id = '505909', 
                             name = 'aaa', 
                             description = 'Through the month of January we give renters a special $300 off their first month's rent.', 
@@ -53,7 +53,7 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             show_on_website = '1', 
                             is_active = '1', 
                             rates = [
-                                openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
+                                entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
                                     charge_code_id = '149206', 
                                     charge_code_type_id = '2', 
                                     amount = '42', 
@@ -61,13 +61,13 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                                     lease_term_id = '3677', )
                                 ], 
                             lease_terms = [
-                                openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                                entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                                     lease_term_id = '838', 
                                     lease_term_name = '6 months', 
                                     is_active = '1', )
                                 ], ), ), 
-                    floorplan_specials = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials.getSpecials_r2_SuccessResponse_specials_floorplanSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special(
+                    floorplan_specials = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials.getSpecials_r2_SuccessResponse_specials_floorplanSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special(
                             id = '12015762', 
                             name = 'TestFloorPlan', 
                             description = 'Description', 
@@ -78,24 +78,24 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            floorplans = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans(
-                                floorplan = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan(
+                            floorplans = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans(
+                                floorplan = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan(
                                     id = '145501', 
                                     name = 'Lincoln', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan_rates_inner.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan_rates_inner.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan_rates_inner(
                                             charge_code_id = '185264', 
                                             charge_code_type_id = '2', 
                                             amount = '3', )
                                         ], 
                                     lease_terms = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                                             lease_term_id = '838', 
                                             lease_term_name = '6 months', 
                                             is_active = '1', )
                                         ], ), ), ), ), 
-                    unit_type_specials = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special(
+                    unit_type_specials = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special(
                             id = '12015763', 
                             name = 'TestFloorPlanUnitType', 
                             description = 'Description', 
@@ -106,12 +106,12 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            unit_types = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes(
-                                unit_type = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType(
+                            unit_types = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes(
+                                unit_type = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType(
                                     id = '161606', 
                                     name = 'One Bedroom', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type_rates_inner.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type_rates_inner.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType_rates_inner(
                                             charge_code_id = '152686', 
                                             charge_code_type_id = '2', 
                                             amount = '6', )
@@ -119,8 +119,8 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                                     lease_terms = [
                                         
                                         ], ), ), ), ), 
-                    unit_space_specials = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special(
+                    unit_space_specials = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special(
                             id = '12015764', 
                             name = 'TestFloorPlanUnitSpace', 
                             description = 'Description', 
@@ -131,15 +131,15 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            unit_spaces = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces(
-                                unit_space = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace(
+                            unit_spaces = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces(
+                                unit_space = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace(
                                     id = '2421766', 
                                     building_id = '17642', 
                                     building_name = 'One', 
                                     property_unit_id = '2409587', 
                                     name = '88', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
                                             charge_code_id = '208782', 
                                             charge_code_type_id = '2', 
                                             amount = '45', )
@@ -150,13 +150,13 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
             )
         else:
             return GetSpecialsR2SuccessResponse(
-                specials = openapi_client.models.get_specials_r2_success_response_specials.getSpecials_r2_SuccessResponse_specials(
+                specials = entrata_api_client.models.get_specials_r2_success_response_specials.getSpecials_r2_SuccessResponse_specials(
                     property_id = '54638', 
                     organization_name = 'Demo Account', 
                     marketing_name = 'JJ Property (Jonathan's)', 
                     legal_name = 'JJ Property (Jonathan's)', 
-                    property_specials = openapi_client.models.get_specials_r2_success_response_specials_property_specials.getSpecials_r2_SuccessResponse_specials_propertySpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
+                    property_specials = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials.getSpecials_r2_SuccessResponse_specials_propertySpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special.getSpecials_r2_SuccessResponse_specials_propertySpecials_special(
                             id = '505909', 
                             name = 'aaa', 
                             description = 'Through the month of January we give renters a special $300 off their first month's rent.', 
@@ -168,7 +168,7 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             show_on_website = '1', 
                             is_active = '1', 
                             rates = [
-                                openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
+                                entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_rates_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_rates_inner(
                                     charge_code_id = '149206', 
                                     charge_code_type_id = '2', 
                                     amount = '42', 
@@ -176,13 +176,13 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                                     lease_term_id = '3677', )
                                 ], 
                             lease_terms = [
-                                openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                                entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                                     lease_term_id = '838', 
                                     lease_term_name = '6 months', 
                                     is_active = '1', )
                                 ], ), ), 
-                    floorplan_specials = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials.getSpecials_r2_SuccessResponse_specials_floorplanSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special(
+                    floorplan_specials = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials.getSpecials_r2_SuccessResponse_specials_floorplanSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special(
                             id = '12015762', 
                             name = 'TestFloorPlan', 
                             description = 'Description', 
@@ -193,24 +193,24 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            floorplans = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans(
-                                floorplan = openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan(
+                            floorplans = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans(
+                                floorplan = entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan(
                                     id = '145501', 
                                     name = 'Lincoln', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan_rates_inner.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_floorplan_specials_special_floorplans_floorplan_rates_inner.getSpecials_r2_SuccessResponse_specials_floorplanSpecials_special_floorplans_floorplan_rates_inner(
                                             charge_code_id = '185264', 
                                             charge_code_type_id = '2', 
                                             amount = '3', )
                                         ], 
                                     lease_terms = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                                             lease_term_id = '838', 
                                             lease_term_name = '6 months', 
                                             is_active = '1', )
                                         ], ), ), ), ), 
-                    unit_type_specials = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special(
+                    unit_type_specials = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special(
                             id = '12015763', 
                             name = 'TestFloorPlanUnitType', 
                             description = 'Description', 
@@ -221,12 +221,12 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            unit_types = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes(
-                                unit_type = openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType(
+                            unit_types = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes(
+                                unit_type = entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType(
                                     id = '161606', 
                                     name = 'One Bedroom', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type_rates_inner.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_unit_type_specials_special_unit_types_unit_type_rates_inner.getSpecials_r2_SuccessResponse_specials_unitTypeSpecials_special_unitTypes_unitType_rates_inner(
                                             charge_code_id = '152686', 
                                             charge_code_type_id = '2', 
                                             amount = '6', )
@@ -234,8 +234,8 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                                     lease_terms = [
                                         
                                         ], ), ), ), ), 
-                    unit_space_specials = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials(
-                        special = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special(
+                    unit_space_specials = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials(
+                        special = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special(
                             id = '12015764', 
                             name = 'TestFloorPlanUnitSpace', 
                             description = 'Description', 
@@ -246,15 +246,15 @@ class TestGetSpecialsR2SuccessResponse(unittest.TestCase):
                             remaining = '10', 
                             show_on_website = '1', 
                             is_active = '1', 
-                            unit_spaces = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces(
-                                unit_space = openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace(
+                            unit_spaces = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces(
+                                unit_space = entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace(
                                     id = '2421766', 
                                     building_id = '17642', 
                                     building_name = 'One', 
                                     property_unit_id = '2409587', 
                                     name = '88', 
                                     rates = [
-                                        openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
+                                        entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
                                             charge_code_id = '208782', 
                                             charge_code_type_id = '2', 
                                             amount = '45', )

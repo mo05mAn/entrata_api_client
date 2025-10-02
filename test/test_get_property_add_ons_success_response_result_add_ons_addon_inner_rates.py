@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_add_ons_success_response_result_add_ons_addon_inner_rates import GetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates
+from entrata_api_client.models.get_property_add_ons_success_response_result_add_ons_addon_inner_rates import GetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates
 
 class TestGetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates(unittest.TestCase):
     """GetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates(unittest.T
         if include_optional:
             return GetPropertyAddOnsSuccessResponseResultAddOnsAddonInnerRates(
                 rate = [
-                    openapi_client.models.get_property_add_ons_success_response_result_add_ons_addon_inner_rates_rate_inner.getPropertyAddOnsSuccessResponse_result_addOns_addon_inner_rates_rate_inner(
+                    entrata_api_client.models.get_property_add_ons_success_response_result_add_ons_addon_inner_rates_rate_inner.getPropertyAddOnsSuccessResponse_result_addOns_addon_inner_rates_rate_inner(
                         charge_timing_id = 211, 
                         charge_code_id = 207684, 
                         amount = '5.00', )

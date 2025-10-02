@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_lease_success_response import UpdateLeaseSuccessResponse
+from entrata_api_client.models.update_lease_success_response import UpdateLeaseSuccessResponse
 
 class TestUpdateLeaseSuccessResponse(unittest.TestCase):
     """UpdateLeaseSuccessResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateLeaseSuccessResponse(unittest.TestCase):
             return UpdateLeaseSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.update_lease_success_response_result.updateLeaseSuccessResponse_result(
+                result = entrata_api_client.models.update_lease_success_response_result.updateLeaseSuccessResponse_result(
                     status = 'Success', 
                     lease_id = '123456', 
                     message = 'Lease updated successfully.', )
@@ -46,7 +46,7 @@ class TestUpdateLeaseSuccessResponse(unittest.TestCase):
             return UpdateLeaseSuccessResponse(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.update_lease_success_response_result.updateLeaseSuccessResponse_result(
+                result = entrata_api_client.models.update_lease_success_response_result.updateLeaseSuccessResponse_result(
                     status = 'Success', 
                     lease_id = '123456', 
                     message = 'Lease updated successfully.', ),

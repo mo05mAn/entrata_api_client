@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas
+from entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas import GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas
 
 class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas(unittest.TestCase):
     """GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         if include_optional:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas(
                 search_area = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner__attributes(
                             id = 33674, 
                             company_search_area_id = 1206, ), )
                     ]
@@ -45,8 +45,8 @@ class TestGetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountries
         else:
             return GetPropertyPickListsR1SuccessResponseResultCompanySearchAreasCountriesInnerCountryInnerPropertyInnerPropertySearchAreasSearchAreas(
                 search_area = [
-                    openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner(
-                        @attributes = openapi_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner__attributes(
+                    entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner(
+                        @attributes = entrata_api_client.models.get_property_pick_lists_r1_success_response_result_company_search_areas_countries_inner_country_inner_property_inner_property_search_areas_search_areas_search_area_inner__attributes.getPropertyPickLists_r1_SuccessResponse_result_company_searchAreas_countries_inner_country_inner_Property_inner_PropertySearchAreas_SearchAreas_SearchArea_inner__attributes(
                             id = 33674, 
                             company_search_area_id = 1206, ), )
                     ],

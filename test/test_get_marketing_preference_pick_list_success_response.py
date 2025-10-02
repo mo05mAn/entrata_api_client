@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_marketing_preference_pick_list_success_response import GetMarketingPreferencePickListSuccessResponse
+from entrata_api_client.models.get_marketing_preference_pick_list_success_response import GetMarketingPreferencePickListSuccessResponse
 
 class TestGetMarketingPreferencePickListSuccessResponse(unittest.TestCase):
     """GetMarketingPreferencePickListSuccessResponse unit test stubs"""
@@ -35,12 +35,12 @@ class TestGetMarketingPreferencePickListSuccessResponse(unittest.TestCase):
         model = GetMarketingPreferencePickListSuccessResponse()
         if include_optional:
             return GetMarketingPreferencePickListSuccessResponse(
-                response = openapi_client.models.get_marketing_preference_pick_list_success_response_response.getMarketingPreferencePickListSuccessResponse_response(
+                response = entrata_api_client.models.get_marketing_preference_pick_list_success_response_response.getMarketingPreferencePickListSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_marketing_preference_pick_list_success_response_response_result.getMarketingPreferencePickListSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result.getMarketingPreferencePickListSuccessResponse_response_result(
                         preferences = [
-                            openapi_client.models.get_marketing_preference_pick_list_success_response_response_result_preferences_inner.getMarketingPreferencePickListSuccessResponse_response_result_preferences_inner(
+                            entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result_preferences_inner.getMarketingPreferencePickListSuccessResponse_response_result_preferences_inner(
                                 communication_channel = 'email', 
                                 recipient_type = 'LEAD', 
                                 recipient_type_id = 1, 
@@ -48,19 +48,19 @@ class TestGetMarketingPreferencePickListSuccessResponse(unittest.TestCase):
                                 consent_type_id = 1, )
                             ], 
                         availability_alert_frequencies = [
-                            openapi_client.models.get_marketing_preference_pick_list_success_response_response_result_availability_alert_frequencies_inner.getMarketingPreferencePickListSuccessResponse_response_result_availabilityAlertFrequencies_inner(
+                            entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result_availability_alert_frequencies_inner.getMarketingPreferencePickListSuccessResponse_response_result_availabilityAlertFrequencies_inner(
                                 frequency_id = 5, 
                                 frequency_name = 'Monthly', )
                             ], ), )
             )
         else:
             return GetMarketingPreferencePickListSuccessResponse(
-                response = openapi_client.models.get_marketing_preference_pick_list_success_response_response.getMarketingPreferencePickListSuccessResponse_response(
+                response = entrata_api_client.models.get_marketing_preference_pick_list_success_response_response.getMarketingPreferencePickListSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_marketing_preference_pick_list_success_response_response_result.getMarketingPreferencePickListSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result.getMarketingPreferencePickListSuccessResponse_response_result(
                         preferences = [
-                            openapi_client.models.get_marketing_preference_pick_list_success_response_response_result_preferences_inner.getMarketingPreferencePickListSuccessResponse_response_result_preferences_inner(
+                            entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result_preferences_inner.getMarketingPreferencePickListSuccessResponse_response_result_preferences_inner(
                                 communication_channel = 'email', 
                                 recipient_type = 'LEAD', 
                                 recipient_type_id = 1, 
@@ -68,7 +68,7 @@ class TestGetMarketingPreferencePickListSuccessResponse(unittest.TestCase):
                                 consent_type_id = 1, )
                             ], 
                         availability_alert_frequencies = [
-                            openapi_client.models.get_marketing_preference_pick_list_success_response_response_result_availability_alert_frequencies_inner.getMarketingPreferencePickListSuccessResponse_response_result_availabilityAlertFrequencies_inner(
+                            entrata_api_client.models.get_marketing_preference_pick_list_success_response_response_result_availability_alert_frequencies_inner.getMarketingPreferencePickListSuccessResponse_response_result_availabilityAlertFrequencies_inner(
                                 frequency_id = 5, 
                                 frequency_name = 'Monthly', )
                             ], ), ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.move_in_lease import MoveInLease
+from entrata_api_client.models.move_in_lease import MoveInLease
 
 class TestMoveInLease(unittest.TestCase):
     """MoveInLease unit test stubs"""
@@ -35,24 +35,24 @@ class TestMoveInLease(unittest.TestCase):
         model = MoveInLease()
         if include_optional:
             return MoveInLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.move_in_lease_method.moveInLease_method(
+                method = entrata_api_client.models.move_in_lease_method.moveInLease_method(
                     name = 'moveInLease', 
                     version = 'r1', 
-                    params = openapi_client.models.move_in_lease_method_params.moveInLease_method_params(
+                    params = entrata_api_client.models.move_in_lease_method_params.moveInLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, ), )
             )
         else:
             return MoveInLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.move_in_lease_method.moveInLease_method(
+                method = entrata_api_client.models.move_in_lease_method.moveInLease_method(
                     name = 'moveInLease', 
                     version = 'r1', 
-                    params = openapi_client.models.move_in_lease_method_params.moveInLease_method_params(
+                    params = entrata_api_client.models.move_in_lease_method_params.moveInLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, ), ),
         )

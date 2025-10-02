@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_journal_entries import SendJournalEntries
+from entrata_api_client.models.send_journal_entries import SendJournalEntries
 
 class TestSendJournalEntries(unittest.TestCase):
     """SendJournalEntries unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendJournalEntries(unittest.TestCase):
         model = SendJournalEntries()
         if include_optional:
             return SendJournalEntries(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_journal_entries_method.sendJournalEntries_method(
+                method = entrata_api_client.models.send_journal_entries_method.sendJournalEntries_method(
                     name = 'sendJournalEntries', 
                     version = 'r1', 
-                    params = openapi_client.models.send_journal_entries_method_params.sendJournalEntries_method_params(
+                    params = entrata_api_client.models.send_journal_entries_method_params.sendJournalEntries_method_params(
                         property_id = 123456, 
                         gl_account_id = 123456, 
                         gl_header_type_id = 1, 
@@ -72,12 +72,12 @@ class TestSendJournalEntries(unittest.TestCase):
             )
         else:
             return SendJournalEntries(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_journal_entries_method.sendJournalEntries_method(
+                method = entrata_api_client.models.send_journal_entries_method.sendJournalEntries_method(
                     name = 'sendJournalEntries', 
                     version = 'r1', 
-                    params = openapi_client.models.send_journal_entries_method_params.sendJournalEntries_method_params(
+                    params = entrata_api_client.models.send_journal_entries_method_params.sendJournalEntries_method_params(
                         property_id = 123456, 
                         gl_account_id = 123456, 
                         gl_header_type_id = 1, 

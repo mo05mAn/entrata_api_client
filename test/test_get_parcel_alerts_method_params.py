@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_parcel_alerts_method_params import GetParcelAlertsMethodParams
+from entrata_api_client.models.get_parcel_alerts_method_params import GetParcelAlertsMethodParams
 
 class TestGetParcelAlertsMethodParams(unittest.TestCase):
     """GetParcelAlertsMethodParams unit test stubs"""

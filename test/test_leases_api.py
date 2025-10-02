@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.leases_api import LeasesApi
+from entrata_api_client.api.leases_api import LeasesApi
 
 
 class TestLeasesApi(unittest.TestCase):

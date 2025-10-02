@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas import GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas import GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas
 
 class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaS
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas(
                 search_area = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                         id = 2096, 
                         name = 'subsearch1', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaS
         else:
             return GetPropertyPickListsR2SuccessResponseResultSearchAreaStatesSearchAreaStateInnerSearchAreas(
                 search_area = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                         id = 2096, 
                         name = 'subsearch1', )
                     ],

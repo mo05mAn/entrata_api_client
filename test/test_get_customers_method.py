@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_method import GetCustomersMethod
+from entrata_api_client.models.get_customers_method import GetCustomersMethod
 
 class TestGetCustomersMethod(unittest.TestCase):
     """GetCustomersMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetCustomersMethod(unittest.TestCase):
             return GetCustomersMethod(
                 name = 'getCustomers',
                 version = 'r1',
-                params = openapi_client.models.get_customers_method_params.getCustomers_method_params(
+                params = entrata_api_client.models.get_customers_method_params.getCustomers_method_params(
                     property_id = 123456, 
                     customer_ids = '1234,5678,9865', 
                     lease_status_type_ids = '1,2', 

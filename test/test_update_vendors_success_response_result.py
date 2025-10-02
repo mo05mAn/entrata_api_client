@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_vendors_success_response_result import UpdateVendorsSuccessResponseResult
+from entrata_api_client.models.update_vendors_success_response_result import UpdateVendorsSuccessResponseResult
 
 class TestUpdateVendorsSuccessResponseResult(unittest.TestCase):
     """UpdateVendorsSuccessResponseResult unit test stubs"""
@@ -35,10 +35,10 @@ class TestUpdateVendorsSuccessResponseResult(unittest.TestCase):
         model = UpdateVendorsSuccessResponseResult()
         if include_optional:
             return UpdateVendorsSuccessResponseResult(
-                vendors = openapi_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
-                    vendor = openapi_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
-                        1 = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
-                            @attributes = openapi_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
+                vendors = entrata_api_client.models.update_vendors_success_response_result_vendors.updateVendorsSuccessResponse_result_vendors(
+                    vendor = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor.updateVendorsSuccessResponse_result_vendors_vendor(
+                        1 = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1.updateVendorsSuccessResponse_result_vendors_vendor_1(
+                            @attributes = entrata_api_client.models.update_vendors_success_response_result_vendors_vendor_1__attributes.updateVendorsSuccessResponse_result_vendors_vendor_1__attributes(
                                 reference_id = '13245', 
                                 status = 'Success', 
                                 message = 'Vendor updated successfully.', ), ), ), )

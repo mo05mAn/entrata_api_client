@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations import GetVendorsSuccessResponseResultVendorsVendorInnerLocations
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations import GetVendorsSuccessResponseResultVendorsVendorInnerLocations
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerLocations(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerLocations unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerLocations(unittest.Te
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerLocations(
                 location = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations_location_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_locations_location_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations_location_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_locations_location_inner(
                         id = '26685', 
                         name = 'Corporate', 
                         vendor_code = 'MangoCode', 

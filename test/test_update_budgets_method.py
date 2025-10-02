@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_budgets_method import UpdateBudgetsMethod
+from entrata_api_client.models.update_budgets_method import UpdateBudgetsMethod
 
 class TestUpdateBudgetsMethod(unittest.TestCase):
     """UpdateBudgetsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdateBudgetsMethod(unittest.TestCase):
             return UpdateBudgetsMethod(
                 name = 'updateBudgets',
                 version = 'r1',
-                params = openapi_client.models.update_budgets_method_params.updateBudgets_method_params(
+                params = entrata_api_client.models.update_budgets_method_params.updateBudgets_method_params(
                     property_id = 123456, 
                     id = 123456, 
                     month = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

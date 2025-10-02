@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_phone_number_method import GetPhoneNumberMethod
+from entrata_api_client.models.get_phone_number_method import GetPhoneNumberMethod
 
 class TestGetPhoneNumberMethod(unittest.TestCase):
     """GetPhoneNumberMethod unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPhoneNumberMethod(unittest.TestCase):
         if include_optional:
             return GetPhoneNumberMethod(
                 name = 'getPhoneNumber',
-                params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                     property_ids = [123456,789], 
                     switch_code = '46545', 
                     ref = 'http://google.com', )
@@ -44,7 +44,7 @@ class TestGetPhoneNumberMethod(unittest.TestCase):
         else:
             return GetPhoneNumberMethod(
                 name = 'getPhoneNumber',
-                params = openapi_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
+                params = entrata_api_client.models.get_phone_number_method_params.getPhoneNumber_method_params(
                     property_ids = [123456,789], 
                     switch_code = '46545', 
                     ref = 'http://google.com', ),

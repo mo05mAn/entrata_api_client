@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_rentable_items_success_response import GetRentableItemsSuccessResponse
+from entrata_api_client.models.get_rentable_items_success_response import GetRentableItemsSuccessResponse
 
 class TestGetRentableItemsSuccessResponse(unittest.TestCase):
     """GetRentableItemsSuccessResponse unit test stubs"""
@@ -35,41 +35,41 @@ class TestGetRentableItemsSuccessResponse(unittest.TestCase):
         model = GetRentableItemsSuccessResponse()
         if include_optional:
             return GetRentableItemsSuccessResponse(
-                response = openapi_client.models.get_rentable_items_success_response_response.getRentableItemsSuccessResponse_response(
+                response = entrata_api_client.models.get_rentable_items_success_response_response.getRentableItemsSuccessResponse_response(
                     request_id = 15, 
-                    result = openapi_client.models.get_rentable_items_success_response_response_result.getRentableItemsSuccessResponse_response_result(
-                        rentable_item_types = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types.getRentableItemsSuccessResponse_response_result_RentableItemTypes(
-                            rentable_item_type = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType(
+                    result = entrata_api_client.models.get_rentable_items_success_response_response_result.getRentableItemsSuccessResponse_response_result(
+                        rentable_item_types = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types.getRentableItemsSuccessResponse_response_result_RentableItemTypes(
+                            rentable_item_type = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType(
                                 id = 2628, 
                                 name = 'Bikes', 
                                 description = 'Motorcycles', 
-                                rents = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents(
-                                    rent = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                                rents = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents(
+                                    rent = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                                         type = 'RIT', 
                                         charge_code = 'Rent', 
                                         amount = '$100.00', ), ), 
-                                deposits = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits(
-                                    deposit = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                                deposits = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits(
+                                    deposit = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                                         type = 'RIT', 
                                         charge_code = 'example', 
                                         amount = '$55.00', ), ), 
-                                rentable_items = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems(
-                                    rentable_item = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem(
+                                rentable_items = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems(
+                                    rentable_item = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem(
                                         id = 90613, 
                                         name = 'Hayabuza', 
                                         reservation_start_date = '05/04/2013', 
                                         reservation_end_date = '06/30/2013', 
                                         hold_until = '04/11/2013', 
-                                        rents = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Rents(
+                                        rents = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Rents(
                                             rent = [
-                                                openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                                                entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                                                     type = 'RIT', 
                                                     charge_code = 'Rent', 
                                                     amount = '$100.00', )
                                                 ], ), 
-                                        deposits = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Deposits(
+                                        deposits = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Deposits(
                                             deposit = [
-                                                openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                                                entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                                                     type = 'RIT', 
                                                     charge_code = 'example', 
                                                     amount = '$55.00', )
@@ -78,41 +78,41 @@ class TestGetRentableItemsSuccessResponse(unittest.TestCase):
             )
         else:
             return GetRentableItemsSuccessResponse(
-                response = openapi_client.models.get_rentable_items_success_response_response.getRentableItemsSuccessResponse_response(
+                response = entrata_api_client.models.get_rentable_items_success_response_response.getRentableItemsSuccessResponse_response(
                     request_id = 15, 
-                    result = openapi_client.models.get_rentable_items_success_response_response_result.getRentableItemsSuccessResponse_response_result(
-                        rentable_item_types = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types.getRentableItemsSuccessResponse_response_result_RentableItemTypes(
-                            rentable_item_type = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType(
+                    result = entrata_api_client.models.get_rentable_items_success_response_response_result.getRentableItemsSuccessResponse_response_result(
+                        rentable_item_types = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types.getRentableItemsSuccessResponse_response_result_RentableItemTypes(
+                            rentable_item_type = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType(
                                 id = 2628, 
                                 name = 'Bikes', 
                                 description = 'Motorcycles', 
-                                rents = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents(
-                                    rent = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                                rents = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents(
+                                    rent = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                                         type = 'RIT', 
                                         charge_code = 'Rent', 
                                         amount = '$100.00', ), ), 
-                                deposits = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits(
-                                    deposit = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                                deposits = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits(
+                                    deposit = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                                         type = 'RIT', 
                                         charge_code = 'example', 
                                         amount = '$55.00', ), ), 
-                                rentable_items = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems(
-                                    rentable_item = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem(
+                                rentable_items = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems(
+                                    rentable_item = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem(
                                         id = 90613, 
                                         name = 'Hayabuza', 
                                         reservation_start_date = '05/04/2013', 
                                         reservation_end_date = '06/30/2013', 
                                         hold_until = '04/11/2013', 
-                                        rents = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Rents(
+                                        rents = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_rents.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Rents(
                                             rent = [
-                                                openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
+                                                entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rents_rent.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Rents_Rent(
                                                     type = 'RIT', 
                                                     charge_code = 'Rent', 
                                                     amount = '$100.00', )
                                                 ], ), 
-                                        deposits = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Deposits(
+                                        deposits = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_rentable_items_rentable_item_deposits.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_RentableItems_RentableItem_Deposits(
                                             deposit = [
-                                                openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                                                entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                                                     type = 'RIT', 
                                                     charge_code = 'example', 
                                                     amount = '$55.00', )

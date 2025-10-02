@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_work_orders_method import SendWorkOrdersMethod
+from entrata_api_client.models.send_work_orders_method import SendWorkOrdersMethod
 
 class TestSendWorkOrdersMethod(unittest.TestCase):
     """SendWorkOrdersMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendWorkOrdersMethod(unittest.TestCase):
             return SendWorkOrdersMethod(
                 name = 'sendWorkOrders',
                 version = 'r1',
-                params = openapi_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
+                params = entrata_api_client.models.send_work_orders_method_params.sendWorkOrders_method_params(
                     property_id = 123456, 
                     customer_id = 123456, 
                     lease_id = 123456, 

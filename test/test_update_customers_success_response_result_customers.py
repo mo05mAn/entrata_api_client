@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customers_success_response_result_customers import UpdateCustomersSuccessResponseResultCustomers
+from entrata_api_client.models.update_customers_success_response_result_customers import UpdateCustomersSuccessResponseResultCustomers
 
 class TestUpdateCustomersSuccessResponseResultCustomers(unittest.TestCase):
     """UpdateCustomersSuccessResponseResultCustomers unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateCustomersSuccessResponseResultCustomers(unittest.TestCase):
         if include_optional:
             return UpdateCustomersSuccessResponseResultCustomers(
                 customer = [
-                    openapi_client.models.update_customers_success_response_result_customers_customer_inner.updateCustomersSuccessResponse_result_customers_customer_inner(
+                    entrata_api_client.models.update_customers_success_response_result_customers_customer_inner.updateCustomersSuccessResponse_result_customers_customer_inner(
                         node = '1', 
                         reference_id = '31025784', 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestUpdateCustomersSuccessResponseResultCustomers(unittest.TestCase):
         else:
             return UpdateCustomersSuccessResponseResultCustomers(
                 customer = [
-                    openapi_client.models.update_customers_success_response_result_customers_customer_inner.updateCustomersSuccessResponse_result_customers_customer_inner(
+                    entrata_api_client.models.update_customers_success_response_result_customers_customer_inner.updateCustomersSuccessResponse_result_customers_customer_inner(
                         node = '1', 
                         reference_id = '31025784', 
                         status = 'Success', 

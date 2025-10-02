@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetail
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetail
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetail(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsRTServiceTransactionsTransactionsInnerChargeDetail unit test stubs"""
@@ -40,9 +40,9 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
                 service_to_date = '2024-12-19',
                 transaction_id = 123456,
                 charge_code = 'LATEFEE',
-                supplemental_id = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID(
-                    identification = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification(
-                        @attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
+                supplemental_id = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID(
+                    identification = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification(
+                        @attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_rt_service_transactions_transactions_inner_charge_detail_supplemental_id_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_RTServiceTransactions_Transactions_inner_Charge_Detail_SupplementalID_Identification__attributes(
                             id_type = 'AR001', ), 
                         id_value = 123, ), ),
                 balance_due = '50.00',

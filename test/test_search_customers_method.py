@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_customers_method import SearchCustomersMethod
+from entrata_api_client.models.search_customers_method import SearchCustomersMethod
 
 class TestSearchCustomersMethod(unittest.TestCase):
     """SearchCustomersMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchCustomersMethod(unittest.TestCase):
             return SearchCustomersMethod(
                 name = 'searchCustomers',
                 version = 'r1',
-                params = openapi_client.models.search_customers_method_params.searchCustomers_method_params(
+                params = entrata_api_client.models.search_customers_method_params.searchCustomers_method_params(
                     property_id = 123456, 
                     search = 'Thornberry', )
             )

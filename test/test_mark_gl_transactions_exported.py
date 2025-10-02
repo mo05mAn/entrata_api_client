@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_gl_transactions_exported import MarkGlTransactionsExported
+from entrata_api_client.models.mark_gl_transactions_exported import MarkGlTransactionsExported
 
 class TestMarkGlTransactionsExported(unittest.TestCase):
     """MarkGlTransactionsExported unit test stubs"""
@@ -35,23 +35,23 @@ class TestMarkGlTransactionsExported(unittest.TestCase):
         model = MarkGlTransactionsExported()
         if include_optional:
             return MarkGlTransactionsExported(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.mark_gl_transactions_exported_method.markGlTransactionsExported_method(
+                method = entrata_api_client.models.mark_gl_transactions_exported_method.markGlTransactionsExported_method(
                     name = 'markGlTransactionsExported', 
                     version = 'r1', 
-                    params = openapi_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
+                    params = entrata_api_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
                         gl_detail_id = 56, ), )
             )
         else:
             return MarkGlTransactionsExported(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.mark_gl_transactions_exported_method.markGlTransactionsExported_method(
+                method = entrata_api_client.models.mark_gl_transactions_exported_method.markGlTransactionsExported_method(
                     name = 'markGlTransactionsExported', 
                     version = 'r1', 
-                    params = openapi_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
+                    params = entrata_api_client.models.mark_gl_transactions_exported_method_params.markGlTransactionsExported_method_params(
                         gl_detail_id = 56, ), ),
         )
         """

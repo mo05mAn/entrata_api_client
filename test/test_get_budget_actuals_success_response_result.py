@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budget_actuals_success_response_result import GetBudgetActualsSuccessResponseResult
+from entrata_api_client.models.get_budget_actuals_success_response_result import GetBudgetActualsSuccessResponseResult
 
 class TestGetBudgetActualsSuccessResponseResult(unittest.TestCase):
     """GetBudgetActualsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetBudgetActualsSuccessResponseResult(unittest.TestCase):
         model = GetBudgetActualsSuccessResponseResult()
         if include_optional:
             return GetBudgetActualsSuccessResponseResult(
-                budget_vs_actuals = openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
+                budget_vs_actuals = entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
                     budget_vs_actual = [
-                        openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                        entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                             account_name = 'Testgldetails', 
                             account_id = '171693', 
                             mtd_actual_income = '150.00', 
@@ -53,9 +53,9 @@ class TestGetBudgetActualsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetBudgetActualsSuccessResponseResult(
-                budget_vs_actuals = openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
+                budget_vs_actuals = entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals.getBudgetActualsSuccessResponse_result_budgetVsActuals(
                     budget_vs_actual = [
-                        openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                        entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                             account_name = 'Testgldetails', 
                             account_id = '171693', 
                             mtd_actual_income = '150.00', 

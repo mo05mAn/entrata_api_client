@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInner
+from entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInner
 
 class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInner(unittest.TestCase):
     """GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccountsGlAccountInner unit test stubs"""
@@ -38,13 +38,13 @@ class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInn
                 id = '154463',
                 account_name = 'Accelerated Rent',
                 account_number = '4010',
-                gl_totals = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals(
-                    gl_total = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
+                gl_totals = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals(
+                    gl_total = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
                         amount = '360', 
                         gl_dimension_id = '463', ), ),
-                budget_months = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths(
+                budget_months = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths(
                     budget_month = [
-                        openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
+                        entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
                             month = '01/01/2019', 
                             amount = '100', 
                             gl_dimension_id = '463', )
@@ -55,13 +55,13 @@ class TestGetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInn
                 id = '154463',
                 account_name = 'Accelerated Rent',
                 account_number = '4010',
-                gl_totals = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals(
-                    gl_total = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
+                gl_totals = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals(
+                    gl_total = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_gl_totals_gl_total.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_glTotals_glTotal(
                         amount = '360', 
                         gl_dimension_id = '463', ), ),
-                budget_months = openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths(
+                budget_months = entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths(
                     budget_month = [
-                        openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
+                        entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts_gl_account_inner_budget_months_budget_month_inner.getBudgetsSuccessResponse_result_properties_property_inner_budgets_budget_inner_glAccounts_glAccount_inner_budgetMonths_budgetMonth_inner(
                             month = '01/01/2019', 
                             amount = '100', 
                             gl_dimension_id = '463', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInne
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPolicyPetInnerPets(
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_policy_pet_inner_pets__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Policy_Pet_inner_Pets__attributes(
                     count = '0', 
                     description = 'Cat', 
                     pet_type = 'Cat', 

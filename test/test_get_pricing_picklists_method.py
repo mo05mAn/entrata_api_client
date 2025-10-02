@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_method import GetPricingPicklistsMethod
+from entrata_api_client.models.get_pricing_picklists_method import GetPricingPicklistsMethod
 
 class TestGetPricingPicklistsMethod(unittest.TestCase):
     """GetPricingPicklistsMethod unit test stubs"""

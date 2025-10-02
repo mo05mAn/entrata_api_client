@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_response import UpdatePropertyResponse
+from entrata_api_client.models.update_property_response import UpdatePropertyResponse
 
 class TestUpdatePropertyResponse(unittest.TestCase):
     """UpdatePropertyResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdatePropertyResponse(unittest.TestCase):
         model = UpdatePropertyResponse()
         if include_optional:
             return UpdatePropertyResponse(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_property_response_method.updatePropertyResponse_method(
+                method = entrata_api_client.models.update_property_response_method.updatePropertyResponse_method(
                     name = 'updatePropertyResponse', 
                     version = 'r1', 
-                    params = openapi_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
+                    params = entrata_api_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
                         property_id = 123456, 
                         testimonial_id = 12345, 
                         review_response = '12345', 
@@ -49,12 +49,12 @@ class TestUpdatePropertyResponse(unittest.TestCase):
             )
         else:
             return UpdatePropertyResponse(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_property_response_method.updatePropertyResponse_method(
+                method = entrata_api_client.models.update_property_response_method.updatePropertyResponse_method(
                     name = 'updatePropertyResponse', 
                     version = 'r1', 
-                    params = openapi_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
+                    params = entrata_api_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
                         property_id = 123456, 
                         testimonial_id = 12345, 
                         review_response = '12345', 

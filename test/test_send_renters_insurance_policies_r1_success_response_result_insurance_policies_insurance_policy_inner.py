@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner import SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner
+from entrata_api_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner import SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner
 
 class TestSendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner(unittest.TestCase):
     """SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestSendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesIn
         model = SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner()
         if include_optional:
             return SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner(
-                attributes = openapi_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner__attributes.sendRentersInsurancePolicies_r1_SuccessResponse_result_insurancePolicies_insurancePolicy_inner__attributes(
+                attributes = entrata_api_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner__attributes.sendRentersInsurancePolicies_r1_SuccessResponse_result_insurancePolicies_insurancePolicy_inner__attributes(
                     node = '1', 
                     reference_id = '123456', 
                     lease_id = '123456', 
@@ -45,7 +45,7 @@ class TestSendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesIn
             )
         else:
             return SendRentersInsurancePoliciesR1SuccessResponseResultInsurancePoliciesInsurancePolicyInner(
-                attributes = openapi_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner__attributes.sendRentersInsurancePolicies_r1_SuccessResponse_result_insurancePolicies_insurancePolicy_inner__attributes(
+                attributes = entrata_api_client.models.send_renters_insurance_policies_r1_success_response_result_insurance_policies_insurance_policy_inner__attributes.sendRentersInsurancePolicies_r1_SuccessResponse_result_insurancePolicies_insurancePolicy_inner__attributes(
                     node = '1', 
                     reference_id = '123456', 
                     lease_id = '123456', 

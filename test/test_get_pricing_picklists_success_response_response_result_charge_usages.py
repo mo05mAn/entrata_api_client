@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages import GetPricingPicklistsSuccessResponseResponseResultChargeUsages
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages import GetPricingPicklistsSuccessResponseResponseResultChargeUsages
 
 class TestGetPricingPicklistsSuccessResponseResponseResultChargeUsages(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultChargeUsages unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPricingPicklistsSuccessResponseResponseResultChargeUsages(unittest.
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultChargeUsages(
                 charge_usage = [
-                    openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
-                        @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
+                    entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner(
+                        @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_usages_charge_usage_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeUsages_chargeUsage_inner__attributes(
                             id = 1, 
                             name = 'Base', ), )
                     ]

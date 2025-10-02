@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInner
+from entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner import GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInner
 
 class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInner(unittest.TestCase):
     """GetSpecialsR4SuccessResponseResponseResultSpecialGroupsInner unit test stubs"""
@@ -48,54 +48,54 @@ class TestGetSpecialsR4SuccessResponseResponseResultSpecialGroupsInner(unittest.
                 internal_description = '',
                 coupon_code = '',
                 special_recipient_details = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_special_recipient_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specialRecipientDetails_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_special_recipient_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specialRecipientDetails_inner(
                         special_recipient_id = 2, 
                         special_recipient_name = 'ABC', )
                     ],
                 limit_quantity = '0',
                 terms_and_conditions = '',
                 lead_source_details = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_lead_source_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_leadSourceDetails_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_lead_source_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_leadSourceDetails_inner(
                         id = 2, 
                         name = 'ABC', )
                     ],
                 renewal_lease_start_date_range = '',
                 prospect_lease_start_date_range = '',
                 space_configuration_details = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_space_configuration_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_spaceConfigurationDetails_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_space_configuration_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_spaceConfigurationDetails_inner(
                         space_configuration_id = 2, 
                         space_configuration_name = 'ABC', )
                     ],
                 incentive_limit = '1',
                 is_selectable = '0',
-                associations = openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations(
+                associations = entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations(
                     level_id = '1', 
                     level_name = 'XYZ', 
                     unit_count = 1, 
                     references = [
-                        openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations_references_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations_references_inner(
+                        entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_associations_references_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_associations_references_inner(
                             id = '7777777', 
                             name = 'PQR', )
                         ], ),
                 special_recipient_trigger_type_details = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_special_recipient_trigger_type_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specialRecipientTriggerTypeDetails_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_special_recipient_trigger_type_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specialRecipientTriggerTypeDetails_inner(
                         special_recipient_trigger_type_id = '11', 
                         special_recipient_trigger_type_name = 'Application Completed', )
                     ],
                 lease_term_details = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_lease_term_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_leaseTermDetails_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_lease_term_details_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_leaseTermDetails_inner(
                         lease_term_id = '1', 
                         lease_term_name = 'UVW', 
                         lease_start_window_id = '0', )
                     ],
                 specials = [
-                    openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner(
+                    entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner(
                         special_id = '88888888', 
                         special_type_id = '1', 
                         special_name = 'consession', 
                         gift_value = '0.00', 
                         rate = [
-                            openapi_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner_rate_inner(
+                            entrata_api_client.models.get_specials_r4_success_response_response_result_special_groups_inner_specials_inner_rate_inner.getSpecials_r4_SuccessResponse_response_result_specialGroups_inner_specials_inner_rate_inner(
                                 rate_id = '999999999', 
                                 ar_code_id = '666666', 
                                 ar_code_type_name = 'Dummy_name', 

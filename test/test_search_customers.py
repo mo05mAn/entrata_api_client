@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_customers import SearchCustomers
+from entrata_api_client.models.search_customers import SearchCustomers
 
 class TestSearchCustomers(unittest.TestCase):
     """SearchCustomers unit test stubs"""
@@ -35,24 +35,24 @@ class TestSearchCustomers(unittest.TestCase):
         model = SearchCustomers()
         if include_optional:
             return SearchCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.search_customers_method.searchCustomers_method(
+                method = entrata_api_client.models.search_customers_method.searchCustomers_method(
                     name = 'searchCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.search_customers_method_params.searchCustomers_method_params(
+                    params = entrata_api_client.models.search_customers_method_params.searchCustomers_method_params(
                         property_id = 123456, 
                         search = 'Thornberry', ), )
             )
         else:
             return SearchCustomers(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.search_customers_method.searchCustomers_method(
+                method = entrata_api_client.models.search_customers_method.searchCustomers_method(
                     name = 'searchCustomers', 
                     version = 'r1', 
-                    params = openapi_client.models.search_customers_method_params.searchCustomers_method_params(
+                    params = entrata_api_client.models.search_customers_method_params.searchCustomers_method_params(
                         property_id = 123456, 
                         search = 'Thornberry', ), ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours unit test stubs"""
@@ -35,20 +35,20 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropert
         model = GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours()
         if include_optional:
             return GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHours(
-                holiday_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
-                    holiday_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
+                holiday_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours(
+                    holiday_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
                         name = 'Columbus Day', 
                         date = '10/08/2018', ), ),
-                office_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
-                    office_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
+                office_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours(
+                    office_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_office_hours_office_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_OfficeHours_OfficeHour(
                         day = 'Monday', 
                         availability_type = 'Open', 
                         open_time = '9:00 AM', 
                         close_time = '6:30 PM', 
                         lunch_start_time = '1:00 PM', 
                         lunch_end_time = '2:00 PM', ), ),
-                pool_hours = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
-                    pool_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
+                pool_hours = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours(
+                    pool_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
                         day = 'Monday', 
                         open_time = '8:20 AM', 
                         close_time = '4:06 PM', ), )

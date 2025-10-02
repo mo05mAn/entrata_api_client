@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent(unitte
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanMarketRent(
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_market_rent__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_MarketRent__attributes(
                     max = '850', 
                     min = '850', )
             )

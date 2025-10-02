@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsProper
         model = GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner()
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner(
-                unit_space = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
-                    rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
-                        term_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
+                unit_space = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
+                    rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
+                        term_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
                             lease_term = '10 Months', 
                             rent = '1000.00', 
                             rate_frequency = 'Monthly', ), ), 
-                    deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
+                    deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
                         min_deposit = '$95.00', 
                         max_deposit = '$565.00', ), 
                     unit_number = 'A', 
@@ -55,13 +55,13 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsProper
             )
         else:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertyUnitsPropertyUnitInner(
-                unit_space = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
-                    rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
-                        term_rent = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
+                unit_space = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace(
+                    rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent(
+                        term_rent = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_rent_term_rent.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Rent_TermRent(
                             lease_term = '10 Months', 
                             rent = '1000.00', 
                             rate_frequency = 'Monthly', ), ), 
-                    deposit = openapi_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
+                    deposit = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_property_units_property_unit_inner_unit_space_deposit.getUnitsAvailabilityAndPricingSuccessResponse_result_PropertyUnits_PropertyUnit_inner_UnitSpace_Deposit(
                         min_deposit = '$95.00', 
                         max_deposit = '$565.00', ), 
                     unit_number = 'A', 

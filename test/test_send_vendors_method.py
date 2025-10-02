@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_vendors_method import SendVendorsMethod
+from entrata_api_client.models.send_vendors_method import SendVendorsMethod
 
 class TestSendVendorsMethod(unittest.TestCase):
     """SendVendorsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendVendorsMethod(unittest.TestCase):
             return SendVendorsMethod(
                 name = 'sendVendors',
                 version = 'r1',
-                params = openapi_client.models.send_vendors_method_params.sendVendors_method_params(
+                params = entrata_api_client.models.send_vendors_method_params.sendVendors_method_params(
                     business_name = 'Vendor name', 
                     name_on_tax_return = 'Legal entity name', 
                     remittance_name = 'header', 

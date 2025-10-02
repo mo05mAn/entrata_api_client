@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases import GetMitsLeases
+from entrata_api_client.models.get_mits_leases import GetMitsLeases
 
 class TestGetMitsLeases(unittest.TestCase):
     """GetMitsLeases unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeases(unittest.TestCase):
         model = GetMitsLeases()
         if include_optional:
             return GetMitsLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_mits_leases_method.getMitsLeases_method(
+                method = entrata_api_client.models.get_mits_leases_method.getMitsLeases_method(
                     name = 'getMitsLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
+                    params = entrata_api_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
                         property_id = 123456, 
                         customer_id = 123456, 
                         lease_status_type_ids = 56, 
@@ -65,12 +65,12 @@ class TestGetMitsLeases(unittest.TestCase):
             )
         else:
             return GetMitsLeases(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_mits_leases_method.getMitsLeases_method(
+                method = entrata_api_client.models.get_mits_leases_method.getMitsLeases_method(
                     name = 'getMitsLeases', 
                     version = 'r1', 
-                    params = openapi_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
+                    params = entrata_api_client.models.get_mits_leases_method_params.getMitsLeases_method_params(
                         property_id = 123456, 
                         customer_id = 123456, 
                         lease_status_type_ids = 56, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_amenities_success_response_response_result import SendAmenitiesSuccessResponseResponseResult
+from entrata_api_client.models.send_amenities_success_response_response_result import SendAmenitiesSuccessResponseResponseResult
 
 class TestSendAmenitiesSuccessResponseResponseResult(unittest.TestCase):
     """SendAmenitiesSuccessResponseResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendAmenitiesSuccessResponseResponseResult(unittest.TestCase):
         if include_optional:
             return SendAmenitiesSuccessResponseResponseResult(
                 property_amenities = [
-                    openapi_client.models.send_amenities_success_response_response_result_property_amenities_inner.sendAmenitiesSuccessResponse_response_result_propertyAmenities_inner(
+                    entrata_api_client.models.send_amenities_success_response_response_result_property_amenities_inner.sendAmenitiesSuccessResponse_response_result_propertyAmenities_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1200111, 
@@ -45,7 +45,7 @@ class TestSendAmenitiesSuccessResponseResponseResult(unittest.TestCase):
                         message = 'Amenity inserted successfully.', )
                     ],
                 unit_amenities = [
-                    openapi_client.models.send_amenities_success_response_response_result_unit_amenities_inner.sendAmenitiesSuccessResponse_response_result_unitAmenities_inner(
+                    entrata_api_client.models.send_amenities_success_response_response_result_unit_amenities_inner.sendAmenitiesSuccessResponse_response_result_unitAmenities_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1200113, 
@@ -57,7 +57,7 @@ class TestSendAmenitiesSuccessResponseResponseResult(unittest.TestCase):
         else:
             return SendAmenitiesSuccessResponseResponseResult(
                 property_amenities = [
-                    openapi_client.models.send_amenities_success_response_response_result_property_amenities_inner.sendAmenitiesSuccessResponse_response_result_propertyAmenities_inner(
+                    entrata_api_client.models.send_amenities_success_response_response_result_property_amenities_inner.sendAmenitiesSuccessResponse_response_result_propertyAmenities_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1200111, 
@@ -66,7 +66,7 @@ class TestSendAmenitiesSuccessResponseResponseResult(unittest.TestCase):
                         message = 'Amenity inserted successfully.', )
                     ],
                 unit_amenities = [
-                    openapi_client.models.send_amenities_success_response_response_result_unit_amenities_inner.sendAmenitiesSuccessResponse_response_result_unitAmenities_inner(
+                    entrata_api_client.models.send_amenities_success_response_response_result_unit_amenities_inner.sendAmenitiesSuccessResponse_response_result_unitAmenities_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1200113, 

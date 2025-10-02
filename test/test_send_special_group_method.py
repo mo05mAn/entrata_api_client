@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_method import SendSpecialGroupMethod
+from entrata_api_client.models.send_special_group_method import SendSpecialGroupMethod
 
 class TestSendSpecialGroupMethod(unittest.TestCase):
     """SendSpecialGroupMethod unit test stubs"""
@@ -37,9 +37,9 @@ class TestSendSpecialGroupMethod(unittest.TestCase):
             return SendSpecialGroupMethod(
                 name = 'sendSpecialGroup',
                 version = 'r1',
-                params = openapi_client.models.send_special_group_method_params.sendSpecialGroup_method_params(
+                params = entrata_api_client.models.send_special_group_method_params.sendSpecialGroup_method_params(
                     property_id = '123456', 
-                    special_group = openapi_client.models.send_special_group_method_params_special_group.sendSpecialGroup_method_params_specialGroup(
+                    special_group = entrata_api_client.models.send_special_group_method_params_special_group.sendSpecialGroup_method_params_specialGroup(
                         special_group_name = 'Test Insert Special API', 
                         internal_description = 'Internal Desc', 
                         floor_plan_ids = '1,2,3', 
@@ -64,22 +64,22 @@ class TestSendSpecialGroupMethod(unittest.TestCase):
                         incentive_limit = '1', 
                         is_selectable = '0', 
                         lease_term_details = [
-                            openapi_client.models.send_special_group_method_params_special_group_lease_term_details_inner.sendSpecialGroup_method_params_specialGroup_leaseTermDetails_inner(
+                            entrata_api_client.models.send_special_group_method_params_special_group_lease_term_details_inner.sendSpecialGroup_method_params_specialGroup_leaseTermDetails_inner(
                                 lease_term_id = '12345', 
                                 lease_start_window_id = '456789', )
                             ], 
-                        special_recipient_details = openapi_client.models.send_special_group_method_params_special_group_special_recipient_details.sendSpecialGroup_method_params_specialGroup_specialRecipientDetails(
+                        special_recipient_details = entrata_api_client.models.send_special_group_method_params_special_group_special_recipient_details.sendSpecialGroup_method_params_specialGroup_specialRecipientDetails(
                             special_recipient_ids = '2,3', 
                             special_trigger_type_id_prospect = '11', 
                             special_trigger_type_id_renewal = '22', ), 
                         special_group_space_configuration_ids = '2,3', 
                         specials = [
-                            openapi_client.models.send_special_group_method_params_special_group_specials_inner.sendSpecialGroup_method_params_specialGroup_specials_inner(
+                            entrata_api_client.models.send_special_group_method_params_special_group_specials_inner.sendSpecialGroup_method_params_specialGroup_specials_inner(
                                 special_type_id = '1', 
                                 special_name = 'conccession1', 
                                 gift_value = '0.00', 
                                 rates = [
-                                    openapi_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
+                                    entrata_api_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
                                         ar_code_id = '123456', 
                                         ar_trigger_id = '111', 
                                         ar_code_type_id = '2', 
@@ -104,9 +104,9 @@ class TestSendSpecialGroupMethod(unittest.TestCase):
             return SendSpecialGroupMethod(
                 name = 'sendSpecialGroup',
                 version = 'r1',
-                params = openapi_client.models.send_special_group_method_params.sendSpecialGroup_method_params(
+                params = entrata_api_client.models.send_special_group_method_params.sendSpecialGroup_method_params(
                     property_id = '123456', 
-                    special_group = openapi_client.models.send_special_group_method_params_special_group.sendSpecialGroup_method_params_specialGroup(
+                    special_group = entrata_api_client.models.send_special_group_method_params_special_group.sendSpecialGroup_method_params_specialGroup(
                         special_group_name = 'Test Insert Special API', 
                         internal_description = 'Internal Desc', 
                         floor_plan_ids = '1,2,3', 
@@ -131,22 +131,22 @@ class TestSendSpecialGroupMethod(unittest.TestCase):
                         incentive_limit = '1', 
                         is_selectable = '0', 
                         lease_term_details = [
-                            openapi_client.models.send_special_group_method_params_special_group_lease_term_details_inner.sendSpecialGroup_method_params_specialGroup_leaseTermDetails_inner(
+                            entrata_api_client.models.send_special_group_method_params_special_group_lease_term_details_inner.sendSpecialGroup_method_params_specialGroup_leaseTermDetails_inner(
                                 lease_term_id = '12345', 
                                 lease_start_window_id = '456789', )
                             ], 
-                        special_recipient_details = openapi_client.models.send_special_group_method_params_special_group_special_recipient_details.sendSpecialGroup_method_params_specialGroup_specialRecipientDetails(
+                        special_recipient_details = entrata_api_client.models.send_special_group_method_params_special_group_special_recipient_details.sendSpecialGroup_method_params_specialGroup_specialRecipientDetails(
                             special_recipient_ids = '2,3', 
                             special_trigger_type_id_prospect = '11', 
                             special_trigger_type_id_renewal = '22', ), 
                         special_group_space_configuration_ids = '2,3', 
                         specials = [
-                            openapi_client.models.send_special_group_method_params_special_group_specials_inner.sendSpecialGroup_method_params_specialGroup_specials_inner(
+                            entrata_api_client.models.send_special_group_method_params_special_group_specials_inner.sendSpecialGroup_method_params_specialGroup_specials_inner(
                                 special_type_id = '1', 
                                 special_name = 'conccession1', 
                                 gift_value = '0.00', 
                                 rates = [
-                                    openapi_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
+                                    entrata_api_client.models.send_special_group_method_params_special_group_specials_inner_rates_inner.sendSpecialGroup_method_params_specialGroup_specials_inner_rates_inner(
                                         ar_code_id = '123456', 
                                         ar_trigger_id = '111', 
                                         ar_code_type_id = '2', 

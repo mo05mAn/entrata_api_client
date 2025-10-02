@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_property import GetLeadPickListsR2SuccessResponseResultProperty
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property import GetLeadPickListsR2SuccessResponseResultProperty
 
 class TestGetLeadPickListsR2SuccessResponseResultProperty(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultProperty unit test stubs"""
@@ -35,21 +35,21 @@ class TestGetLeadPickListsR2SuccessResponseResultProperty(unittest.TestCase):
         model = GetLeadPickListsR2SuccessResponseResultProperty()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultProperty(
-                leasing_agents = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents(
+                leasing_agents = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents(
                     leasing_agent = [
-                        openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner(
-                            @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner__attributes(
+                        entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner(
+                            @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner__attributes(
                                 name = 'Carter Babb', 
                                 id = '315879', ), )
                         ], ),
-                quote_provisions = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions(
+                quote_provisions = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions(
                     quote_provision = [
-                        openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner(
-                            @attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner__attributes(
+                        entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner(
+                            @attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_quote_provisions_quote_provision_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_quoteProvisions_quoteProvision_inner__attributes(
                                 id = '1193', 
                                 name = 'bumper offer, 1 month Airtel-extreme subscription free', ), )
                         ], ),
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property__attributes.getLeadPickLists_r2_SuccessResponse_result_property__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property__attributes.getLeadPickLists_r2_SuccessResponse_result_property__attributes(
                     id = '173769', )
             )
         else:

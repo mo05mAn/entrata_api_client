@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials import GetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials import GetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials(uni
         if include_optional:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials(
                 special = {
-                    'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
+                    'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
                         id = '12019486', 
                         name = '90 - 61', 
                         show_on_website = 1, 
@@ -47,7 +47,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials(uni
         else:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsPropertySpecials(
                 special = {
-                    'key' : openapi_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
+                    'key' : entrata_api_client.models.get_specials_r3_success_response_response_result_specials_property_specials_special_value.getSpecials_r3_SuccessResponse_response_result_specials_propertySpecials_special_value(
                         id = '12019486', 
                         name = '90 - 61', 
                         show_on_website = 1, 

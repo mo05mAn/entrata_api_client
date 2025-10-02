@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.fee_details import FeeDetails
+from entrata_api_client.models.fee_details import FeeDetails
 
 class TestFeeDetails(unittest.TestCase):
     """FeeDetails unit test stubs"""

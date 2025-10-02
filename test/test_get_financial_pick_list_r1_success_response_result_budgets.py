@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_budgets import GetFinancialPickListR1SuccessResponseResultBudgets
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_budgets import GetFinancialPickListR1SuccessResponseResultBudgets
 
 class TestGetFinancialPickListR1SuccessResponseResultBudgets(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultBudgets unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultBudgets(unittest.TestCase):
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultBudgets(
                 budget = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner.getFinancialPickList_r1_SuccessResponse_result_Budgets_Budget_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner.getFinancialPickList_r1_SuccessResponse_result_Budgets_Budget_inner(
                         id = 67183, 
                         name = 'test budget HV', 
                         status_type_id = 4, 
@@ -47,7 +47,7 @@ class TestGetFinancialPickListR1SuccessResponseResultBudgets(unittest.TestCase):
         else:
             return GetFinancialPickListR1SuccessResponseResultBudgets(
                 budget = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner.getFinancialPickList_r1_SuccessResponse_result_Budgets_Budget_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_budgets_budget_inner.getFinancialPickList_r1_SuccessResponse_result_Budgets_Budget_inner(
                         id = 67183, 
                         name = 'test budget HV', 
                         status_type_id = 4, 

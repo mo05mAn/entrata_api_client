@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent
+from entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent
 
 class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent(unittest.TestCase):
     """GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUn
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent(
                 min_rent = 25000,
                 max_rent = 30000,
-                term_rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
+                term_rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
                     lease_term_id = 8, 
                     lease_term_name = '1 month', 
                     start_date = 'YYYY-MM-DD', 
@@ -49,7 +49,7 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUn
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceRent(
                 min_rent = 25000,
                 max_rent = 30000,
-                term_rent = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
+                term_rent = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_rent_term_rent.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_rent_termRent(
                     lease_term_id = 8, 
                     lease_term_name = '1 month', 
                     start_date = 'YYYY-MM-DD', 

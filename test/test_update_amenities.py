@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities import UpdateAmenities
+from entrata_api_client.models.update_amenities import UpdateAmenities
 
 class TestUpdateAmenities(unittest.TestCase):
     """UpdateAmenities unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateAmenities(unittest.TestCase):
         model = UpdateAmenities()
         if include_optional:
             return UpdateAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_amenities_method.updateAmenities_method(
+                method = entrata_api_client.models.update_amenities_method.updateAmenities_method(
                     name = 'updateAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.update_amenities_method_params.updateAmenities_method_params(
+                    params = entrata_api_client.models.update_amenities_method_params.updateAmenities_method_params(
                         id = 12345, 
                         name = 'property amenity', 
                         description = 'Test amenity', 
@@ -55,12 +55,12 @@ class TestUpdateAmenities(unittest.TestCase):
             )
         else:
             return UpdateAmenities(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_amenities_method.updateAmenities_method(
+                method = entrata_api_client.models.update_amenities_method.updateAmenities_method(
                     name = 'updateAmenities', 
                     version = 'r1', 
-                    params = openapi_client.models.update_amenities_method_params.updateAmenities_method_params(
+                    params = entrata_api_client.models.update_amenities_method_params.updateAmenities_method_params(
                         id = 12345, 
                         name = 'property amenity', 
                         description = 'Test amenity', 

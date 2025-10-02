@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_application_success_response import UpdateApplicationSuccessResponse
+from entrata_api_client.models.update_application_success_response import UpdateApplicationSuccessResponse
 
 class TestUpdateApplicationSuccessResponse(unittest.TestCase):
     """UpdateApplicationSuccessResponse unit test stubs"""
@@ -35,11 +35,11 @@ class TestUpdateApplicationSuccessResponse(unittest.TestCase):
         model = UpdateApplicationSuccessResponse()
         if include_optional:
             return UpdateApplicationSuccessResponse(
-                response = openapi_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
+                response = entrata_api_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
-                        application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                    result = entrata_api_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
+                        application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                             status = 'Success', 
                             message = 'Application updated successfully.', 
                             application_id = 123456, 
@@ -47,11 +47,11 @@ class TestUpdateApplicationSuccessResponse(unittest.TestCase):
             )
         else:
             return UpdateApplicationSuccessResponse(
-                response = openapi_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
+                response = entrata_api_client.models.update_application_success_response_response.updateApplicationSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
-                        application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                    result = entrata_api_client.models.update_application_success_response_response_result.updateApplicationSuccessResponse_response_result(
+                        application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                             status = 'Success', 
                             message = 'Application updated successfully.', 
                             application_id = 123456, 

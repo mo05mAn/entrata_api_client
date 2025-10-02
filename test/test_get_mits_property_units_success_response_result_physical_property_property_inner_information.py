@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerInformation
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerInformation
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerInformation(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerInformation unit test stubs"""
@@ -39,7 +39,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInner
                 unit_count = '6',
                 year_built = '2012',
                 office_hour = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information_office_hour_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information_OfficeHour_inner(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_information_office_hour_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_Information_OfficeHour_inner(
                         open_time = '11:11 AM', 
                         close_time = '3:11 PM', 
                         day = 'Monday', )

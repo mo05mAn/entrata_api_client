@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response import GetPropertyPickListsR2SuccessResponse
+from entrata_api_client.models.get_property_pick_lists_r2_success_response import GetPropertyPickListsR2SuccessResponse
 
 class TestGetPropertyPickListsR2SuccessResponse(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponse unit test stubs"""
@@ -37,103 +37,103 @@ class TestGetPropertyPickListsR2SuccessResponse(unittest.TestCase):
             return GetPropertyPickListsR2SuccessResponse(
                 request_id = 15,
                 code = 200,
-                result = openapi_client.models.get_property_pick_lists_r2_success_response_result.getPropertyPickLists_r2_SuccessResponse_result(
-                    properties = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties.getPropertyPickLists_r2_SuccessResponse_result_properties(
+                result = entrata_api_client.models.get_property_pick_lists_r2_success_response_result.getPropertyPickLists_r2_SuccessResponse_result(
+                    properties = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties.getPropertyPickLists_r2_SuccessResponse_result_properties(
                         property = [
-                            openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner(
+                            entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner(
                                 id = 172775, 
                                 name = '0001 Ea@@st Park Prop@erty test', 
-                                unit_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes(
+                                unit_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes(
                                     unit_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
                                             id = 582099, 
                                             name = 'Unit type 2', )
                                         ], ), 
-                                property_buildings = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings(
+                                property_buildings = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings(
                                     property_building = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
                                             id = 56457, 
                                             name = 'Building A', )
                                         ], ), 
-                                property_floorplans = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans(
+                                property_floorplans = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans(
                                     property_floorplan = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
                                             id = 1088268, 
                                             name = 'Studio', )
                                         ], ), 
-                                property_floors = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors(
+                                property_floors = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors(
                                     property_floor = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
                                             id = 2662740, 
                                             title = 'Floor A', )
                                         ], ), 
-                                rentable_items = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems(
+                                rentable_items = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems(
                                     rentable_item = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
                                             id = 81449, 
                                             name = 'TempGarage', )
                                         ], ), 
-                                add_on_categories = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories(
+                                add_on_categories = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories(
                                     add_on_category = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
                                             id = 275, 
                                             name = 'Garage', )
                                         ], ), 
-                                assignable_items = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems(
+                                assignable_items = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems(
                                     assignable_item = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
                                             id = 8377, 
                                             name = 'Gym Card', )
                                         ], ), 
-                                services = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services(
+                                services = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services(
                                     service = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
                                             id = 77455, 
                                             name = 'Full Furnishing 1', )
                                         ], ), 
-                                move_out_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes(
+                                move_out_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes(
                                     move_out_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
                                             id = 1, 
                                             name = 'Eviction', )
                                         ], ), 
-                                move_out_reasons = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons(
+                                move_out_reasons = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons(
                                     move_out_reason = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
                                             id = 116934, 
                                             name = 'Unknown Skip Reason', 
                                             move_out_type_id = 2, )
                                         ], ), 
-                                lease_terms = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms(
+                                lease_terms = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms(
                                     lease_term = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner(
                                             lease_term_id = 19136, 
                                             lease_term_name = 'Fall 2020', 
-                                            lease_start_windows = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
+                                            lease_start_windows = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
                                                 lease_start_window = [
-                                                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                                                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                                                         lease_start_window_id = 110263, 
                                                         window_start_date = '08/01/2020', 
                                                         window_end_date = '12/31/2020', 
                                                         academic_year_id = 3, )
                                                     ], ), )
                                         ], ), 
-                                unit_exclusion_reason_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes(
+                                unit_exclusion_reason_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes(
                                     unit_exclusion_reason_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
                                             id = 2, 
                                             name = 'Hospitality Unit', )
                                         ], ), )
                             ], ), 
-                    search_area_states = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates(
+                    search_area_states = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates(
                         search_area_state = [
-                            openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
+                            entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
                                 state = 'Armed Forces Americas (Excluding Canada)', 
                                 state_code = 'AA', 
                                 country_code = 'US', 
-                                search_areas = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
+                                search_areas = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
                                     search_area = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                                             id = 2096, 
                                             name = 'subsearch1', )
                                         ], ), )
@@ -143,103 +143,103 @@ class TestGetPropertyPickListsR2SuccessResponse(unittest.TestCase):
             return GetPropertyPickListsR2SuccessResponse(
                 request_id = 15,
                 code = 200,
-                result = openapi_client.models.get_property_pick_lists_r2_success_response_result.getPropertyPickLists_r2_SuccessResponse_result(
-                    properties = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties.getPropertyPickLists_r2_SuccessResponse_result_properties(
+                result = entrata_api_client.models.get_property_pick_lists_r2_success_response_result.getPropertyPickLists_r2_SuccessResponse_result(
+                    properties = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties.getPropertyPickLists_r2_SuccessResponse_result_properties(
                         property = [
-                            openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner(
+                            entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner(
                                 id = 172775, 
                                 name = '0001 Ea@@st Park Prop@erty test', 
-                                unit_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes(
+                                unit_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes(
                                     unit_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_types_unit_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_unitTypes_unitType_inner(
                                             id = 582099, 
                                             name = 'Unit type 2', )
                                         ], ), 
-                                property_buildings = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings(
+                                property_buildings = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings(
                                     property_building = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_buildings_property_building_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyBuildings_propertyBuilding_inner(
                                             id = 56457, 
                                             name = 'Building A', )
                                         ], ), 
-                                property_floorplans = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans(
+                                property_floorplans = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans(
                                     property_floorplan = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floorplans_property_floorplan_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloorplans_propertyFloorplan_inner(
                                             id = 1088268, 
                                             name = 'Studio', )
                                         ], ), 
-                                property_floors = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors(
+                                property_floors = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors(
                                     property_floor = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_property_floors_property_floor_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_propertyFloors_propertyFloor_inner(
                                             id = 2662740, 
                                             title = 'Floor A', )
                                         ], ), 
-                                rentable_items = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems(
+                                rentable_items = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems(
                                     rentable_item = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
                                             id = 81449, 
                                             name = 'TempGarage', )
                                         ], ), 
-                                add_on_categories = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories(
+                                add_on_categories = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories(
                                     add_on_category = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_add_on_categories_add_on_category_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_addOnCategories_addOnCategory_inner(
                                             id = 275, 
                                             name = 'Garage', )
                                         ], ), 
-                                assignable_items = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems(
+                                assignable_items = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems(
                                     assignable_item = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_assignable_items_assignable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_assignableItems_assignableItem_inner(
                                             id = 8377, 
                                             name = 'Gym Card', )
                                         ], ), 
-                                services = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services(
+                                services = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services(
                                     service = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_services_service_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_services_service_inner(
                                             id = 77455, 
                                             name = 'Full Furnishing 1', )
                                         ], ), 
-                                move_out_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes(
+                                move_out_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes(
                                     move_out_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_types_move_out_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutTypes_moveOutType_inner(
                                             id = 1, 
                                             name = 'Eviction', )
                                         ], ), 
-                                move_out_reasons = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons(
+                                move_out_reasons = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons(
                                     move_out_reason = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_move_out_reasons_move_out_reason_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_moveOutReasons_moveOutReason_inner(
                                             id = 116934, 
                                             name = 'Unknown Skip Reason', 
                                             move_out_type_id = 2, )
                                         ], ), 
-                                lease_terms = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms(
+                                lease_terms = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms(
                                     lease_term = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner(
                                             lease_term_id = 19136, 
                                             lease_term_name = 'Fall 2020', 
-                                            lease_start_windows = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
+                                            lease_start_windows = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows(
                                                 lease_start_window = [
-                                                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
+                                                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_lease_terms_lease_term_inner_lease_start_windows_lease_start_window_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_leaseTerms_leaseTerm_inner_leaseStartWindows_leaseStartWindow_inner(
                                                         lease_start_window_id = 110263, 
                                                         window_start_date = '08/01/2020', 
                                                         window_end_date = '12/31/2020', 
                                                         academic_year_id = 3, )
                                                     ], ), )
                                         ], ), 
-                                unit_exclusion_reason_types = openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes(
+                                unit_exclusion_reason_types = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes(
                                     unit_exclusion_reason_type = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
                                             id = 2, 
                                             name = 'Hospitality Unit', )
                                         ], ), )
                             ], ), 
-                    search_area_states = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates(
+                    search_area_states = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates(
                         search_area_state = [
-                            openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
+                            entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
                                 state = 'Armed Forces Americas (Excluding Canada)', 
                                 state_code = 'AA', 
                                 country_code = 'US', 
-                                search_areas = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
+                                search_areas = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
                                     search_area = [
-                                        openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                                        entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                                             id = 2096, 
                                             name = 'subsearch1', )
                                         ], ), )

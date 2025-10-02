@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units import GetPropertyUnits
+from entrata_api_client.models.get_property_units import GetPropertyUnits
 
 class TestGetPropertyUnits(unittest.TestCase):
     """GetPropertyUnits unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPropertyUnits(unittest.TestCase):
         model = GetPropertyUnits()
         if include_optional:
             return GetPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_property_units_method.getPropertyUnits_method(
+                method = entrata_api_client.models.get_property_units_method.getPropertyUnits_method(
                     name = 'getPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_units_method_params.getPropertyUnits_method_params(
+                    params = entrata_api_client.models.get_property_units_method_params.getPropertyUnits_method_params(
                         property_ids = '12345,5678', 
                         available_units_only = 0, 
                         use_property_preferences = 0, 
@@ -50,12 +50,12 @@ class TestGetPropertyUnits(unittest.TestCase):
             )
         else:
             return GetPropertyUnits(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_property_units_method.getPropertyUnits_method(
+                method = entrata_api_client.models.get_property_units_method.getPropertyUnits_method(
                     name = 'getPropertyUnits', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_units_method_params.getPropertyUnits_method_params(
+                    params = entrata_api_client.models.get_property_units_method_params.getPropertyUnits_method_params(
                         property_ids = '12345,5678', 
                         available_units_only = 0, 
                         use_property_preferences = 0, 

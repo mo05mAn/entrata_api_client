@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRatesRateInner
+from entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRatesRateInner
 from typing import Optional, Set
 from typing_extensions import Self
 

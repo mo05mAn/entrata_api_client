@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification
+from entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification import GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification
 
 class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification(unittest.TestCase):
     """GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransac
         model = GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification()
         if include_optional:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Unit_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Unit_Identification__attributes(
                     id_type = 'UnitID123', ),
                 id_value = 23456
             )
         else:
             return GetMitsLeaseArTransactionsSuccessResponseResponseResultResidentTransactionsUnitIdentification(
-                attributes = openapi_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Unit_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_lease_ar_transactions_success_response_response_result_resident_transactions_unit_identification__attributes.getMitsLeaseArTransactionsSuccessResponse_response_result_ResidentTransactions_Unit_Identification__attributes(
                     id_type = 'UnitID123', ),
                 id_value = 23456,
         )

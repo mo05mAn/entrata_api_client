@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
+from entrata_api_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
 
 class TestOrgsV1StatusPost200Response(unittest.TestCase):
     """OrgsV1StatusPost200Response unit test stubs"""
@@ -35,19 +35,19 @@ class TestOrgsV1StatusPost200Response(unittest.TestCase):
         model = OrgsV1StatusPost200Response()
         if include_optional:
             return OrgsV1StatusPost200Response(
-                response = openapi_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
+                response = entrata_api_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Api is available and running.', ), )
             )
         else:
             return OrgsV1StatusPost200Response(
-                response = openapi_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
+                response = entrata_api_client.models.get_status_success_response_response.getStatusSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
+                    result = entrata_api_client.models.get_status_success_response_response_result.getStatusSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Api is available and running.', ), ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_evicted_leases_method import GetEvictedLeasesMethod
+from entrata_api_client.models.get_evicted_leases_method import GetEvictedLeasesMethod
 
 class TestGetEvictedLeasesMethod(unittest.TestCase):
     """GetEvictedLeasesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetEvictedLeasesMethod(unittest.TestCase):
             return GetEvictedLeasesMethod(
                 name = 'getEvictedLeases',
                 version = 'r1',
-                params = openapi_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
+                params = entrata_api_client.models.get_evicted_leases_method_params.getEvictedLeases_method_params(
                     property_id = 123456, 
                     eviction_start_date_from = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                     eviction_start_date_to = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), )

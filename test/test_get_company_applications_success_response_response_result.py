@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_company_applications_success_response_response_result import GetCompanyApplicationsSuccessResponseResponseResult
+from entrata_api_client.models.get_company_applications_success_response_response_result import GetCompanyApplicationsSuccessResponseResponseResult
 
 class TestGetCompanyApplicationsSuccessResponseResponseResult(unittest.TestCase):
     """GetCompanyApplicationsSuccessResponseResponseResult unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetCompanyApplicationsSuccessResponseResponseResult(unittest.TestCase)
         model = GetCompanyApplicationsSuccessResponseResponseResult()
         if include_optional:
             return GetCompanyApplicationsSuccessResponseResponseResult(
-                company_applications = openapi_client.models.get_company_applications_success_response_response_result_company_applications.getCompanyApplicationsSuccessResponse_response_result_companyApplications(
+                company_applications = entrata_api_client.models.get_company_applications_success_response_response_result_company_applications.getCompanyApplicationsSuccessResponse_response_result_companyApplications(
                     company_application = [
-                        openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner(
+                        entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner(
                             company_application_id = 'app123', 
                             company_application_name = 'Policy Documents', 
                             application_questions = [
-                                openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner(
+                                entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner(
                                     application_question = [
-                                        openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
+                                        entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
                                             id = 1, 
                                             question = 'Have you ever been sued for rent?', )
                                         ], )
@@ -52,15 +52,15 @@ class TestGetCompanyApplicationsSuccessResponseResponseResult(unittest.TestCase)
             )
         else:
             return GetCompanyApplicationsSuccessResponseResponseResult(
-                company_applications = openapi_client.models.get_company_applications_success_response_response_result_company_applications.getCompanyApplicationsSuccessResponse_response_result_companyApplications(
+                company_applications = entrata_api_client.models.get_company_applications_success_response_response_result_company_applications.getCompanyApplicationsSuccessResponse_response_result_companyApplications(
                     company_application = [
-                        openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner(
+                        entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner(
                             company_application_id = 'app123', 
                             company_application_name = 'Policy Documents', 
                             application_questions = [
-                                openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner(
+                                entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner(
                                     application_question = [
-                                        openapi_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
+                                        entrata_api_client.models.get_company_applications_success_response_response_result_company_applications_company_application_inner_application_questions_inner_application_question_inner.getCompanyApplicationsSuccessResponse_response_result_companyApplications_companyApplication_inner_applicationQuestions_inner_applicationQuestion_inner(
                                             id = 1, 
                                             question = 'Have you ever been sued for rent?', )
                                         ], )

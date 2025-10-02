@@ -17,18 +17,18 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.apply_quote import ApplyQuote
-from openapi_client.models.generate_quotes import GenerateQuotes
-from openapi_client.models.get_lead_events import GetLeadEvents
-from openapi_client.models.get_lead_pick_lists_r1 import GetLeadPickListsR1
-from openapi_client.models.get_lead_pick_lists_r2 import GetLeadPickListsR2
-from openapi_client.models.get_leads import GetLeads
-from openapi_client.models.get_mits_leads import GetMitsLeads
-from openapi_client.models.get_quotes import GetQuotes
-from openapi_client.models.send_leads import SendLeads
-from openapi_client.models.send_mits_leads import SendMitsLeads
-from openapi_client.models.update_leads_r1 import UpdateLeadsR1
-from openapi_client.models.update_leads_r2 import UpdateLeadsR2
+from entrata_api_client.models.apply_quote import ApplyQuote
+from entrata_api_client.models.generate_quotes import GenerateQuotes
+from entrata_api_client.models.get_lead_events import GetLeadEvents
+from entrata_api_client.models.get_lead_pick_lists_r1 import GetLeadPickListsR1
+from entrata_api_client.models.get_lead_pick_lists_r2 import GetLeadPickListsR2
+from entrata_api_client.models.get_leads import GetLeads
+from entrata_api_client.models.get_mits_leads import GetMitsLeads
+from entrata_api_client.models.get_quotes import GetQuotes
+from entrata_api_client.models.send_leads import SendLeads
+from entrata_api_client.models.send_mits_leads import SendMitsLeads
+from entrata_api_client.models.update_leads_r1 import UpdateLeadsR1
+from entrata_api_client.models.update_leads_r2 import UpdateLeadsR2
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

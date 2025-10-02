@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments
+from entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments
 
 class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments(unittest.TestCase):
     """GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTr
         if include_optional:
             return GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments(
                 ar_payment = [
-                    openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
+                    entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
                         ar_payment_id = 12345, 
                         payment_amount = 120, 
                         payment_date = '2020-04-23', 
@@ -49,7 +49,7 @@ class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTr
         else:
             return GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInnerArTransactionsArTransactionInnerArPayments(
                 ar_payment = [
-                    openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
+                    entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
                         ar_payment_id = 12345, 
                         payment_amount = 120, 
                         payment_date = '2020-04-23', 

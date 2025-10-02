@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types import GetVendorPickListsSuccessResponseResultApPayeeTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types import GetVendorPickListsSuccessResponseResultApPayeeTypes
 
 class TestGetVendorPickListsSuccessResponseResultApPayeeTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApPayeeTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultApPayeeTypes(unittest.TestCase)
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApPayeeTypes(
                 ap_payee_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_types_ap_payee_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeTypes_apPayeeType_inner__attributes(
                             id = '2', 
                             name = 'Owner', ), )
                     ]

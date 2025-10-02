@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_transactions import GetGlTransactions
+from entrata_api_client.models.get_gl_transactions import GetGlTransactions
 
 class TestGetGlTransactions(unittest.TestCase):
     """GetGlTransactions unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetGlTransactions(unittest.TestCase):
         model = GetGlTransactions()
         if include_optional:
             return GetGlTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_gl_transactions_method.getGlTransactions_method(
+                method = entrata_api_client.models.get_gl_transactions_method.getGlTransactions_method(
                     name = 'getGlTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
+                    params = entrata_api_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
                         property_ids = '123456,112233', 
                         gl_account_from = 1234, 
                         gl_account_to = 1234, 
@@ -61,12 +61,12 @@ class TestGetGlTransactions(unittest.TestCase):
             )
         else:
             return GetGlTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_gl_transactions_method.getGlTransactions_method(
+                method = entrata_api_client.models.get_gl_transactions_method.getGlTransactions_method(
                     name = 'getGlTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
+                    params = entrata_api_client.models.get_gl_transactions_method_params.getGlTransactions_method_params(
                         property_ids = '123456,112233', 
                         gl_account_from = 1234, 
                         gl_account_to = 1234, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers import GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers
+from entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers import GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers
 
 class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers(unittest.TestCase):
     """GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomer
         model = GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers()
         if include_optional:
             return GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers(
-                customer = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_customer.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_customer(
+                customer = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_customer.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_customer(
                     id = 31094026, 
                     first_name = 'Alfred', 
                     last_name = 'Burge', 
                     is_active_bankruptcy = False, 
                     bankruptcy_date = '08/22/2025', 
                     bankruptcy_note = '', ),
-                ledgers = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers(
-                    ledger = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger(
+                ledgers = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers(
+                    ledger = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger(
                         id = 11, 
                         name = 'Resident', 
                         balance = -924, 
                         past_due_balance = -924, 
                         write_off = 0, 
-                        transactions = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions(
+                        transactions = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions(
                             transaction = [
-                                openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
+                                entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
                                     id = 11, 
                                     transaction_type_id = 1, 
                                     ar_code_id = 1848, 
@@ -72,23 +72,23 @@ class TestGetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomer
             )
         else:
             return GetLeaseArTransactionsSuccessResponseResponseResultLeasesLeaseCustomers(
-                customer = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_customer.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_customer(
+                customer = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_customer.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_customer(
                     id = 31094026, 
                     first_name = 'Alfred', 
                     last_name = 'Burge', 
                     is_active_bankruptcy = False, 
                     bankruptcy_date = '08/22/2025', 
                     bankruptcy_note = '', ),
-                ledgers = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers(
-                    ledger = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger(
+                ledgers = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers(
+                    ledger = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger(
                         id = 11, 
                         name = 'Resident', 
                         balance = -924, 
                         past_due_balance = -924, 
                         write_off = 0, 
-                        transactions = openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions(
+                        transactions = entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions(
                             transaction = [
-                                openapi_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
+                                entrata_api_client.models.get_lease_ar_transactions_success_response_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner.getLeaseArTransactionsSuccessResponse_response_result_leases_lease_customers_ledgers_ledger_transactions_transaction_inner(
                                     id = 11, 
                                     transaction_type_id = 1, 
                                     ar_code_id = 1848, 

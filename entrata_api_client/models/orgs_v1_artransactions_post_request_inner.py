@@ -17,11 +17,11 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_ar_invoices import GetArInvoices
-from openapi_client.models.get_lease_ar_transactions import GetLeaseArTransactions
-from openapi_client.models.get_mits_lease_ar_transactions import GetMitsLeaseArTransactions
-from openapi_client.models.send_lease_ar_transaction_reversals import SendLeaseArTransactionReversals
-from openapi_client.models.send_lease_ar_transactions import SendLeaseArTransactions
+from entrata_api_client.models.get_ar_invoices import GetArInvoices
+from entrata_api_client.models.get_lease_ar_transactions import GetLeaseArTransactions
+from entrata_api_client.models.get_mits_lease_ar_transactions import GetMitsLeaseArTransactions
+from entrata_api_client.models.send_lease_ar_transaction_reversals import SendLeaseArTransactionReversals
+from entrata_api_client.models.send_lease_ar_transactions import SendLeaseArTransactions
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

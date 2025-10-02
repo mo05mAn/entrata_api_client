@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_attributes import GetLeadPickListsR2SuccessResponseResultPropertyAttributes
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_attributes import GetLeadPickListsR2SuccessResponseResultPropertyAttributes
 
 class TestGetLeadPickListsR2SuccessResponseResultPropertyAttributes(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultPropertyAttributes unit test stubs"""

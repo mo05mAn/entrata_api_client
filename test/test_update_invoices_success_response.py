@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_invoices_success_response import UpdateInvoicesSuccessResponse
+from entrata_api_client.models.update_invoices_success_response import UpdateInvoicesSuccessResponse
 
 class TestUpdateInvoicesSuccessResponse(unittest.TestCase):
     """UpdateInvoicesSuccessResponse unit test stubs"""
@@ -35,10 +35,10 @@ class TestUpdateInvoicesSuccessResponse(unittest.TestCase):
         model = UpdateInvoicesSuccessResponse()
         if include_optional:
             return UpdateInvoicesSuccessResponse(
-                result = openapi_client.models.update_invoices_success_response_result.updateInvoicesSuccessResponse_result(
-                    ap_headers = openapi_client.models.update_invoices_success_response_result_ap_headers.updateInvoicesSuccessResponse_result_apHeaders(
+                result = entrata_api_client.models.update_invoices_success_response_result.updateInvoicesSuccessResponse_result(
+                    ap_headers = entrata_api_client.models.update_invoices_success_response_result_ap_headers.updateInvoicesSuccessResponse_result_apHeaders(
                         ap_header = [
-                            openapi_client.models.update_invoices_success_response_result_ap_headers_ap_header_inner.updateInvoicesSuccessResponse_result_apHeaders_apHeader_inner(
+                            entrata_api_client.models.update_invoices_success_response_result_ap_headers_ap_header_inner.updateInvoicesSuccessResponse_result_apHeaders_apHeader_inner(
                                 reference_id = '3115425', 
                                 status = 'Success', 
                                 message = 'Invoice updated successfully.', )
@@ -46,10 +46,10 @@ class TestUpdateInvoicesSuccessResponse(unittest.TestCase):
             )
         else:
             return UpdateInvoicesSuccessResponse(
-                result = openapi_client.models.update_invoices_success_response_result.updateInvoicesSuccessResponse_result(
-                    ap_headers = openapi_client.models.update_invoices_success_response_result_ap_headers.updateInvoicesSuccessResponse_result_apHeaders(
+                result = entrata_api_client.models.update_invoices_success_response_result.updateInvoicesSuccessResponse_result(
+                    ap_headers = entrata_api_client.models.update_invoices_success_response_result_ap_headers.updateInvoicesSuccessResponse_result_apHeaders(
                         ap_header = [
-                            openapi_client.models.update_invoices_success_response_result_ap_headers_ap_header_inner.updateInvoicesSuccessResponse_result_apHeaders_apHeader_inner(
+                            entrata_api_client.models.update_invoices_success_response_result_ap_headers_ap_header_inner.updateInvoicesSuccessResponse_result_apHeaders_apHeader_inner(
                                 reference_id = '3115425', 
                                 status = 'Success', 
                                 message = 'Invoice updated successfully.', )

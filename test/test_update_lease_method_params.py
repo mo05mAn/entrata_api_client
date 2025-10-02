@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_lease_method_params import UpdateLeaseMethodParams
+from entrata_api_client.models.update_lease_method_params import UpdateLeaseMethodParams
 
 class TestUpdateLeaseMethodParams(unittest.TestCase):
     """UpdateLeaseMethodParams unit test stubs"""
@@ -39,9 +39,9 @@ class TestUpdateLeaseMethodParams(unittest.TestCase):
                 lease_id = 123456,
                 unit_space_id = 12345,
                 move_in_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(),
-                occupants = openapi_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
+                occupants = entrata_api_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
                     occupant = [
-                        openapi_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
+                        entrata_api_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
                             first_name = 'ABC', 
                             last_name = 'ABC', )
                         ], ),

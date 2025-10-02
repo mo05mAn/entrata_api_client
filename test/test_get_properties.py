@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties import GetProperties
+from entrata_api_client.models.get_properties import GetProperties
 
 class TestGetProperties(unittest.TestCase):
     """GetProperties unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetProperties(unittest.TestCase):
         model = GetProperties()
         if include_optional:
             return GetProperties(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_properties_method.getProperties_method(
+                method = entrata_api_client.models.get_properties_method.getProperties_method(
                     name = 'getProperties', 
                     version = 'r1', 
-                    params = openapi_client.models.get_properties_method_params.getProperties_method_params(
+                    params = entrata_api_client.models.get_properties_method_params.getProperties_method_params(
                         property_ids = '12345,5678', 
                         property_lookup_code = 'ABC', 
                         show_all_status = 0, ), )
             )
         else:
             return GetProperties(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_properties_method.getProperties_method(
+                method = entrata_api_client.models.get_properties_method.getProperties_method(
                     name = 'getProperties', 
                     version = 'r1', 
-                    params = openapi_client.models.get_properties_method_params.getProperties_method_params(
+                    params = entrata_api_client.models.get_properties_method_params.getProperties_method_params(
                         property_ids = '12345,5678', 
                         property_lookup_code = 'ABC', 
                         show_all_status = 0, ), ),

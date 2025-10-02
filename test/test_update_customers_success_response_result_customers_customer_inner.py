@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customers_success_response_result_customers_customer_inner import UpdateCustomersSuccessResponseResultCustomersCustomerInner
+from entrata_api_client.models.update_customers_success_response_result_customers_customer_inner import UpdateCustomersSuccessResponseResultCustomersCustomerInner
 
 class TestUpdateCustomersSuccessResponseResultCustomersCustomerInner(unittest.TestCase):
     """UpdateCustomersSuccessResponseResultCustomersCustomerInner unit test stubs"""

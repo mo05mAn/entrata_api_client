@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_r2_method_params import InsertPricingR2MethodParams
+from entrata_api_client.models.insert_pricing_r2_method_params import InsertPricingR2MethodParams
 
 class TestInsertPricingR2MethodParams(unittest.TestCase):
     """InsertPricingR2MethodParams unit test stubs"""
@@ -37,7 +37,7 @@ class TestInsertPricingR2MethodParams(unittest.TestCase):
             return InsertPricingR2MethodParams(
                 property_id = 1381146,
                 pricing = [
-                    openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                    entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                         pricing_level_id = 3, 
                         pricing_level_reference_id = 639824, 
                         charge_usage_id = 1, 
@@ -60,7 +60,7 @@ class TestInsertPricingR2MethodParams(unittest.TestCase):
             return InsertPricingR2MethodParams(
                 property_id = 1381146,
                 pricing = [
-                    openapi_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
+                    entrata_api_client.models.insert_pricing_r2_method_params_pricing_inner.insertPricing_r2_method_params_pricing_inner(
                         pricing_level_id = 3, 
                         pricing_level_reference_id = 639824, 
                         charge_usage_id = 1, 

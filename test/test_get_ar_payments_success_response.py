@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_payments_success_response import GetArPaymentsSuccessResponse
+from entrata_api_client.models.get_ar_payments_success_response import GetArPaymentsSuccessResponse
 
 class TestGetArPaymentsSuccessResponse(unittest.TestCase):
     """GetArPaymentsSuccessResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetArPaymentsSuccessResponse(unittest.TestCase):
         model = GetArPaymentsSuccessResponse()
         if include_optional:
             return GetArPaymentsSuccessResponse(
-                response = openapi_client.models.get_ar_payments_success_response_response.getArPaymentsSuccessResponse_response(
+                response = entrata_api_client.models.get_ar_payments_success_response_response.getArPaymentsSuccessResponse_response(
                     request_id = '15', 
                     code = '200', 
-                    result = openapi_client.models.get_ar_payments_success_response_response_result.getArPaymentsSuccessResponse_response_result(
-                        ar_payments = openapi_client.models.get_ar_payments_success_response_response_result_ar_payments.getArPaymentsSuccessResponse_response_result_ArPayments(
+                    result = entrata_api_client.models.get_ar_payments_success_response_response_result.getArPaymentsSuccessResponse_response_result(
+                        ar_payments = entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments.getArPaymentsSuccessResponse_response_result_ArPayments(
                             ar_payment = [
-                                openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner(
+                                entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner(
                                     ar_payment_id = 22330996, 
                                     property_name = 'Park Avenue I', 
                                     customer_id = 12345, 
@@ -65,9 +65,9 @@ class TestGetArPaymentsSuccessResponse(unittest.TestCase):
                                     captured_on = '01/08/2013 09:30', 
                                     distribute_on = '01/09/2013 10:15', 
                                     returned_on = '01/10/2013 14:20', 
-                                    ar_allocations = openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations(
+                                    ar_allocations = entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations(
                                         ar_allocation = [
-                                            openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
+                                            entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
                                                 ar_transaction_id = 340302642, 
                                                 charge_code_id = 155594, 
                                                 charge_code_name = '11AR', 
@@ -78,13 +78,13 @@ class TestGetArPaymentsSuccessResponse(unittest.TestCase):
             )
         else:
             return GetArPaymentsSuccessResponse(
-                response = openapi_client.models.get_ar_payments_success_response_response.getArPaymentsSuccessResponse_response(
+                response = entrata_api_client.models.get_ar_payments_success_response_response.getArPaymentsSuccessResponse_response(
                     request_id = '15', 
                     code = '200', 
-                    result = openapi_client.models.get_ar_payments_success_response_response_result.getArPaymentsSuccessResponse_response_result(
-                        ar_payments = openapi_client.models.get_ar_payments_success_response_response_result_ar_payments.getArPaymentsSuccessResponse_response_result_ArPayments(
+                    result = entrata_api_client.models.get_ar_payments_success_response_response_result.getArPaymentsSuccessResponse_response_result(
+                        ar_payments = entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments.getArPaymentsSuccessResponse_response_result_ArPayments(
                             ar_payment = [
-                                openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner(
+                                entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner(
                                     ar_payment_id = 22330996, 
                                     property_name = 'Park Avenue I', 
                                     customer_id = 12345, 
@@ -108,9 +108,9 @@ class TestGetArPaymentsSuccessResponse(unittest.TestCase):
                                     captured_on = '01/08/2013 09:30', 
                                     distribute_on = '01/09/2013 10:15', 
                                     returned_on = '01/10/2013 14:20', 
-                                    ar_allocations = openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations(
+                                    ar_allocations = entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations(
                                         ar_allocation = [
-                                            openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
+                                            entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
                                                 ar_transaction_id = 340302642, 
                                                 charge_code_id = 155594, 
                                                 charge_code_name = '11AR', 

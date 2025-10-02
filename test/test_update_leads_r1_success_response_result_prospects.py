@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r1_success_response_result_prospects import UpdateLeadsR1SuccessResponseResultProspects
+from entrata_api_client.models.update_leads_r1_success_response_result_prospects import UpdateLeadsR1SuccessResponseResultProspects
 
 class TestUpdateLeadsR1SuccessResponseResultProspects(unittest.TestCase):
     """UpdateLeadsR1SuccessResponseResultProspects unit test stubs"""
@@ -36,8 +36,8 @@ class TestUpdateLeadsR1SuccessResponseResultProspects(unittest.TestCase):
         if include_optional:
             return UpdateLeadsR1SuccessResponseResultProspects(
                 prospect = [
-                    openapi_client.models.update_leads_r1_success_response_result_prospects_prospect_inner.updateLeads_r1_SuccessResponse_result_Prospects_Prospect_inner(
-                        @attributes = openapi_client.models.update_leads_r1_success_response_result_prospects_prospect_inner__attributes.updateLeads_r1_SuccessResponse_result_Prospects_Prospect_inner__attributes(
+                    entrata_api_client.models.update_leads_r1_success_response_result_prospects_prospect_inner.updateLeads_r1_SuccessResponse_result_Prospects_Prospect_inner(
+                        @attributes = entrata_api_client.models.update_leads_r1_success_response_result_prospects_prospect_inner__attributes.updateLeads_r1_SuccessResponse_result_Prospects_Prospect_inner__attributes(
                             node = '1', 
                             reference_id = '123456', 
                             applicant_id = '12345', 

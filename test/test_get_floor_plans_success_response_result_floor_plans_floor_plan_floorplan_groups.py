@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups(u
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFloorplanGroups(
-                floorplan_group = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
-                    @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
+                floorplan_group = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup(
+                    @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_floorplan_groups_floorplan_group__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_FloorplanGroups_FloorplanGroup__attributes(
                         id = '256', 
                         name = 'Test_23_test', ), )
             )

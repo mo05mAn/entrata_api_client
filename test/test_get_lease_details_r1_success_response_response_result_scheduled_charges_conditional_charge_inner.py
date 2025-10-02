@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner import GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditio
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = '10aug', 
                             charge_usage = 'Base', 
                             charge_start_date = '01/17/2017', 
@@ -50,9 +50,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditio
             return GetLeaseDetailsR1SuccessResponseResponseResultScheduledChargesConditionalChargeInner(
                 lease_interval_status = 'Current',
                 lease_interval_type = 'Application',
-                active_scheduled_charges = openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
+                active_scheduled_charges = entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges(
                     active_scheduled_charge = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_scheduled_charges_conditional_charge_inner_active_scheduled_charges_active_scheduled_charge_inner.getLeaseDetails_r1_SuccessResponse_response_result_scheduledCharges_conditionalCharge_inner_activeScheduledCharges_activeScheduledCharge_inner(
                             charge_code = '10aug', 
                             charge_usage = 'Base', 
                             charge_start_date = '01/17/2017', 

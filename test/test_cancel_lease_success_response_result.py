@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.cancel_lease_success_response_result import CancelLeaseSuccessResponseResult
+from entrata_api_client.models.cancel_lease_success_response_result import CancelLeaseSuccessResponseResult
 
 class TestCancelLeaseSuccessResponseResult(unittest.TestCase):
     """CancelLeaseSuccessResponseResult unit test stubs"""

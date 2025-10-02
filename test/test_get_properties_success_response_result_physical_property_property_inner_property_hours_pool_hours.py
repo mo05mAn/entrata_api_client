@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropert
         model = GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours()
         if include_optional:
             return GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursPoolHours(
-                pool_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
+                pool_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_pool_hours_pool_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_PoolHours_PoolHour(
                     day = 'Monday', 
                     open_time = '8:20 AM', 
                     close_time = '4:06 PM', )

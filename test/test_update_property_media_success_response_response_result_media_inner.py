@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media_success_response_response_result_media_inner import UpdatePropertyMediaSuccessResponseResponseResultMediaInner
+from entrata_api_client.models.update_property_media_success_response_response_result_media_inner import UpdatePropertyMediaSuccessResponseResponseResultMediaInner
 
 class TestUpdatePropertyMediaSuccessResponseResponseResultMediaInner(unittest.TestCase):
     """UpdatePropertyMediaSuccessResponseResponseResultMediaInner unit test stubs"""

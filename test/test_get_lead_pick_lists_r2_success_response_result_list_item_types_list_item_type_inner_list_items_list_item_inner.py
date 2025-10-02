@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner import GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner
 
 class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerL
         model = GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultListItemTypesListItemTypeInnerListItemsListItemInner(
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_list_item_types_list_item_type_inner_list_items_list_item_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_listItemTypes_listItemType_inner_listItems_listItem_inner__attributes(
                     id = '134417', 
                     name = 'Archived', )
             )

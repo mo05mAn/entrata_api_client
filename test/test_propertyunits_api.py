@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.propertyunits_api import PropertyunitsApi
+from entrata_api_client.api.propertyunits_api import PropertyunitsApi
 
 
 class TestPropertyunitsApi(unittest.TestCase):

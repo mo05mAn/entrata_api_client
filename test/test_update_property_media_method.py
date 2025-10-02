@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media_method import UpdatePropertyMediaMethod
+from entrata_api_client.models.update_property_media_method import UpdatePropertyMediaMethod
 
 class TestUpdatePropertyMediaMethod(unittest.TestCase):
     """UpdatePropertyMediaMethod unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdatePropertyMediaMethod(unittest.TestCase):
         if include_optional:
             return UpdatePropertyMediaMethod(
                 name = 'updatePropertyMedia',
-                params = openapi_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
+                params = entrata_api_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
                     property_id = '999999', 
                     media = [
                         null
@@ -45,7 +45,7 @@ class TestUpdatePropertyMediaMethod(unittest.TestCase):
         else:
             return UpdatePropertyMediaMethod(
                 name = 'updatePropertyMedia',
-                params = openapi_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
+                params = entrata_api_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
                     property_id = '999999', 
                     media = [
                         null

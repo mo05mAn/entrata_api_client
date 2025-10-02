@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner import GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerAddressesCustomerAddressInner
+from entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner import GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerAddressesCustomerAddressInner
 
 class TestGetCustomersSuccessResponseResultCustomersCustomerInnerCustomerAddressesCustomerAddressInner(unittest.TestCase):
     """GetCustomersSuccessResponseResultCustomersCustomerInnerCustomerAddressesCustomerAddressInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerCustomerAddress
                 state = 'AK',
                 postal_code = '43534',
                 country = 'US',
-                attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner__attributes(
+                attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_customer_addresses_customer_address_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_CustomerAddresses_CustomerAddress_inner__attributes(
                     address_type = 'Forwarding', )
             )
         else:

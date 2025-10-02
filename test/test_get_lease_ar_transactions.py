@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_ar_transactions import GetLeaseArTransactions
+from entrata_api_client.models.get_lease_ar_transactions import GetLeaseArTransactions
 
 class TestGetLeaseArTransactions(unittest.TestCase):
     """GetLeaseArTransactions unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetLeaseArTransactions(unittest.TestCase):
         model = GetLeaseArTransactions()
         if include_optional:
             return GetLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_lease_ar_transactions_method.getLeaseArTransactions_method(
+                method = entrata_api_client.models.get_lease_ar_transactions_method.getLeaseArTransactions_method(
                     name = 'getLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
                         property_id = 123456, 
                         lease_ids = 56, 
                         lease_status_type_ids = 56, 
@@ -57,12 +57,12 @@ class TestGetLeaseArTransactions(unittest.TestCase):
             )
         else:
             return GetLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_lease_ar_transactions_method.getLeaseArTransactions_method(
+                method = entrata_api_client.models.get_lease_ar_transactions_method.getLeaseArTransactions_method(
                     name = 'getLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.get_lease_ar_transactions_method_params.getLeaseArTransactions_method_params(
                         property_id = 123456, 
                         lease_ids = 56, 
                         lease_status_type_ids = 56, 

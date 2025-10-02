@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_add_ons_method import SendApplicationAddOnsMethod
+from entrata_api_client.models.send_application_add_ons_method import SendApplicationAddOnsMethod
 
 class TestSendApplicationAddOnsMethod(unittest.TestCase):
     """SendApplicationAddOnsMethod unit test stubs"""

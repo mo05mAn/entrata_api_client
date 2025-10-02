@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.success_response_response import SuccessResponseResponse
+from entrata_api_client.models.success_response_response import SuccessResponseResponse
 
 class TestSuccessResponseResponse(unittest.TestCase):
     """SuccessResponseResponse unit test stubs"""
@@ -37,12 +37,12 @@ class TestSuccessResponseResponse(unittest.TestCase):
             return SuccessResponseResponse(
                 request_id = '',
                 code = 56,
-                result = openapi_client.models.result.result()
+                result = entrata_api_client.models.result.result()
             )
         else:
             return SuccessResponseResponse(
                 code = 56,
-                result = openapi_client.models.result.result(),
+                result = entrata_api_client.models.result.result(),
         )
         """
 

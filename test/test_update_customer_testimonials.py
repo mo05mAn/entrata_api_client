@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customer_testimonials import UpdateCustomerTestimonials
+from entrata_api_client.models.update_customer_testimonials import UpdateCustomerTestimonials
 
 class TestUpdateCustomerTestimonials(unittest.TestCase):
     """UpdateCustomerTestimonials unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateCustomerTestimonials(unittest.TestCase):
         model = UpdateCustomerTestimonials()
         if include_optional:
             return UpdateCustomerTestimonials(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_customer_testimonials_method.updateCustomerTestimonials_method(
+                method = entrata_api_client.models.update_customer_testimonials_method.updateCustomerTestimonials_method(
                     name = 'updateCustomerTestimonials', 
                     version = 'r1', 
-                    params = openapi_client.models.update_customer_testimonials_method_params.updateCustomerTestimonials_method_params(
+                    params = entrata_api_client.models.update_customer_testimonials_method_params.updateCustomerTestimonials_method_params(
                         property_id = 123456, 
                         transmission_vendor_id = 12, 
                         testimonial_id = 12345, 
@@ -49,12 +49,12 @@ class TestUpdateCustomerTestimonials(unittest.TestCase):
             )
         else:
             return UpdateCustomerTestimonials(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_customer_testimonials_method.updateCustomerTestimonials_method(
+                method = entrata_api_client.models.update_customer_testimonials_method.updateCustomerTestimonials_method(
                     name = 'updateCustomerTestimonials', 
                     version = 'r1', 
-                    params = openapi_client.models.update_customer_testimonials_method_params.updateCustomerTestimonials_method_params(
+                    params = entrata_api_client.models.update_customer_testimonials_method_params.updateCustomerTestimonials_method_params(
                         property_id = 123456, 
                         transmission_vendor_id = 12, 
                         testimonial_id = 12345, 

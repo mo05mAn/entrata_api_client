@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.mark_gl_transactions_exported_method_params import MarkGlTransactionsExportedMethodParams
+from entrata_api_client.models.mark_gl_transactions_exported_method_params import MarkGlTransactionsExportedMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

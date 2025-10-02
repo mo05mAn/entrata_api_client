@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_method_params import GetMitsCollectionsMethodParams
+from entrata_api_client.models.get_mits_collections_method_params import GetMitsCollectionsMethodParams
 
 class TestGetMitsCollectionsMethodParams(unittest.TestCase):
     """GetMitsCollectionsMethodParams unit test stubs"""

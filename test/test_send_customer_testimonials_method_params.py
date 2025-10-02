@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_customer_testimonials_method_params import SendCustomerTestimonialsMethodParams
+from entrata_api_client.models.send_customer_testimonials_method_params import SendCustomerTestimonialsMethodParams
 
 class TestSendCustomerTestimonialsMethodParams(unittest.TestCase):
     """SendCustomerTestimonialsMethodParams unit test stubs"""

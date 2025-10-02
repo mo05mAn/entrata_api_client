@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.on_notice_lease_method import OnNoticeLeaseMethod
+from entrata_api_client.models.on_notice_lease_method import OnNoticeLeaseMethod
 
 class TestOnNoticeLeaseMethod(unittest.TestCase):
     """OnNoticeLeaseMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestOnNoticeLeaseMethod(unittest.TestCase):
             return OnNoticeLeaseMethod(
                 name = 'onNoticeLease',
                 version = 'r1',
-                params = openapi_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
+                params = entrata_api_client.models.on_notice_lease_method_params.onNoticeLease_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     move_out_type_id = 1234, 

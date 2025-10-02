@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_gl_transactions_exported_method_params import MarkGlTransactionsExportedMethodParams
+from entrata_api_client.models.mark_gl_transactions_exported_method_params import MarkGlTransactionsExportedMethodParams
 
 class TestMarkGlTransactionsExportedMethodParams(unittest.TestCase):
     """MarkGlTransactionsExportedMethodParams unit test stubs"""

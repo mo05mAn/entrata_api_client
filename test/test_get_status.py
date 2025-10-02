@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_status import GetStatus
+from entrata_api_client.models.get_status import GetStatus
 
 class TestGetStatus(unittest.TestCase):
     """GetStatus unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetStatus(unittest.TestCase):
         model = GetStatus()
         if include_optional:
             return GetStatus(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_status_method.getStatus_method(
+                method = entrata_api_client.models.get_status_method.getStatus_method(
                     name = 'getStatus', 
                     version = 'r1', )
             )
         else:
             return GetStatus(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_status_method.getStatus_method(
+                method = entrata_api_client.models.get_status_method.getStatus_method(
                     name = 'getStatus', 
                     version = 'r1', ),
         )

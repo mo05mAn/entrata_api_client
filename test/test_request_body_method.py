@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.request_body_method import RequestBodyMethod
+from entrata_api_client.models.request_body_method import RequestBodyMethod
 
 class TestRequestBodyMethod(unittest.TestCase):
     """RequestBodyMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestRequestBodyMethod(unittest.TestCase):
             return RequestBodyMethod(
                 name = '',
                 version = 'r1',
-                params = openapi_client.models.params.params()
+                params = entrata_api_client.models.params.params()
             )
         else:
             return RequestBodyMethod(

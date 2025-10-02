@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_transaction_tag_lists_method import GetTransactionTagListsMethod
+from entrata_api_client.models.get_transaction_tag_lists_method import GetTransactionTagListsMethod
 
 class TestGetTransactionTagListsMethod(unittest.TestCase):
     """GetTransactionTagListsMethod unit test stubs"""

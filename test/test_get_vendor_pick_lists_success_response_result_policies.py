@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_policies import GetVendorPickListsSuccessResponseResultPolicies
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies import GetVendorPickListsSuccessResponseResultPolicies
 
 class TestGetVendorPickListsSuccessResponseResultPolicies(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultPolicies unit test stubs"""
@@ -36,12 +36,12 @@ class TestGetVendorPickListsSuccessResponseResultPolicies(unittest.TestCase):
         if include_optional:
             return GetVendorPickListsSuccessResponseResultPolicies(
                 policy = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner(
                         policy_type_id = '7', 
                         policy_type_name = 'General Liability', 
-                        coverages = openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
+                        coverages = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
                             coverage = [
-                                openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
+                                entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
                                     id = '12', 
                                     name = 'Each Occurrence', )
                                 ], ), )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1 import GetSpecialsR1
+from entrata_api_client.models.get_specials_r1 import GetSpecialsR1
 
 class TestGetSpecialsR1(unittest.TestCase):
     """GetSpecialsR1 unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetSpecialsR1(unittest.TestCase):
         model = GetSpecialsR1()
         if include_optional:
             return GetSpecialsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_specials_r1_method.getSpecials_r1_method(
+                method = entrata_api_client.models.get_specials_r1_method.getSpecials_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_specials_r1_method_params.getSpecials_r1_method_params(
+                    params = entrata_api_client.models.get_specials_r1_method_params.getSpecials_r1_method_params(
                         property_id = 12345, ), )
             )
         else:
             return GetSpecialsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_specials_r1_method.getSpecials_r1_method(
+                method = entrata_api_client.models.get_specials_r1_method.getSpecials_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.get_specials_r1_method_params.getSpecials_r1_method_params(
+                    params = entrata_api_client.models.get_specials_r1_method_params.getSpecials_r1_method_params(
                         property_id = 12345, ), ),
         )
         """

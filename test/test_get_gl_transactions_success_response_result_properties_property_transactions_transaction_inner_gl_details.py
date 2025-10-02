@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details import GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails
+from entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details import GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails
 
 class TestGetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails(unittest.TestCase):
     """GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTr
         if include_optional:
             return GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails(
                 gl_detail = [
-                    openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
+                    entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
                         transaction_date = '2020/04/23', 
                         post_month = 'Oct,2013', 
                         post_date = '2020/04/23', 
@@ -45,7 +45,7 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTr
                         balance = '6.00', 
                         reference = 'Payment Received - #12345', 
                         memo = 'Master 07 Unit #17', 
-                        @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
+                        @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
                             id = '12345', 
                             transaction_type = 'AR Payment', ), )
                     ]
@@ -53,7 +53,7 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTr
         else:
             return GetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTransactionInnerGlDetails(
                 gl_detail = [
-                    openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
+                    entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner(
                         transaction_date = '2020/04/23', 
                         post_month = 'Oct,2013', 
                         post_date = '2020/04/23', 
@@ -62,7 +62,7 @@ class TestGetGlTransactionsSuccessResponseResultPropertiesPropertyTransactionsTr
                         balance = '6.00', 
                         reference = 'Payment Received - #12345', 
                         memo = 'Master 07 Unit #17', 
-                        @attributes = openapi_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
+                        @attributes = entrata_api_client.models.get_gl_transactions_success_response_result_properties_property_transactions_transaction_inner_gl_details_gl_detail_inner__attributes.getGlTransactionsSuccessResponse_result_properties_property_transactions_transaction_inner_glDetails_glDetail_inner__attributes(
                             id = '12345', 
                             transaction_type = 'AR Payment', ), )
                     ],

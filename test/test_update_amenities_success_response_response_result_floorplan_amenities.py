@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities import UpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities
+from entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities import UpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities
 
 class TestUpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities(unittest.TestCase):
     """UpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities unit test stubs"""
@@ -36,7 +36,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities(unittes
         if include_optional:
             return UpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities(
                 floorplan_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1139719, 
@@ -46,7 +46,7 @@ class TestUpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities(unittes
         else:
             return UpdateAmenitiesSuccessResponseResponseResultFloorplanAmenities(
                 floorplan_amenity = [
-                    openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
+                    entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
                         node = 1, 
                         status = 'Success', 
                         amenity_id = 1139719, 

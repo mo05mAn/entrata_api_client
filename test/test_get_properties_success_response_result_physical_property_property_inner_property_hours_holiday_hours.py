@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours
+from entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours import GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours
 
 class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours(unittest.TestCase):
     """GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropert
         model = GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours()
         if include_optional:
             return GetPropertiesSuccessResponseResultPhysicalPropertyPropertyInnerPropertyHoursHolidayHours(
-                holiday_hour = openapi_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
+                holiday_hour = entrata_api_client.models.get_properties_success_response_result_physical_property_property_inner_property_hours_holiday_hours_holiday_hour.getPropertiesSuccessResponse_result_PhysicalProperty_Property_inner_PropertyHours_HolidayHours_HolidayHour(
                     name = 'Columbus Day', 
                     date = '10/08/2018', )
             )

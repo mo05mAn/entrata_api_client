@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner import GetLeadsSuccessResponseResultProspectsProspectInnerEventsEventInner
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner import GetLeadsSuccessResponseResultProspectsProspectInnerEventsEventInner
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerEventsEventInner(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerEventsEventInner unit test stubs"""
@@ -49,7 +49,7 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerEventsEventInner(un
                 time_to = '16:00:00',
                 event_result_id = '2910914',
                 event_result = 'Success',
-                call_data = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
+                call_data = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_events_event_inner_call_data.getLeadsSuccessResponse_result_prospects_prospect_inner_events_event_inner_callData(
                     call_id = '64744370', 
                     call_from = '1234567890', 
                     ring_through = '1234567890', 

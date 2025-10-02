@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types import GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes
+from entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types import GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes
 
 class TestGetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes(unittest.TestCase):
     """GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes(unitte
         if include_optional:
             return GetPricingPicklistsSuccessResponseResponseResultChargeCodeTypes(
                 charge_code_type = [
-                    openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
-                        @attributes = openapi_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
+                    entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner(
+                        @attributes = entrata_api_client.models.get_pricing_picklists_success_response_response_result_charge_code_types_charge_code_type_inner__attributes.getPricingPicklistsSuccessResponse_response_result_chargeCodeTypes_chargeCodeType_inner__attributes(
                             id = 2, 
                             name = 'Rent', 
                             allowed_charge_timing_ids = '307', ), )

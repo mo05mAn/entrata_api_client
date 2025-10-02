@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessible_services_success_response_result import GetAccessibleServicesSuccessResponseResult
+from entrata_api_client.models.get_accessible_services_success_response_result import GetAccessibleServicesSuccessResponseResult
 
 class TestGetAccessibleServicesSuccessResponseResult(unittest.TestCase):
     """GetAccessibleServicesSuccessResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetAccessibleServicesSuccessResponseResult(unittest.TestCase):
         if include_optional:
             return GetAccessibleServicesSuccessResponseResult(
                 services = [
-                    openapi_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
+                    entrata_api_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
                         uri = '/ext/orgs/demoold/v1/customers', 
                         service = 'updateCustomers', )
                     ]
@@ -44,7 +44,7 @@ class TestGetAccessibleServicesSuccessResponseResult(unittest.TestCase):
         else:
             return GetAccessibleServicesSuccessResponseResult(
                 services = [
-                    openapi_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
+                    entrata_api_client.models.get_accessible_services_success_response_result_services_inner.getAccessibleServicesSuccessResponse_result_services_inner(
                         uri = '/ext/orgs/demoold/v1/customers', 
                         service = 'updateCustomers', )
                     ],

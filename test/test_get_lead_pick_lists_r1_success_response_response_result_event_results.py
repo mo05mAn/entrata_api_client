@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results import GetLeadPickListsR1SuccessResponseResponseResultEventResults
+from entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results import GetLeadPickListsR1SuccessResponseResponseResultEventResults
 
 class TestGetLeadPickListsR1SuccessResponseResponseResultEventResults(unittest.TestCase):
     """GetLeadPickListsR1SuccessResponseResponseResultEventResults unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadPickListsR1SuccessResponseResponseResultEventResults(unittest.T
         if include_optional:
             return GetLeadPickListsR1SuccessResponseResponseResultEventResults(
                 event_result = [
-                    openapi_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results_event_result_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventResults_EventResult_inner(
+                    entrata_api_client.models.get_lead_pick_lists_r1_success_response_response_result_event_results_event_result_inner.getLeadPickLists_r1_SuccessResponse_response_result_EventResults_EventResult_inner(
                         name = 'Cancelled', 
                         id = 57024, )
                     ]

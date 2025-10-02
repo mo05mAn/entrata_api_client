@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budgets import GetBudgets
+from entrata_api_client.models.get_budgets import GetBudgets
 
 class TestGetBudgets(unittest.TestCase):
     """GetBudgets unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetBudgets(unittest.TestCase):
         model = GetBudgets()
         if include_optional:
             return GetBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_budgets_method.getBudgets_method(
+                method = entrata_api_client.models.get_budgets_method.getBudgets_method(
                     name = 'getBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.get_budgets_method_params.getBudgets_method_params(
+                    params = entrata_api_client.models.get_budgets_method_params.getBudgets_method_params(
                         property_ids = '12345,4567', 
                         budget_ids = '12345,4567', 
                         budget_status_type_ids = '1,2,4', 
@@ -49,12 +49,12 @@ class TestGetBudgets(unittest.TestCase):
             )
         else:
             return GetBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_budgets_method.getBudgets_method(
+                method = entrata_api_client.models.get_budgets_method.getBudgets_method(
                     name = 'getBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.get_budgets_method_params.getBudgets_method_params(
+                    params = entrata_api_client.models.get_budgets_method_params.getBudgets_method_params(
                         property_ids = '12345,4567', 
                         budget_ids = '12345,4567', 
                         budget_status_type_ids = '1,2,4', 

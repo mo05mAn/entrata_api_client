@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenant
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification(
                 id_value = '6720012',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', )
@@ -44,7 +44,7 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenant
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationTenantInnerIdentification(
                 id_value = '6720012',
-                attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
+                attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
                     id_type = 'Customer ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', ),

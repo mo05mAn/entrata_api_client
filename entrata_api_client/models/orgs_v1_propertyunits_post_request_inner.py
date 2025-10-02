@@ -17,20 +17,20 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_amenities import GetAmenities
-from openapi_client.models.get_mits_property_units import GetMitsPropertyUnits
-from openapi_client.models.get_property_units import GetPropertyUnits
-from openapi_client.models.get_specials_r1 import GetSpecialsR1
-from openapi_client.models.get_specials_r2 import GetSpecialsR2
-from openapi_client.models.get_specials_r3 import GetSpecialsR3
-from openapi_client.models.get_specials_r4 import GetSpecialsR4
-from openapi_client.models.get_unit_types import GetUnitTypes
-from openapi_client.models.get_units_availability_and_pricing import GetUnitsAvailabilityAndPricing
-from openapi_client.models.send_amenities import SendAmenities
-from openapi_client.models.send_property_units import SendPropertyUnits
-from openapi_client.models.send_special_group import SendSpecialGroup
-from openapi_client.models.update_amenities import UpdateAmenities
-from openapi_client.models.update_special_group import UpdateSpecialGroup
+from entrata_api_client.models.get_amenities import GetAmenities
+from entrata_api_client.models.get_mits_property_units import GetMitsPropertyUnits
+from entrata_api_client.models.get_property_units import GetPropertyUnits
+from entrata_api_client.models.get_specials_r1 import GetSpecialsR1
+from entrata_api_client.models.get_specials_r2 import GetSpecialsR2
+from entrata_api_client.models.get_specials_r3 import GetSpecialsR3
+from entrata_api_client.models.get_specials_r4 import GetSpecialsR4
+from entrata_api_client.models.get_unit_types import GetUnitTypes
+from entrata_api_client.models.get_units_availability_and_pricing import GetUnitsAvailabilityAndPricing
+from entrata_api_client.models.send_amenities import SendAmenities
+from entrata_api_client.models.send_property_units import SendPropertyUnits
+from entrata_api_client.models.send_special_group import SendSpecialGroup
+from entrata_api_client.models.update_amenities import UpdateAmenities
+from entrata_api_client.models.update_special_group import UpdateSpecialGroup
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

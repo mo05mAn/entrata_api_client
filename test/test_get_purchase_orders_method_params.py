@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_purchase_orders_method_params import GetPurchaseOrdersMethodParams
+from entrata_api_client.models.get_purchase_orders_method_params import GetPurchaseOrdersMethodParams
 
 class TestGetPurchaseOrdersMethodParams(unittest.TestCase):
     """GetPurchaseOrdersMethodParams unit test stubs"""

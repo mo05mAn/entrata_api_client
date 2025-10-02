@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerPets
+from entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets import GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerPets
 
 class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerPets(unittest.TestCase):
     """GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerPets unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteI
         if include_optional:
             return GetQuotesSuccessResponseResultApplicationsApplicationInnerQuotesQuoteInnerPets(
                 pet = [
-                    openapi_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets_pet_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets_pet_inner(
+                    entrata_api_client.models.get_quotes_success_response_result_applications_application_inner_quotes_quote_inner_pets_pet_inner.getQuotesSuccessResponse_result_applications_application_inner_quotes_quote_inner_pets_pet_inner(
                         pet_type_id = '184368', 
                         pet_type = 'german shepherd', )
                     ]

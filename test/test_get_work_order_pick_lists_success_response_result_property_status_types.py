@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types import GetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes
+from entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types import GetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes
 
 class TestGetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes(unittest.TestCase):
     """GetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes(unittest
         if include_optional:
             return GetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes(
                 status_type = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
                         id = '15106', 
                         name = 'Awaiting Parts', 
                         code = 'AP', )
@@ -45,7 +45,7 @@ class TestGetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes(unittest
         else:
             return GetWorkOrderPickListsSuccessResponseResultPropertyStatusTypes(
                 status_type = [
-                    openapi_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
+                    entrata_api_client.models.get_work_order_pick_lists_success_response_result_property_status_types_status_type_inner.getWorkOrderPickListsSuccessResponse_result_Property_StatusTypes_StatusType_inner(
                         id = '15106', 
                         name = 'Awaiting Parts', 
                         code = 'AP', )

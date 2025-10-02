@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgets import SendBudgets
+from entrata_api_client.models.send_budgets import SendBudgets
 
 class TestSendBudgets(unittest.TestCase):
     """SendBudgets unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendBudgets(unittest.TestCase):
         model = SendBudgets()
         if include_optional:
             return SendBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_budgets_method.sendBudgets_method(
+                method = entrata_api_client.models.send_budgets_method.sendBudgets_method(
                     name = 'sendBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.send_budgets_method_params.sendBudgets_method_params(
+                    params = entrata_api_client.models.send_budgets_method_params.sendBudgets_method_params(
                         property_id = 123456, 
                         budget_name = 'budgets name 1', 
                         fiscal_year = 56, 
@@ -53,12 +53,12 @@ class TestSendBudgets(unittest.TestCase):
             )
         else:
             return SendBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_budgets_method.sendBudgets_method(
+                method = entrata_api_client.models.send_budgets_method.sendBudgets_method(
                     name = 'sendBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.send_budgets_method_params.sendBudgets_method_params(
+                    params = entrata_api_client.models.send_budgets_method_params.sendBudgets_method_params(
                         property_id = 123456, 
                         budget_name = 'budgets name 1', 
                         fiscal_year = 56, 

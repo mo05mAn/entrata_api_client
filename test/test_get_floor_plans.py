@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans import GetFloorPlans
+from entrata_api_client.models.get_floor_plans import GetFloorPlans
 
 class TestGetFloorPlans(unittest.TestCase):
     """GetFloorPlans unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetFloorPlans(unittest.TestCase):
         model = GetFloorPlans()
         if include_optional:
             return GetFloorPlans(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_floor_plans_method.getFloorPlans_method(
+                method = entrata_api_client.models.get_floor_plans_method.getFloorPlans_method(
                     name = 'getFloorPlans', 
                     version = 'r1', 
-                    params = openapi_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
+                    params = entrata_api_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
                         property_id = 12345, 
                         property_floor_plan_ids = '456789,123222', 
                         use_property_preferences = 0, 
@@ -49,12 +49,12 @@ class TestGetFloorPlans(unittest.TestCase):
             )
         else:
             return GetFloorPlans(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_floor_plans_method.getFloorPlans_method(
+                method = entrata_api_client.models.get_floor_plans_method.getFloorPlans_method(
                     name = 'getFloorPlans', 
                     version = 'r1', 
-                    params = openapi_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
+                    params = entrata_api_client.models.get_floor_plans_method_params.getFloorPlans_method_params(
                         property_id = 12345, 
                         property_floor_plan_ids = '456789,123222', 
                         use_property_preferences = 0, 

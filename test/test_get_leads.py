@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads import GetLeads
+from entrata_api_client.models.get_leads import GetLeads
 
 class TestGetLeads(unittest.TestCase):
     """GetLeads unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetLeads(unittest.TestCase):
         model = GetLeads()
         if include_optional:
             return GetLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_leads_method.getLeads_method(
+                method = entrata_api_client.models.get_leads_method.getLeads_method(
                     name = 'getLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.get_leads_method_params.getLeads_method_params(
+                    params = entrata_api_client.models.get_leads_method_params.getLeads_method_params(
                         property_id = 123456, 
                         lead_id = 123, 
                         name = 'ABC', 
@@ -60,12 +60,12 @@ class TestGetLeads(unittest.TestCase):
             )
         else:
             return GetLeads(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_leads_method.getLeads_method(
+                method = entrata_api_client.models.get_leads_method.getLeads_method(
                     name = 'getLeads', 
                     version = 'r1', 
-                    params = openapi_client.models.get_leads_method_params.getLeads_method_params(
+                    params = entrata_api_client.models.get_leads_method_params.getLeads_method_params(
                         property_id = 123456, 
                         lead_id = 123, 
                         name = 'ABC', 

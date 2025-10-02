@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_response_method import UpdatePropertyResponseMethod
+from entrata_api_client.models.update_property_response_method import UpdatePropertyResponseMethod
 
 class TestUpdatePropertyResponseMethod(unittest.TestCase):
     """UpdatePropertyResponseMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestUpdatePropertyResponseMethod(unittest.TestCase):
             return UpdatePropertyResponseMethod(
                 name = 'updatePropertyResponse',
                 version = 'r1',
-                params = openapi_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
+                params = entrata_api_client.models.update_property_response_method_params.updatePropertyResponse_method_params(
                     property_id = 123456, 
                     testimonial_id = 12345, 
                     review_response = '12345', 

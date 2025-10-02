@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_books import GetFinancialPickListR1SuccessResponseResultGlBooks
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_books import GetFinancialPickListR1SuccessResponseResultGlBooks
 
 class TestGetFinancialPickListR1SuccessResponseResultGlBooks(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlBooks unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlBooks(unittest.TestCase):
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlBooks(
                 gl_book = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_books_gl_book_inner.getFinancialPickList_r1_SuccessResponse_result_GlBooks_GlBook_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_books_gl_book_inner.getFinancialPickList_r1_SuccessResponse_result_GlBooks_GlBook_inner(
                         id = 616, 
                         name = 'Standard', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlBooks(unittest.TestCase):
         else:
             return GetFinancialPickListR1SuccessResponseResultGlBooks(
                 gl_book = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_books_gl_book_inner.getFinancialPickList_r1_SuccessResponse_result_GlBooks_GlBook_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_books_gl_book_inner.getFinancialPickList_r1_SuccessResponse_result_GlBooks_GlBook_inner(
                         id = 616, 
                         name = 'Standard', )
                     ],

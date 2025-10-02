@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r2 import UpdateLeadsR2
+from entrata_api_client.models.update_leads_r2 import UpdateLeadsR2
 
 class TestUpdateLeadsR2(unittest.TestCase):
     """UpdateLeadsR2 unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateLeadsR2(unittest.TestCase):
         model = UpdateLeadsR2()
         if include_optional:
             return UpdateLeadsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_leads_r2_method.updateLeads_r2_method(
+                method = entrata_api_client.models.update_leads_r2_method.updateLeads_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
+                    params = entrata_api_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
                         property_id = 123456, 
                         application_id = 123, 
                         event_id = 123, 
@@ -52,12 +52,12 @@ class TestUpdateLeadsR2(unittest.TestCase):
             )
         else:
             return UpdateLeadsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_leads_r2_method.updateLeads_r2_method(
+                method = entrata_api_client.models.update_leads_r2_method.updateLeads_r2_method(
                     name = '', 
                     version = 'r2', 
-                    params = openapi_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
+                    params = entrata_api_client.models.update_leads_r2_method_params.updateLeads_r2_method_params(
                         property_id = 123456, 
                         application_id = 123, 
                         event_id = 123, 

@@ -1,4 +1,4 @@
-# openapi-client
+# entrata-api-client
 The Entrata API retrieves property data for marketing, leasing, residents, and more. Our API is organized around RPC protocols, and authenticates users by API key. Additionally, users can only access the API when companies explicitly provide access per user.
 
 ### Time Zones

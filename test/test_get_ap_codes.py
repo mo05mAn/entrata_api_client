@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ap_codes import GetApCodes
+from entrata_api_client.models.get_ap_codes import GetApCodes
 
 class TestGetApCodes(unittest.TestCase):
     """GetApCodes unit test stubs"""
@@ -35,24 +35,24 @@ class TestGetApCodes(unittest.TestCase):
         model = GetApCodes()
         if include_optional:
             return GetApCodes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_ap_codes_method.getApCodes_method(
+                method = entrata_api_client.models.get_ap_codes_method.getApCodes_method(
                     name = 'getApCodes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ap_codes_method_params.getApCodes_method_params(
+                    params = entrata_api_client.models.get_ap_codes_method_params.getApCodes_method_params(
                         gl_account_ids = 56, 
                         ap_code_type_ids = 56, ), )
             )
         else:
             return GetApCodes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_ap_codes_method.getApCodes_method(
+                method = entrata_api_client.models.get_ap_codes_method.getApCodes_method(
                     name = 'getApCodes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ap_codes_method_params.getApCodes_method_params(
+                    params = entrata_api_client.models.get_ap_codes_method_params.getApCodes_method_params(
                         gl_account_ids = 56, 
                         ap_code_type_ids = 56, ), ),
         )

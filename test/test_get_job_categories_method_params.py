@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_categories_method_params import GetJobCategoriesMethodParams
+from entrata_api_client.models.get_job_categories_method_params import GetJobCategoriesMethodParams
 
 class TestGetJobCategoriesMethodParams(unittest.TestCase):
     """GetJobCategoriesMethodParams unit test stubs"""

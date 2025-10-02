@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_categories_success_response_result_job_categories import GetJobCategoriesSuccessResponseResultJobCategories
+from entrata_api_client.models.get_job_categories_success_response_result_job_categories import GetJobCategoriesSuccessResponseResultJobCategories
 
 class TestGetJobCategoriesSuccessResponseResultJobCategories(unittest.TestCase):
     """GetJobCategoriesSuccessResponseResultJobCategories unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetJobCategoriesSuccessResponseResultJobCategories(unittest.TestCase):
         if include_optional:
             return GetJobCategoriesSuccessResponseResultJobCategories(
                 job_category = [
-                    openapi_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
+                    entrata_api_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
                         id = '632', 
                         name = 'Brittany's Job Type', 
                         gl_account_id = '86997', )
@@ -45,7 +45,7 @@ class TestGetJobCategoriesSuccessResponseResultJobCategories(unittest.TestCase):
         else:
             return GetJobCategoriesSuccessResponseResultJobCategories(
                 job_category = [
-                    openapi_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
+                    entrata_api_client.models.get_job_categories_success_response_result_job_categories_job_category_inner.getJobCategoriesSuccessResponse_result_jobCategories_jobCategory_inner(
                         id = '632', 
                         name = 'Brittany's Job Type', 
                         gl_account_id = '86997', )

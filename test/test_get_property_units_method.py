@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_method import GetPropertyUnitsMethod
+from entrata_api_client.models.get_property_units_method import GetPropertyUnitsMethod
 
 class TestGetPropertyUnitsMethod(unittest.TestCase):
     """GetPropertyUnitsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertyUnitsMethod(unittest.TestCase):
             return GetPropertyUnitsMethod(
                 name = 'getPropertyUnits',
                 version = 'r1',
-                params = openapi_client.models.get_property_units_method_params.getPropertyUnits_method_params(
+                params = entrata_api_client.models.get_property_units_method_params.getPropertyUnits_method_params(
                     property_ids = '12345,5678', 
                     available_units_only = 0, 
                     use_property_preferences = 0, 

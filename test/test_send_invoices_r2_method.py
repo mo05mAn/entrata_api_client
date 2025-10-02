@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r2_method import SendInvoicesR2Method
+from entrata_api_client.models.send_invoices_r2_method import SendInvoicesR2Method
 
 class TestSendInvoicesR2Method(unittest.TestCase):
     """SendInvoicesR2Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendInvoicesR2Method(unittest.TestCase):
             return SendInvoicesR2Method(
                 name = '',
                 version = 'r2',
-                params = openapi_client.models.send_invoices_r2_method_params.sendInvoices_r2_method_params(
+                params = entrata_api_client.models.send_invoices_r2_method_params.sendInvoices_r2_method_params(
                     invoice_type_id = 1, 
                     ap_payee_id = 1234, 
                     ap_payee_location_id = 1234, 

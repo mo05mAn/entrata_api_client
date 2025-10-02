@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.update_scheduled_charges_r2_success_response_response_result import UpdateScheduledChargesR2SuccessResponseResponseResult
+from entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result import UpdateScheduledChargesR2SuccessResponseResponseResult
 from typing import Optional, Set
 from typing_extensions import Self
 

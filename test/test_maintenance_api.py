@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.maintenance_api import MaintenanceApi
+from entrata_api_client.api.maintenance_api import MaintenanceApi
 
 
 class TestMaintenanceApi(unittest.TestCase):

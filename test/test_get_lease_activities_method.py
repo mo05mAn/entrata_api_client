@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_activities_method import GetLeaseActivitiesMethod
+from entrata_api_client.models.get_lease_activities_method import GetLeaseActivitiesMethod
 
 class TestGetLeaseActivitiesMethod(unittest.TestCase):
     """GetLeaseActivitiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetLeaseActivitiesMethod(unittest.TestCase):
             return GetLeaseActivitiesMethod(
                 name = 'getLeaseActivities',
                 version = 'r1',
-                params = openapi_client.models.get_lease_activities_method_params.getLeaseActivities_method_params(
+                params = entrata_api_client.models.get_lease_activities_method_params.getLeaseActivities_method_params(
                     property_id = 123456, 
                     lease_id = 123456, 
                     created_on_date_to = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

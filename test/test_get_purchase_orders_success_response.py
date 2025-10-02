@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_purchase_orders_success_response import GetPurchaseOrdersSuccessResponse
+from entrata_api_client.models.get_purchase_orders_success_response import GetPurchaseOrdersSuccessResponse
 
 class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
     """GetPurchaseOrdersSuccessResponse unit test stubs"""
@@ -37,13 +37,13 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
             return GetPurchaseOrdersSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_purchase_orders_success_response_result.getPurchaseOrdersSuccessResponse_result(
-                    purchase_orders = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders.getPurchaseOrdersSuccessResponse_result_purchaseOrders(
+                result = entrata_api_client.models.get_purchase_orders_success_response_result.getPurchaseOrdersSuccessResponse_result(
+                    purchase_orders = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders.getPurchaseOrdersSuccessResponse_result_purchaseOrders(
                         purchase_order = [
-                            openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner(
+                            entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner(
                                 purchase_order_number = '1234', 
                                 purchase_order_type = 'Standard', 
-                                vendor = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_vendor.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_vendor(
+                                vendor = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_vendor.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_vendor(
                                     id = '67645', 
                                     name = '22 Exchange', ), 
                                 vendor_code = '2423478552', 
@@ -61,8 +61,8 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
                                 po_note = '24th Jan', 
                                 created_on = '01/23/2019 21:58:03.698637 MST', 
                                 attached_url = 'https://demoold.stage.entrata.lcl/', 
-                                line_items = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems(
-                                    line_item = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem(
+                                line_items = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems(
+                                    line_item = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem(
                                         id = '123456', 
                                         gl_account_id = '123456', 
                                         gl_account_number = '123', 
@@ -84,9 +84,9 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
                                         custom_tag_name = 'abc', 
                                         custom_tag_code = 'A12', 
                                         is_confidential = '1', 
-                                        invoices = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
+                                        invoices = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
                                             invoice = [
-                                                openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
+                                                entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
                                                     invoice_id = '7539935', 
                                                     invoice_number = 'ABC-342', )
                                                 ], ), ), ), )
@@ -96,13 +96,13 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
             return GetPurchaseOrdersSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_purchase_orders_success_response_result.getPurchaseOrdersSuccessResponse_result(
-                    purchase_orders = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders.getPurchaseOrdersSuccessResponse_result_purchaseOrders(
+                result = entrata_api_client.models.get_purchase_orders_success_response_result.getPurchaseOrdersSuccessResponse_result(
+                    purchase_orders = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders.getPurchaseOrdersSuccessResponse_result_purchaseOrders(
                         purchase_order = [
-                            openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner(
+                            entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner(
                                 purchase_order_number = '1234', 
                                 purchase_order_type = 'Standard', 
-                                vendor = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_vendor.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_vendor(
+                                vendor = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_vendor.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_vendor(
                                     id = '67645', 
                                     name = '22 Exchange', ), 
                                 vendor_code = '2423478552', 
@@ -120,8 +120,8 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
                                 po_note = '24th Jan', 
                                 created_on = '01/23/2019 21:58:03.698637 MST', 
                                 attached_url = 'https://demoold.stage.entrata.lcl/', 
-                                line_items = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems(
-                                    line_item = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem(
+                                line_items = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems(
+                                    line_item = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem(
                                         id = '123456', 
                                         gl_account_id = '123456', 
                                         gl_account_number = '123', 
@@ -143,9 +143,9 @@ class TestGetPurchaseOrdersSuccessResponse(unittest.TestCase):
                                         custom_tag_name = 'abc', 
                                         custom_tag_code = 'A12', 
                                         is_confidential = '1', 
-                                        invoices = openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
+                                        invoices = entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices(
                                             invoice = [
-                                                openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
+                                                entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
                                                     invoice_id = '7539935', 
                                                     invoice_number = 'ABC-342', )
                                                 ], ), ), ), )

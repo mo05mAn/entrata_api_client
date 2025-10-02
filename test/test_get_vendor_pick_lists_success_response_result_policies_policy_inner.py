@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner import GetVendorPickListsSuccessResponseResultPoliciesPolicyInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner import GetVendorPickListsSuccessResponseResultPoliciesPolicyInner
 
 class TestGetVendorPickListsSuccessResponseResultPoliciesPolicyInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultPoliciesPolicyInner unit test stubs"""
@@ -37,9 +37,9 @@ class TestGetVendorPickListsSuccessResponseResultPoliciesPolicyInner(unittest.Te
             return GetVendorPickListsSuccessResponseResultPoliciesPolicyInner(
                 policy_type_id = '7',
                 policy_type_name = 'General Liability',
-                coverages = openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
+                coverages = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
                     coverage = [
-                        openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
+                        entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
                             id = '12', 
                             name = 'Each Occurrence', )
                         ], )
@@ -48,9 +48,9 @@ class TestGetVendorPickListsSuccessResponseResultPoliciesPolicyInner(unittest.Te
             return GetVendorPickListsSuccessResponseResultPoliciesPolicyInner(
                 policy_type_id = '7',
                 policy_type_name = 'General Liability',
-                coverages = openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
+                coverages = entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages(
                     coverage = [
-                        openapi_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
+                        entrata_api_client.models.get_vendor_pick_lists_success_response_result_policies_policy_inner_coverages_coverage_inner.getVendorPickListsSuccessResponse_result_policies_policy_inner_coverages_coverage_inner(
                             id = '12', 
                             name = 'Each Occurrence', )
                         ], ),

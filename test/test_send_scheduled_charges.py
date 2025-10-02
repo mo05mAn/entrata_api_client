@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_scheduled_charges import SendScheduledCharges
+from entrata_api_client.models.send_scheduled_charges import SendScheduledCharges
 
 class TestSendScheduledCharges(unittest.TestCase):
     """SendScheduledCharges unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendScheduledCharges(unittest.TestCase):
         model = SendScheduledCharges()
         if include_optional:
             return SendScheduledCharges(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_scheduled_charges_method.sendScheduledCharges_method(
+                method = entrata_api_client.models.send_scheduled_charges_method.sendScheduledCharges_method(
                     name = 'sendScheduledCharges', 
                     version = 'r1', 
-                    params = openapi_client.models.send_scheduled_charges_method_params.sendScheduledCharges_method_params(
+                    params = entrata_api_client.models.send_scheduled_charges_method_params.sendScheduledCharges_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         charge_timing_id = 307, 
@@ -53,12 +53,12 @@ class TestSendScheduledCharges(unittest.TestCase):
             )
         else:
             return SendScheduledCharges(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_scheduled_charges_method.sendScheduledCharges_method(
+                method = entrata_api_client.models.send_scheduled_charges_method.sendScheduledCharges_method(
                     name = 'sendScheduledCharges', 
                     version = 'r1', 
-                    params = openapi_client.models.send_scheduled_charges_method_params.sendScheduledCharges_method_params(
+                    params = entrata_api_client.models.send_scheduled_charges_method_params.sendScheduledCharges_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         charge_timing_id = 307, 

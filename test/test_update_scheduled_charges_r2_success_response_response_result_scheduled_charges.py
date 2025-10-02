@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges import UpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges
+from entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges import UpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges
 
 class TestUpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges(unittest.TestCase):
     """UpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges unit test stubs"""
@@ -36,8 +36,8 @@ class TestUpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges(
         if include_optional:
             return UpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges(
                 scheduled_charge = {
-                    'key' : openapi_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value(
-                        @attributes = openapi_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value__attributes.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value__attributes(
+                    'key' : entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value(
+                        @attributes = entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value__attributes.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value__attributes(
                             id = '32847564', 
                             node = '1', 
                             status = 'Success', 
@@ -47,8 +47,8 @@ class TestUpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges(
         else:
             return UpdateScheduledChargesR2SuccessResponseResponseResultScheduledCharges(
                 scheduled_charge = {
-                    'key' : openapi_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value(
-                        @attributes = openapi_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value__attributes.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value__attributes(
+                    'key' : entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value(
+                        @attributes = entrata_api_client.models.update_scheduled_charges_r2_success_response_response_result_scheduled_charges_scheduled_charge_value__attributes.updateScheduledCharges_r2_SuccessResponse_response_result_scheduledCharges_scheduledCharge_value__attributes(
                             id = '32847564', 
                             node = '1', 
                             status = 'Success', 

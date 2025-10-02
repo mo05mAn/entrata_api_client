@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_specials_r4_method_params import GetSpecialsR4MethodParams
+from entrata_api_client.models.get_specials_r4_method_params import GetSpecialsR4MethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

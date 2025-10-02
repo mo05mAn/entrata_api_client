@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit unit test stubs"""
@@ -35,12 +35,12 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit(unittest.
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanDeposit(
-                amount = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
-                    value_range = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
-                        @attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
+                amount = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount(
+                    value_range = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange(
+                        @attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit_amount_value_range__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit_Amount_ValueRange__attributes(
                             min = '250', 
                             max = '250', ), ), ),
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_deposit__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Deposit__attributes(
                     deposit_type = 'security deposit', )
             )
         else:

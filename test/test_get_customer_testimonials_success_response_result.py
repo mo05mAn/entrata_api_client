@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customer_testimonials_success_response_result import GetCustomerTestimonialsSuccessResponseResult
+from entrata_api_client.models.get_customer_testimonials_success_response_result import GetCustomerTestimonialsSuccessResponseResult
 
 class TestGetCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
     """GetCustomerTestimonialsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
         model = GetCustomerTestimonialsSuccessResponseResult()
         if include_optional:
             return GetCustomerTestimonialsSuccessResponseResult(
-                testimonials = openapi_client.models.get_customer_testimonials_success_response_result_testimonials.getCustomerTestimonialsSuccessResponse_result_Testimonials(
+                testimonials = entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials.getCustomerTestimonialsSuccessResponse_result_Testimonials(
                     testimonial = [
-                        openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
+                        entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
                             id = '11111', 
                             name = 'Testing Test', 
                             title = 'well it is an awesome place to live in.', 
@@ -53,9 +53,9 @@ class TestGetCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
                             prospect_portal_published = '1', 
                             first_name = 'Testing', 
                             last_name = 'Test', 
-                            testimonial_ratings = openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings(
+                            testimonial_ratings = entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings(
                                 testimonial_rating = [
-                                    openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
+                                    entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
                                         type = 'Overall', 
                                         rating = '5', )
                                     ], ), )
@@ -63,9 +63,9 @@ class TestGetCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetCustomerTestimonialsSuccessResponseResult(
-                testimonials = openapi_client.models.get_customer_testimonials_success_response_result_testimonials.getCustomerTestimonialsSuccessResponse_result_Testimonials(
+                testimonials = entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials.getCustomerTestimonialsSuccessResponse_result_Testimonials(
                     testimonial = [
-                        openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
+                        entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner(
                             id = '11111', 
                             name = 'Testing Test', 
                             title = 'well it is an awesome place to live in.', 
@@ -81,9 +81,9 @@ class TestGetCustomerTestimonialsSuccessResponseResult(unittest.TestCase):
                             prospect_portal_published = '1', 
                             first_name = 'Testing', 
                             last_name = 'Test', 
-                            testimonial_ratings = openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings(
+                            testimonial_ratings = entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings(
                                 testimonial_rating = [
-                                    openapi_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
+                                    entrata_api_client.models.get_customer_testimonials_success_response_result_testimonials_testimonial_inner_testimonial_ratings_testimonial_rating_inner.getCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial_inner_TestimonialRatings_TestimonialRating_inner(
                                         type = 'Overall', 
                                         rating = '5', )
                                     ], ), )

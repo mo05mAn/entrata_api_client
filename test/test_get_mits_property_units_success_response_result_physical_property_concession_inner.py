@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyConcessionInner
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyConcessionInner
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyConcessionInner(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyConcessionInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyConcessionInn
                 description_header = 'Test_Special',
                 description_body = 'description',
                 description_footer = 'footer description',
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_concession_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Concession_inner__attributes(
                     active = '1', )
             )
         else:

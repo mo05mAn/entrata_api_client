@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_employers_method_params import SendApplicationEmployersMethodParams
+from entrata_api_client.models.send_application_employers_method_params import SendApplicationEmployersMethodParams
 
 class TestSendApplicationEmployersMethodParams(unittest.TestCase):
     """SendApplicationEmployersMethodParams unit test stubs"""

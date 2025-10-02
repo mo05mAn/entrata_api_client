@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_pet_types import GetPetTypes
+from entrata_api_client.models.get_pet_types import GetPetTypes
 
 class TestGetPetTypes(unittest.TestCase):
     """GetPetTypes unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetPetTypes(unittest.TestCase):
         model = GetPetTypes()
         if include_optional:
             return GetPetTypes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_pet_types_method.getPetTypes_method(
+                method = entrata_api_client.models.get_pet_types_method.getPetTypes_method(
                     name = 'getPetTypes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_pet_types_method_params.getPetTypes_method_params(
+                    params = entrata_api_client.models.get_pet_types_method_params.getPetTypes_method_params(
                         property_ids = '456789,123222', ), )
             )
         else:
             return GetPetTypes(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_pet_types_method.getPetTypes_method(
+                method = entrata_api_client.models.get_pet_types_method.getPetTypes_method(
                     name = 'getPetTypes', 
                     version = 'r1', 
-                    params = openapi_client.models.get_pet_types_method_params.getPetTypes_method_params(
+                    params = entrata_api_client.models.get_pet_types_method_params.getPetTypes_method_params(
                         property_ids = '456789,123222', ), ),
         )
         """

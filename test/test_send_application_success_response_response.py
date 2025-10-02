@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_success_response_response import SendApplicationSuccessResponseResponse
+from entrata_api_client.models.send_application_success_response_response import SendApplicationSuccessResponseResponse
 
 class TestSendApplicationSuccessResponseResponse(unittest.TestCase):
     """SendApplicationSuccessResponseResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendApplicationSuccessResponseResponse(unittest.TestCase):
             return SendApplicationSuccessResponseResponse(
                 request_id = 'req12345',
                 code = 200,
-                result = openapi_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
+                result = entrata_api_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Application inserted successfully.', 
                     applicant_id = '17889726', 
@@ -46,7 +46,7 @@ class TestSendApplicationSuccessResponseResponse(unittest.TestCase):
         else:
             return SendApplicationSuccessResponseResponse(
                 code = 200,
-                result = openapi_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
+                result = entrata_api_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
                     status = 'Success', 
                     message = 'Application inserted successfully.', 
                     applicant_id = '17889726', 

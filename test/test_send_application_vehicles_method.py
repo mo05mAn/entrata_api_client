@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles_method import SendApplicationVehiclesMethod
+from entrata_api_client.models.send_application_vehicles_method import SendApplicationVehiclesMethod
 
 class TestSendApplicationVehiclesMethod(unittest.TestCase):
     """SendApplicationVehiclesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendApplicationVehiclesMethod(unittest.TestCase):
             return SendApplicationVehiclesMethod(
                 name = '',
                 version = 'r1',
-                params = openapi_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
+                params = entrata_api_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
                     vehicle_type_id = 2, )
             )
         else:

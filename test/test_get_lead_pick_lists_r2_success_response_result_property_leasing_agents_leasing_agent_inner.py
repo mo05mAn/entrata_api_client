@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner import GetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner
+from entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner import GetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner
 
 class TestGetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner(unittest.TestCase):
     """GetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAge
         model = GetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner()
         if include_optional:
             return GetLeadPickListsR2SuccessResponseResultPropertyLeasingAgentsLeasingAgentInner(
-                attributes = openapi_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner__attributes(
+                attributes = entrata_api_client.models.get_lead_pick_lists_r2_success_response_result_property_leasing_agents_leasing_agent_inner__attributes.getLeadPickLists_r2_SuccessResponse_result_property_leasingAgents_leasingAgent_inner__attributes(
                     name = 'Carter Babb', 
                     id = '315879', )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations import GetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations
+from entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations import GetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations
 
 class TestGetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations(unittest.TestCase):
     """GetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAl
         if include_optional:
             return GetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations(
                 ar_allocation = [
-                    openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
+                    entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
                         ar_transaction_id = 340302642, 
                         charge_code_id = 155594, 
                         charge_code_name = '11AR', 
@@ -47,7 +47,7 @@ class TestGetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAl
         else:
             return GetArPaymentsSuccessResponseResponseResultArPaymentsArPaymentInnerArAllocations(
                 ar_allocation = [
-                    openapi_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
+                    entrata_api_client.models.get_ar_payments_success_response_response_result_ar_payments_ar_payment_inner_ar_allocations_ar_allocation_inner.getArPaymentsSuccessResponse_response_result_ArPayments_ArPayment_inner_ArAllocations_ArAllocation_inner(
                         ar_transaction_id = 340302642, 
                         charge_code_id = 155594, 
                         charge_code_name = '11AR', 

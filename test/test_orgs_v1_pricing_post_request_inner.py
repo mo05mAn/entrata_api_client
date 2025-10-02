@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_pricing_post_request_inner import OrgsV1PricingPostRequestInner
+from entrata_api_client.models.orgs_v1_pricing_post_request_inner import OrgsV1PricingPostRequestInner
 
 class TestOrgsV1PricingPostRequestInner(unittest.TestCase):
     """OrgsV1PricingPostRequestInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestOrgsV1PricingPostRequestInner(unittest.TestCase):
         model = OrgsV1PricingPostRequestInner()
         if include_optional:
             return OrgsV1PricingPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_budgeted_rent_method.sendBudgetedRent_method(
+                method = entrata_api_client.models.send_budgeted_rent_method.sendBudgetedRent_method(
                     name = 'sendBudgetedRent', 
                     version = 'r1', 
-                    params = openapi_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
+                    params = entrata_api_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
                         property_id = 4, 
                         pricing_level_id = 123456, 
                         pricing_level_reference_id = 1, 
@@ -50,12 +50,12 @@ class TestOrgsV1PricingPostRequestInner(unittest.TestCase):
             )
         else:
             return OrgsV1PricingPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_budgeted_rent_method.sendBudgetedRent_method(
+                method = entrata_api_client.models.send_budgeted_rent_method.sendBudgetedRent_method(
                     name = 'sendBudgetedRent', 
                     version = 'r1', 
-                    params = openapi_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
+                    params = entrata_api_client.models.send_budgeted_rent_method_params.sendBudgetedRent_method_params(
                         property_id = 4, 
                         pricing_level_id = 123456, 
                         pricing_level_reference_id = 1, 

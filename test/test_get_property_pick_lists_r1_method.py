@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r1_method import GetPropertyPickListsR1Method
+from entrata_api_client.models.get_property_pick_lists_r1_method import GetPropertyPickListsR1Method
 
 class TestGetPropertyPickListsR1Method(unittest.TestCase):
     """GetPropertyPickListsR1Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetPropertyPickListsR1Method(unittest.TestCase):
             return GetPropertyPickListsR1Method(
                 name = '',
                 version = 'r1',
-                params = openapi_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
+                params = entrata_api_client.models.get_property_pick_lists_r1_method_params.getPropertyPickLists_r1_method_params(
                     property_ids = '12345,5678', )
             )
         else:

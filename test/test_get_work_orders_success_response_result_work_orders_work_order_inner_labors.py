@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors import GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors
+from entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors import GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors
 
 class TestGetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors(unittest.TestCase):
     """GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors(unitt
         if include_optional:
             return GetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors(
                 labor = [
-                    openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
+                    entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_labor_inner.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_labor_inner(
                         employee_name = 'ABC', 
                         description = 'sdf', 
                         labor_type = 'Regular', 
@@ -47,7 +47,7 @@ class TestGetWorkOrdersSuccessResponseResultWorkOrdersWorkOrderInnerLabors(unitt
                         per_hour_rate = '1.00', 
                         total_charge = '0.07', )
                     ],
-                sub_total = openapi_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
+                sub_total = entrata_api_client.models.get_work_orders_success_response_result_work_orders_work_order_inner_labors_sub_total.getWorkOrdersSuccessResponse_result_workOrders_workOrder_inner_labors_subTotal(
                     total_charge = '10.27', 
                     total_minutes = 616, )
             )

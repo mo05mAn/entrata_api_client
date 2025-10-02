@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages import GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages
+from entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages import GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages
 
 class TestGetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages unit test stubs"""
@@ -35,15 +35,15 @@ class TestGetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyT
         model = GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages()
         if include_optional:
             return GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages(
-                coverage = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
+                coverage = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
                         item = 'Disease - Policy Limit', 
                         amount = '200.00', ), )
             )
         else:
             return GetVendorLocationsSuccessResponseResultInsurancesInsuranceInnerPolicyTypesPolicyTypeCoverages(
-                coverage = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
-                    @attributes = openapi_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
+                coverage = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage(
+                    @attributes = entrata_api_client.models.get_vendor_locations_success_response_result_insurances_insurance_inner_policy_types_policy_type_coverages_coverage__attributes.getVendorLocationsSuccessResponse_result_Insurances_Insurance_inner_PolicyTypes_PolicyType_Coverages_Coverage__attributes(
                         item = 'Disease - Policy Limit', 
                         amount = '200.00', ), ),
         )

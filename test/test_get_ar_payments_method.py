@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_payments_method import GetArPaymentsMethod
+from entrata_api_client.models.get_ar_payments_method import GetArPaymentsMethod
 
 class TestGetArPaymentsMethod(unittest.TestCase):
     """GetArPaymentsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetArPaymentsMethod(unittest.TestCase):
             return GetArPaymentsMethod(
                 name = 'getArPayments',
                 version = 'r1',
-                params = openapi_client.models.get_ar_payments_method_params.getArPayments_method_params(
+                params = entrata_api_client.models.get_ar_payments_method_params.getArPayments_method_params(
                     ar_payment_ids = '123456', 
                     payment_status_type_ids = '123456', 
                     from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

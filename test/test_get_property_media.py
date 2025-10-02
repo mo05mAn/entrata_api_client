@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_media import GetPropertyMedia
+from entrata_api_client.models.get_property_media import GetPropertyMedia
 
 class TestGetPropertyMedia(unittest.TestCase):
     """GetPropertyMedia unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPropertyMedia(unittest.TestCase):
         model = GetPropertyMedia()
         if include_optional:
             return GetPropertyMedia(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_property_media_method.getPropertyMedia_method(
+                method = entrata_api_client.models.get_property_media_method.getPropertyMedia_method(
                     name = 'getPropertyMedia', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_media_method_params.getPropertyMedia_method_params(
+                    params = entrata_api_client.models.get_property_media_method_params.getPropertyMedia_method_params(
                         property_id = '123456', 
                         media_type_id = '6', 
                         media_sub_type_id = '24', 
@@ -49,12 +49,12 @@ class TestGetPropertyMedia(unittest.TestCase):
             )
         else:
             return GetPropertyMedia(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_property_media_method.getPropertyMedia_method(
+                method = entrata_api_client.models.get_property_media_method.getPropertyMedia_method(
                     name = 'getPropertyMedia', 
                     version = 'r1', 
-                    params = openapi_client.models.get_property_media_method_params.getPropertyMedia_method_params(
+                    params = entrata_api_client.models.get_property_media_method_params.getPropertyMedia_method_params(
                         property_id = '123456', 
                         media_type_id = '6', 
                         media_sub_type_id = '24', 

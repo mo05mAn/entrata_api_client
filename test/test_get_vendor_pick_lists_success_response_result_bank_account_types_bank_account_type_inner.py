@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner import GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner import GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountType
         model = GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
                     id = '1', 
                     name = 'Business Checking', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultBankAccountTypesBankAccountTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
                     id = '1', 
                     name = 'Business Checking', ),
         )

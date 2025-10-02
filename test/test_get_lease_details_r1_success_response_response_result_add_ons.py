@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons import GetLeaseDetailsR1SuccessResponseResponseResultAddOns
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons import GetLeaseDetailsR1SuccessResponseResponseResultAddOns
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultAddOns unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
         model = GetLeaseDetailsR1SuccessResponseResponseResultAddOns()
         if include_optional:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOns(
-                assignable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
+                assignable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
                     assignable_item = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                             add_on_type = 'Assignable Items', 
                             add_on_category = 'Keys', 
                             add_on_group = 'Keys', 
@@ -47,9 +47,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
                             end_date = '05/15/2017', 
                             agent = 'Agent One', )
                         ], ),
-                rentable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
+                rentable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
                     rentable_item = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                             add_on_type = 'Rentable Items', 
                             add_on_category = 'Garage', 
                             add_on_group = 'Garage', 
@@ -59,9 +59,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
                             end_date = '05/15/2017', 
                             agent = 'Agent One', )
                         ], ),
-                services = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
+                services = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
                     service = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                             add_on_type = 'Services', 
                             add_on_category = 'Full Furnishing', 
                             add_on_group = 'Full Furnishing', 
@@ -74,9 +74,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
             )
         else:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOns(
-                assignable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
+                assignable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems(
                     assignable_item = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_assignable_items_assignable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_assignableItems_assignableItem_inner(
                             add_on_type = 'Assignable Items', 
                             add_on_category = 'Keys', 
                             add_on_group = 'Keys', 
@@ -86,9 +86,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
                             end_date = '05/15/2017', 
                             agent = 'Agent One', )
                         ], ),
-                rentable_items = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
+                rentable_items = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems(
                     rentable_item = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_rentable_items_rentable_item_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_rentableItems_rentableItem_inner(
                             add_on_type = 'Rentable Items', 
                             add_on_category = 'Garage', 
                             add_on_group = 'Garage', 
@@ -98,9 +98,9 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOns(unittest.TestCase
                             end_date = '05/15/2017', 
                             agent = 'Agent One', )
                         ], ),
-                services = openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
+                services = entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services(
                     service = [
-                        openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                        entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                             add_on_type = 'Services', 
                             add_on_category = 'Full Furnishing', 
                             add_on_group = 'Full Furnishing', 

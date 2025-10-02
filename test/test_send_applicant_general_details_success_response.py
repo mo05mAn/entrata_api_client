@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_applicant_general_details_success_response import SendApplicantGeneralDetailsSuccessResponse
+from entrata_api_client.models.send_applicant_general_details_success_response import SendApplicantGeneralDetailsSuccessResponse
 
 class TestSendApplicantGeneralDetailsSuccessResponse(unittest.TestCase):
     """SendApplicantGeneralDetailsSuccessResponse unit test stubs"""
@@ -35,11 +35,11 @@ class TestSendApplicantGeneralDetailsSuccessResponse(unittest.TestCase):
         model = SendApplicantGeneralDetailsSuccessResponse()
         if include_optional:
             return SendApplicantGeneralDetailsSuccessResponse(
-                response = openapi_client.models.send_applicant_general_details_success_response_response.sendApplicantGeneralDetailsSuccessResponse_response(
+                response = entrata_api_client.models.send_applicant_general_details_success_response_response.sendApplicantGeneralDetailsSuccessResponse_response(
                     request_id = 'req98765', 
                     code = 200, 
                     result = [
-                        openapi_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
+                        entrata_api_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
                             status = 'Success', 
                             message = 'General details updated successfully', 
                             applicant_id = '20456006', )
@@ -47,11 +47,11 @@ class TestSendApplicantGeneralDetailsSuccessResponse(unittest.TestCase):
             )
         else:
             return SendApplicantGeneralDetailsSuccessResponse(
-                response = openapi_client.models.send_applicant_general_details_success_response_response.sendApplicantGeneralDetailsSuccessResponse_response(
+                response = entrata_api_client.models.send_applicant_general_details_success_response_response.sendApplicantGeneralDetailsSuccessResponse_response(
                     request_id = 'req98765', 
                     code = 200, 
                     result = [
-                        openapi_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
+                        entrata_api_client.models.send_applicant_general_details_success_response_response_result_inner.sendApplicantGeneralDetailsSuccessResponse_response_result_inner(
                             status = 'Success', 
                             message = 'General details updated successfully', 
                             applicant_id = '20456006', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID
+from entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id import GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID
 
 class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID(unittest.TestCase):
     """GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerL
         model = GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID()
         if include_optional:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
                     id_type = 'Lease ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 
@@ -43,7 +43,7 @@ class TestGetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerL
             )
         else:
             return GetMitsLeasesSuccessResponseResponseResultLeaseApplicationTenantInnerLeaseID(
-                identification = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
+                identification = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_tenant_inner_lease_id_identification.getMitsLeasesSuccessResponse_response_result_LeaseApplication_Tenant_inner_LeaseID_Identification(
                     id_type = 'Lease ID', 
                     id_rank = 'primary', 
                     id_scope_type = 'sender', 

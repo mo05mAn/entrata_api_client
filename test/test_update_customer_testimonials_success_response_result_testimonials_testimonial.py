@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial import UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial
+from entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial import UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial
 
 class TestUpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial(unittest.TestCase):
     """UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial
         model = UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial()
         if include_optional:
             return UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial(
-                attributes = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
+                attributes = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
                     status = 'Success', 
                     message = 'Succesfully Activated/deactivated Transmission Vendor.', )
             )
         else:
             return UpdateCustomerTestimonialsSuccessResponseResultTestimonialsTestimonial(
-                attributes = openapi_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
+                attributes = entrata_api_client.models.update_customer_testimonials_success_response_result_testimonials_testimonial__attributes.updateCustomerTestimonialsSuccessResponse_result_Testimonials_Testimonial__attributes(
                     status = 'Success', 
                     message = 'Succesfully Activated/deactivated Transmission Vendor.', ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r1_method import GetCalendarAvailabilityR1Method
+from entrata_api_client.models.get_calendar_availability_r1_method import GetCalendarAvailabilityR1Method
 
 class TestGetCalendarAvailabilityR1Method(unittest.TestCase):
     """GetCalendarAvailabilityR1Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetCalendarAvailabilityR1Method(unittest.TestCase):
             return GetCalendarAvailabilityR1Method(
                 name = '',
                 version = 'r1',
-                params = openapi_client.models.get_calendar_availability_r1_method_params.getCalendarAvailability_r1_method_params(
+                params = entrata_api_client.models.get_calendar_availability_r1_method_params.getCalendarAvailability_r1_method_params(
                     property_id = 123456, 
                     from_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
                     to_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

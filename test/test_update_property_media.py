@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media import UpdatePropertyMedia
+from entrata_api_client.models.update_property_media import UpdatePropertyMedia
 
 class TestUpdatePropertyMedia(unittest.TestCase):
     """UpdatePropertyMedia unit test stubs"""
@@ -35,12 +35,12 @@ class TestUpdatePropertyMedia(unittest.TestCase):
         model = UpdatePropertyMedia()
         if include_optional:
             return UpdatePropertyMedia(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
                 request_id = '',
-                method = openapi_client.models.update_property_media_method.updatePropertyMedia_method(
+                method = entrata_api_client.models.update_property_media_method.updatePropertyMedia_method(
                     name = 'updatePropertyMedia', 
-                    params = openapi_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
+                    params = entrata_api_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
                         property_id = '999999', 
                         media = [
                             null
@@ -48,11 +48,11 @@ class TestUpdatePropertyMedia(unittest.TestCase):
             )
         else:
             return UpdatePropertyMedia(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
-                method = openapi_client.models.update_property_media_method.updatePropertyMedia_method(
+                method = entrata_api_client.models.update_property_media_method.updatePropertyMedia_method(
                     name = 'updatePropertyMedia', 
-                    params = openapi_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
+                    params = entrata_api_client.models.update_property_media_method_params.updatePropertyMedia_method_params(
                         property_id = '999999', 
                         media = [
                             null

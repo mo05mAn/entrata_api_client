@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.move_out_lease import MoveOutLease
+from entrata_api_client.models.move_out_lease import MoveOutLease
 
 class TestMoveOutLease(unittest.TestCase):
     """MoveOutLease unit test stubs"""
@@ -35,13 +35,13 @@ class TestMoveOutLease(unittest.TestCase):
         model = MoveOutLease()
         if include_optional:
             return MoveOutLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.move_out_lease_method.moveOutLease_method(
+                method = entrata_api_client.models.move_out_lease_method.moveOutLease_method(
                     name = 'moveOutLease', 
                     version = 'r1', 
-                    params = openapi_client.models.move_out_lease_method_params.moveOutLease_method_params(
+                    params = entrata_api_client.models.move_out_lease_method_params.moveOutLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         move_out_type_id = 1234, 
@@ -62,12 +62,12 @@ class TestMoveOutLease(unittest.TestCase):
             )
         else:
             return MoveOutLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.move_out_lease_method.moveOutLease_method(
+                method = entrata_api_client.models.move_out_lease_method.moveOutLease_method(
                     name = 'moveOutLease', 
                     version = 'r1', 
-                    params = openapi_client.models.move_out_lease_method_params.moveOutLease_method_params(
+                    params = entrata_api_client.models.move_out_lease_method_params.moveOutLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         move_out_type_id = 1234, 

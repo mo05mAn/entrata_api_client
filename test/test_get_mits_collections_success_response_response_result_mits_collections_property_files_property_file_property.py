@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty
+from entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property import GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty
 
 class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty(unittest.TestCase):
     """GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty unit test stubs"""
@@ -35,16 +35,16 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
         model = GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty()
         if include_optional:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
                         id_type = 'Property ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 
                     id_value = 172775, ),
                 marketing_name = '0001 East Park Property',
                 address = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
                             address_type = 'other', ), 
                         description = 'Primary address', 
                         address = '4300 Pennsylvania Ave, street, road', 
@@ -55,8 +55,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
                         county_name = 'Unite States', )
                     ],
                 phone = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
                             phone_type = 'office', ), 
                         phone_description = 'Office phone number', 
                         phone_number = '1111888888', )
@@ -64,16 +64,16 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
             )
         else:
             return GetMitsCollectionsSuccessResponseResponseResultMITSCollectionsPropertyFilesPropertyFileProperty(
-                identification = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification(
-                    @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
+                identification = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification(
+                    @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_identification__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Identification__attributes(
                         id_type = 'Property ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), 
                     id_value = 172775, ),
                 marketing_name = '0001 East Park Property',
                 address = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_address_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Address_inner__attributes(
                             address_type = 'other', ), 
                         description = 'Primary address', 
                         address = '4300 Pennsylvania Ave, street, road', 
@@ -84,8 +84,8 @@ class TestGetMitsCollectionsSuccessResponseResponseResultMITSCollectionsProperty
                         county_name = 'Unite States', )
                     ],
                 phone = [
-                    openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner(
-                        @attributes = openapi_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
+                    entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner(
+                        @attributes = entrata_api_client.models.get_mits_collections_success_response_response_result_mits_collections_property_files_property_file_property_phone_inner__attributes.getMitsCollectionsSuccessResponse_response_result_MITS_Collections_PropertyFiles_PropertyFile_Property_Phone_inner__attributes(
                             phone_type = 'office', ), 
                         phone_description = 'Office phone number', 
                         phone_number = '1111888888', )

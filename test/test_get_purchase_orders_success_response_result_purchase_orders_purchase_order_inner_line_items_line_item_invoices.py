@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItemInvoices
+from entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices import GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItemInvoices
 
 class TestGetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItemInvoices(unittest.TestCase):
     """GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItemInvoices unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInner
         if include_optional:
             return GetPurchaseOrdersSuccessResponseResultPurchaseOrdersPurchaseOrderInnerLineItemsLineItemInvoices(
                 invoice = [
-                    openapi_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
+                    entrata_api_client.models.get_purchase_orders_success_response_result_purchase_orders_purchase_order_inner_line_items_line_item_invoices_invoice_inner.getPurchaseOrdersSuccessResponse_result_purchaseOrders_purchaseOrder_inner_lineItems_lineItem_invoices_invoice_inner(
                         invoice_id = '7539935', 
                         invoice_number = 'ABC-342', )
                     ]

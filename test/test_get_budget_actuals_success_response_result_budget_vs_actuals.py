@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals import GetBudgetActualsSuccessResponseResultBudgetVsActuals
+from entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals import GetBudgetActualsSuccessResponseResultBudgetVsActuals
 
 class TestGetBudgetActualsSuccessResponseResultBudgetVsActuals(unittest.TestCase):
     """GetBudgetActualsSuccessResponseResultBudgetVsActuals unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetBudgetActualsSuccessResponseResultBudgetVsActuals(unittest.TestCase
         if include_optional:
             return GetBudgetActualsSuccessResponseResultBudgetVsActuals(
                 budget_vs_actual = [
-                    openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                    entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                         account_name = 'Testgldetails', 
                         account_id = '171693', 
                         mtd_actual_income = '150.00', 
@@ -53,7 +53,7 @@ class TestGetBudgetActualsSuccessResponseResultBudgetVsActuals(unittest.TestCase
         else:
             return GetBudgetActualsSuccessResponseResultBudgetVsActuals(
                 budget_vs_actual = [
-                    openapi_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
+                    entrata_api_client.models.get_budget_actuals_success_response_result_budget_vs_actuals_budget_vs_actual_inner.getBudgetActualsSuccessResponse_result_budgetVsActuals_budgetVsActual_inner(
                         account_name = 'Testgldetails', 
                         account_id = '171693', 
                         mtd_actual_income = '150.00', 

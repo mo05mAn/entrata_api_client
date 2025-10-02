@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes import GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes
+from entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes import GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes
 
 class TestGetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes(unittest.TestCase):
     """GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCo
         if include_optional:
             return GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes(
                 ap_code = [
-                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
+                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
                         id = '179174', 
                         job_phase_id = '2671', 
                         gl_account_id = '86985', 
@@ -47,7 +47,7 @@ class TestGetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCo
         else:
             return GetJobsSuccessResponseResultJobsJobInnerApContractsApContractInnerApCodes(
                 ap_code = [
-                    openapi_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
+                    entrata_api_client.models.get_jobs_success_response_result_jobs_job_inner_ap_contracts_ap_contract_inner_ap_codes_ap_code_inner.getJobsSuccessResponse_result_jobs_job_inner_apContracts_apContract_inner_apCodes_apCode_inner(
                         id = '179174', 
                         job_phase_id = '2671', 
                         gl_account_id = '86985', 

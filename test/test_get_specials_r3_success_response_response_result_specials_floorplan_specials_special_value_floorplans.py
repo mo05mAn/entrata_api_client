@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans import GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans import GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpe
         if include_optional:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans(
                 floorplan = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                         id = '935877', 
                         name = 'Catch All Floor Plan', )
                     ]
@@ -44,7 +44,7 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpe
         else:
             return GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValueFloorplans(
                 floorplan = [
-                    openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                    entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                         id = '935877', 
                         name = 'Catch All Floor Plan', )
                     ],

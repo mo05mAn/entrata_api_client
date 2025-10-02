@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_communications_post_request_inner import OrgsV1CommunicationsPostRequestInner
+from entrata_api_client.models.orgs_v1_communications_post_request_inner import OrgsV1CommunicationsPostRequestInner
 
 class TestOrgsV1CommunicationsPostRequestInner(unittest.TestCase):
     """OrgsV1CommunicationsPostRequestInner unit test stubs"""
@@ -35,25 +35,25 @@ class TestOrgsV1CommunicationsPostRequestInner(unittest.TestCase):
         model = OrgsV1CommunicationsPostRequestInner()
         if include_optional:
             return OrgsV1CommunicationsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_marketing_preferences_method.getMarketingPreferences_method(
+                method = entrata_api_client.models.get_marketing_preferences_method.getMarketingPreferences_method(
                     name = 'getMarketingPreferences', 
                     version = 'r1', 
-                    params = openapi_client.models.get_marketing_preferences_method_params.getMarketingPreferences_method_params(
+                    params = entrata_api_client.models.get_marketing_preferences_method_params.getMarketingPreferences_method_params(
                         property_id = 123456, 
                         customer_ids = '1234,2342', 
                         recipient_type_id = 11, ), )
             )
         else:
             return OrgsV1CommunicationsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_marketing_preferences_method.getMarketingPreferences_method(
+                method = entrata_api_client.models.get_marketing_preferences_method.getMarketingPreferences_method(
                     name = 'getMarketingPreferences', 
                     version = 'r1', 
-                    params = openapi_client.models.get_marketing_preferences_method_params.getMarketingPreferences_method_params(
+                    params = entrata_api_client.models.get_marketing_preferences_method_params.getMarketingPreferences_method_params(
                         property_id = 123456, 
                         customer_ids = '1234,2342', 
                         recipient_type_id = 11, ), ),

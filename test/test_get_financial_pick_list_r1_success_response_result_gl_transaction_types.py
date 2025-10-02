@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types import GetFinancialPickListR1SuccessResponseResultGlTransactionTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types import GetFinancialPickListR1SuccessResponseResultGlTransactionTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlTransactionTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlTransactionTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlTransactionTypes(unittest
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlTransactionTypes(
                 gl_transaction_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types_gl_transaction_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTransactionTypes_GlTransactionType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types_gl_transaction_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTransactionTypes_GlTransactionType_inner(
                         id = 1, 
                         name = 'GJ', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlTransactionTypes(unittest
         else:
             return GetFinancialPickListR1SuccessResponseResultGlTransactionTypes(
                 gl_transaction_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types_gl_transaction_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTransactionTypes_GlTransactionType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_transaction_types_gl_transaction_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTransactionTypes_GlTransactionType_inner(
                         id = 1, 
                         name = 'GJ', )
                     ],

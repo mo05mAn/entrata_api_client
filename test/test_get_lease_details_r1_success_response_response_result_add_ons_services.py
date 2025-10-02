@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices
+from entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services import GetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices
 
 class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices(unittest.TestCase):
     """GetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices(unittest.
         if include_optional:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices(
                 service = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                         add_on_type = 'Services', 
                         add_on_category = 'Full Furnishing', 
                         add_on_group = 'Full Furnishing', 
@@ -50,7 +50,7 @@ class TestGetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices(unittest.
         else:
             return GetLeaseDetailsR1SuccessResponseResponseResultAddOnsServices(
                 service = [
-                    openapi_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
+                    entrata_api_client.models.get_lease_details_r1_success_response_response_result_add_ons_services_service_inner.getLeaseDetails_r1_SuccessResponse_response_result_addOns_services_service_inner(
                         add_on_type = 'Services', 
                         add_on_category = 'Full Furnishing', 
                         add_on_group = 'Full Furnishing', 

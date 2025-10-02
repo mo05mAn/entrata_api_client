@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types import GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types import GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes
 
 class TestGetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes(unittes
         if include_optional:
             return GetVendorPickListsSuccessResponseResultUtilityBillReceiptTypes(
                 utility_bill_receipt_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_utility_bill_receipt_types_utility_bill_receipt_type_inner__attributes.getVendorPickListsSuccessResponse_result_utilityBillReceiptTypes_utilityBillReceiptType_inner__attributes(
                             id = '1', 
                             name = 'Mail', ), )
                     ]

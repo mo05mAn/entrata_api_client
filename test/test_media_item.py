@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.media_item import MediaItem
+from entrata_api_client.models.media_item import MediaItem
 
 class TestMediaItem(unittest.TestCase):
     """MediaItem unit test stubs"""

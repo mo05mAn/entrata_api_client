@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_special_group_success_response_response_result import SendSpecialGroupSuccessResponseResponseResult
+from entrata_api_client.models.send_special_group_success_response_response_result import SendSpecialGroupSuccessResponseResponseResult
 
 class TestSendSpecialGroupSuccessResponseResponseResult(unittest.TestCase):
     """SendSpecialGroupSuccessResponseResponseResult unit test stubs"""

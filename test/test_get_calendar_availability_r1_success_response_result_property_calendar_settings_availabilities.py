@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsAvailabilities
+from entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities import GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsAvailabilities
 
 class TestGetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsAvailabilities(unittest.TestCase):
     """GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsAvailabilities unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettings
         if include_optional:
             return GetCalendarAvailabilityR1SuccessResponseResultPropertyCalendarSettingsAvailabilities(
                 availability = [
-                    openapi_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities_availability_inner(
+                    entrata_api_client.models.get_calendar_availability_r1_success_response_result_property_calendar_settings_availabilities_availability_inner.getCalendarAvailability_r1_SuccessResponse_result_propertyCalendarSettings_availabilities_availability_inner(
                         day = 'Monday', 
                         start_time = '09:00:00MST', 
                         end_time = '17:00:00MST', 

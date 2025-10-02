@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_method import GetRentersInsurancePoliciesMethod
+from entrata_api_client.models.get_renters_insurance_policies_method import GetRentersInsurancePoliciesMethod
 
 class TestGetRentersInsurancePoliciesMethod(unittest.TestCase):
     """GetRentersInsurancePoliciesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetRentersInsurancePoliciesMethod(unittest.TestCase):
             return GetRentersInsurancePoliciesMethod(
                 name = 'getRentersInsurancePolicies',
                 version = 'r1',
-                params = openapi_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
+                params = entrata_api_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
                     property_id = 123456, 
                     lease_status_type_ids = 1, 
                     last_updated_on = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), )

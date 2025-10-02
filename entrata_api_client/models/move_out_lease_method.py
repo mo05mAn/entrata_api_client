@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.move_out_lease_method_params import MoveOutLeaseMethodParams
+from entrata_api_client.models.move_out_lease_method_params import MoveOutLeaseMethodParams
 from typing import Optional, Set
 from typing_extensions import Self
 

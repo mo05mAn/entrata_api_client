@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events import GetLeadEventsSuccessResponseResultProspectsProspectInnerEvents
+from entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events import GetLeadEventsSuccessResponseResultProspectsProspectInnerEvents
 
 class TestGetLeadEventsSuccessResponseResultProspectsProspectInnerEvents(unittest.TestCase):
     """GetLeadEventsSuccessResponseResultProspectsProspectInnerEvents unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeadEventsSuccessResponseResultProspectsProspectInnerEvents(unittes
         if include_optional:
             return GetLeadEventsSuccessResponseResultProspectsProspectInnerEvents(
                 event = [
-                    openapi_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
+                    entrata_api_client.models.get_lead_events_success_response_result_prospects_prospect_inner_events_event_inner.getLeadEventsSuccessResponse_result_prospects_prospect_inner_events_event_inner(
                         event_id = '123456', 
                         type_id = '17', 
                         lease_id = 123456, 

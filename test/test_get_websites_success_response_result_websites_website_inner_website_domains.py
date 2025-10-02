@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains import GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains
+from entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains import GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains
 
 class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains(unittest.TestCase):
     """GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains(uni
         if include_optional:
             return GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains(
                 website_domain = [
-                    openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
+                    entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
                         domain = 'test12.com', 
                         is_primary = 1, 
                         is_secure = False, )
@@ -45,7 +45,7 @@ class TestGetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains(uni
         else:
             return GetWebsitesSuccessResponseResultWebsitesWebsiteInnerWebsiteDomains(
                 website_domain = [
-                    openapi_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
+                    entrata_api_client.models.get_websites_success_response_result_websites_website_inner_website_domains_website_domain_inner.getWebsitesSuccessResponse_result_websites_website_inner_websiteDomains_websiteDomain_inner(
                         domain = 'test12.com', 
                         is_primary = 1, 
                         is_secure = False, )

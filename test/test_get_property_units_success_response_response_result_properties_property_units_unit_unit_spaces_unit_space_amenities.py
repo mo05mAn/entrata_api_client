@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities
+from entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities import GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities
 
 class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities(unittest.TestCase):
     """GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUn
         model = GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities()
         if include_optional:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities(
-                amenity = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
+                amenity = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
                     id = 234, 
                     name = 'amenity1', 
                     type = 'type', )
             )
         else:
             return GetPropertyUnitsSuccessResponseResponseResultPropertiesPropertyUnitsUnitUnitSpacesUnitSpaceAmenities(
-                amenity = openapi_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
+                amenity = entrata_api_client.models.get_property_units_success_response_response_result_properties_property_units_unit_unit_spaces_unit_space_amenities_amenity.getPropertyUnitsSuccessResponse_response_result_properties_property_units_unit_unitSpaces_unitSpace_amenities_amenity(
                     id = 234, 
                     name = 'amenity1', 
                     type = 'type', ),

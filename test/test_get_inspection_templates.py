@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspection_templates import GetInspectionTemplates
+from entrata_api_client.models.get_inspection_templates import GetInspectionTemplates
 
 class TestGetInspectionTemplates(unittest.TestCase):
     """GetInspectionTemplates unit test stubs"""
@@ -35,24 +35,24 @@ class TestGetInspectionTemplates(unittest.TestCase):
         model = GetInspectionTemplates()
         if include_optional:
             return GetInspectionTemplates(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_inspection_templates_method.getInspectionTemplates_method(
+                method = entrata_api_client.models.get_inspection_templates_method.getInspectionTemplates_method(
                     name = 'getInspectionTemplates', 
                     version = 'r1', 
-                    params = openapi_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
+                    params = entrata_api_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
                         property_ids = '123456,678', 
                         show_disabled = 0, ), )
             )
         else:
             return GetInspectionTemplates(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_inspection_templates_method.getInspectionTemplates_method(
+                method = entrata_api_client.models.get_inspection_templates_method.getInspectionTemplates_method(
                     name = 'getInspectionTemplates', 
                     version = 'r1', 
-                    params = openapi_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
+                    params = entrata_api_client.models.get_inspection_templates_method_params.getInspectionTemplates_method_params(
                         property_ids = '123456,678', 
                         show_disabled = 0, ), ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space import GetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace
+from entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space import GetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace
 
 class TestGetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace(unittest.TestCase):
     """GetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpacesUnitSpace unit test stubs"""
@@ -41,13 +41,13 @@ class TestGetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpaces
                 property_unit_id = '2409587',
                 name = '88',
                 rates = [
-                    openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
+                    entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
                         charge_code_id = '208782', 
                         charge_code_type_id = '2', 
                         amount = '45', )
                     ],
                 lease_terms = [
-                    openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                    entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                         lease_term_id = '838', 
                         lease_term_name = '6 months', 
                         is_active = '1', )
@@ -61,13 +61,13 @@ class TestGetSpecialsR2SuccessResponseSpecialsUnitSpaceSpecialsSpecialUnitSpaces
                 property_unit_id = '2409587',
                 name = '88',
                 rates = [
-                    openapi_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
+                    entrata_api_client.models.get_specials_r2_success_response_specials_unit_space_specials_special_unit_spaces_unit_space_rates_inner.getSpecials_r2_SuccessResponse_specials_unitSpaceSpecials_special_unitSpaces_unitSpace_rates_inner(
                         charge_code_id = '208782', 
                         charge_code_type_id = '2', 
                         amount = '45', )
                     ],
                 lease_terms = [
-                    openapi_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
+                    entrata_api_client.models.get_specials_r2_success_response_specials_property_specials_special_lease_terms_inner.getSpecials_r2_SuccessResponse_specials_propertySpecials_special_leaseTerms_inner(
                         lease_term_id = '838', 
                         lease_term_name = '6 months', 
                         is_active = '1', )

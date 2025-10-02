@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInner
+from entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner import GetInvoicesR2SuccessResponseResultInvoicesInvoiceInner
 
 class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCase):
     """GetInvoicesR2SuccessResponseResultInvoicesInvoiceInner unit test stubs"""
@@ -48,7 +48,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                 invoice_note = 'Testing the task',
                 routing_tag_id = '92',
                 routing_tag_name = 'ghghg',
-                remittance = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_remittance.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_remittance(
+                remittance = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_remittance.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_remittance(
                     id = '1234', 
                     name = 'Check', 
                     ap_payment_type_id = '2', 
@@ -58,24 +58,24 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                     city = 'ADDRESS', 
                     state_code = 'UT', 
                     postal_code = '84043', ),
-                vendor = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor(
+                vendor = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor(
                     id = '123456', 
                     name = '0000CNYE1, Corporate', 
                     location_name = 'Corporate', 
                     location_code = 'Corporate_123', 
                     external_id = 'ext- rpk', 
-                    address = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
+                    address = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
                         street_line1 = 'AddressLine1', 
                         street_line2 = 'AddressLine2', 
                         city = 'TestCity', 
                         state_code = 'MO', 
                         postal_code = '41101', ), ),
-                account = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_account.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_account(
+                account = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_account.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_account(
                     id = '12345', 
                     account_number = '12345', ),
-                invoice_payments = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments(
+                invoice_payments = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments(
                     invoice_payment = [
-                        openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
+                        entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
                             payment_id = 'xxxxx', 
                             payment_bank_id = '1234', 
                             payment_bank_name = 'Wells Fargo', 
@@ -102,9 +102,9 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                 note = 'Testing the task',
                 is_posted = '0',
                 retention = '0.00',
-                line_items = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems(
+                line_items = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems(
                     line_item = [
-                        openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
+                        entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
                             id = '123456', 
                             description = 'test', 
                             quantity = '1', 
@@ -132,7 +132,7 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                 var_date = '2020-02-11',
                 post_month = '2020-02-01',
                 due_date = '2020-02-12',
-                remittance = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_remittance.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_remittance(
+                remittance = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_remittance.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_remittance(
                     id = '1234', 
                     name = 'Check', 
                     ap_payment_type_id = '2', 
@@ -142,21 +142,21 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                     city = 'ADDRESS', 
                     state_code = 'UT', 
                     postal_code = '84043', ),
-                vendor = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor(
+                vendor = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor(
                     id = '123456', 
                     name = '0000CNYE1, Corporate', 
                     location_name = 'Corporate', 
                     location_code = 'Corporate_123', 
                     external_id = 'ext- rpk', 
-                    address = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
+                    address = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_vendor_address.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_vendor_address(
                         street_line1 = 'AddressLine1', 
                         street_line2 = 'AddressLine2', 
                         city = 'TestCity', 
                         state_code = 'MO', 
                         postal_code = '41101', ), ),
-                invoice_payments = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments(
+                invoice_payments = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments(
                     invoice_payment = [
-                        openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
+                        entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_invoice_payments_invoice_payment_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_invoicePayments_invoicePayment_inner(
                             payment_id = 'xxxxx', 
                             payment_bank_id = '1234', 
                             payment_bank_name = 'Wells Fargo', 
@@ -177,9 +177,9 @@ class TestGetInvoicesR2SuccessResponseResultInvoicesInvoiceInner(unittest.TestCa
                 amount = '1000.00',
                 amount_due = '1000.00',
                 is_posted = '0',
-                line_items = openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems(
+                line_items = entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems(
                     line_item = [
-                        openapi_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
+                        entrata_api_client.models.get_invoices_r2_success_response_result_invoices_invoice_inner_line_items_line_item_inner.getInvoices_r2_SuccessResponse_result_invoices_invoice_inner_lineItems_lineItem_inner(
                             id = '123456', 
                             description = 'test', 
                             quantity = '1', 

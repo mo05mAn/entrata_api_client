@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.mark_invoices_exported_success_response_result import MarkInvoicesExportedSuccessResponseResult
+from entrata_api_client.models.mark_invoices_exported_success_response_result import MarkInvoicesExportedSuccessResponseResult
 
 class TestMarkInvoicesExportedSuccessResponseResult(unittest.TestCase):
     """MarkInvoicesExportedSuccessResponseResult unit test stubs"""

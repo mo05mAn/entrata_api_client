@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type_attributes import GetVendorPickListsSuccessResponseResultForm1099TypesForm1099TypeAttributes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_types_form1099_type_attributes import GetVendorPickListsSuccessResponseResultForm1099TypesForm1099TypeAttributes
 from typing import Optional, Set
 from typing_extensions import Self
 

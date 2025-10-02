@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_success_response import SendApplicationSuccessResponse
+from entrata_api_client.models.send_application_success_response import SendApplicationSuccessResponse
 
 class TestSendApplicationSuccessResponse(unittest.TestCase):
     """SendApplicationSuccessResponse unit test stubs"""
@@ -35,10 +35,10 @@ class TestSendApplicationSuccessResponse(unittest.TestCase):
         model = SendApplicationSuccessResponse()
         if include_optional:
             return SendApplicationSuccessResponse(
-                response = openapi_client.models.send_application_success_response_response.sendApplicationSuccessResponse_response(
+                response = entrata_api_client.models.send_application_success_response_response.sendApplicationSuccessResponse_response(
                     request_id = 'req12345', 
                     code = 200, 
-                    result = openapi_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Application inserted successfully.', 
                         applicant_id = '17889726', 
@@ -46,10 +46,10 @@ class TestSendApplicationSuccessResponse(unittest.TestCase):
             )
         else:
             return SendApplicationSuccessResponse(
-                response = openapi_client.models.send_application_success_response_response.sendApplicationSuccessResponse_response(
+                response = entrata_api_client.models.send_application_success_response_response.sendApplicationSuccessResponse_response(
                     request_id = 'req12345', 
                     code = 200, 
-                    result = openapi_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
+                    result = entrata_api_client.models.send_application_success_response_response_result.sendApplicationSuccessResponse_response_result(
                         status = 'Success', 
                         message = 'Application inserted successfully.', 
                         applicant_id = '17889726', 

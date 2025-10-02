@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_leads_method import SendLeadsMethod
+from entrata_api_client.models.send_leads_method import SendLeadsMethod
 
 class TestSendLeadsMethod(unittest.TestCase):
     """SendLeadsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendLeadsMethod(unittest.TestCase):
             return SendLeadsMethod(
                 name = 'sendLeads',
                 version = 'r1',
-                params = openapi_client.models.send_leads_method_params.sendLeads_method_params(
+                params = entrata_api_client.models.send_leads_method_params.sendLeads_method_params(
                     property_id = 123456, 
                     subtype_id = 123, )
             )

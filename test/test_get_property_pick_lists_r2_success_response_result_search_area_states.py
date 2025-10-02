@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states import GetPropertyPickListsR2SuccessResponseResultSearchAreaStates
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states import GetPropertyPickListsR2SuccessResponseResultSearchAreaStates
 
 class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStates(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultSearchAreaStates unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStates(unittest.T
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultSearchAreaStates(
                 search_area_state = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
                         state = 'Armed Forces Americas (Excluding Canada)', 
                         state_code = 'AA', 
                         country_code = 'US', 
-                        search_areas = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
+                        search_areas = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
                             search_area = [
-                                openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                                entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                                     id = 2096, 
                                     name = 'subsearch1', )
                                 ], ), )
@@ -51,13 +51,13 @@ class TestGetPropertyPickListsR2SuccessResponseResultSearchAreaStates(unittest.T
         else:
             return GetPropertyPickListsR2SuccessResponseResultSearchAreaStates(
                 search_area_state = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner(
                         state = 'Armed Forces Americas (Excluding Canada)', 
                         state_code = 'AA', 
                         country_code = 'US', 
-                        search_areas = openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
+                        search_areas = entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas(
                             search_area = [
-                                openapi_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
+                                entrata_api_client.models.get_property_pick_lists_r2_success_response_result_search_area_states_search_area_state_inner_search_areas_search_area_inner.getPropertyPickLists_r2_SuccessResponse_result_searchAreaStates_searchAreaState_inner_searchAreas_searchArea_inner(
                                     id = 2096, 
                                     name = 'subsearch1', )
                                 ], ), )

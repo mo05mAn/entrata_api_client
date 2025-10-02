@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_transaction_tag_lists import GetTransactionTagLists
+from entrata_api_client.models.get_transaction_tag_lists import GetTransactionTagLists
 
 class TestGetTransactionTagLists(unittest.TestCase):
     """GetTransactionTagLists unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetTransactionTagLists(unittest.TestCase):
         model = GetTransactionTagLists()
         if include_optional:
             return GetTransactionTagLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_transaction_tag_lists_method.getTransactionTagLists_method(
+                method = entrata_api_client.models.get_transaction_tag_lists_method.getTransactionTagLists_method(
                     name = 'getTransactionTagLists', 
                     version = 'r1', )
             )
         else:
             return GetTransactionTagLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_transaction_tag_lists_method.getTransactionTagLists_method(
+                method = entrata_api_client.models.get_transaction_tag_lists_method.getTransactionTagLists_method(
                     name = 'getTransactionTagLists', 
                     version = 'r1', ),
         )

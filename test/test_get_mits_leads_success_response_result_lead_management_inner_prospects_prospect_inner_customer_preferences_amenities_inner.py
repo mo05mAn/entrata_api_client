@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferencesAmenitiesInner
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferencesAmenitiesInner
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferencesAmenitiesInner(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferencesAmenitiesInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomerPreferencesAmenitiesInner(
                 description = 'Abhishek_test_amenities',
-                attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner__attributes(
+                attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customer_preferences_amenities_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_CustomerPreferences_Amenities_inner__attributes(
                     amenity_type = 'Other', )
             )
         else:

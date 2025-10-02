@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_method_params import GetVendorLocationsMethodParams
+from entrata_api_client.models.get_vendor_locations_method_params import GetVendorLocationsMethodParams
 
 class TestGetVendorLocationsMethodParams(unittest.TestCase):
     """GetVendorLocationsMethodParams unit test stubs"""

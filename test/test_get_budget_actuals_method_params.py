@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_budget_actuals_method_params import GetBudgetActualsMethodParams
+from entrata_api_client.models.get_budget_actuals_method_params import GetBudgetActualsMethodParams
 
 class TestGetBudgetActualsMethodParams(unittest.TestCase):
     """GetBudgetActualsMethodParams unit test stubs"""

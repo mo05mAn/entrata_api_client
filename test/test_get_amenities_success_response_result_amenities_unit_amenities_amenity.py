@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity
+from entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity import GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity unit test stubs"""
@@ -38,11 +38,11 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(unittes
                 name = 'Unit Amenity 1',
                 image_url = 'https://medialibrarycdn.entrata.com/media_library/235/5b8f9615c76a41.21527630540.jpg',
                 description = 'Unit level Amenity',
-                units = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units(
-                    unit = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit(
-                        rates = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
-                            rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                                @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                units = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units(
+                    unit = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit(
+                        rates = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
+                            rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                                @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                                     ar_code_id = '149655', 
                                     ar_code_type_id = '2', 
                                     charge_type_id = '307', 
@@ -51,14 +51,14 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(unittes
                                     is_active = '0', 
                                     lease_term_id = '18414', 
                                     lease_start_window_id = '12345', ), ), ), 
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
                             property_unit_id = '111111', 
                             is_published = '1', 
                             is_featured = '0', 
                             hide_rates = '0', 
                             show_description = '0', 
                             include_in_rent = '0', ), ), ),
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity__attributes(
                     id = '33333', 
                     is_standard_amenity = '1', 
                     is_optional = '0', 
@@ -72,11 +72,11 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(unittes
             return GetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(
                 name = 'Unit Amenity 1',
                 description = 'Unit level Amenity',
-                units = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units(
-                    unit = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit(
-                        rates = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
-                            rate = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
-                                @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
+                units = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units(
+                    unit = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit(
+                        rates = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates(
+                            rate = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate(
+                                @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit_rates_rate__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit_Rates_Rate__attributes(
                                     ar_code_id = '149655', 
                                     ar_code_type_id = '2', 
                                     charge_type_id = '307', 
@@ -85,14 +85,14 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesUnitAmenitiesAmenity(unittes
                                     is_active = '0', 
                                     lease_term_id = '18414', 
                                     lease_start_window_id = '12345', ), ), ), 
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity_units_unit__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity_Units_Unit__attributes(
                             property_unit_id = '111111', 
                             is_published = '1', 
                             is_featured = '0', 
                             hide_rates = '0', 
                             show_description = '0', 
                             include_in_rent = '0', ), ), ),
-                attributes = openapi_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity__attributes(
+                attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_unit_amenities_amenity__attributes.getAmenitiesSuccessResponse_result_Amenities_UnitAmenities_Amenity__attributes(
                     id = '33333', 
                     is_standard_amenity = '1', 
                     is_optional = '0', 

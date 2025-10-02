@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         model = GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers()
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerCustomers(
-                customer = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer(
+                customer = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer(
                     identification = [
-                        openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner(
+                        entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner(
                             id_value = '19760815', 
-                            @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner__attributes(
+                            @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Identification_inner__attributes(
                                 id_type = 'Applicant Id', 
                                 id_scope_type = 'sender', ), )
                         ], 
-                    name = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_name.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Name(
+                    name = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_name.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Name(
                         first_name = 'Sdsad', 
                         last_name = 'Asdsa', ), 
-                    phone = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_phone.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Phone(
+                    phone = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_customers_customer_phone.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Customers_Customer_Phone(
                         phone_number = '2213213123', ), )
             )
         else:

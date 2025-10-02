@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_amenities_success_response_response_result import UpdateAmenitiesSuccessResponseResponseResult
+from entrata_api_client.models.update_amenities_success_response_response_result import UpdateAmenitiesSuccessResponseResponseResult
 
 class TestUpdateAmenitiesSuccessResponseResponseResult(unittest.TestCase):
     """UpdateAmenitiesSuccessResponseResponseResult unit test stubs"""
@@ -35,32 +35,32 @@ class TestUpdateAmenitiesSuccessResponseResponseResult(unittest.TestCase):
         model = UpdateAmenitiesSuccessResponseResponseResult()
         if include_optional:
             return UpdateAmenitiesSuccessResponseResponseResult(
-                property_amenities = openapi_client.models.update_amenities_success_response_response_result_property_amenities.updateAmenitiesSuccessResponse_response_result_propertyAmenities(
+                property_amenities = entrata_api_client.models.update_amenities_success_response_response_result_property_amenities.updateAmenitiesSuccessResponse_response_result_propertyAmenities(
                     property_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 147852, 
                             message = 'Amenity updated successfully.', )
                         ], ),
-                floorplan_amenities = openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities.updateAmenitiesSuccessResponse_response_result_floorplanAmenities(
+                floorplan_amenities = entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities.updateAmenitiesSuccessResponse_response_result_floorplanAmenities(
                     floorplan_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 1139719, 
                             message = 'Amenity updated successfully.', )
                         ], ),
-                unit_type_amenities = openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities(
+                unit_type_amenities = entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities(
                     unit_type_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
                             node = 1, 
                             status = 'Failure', 
                             message = 'Missing value for parameter 'id'.', )
                         ], ),
-                unit_space_amenities = openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities(
+                unit_space_amenities = entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities(
                     unit_space_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 1162615, 
@@ -69,32 +69,32 @@ class TestUpdateAmenitiesSuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return UpdateAmenitiesSuccessResponseResponseResult(
-                property_amenities = openapi_client.models.update_amenities_success_response_response_result_property_amenities.updateAmenitiesSuccessResponse_response_result_propertyAmenities(
+                property_amenities = entrata_api_client.models.update_amenities_success_response_response_result_property_amenities.updateAmenitiesSuccessResponse_response_result_propertyAmenities(
                     property_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_property_amenities_property_amenity_inner.updateAmenitiesSuccessResponse_response_result_propertyAmenities_propertyAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 147852, 
                             message = 'Amenity updated successfully.', )
                         ], ),
-                floorplan_amenities = openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities.updateAmenitiesSuccessResponse_response_result_floorplanAmenities(
+                floorplan_amenities = entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities.updateAmenitiesSuccessResponse_response_result_floorplanAmenities(
                     floorplan_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_floorplan_amenities_floorplan_amenity_inner.updateAmenitiesSuccessResponse_response_result_floorplanAmenities_floorplanAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 1139719, 
                             message = 'Amenity updated successfully.', )
                         ], ),
-                unit_type_amenities = openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities(
+                unit_type_amenities = entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities(
                     unit_type_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_unit_type_amenities_unit_type_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitTypeAmenities_unitTypeAmenity_inner(
                             node = 1, 
                             status = 'Failure', 
                             message = 'Missing value for parameter 'id'.', )
                         ], ),
-                unit_space_amenities = openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities(
+                unit_space_amenities = entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities(
                     unit_space_amenity = [
-                        openapi_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
+                        entrata_api_client.models.update_amenities_success_response_response_result_unit_space_amenities_unit_space_amenity_inner.updateAmenitiesSuccessResponse_response_result_unitSpaceAmenities_unitSpaceAmenity_inner(
                             node = 1, 
                             status = 'Success', 
                             amenity_id = 1162615, 

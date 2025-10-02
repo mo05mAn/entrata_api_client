@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_property_media_auth import UpdatePropertyMediaAuth
+from entrata_api_client.models.update_property_media_auth import UpdatePropertyMediaAuth
 
 class TestUpdatePropertyMediaAuth(unittest.TestCase):
     """UpdatePropertyMediaAuth unit test stubs"""

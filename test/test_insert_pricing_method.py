@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.insert_pricing_method import InsertPricingMethod
+from entrata_api_client.models.insert_pricing_method import InsertPricingMethod
 
 class TestInsertPricingMethod(unittest.TestCase):
     """InsertPricingMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestInsertPricingMethod(unittest.TestCase):
             return InsertPricingMethod(
                 name = 'insertPricing',
                 version = 'r1',
-                params = openapi_client.models.insert_pricing_method_params.insertPricing_method_params(
+                params = entrata_api_client.models.insert_pricing_method_params.insertPricing_method_params(
                     pricing_level_id = 4, 
                     pricing_level_reference_id = 123456, 
                     charge_usage_id = 1, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_application_success_response_response_result import UpdateApplicationSuccessResponseResponseResult
+from entrata_api_client.models.update_application_success_response_response_result import UpdateApplicationSuccessResponseResponseResult
 
 class TestUpdateApplicationSuccessResponseResponseResult(unittest.TestCase):
     """UpdateApplicationSuccessResponseResponseResult unit test stubs"""
@@ -35,7 +35,7 @@ class TestUpdateApplicationSuccessResponseResponseResult(unittest.TestCase):
         model = UpdateApplicationSuccessResponseResponseResult()
         if include_optional:
             return UpdateApplicationSuccessResponseResponseResult(
-                application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                     status = 'Success', 
                     message = 'Application updated successfully.', 
                     application_id = 123456, 
@@ -43,7 +43,7 @@ class TestUpdateApplicationSuccessResponseResponseResult(unittest.TestCase):
             )
         else:
             return UpdateApplicationSuccessResponseResponseResult(
-                application = openapi_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
+                application = entrata_api_client.models.update_application_success_response_response_result_application.updateApplicationSuccessResponse_response_result_application(
                     status = 'Success', 
                     message = 'Application updated successfully.', 
                     application_id = 123456, 

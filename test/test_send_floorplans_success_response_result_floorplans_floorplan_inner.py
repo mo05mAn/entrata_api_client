@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner import SendFloorplansSuccessResponseResultFloorplansFloorplanInner
+from entrata_api_client.models.send_floorplans_success_response_result_floorplans_floorplan_inner import SendFloorplansSuccessResponseResultFloorplansFloorplanInner
 
 class TestSendFloorplansSuccessResponseResultFloorplansFloorplanInner(unittest.TestCase):
     """SendFloorplansSuccessResponseResultFloorplansFloorplanInner unit test stubs"""

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner import GetLeasePickListSuccessResponseResultChargeCodeTypesChargeCodeTypeInner
+from entrata_api_client.models.get_lease_pick_list_success_response_result_charge_code_types_charge_code_type_inner import GetLeasePickListSuccessResponseResultChargeCodeTypesChargeCodeTypeInner
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items import GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems
+from entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items import GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems
 
 class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems(unittest.TestCase):
     """GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems(u
         model = GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems()
         if include_optional:
             return GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems(
-                rentable_item = openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items_rentable_item.getLeaseDetails_r2_SuccessResponse_result_leases_lease_addOns_rentableItems_rentableItem(
+                rentable_item = entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items_rentable_item.getLeaseDetails_r2_SuccessResponse_result_leases_lease_addOns_rentableItems_rentableItem(
                     add_on_id = 85993, 
                     add_on_type = 'Rentable Items', 
                     add_on_category = 'Furniture', 
@@ -48,7 +48,7 @@ class TestGetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems(u
             )
         else:
             return GetLeaseDetailsR2SuccessResponseResultLeasesLeaseAddOnsRentableItems(
-                rentable_item = openapi_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items_rentable_item.getLeaseDetails_r2_SuccessResponse_result_leases_lease_addOns_rentableItems_rentableItem(
+                rentable_item = entrata_api_client.models.get_lease_details_r2_success_response_result_leases_lease_add_ons_rentable_items_rentable_item.getLeaseDetails_r2_SuccessResponse_result_leases_lease_addOns_rentableItems_rentableItem(
                     add_on_id = 85993, 
                     add_on_type = 'Rentable Items', 
                     add_on_category = 'Furniture', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies import GetRentersInsurancePolicies
+from entrata_api_client.models.get_renters_insurance_policies import GetRentersInsurancePolicies
 
 class TestGetRentersInsurancePolicies(unittest.TestCase):
     """GetRentersInsurancePolicies unit test stubs"""
@@ -35,25 +35,25 @@ class TestGetRentersInsurancePolicies(unittest.TestCase):
         model = GetRentersInsurancePolicies()
         if include_optional:
             return GetRentersInsurancePolicies(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_renters_insurance_policies_method.getRentersInsurancePolicies_method(
+                method = entrata_api_client.models.get_renters_insurance_policies_method.getRentersInsurancePolicies_method(
                     name = 'getRentersInsurancePolicies', 
                     version = 'r1', 
-                    params = openapi_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
+                    params = entrata_api_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
                         property_id = 123456, 
                         lease_status_type_ids = 1, 
                         last_updated_on = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), ), )
             )
         else:
             return GetRentersInsurancePolicies(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_renters_insurance_policies_method.getRentersInsurancePolicies_method(
+                method = entrata_api_client.models.get_renters_insurance_policies_method.getRentersInsurancePolicies_method(
                     name = 'getRentersInsurancePolicies', 
                     version = 'r1', 
-                    params = openapi_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
+                    params = entrata_api_client.models.get_renters_insurance_policies_method_params.getRentersInsurancePolicies_method_params(
                         property_id = 123456, 
                         lease_status_type_ids = 1, 
                         last_updated_on = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), ), ),

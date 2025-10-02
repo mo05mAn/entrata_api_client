@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_property_media_success_response_response_result import SendPropertyMediaSuccessResponseResponseResult
+from entrata_api_client.models.send_property_media_success_response_response_result import SendPropertyMediaSuccessResponseResponseResult
 
 class TestSendPropertyMediaSuccessResponseResponseResult(unittest.TestCase):
     """SendPropertyMediaSuccessResponseResponseResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestSendPropertyMediaSuccessResponseResponseResult(unittest.TestCase):
         if include_optional:
             return SendPropertyMediaSuccessResponseResponseResult(
                 media = [
-                    openapi_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
+                    entrata_api_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
                         node = 1, 
                         id = 200001, 
                         status = 'Success', 
@@ -46,7 +46,7 @@ class TestSendPropertyMediaSuccessResponseResponseResult(unittest.TestCase):
         else:
             return SendPropertyMediaSuccessResponseResponseResult(
                 media = [
-                    openapi_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
+                    entrata_api_client.models.send_property_media_success_response_response_result_media_inner.sendPropertyMediaSuccessResponse_response_result_media_inner(
                         node = 1, 
                         id = 200001, 
                         status = 'Success', 

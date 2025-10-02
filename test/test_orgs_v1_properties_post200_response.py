@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_properties_post200_response import OrgsV1PropertiesPost200Response
+from entrata_api_client.models.orgs_v1_properties_post200_response import OrgsV1PropertiesPost200Response
 
 class TestOrgsV1PropertiesPost200Response(unittest.TestCase):
     """OrgsV1PropertiesPost200Response unit test stubs"""
@@ -37,17 +37,17 @@ class TestOrgsV1PropertiesPost200Response(unittest.TestCase):
             return OrgsV1PropertiesPost200Response(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
-                    rentable_item_types = openapi_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
+                result = entrata_api_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
+                    rentable_item_types = entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
                         rentable_item_type = [
-                            openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                            entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                                 node = 1, 
                                 rentable_item_type_id = 81625, 
                                 rentable_item_ids = '7157472,7157473,7157474', 
                                 status = 'Success', 
                                 message = 'rentableItemType inserted successfully.', )
                             ], ), ),
-                response = openapi_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
+                response = entrata_api_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
                     result = {"123456":"(315) 268-9410"}, )
@@ -56,17 +56,17 @@ class TestOrgsV1PropertiesPost200Response(unittest.TestCase):
             return OrgsV1PropertiesPost200Response(
                 request_id = '15',
                 code = 200,
-                result = openapi_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
-                    rentable_item_types = openapi_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
+                result = entrata_api_client.models.send_rentable_items_success_response_result.sendRentableItemsSuccessResponse_result(
+                    rentable_item_types = entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types.sendRentableItemsSuccessResponse_result_rentableItemTypes(
                         rentable_item_type = [
-                            openapi_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
+                            entrata_api_client.models.send_rentable_items_success_response_result_rentable_item_types_rentable_item_type_inner.sendRentableItemsSuccessResponse_result_rentableItemTypes_rentableItemType_inner(
                                 node = 1, 
                                 rentable_item_type_id = 81625, 
                                 rentable_item_ids = '7157472,7157473,7157474', 
                                 status = 'Success', 
                                 message = 'rentableItemType inserted successfully.', )
                             ], ), ),
-                response = openapi_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
+                response = entrata_api_client.models.get_phone_number_success_response_response.getPhoneNumberSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
                     result = {"123456":"(315) 268-9410"}, ),

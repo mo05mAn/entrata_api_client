@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_vendors import SendVendors
+from entrata_api_client.models.send_vendors import SendVendors
 
 class TestSendVendors(unittest.TestCase):
     """SendVendors unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendVendors(unittest.TestCase):
         model = SendVendors()
         if include_optional:
             return SendVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_vendors_method.sendVendors_method(
+                method = entrata_api_client.models.send_vendors_method.sendVendors_method(
                     name = 'sendVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.send_vendors_method_params.sendVendors_method_params(
+                    params = entrata_api_client.models.send_vendors_method_params.sendVendors_method_params(
                         business_name = 'Vendor name', 
                         name_on_tax_return = 'Legal entity name', 
                         remittance_name = 'header', 
@@ -59,12 +59,12 @@ class TestSendVendors(unittest.TestCase):
             )
         else:
             return SendVendors(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_vendors_method.sendVendors_method(
+                method = entrata_api_client.models.send_vendors_method.sendVendors_method(
                     name = 'sendVendors', 
                     version = 'r1', 
-                    params = openapi_client.models.send_vendors_method_params.sendVendors_method_params(
+                    params = entrata_api_client.models.send_vendors_method_params.sendVendors_method_params(
                         business_name = 'Vendor name', 
                         name_on_tax_return = 'Legal entity name', 
                         remittance_name = 'header', 

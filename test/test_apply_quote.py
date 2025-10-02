@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apply_quote import ApplyQuote
+from entrata_api_client.models.apply_quote import ApplyQuote
 
 class TestApplyQuote(unittest.TestCase):
     """ApplyQuote unit test stubs"""
@@ -35,18 +35,18 @@ class TestApplyQuote(unittest.TestCase):
         model = ApplyQuote()
         if include_optional:
             return ApplyQuote(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.apply_quote_method.applyQuote_method(
+                method = entrata_api_client.models.apply_quote_method.applyQuote_method(
                     name = 'applyQuote', 
                     version = 'r1', )
             )
         else:
             return ApplyQuote(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.apply_quote_method.applyQuote_method(
+                method = entrata_api_client.models.apply_quote_method.applyQuote_method(
                     name = 'applyQuote', 
                     version = 'r1', ),
         )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.cancel_lease import CancelLease
+from entrata_api_client.models.cancel_lease import CancelLease
 
 class TestCancelLease(unittest.TestCase):
     """CancelLease unit test stubs"""
@@ -35,24 +35,24 @@ class TestCancelLease(unittest.TestCase):
         model = CancelLease()
         if include_optional:
             return CancelLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.cancel_lease_method.cancelLease_method(
+                method = entrata_api_client.models.cancel_lease_method.cancelLease_method(
                     name = 'cancelLease', 
                     version = 'r1', 
-                    params = openapi_client.models.cancel_lease_method_params.cancelLease_method_params(
+                    params = entrata_api_client.models.cancel_lease_method_params.cancelLease_method_params(
                         property_id = 123456, 
                         lease_id = 123, ), )
             )
         else:
             return CancelLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.cancel_lease_method.cancelLease_method(
+                method = entrata_api_client.models.cancel_lease_method.cancelLease_method(
                     name = 'cancelLease', 
                     version = 'r1', 
-                    params = openapi_client.models.cancel_lease_method_params.cancelLease_method_params(
+                    params = entrata_api_client.models.cancel_lease_method_params.cancelLease_method_params(
                         property_id = 123456, 
                         lease_id = 123, ), ),
         )

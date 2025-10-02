@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner import GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner import GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCatego
         model = GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
                     id = '1', 
                     name = 'Abatement Services - Asbestos', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultVendorCategoryTypesVendorCategoryTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_vendor_category_types_vendor_category_type_inner__attributes.getVendorPickListsSuccessResponse_result_vendorCategoryTypes_vendorCategoryType_inner__attributes(
                     id = '1', 
                     name = 'Abatement Services - Asbestos', ),
         )

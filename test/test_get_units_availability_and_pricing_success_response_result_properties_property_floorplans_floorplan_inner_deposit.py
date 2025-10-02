@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit
+from entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit import GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit
 
 class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit(unittest.TestCase):
     """GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit unit test stubs"""
@@ -35,8 +35,8 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyF
         model = GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit()
         if include_optional:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit(
-                amount = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
-                    value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                amount = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
+                    value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                         min = '$100.00', 
                         max = '$100.00', ), 
                     amount_type = 'MonthMultiple', 
@@ -44,8 +44,8 @@ class TestGetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyF
             )
         else:
             return GetUnitsAvailabilityAndPricingSuccessResponseResultPropertiesPropertyFloorplansFloorplanInnerDeposit(
-                amount = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
-                    value_range = openapi_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
+                amount = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount(
+                    value_range = entrata_api_client.models.get_units_availability_and_pricing_success_response_result_properties_property_floorplans_floorplan_inner_deposit_amount_value_range.getUnitsAvailabilityAndPricingSuccessResponse_result_Properties_Property_Floorplans_Floorplan_inner_Deposit_Amount_ValueRange(
                         min = '$100.00', 
                         max = '$100.00', ), 
                     amount_type = 'MonthMultiple', 

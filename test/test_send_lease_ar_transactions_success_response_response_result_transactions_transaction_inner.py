@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner import SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner
+from entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner import SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner
 
 class TestSendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner(unittest.TestCase):
     """SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestSendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransa
         model = SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner()
         if include_optional:
             return SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner(
-                attributes = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                attributes = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                     reference_id = 79008, 
                     transaction_id = '100000', 
                     status = 'Success', 
@@ -43,7 +43,7 @@ class TestSendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransa
             )
         else:
             return SendLeaseArTransactionsSuccessResponseResponseResultTransactionsTransactionInner(
-                attributes = openapi_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
+                attributes = entrata_api_client.models.send_lease_ar_transactions_success_response_response_result_transactions_transaction_inner__attributes.sendLeaseArTransactionsSuccessResponse_response_result_Transactions_Transaction_inner__attributes(
                     reference_id = 79008, 
                     transaction_id = '100000', 
                     status = 'Success', 

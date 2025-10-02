@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.financial_api import FinancialApi
+from entrata_api_client.api.financial_api import FinancialApi
 
 
 class TestFinancialApi(unittest.TestCase):

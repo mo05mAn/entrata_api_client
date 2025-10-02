@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_work_orders_r2 import UpdateWorkOrdersR2
+from entrata_api_client.models.update_work_orders_r2 import UpdateWorkOrdersR2
 
 class TestUpdateWorkOrdersR2(unittest.TestCase):
     """UpdateWorkOrdersR2 unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateWorkOrdersR2(unittest.TestCase):
         model = UpdateWorkOrdersR2()
         if include_optional:
             return UpdateWorkOrdersR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_work_orders_r2_method.updateWorkOrders_r2_method(
+                method = entrata_api_client.models.update_work_orders_r2_method.updateWorkOrders_r2_method(
                     name = 'updateWorkOrders', 
                     version = 'r2', 
-                    params = openapi_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
+                    params = entrata_api_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
                         property_id = 123456, 
                         work_order_id = 123456, 
                         lease_id = 123456, 
@@ -71,12 +71,12 @@ class TestUpdateWorkOrdersR2(unittest.TestCase):
             )
         else:
             return UpdateWorkOrdersR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_work_orders_r2_method.updateWorkOrders_r2_method(
+                method = entrata_api_client.models.update_work_orders_r2_method.updateWorkOrders_r2_method(
                     name = 'updateWorkOrders', 
                     version = 'r2', 
-                    params = openapi_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
+                    params = entrata_api_client.models.update_work_orders_r1_method_params.updateWorkOrders_r1_method_params(
                         property_id = 123456, 
                         work_order_id = 123456, 
                         lease_id = 123456, 

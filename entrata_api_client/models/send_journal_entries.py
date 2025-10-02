@@ -19,8 +19,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.request_body_auth import RequestBodyAuth
-from openapi_client.models.send_journal_entries_method import SendJournalEntriesMethod
+from entrata_api_client.models.request_body_auth import RequestBodyAuth
+from entrata_api_client.models.send_journal_entries_method import SendJournalEntriesMethod
 from typing import Optional, Set
 from typing_extensions import Self
 

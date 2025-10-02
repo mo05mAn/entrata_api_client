@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_work_order_pick_lists import GetWorkOrderPickLists
+from entrata_api_client.models.get_work_order_pick_lists import GetWorkOrderPickLists
 
 class TestGetWorkOrderPickLists(unittest.TestCase):
     """GetWorkOrderPickLists unit test stubs"""
@@ -35,23 +35,23 @@ class TestGetWorkOrderPickLists(unittest.TestCase):
         model = GetWorkOrderPickLists()
         if include_optional:
             return GetWorkOrderPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_work_order_pick_lists_method.getWorkOrderPickLists_method(
+                method = entrata_api_client.models.get_work_order_pick_lists_method.getWorkOrderPickLists_method(
                     name = 'getWorkOrderPickLists', 
                     version = 'r1', 
-                    params = openapi_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
+                    params = entrata_api_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
                         property_ids = '123456,678', ), )
             )
         else:
             return GetWorkOrderPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_work_order_pick_lists_method.getWorkOrderPickLists_method(
+                method = entrata_api_client.models.get_work_order_pick_lists_method.getWorkOrderPickLists_method(
                     name = 'getWorkOrderPickLists', 
                     version = 'r1', 
-                    params = openapi_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
+                    params = entrata_api_client.models.get_work_order_pick_lists_method_params.getWorkOrderPickLists_method_params(
                         property_ids = '123456,678', ), ),
         )
         """

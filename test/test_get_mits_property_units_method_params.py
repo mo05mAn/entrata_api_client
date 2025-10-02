@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_method_params import GetMitsPropertyUnitsMethodParams
+from entrata_api_client.models.get_mits_property_units_method_params import GetMitsPropertyUnitsMethodParams
 
 class TestGetMitsPropertyUnitsMethodParams(unittest.TestCase):
     """GetMitsPropertyUnitsMethodParams unit test stubs"""

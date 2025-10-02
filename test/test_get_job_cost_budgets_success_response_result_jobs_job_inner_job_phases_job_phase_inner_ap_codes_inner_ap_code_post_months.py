@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months import GetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths
+from entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months import GetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths
 
 class TestGetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths(unittest.TestCase):
     """GetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInn
         if include_optional:
             return GetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths(
                 post_month = [
-                    openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
+                    entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
                         ap_detail_id = '11652280', 
                         post_month = '01/2021', 
                         monthly_amount = '0.00', )
@@ -45,7 +45,7 @@ class TestGetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInn
         else:
             return GetJobCostBudgetsSuccessResponseResultJobsJobInnerJobPhasesJobPhaseInnerApCodesInnerApCodePostMonths(
                 post_month = [
-                    openapi_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
+                    entrata_api_client.models.get_job_cost_budgets_success_response_result_jobs_job_inner_job_phases_job_phase_inner_ap_codes_inner_ap_code_post_months_post_month_inner.getJobCostBudgetsSuccessResponse_result_jobs_job_inner_jobPhases_jobPhase_inner_apCodes_inner_apCode_postMonths_postMonth_inner(
                         ap_detail_id = '11652280', 
                         post_month = '01/2021', 
                         monthly_amount = '0.00', )

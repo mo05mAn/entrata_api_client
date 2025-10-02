@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_inspections import GetInspections
+from entrata_api_client.models.get_inspections import GetInspections
 
 class TestGetInspections(unittest.TestCase):
     """GetInspections unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetInspections(unittest.TestCase):
         model = GetInspections()
         if include_optional:
             return GetInspections(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_inspections_method.getInspections_method(
+                method = entrata_api_client.models.get_inspections_method.getInspections_method(
                     name = 'getInspections', 
                     version = 'r1', 
-                    params = openapi_client.models.get_inspections_method_params.getInspections_method_params(
+                    params = entrata_api_client.models.get_inspections_method_params.getInspections_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         unit_space_id = 12345, 
@@ -53,12 +53,12 @@ class TestGetInspections(unittest.TestCase):
             )
         else:
             return GetInspections(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_inspections_method.getInspections_method(
+                method = entrata_api_client.models.get_inspections_method.getInspections_method(
                     name = 'getInspections', 
                     version = 'r1', 
-                    params = openapi_client.models.get_inspections_method_params.getInspections_method_params(
+                    params = entrata_api_client.models.get_inspections_method_params.getInspections_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         unit_space_id = 12345, 

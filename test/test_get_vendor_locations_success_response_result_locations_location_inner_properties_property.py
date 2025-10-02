@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property import GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty
+from entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property import GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty
 
 class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty(unittest.TestCase):
     """GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertie
         model = GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty()
         if include_optional:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty(
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                     id = '19463', 
                     name = '22 Exchange', )
             )
         else:
             return GetVendorLocationsSuccessResponseResultLocationsLocationInnerPropertiesProperty(
-                attributes = openapi_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
+                attributes = entrata_api_client.models.get_vendor_locations_success_response_result_locations_location_inner_properties_property__attributes.getVendorLocationsSuccessResponse_result_Locations_Location_inner_Properties_Property__attributes(
                     id = '19463', 
                     name = '22 Exchange', ),
         )

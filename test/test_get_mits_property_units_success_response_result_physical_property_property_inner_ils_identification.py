@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerILSIdentification
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerILSIdentification
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerILSIdentification(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerILSIdentification unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInner
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerILSIdentification(
                 daylight_saving = '0',
                 time_zone = 'Central Standard Time (GMT -0600)',
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_ILS_Identification__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_ils_identification__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_ILS_Identification__attributes(
                     ils_identification_type = 'Apartment', 
                     rental_type = 'Unspecified', )
             )

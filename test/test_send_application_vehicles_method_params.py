@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles_method_params import SendApplicationVehiclesMethodParams
+from entrata_api_client.models.send_application_vehicles_method_params import SendApplicationVehiclesMethodParams
 
 class TestSendApplicationVehiclesMethodParams(unittest.TestCase):
     """SendApplicationVehiclesMethodParams unit test stubs"""

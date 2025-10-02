@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_cost_budgets import GetJobCostBudgets
+from entrata_api_client.models.get_job_cost_budgets import GetJobCostBudgets
 
 class TestGetJobCostBudgets(unittest.TestCase):
     """GetJobCostBudgets unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetJobCostBudgets(unittest.TestCase):
         model = GetJobCostBudgets()
         if include_optional:
             return GetJobCostBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_job_cost_budgets_method.getJobCostBudgets_method(
+                method = entrata_api_client.models.get_job_cost_budgets_method.getJobCostBudgets_method(
                     name = 'getJobCostBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
+                    params = entrata_api_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
                         property_ids = 56, 
                         job_ids = 56, 
                         job_status_ids = 56, 
@@ -50,12 +50,12 @@ class TestGetJobCostBudgets(unittest.TestCase):
             )
         else:
             return GetJobCostBudgets(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_job_cost_budgets_method.getJobCostBudgets_method(
+                method = entrata_api_client.models.get_job_cost_budgets_method.getJobCostBudgets_method(
                     name = 'getJobCostBudgets', 
                     version = 'r1', 
-                    params = openapi_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
+                    params = entrata_api_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
                         property_ids = 56, 
                         job_ids = 56, 
                         job_status_ids = 56, 

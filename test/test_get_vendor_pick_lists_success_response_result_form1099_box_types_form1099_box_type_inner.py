@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner import GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner import GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxType
         model = GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
                     id = '1', 
                     name = '1 - Rents', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultForm1099BoxTypesForm1099BoxTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_form1099_box_types_form1099_box_type_inner__attributes.getVendorPickListsSuccessResponse_result_form1099BoxTypes_form1099BoxType_inner__attributes(
                     id = '1', 
                     name = '1 - Rents', ),
         )

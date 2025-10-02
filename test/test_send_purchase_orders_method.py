@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_purchase_orders_method import SendPurchaseOrdersMethod
+from entrata_api_client.models.send_purchase_orders_method import SendPurchaseOrdersMethod
 
 class TestSendPurchaseOrdersMethod(unittest.TestCase):
     """SendPurchaseOrdersMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestSendPurchaseOrdersMethod(unittest.TestCase):
             return SendPurchaseOrdersMethod(
                 name = 'sendPurchaseOrders',
                 version = 'r1',
-                params = openapi_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
+                params = entrata_api_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
                     po_type_id = 12345, 
                     ap_payee_id = 12345, 
                     ap_payee_location_id = 12345, 

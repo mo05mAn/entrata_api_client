@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_transaction_tag_lists_success_response import GetTransactionTagListsSuccessResponse
+from entrata_api_client.models.get_transaction_tag_lists_success_response import GetTransactionTagListsSuccessResponse
 
 class TestGetTransactionTagListsSuccessResponse(unittest.TestCase):
     """GetTransactionTagListsSuccessResponse unit test stubs"""
@@ -37,19 +37,19 @@ class TestGetTransactionTagListsSuccessResponse(unittest.TestCase):
             return GetTransactionTagListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_transaction_tag_lists_success_response_result.getTransactionTagListsSuccessResponse_result(
-                    transaction_custom_tags = openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags.getTransactionTagListsSuccessResponse_result_transactionCustomTags(
+                result = entrata_api_client.models.get_transaction_tag_lists_success_response_result.getTransactionTagListsSuccessResponse_result(
+                    transaction_custom_tags = entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags.getTransactionTagListsSuccessResponse_result_transactionCustomTags(
                         transaction_custom_tag = [
-                            openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
+                            entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
                                 id = '545', 
                                 name = '021', 
                                 code = 'T0021', 
                                 description = 'Expenses related to the fire', 
                                 is_published = 1, )
                             ], ), 
-                    transaction_routing_tags = openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags.getTransactionTagListsSuccessResponse_result_transactionRoutingTags(
+                    transaction_routing_tags = entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags.getTransactionTagListsSuccessResponse_result_transactionRoutingTags(
                         transaction_routing_tag = [
-                            openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
+                            entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
                                 id = '112', 
                                 name = 'Ak Route Tag', 
                                 description = 'Ak Route Tag', 
@@ -60,19 +60,19 @@ class TestGetTransactionTagListsSuccessResponse(unittest.TestCase):
             return GetTransactionTagListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_transaction_tag_lists_success_response_result.getTransactionTagListsSuccessResponse_result(
-                    transaction_custom_tags = openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags.getTransactionTagListsSuccessResponse_result_transactionCustomTags(
+                result = entrata_api_client.models.get_transaction_tag_lists_success_response_result.getTransactionTagListsSuccessResponse_result(
+                    transaction_custom_tags = entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags.getTransactionTagListsSuccessResponse_result_transactionCustomTags(
                         transaction_custom_tag = [
-                            openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
+                            entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_custom_tags_transaction_custom_tag_inner.getTransactionTagListsSuccessResponse_result_transactionCustomTags_transactionCustomTag_inner(
                                 id = '545', 
                                 name = '021', 
                                 code = 'T0021', 
                                 description = 'Expenses related to the fire', 
                                 is_published = 1, )
                             ], ), 
-                    transaction_routing_tags = openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags.getTransactionTagListsSuccessResponse_result_transactionRoutingTags(
+                    transaction_routing_tags = entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags.getTransactionTagListsSuccessResponse_result_transactionRoutingTags(
                         transaction_routing_tag = [
-                            openapi_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
+                            entrata_api_client.models.get_transaction_tag_lists_success_response_result_transaction_routing_tags_transaction_routing_tag_inner.getTransactionTagListsSuccessResponse_result_transactionRoutingTags_transactionRoutingTag_inner(
                                 id = '112', 
                                 name = 'Ak Route Tag', 
                                 description = 'Ak Route Tag', 

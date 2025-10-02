@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups import SendRoommateGroupsR2MethodParamsRoommateGroups
+from entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups import SendRoommateGroupsR2MethodParamsRoommateGroups
 from typing import Optional, Set
 from typing_extensions import Self
 

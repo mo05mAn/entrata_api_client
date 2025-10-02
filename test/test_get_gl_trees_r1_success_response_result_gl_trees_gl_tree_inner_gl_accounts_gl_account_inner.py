@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner
+from entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner import GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner
 
 class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner(unittest.TestCase):
     """GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccount
         model = GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner()
         if include_optional:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner(
-                attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
+                attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
                     id = '87019', 
                     branch_id = '56125', ),
                 account_number = '101-000-0',
@@ -49,7 +49,7 @@ class TestGetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccount
             )
         else:
             return GetGlTreesR1SuccessResponseResultGlTreesGlTreeInnerGlAccountsGlAccountInner(
-                attributes = openapi_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
+                attributes = entrata_api_client.models.get_gl_trees_r1_success_response_result_gl_trees_gl_tree_inner_gl_accounts_gl_account_inner__attributes.getGlTrees_r1_SuccessResponse_result_GlTrees_GlTree_inner_GlAccounts_GlAccount_inner__attributes(
                     id = '87019', 
                     branch_id = '56125', ),
                 account_number = '101-000-0',

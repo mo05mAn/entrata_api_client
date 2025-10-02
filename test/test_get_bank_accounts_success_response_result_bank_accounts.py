@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_bank_accounts_success_response_result_bank_accounts import GetBankAccountsSuccessResponseResultBankAccounts
+from entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts import GetBankAccountsSuccessResponseResultBankAccounts
 
 class TestGetBankAccountsSuccessResponseResultBankAccounts(unittest.TestCase):
     """GetBankAccountsSuccessResponseResultBankAccounts unit test stubs"""
@@ -36,13 +36,13 @@ class TestGetBankAccountsSuccessResponseResultBankAccounts(unittest.TestCase):
         if include_optional:
             return GetBankAccountsSuccessResponseResultBankAccounts(
                 bank_account = [
-                    openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner(
+                    entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner(
                         id = '11111', 
                         account_name = 'Park Avenue I', 
                         bank_account_type_id = '8', 
-                        property_bank_accounts = openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts(
+                        property_bank_accounts = entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts(
                             property_bank_account = [
-                                openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts_PropertyBankAccount_inner(
+                                entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts_PropertyBankAccount_inner(
                                     id = '123', 
                                     property_id = '11111', 
                                     gl_account_id = '12345', 
@@ -56,13 +56,13 @@ class TestGetBankAccountsSuccessResponseResultBankAccounts(unittest.TestCase):
         else:
             return GetBankAccountsSuccessResponseResultBankAccounts(
                 bank_account = [
-                    openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner(
+                    entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner(
                         id = '11111', 
                         account_name = 'Park Avenue I', 
                         bank_account_type_id = '8', 
-                        property_bank_accounts = openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts(
+                        property_bank_accounts = entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts(
                             property_bank_account = [
-                                openapi_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts_PropertyBankAccount_inner(
+                                entrata_api_client.models.get_bank_accounts_success_response_result_bank_accounts_bank_account_inner_property_bank_accounts_property_bank_account_inner.getBankAccountsSuccessResponse_result_BankAccounts_BankAccount_inner_PropertyBankAccounts_PropertyBankAccount_inner(
                                     id = '123', 
                                     property_id = '11111', 
                                     gl_account_id = '12345', 

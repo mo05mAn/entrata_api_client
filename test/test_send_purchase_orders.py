@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_purchase_orders import SendPurchaseOrders
+from entrata_api_client.models.send_purchase_orders import SendPurchaseOrders
 
 class TestSendPurchaseOrders(unittest.TestCase):
     """SendPurchaseOrders unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendPurchaseOrders(unittest.TestCase):
         model = SendPurchaseOrders()
         if include_optional:
             return SendPurchaseOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_purchase_orders_method.sendPurchaseOrders_method(
+                method = entrata_api_client.models.send_purchase_orders_method.sendPurchaseOrders_method(
                     name = 'sendPurchaseOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
+                    params = entrata_api_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
                         po_type_id = 12345, 
                         ap_payee_id = 12345, 
                         ap_payee_location_id = 12345, 
@@ -70,12 +70,12 @@ class TestSendPurchaseOrders(unittest.TestCase):
             )
         else:
             return SendPurchaseOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_purchase_orders_method.sendPurchaseOrders_method(
+                method = entrata_api_client.models.send_purchase_orders_method.sendPurchaseOrders_method(
                     name = 'sendPurchaseOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
+                    params = entrata_api_client.models.send_purchase_orders_method_params.sendPurchaseOrders_method_params(
                         po_type_id = 12345, 
                         ap_payee_id = 12345, 
                         ap_payee_location_id = 12345, 

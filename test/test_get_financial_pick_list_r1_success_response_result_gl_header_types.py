@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types import GetFinancialPickListR1SuccessResponseResultGlHeaderTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types import GetFinancialPickListR1SuccessResponseResultGlHeaderTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlHeaderTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlHeaderTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlHeaderTypes(unittest.Test
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlHeaderTypes(
                 gl_header_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types_gl_header_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlHeaderTypes_GlHeaderType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types_gl_header_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlHeaderTypes_GlHeaderType_inner(
                         id = 1, 
                         name = 'Standard', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlHeaderTypes(unittest.Test
         else:
             return GetFinancialPickListR1SuccessResponseResultGlHeaderTypes(
                 gl_header_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types_gl_header_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlHeaderTypes_GlHeaderType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_header_types_gl_header_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlHeaderTypes_GlHeaderType_inner(
                         id = 1, 
                         name = 'Standard', )
                     ],

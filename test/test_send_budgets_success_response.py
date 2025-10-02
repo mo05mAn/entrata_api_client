@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_budgets_success_response import SendBudgetsSuccessResponse
+from entrata_api_client.models.send_budgets_success_response import SendBudgetsSuccessResponse
 
 class TestSendBudgetsSuccessResponse(unittest.TestCase):
     """SendBudgetsSuccessResponse unit test stubs"""
@@ -37,10 +37,10 @@ class TestSendBudgetsSuccessResponse(unittest.TestCase):
             return SendBudgetsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.send_budgets_success_response_result.sendBudgetsSuccessResponse_result(
-                    budgets = openapi_client.models.send_budgets_success_response_result_budgets.sendBudgetsSuccessResponse_result_budgets(
+                result = entrata_api_client.models.send_budgets_success_response_result.sendBudgetsSuccessResponse_result(
+                    budgets = entrata_api_client.models.send_budgets_success_response_result_budgets.sendBudgetsSuccessResponse_result_budgets(
                         budget = [
-                            openapi_client.models.send_budgets_success_response_result_budgets_budget_inner.sendBudgetsSuccessResponse_result_budgets_budget_inner(
+                            entrata_api_client.models.send_budgets_success_response_result_budgets_budget_inner.sendBudgetsSuccessResponse_result_budgets_budget_inner(
                                 node = 1, 
                                 status = 'Success', 
                                 message = 'budget inserted successfully.', )
@@ -50,10 +50,10 @@ class TestSendBudgetsSuccessResponse(unittest.TestCase):
             return SendBudgetsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.send_budgets_success_response_result.sendBudgetsSuccessResponse_result(
-                    budgets = openapi_client.models.send_budgets_success_response_result_budgets.sendBudgetsSuccessResponse_result_budgets(
+                result = entrata_api_client.models.send_budgets_success_response_result.sendBudgetsSuccessResponse_result(
+                    budgets = entrata_api_client.models.send_budgets_success_response_result_budgets.sendBudgetsSuccessResponse_result_budgets(
                         budget = [
-                            openapi_client.models.send_budgets_success_response_result_budgets_budget_inner.sendBudgetsSuccessResponse_result_budgets_budget_inner(
+                            entrata_api_client.models.send_budgets_success_response_result_budgets_budget_inner.sendBudgetsSuccessResponse_result_budgets_budget_inner(
                                 node = 1, 
                                 status = 'Success', 
                                 message = 'budget inserted successfully.', )

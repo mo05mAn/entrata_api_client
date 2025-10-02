@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r2_success_response_result_owners import GetFinancialPickListR2SuccessResponseResultOwners
+from entrata_api_client.models.get_financial_pick_list_r2_success_response_result_owners import GetFinancialPickListR2SuccessResponseResultOwners
 
 class TestGetFinancialPickListR2SuccessResponseResultOwners(unittest.TestCase):
     """GetFinancialPickListR2SuccessResponseResultOwners unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR2SuccessResponseResultOwners(unittest.TestCase):
         if include_optional:
             return GetFinancialPickListR2SuccessResponseResultOwners(
                 owner = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner.getFinancialPickList_r2_SuccessResponse_result_owners_owner_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner.getFinancialPickList_r2_SuccessResponse_result_owners_owner_inner(
                         id = '60732', 
                         name = '0000CNYE1', 
                         property_ids = '19463,43634', )
@@ -45,7 +45,7 @@ class TestGetFinancialPickListR2SuccessResponseResultOwners(unittest.TestCase):
         else:
             return GetFinancialPickListR2SuccessResponseResultOwners(
                 owner = [
-                    openapi_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner.getFinancialPickList_r2_SuccessResponse_result_owners_owner_inner(
+                    entrata_api_client.models.get_financial_pick_list_r2_success_response_result_owners_owner_inner.getFinancialPickList_r2_SuccessResponse_result_owners_owner_inner(
                         id = '60732', 
                         name = '0000CNYE1', 
                         property_ids = '19463,43634', )

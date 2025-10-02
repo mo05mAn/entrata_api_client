@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ap_codes_method import GetApCodesMethod
+from entrata_api_client.models.get_ap_codes_method import GetApCodesMethod
 
 class TestGetApCodesMethod(unittest.TestCase):
     """GetApCodesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetApCodesMethod(unittest.TestCase):
             return GetApCodesMethod(
                 name = 'getApCodes',
                 version = 'r1',
-                params = openapi_client.models.get_ap_codes_method_params.getApCodes_method_params(
+                params = entrata_api_client.models.get_ap_codes_method_params.getApCodes_method_params(
                     gl_account_ids = 56, 
                     ap_code_type_ids = 56, )
             )

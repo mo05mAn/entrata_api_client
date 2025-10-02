@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r2_method_params import UpdateLeadsR2MethodParams
+from entrata_api_client.models.update_leads_r2_method_params import UpdateLeadsR2MethodParams
 
 class TestUpdateLeadsR2MethodParams(unittest.TestCase):
     """UpdateLeadsR2MethodParams unit test stubs"""

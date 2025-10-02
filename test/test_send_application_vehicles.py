@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_application_vehicles import SendApplicationVehicles
+from entrata_api_client.models.send_application_vehicles import SendApplicationVehicles
 
 class TestSendApplicationVehicles(unittest.TestCase):
     """SendApplicationVehicles unit test stubs"""
@@ -35,23 +35,23 @@ class TestSendApplicationVehicles(unittest.TestCase):
         model = SendApplicationVehicles()
         if include_optional:
             return SendApplicationVehicles(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_application_vehicles_method.sendApplicationVehicles_method(
+                method = entrata_api_client.models.send_application_vehicles_method.sendApplicationVehicles_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
+                    params = entrata_api_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
                         vehicle_type_id = 2, ), )
             )
         else:
             return SendApplicationVehicles(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_application_vehicles_method.sendApplicationVehicles_method(
+                method = entrata_api_client.models.send_application_vehicles_method.sendApplicationVehicles_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
+                    params = entrata_api_client.models.send_application_vehicles_method_params.sendApplicationVehicles_method_params(
                         vehicle_type_id = 2, ), ),
         )
         """

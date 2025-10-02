@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_documents_success_response_result_files_file_inner import SendLeaseDocumentsSuccessResponseResultFilesFileInner
+from entrata_api_client.models.send_lease_documents_success_response_result_files_file_inner import SendLeaseDocumentsSuccessResponseResultFilesFileInner
 
 class TestSendLeaseDocumentsSuccessResponseResultFilesFileInner(unittest.TestCase):
     """SendLeaseDocumentsSuccessResponseResultFilesFileInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits import GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits
+from entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits import GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits
 
 class TestGetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits(unittest.TestCase):
     """GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits unit test stubs"""
@@ -35,14 +35,14 @@ class TestGetRentableItemsSuccessResponseResponseResultRentableItemTypesRentable
         model = GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits()
         if include_optional:
             return GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits(
-                deposit = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                deposit = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                     type = 'RIT', 
                     charge_code = 'example', 
                     amount = '$55.00', )
             )
         else:
             return GetRentableItemsSuccessResponseResponseResultRentableItemTypesRentableItemTypeDeposits(
-                deposit = openapi_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
+                deposit = entrata_api_client.models.get_rentable_items_success_response_response_result_rentable_item_types_rentable_item_type_deposits_deposit.getRentableItemsSuccessResponse_response_result_RentableItemTypes_RentableItemType_Deposits_Deposit(
                     type = 'RIT', 
                     charge_code = 'example', 
                     amount = '$55.00', ),

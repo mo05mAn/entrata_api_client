@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types import GetFinancialPickListR1SuccessResponseResultGlLedgerTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types import GetFinancialPickListR1SuccessResponseResultGlLedgerTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlLedgerTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlLedgerTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlLedgerTypes(unittest.Test
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlLedgerTypes(
                 gl_ledger_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types_gl_ledger_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlLedgerTypes_GlLedgerType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types_gl_ledger_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlLedgerTypes_GlLedgerType_inner(
                         id = 1, 
                         name = 'GL', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlLedgerTypes(unittest.Test
         else:
             return GetFinancialPickListR1SuccessResponseResultGlLedgerTypes(
                 gl_ledger_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types_gl_ledger_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlLedgerTypes_GlLedgerType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_ledger_types_gl_ledger_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlLedgerTypes_GlLedgerType_inner(
                         id = 1, 
                         name = 'GL', )
                     ],

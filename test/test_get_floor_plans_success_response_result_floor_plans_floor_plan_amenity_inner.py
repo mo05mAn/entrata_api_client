@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner
 
 class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner(unittest.TestCase):
     """GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner unit test stubs"""
@@ -35,12 +35,12 @@ class TestGetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner(unit
         model = GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner()
         if include_optional:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner(
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
                     amenity_type = 'AdditionalStorage', )
             )
         else:
             return GetFloorPlansSuccessResponseResultFloorPlansFloorPlanAmenityInner(
-                attributes = openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
+                attributes = entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_amenity_inner__attributes.getFloorPlansSuccessResponse_result_FloorPlans_FloorPlan_Amenity_inner__attributes(
                     amenity_type = 'AdditionalStorage', ),
         )
         """

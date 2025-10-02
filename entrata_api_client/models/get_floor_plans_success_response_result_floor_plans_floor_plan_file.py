@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file_attributes import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFileAttributes
+from entrata_api_client.models.get_floor_plans_success_response_result_floor_plans_floor_plan_file_attributes import GetFloorPlansSuccessResponseResultFloorPlansFloorPlanFileAttributes
 from typing import Optional, Set
 from typing_extensions import Self
 

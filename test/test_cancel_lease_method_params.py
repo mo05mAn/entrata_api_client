@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.cancel_lease_method_params import CancelLeaseMethodParams
+from entrata_api_client.models.cancel_lease_method_params import CancelLeaseMethodParams
 
 class TestCancelLeaseMethodParams(unittest.TestCase):
     """CancelLeaseMethodParams unit test stubs"""

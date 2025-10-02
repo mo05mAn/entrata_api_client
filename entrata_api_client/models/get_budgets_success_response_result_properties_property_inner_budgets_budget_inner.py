@@ -20,7 +20,7 @@ import json
 from datetime import date
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccounts
+from entrata_api_client.models.get_budgets_success_response_result_properties_property_inner_budgets_budget_inner_gl_accounts import GetBudgetsSuccessResponseResultPropertiesPropertyInnerBudgetsBudgetInnerGlAccounts
 from typing import Optional, Set
 from typing_extensions import Self
 

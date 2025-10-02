@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates
+from entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates import GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates
 
 class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates(unittest.TestCase):
     """GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates(
         if include_optional:
             return GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates(
                 rate = [
-                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
+                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
                         ar_code_id = '1234', 
                         ar_code_type_id = '7', 
                         charge_type_id = '410', 
@@ -48,7 +48,7 @@ class TestGetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates(
         else:
             return GetReservableAmenitiesSuccessResponseResultAmenitiesAmenityInnerRates(
                 rate = [
-                    openapi_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
+                    entrata_api_client.models.get_reservable_amenities_success_response_result_amenities_amenity_inner_rates_rate_inner.getReservableAmenitiesSuccessResponse_result_amenities_amenity_inner_rates_rate_inner(
                         ar_code_id = '1234', 
                         ar_code_type_id = '7', 
                         charge_type_id = '410', 

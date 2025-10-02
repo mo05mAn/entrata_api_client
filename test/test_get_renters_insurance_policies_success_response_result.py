@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result import GetRentersInsurancePoliciesSuccessResponseResult
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result import GetRentersInsurancePoliciesSuccessResponseResult
 
 class TestGetRentersInsurancePoliciesSuccessResponseResult(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResult unit test stubs"""
@@ -35,73 +35,73 @@ class TestGetRentersInsurancePoliciesSuccessResponseResult(unittest.TestCase):
         model = GetRentersInsurancePoliciesSuccessResponseResult()
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResult(
-                lease_application = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication(
-                    property = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property(
-                        identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
+                lease_application = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication(
+                    property = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property(
+                        identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
                             id_value = '42420', 
                             organization_name = '651', 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                                 id_type = 'Property ID', 
                                 id_rank = 'primary', 
                                 id_scope_type = 'sender', ), ), 
                         marketing_name = 'AuraCorp2 - Crystal', 
-                        address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
+                        address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
                             description = 'Primary address', 
                             address = '500 S, 100 W, 100k', 
                             city = 'Provo', 
                             state = 'UT', 
                             postal_code = '84601', 
                             country = 'US', 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                                 address_type = 'other', ), ), ), 
                     tenant = [
-                        openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner(
-                            identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification(
+                        entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner(
+                            identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification(
                                 id_value = '6720012', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
                                     id_type = 'Customer ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            lease_id = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID(
+                            lease_id = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID(
                                 id_value = '5545944', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID__attributes(
                                     id_type = 'Lease ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            name = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_name.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Name(
+                            name = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_name.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Name(
                                 first_name = 'FirstName', 
                                 last_name = 'LastName', ), 
-                            residence = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence(
-                                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
+                            residence = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence(
+                                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
                                     address = '500 S, 100 W, 100k', 
                                     city = 'Provo', 
                                     state = 'UT', 
                                     postal_code = '84601', 
                                     country_name = 'US', 
                                     email = 'nmohite_x.lc@r.com', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
                                         address_type = 'current', ), ), ), 
-                            phone = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone(
+                            phone = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone(
                                 phone_number = '1112223333', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
                                     phone_type = 'personal', ), ), 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner__attributes(
                                 resident_type = 'Primary', ), )
                         ], 
                     la_lease = [
-                        openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner(
-                            identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification(
+                        entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner(
+                            identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification(
                                 id_value = '5545944', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification__attributes(
                                     id_type = 'Lease ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            status = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_status.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Status(
+                            status = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_status.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Status(
                                 approval_status = 'Current', ), 
-                            unit = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit(
-                                identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
+                            unit = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit(
+                                identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
                                     id_value = '2512028', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification__attributes(
                                         id_type = 'Property Unit Id', 
                                         id_rank = 'primary', 
                                         id_scope_type = 'sender', ), ), 
@@ -112,13 +112,13 @@ class TestGetRentersInsurancePoliciesSuccessResponseResult(unittest.TestCase):
                                 square_foot_type = 'internal', 
                                 unit_economic_status = 'residential', 
                                 unit_leased_status = 'leased', 
-                                number_occupants = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants(
+                                number_occupants = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants(
                                     @value = '4', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
                                         total = '4', ), ), 
                                 building_name = 'BUL113', ), 
-                            insurance_policies = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies(
-                                insurance_policy = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
+                            insurance_policies = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies(
+                                insurance_policy = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
                                     id = '110292', 
                                     name = 'Name', 
                                     unit_number = 'UK16', 
@@ -135,73 +135,73 @@ class TestGetRentersInsurancePoliciesSuccessResponseResult(unittest.TestCase):
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResult(
-                lease_application = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication(
-                    property = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property(
-                        identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
+                lease_application = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication(
+                    property = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property(
+                        identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
                             id_value = '42420', 
                             organization_name = '651', 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                                 id_type = 'Property ID', 
                                 id_rank = 'primary', 
                                 id_scope_type = 'sender', ), ), 
                         marketing_name = 'AuraCorp2 - Crystal', 
-                        address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
+                        address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
                             description = 'Primary address', 
                             address = '500 S, 100 W, 100k', 
                             city = 'Provo', 
                             state = 'UT', 
                             postal_code = '84601', 
                             country = 'US', 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                                 address_type = 'other', ), ), ), 
                     tenant = [
-                        openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner(
-                            identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification(
+                        entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner(
+                            identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification(
                                 id_value = '6720012', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Identification__attributes(
                                     id_type = 'Customer ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            lease_id = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID(
+                            lease_id = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID(
                                 id_value = '5545944', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_lease_id__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_LeaseID__attributes(
                                     id_type = 'Lease ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            name = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_name.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Name(
+                            name = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_name.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Name(
                                 first_name = 'FirstName', 
                                 last_name = 'LastName', ), 
-                            residence = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence(
-                                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
+                            residence = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence(
+                                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address(
                                     address = '500 S, 100 W, 100k', 
                                     city = 'Provo', 
                                     state = 'UT', 
                                     postal_code = '84601', 
                                     country_name = 'US', 
                                     email = 'nmohite_x.lc@r.com', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_residence_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Residence_Address__attributes(
                                         address_type = 'current', ), ), ), 
-                            phone = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone(
+                            phone = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone(
                                 phone_number = '1112223333', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner_phone__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner_Phone__attributes(
                                     phone_type = 'personal', ), ), 
-                            @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner__attributes(
+                            @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_tenant_inner__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Tenant_inner__attributes(
                                 resident_type = 'Primary', ), )
                         ], 
                     la_lease = [
-                        openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner(
-                            identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification(
+                        entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner(
+                            identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification(
                                 id_value = '5545944', 
-                                @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification__attributes(
+                                @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Identification__attributes(
                                     id_type = 'Lease ID', 
                                     id_rank = 'primary', 
                                     id_scope_type = 'sender', ), ), 
-                            status = openapi_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_status.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Status(
+                            status = entrata_api_client.models.get_mits_leases_success_response_response_result_lease_application_la_lease_inner_status.getMitsLeasesSuccessResponse_response_result_LeaseApplication_LA_Lease_inner_Status(
                                 approval_status = 'Current', ), 
-                            unit = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit(
-                                identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
+                            unit = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit(
+                                identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification(
                                     id_value = '2512028', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_Identification__attributes(
                                         id_type = 'Property Unit Id', 
                                         id_rank = 'primary', 
                                         id_scope_type = 'sender', ), ), 
@@ -212,13 +212,13 @@ class TestGetRentersInsurancePoliciesSuccessResponseResult(unittest.TestCase):
                                 square_foot_type = 'internal', 
                                 unit_economic_status = 'residential', 
                                 unit_leased_status = 'leased', 
-                                number_occupants = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants(
+                                number_occupants = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants(
                                     @value = '4', 
-                                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
+                                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_unit_number_occupants__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_Unit_NumberOccupants__attributes(
                                         total = '4', ), ), 
                                 building_name = 'BUL113', ), 
-                            insurance_policies = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies(
-                                insurance_policy = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
+                            insurance_policies = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies(
+                                insurance_policy = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_la_lease_inner_insurance_policies_insurance_policy.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_LA_Lease_inner_InsurancePolicies_InsurancePolicy(
                                     id = '110292', 
                                     name = 'Name', 
                                     unit_number = 'UK16', 

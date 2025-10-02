@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure import GetVendorPickListsSuccessResponseResultUnitsOfMeasure
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure import GetVendorPickListsSuccessResponseResultUnitsOfMeasure
 
 class TestGetVendorPickListsSuccessResponseResultUnitsOfMeasure(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultUnitsOfMeasure unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultUnitsOfMeasure(unittest.TestCas
         if include_optional:
             return GetVendorPickListsSuccessResponseResultUnitsOfMeasure(
                 unit_of_measure = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_units_of_measure_unit_of_measure_inner__attributes.getVendorPickListsSuccessResponse_result_unitsOfMeasure_unitOfMeasure_inner__attributes(
                             id = '80', 
                             name = '100 Packing', 
                             type = 'Area', ), )

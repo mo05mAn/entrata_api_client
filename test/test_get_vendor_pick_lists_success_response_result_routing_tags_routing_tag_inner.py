@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner import GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner import GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner
 
 class TestGetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner(unit
         model = GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
                     id = '93', 
                     name = 'routingTag1', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultRoutingTagsRoutingTagInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_routing_tags_routing_tag_inner__attributes.getVendorPickListsSuccessResponse_result_routingTags_routingTag_inner__attributes(
                     id = '93', 
                     name = 'routingTag1', ),
         )

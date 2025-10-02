@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1 import GetGlTreesR1
+from entrata_api_client.models.get_gl_trees_r1 import GetGlTreesR1
 
 class TestGetGlTreesR1(unittest.TestCase):
     """GetGlTreesR1 unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetGlTreesR1(unittest.TestCase):
         model = GetGlTreesR1()
         if include_optional:
             return GetGlTreesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_gl_trees_r1_method.getGlTrees_r1_method(
+                method = entrata_api_client.models.get_gl_trees_r1_method.getGlTrees_r1_method(
                     name = 'getGlTrees', 
                     version = 'r1', 
-                    params = openapi_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
+                    params = entrata_api_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
                         property_id = 123456, 
                         gl_tree_id = 1234, 
                         gl_branch_id = 1234, 
@@ -51,12 +51,12 @@ class TestGetGlTreesR1(unittest.TestCase):
             )
         else:
             return GetGlTreesR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_gl_trees_r1_method.getGlTrees_r1_method(
+                method = entrata_api_client.models.get_gl_trees_r1_method.getGlTrees_r1_method(
                     name = 'getGlTrees', 
                     version = 'r1', 
-                    params = openapi_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
+                    params = entrata_api_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
                         property_id = 123456, 
                         gl_tree_id = 1234, 
                         gl_branch_id = 1234, 

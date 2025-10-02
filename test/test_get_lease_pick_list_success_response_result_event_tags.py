@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_lease_pick_list_success_response_result_event_tags import GetLeasePickListSuccessResponseResultEventTags
+from entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags import GetLeasePickListSuccessResponseResultEventTags
 
 class TestGetLeasePickListSuccessResponseResultEventTags(unittest.TestCase):
     """GetLeasePickListSuccessResponseResultEventTags unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasePickListSuccessResponseResultEventTags(unittest.TestCase):
         if include_optional:
             return GetLeasePickListSuccessResponseResultEventTags(
                 event_tag = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
                         id = 702, 
                         name = 'Amenity', )
                     ]
@@ -44,7 +44,7 @@ class TestGetLeasePickListSuccessResponseResultEventTags(unittest.TestCase):
         else:
             return GetLeasePickListSuccessResponseResultEventTags(
                 event_tag = [
-                    openapi_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
+                    entrata_api_client.models.get_lease_pick_list_success_response_result_event_tags_event_tag_inner.getLeasePickListSuccessResponse_result_eventTags_eventTag_inner(
                         id = 702, 
                         name = 'Amenity', )
                     ],

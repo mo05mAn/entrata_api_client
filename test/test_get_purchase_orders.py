@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_purchase_orders import GetPurchaseOrders
+from entrata_api_client.models.get_purchase_orders import GetPurchaseOrders
 
 class TestGetPurchaseOrders(unittest.TestCase):
     """GetPurchaseOrders unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetPurchaseOrders(unittest.TestCase):
         model = GetPurchaseOrders()
         if include_optional:
             return GetPurchaseOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_purchase_orders_method.getPurchaseOrders_method(
+                method = entrata_api_client.models.get_purchase_orders_method.getPurchaseOrders_method(
                     name = 'getPurchaseOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.get_purchase_orders_method_params.getPurchaseOrders_method_params(
+                    params = entrata_api_client.models.get_purchase_orders_method_params.getPurchaseOrders_method_params(
                         property_ids = 56, 
                         vendor_id = 12345, 
                         vendor_code = 12345, 
@@ -57,12 +57,12 @@ class TestGetPurchaseOrders(unittest.TestCase):
             )
         else:
             return GetPurchaseOrders(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_purchase_orders_method.getPurchaseOrders_method(
+                method = entrata_api_client.models.get_purchase_orders_method.getPurchaseOrders_method(
                     name = 'getPurchaseOrders', 
                     version = 'r1', 
-                    params = openapi_client.models.get_purchase_orders_method_params.getPurchaseOrders_method_params(
+                    params = entrata_api_client.models.get_purchase_orders_method_params.getPurchaseOrders_method_params(
                         property_ids = 56, 
                         vendor_id = 12345, 
                         vendor_code = 12345, 

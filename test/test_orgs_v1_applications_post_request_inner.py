@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.orgs_v1_applications_post_request_inner import OrgsV1ApplicationsPostRequestInner
+from entrata_api_client.models.orgs_v1_applications_post_request_inner import OrgsV1ApplicationsPostRequestInner
 
 class TestOrgsV1ApplicationsPostRequestInner(unittest.TestCase):
     """OrgsV1ApplicationsPostRequestInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestOrgsV1ApplicationsPostRequestInner(unittest.TestCase):
         model = OrgsV1ApplicationsPostRequestInner()
         if include_optional:
             return OrgsV1ApplicationsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_application_method.updateApplication_method(
+                method = entrata_api_client.models.update_application_method.updateApplication_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_application_method_params.updateApplication_method_params(
+                    params = entrata_api_client.models.update_application_method_params.updateApplication_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         application_status_id = 3, 
@@ -71,12 +71,12 @@ class TestOrgsV1ApplicationsPostRequestInner(unittest.TestCase):
             )
         else:
             return OrgsV1ApplicationsPostRequestInner(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_application_method.updateApplication_method(
+                method = entrata_api_client.models.update_application_method.updateApplication_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_application_method_params.updateApplication_method_params(
+                    params = entrata_api_client.models.update_application_method_params.updateApplication_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         application_status_id = 3, 

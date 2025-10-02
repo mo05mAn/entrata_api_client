@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_customer_testimonials import SendCustomerTestimonials
+from entrata_api_client.models.send_customer_testimonials import SendCustomerTestimonials
 
 class TestSendCustomerTestimonials(unittest.TestCase):
     """SendCustomerTestimonials unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendCustomerTestimonials(unittest.TestCase):
         model = SendCustomerTestimonials()
         if include_optional:
             return SendCustomerTestimonials(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_customer_testimonials_method.sendCustomerTestimonials_method(
+                method = entrata_api_client.models.send_customer_testimonials_method.sendCustomerTestimonials_method(
                     name = 'sendCustomerTestimonials', 
                     version = 'r1', 
-                    params = openapi_client.models.send_customer_testimonials_method_params.sendCustomerTestimonials_method_params(
+                    params = entrata_api_client.models.send_customer_testimonials_method_params.sendCustomerTestimonials_method_params(
                         customer_id = 123456, 
                         testimonial_type_id = 123456, 
                         name = 'Bryan Murfy', 
@@ -61,12 +61,12 @@ class TestSendCustomerTestimonials(unittest.TestCase):
             )
         else:
             return SendCustomerTestimonials(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_customer_testimonials_method.sendCustomerTestimonials_method(
+                method = entrata_api_client.models.send_customer_testimonials_method.sendCustomerTestimonials_method(
                     name = 'sendCustomerTestimonials', 
                     version = 'r1', 
-                    params = openapi_client.models.send_customer_testimonials_method_params.sendCustomerTestimonials_method_params(
+                    params = entrata_api_client.models.send_customer_testimonials_method_params.sendCustomerTestimonials_method_params(
                         customer_id = 123456, 
                         testimonial_type_id = 123456, 
                         name = 'Bryan Murfy', 

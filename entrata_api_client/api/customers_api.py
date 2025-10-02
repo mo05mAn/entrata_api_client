@@ -19,12 +19,12 @@ from typing_extensions import Annotated
 from pydantic import Field, StrictStr
 from typing import List
 from typing_extensions import Annotated
-from openapi_client.models.orgs_v1_customers_post200_response import OrgsV1CustomersPost200Response
-from openapi_client.models.orgs_v1_customers_post_request_inner import OrgsV1CustomersPostRequestInner
+from entrata_api_client.models.orgs_v1_customers_post200_response import OrgsV1CustomersPost200Response
+from entrata_api_client.models.orgs_v1_customers_post_request_inner import OrgsV1CustomersPostRequestInner
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from entrata_api_client.api_client import ApiClient, RequestSerialized
+from entrata_api_client.api_response import ApiResponse
+from entrata_api_client.rest import RESTResponseType
 
 
 class CustomersApi:

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leasing_center_pick_lists_success_response import GetLeasingCenterPickListsSuccessResponse
+from entrata_api_client.models.get_leasing_center_pick_lists_success_response import GetLeasingCenterPickListsSuccessResponse
 
 class TestGetLeasingCenterPickListsSuccessResponse(unittest.TestCase):
     """GetLeasingCenterPickListsSuccessResponse unit test stubs"""
@@ -37,22 +37,22 @@ class TestGetLeasingCenterPickListsSuccessResponse(unittest.TestCase):
             return GetLeasingCenterPickListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_leasing_center_pick_lists_success_response_result.getLeasingCenterPickListsSuccessResponse_result(
-                    call_sources = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_sources.getLeasingCenterPickListsSuccessResponse_result_callSources(
+                result = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result.getLeasingCenterPickListsSuccessResponse_result(
+                    call_sources = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_sources.getLeasingCenterPickListsSuccessResponse_result_callSources(
                         call_source = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_sources_call_source_inner.getLeasingCenterPickListsSuccessResponse_result_callSources_callSource_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_sources_call_source_inner.getLeasingCenterPickListsSuccessResponse_result_callSources_callSource_inner(
                                 id = '1', 
                                 name = 'On-Site', )
                             ], ), 
-                    call_types = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types.getLeasingCenterPickListsSuccessResponse_result_callTypes(
+                    call_types = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types.getLeasingCenterPickListsSuccessResponse_result_callTypes(
                         call_type = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
                                 id = '23', 
                                 name = 'Call Center Emergency', )
                             ], ), 
-                    call_results = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results.getLeasingCenterPickListsSuccessResponse_result_callResults(
+                    call_results = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results.getLeasingCenterPickListsSuccessResponse_result_callResults(
                         call_result = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
                                 id = '2', 
                                 name = 'Unknown', )
                             ], ), )
@@ -61,22 +61,22 @@ class TestGetLeasingCenterPickListsSuccessResponse(unittest.TestCase):
             return GetLeasingCenterPickListsSuccessResponse(
                 request_id = '15',
                 code = '200',
-                result = openapi_client.models.get_leasing_center_pick_lists_success_response_result.getLeasingCenterPickListsSuccessResponse_result(
-                    call_sources = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_sources.getLeasingCenterPickListsSuccessResponse_result_callSources(
+                result = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result.getLeasingCenterPickListsSuccessResponse_result(
+                    call_sources = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_sources.getLeasingCenterPickListsSuccessResponse_result_callSources(
                         call_source = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_sources_call_source_inner.getLeasingCenterPickListsSuccessResponse_result_callSources_callSource_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_sources_call_source_inner.getLeasingCenterPickListsSuccessResponse_result_callSources_callSource_inner(
                                 id = '1', 
                                 name = 'On-Site', )
                             ], ), 
-                    call_types = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types.getLeasingCenterPickListsSuccessResponse_result_callTypes(
+                    call_types = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types.getLeasingCenterPickListsSuccessResponse_result_callTypes(
                         call_type = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_types_call_type_inner.getLeasingCenterPickListsSuccessResponse_result_callTypes_callType_inner(
                                 id = '23', 
                                 name = 'Call Center Emergency', )
                             ], ), 
-                    call_results = openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results.getLeasingCenterPickListsSuccessResponse_result_callResults(
+                    call_results = entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results.getLeasingCenterPickListsSuccessResponse_result_callResults(
                         call_result = [
-                            openapi_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
+                            entrata_api_client.models.get_leasing_center_pick_lists_success_response_result_call_results_call_result_inner.getLeasingCenterPickListsSuccessResponse_result_callResults_callResult_inner(
                                 id = '2', 
                                 name = 'Unknown', )
                             ], ), ),

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID unit test stubs"""
@@ -35,21 +35,21 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInner
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyPropertyInnerPropertyID(
-                identification = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Identification(
+                identification = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_identification.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Identification(
                     id_value = '1234', ),
                 marketing_name = 'ZOMBIES',
                 legal_name = 'ZOMBIES',
                 web_site = 'http://testrentreminderlobby.prospectportal.com',
-                address = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_address.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Address(
+                address = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_address.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Address(
                     city = 'Provo', 
                     state = 'UT', 
                     postal_code = '84601', 
                     country = 'US', ),
                 phone = [
-                    openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner(
+                    entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner(
                         phone_description = 'Office', 
                         phone_number = '190018000', 
-                        @attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_property_inner_property_id_phone_inner__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Property_inner_PropertyID_Phone_inner__attributes(
                             phone_type = 'office', ), )
                     ]
             )

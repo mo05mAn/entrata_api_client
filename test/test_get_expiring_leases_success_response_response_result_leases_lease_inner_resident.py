@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident import GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident
+from entrata_api_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident import GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident
 
 class TestGetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident(unittest.TestCase):
     """GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident unit test stubs"""
@@ -35,12 +35,12 @@ class TestGetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident
         model = GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident()
         if include_optional:
             return GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident(
-                attributes = openapi_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident__attributes.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident__attributes(
+                attributes = entrata_api_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident__attributes.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident__attributes(
                     id = 4940016, ),
                 name = 'Sample Name',
                 phone_number = '1234567891',
                 email_address = 'sample_name@example.com',
-                address = openapi_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident_address.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident_Address(
+                address = entrata_api_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident_address.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident_Address(
                     street_line1 = 'Street Line1', 
                     street_line2 = 'Street Line1', 
                     city = 'City Name', 
@@ -49,11 +49,11 @@ class TestGetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident
             )
         else:
             return GetExpiringLeasesSuccessResponseResponseResultLeasesLeaseInnerResident(
-                attributes = openapi_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident__attributes.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident__attributes(
+                attributes = entrata_api_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident__attributes.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident__attributes(
                     id = 4940016, ),
                 name = 'Sample Name',
                 phone_number = '1234567891',
-                address = openapi_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident_address.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident_Address(
+                address = entrata_api_client.models.get_expiring_leases_success_response_response_result_leases_lease_inner_resident_address.getExpiringLeasesSuccessResponse_response_result_Leases_Lease_inner_Resident_Address(
                     street_line1 = 'Street Line1', 
                     street_line2 = 'Street Line1', 
                     city = 'City Name', 

@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayersPayerInner
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInnerPayersPayerInner
 from typing import Optional, Set
 from typing_extensions import Self
 

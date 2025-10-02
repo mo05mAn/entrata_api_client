@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty
+from entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property import GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty
 
 class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty(unittest.TestCase):
     """GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty unit test stubs"""
@@ -35,42 +35,42 @@ class TestGetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProper
         model = GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty()
         if include_optional:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty(
-                identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
+                identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
                     id_value = '42420', 
                     organization_name = '651', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                         id_type = 'Property ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), ),
                 marketing_name = 'AuraCorp2 - Crystal',
-                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
+                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
                     description = 'Primary address', 
                     address = '500 S, 100 W, 100k', 
                     city = 'Provo', 
                     state = 'UT', 
                     postal_code = '84601', 
                     country = 'US', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                         address_type = 'other', ), )
             )
         else:
             return GetRentersInsurancePoliciesSuccessResponseResultLeaseApplicationProperty(
-                identification = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
+                identification = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification(
                     id_value = '42420', 
                     organization_name = '651', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_identification__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Identification__attributes(
                         id_type = 'Property ID', 
                         id_rank = 'primary', 
                         id_scope_type = 'sender', ), ),
                 marketing_name = 'AuraCorp2 - Crystal',
-                address = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
+                address = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address(
                     description = 'Primary address', 
                     address = '500 S, 100 W, 100k', 
                     city = 'Provo', 
                     state = 'UT', 
                     postal_code = '84601', 
                     country = 'US', 
-                    @attributes = openapi_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
+                    @attributes = entrata_api_client.models.get_renters_insurance_policies_success_response_result_lease_application_property_address__attributes.getRentersInsurancePoliciesSuccessResponse_result_LeaseApplication_Property_Address__attributes(
                         address_type = 'other', ), ),
         )
         """

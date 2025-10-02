@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_job_cost_budgets_method import GetJobCostBudgetsMethod
+from entrata_api_client.models.get_job_cost_budgets_method import GetJobCostBudgetsMethod
 
 class TestGetJobCostBudgetsMethod(unittest.TestCase):
     """GetJobCostBudgetsMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetJobCostBudgetsMethod(unittest.TestCase):
             return GetJobCostBudgetsMethod(
                 name = 'getJobCostBudgets',
                 version = 'r1',
-                params = openapi_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
+                params = entrata_api_client.models.get_job_cost_budgets_method_params.getJobCostBudgets_method_params(
                     property_ids = 56, 
                     job_ids = 56, 
                     job_status_ids = 56, 

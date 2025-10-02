@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner
+from entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner import GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner
 
 class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner(unittest.TestCase):
     """GetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner unit test stubs"""
@@ -56,9 +56,9 @@ class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner(uni
                 invoice_type = 'Standard',
                 invoice_sub_total = '1099',
                 total_tax_amount = 44,
-                ar_transactions = openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions(
+                ar_transactions = entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions(
                     ar_transaction = [
-                        openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner(
+                        entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner(
                             id = 12345, 
                             ar_code_id = 215681, 
                             ar_code_name = '00Rent0308', 
@@ -68,9 +68,9 @@ class TestGetArInvoicesSuccessResponseResponseResultArInvoicesArInvoiceInner(uni
                             due_date = '2020-10-01', 
                             from_date = '2020-10-01', 
                             to_date = '2020-10-01', 
-                            ar_payments = openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments(
+                            ar_payments = entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments(
                                 ar_payment = [
-                                    openapi_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
+                                    entrata_api_client.models.get_ar_invoices_success_response_response_result_ar_invoices_ar_invoice_inner_ar_transactions_ar_transaction_inner_ar_payments_ar_payment_inner.getArInvoicesSuccessResponse_response_result_arInvoices_arInvoice_inner_arTransactions_arTransaction_inner_arPayments_arPayment_inner(
                                         ar_payment_id = 12345, 
                                         payment_amount = 120, 
                                         payment_date = '2020-04-23', 

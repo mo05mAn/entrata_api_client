@@ -17,11 +17,11 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_pricing_picklists_success_response import GetPricingPicklistsSuccessResponse
-from openapi_client.models.get_property_fees_success_response import GetPropertyFeesSuccessResponse
-from openapi_client.models.insert_pricing_r2_success_response import InsertPricingR2SuccessResponse
-from openapi_client.models.insert_pricing_success_response import InsertPricingSuccessResponse
-from openapi_client.models.send_budgeted_rent_success_response import SendBudgetedRentSuccessResponse
+from entrata_api_client.models.get_pricing_picklists_success_response import GetPricingPicklistsSuccessResponse
+from entrata_api_client.models.get_property_fees_success_response import GetPropertyFeesSuccessResponse
+from entrata_api_client.models.insert_pricing_r2_success_response import InsertPricingR2SuccessResponse
+from entrata_api_client.models.insert_pricing_success_response import InsertPricingSuccessResponse
+from entrata_api_client.models.send_budgeted_rent_success_response import SendBudgetedRentSuccessResponse
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

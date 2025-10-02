@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_invoices import GetArInvoices
+from entrata_api_client.models.get_ar_invoices import GetArInvoices
 
 class TestGetArInvoices(unittest.TestCase):
     """GetArInvoices unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetArInvoices(unittest.TestCase):
         model = GetArInvoices()
         if include_optional:
             return GetArInvoices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_ar_invoices_method.getArInvoices_method(
+                method = entrata_api_client.models.get_ar_invoices_method.getArInvoices_method(
                     name = 'getArInvoices', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
+                    params = entrata_api_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
                         property_id = 123456, 
                         lease_ids = '123456', 
                         ar_invoice_id = 123456, 
@@ -50,12 +50,12 @@ class TestGetArInvoices(unittest.TestCase):
             )
         else:
             return GetArInvoices(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_ar_invoices_method.getArInvoices_method(
+                method = entrata_api_client.models.get_ar_invoices_method.getArInvoices_method(
                     name = 'getArInvoices', 
                     version = 'r1', 
-                    params = openapi_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
+                    params = entrata_api_client.models.get_ar_invoices_method_params.getArInvoices_method_params(
                         property_id = 123456, 
                         lease_ids = '123456', 
                         ar_invoice_id = 123456, 

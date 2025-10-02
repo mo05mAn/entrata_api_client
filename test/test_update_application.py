@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_application import UpdateApplication
+from entrata_api_client.models.update_application import UpdateApplication
 
 class TestUpdateApplication(unittest.TestCase):
     """UpdateApplication unit test stubs"""
@@ -35,13 +35,13 @@ class TestUpdateApplication(unittest.TestCase):
         model = UpdateApplication()
         if include_optional:
             return UpdateApplication(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_application_method.updateApplication_method(
+                method = entrata_api_client.models.update_application_method.updateApplication_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_application_method_params.updateApplication_method_params(
+                    params = entrata_api_client.models.update_application_method_params.updateApplication_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         application_status_id = 3, 
@@ -71,12 +71,12 @@ class TestUpdateApplication(unittest.TestCase):
             )
         else:
             return UpdateApplication(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_application_method.updateApplication_method(
+                method = entrata_api_client.models.update_application_method.updateApplication_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_application_method_params.updateApplication_method_params(
+                    params = entrata_api_client.models.update_application_method_params.updateApplication_method_params(
                         application_id = 123456, 
                         property_id = 123456, 
                         application_status_id = 3, 

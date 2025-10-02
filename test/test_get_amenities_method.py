@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_method import GetAmenitiesMethod
+from entrata_api_client.models.get_amenities_method import GetAmenitiesMethod
 
 class TestGetAmenitiesMethod(unittest.TestCase):
     """GetAmenitiesMethod unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetAmenitiesMethod(unittest.TestCase):
             return GetAmenitiesMethod(
                 name = 'getAmenities',
                 version = 'r1',
-                params = openapi_client.models.get_amenities_method_params.getAmenities_method_params(
+                params = entrata_api_client.models.get_amenities_method_params.getAmenities_method_params(
                     property_id = 12345, 
                     unit_number = 1, 
                     charge_code_type_ids = '1,2,3', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee
+from entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee import GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee
 
 class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee(unittest.TestCase):
     """GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee unit test stubs"""
@@ -35,7 +35,7 @@ class TestGetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicatio
         model = GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee()
         if include_optional:
             return GetMitsPropertyUnitsSuccessResponseResultPhysicalPropertyFeeApplicationFee(
-                attributes = openapi_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee__attributes(
+                attributes = entrata_api_client.models.get_mits_property_units_success_response_result_physical_property_fee_application_fee__attributes.getMitsPropertyUnitsSuccessResponse_result_PhysicalProperty_Fee_ApplicationFee__attributes(
                     type = 'Primary Applicant', 
                     amount = '30', )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_method_params import GetSpecialsR1MethodParams
+from entrata_api_client.models.get_specials_r1_method_params import GetSpecialsR1MethodParams
 
 class TestGetSpecialsR1MethodParams(unittest.TestCase):
     """GetSpecialsR1MethodParams unit test stubs"""

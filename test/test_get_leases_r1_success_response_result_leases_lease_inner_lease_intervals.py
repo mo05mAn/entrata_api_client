@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals import GetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals
+from entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals import GetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals
 
 class TestGetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals(unittest.TestCase):
     """GetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals(unittes
         if include_optional:
             return GetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals(
                 lease_interval = [
-                    openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                    entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                         id = '123456', 
                         start_date = 'YYYY-MM-DD', 
                         end_date = 'YYYY-MM-DD', 
@@ -52,7 +52,7 @@ class TestGetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals(unittes
         else:
             return GetLeasesR1SuccessResponseResultLeasesLeaseInnerLeaseIntervals(
                 lease_interval = [
-                    openapi_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                    entrata_api_client.models.get_leases_r1_success_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r1_SuccessResponse_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                         id = '123456', 
                         start_date = 'YYYY-MM-DD', 
                         end_date = 'YYYY-MM-DD', 

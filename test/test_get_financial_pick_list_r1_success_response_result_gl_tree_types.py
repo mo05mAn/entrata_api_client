@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types import GetFinancialPickListR1SuccessResponseResultGlTreeTypes
+from entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types import GetFinancialPickListR1SuccessResponseResultGlTreeTypes
 
 class TestGetFinancialPickListR1SuccessResponseResultGlTreeTypes(unittest.TestCase):
     """GetFinancialPickListR1SuccessResponseResultGlTreeTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlTreeTypes(unittest.TestCa
         if include_optional:
             return GetFinancialPickListR1SuccessResponseResultGlTreeTypes(
                 gl_tree_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types_gl_tree_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTreeTypes_GlTreeType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types_gl_tree_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTreeTypes_GlTreeType_inner(
                         id = 1, 
                         name = 'Standard', )
                     ]
@@ -44,7 +44,7 @@ class TestGetFinancialPickListR1SuccessResponseResultGlTreeTypes(unittest.TestCa
         else:
             return GetFinancialPickListR1SuccessResponseResultGlTreeTypes(
                 gl_tree_type = [
-                    openapi_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types_gl_tree_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTreeTypes_GlTreeType_inner(
+                    entrata_api_client.models.get_financial_pick_list_r1_success_response_result_gl_tree_types_gl_tree_type_inner.getFinancialPickList_r1_SuccessResponse_result_GlTreeTypes_GlTreeType_inner(
                         id = 1, 
                         name = 'Standard', )
                     ],

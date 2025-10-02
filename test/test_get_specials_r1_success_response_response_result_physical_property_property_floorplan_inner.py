@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner
+from entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner import GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner
 
 class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner(unittest.TestCase):
     """GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloo
         model = GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner()
         if include_optional:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner(
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
                     id_value = 127493, ),
                 name = 'FP',
                 comment = 'FP',
                 concession = [
-                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
-                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
+                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                             active = 1, ), 
                         value = '100.00', 
                         description_header = 'Consession', 
@@ -51,13 +51,13 @@ class TestGetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloo
             )
         else:
             return GetSpecialsR1SuccessResponseResponseResultPhysicalPropertyPropertyFloorplanInner(
-                identification = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
+                identification = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_identification.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Identification(
                     id_value = 127493, ),
                 name = 'FP',
                 comment = 'FP',
                 concession = [
-                    openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
-                        @attributes = openapi_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
+                    entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_floorplan_inner_concession_inner.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Floorplan_inner_Concession_inner(
+                        @attributes = entrata_api_client.models.get_specials_r1_success_response_response_result_physical_property_property_concession_inner__attributes.getSpecials_r1_SuccessResponse_response_result_PhysicalProperty_Property_Concession_inner__attributes(
                             active = 1, ), 
                         value = '100.00', 
                         description_header = 'Consession', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInner
+from entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner import GetLeasesR2SuccessResponseResponseResultLeasesLeaseInner
 
 class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.TestCase):
     """GetLeasesR2SuccessResponseResponseResultLeasesLeaseInner unit test stubs"""
@@ -51,9 +51,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                 floor_plan_name = 'Three Bedroom',
                 payment_allowance_type = 'Allow All Payment Types',
                 space_configuration = 'Private',
-                customers = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers(
+                customers = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers(
                     customer = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
                             id = 31061984, 
                             customer_type = 'Primary', 
                             first_name = '12Dec1', 
@@ -63,9 +63,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             lease_customer_status = 'Future', 
                             move_in_date = '12/11/2019', 
                             move_out_date = '12/14/2019', 
-                            phones = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
+                            phones = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
                                 phone = [
-                                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                                         phone_type_name = 'Primary', 
                                         phone_type = 'personal', 
                                         phone_number = '+1 4564565464', 
@@ -76,15 +76,15 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             bankruptcy_note = '', )
                         ], ),
                 unit_id = '4486096',
-                unit_spaces = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces(
+                unit_spaces = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces(
                     unit_space = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
                             unit_space_id = 5219776, 
                             unit_space = 'AB1-J', )
                         ], ),
-                lease_intervals = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals(
+                lease_intervals = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals(
                     lease_interval = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                             id = '21917305', 
                             start_date = '12/11/2019', 
                             end_date = '12/14/2019', 
@@ -92,9 +92,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             lease_interval_type_name = 'Application', 
                             lease_interval_status_type_id = 3, 
                             interval_date_time = '01/31/2022 23:16:51.110301 MST', 
-                            applications = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
+                            applications = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
                                 application = [
-                                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
+                                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
                                         lease_term = 'Hospitality lease term', 
                                         lease_start_date = '12/11/2019', 
                                         lease_end_date = '12/14/2019', 
@@ -120,9 +120,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                 floor_plan_name = 'Three Bedroom',
                 payment_allowance_type = 'Allow All Payment Types',
                 space_configuration = 'Private',
-                customers = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers(
+                customers = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers(
                     customer = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner(
                             id = 31061984, 
                             customer_type = 'Primary', 
                             first_name = '12Dec1', 
@@ -132,9 +132,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             lease_customer_status = 'Future', 
                             move_in_date = '12/11/2019', 
                             move_out_date = '12/14/2019', 
-                            phones = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
+                            phones = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones(
                                 phone = [
-                                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
+                                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_customers_customer_inner_phones_phone_inner(
                                         phone_type_name = 'Primary', 
                                         phone_type = 'personal', 
                                         phone_number = '+1 4564565464', 
@@ -145,15 +145,15 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             bankruptcy_note = '', )
                         ], ),
                 unit_id = '4486096',
-                unit_spaces = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces(
+                unit_spaces = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces(
                     unit_space = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_unit_spaces_unit_space_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_unitSpaces_unitSpace_inner(
                             unit_space_id = 5219776, 
                             unit_space = 'AB1-J', )
                         ], ),
-                lease_intervals = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals(
+                lease_intervals = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals(
                     lease_interval = [
-                        openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
+                        entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner(
                             id = '21917305', 
                             start_date = '12/11/2019', 
                             end_date = '12/14/2019', 
@@ -161,9 +161,9 @@ class TestGetLeasesR2SuccessResponseResponseResultLeasesLeaseInner(unittest.Test
                             lease_interval_type_name = 'Application', 
                             lease_interval_status_type_id = 3, 
                             interval_date_time = '01/31/2022 23:16:51.110301 MST', 
-                            applications = openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
+                            applications = entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications(
                                 application = [
-                                    openapi_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
+                                    entrata_api_client.models.get_leases_r2_success_response_response_result_leases_lease_inner_lease_intervals_lease_interval_inner_applications_application_inner.getLeases_r2_SuccessResponse_response_result_leases_lease_inner_leaseIntervals_leaseInterval_inner_applications_application_inner(
                                         lease_term = 'Hospitality lease term', 
                                         lease_start_date = '12/11/2019', 
                                         lease_end_date = '12/14/2019', 

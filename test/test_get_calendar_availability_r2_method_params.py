@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_calendar_availability_r2_method_params import GetCalendarAvailabilityR2MethodParams
+from entrata_api_client.models.get_calendar_availability_r2_method_params import GetCalendarAvailabilityR2MethodParams
 
 class TestGetCalendarAvailabilityR2MethodParams(unittest.TestCase):
     """GetCalendarAvailabilityR2MethodParams unit test stubs"""

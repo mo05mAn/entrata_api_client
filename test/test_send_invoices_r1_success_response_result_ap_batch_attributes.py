@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_invoices_r1_success_response_result_ap_batch_attributes import SendInvoicesR1SuccessResponseResultApBatchAttributes
+from entrata_api_client.models.send_invoices_r1_success_response_result_ap_batch_attributes import SendInvoicesR1SuccessResponseResultApBatchAttributes
 
 class TestSendInvoicesR1SuccessResponseResultApBatchAttributes(unittest.TestCase):
     """SendInvoicesR1SuccessResponseResultApBatchAttributes unit test stubs"""

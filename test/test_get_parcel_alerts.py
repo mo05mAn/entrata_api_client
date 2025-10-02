@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_parcel_alerts import GetParcelAlerts
+from entrata_api_client.models.get_parcel_alerts import GetParcelAlerts
 
 class TestGetParcelAlerts(unittest.TestCase):
     """GetParcelAlerts unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetParcelAlerts(unittest.TestCase):
         model = GetParcelAlerts()
         if include_optional:
             return GetParcelAlerts(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_parcel_alerts_method.getParcelAlerts_method(
+                method = entrata_api_client.models.get_parcel_alerts_method.getParcelAlerts_method(
                     name = 'getParcelAlerts', 
                     version = 'r1', 
-                    params = openapi_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
+                    params = entrata_api_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         customer_id = 123456, 
@@ -49,12 +49,12 @@ class TestGetParcelAlerts(unittest.TestCase):
             )
         else:
             return GetParcelAlerts(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_parcel_alerts_method.getParcelAlerts_method(
+                method = entrata_api_client.models.get_parcel_alerts_method.getParcelAlerts_method(
                     name = 'getParcelAlerts', 
                     version = 'r1', 
-                    params = openapi_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
+                    params = entrata_api_client.models.get_parcel_alerts_method_params.getParcelAlerts_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         customer_id = 123456, 

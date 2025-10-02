@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_leads_r1 import UpdateLeadsR1
+from entrata_api_client.models.update_leads_r1 import UpdateLeadsR1
 
 class TestUpdateLeadsR1(unittest.TestCase):
     """UpdateLeadsR1 unit test stubs"""
@@ -35,24 +35,24 @@ class TestUpdateLeadsR1(unittest.TestCase):
         model = UpdateLeadsR1()
         if include_optional:
             return UpdateLeadsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_leads_r1_method.updateLeads_r1_method(
+                method = entrata_api_client.models.update_leads_r1_method.updateLeads_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_leads_r1_method_params.updateLeads_r1_method_params(
+                    params = entrata_api_client.models.update_leads_r1_method_params.updateLeads_r1_method_params(
                         property_id = 123456, 
                         application_id = 123, ), )
             )
         else:
             return UpdateLeadsR1(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_leads_r1_method.updateLeads_r1_method(
+                method = entrata_api_client.models.update_leads_r1_method.updateLeads_r1_method(
                     name = '', 
                     version = 'r1', 
-                    params = openapi_client.models.update_leads_r1_method_params.updateLeads_r1_method_params(
+                    params = entrata_api_client.models.update_leads_r1_method_params.updateLeads_r1_method_params(
                         property_id = 123456, 
                         application_id = 123, ), ),
         )

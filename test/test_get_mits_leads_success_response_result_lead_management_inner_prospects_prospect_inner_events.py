@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEvents
+from entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events import GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEvents
 
 class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEvents(unittest.TestCase):
     """GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEvents unit test stubs"""
@@ -36,23 +36,23 @@ class TestGetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectI
         if include_optional:
             return GetMitsLeadsSuccessResponseResultLeadManagementInnerProspectsProspectInnerEvents(
                 event = [
-                    openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner(
-                        event_id = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID(
+                    entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner(
+                        event_id = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID(
                             identification = [
-                                openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner(
+                                entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner(
                                     id_value = '147128113', 
-                                    @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner__attributes(
+                                    @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_event_id_identification_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_EventID_Identification_inner__attributes(
                                         id_type = 'Event Id', 
                                         id_scope_type = 'sender', ), )
                                 ], ), 
-                        agent = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent(
-                            agent_id = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID(), 
-                            agent_name = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_name.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentName(
+                        agent = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent(
+                            agent_id = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_id.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentID(), 
+                            agent_name = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner_agent_agent_name.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner_Agent_AgentName(
                                 first_name = 'testa', 
                                 last_name = 'ygyugu', ), ), 
                         comments = 'TestEast', 
                         event_reasons = 'Manual Contact added by Contact Points because Guest Card is submitted', 
-                        @attributes = openapi_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner__attributes(
+                        @attributes = entrata_api_client.models.get_mits_leads_success_response_result_lead_management_inner_prospects_prospect_inner_events_event_inner__attributes.getMitsLeadsSuccessResponse_result_LeadManagement_inner_Prospects_Prospect_inner_Events_Event_inner__attributes(
                             event_type = 'Appointment', 
                             event_date = '2019-02-20T08:10:27', ), )
                     ]

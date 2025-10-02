@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner import GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInner
+from entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner import GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInner
 
 class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInner(unittest.TestCase):
     """GetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerInner unit test stubs"""
@@ -48,9 +48,9 @@ class TestGetLeadsSuccessResponseResultProspectsProspectInnerCustomersCustomerIn
                 fax_phone_number = '1234567890',
                 email = 'EAMIL@EXAMPLE.LCL',
                 birth_date = 'YYYY-MM-DD',
-                addresses = openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
+                addresses = entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses(
                     address = [
-                        openapi_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
+                        entrata_api_client.models.get_leads_success_response_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner.getLeadsSuccessResponse_result_prospects_prospect_inner_customers_customer_inner_addresses_address_inner(
                             address_line = 'addressLine', 
                             city = 'CITY', 
                             state = 'GA', 

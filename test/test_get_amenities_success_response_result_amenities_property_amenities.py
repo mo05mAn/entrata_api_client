@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_amenities_success_response_result_amenities_property_amenities import GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities
+from entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities import GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities
 
 class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(unittest.TestCase):
     """GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities unit test stubs"""
@@ -36,14 +36,14 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(unittest.T
         if include_optional:
             return GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(
                 amenity = [
-                    openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner(
+                    entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner(
                         name = 'Property Amenity 1', 
                         image_url = 'https://medialibrarycdn.entrata.com/media_library/235/5b8f9615c76a41.21527630540.jpg', 
                         description = 'Property level Amenity', 
-                        rates = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates(
+                        rates = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates(
                             rate = [
-                                openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner(
-                                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
+                                entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner(
+                                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
                                         ar_code_id = '149655', 
                                         ar_code_type_id = '2', 
                                         charge_type_id = '302', 
@@ -53,7 +53,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(unittest.T
                                         lease_term_id = '18414', 
                                         lease_start_window_id = '12345', ), )
                                 ], ), 
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner__attributes(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner__attributes(
                             id = '11111', 
                             external_id = 'AmenityRPK', 
                             is_optional = '0', 
@@ -65,14 +65,14 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(unittest.T
         else:
             return GetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(
                 amenity = [
-                    openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner(
+                    entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner(
                         name = 'Property Amenity 1', 
                         image_url = 'https://medialibrarycdn.entrata.com/media_library/235/5b8f9615c76a41.21527630540.jpg', 
                         description = 'Property level Amenity', 
-                        rates = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates(
+                        rates = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates(
                             rate = [
-                                openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner(
-                                    @attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
+                                entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner(
+                                    @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner_rates_rate_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner_Rates_Rate_inner__attributes(
                                         ar_code_id = '149655', 
                                         ar_code_type_id = '2', 
                                         charge_type_id = '302', 
@@ -82,7 +82,7 @@ class TestGetAmenitiesSuccessResponseResultAmenitiesPropertyAmenities(unittest.T
                                         lease_term_id = '18414', 
                                         lease_start_window_id = '12345', ), )
                                 ], ), 
-                        @attributes = openapi_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner__attributes(
+                        @attributes = entrata_api_client.models.get_amenities_success_response_result_amenities_property_amenities_amenity_inner__attributes.getAmenitiesSuccessResponse_result_Amenities_PropertyAmenities_Amenity_inner__attributes(
                             id = '11111', 
                             external_id = 'AmenityRPK', 
                             is_optional = '0', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRent
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems(
                 rentable_item = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
                         id = 81449, 
                         name = 'TempGarage', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRent
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerRentableItems(
                 rentable_item = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_rentable_items_rentable_item_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_rentableItems_rentableItem_inner(
                         id = 81449, 
                         name = 'TempGarage', )
                     ],

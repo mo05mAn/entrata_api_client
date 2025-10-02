@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes
+from entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types import GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes
 
 class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes(unittest.TestCase):
     """GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnit
         if include_optional:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes(
                 unit_exclusion_reason_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
                         id = 2, 
                         name = 'Hospitality Unit', )
                     ]
@@ -44,7 +44,7 @@ class TestGetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnit
         else:
             return GetPropertyPickListsR2SuccessResponseResultPropertiesPropertyInnerUnitExclusionReasonTypes(
                 unit_exclusion_reason_type = [
-                    openapi_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
+                    entrata_api_client.models.get_property_pick_lists_r2_success_response_result_properties_property_inner_unit_exclusion_reason_types_unit_exclusion_reason_type_inner.getPropertyPickLists_r2_SuccessResponse_result_properties_property_inner_UnitExclusionReasonTypes_UnitExclusionReasonType_inner(
                         id = 2, 
                         name = 'Hospitality Unit', )
                     ],

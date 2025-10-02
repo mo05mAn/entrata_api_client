@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_ar_codes_success_response import GetArCodesSuccessResponse
+from entrata_api_client.models.get_ar_codes_success_response import GetArCodesSuccessResponse
 
 class TestGetArCodesSuccessResponse(unittest.TestCase):
     """GetArCodesSuccessResponse unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetArCodesSuccessResponse(unittest.TestCase):
         model = GetArCodesSuccessResponse()
         if include_optional:
             return GetArCodesSuccessResponse(
-                response = openapi_client.models.get_ar_codes_success_response_response.getArCodesSuccessResponse_response(
+                response = entrata_api_client.models.get_ar_codes_success_response_response.getArCodesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_ar_codes_success_response_response_result.getArCodesSuccessResponse_response_result(
-                        arcodes = openapi_client.models.get_ar_codes_success_response_response_result_arcodes.getArCodesSuccessResponse_response_result_arcodes(
+                    result = entrata_api_client.models.get_ar_codes_success_response_response_result.getArCodesSuccessResponse_response_result(
+                        arcodes = entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes.getArCodesSuccessResponse_response_result_arcodes(
                             arcode = [
-                                openapi_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
+                                entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
                                     id = 1, 
                                     code = 1, 
                                     name = 'Amber test', 
@@ -59,13 +59,13 @@ class TestGetArCodesSuccessResponse(unittest.TestCase):
             )
         else:
             return GetArCodesSuccessResponse(
-                response = openapi_client.models.get_ar_codes_success_response_response.getArCodesSuccessResponse_response(
+                response = entrata_api_client.models.get_ar_codes_success_response_response.getArCodesSuccessResponse_response(
                     request_id = '15', 
                     code = 200, 
-                    result = openapi_client.models.get_ar_codes_success_response_response_result.getArCodesSuccessResponse_response_result(
-                        arcodes = openapi_client.models.get_ar_codes_success_response_response_result_arcodes.getArCodesSuccessResponse_response_result_arcodes(
+                    result = entrata_api_client.models.get_ar_codes_success_response_response_result.getArCodesSuccessResponse_response_result(
+                        arcodes = entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes.getArCodesSuccessResponse_response_result_arcodes(
                             arcode = [
-                                openapi_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
+                                entrata_api_client.models.get_ar_codes_success_response_response_result_arcodes_arcode_inner.getArCodesSuccessResponse_response_result_arcodes_arcode_inner(
                                     id = 1, 
                                     code = 1, 
                                     name = 'Amber test', 

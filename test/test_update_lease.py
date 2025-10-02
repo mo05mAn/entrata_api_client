@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.update_lease import UpdateLease
+from entrata_api_client.models.update_lease import UpdateLease
 
 class TestUpdateLease(unittest.TestCase):
     """UpdateLease unit test stubs"""
@@ -35,20 +35,20 @@ class TestUpdateLease(unittest.TestCase):
         model = UpdateLease()
         if include_optional:
             return UpdateLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.update_lease_method.updateLease_method(
+                method = entrata_api_client.models.update_lease_method.updateLease_method(
                     name = 'updateLease', 
                     version = 'r1', 
-                    params = openapi_client.models.update_lease_method_params.updateLease_method_params(
+                    params = entrata_api_client.models.update_lease_method_params.updateLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         unit_space_id = 12345, 
                         move_in_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
-                        occupants = openapi_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
+                        occupants = entrata_api_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
                             occupant = [
-                                openapi_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
+                                entrata_api_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
                                     first_name = 'ABC', 
                                     last_name = 'ABC', )
                                 ], ), 
@@ -56,19 +56,19 @@ class TestUpdateLease(unittest.TestCase):
             )
         else:
             return UpdateLease(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.update_lease_method.updateLease_method(
+                method = entrata_api_client.models.update_lease_method.updateLease_method(
                     name = 'updateLease', 
                     version = 'r1', 
-                    params = openapi_client.models.update_lease_method_params.updateLease_method_params(
+                    params = entrata_api_client.models.update_lease_method_params.updateLease_method_params(
                         property_id = 123456, 
                         lease_id = 123456, 
                         unit_space_id = 12345, 
                         move_in_date = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
-                        occupants = openapi_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
+                        occupants = entrata_api_client.models.update_lease_method_params_occupants.updateLease_method_params_occupants(
                             occupant = [
-                                openapi_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
+                                entrata_api_client.models.update_lease_method_params_occupants_occupant_inner.updateLease_method_params_occupants_occupant_inner(
                                     first_name = 'ABC', 
                                     last_name = 'ABC', )
                                 ], ), 

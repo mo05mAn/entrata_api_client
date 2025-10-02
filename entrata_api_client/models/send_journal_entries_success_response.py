@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.send_journal_entries_success_response_result import SendJournalEntriesSuccessResponseResult
+from entrata_api_client.models.send_journal_entries_success_response_result import SendJournalEntriesSuccessResponseResult
 from typing import Optional, Set
 from typing_extensions import Self
 

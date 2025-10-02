@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_vendors_success_response_result_vendors_vendor_inner_attributes import SendVendorsSuccessResponseResultVendorsVendorInnerAttributes
+from entrata_api_client.models.send_vendors_success_response_result_vendors_vendor_inner_attributes import SendVendorsSuccessResponseResultVendorsVendorInnerAttributes
 
 class TestSendVendorsSuccessResponseResultVendorsVendorInnerAttributes(unittest.TestCase):
     """SendVendorsSuccessResponseResultVendorsVendorInnerAttributes unit test stubs"""

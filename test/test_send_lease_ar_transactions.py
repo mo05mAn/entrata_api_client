@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_lease_ar_transactions import SendLeaseArTransactions
+from entrata_api_client.models.send_lease_ar_transactions import SendLeaseArTransactions
 
 class TestSendLeaseArTransactions(unittest.TestCase):
     """SendLeaseArTransactions unit test stubs"""
@@ -35,13 +35,13 @@ class TestSendLeaseArTransactions(unittest.TestCase):
         model = SendLeaseArTransactions()
         if include_optional:
             return SendLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.send_lease_ar_transactions_method.sendLeaseArTransactions_method(
+                method = entrata_api_client.models.send_lease_ar_transactions_method.sendLeaseArTransactions_method(
                     name = 'sendLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
                         transaction_id = 1234, 
                         lease_id = 2342, 
                         ar_code_id = 11, 
@@ -51,12 +51,12 @@ class TestSendLeaseArTransactions(unittest.TestCase):
             )
         else:
             return SendLeaseArTransactions(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_lease_ar_transactions_method.sendLeaseArTransactions_method(
+                method = entrata_api_client.models.send_lease_ar_transactions_method.sendLeaseArTransactions_method(
                     name = 'sendLeaseArTransactions', 
                     version = 'r1', 
-                    params = openapi_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
+                    params = entrata_api_client.models.send_lease_ar_transactions_method_params.sendLeaseArTransactions_method_params(
                         transaction_id = 1234, 
                         lease_id = 2342, 
                         ar_code_id = 11, 

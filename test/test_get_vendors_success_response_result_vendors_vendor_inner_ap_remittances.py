@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances import GetVendorsSuccessResponseResultVendorsVendorInnerApRemittances
+from entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances import GetVendorsSuccessResponseResultVendorsVendorInnerApRemittances
 
 class TestGetVendorsSuccessResponseResultVendorsVendorInnerApRemittances(unittest.TestCase):
     """GetVendorsSuccessResponseResultVendorsVendorInnerApRemittances unit test stubs"""
@@ -36,7 +36,7 @@ class TestGetVendorsSuccessResponseResultVendorsVendorInnerApRemittances(unittes
         if include_optional:
             return GetVendorsSuccessResponseResultVendorsVendorInnerApRemittances(
                 ap_remittance = [
-                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances_ap_remittance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances_apRemittance_inner(
+                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances_ap_remittance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances_apRemittance_inner(
                         id = '5433', 
                         name = 'Check Name', 
                         ap_payment_type_id = '5', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types import GetVendorPickListsSuccessResponseResultBankAccountTypes
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types import GetVendorPickListsSuccessResponseResultBankAccountTypes
 
 class TestGetVendorPickListsSuccessResponseResultBankAccountTypes(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultBankAccountTypes unit test stubs"""
@@ -36,8 +36,8 @@ class TestGetVendorPickListsSuccessResponseResultBankAccountTypes(unittest.TestC
         if include_optional:
             return GetVendorPickListsSuccessResponseResultBankAccountTypes(
                 bank_account_type = [
-                    openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
-                        @attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
+                    entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner(
+                        @attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_bank_account_types_bank_account_type_inner__attributes.getVendorPickListsSuccessResponse_result_bankAccountTypes_bankAccountType_inner__attributes(
                             id = '1', 
                             name = 'Business Checking', ), )
                     ]

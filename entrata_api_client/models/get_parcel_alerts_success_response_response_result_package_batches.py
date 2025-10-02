@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner import GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInner
+from entrata_api_client.models.get_parcel_alerts_success_response_response_result_package_batches_package_batch_inner import GetParcelAlertsSuccessResponseResponseResultPackageBatchesPackageBatchInner
 from typing import Optional, Set
 from typing_extensions import Self
 

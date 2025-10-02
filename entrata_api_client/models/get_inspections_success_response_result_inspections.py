@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.get_inspections_success_response_result_inspections_inspection_inner import GetInspectionsSuccessResponseResultInspectionsInspectionInner
+from entrata_api_client.models.get_inspections_success_response_result_inspections_inspection_inner import GetInspectionsSuccessResponseResultInspectionsInspectionInner
 from typing import Optional, Set
 from typing_extensions import Self
 

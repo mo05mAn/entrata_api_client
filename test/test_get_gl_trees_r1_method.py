@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_gl_trees_r1_method import GetGlTreesR1Method
+from entrata_api_client.models.get_gl_trees_r1_method import GetGlTreesR1Method
 
 class TestGetGlTreesR1Method(unittest.TestCase):
     """GetGlTreesR1Method unit test stubs"""
@@ -37,7 +37,7 @@ class TestGetGlTreesR1Method(unittest.TestCase):
             return GetGlTreesR1Method(
                 name = 'getGlTrees',
                 version = 'r1',
-                params = openapi_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
+                params = entrata_api_client.models.get_gl_trees_r1_method_params.getGlTrees_r1_method_params(
                     property_id = 123456, 
                     gl_tree_id = 1234, 
                     gl_branch_id = 1234, 

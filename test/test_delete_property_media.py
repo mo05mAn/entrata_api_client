@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.delete_property_media import DeletePropertyMedia
+from entrata_api_client.models.delete_property_media import DeletePropertyMedia
 
 class TestDeletePropertyMedia(unittest.TestCase):
     """DeletePropertyMedia unit test stubs"""
@@ -35,24 +35,24 @@ class TestDeletePropertyMedia(unittest.TestCase):
         model = DeletePropertyMedia()
         if include_optional:
             return DeletePropertyMedia(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
                 request_id = '1002',
-                method = openapi_client.models.delete_property_media_method.deletePropertyMedia_method(
+                method = entrata_api_client.models.delete_property_media_method.deletePropertyMedia_method(
                     name = 'deletePropertyMedia', 
                     version = 'r1', 
-                    params = openapi_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
+                    params = entrata_api_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
                         property_id = '999999', 
                         id = '555555', ), )
             )
         else:
             return DeletePropertyMedia(
-                auth = openapi_client.models.update_property_media_auth.updatePropertyMedia_auth(
+                auth = entrata_api_client.models.update_property_media_auth.updatePropertyMedia_auth(
                     type = 'basic', ),
-                method = openapi_client.models.delete_property_media_method.deletePropertyMedia_method(
+                method = entrata_api_client.models.delete_property_media_method.deletePropertyMedia_method(
                     name = 'deletePropertyMedia', 
                     version = 'r1', 
-                    params = openapi_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
+                    params = entrata_api_client.models.delete_property_media_method_params.deletePropertyMedia_method_params(
                         property_id = '999999', 
                         id = '555555', ), ),
         )

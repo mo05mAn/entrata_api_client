@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner import GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner
+from entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner import GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner
 
 class TestGetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner(unittest.TestCase):
     """GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner unit test stubs"""
@@ -35,13 +35,13 @@ class TestGetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatus
         model = GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner()
         if include_optional:
             return GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
                     id = '1', 
                     name = 'Active', )
             )
         else:
             return GetVendorPickListsSuccessResponseResultApPayeeStatusTypesApPayeeStatusTypeInner(
-                attributes = openapi_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
+                attributes = entrata_api_client.models.get_vendor_pick_lists_success_response_result_ap_payee_status_types_ap_payee_status_type_inner__attributes.getVendorPickListsSuccessResponse_result_apPayeeStatusTypes_apPayeeStatusType_inner__attributes(
                     id = '1', 
                     name = 'Active', ),
         )

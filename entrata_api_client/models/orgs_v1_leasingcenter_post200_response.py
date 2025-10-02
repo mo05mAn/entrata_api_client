@@ -17,8 +17,8 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.get_call_logs_success_response import GetCallLogsSuccessResponse
-from openapi_client.models.get_leasing_center_pick_lists_success_response import GetLeasingCenterPickListsSuccessResponse
+from entrata_api_client.models.get_call_logs_success_response import GetCallLogsSuccessResponse
+from entrata_api_client.models.get_leasing_center_pick_lists_success_response import GetLeasingCenterPickListsSuccessResponse
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

@@ -18,12 +18,12 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.get_status import GetStatus
-from openapi_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
+from entrata_api_client.models.get_status import GetStatus
+from entrata_api_client.models.orgs_v1_status_post200_response import OrgsV1StatusPost200Response
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from entrata_api_client.api_client import ApiClient, RequestSerialized
+from entrata_api_client.api_response import ApiResponse
+from entrata_api_client.rest import RESTResponseType
 
 
 class StatusApi:

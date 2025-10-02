@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner import GetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner
+from entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner import GetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner
 
 class TestGetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner(unittest.TestCase):
     """GetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner unit test stubs"""
@@ -36,9 +36,9 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner(un
         if include_optional:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner(
                 identification = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
                         id_value = '5424549', 
-                        @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
+                        @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
                             id_type = 'Lease Id', 
                             id_rank = 'primary', 
                             id_scope_type = 'sender', 
@@ -49,9 +49,9 @@ class TestGetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner(un
         else:
             return GetCustomersSuccessResponseResultCustomersCustomerInnerLeaseIdInner(
                 identification = [
-                    openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
+                    entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner(
                         id_value = '5424549', 
-                        @attributes = openapi_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
+                        @attributes = entrata_api_client.models.get_customers_success_response_result_customers_customer_inner_lease_id_inner_identification_inner__attributes.getCustomersSuccessResponse_result_Customers_Customer_inner_LeaseId_inner_Identification_inner__attributes(
                             id_type = 'Lease Id', 
                             id_rank = 'primary', 
                             id_scope_type = 'sender', 

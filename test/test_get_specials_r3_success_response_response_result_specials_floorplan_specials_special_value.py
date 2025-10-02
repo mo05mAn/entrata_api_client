@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValue
+from entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value import GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValue
 
 class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValue(unittest.TestCase):
     """GetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpecialValue unit test stubs"""
@@ -43,9 +43,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpe
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '200.00',
-                floorplans = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
+                floorplans = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
                     floorplan = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                             id = '935877', 
                             name = 'Catch All Floor Plan', )
                         ], )
@@ -60,9 +60,9 @@ class TestGetSpecialsR3SuccessResponseResponseResultSpecialsFloorplanSpecialsSpe
                 show_on_website = 1,
                 is_active = 1,
                 gift_value = '200.00',
-                floorplans = openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
+                floorplans = entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans(
                     floorplan = [
-                        openapi_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
+                        entrata_api_client.models.get_specials_r3_success_response_response_result_specials_floorplan_specials_special_value_floorplans_floorplan_inner.getSpecials_r3_SuccessResponse_response_result_specials_floorplanSpecials_special_value_floorplans_floorplan_inner(
                             id = '935877', 
                             name = 'Catch All Floor Plan', )
                         ], ),

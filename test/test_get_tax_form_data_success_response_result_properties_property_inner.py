@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInner
+from entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner import GetTaxFormDataSuccessResponseResultPropertiesPropertyInner
 
 class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.TestCase):
     """GetTaxFormDataSuccessResponseResultPropertiesPropertyInner unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.Te
         model = GetTaxFormDataSuccessResponseResultPropertiesPropertyInner()
         if include_optional:
             return GetTaxFormDataSuccessResponseResultPropertiesPropertyInner(
-                vendors = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors(
+                vendors = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors(
                     vendor = [
-                        openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
+                        entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
                             vendor_id = '68050', 
                             vendor_type = 'Individual', 
                             vendor_tin_type = '2', 
@@ -50,14 +50,14 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.Te
                             vendor_state = 'Marshall Islands', 
                             vendor_zip_code = '84601', 
                             form_type = '1099 - MISC', 
-                            form1099_boxes = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
-                                form1099_box = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
+                            form1099_boxes = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
+                                form1099_box = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
                                     box_number = '1', 
                                     box_value = '13', ), ), )
                         ], ),
-                payers = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers(
+                payers = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers(
                     payer = [
-                        openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
+                        entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
                             payer_type = 'Business', 
                             payer_tin_type = '1', 
                             payer_tin = '65-1111111', 
@@ -67,15 +67,15 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.Te
                             payer_state = 'Utah', 
                             payer_zip_code = '84043', )
                         ], ),
-                attributes = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner__attributes.getTaxFormDataSuccessResponse_result_Properties_property_inner__attributes(
+                attributes = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner__attributes.getTaxFormDataSuccessResponse_result_Properties_property_inner__attributes(
                     is_company_level = '0', ),
                 id = '1234'
             )
         else:
             return GetTaxFormDataSuccessResponseResultPropertiesPropertyInner(
-                vendors = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors(
+                vendors = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors(
                     vendor = [
-                        openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
+                        entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner(
                             vendor_id = '68050', 
                             vendor_type = 'Individual', 
                             vendor_tin_type = '2', 
@@ -88,14 +88,14 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.Te
                             vendor_state = 'Marshall Islands', 
                             vendor_zip_code = '84601', 
                             form_type = '1099 - MISC', 
-                            form1099_boxes = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
-                                form1099_box = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
+                            form1099_boxes = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes(
+                                form1099_box = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_vendors_vendor_inner_form1099_boxes_form1099_box.getTaxFormDataSuccessResponse_result_Properties_property_inner_vendors_vendor_inner_form1099Boxes_form1099Box(
                                     box_number = '1', 
                                     box_value = '13', ), ), )
                         ], ),
-                payers = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers(
+                payers = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers(
                     payer = [
-                        openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
+                        entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner_payers_payer_inner.getTaxFormDataSuccessResponse_result_Properties_property_inner_payers_payer_inner(
                             payer_type = 'Business', 
                             payer_tin_type = '1', 
                             payer_tin = '65-1111111', 
@@ -105,7 +105,7 @@ class TestGetTaxFormDataSuccessResponseResultPropertiesPropertyInner(unittest.Te
                             payer_state = 'Utah', 
                             payer_zip_code = '84043', )
                         ], ),
-                attributes = openapi_client.models.get_tax_form_data_success_response_result_properties_property_inner__attributes.getTaxFormDataSuccessResponse_result_Properties_property_inner__attributes(
+                attributes = entrata_api_client.models.get_tax_form_data_success_response_result_properties_property_inner__attributes.getTaxFormDataSuccessResponse_result_Properties_property_inner__attributes(
                     is_company_level = '0', ),
         )
         """

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_testimonial_pick_lists import GetTestimonialPickLists
+from entrata_api_client.models.get_testimonial_pick_lists import GetTestimonialPickLists
 
 class TestGetTestimonialPickLists(unittest.TestCase):
     """GetTestimonialPickLists unit test stubs"""
@@ -35,18 +35,18 @@ class TestGetTestimonialPickLists(unittest.TestCase):
         model = GetTestimonialPickLists()
         if include_optional:
             return GetTestimonialPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '',
-                method = openapi_client.models.get_testimonial_pick_lists_method.getTestimonialPickLists_method(
+                method = entrata_api_client.models.get_testimonial_pick_lists_method.getTestimonialPickLists_method(
                     name = 'getTestimonialPickLists', 
                     version = 'r1', )
             )
         else:
             return GetTestimonialPickLists(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.get_testimonial_pick_lists_method.getTestimonialPickLists_method(
+                method = entrata_api_client.models.get_testimonial_pick_lists_method.getTestimonialPickLists_method(
                     name = 'getTestimonialPickLists', 
                     version = 'r1', ),
         )

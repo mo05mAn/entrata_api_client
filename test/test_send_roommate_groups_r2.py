@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.send_roommate_groups_r2 import SendRoommateGroupsR2
+from entrata_api_client.models.send_roommate_groups_r2 import SendRoommateGroupsR2
 
 class TestSendRoommateGroupsR2(unittest.TestCase):
     """SendRoommateGroupsR2 unit test stubs"""
@@ -35,31 +35,31 @@ class TestSendRoommateGroupsR2(unittest.TestCase):
         model = SendRoommateGroupsR2()
         if include_optional:
             return SendRoommateGroupsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
                 request_id = '15',
-                method = openapi_client.models.send_roommate_groups_r2_method.sendRoommateGroups_r2_method(
+                method = entrata_api_client.models.send_roommate_groups_r2_method.sendRoommateGroups_r2_method(
                     name = 'sendRoommateGroups', 
                     version = 'r2', 
-                    params = openapi_client.models.send_roommate_groups_r2_method_params.sendRoommateGroups_r2_method_params(
-                        roommate_groups = openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
+                    params = entrata_api_client.models.send_roommate_groups_r2_method_params.sendRoommateGroups_r2_method_params(
+                        roommate_groups = entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
                             roommate_group = [
-                                openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
+                                entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
                                     invitor_application_id = 12345678, 
                                     invitee_application_id = null, )
                                 ], ), ), )
             )
         else:
             return SendRoommateGroupsR2(
-                auth = openapi_client.models.request_body_auth.requestBody_auth(
+                auth = entrata_api_client.models.request_body_auth.requestBody_auth(
                     type = 'apikey', ),
-                method = openapi_client.models.send_roommate_groups_r2_method.sendRoommateGroups_r2_method(
+                method = entrata_api_client.models.send_roommate_groups_r2_method.sendRoommateGroups_r2_method(
                     name = 'sendRoommateGroups', 
                     version = 'r2', 
-                    params = openapi_client.models.send_roommate_groups_r2_method_params.sendRoommateGroups_r2_method_params(
-                        roommate_groups = openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
+                    params = entrata_api_client.models.send_roommate_groups_r2_method_params.sendRoommateGroups_r2_method_params(
+                        roommate_groups = entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups.sendRoommateGroups_r2_method_params_roommateGroups(
                             roommate_group = [
-                                openapi_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
+                                entrata_api_client.models.send_roommate_groups_r2_method_params_roommate_groups_roommate_group_inner.sendRoommateGroups_r2_method_params_roommateGroups_roommateGroup_inner(
                                     invitor_application_id = 12345678, 
                                     invitee_application_id = null, )
                                 ], ), ), ),

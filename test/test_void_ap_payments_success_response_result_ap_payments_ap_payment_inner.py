@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner import VoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner
+from entrata_api_client.models.void_ap_payments_success_response_result_ap_payments_ap_payment_inner import VoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner
 
 class TestVoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner(unittest.TestCase):
     """VoidApPaymentsSuccessResponseResultApPaymentsApPaymentInner unit test stubs"""

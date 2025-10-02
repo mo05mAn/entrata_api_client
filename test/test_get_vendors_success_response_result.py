@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_vendors_success_response_result import GetVendorsSuccessResponseResult
+from entrata_api_client.models.get_vendors_success_response_result import GetVendorsSuccessResponseResult
 
 class TestGetVendorsSuccessResponseResult(unittest.TestCase):
     """GetVendorsSuccessResponseResult unit test stubs"""
@@ -35,9 +35,9 @@ class TestGetVendorsSuccessResponseResult(unittest.TestCase):
         model = GetVendorsSuccessResponseResult()
         if include_optional:
             return GetVendorsSuccessResponseResult(
-                vendors = openapi_client.models.get_vendors_success_response_result_vendors.getVendorsSuccessResponse_result_vendors(
+                vendors = entrata_api_client.models.get_vendors_success_response_result_vendors.getVendorsSuccessResponse_result_vendors(
                     vendor = [
-                        openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner.getVendorsSuccessResponse_result_vendors_vendor_inner(
+                        entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner.getVendorsSuccessResponse_result_vendors_vendor_inner(
                             id = 'xxxx', 
                             vendor_name = '1st Choice Painting & Restoration, Inc.', 
                             vendor_type_id = '1', 
@@ -53,9 +53,9 @@ class TestGetVendorsSuccessResponseResult(unittest.TestCase):
                             vendor_category_type = 'Advertising', 
                             website = 'https://campusapartments.qapchikne.entrata.lcl', 
                             notes = 'Notes in Vendor Info', 
-                            legal_entities = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities(
+                            legal_entities = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities(
                                 legal_entity = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities_legal_entity_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities_legalEntity_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_legal_entities_legal_entity_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_legalEntities_legalEntity_inner(
                                         id = '3214', 
                                         name = 'NoTR', 
                                         tax_id_number = '333-22-4444', 
@@ -65,9 +65,9 @@ class TestGetVendorsSuccessResponseResult(unittest.TestCase):
                                         form1099_box_type_id = '2', 
                                         form1099_box_type = '2-Royalties', )
                                     ], ), 
-                            ap_remittances = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances(
+                            ap_remittances = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances(
                                 ap_remittance = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances_ap_remittance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances_apRemittance_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_ap_remittances_ap_remittance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_apRemittances_apRemittance_inner(
                                         id = '5433', 
                                         name = 'Check Name', 
                                         ap_payment_type_id = '5', 
@@ -76,9 +76,9 @@ class TestGetVendorsSuccessResponseResult(unittest.TestCase):
                                         check_account_type = 'Business Checking', 
                                         is_default = '1', )
                                     ], ), 
-                            contacts = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts(
+                            contacts = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts(
                                 contact = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts_contact_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts_contact_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_contacts_contact_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_contacts_contact_inner(
                                         id = '123654', 
                                         name_first = 'Max', 
                                         name_last = 'Collins', 
@@ -86,27 +86,27 @@ class TestGetVendorsSuccessResponseResult(unittest.TestCase):
                                         phone = '3214567894', 
                                         position = 'Head', )
                                     ], ), 
-                            locations = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations.getVendorsSuccessResponse_result_vendors_vendor_inner_locations(
+                            locations = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations.getVendorsSuccessResponse_result_vendors_vendor_inner_locations(
                                 location = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations_location_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_locations_location_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_locations_location_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_locations_location_inner(
                                         id = '26685', 
                                         name = 'Corporate', 
                                         vendor_code = 'MangoCode', 
                                         is_primary = 't', 
                                         property_ids = '264438,264439,264461', )
                                     ], ), 
-                            compliances = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances(
+                            compliances = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances(
                                 compliance = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances_compliance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances_compliance_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_compliances_compliance_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_compliances_compliance_inner(
                                         legal_entity_id = '123456', 
                                         legal_entity = 'legalEntityName', 
                                         property_id = '1234', 
                                         status_id = '5', 
                                         status = 'Compliant', )
                                     ], ), 
-                            accounts = openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts(
+                            accounts = entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts(
                                 account = [
-                                    openapi_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts_account_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts_account_inner(
+                                    entrata_api_client.models.get_vendors_success_response_result_vendors_vendor_inner_accounts_account_inner.getVendorsSuccessResponse_result_vendors_vendor_inner_accounts_account_inner(
                                         account_id = '123456', 
                                         account_number = '123456', 
                                         description = 'Test', 
